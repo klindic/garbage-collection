@@ -171,6 +171,17 @@ button { font: inherit; color: inherit; }
 .nrow .when2 { text-align: right; font-variant-numeric: tabular-nums; line-height: 1.2; }
 .nrow .when2 small { display: block; color: var(--muted); font-size: .8rem; }
 
+.sub { display: grid; gap: 12px; }
+.sub h3 { font-size: 1.05rem; font-weight: 800; font-stretch: 110%; }
+.sub p { margin: 0; color: var(--muted); font-size: .92rem; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; }
+.btn.primary:hover { color: var(--surface); filter: brightness(1.08); }
+.sub details { border-top: 1px solid var(--line); padding-top: 10px; font-size: .9rem; }
+.sub summary { cursor: pointer; font-weight: 700; }
+.sub details p { margin-top: 8px; }
+.sub details b { color: var(--fg); }
+.url { display: flex; gap: 8px; align-items: center; margin-top: 8px; min-width: 0; }
+.url code { flex: 1; min-width: 0; overflow-wrap: anywhere; font-size: .8rem; background: var(--sunk); border-radius: 8px; padding: 6px 8px; user-select: all; }
 footer { color: var(--muted); font-size: .85rem; display: grid; gap: 6px; max-width: 75ch; }
 footer a { color: var(--accent); }
 footer strong { color: var(--fg); }
@@ -210,6 +221,20 @@ footer strong { color: var(--fg); }
     <div class="side">
       <section class="panel detail" id="detail" aria-live="polite"></section>
       <section class="panel next" id="nextByType"></section>
+      <section class="panel sub" aria-labelledby="subTitle">
+        <h3 id="subTitle">Podsjetnik u kalendaru</h3>
+        <p>Pretplati se na kalendar odvoza. Svaki odvoz je događaj s obojenim kružićima kanti, a obavijest stiže večer prije u 20:00. Promjene rasporeda se same povuku.</p>
+        <a class="btn primary" id="subLink" href="webcal://klindic.github.io/garbage-collection/odvoz.ics">Dodaj u iPhone kalendar</a>
+        <details>
+          <summary>Ne stiže obavijest?</summary>
+          <p>iPhone za pretplaćene kalendare zna ukloniti obavijesti. Na ekranu pretplate, ili kasnije u Postavke &gt; Aplikacije &gt; Kalendar &gt; Računi kalendara &gt; Pretplaćeni kalendari &gt; Odvoz otpada, isključi <b>Ukloni upozorenja</b>.</p>
+        </details>
+        <details>
+          <summary>Google kalendar ili drugi uređaj</summary>
+          <p>Dodaj kalendar putem URL-a (u Google kalendaru: Ostali kalendari, Putem URL-a):</p>
+          <div class="url"><code id="icsUrl">https://klindic.github.io/garbage-collection/odvoz.ics</code><button class="btn" id="copyUrl" type="button">Kopiraj</button></div>
+        </details>
+      </section>
     </div>
   </div>
 
@@ -377,6 +402,13 @@ footer strong { color: var(--fg); }
   }
 
   function renderAll() { renderHeader(); renderHero(); renderCal(); renderDetail(); renderNext(); }
+
+  $('copyUrl').onclick = () => {
+    const btn = $('copyUrl'), text = $('icsUrl').textContent;
+    const done = () => { btn.textContent = 'Kopirano'; setTimeout(() => { btn.textContent = 'Kopiraj'; }, 2000); };
+    const selectText = () => { const r = document.createRange(); r.selectNodeContents($('icsUrl')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+    try { navigator.clipboard.writeText(text).then(done, selectText); } catch { selectText(); }
+  };
 
   document.addEventListener('click', ev => {
     const b = ev.target.closest('[data-k]');
