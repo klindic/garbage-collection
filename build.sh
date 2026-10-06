@@ -28,5 +28,5 @@ HTML
   echo '</html>'
 } > _site/index.html
 cp Raspored_odvoza_Zona5_2026.xlsx _site/
-python3 gen_ics.py _site/odvoz.ics
+python3 gen_ics.py _site
 echo "Built _site/index.html"

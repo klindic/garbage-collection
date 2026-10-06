@@ -177,6 +177,11 @@ button { font: inherit; color: inherit; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; }
 .btn.primary:hover { color: var(--surface); filter: brightness(1.08); }
 .btn.wide { color: var(--fg); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; margin-top: -4px; }
+.field { display: grid; gap: 6px; }
+.field label { font-weight: 700; font-size: .9rem; }
+.field select { font: inherit; color: var(--fg); background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; padding: 0 12px; min-height: 44px; width: 100%; }
+.sub .flag { margin-top: 0; }
+.sub .flag b { color: var(--fg); }
 .sub details { border-top: 1px solid var(--line); padding-top: 10px; font-size: .9rem; }
 .sub summary { cursor: pointer; font-weight: 700; }
 .sub details p { margin-top: 8px; }
@@ -224,23 +229,31 @@ footer strong { color: var(--fg); }
       <section class="panel next" id="nextByType"></section>
       <section class="panel sub" aria-labelledby="subTitle">
         <h3 id="subTitle">Podsjetnik u kalendaru</h3>
-        <p>Pretplati se na kalendar odvoza. Svaki odvoz je događaj s obojenim kružićima kanti, a na iPhoneu obavijest stiže dan prije u 18:00. Promjene rasporeda se same povuku.</p>
-        <a class="btn primary" id="subLink" href="webcal://klindic.github.io/garbage-collection/odvoz.ics">Dodaj u iPhone kalendar</a>
+        <p>Pretplati se na kalendar odvoza. Svaki odvoz je događaj s obojenim kružićima kanti, a promjene rasporeda se same povuku.</p>
+        <div class="field">
+          <label for="alarmSel">Kad želiš obavijest?</label>
+          <select id="alarmSel"></select>
+        </div>
+        <a class="btn primary" id="subLink" href="webcal://klindic.github.io/garbage-collection/odvoz-1800.ics">Dodaj u iPhone kalendar</a>
         <a class="btn wide" id="gcalLink" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fklindic.github.io%2Fgarbage-collection%2Fodvoz.ics" target="_blank" rel="noopener">Dodaj u Google kalendar (Android)</a>
+        <div class="flag warn">
+          <b>iPhone:</b> pri pretplati isključi <b>Ukloni upozorenja</b> (Remove Alerts). Ako ostane uključeno, iPhone izbaci ovu obavijest i stavi svoju zadanu (dan prije u 9:00).
+        </div>
         <details>
-          <summary>iPhone: ne stiže obavijest?</summary>
-          <p>iPhone za pretplaćene kalendare zna ukloniti obavijesti. Na ekranu pretplate, ili kasnije u Postavke &gt; Aplikacije &gt; Kalendar &gt; Računi kalendara &gt; Pretplaćeni kalendari &gt; Odvoz otpada, isključi <b>Ukloni upozorenja</b>.</p>
+          <summary>iPhone: već si pretplaćen ili želiš drugo vrijeme?</summary>
+          <p>Otvori bilo koji događaj odvoza u kalendaru i dodirni <b>Otkaži pretplatu na ovaj kalendar</b> (Unsubscribe from This Calendar). Zatim ovdje odaberi vrijeme i ponovno dodirni "Dodaj u iPhone kalendar", s isključenim Ukloni upozorenja.</p>
+          <p>Postojeću pretplatu možeš i popraviti: Postavke &gt; Aplikacije &gt; Kalendar &gt; Računi kalendara &gt; Pretplaćeni kalendari &gt; Odvoz otpada (Settings &gt; Apps &gt; Calendar &gt; Calendar Accounts &gt; Subscribed Calendars). Obavijesti se vrate kad iPhone sljedeći put osvježi kalendar.</p>
         </details>
         <details>
           <summary>Android: obavijesti i sinkronizacija</summary>
           <p>Gumb otvara Google kalendar i nudi dodavanje kalendara "Odvoz otpada" na tvoj Google račun. Ako se na mobitelu ne pojavi ponuda za dodavanje, otvori stranicu na računalu i klikni gumb tamo; kalendar se zatim sam prenese na mobitel.</p>
-          <p>Google kalendar ne preuzima obavijesti iz pretplaćenih kalendara. Postavi ih jednom na calendar.google.com: Postavke &gt; Odvoz otpada &gt; Obavijesti o cjelodnevnim događajima &gt; <b>1 dan prije u 18:00</b>.</p>
+          <p>Google kalendar ne preuzima obavijesti iz pretplaćenih kalendara, pa odabrano vrijeme postavi jednom ručno na calendar.google.com: Postavke &gt; Odvoz otpada &gt; Obavijesti o cjelodnevnim događajima &gt; <b id="gcalWhen">1 dan prije u 18:00</b>.</p>
           <p>Ako se događaji ne vide u aplikaciji, u postavkama aplikacije Google kalendar otvori Odvoz otpada i uključi <b>Sinkronizacija</b>. Google osvježava pretplaćene kalendare sporije od iPhonea, ponekad tek nakon dan-dva.</p>
         </details>
         <details>
           <summary>Outlook ili drugi kalendar</summary>
-          <p>Dodaj kalendar putem URL-a (pretplata na internetski kalendar):</p>
-          <div class="url"><code id="icsUrl">https://klindic.github.io/garbage-collection/odvoz.ics</code><button class="btn" id="copyUrl" type="button">Kopiraj</button></div>
+          <p>Dodaj kalendar putem URL-a (pretplata na internetski kalendar). Adresa prati odabrano vrijeme obavijesti:</p>
+          <div class="url"><code id="icsUrl">https://klindic.github.io/garbage-collection/odvoz-1800.ics</code><button class="btn" id="copyUrl" type="button">Kopiraj</button></div>
         </details>
       </section>
     </div>
@@ -410,6 +423,28 @@ footer strong { color: var(--fg); }
   }
 
   function renderAll() { renderHeader(); renderHero(); renderCal(); renderDetail(); renderNext(); }
+
+  const ALARMS = [
+    ...[16, 17, 18, 19, 20, 21, 22].map(h => ({ id: `${h}00`, label: `Dan prije u ${h}:00`, gcal: `1 dan prije u ${h}:00` })),
+    { id: 'jutro-0530', label: 'Isti dan u 05:30', gcal: 'na dan događaja u 05:30' },
+    { id: 'jutro-0600', label: 'Isti dan u 06:00', gcal: 'na dan događaja u 06:00' },
+    { id: 'bez', label: 'Bez obavijesti', gcal: 'po želji' },
+  ];
+  const FEED_BASE = 'klindic.github.io/garbage-collection/';
+  const alarmEl = $('alarmSel');
+  alarmEl.innerHTML = ALARMS.map(a => `<option value="${a.id}">${a.label}</option>`).join('');
+  function applyAlarm(id) {
+    const a = ALARMS.find(x => x.id === id) || ALARMS[2];
+    alarmEl.value = a.id;
+    const file = `odvoz-${a.id}.ics`;
+    $('subLink').href = `webcal://${FEED_BASE}${file}`;
+    $('icsUrl').textContent = `https://${FEED_BASE}${file}`;
+    $('gcalWhen').textContent = a.gcal;
+  }
+  let savedAlarm = null;
+  try { savedAlarm = localStorage.getItem('odvoz-alarm'); } catch {}
+  applyAlarm(savedAlarm || '1800');
+  alarmEl.onchange = () => { applyAlarm(alarmEl.value); try { localStorage.setItem('odvoz-alarm', alarmEl.value); } catch {} };
 
   $('copyUrl').onclick = () => {
     const btn = $('copyUrl'), text = $('icsUrl').textContent;

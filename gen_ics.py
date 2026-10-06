@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a subscribable iCalendar feed from the RAW schedule in odvoz-zona5.html."""
+"""Generate subscribable iCalendar feeds from the RAW schedule in odvoz-zona5.html."""
 import re
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -7,7 +7,15 @@ from pathlib import Path
 
 SITE_URL = "https://klindic.github.io/garbage-collection/"
 UID_DOMAIN = "odvoz-zona5.klindic.github.io"
-ALARM_BEFORE = "-PT6H"  # all-day events start at 00:00, so this fires at 18:00 the day before
+# One feed per alarm time, because a static host cannot personalise a single feed.
+# All-day events start at 00:00, so "-PT6H" fires at 18:00 the day before and "PT6H" at 06:00 the same day.
+FEEDS = {f"odvoz-{h}00.ics": (f"-PT{24 - h}H", "Sutra odvoz") for h in range(16, 23)}
+FEEDS.update({
+    "odvoz-jutro-0530.ics": ("PT5H30M", "Danas odvoz"),
+    "odvoz-jutro-0600.ics": ("PT6H", "Danas odvoz"),
+    "odvoz-bez.ics": (None, None),
+})
+DEFAULT_FEED = "odvoz-1800.ics"  # also published as odvoz.ics for existing subscribers
 
 TYPES = {
     "M": ("\u26ab", "Miješani", "Crna kanta: miješani komunalni otpad"),
@@ -44,7 +52,7 @@ def fold(line):
     return "\r\n ".join(out)
 
 
-def build(html):
+def build(html, trigger, alarm_prefix):
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lines = [
         "BEGIN:VCALENDAR",
@@ -78,17 +86,25 @@ def build(html):
             "DESCRIPTION:" + escape("\n".join(details)),
             "URL:" + SITE_URL,
             "TRANSP:TRANSPARENT",
-            "BEGIN:VALARM",
-            "ACTION:DISPLAY",
-            "DESCRIPTION:" + escape(f"Sutra odvoz: {summary}"),
-            f"TRIGGER:{ALARM_BEFORE}",
-            "END:VALARM",
-            "END:VEVENT",
         ]
+        if trigger:
+            lines += [
+                "BEGIN:VALARM",
+                "ACTION:DISPLAY",
+                "DESCRIPTION:" + escape(f"{alarm_prefix}: {summary}"),
+                f"TRIGGER:{trigger}",
+                "END:VALARM",
+            ]
+        lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
     return "\r\n".join(fold(line) for line in lines) + "\r\n"
 
 
 if __name__ == "__main__":
     src = Path(__file__).with_name("odvoz-zona5.html").read_text(encoding="utf-8")
-    Path(sys.argv[1]).write_bytes(build(src).encode("utf-8"))
+    out_dir = Path(sys.argv[1])
+    for name, (trigger, prefix) in FEEDS.items():
+        data = build(src, trigger, prefix).encode("utf-8")
+        (out_dir / name).write_bytes(data)
+        if name == DEFAULT_FEED:
+            (out_dir / "odvoz.ics").write_bytes(data)
