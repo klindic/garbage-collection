@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
 <style>
-/* Layout: "what goes out next" hero on top, 7-day strip, then month calendar beside the selected-day panel (stacks on phones). */
+/* Layout: "what goes out next" hero on top, then month calendar beside the selected-day panel (stacks on phones). */
 :root {
   --bg: #eef2ee;
   --surface: #ffffff;
@@ -58,7 +58,7 @@ button { font: inherit; color: inherit; }
   font-family: var(--f-display); font-size: .75rem; font-weight: 700; letter-spacing: .09em;
   text-transform: uppercase; color: var(--muted);
 }
-.num, .cell .n, .wday .d, .nrow .when2 { font-family: var(--f-display); font-variant-numeric: tabular-nums; }
+.num, .cell .n, .nrow .when2 { font-family: var(--f-display); font-variant-numeric: tabular-nums; }
 
 /* bins */
 .bin { display: inline-block; flex: none; }
@@ -102,26 +102,6 @@ button { font: inherit; color: inherit; }
 .hero-bin b { font-family: var(--f-display); font-stretch: 110%; font-size: 1rem; line-height: 1.15; }
 .hero-bin span { color: var(--muted); font-size: .82rem; line-height: 1.2; }
 .hero .note { color: var(--warn); font-weight: 700; font-size: .9rem; margin-top: 10px; }
-
-/* week strip */
-.week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
-@media (max-width: 640px) {
-  .week { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: minmax(84px, 1fr); overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
-}
-.wday {
-  border: 1px solid var(--line); background: transparent; border-radius: var(--r);
-  padding: 10px 8px 12px; display: grid; gap: 6px; justify-items: center; cursor: pointer; text-align: center;
-  min-height: 112px; align-content: start;
-}
-.wday:hover { border-color: var(--accent); }
-.wday.has { background: var(--surface); box-shadow: var(--shadow); border-color: transparent; }
-.wday.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
-.wday .lbl { font-family: var(--f-display); font-weight: 700; font-stretch: 105%; font-size: .9rem; }
-.wday .d { color: var(--muted); font-size: .8rem; }
-.wday .bins { display: flex; gap: 2px; min-height: 40px; align-items: end; }
-.wday .bins .bin { width: 30px; height: 36px; }
-.wday .none { color: var(--muted); font-size: .78rem; align-self: center; min-height: 40px; display: grid; place-items: center; }
-
 /* main grid */
 .main { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); align-items: start; }
 @media (min-width: 900px) { .main { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); } }
@@ -206,11 +186,6 @@ footer strong { color: var(--fg); }
   </header>
 
   <section class="hero" id="hero" aria-live="polite"></section>
-
-  <section aria-label="Sljedećih 7 dana">
-    <div class="eyebrow" style="margin-bottom:8px">Sljedećih 7 dana</div>
-    <div class="week" id="week"></div>
-  </section>
 
   <div class="main">
     <section class="panel" aria-label="Kalendar">
@@ -313,7 +288,7 @@ footer strong { color: var(--fg); }
   function select(d, { moveView = true } = {}) {
     sel = d;
     if (moveView && d.getFullYear() === YEAR) view = new Date(YEAR, d.getMonth(), 1);
-    renderWeek(); renderCal(); renderDetail();
+    renderCal(); renderDetail();
   }
 
   function renderHeader() {
@@ -344,19 +319,6 @@ footer strong { color: var(--fg); }
       <div class="hero-bins">${e.types.map(t => `<div class="hero-bin">${binSvg(t)}<b>${TYPES[t].bin}</b><span>${TYPES[t].name}</span></div>`).join('')}</div>`;
   }
 
-  function renderWeek() {
-    let html = '';
-    for (let i = 0; i < 7; i++) {
-      const d = addDays(T, i), e = SCHED[key(d)];
-      const lbl = i <= 2 ? cap(rel(i)) : cap(DAYS[d.getDay()]);
-      const names = e ? e.types.map(t => TYPES[t].bin).join(', ') : 'nema odvoza';
-      html += `<button class="wday ${e ? 'has' : ''} ${key(d) === key(sel) ? 'sel' : ''}" data-k="${key(d)}" aria-label="${lbl}, ${shortDate(d)}: ${names}">
-        <span class="lbl">${lbl}</span><span class="d num">${shortDate(d)}</span>
-        ${e ? `<span class="bins">${e.types.map(t => binSvg(t)).join('')}</span>` : '<span class="none">nema</span>'}
-      </button>`;
-    }
-    $('week').innerHTML = html;
-  }
 
   function renderCal() {
     const y = view.getFullYear(), m = view.getMonth();
@@ -409,7 +371,7 @@ footer strong { color: var(--fg); }
       '<span><i class="dot"></i>Pomaknuto zbog praznika</span>';
   }
 
-  function renderAll() { renderHeader(); renderHero(); renderWeek(); renderCal(); renderDetail(); renderNext(); }
+  function renderAll() { renderHeader(); renderHero(); renderCal(); renderDetail(); renderNext(); }
 
   document.addEventListener('click', ev => {
     const b = ev.target.closest('[data-k]');
