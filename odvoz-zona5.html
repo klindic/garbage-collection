@@ -1,0 +1,440 @@
+<title>Odvoz otpada Zona 5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: "what goes out next" hero on top, 7-day strip, then month calendar beside the selected-day panel (stacks on phones). */
+:root {
+  --bg: #eef2ee;
+  --surface: #ffffff;
+  --sunk: #e3e9e3;
+  --fg: #16201a;
+  --muted: #5a685e;
+  --line: #d3dcd4;
+  --accent: #1d6b3b;
+  --accent-soft: #d8eadc;
+  --warn: #c0392b;
+  --warn-soft: #fbe3df;
+  --t-mix: #24221f;
+  --t-bio: #7b4a2b;
+  --t-plast: #f3c517;
+  --t-paper: #2e62d9;
+  --bin-edge: rgba(0,0,0,.28);
+  --wheel: #141414;
+  --shadow: 0 1px 2px rgba(22,32,26,.06), 0 6px 20px rgba(22,32,26,.06);
+  --f-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --r: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1411; --surface: #171e19; --sunk: #1f2822; --fg: #e5ebe5; --muted: #93a297;
+    --line: #2a352d; --accent: #63c486; --accent-soft: #1d3326; --warn: #ff7a6b; --warn-soft: #3a1f1b;
+    --t-mix: #3b3936; --t-bio: #94603e; --t-plast: #f1c62a; --t-paper: #4b7ff0;
+    --bin-edge: rgba(255,255,255,.38); --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1411; --surface: #171e19; --sunk: #1f2822; --fg: #e5ebe5; --muted: #93a297;
+  --line: #2a352d; --accent: #63c486; --accent-soft: #1d3326; --warn: #ff7a6b; --warn-soft: #3a1f1b;
+  --t-mix: #3b3936; --t-bio: #94603e; --t-plast: #f1c62a; --t-paper: #4b7ff0;
+  --bin-edge: rgba(255,255,255,.38); --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--f-body); font-size: 1rem; line-height: 1.5;
+  padding-inline: 16px; padding-block: 20px 40px;
+}
+.wrap { max-width: 1080px; margin-inline: auto; display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); }
+.wrap > * { min-width: 0; }
+h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.eyebrow {
+  font-family: var(--f-display); font-size: .75rem; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--muted);
+}
+.num, .cell .n, .wday .d, .nrow .when2 { font-family: var(--f-display); font-variant-numeric: tabular-nums; }
+
+/* bins */
+.bin { display: inline-block; flex: none; }
+.bin .body, .bin .lid, .bin .handle { stroke: var(--bin-edge); stroke-width: 1.2; }
+.bin .shade { fill: rgba(0,0,0,.18); }
+.bin .wheel { fill: var(--wheel); stroke: var(--bin-edge); stroke-width: 1; }
+.bin .rib { stroke: rgba(0,0,0,.22); stroke-width: 1.4; }
+
+/* header */
+.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand h1 { font-size: 1.25rem; font-weight: 800; font-stretch: 112%; letter-spacing: -.01em; }
+.brand small { display: block; color: var(--muted); font-size: .85rem; }
+.today-tag { color: var(--muted); font-size: .9rem; }
+.today-tag strong { color: var(--fg); }
+
+/* hero */
+.hero {
+  background: var(--surface); border-radius: calc(var(--r) + 4px); box-shadow: var(--shadow);
+  padding: clamp(18px, 4vw, 32px);
+  display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 760px) { .hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: center; } }
+.hero .when {
+  font-size: clamp(2.6rem, 9vw, 4.6rem); font-weight: 800; font-stretch: 118%;
+  line-height: .95; letter-spacing: -.025em; margin-top: 6px;
+}
+.hero .date { font-size: 1.15rem; margin-top: 8px; }
+.hero .todo {
+  margin-top: 14px; display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-soft); color: var(--fg); border-radius: 999px; padding: 6px 14px 6px 10px;
+  font-weight: 700; font-size: .95rem;
+}
+.hero .todo::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+.hero .todo.urgent { background: var(--warn-soft); }
+.hero .todo.urgent::before { background: var(--warn); }
+.hero-bins { display: flex; flex-wrap: wrap; gap: 14px; justify-content: flex-start; }
+@media (min-width: 760px) { .hero-bins { justify-content: flex-end; } }
+.hero-bin { display: grid; justify-items: center; gap: 8px; text-align: center; width: 132px; }
+.hero-bin .bin { width: 92px; height: 110px; }
+.hero-bin b { font-family: var(--f-display); font-stretch: 110%; font-size: 1rem; line-height: 1.15; }
+.hero-bin span { color: var(--muted); font-size: .82rem; line-height: 1.2; }
+.hero .note { color: var(--warn); font-weight: 700; font-size: .9rem; margin-top: 10px; }
+
+/* week strip */
+.week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 640px) {
+  .week { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: minmax(84px, 1fr); overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+}
+.wday {
+  border: 1px solid var(--line); background: transparent; border-radius: var(--r);
+  padding: 10px 8px 12px; display: grid; gap: 6px; justify-items: center; cursor: pointer; text-align: center;
+  min-height: 112px; align-content: start;
+}
+.wday:hover { border-color: var(--accent); }
+.wday.has { background: var(--surface); box-shadow: var(--shadow); border-color: transparent; }
+.wday.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
+.wday .lbl { font-family: var(--f-display); font-weight: 700; font-stretch: 105%; font-size: .9rem; }
+.wday .d { color: var(--muted); font-size: .8rem; }
+.wday .bins { display: flex; gap: 2px; min-height: 40px; align-items: end; }
+.wday .bins .bin { width: 30px; height: 36px; }
+.wday .none { color: var(--muted); font-size: .78rem; align-self: center; min-height: 40px; display: grid; place-items: center; }
+
+/* main grid */
+.main { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 900px) { .main { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); } }
+.panel { background: var(--surface); border-radius: var(--r); box-shadow: var(--shadow); padding: clamp(14px, 3vw, 22px); min-width: 0; }
+
+/* calendar */
+.cal-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+.cal-head h2 { font-size: 1.6rem; font-weight: 800; font-stretch: 115%; letter-spacing: -.015em; }
+.cal-head h2 span { color: var(--muted); font-weight: 500; }
+.nav { display: flex; gap: 6px; }
+.btn {
+  border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 6px 12px; cursor: pointer;
+  font-weight: 700; font-size: .9rem; min-height: 36px;
+}
+.btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.btn:disabled { opacity: .35; cursor: default; }
+.btn.icon { width: 36px; padding: 0; font-size: 1.1rem; }
+.grid7 { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.dow { text-align: center; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding-bottom: 4px; }
+.dow.we { opacity: .7; }
+.cell {
+  border: 0; background: transparent; border-radius: 10px; min-height: 66px; padding: 6px 4px 6px;
+  display: grid; grid-template-rows: auto 1fr; justify-items: center; gap: 4px; cursor: pointer; position: relative;
+}
+@media (max-width: 520px) { .cell { min-height: 54px; padding: 4px 2px; } }
+.cell:hover { background: var(--sunk); }
+.cell .n { font-size: .95rem; font-variant-numeric: tabular-nums; line-height: 1; padding: 4px 0 0; width: 28px; height: 26px; display: grid; place-items: center; border-radius: 50%; }
+.cell .mini { display: flex; gap: 1px; align-items: end; }
+.cell .mini .bin { width: 15px; height: 18px; }
+@media (max-width: 520px) { .cell .mini .bin { width: 13px; height: 15px; } }
+.cell.has { background: var(--sunk); }
+.cell.past { opacity: .42; }
+.cell.today .n { background: var(--accent); color: var(--surface); font-weight: 700; padding: 0; }
+.cell.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
+.cell.moved .n { color: var(--warn); font-weight: 700; }
+.cell.moved.today .n { color: var(--surface); background: var(--warn); }
+.cell.moved::after { content: ""; position: absolute; top: 5px; right: 6px; width: 6px; height: 6px; border-radius: 50%; background: var(--warn); }
+.cell.blank { visibility: hidden; pointer-events: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .85rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend .bin { width: 16px; height: 19px; }
+.legend .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--warn); display: inline-block; }
+
+/* side */
+.side { display: grid; gap: 20px; min-width: 0; }
+.detail h3 { font-size: 1.5rem; font-weight: 800; font-stretch: 112%; letter-spacing: -.01em; }
+.detail .rel { color: var(--muted); margin-top: 2px; }
+.dlist { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 10px; }
+.dlist li { display: flex; align-items: center; gap: 12px; }
+.dlist .bin { width: 34px; height: 41px; }
+.dlist b { display: block; line-height: 1.2; }
+.dlist small { color: var(--muted); }
+.flag { margin-top: 14px; font-size: .88rem; border-radius: 10px; padding: 8px 12px; background: var(--sunk); }
+.flag.warn { background: var(--warn-soft); }
+.empty { margin-top: 14px; color: var(--muted); }
+.link { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 700; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.next h3 { font-size: 1.05rem; font-weight: 800; font-stretch: 110%; margin-bottom: 10px; }
+.nrow { display: grid; grid-template-columns: auto minmax(0,1fr) auto; gap: 12px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); }
+.nrow:first-of-type { border-top: 0; }
+.nrow .bin { width: 26px; height: 31px; }
+.nrow .nm { font-weight: 700; line-height: 1.2; }
+.nrow .when2 { text-align: right; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.nrow .when2 small { display: block; color: var(--muted); font-size: .8rem; }
+
+footer { color: var(--muted); font-size: .85rem; display: grid; gap: 6px; max-width: 75ch; }
+footer a { color: var(--accent); }
+footer strong { color: var(--fg); }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-bin .bin { animation: drop .5s cubic-bezier(.2,.9,.3,1.2) both; }
+  .hero-bin:nth-child(2) .bin { animation-delay: .08s; }
+  @keyframes drop { from { transform: translateY(-8px); } to { transform: none; } }
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg class="bin" width="34" height="40" viewBox="0 0 40 48" aria-hidden="true" id="brandBin"></svg>
+      <div><h1>Odvoz otpada</h1><small>Zona 5, Sisak (centar, Vrbina, Tomčev put)</small></div>
+    </div>
+    <div class="today-tag" id="todayTag"></div>
+  </header>
+
+  <section class="hero" id="hero" aria-live="polite"></section>
+
+  <section aria-label="Sljedećih 7 dana">
+    <div class="eyebrow" style="margin-bottom:8px">Sljedećih 7 dana</div>
+    <div class="week" id="week"></div>
+  </section>
+
+  <div class="main">
+    <section class="panel" aria-label="Kalendar">
+      <div class="cal-head">
+        <h2 id="calTitle"></h2>
+        <div class="nav">
+          <button class="btn icon" id="prev" aria-label="Prethodni mjesec">&#8249;</button>
+          <button class="btn" id="goToday">Danas</button>
+          <button class="btn icon" id="next" aria-label="Sljedeći mjesec">&#8250;</button>
+        </div>
+      </div>
+      <div class="grid7" id="dows"></div>
+      <div class="grid7" id="cal" role="grid"></div>
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <div class="side">
+      <section class="panel detail" id="detail" aria-live="polite"></section>
+      <section class="panel next" id="nextByType"></section>
+    </div>
+  </div>
+
+  <footer>
+    <div><strong>Spremnike iznesi na javnu površinu najkasnije do 07:00</strong> na dan odvoza i ostavi ih vani dok ih ne isprazne. Svaku vrstu otpada odvozi posebno vozilo.</div>
+    <div>Biootpad samo za korisnike koji su odabrali predaju biootpada u spremnicima. Od listopada traje testni projekt: plastika, staklo i metal odvoze se 2x mjesečno.</div>
+    <div>Reciklažna dvorišta "Sisak Stari" (Kralja Zvonimira 7B) i "Novi Sisak" (Capraška 4): pon-pet 08-20, sub 08-13.</div>
+    <div>GOS d.o.o.: <span class="num">0800 200 214</span>, info@gos.hr, <a href="https://gos.hr" target="_blank" rel="noopener">gos.hr</a>. Izvor: službeni raspored za Zonu 5, 2026.</div>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const TYPES = {
+    M: { name: 'Miješani komunalni otpad', bin: 'Crna kanta', color: 'var(--t-mix)' },
+    B: { name: 'Biootpad', bin: 'Smeđa kanta', color: 'var(--t-bio)' },
+    P: { name: 'Plastika, staklo i metal', bin: 'Žuta kanta', color: 'var(--t-plast)' },
+    K: { name: 'Papir i karton', bin: 'Plava kanta', color: 'var(--t-paper)' },
+  };
+  const ORDER = ['M', 'B', 'P', 'K'];
+  const YEAR = 2026;
+  // "!" = pomaknuto zbog neradnog dana u tom tjednu
+  const RAW = `01-08 MP! 01-14 BK 01-21 M 01-28 B
+    02-04 MP 02-11 BK 02-18 M 02-25 B
+    03-04 MP 03-11 BK 03-18 M 03-25 B
+    04-01 MP 04-09 BK! 04-15 M 04-22 B 04-29 M
+    05-06 BP 05-13 MK 05-20 B 05-27 M
+    06-03 BP 06-10 MK 06-17 B 06-25 M!
+    07-01 BP 07-08 MK 07-15 B 07-22 M 07-29 B
+    08-06 MP! 08-12 BK 08-19 M 08-26 B
+    09-02 MP 09-09 BK 09-16 M 09-23 B 09-30 M
+    10-07 BP 10-14 MK 10-21 BP 10-28 M
+    11-04 BP 11-11 MK 11-19 BP! 11-25 M
+    12-02 BP 12-09 MK 12-16 BP 12-23 M 12-30 B`;
+  const SCHED = {};
+  const toks = RAW.trim().split(/\s+/);
+  for (let i = 0; i < toks.length; i += 2) {
+    SCHED[`${YEAR}-${toks[i]}`] = { types: ORDER.filter(t => toks[i + 1].includes(t)), moved: toks[i + 1].includes('!') };
+  }
+  const KEYS = Object.keys(SCHED).sort();
+
+  const DAYS = ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'];
+  const MONTHS = ['Siječanj', 'Veljača', 'Ožujak', 'Travanj', 'Svibanj', 'Lipanj', 'Srpanj', 'Kolovoz', 'Rujan', 'Listopad', 'Studeni', 'Prosinac'];
+  const MONTHS_GEN = ['siječnja', 'veljače', 'ožujka', 'travnja', 'svibnja', 'lipnja', 'srpnja', 'kolovoza', 'rujna', 'listopada', 'studenoga', 'prosinca'];
+  const DOW = ['Pon', 'Uto', 'Sri', 'Čet', 'Pet', 'Sub', 'Ned'];
+
+  const pad = n => String(n).padStart(2, '0');
+  const key = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const fromKey = k => { const [y, m, d] = k.split('-').map(Number); return new Date(y, m - 1, d); };
+  const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+  const diff = (a, b) => Math.round((b - a) / 864e5);
+  const today = () => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); };
+  const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+  const danWord = n => (n % 10 === 1 && n % 100 !== 11) ? 'dan' : 'dana';
+  const rel = n => n === 0 ? 'danas' : n === 1 ? 'sutra' : n === 2 ? 'prekosutra' : n === -1 ? 'jučer' : n === -2 ? 'prekjučer'
+    : n > 0 ? `za ${n} ${danWord(n)}` : `prije ${-n} ${danWord(-n)}`;
+  const longDate = d => `${DAYS[d.getDay()]}, ${d.getDate()}. ${MONTHS_GEN[d.getMonth()]}`;
+  const shortDate = d => `${d.getDate()}.${d.getMonth() + 1}.`;
+  const testProject = (d, e) => e && e.types.includes('P') && d.getMonth() >= 9;
+
+  const binSvg = (t, cls = '') => `<svg class="bin ${cls}" viewBox="0 0 40 48" aria-hidden="true" style="color:${TYPES[t].color}">
+      <rect class="handle" x="14" y="1.5" width="12" height="5" rx="1.5" fill="currentColor"/>
+      <rect class="lid" x="3" y="6" width="34" height="6" rx="2" fill="currentColor"/>
+      <rect class="shade" x="3" y="6" width="34" height="6" rx="2"/>
+      <path class="body" d="M6 12 H34 L31.5 42 H8.5 Z" fill="currentColor"/>
+      <path class="rib" d="M14 17 L14.6 37 M20 17 V37 M26 17 L25.4 37"/>
+      <circle class="wheel" cx="11.5" cy="43.5" r="3.6"/><circle class="wheel" cx="28.5" cy="43.5" r="3.6"/>
+    </svg>`;
+
+  const nextFrom = (from, type) => {
+    const fk = key(from);
+    const k = KEYS.find(k => k >= fk && (!type || SCHED[k].types.includes(type)));
+    return k ? fromKey(k) : null;
+  };
+
+  const $ = id => document.getElementById(id);
+  let T = today();
+  let sel = T;
+  let view = new Date(YEAR, T.getFullYear() === YEAR ? T.getMonth() : (T.getFullYear() > YEAR ? 11 : 0), 1);
+
+  function select(d, { moveView = true } = {}) {
+    sel = d;
+    if (moveView && d.getFullYear() === YEAR) view = new Date(YEAR, d.getMonth(), 1);
+    renderWeek(); renderCal(); renderDetail();
+  }
+
+  function renderHeader() {
+    $('todayTag').innerHTML = `Danas je <strong>${longDate(T)} ${T.getFullYear()}.</strong>`;
+  }
+
+  function renderHero() {
+    const nd = nextFrom(T);
+    const h = $('hero');
+    if (!nd) {
+      h.innerHTML = `<div><div class="eyebrow">Sljedeći odvoz</div><div class="when">Nema podataka</div>
+        <div class="date">Raspored za ${YEAR}. je završio. Kad GOS objavi raspored za sljedeću godinu, treba ga dodati.</div></div>`;
+      return;
+    }
+    const n = diff(T, nd), e = SCHED[key(nd)];
+    const big = n <= 2 ? cap(rel(n)) : cap(DAYS[nd.getDay()]);
+    const sub = n <= 2 ? `${longDate(nd)}` : `${nd.getDate()}. ${MONTHS_GEN[nd.getMonth()]}, ${rel(n)}`;
+    const todo = n === 0 ? ['Kante moraju biti vani do 07:00', true]
+      : n === 1 ? ['Izvadi kante večeras (najkasnije sutra do 07:00)', true]
+      : [`Kante iznesi ${n === 2 ? 'sutra navečer' : `u ${['nedjelju','ponedjeljak','utorak','srijedu','četvrtak','petak','subotu'][addDays(nd, -1).getDay()]} navečer`} ili do 07:00 na dan odvoza`, false];
+    h.innerHTML = `<div>
+        <div class="eyebrow">Sljedeći odvoz</div>
+        <div class="when">${big}</div>
+        <div class="date">${sub}</div>
+        <div class="todo ${todo[1] ? 'urgent' : ''}">${todo[0]}</div>
+        ${e.moved ? `<div class="note">Pomaknuto zbog neradnog dana u tom tjednu (inače srijeda).</div>` : ''}
+      </div>
+      <div class="hero-bins">${e.types.map(t => `<div class="hero-bin">${binSvg(t)}<b>${TYPES[t].bin}</b><span>${TYPES[t].name}</span></div>`).join('')}</div>`;
+  }
+
+  function renderWeek() {
+    let html = '';
+    for (let i = 0; i < 7; i++) {
+      const d = addDays(T, i), e = SCHED[key(d)];
+      const lbl = i <= 2 ? cap(rel(i)) : cap(DAYS[d.getDay()]);
+      const names = e ? e.types.map(t => TYPES[t].bin).join(', ') : 'nema odvoza';
+      html += `<button class="wday ${e ? 'has' : ''} ${key(d) === key(sel) ? 'sel' : ''}" data-k="${key(d)}" aria-label="${lbl}, ${shortDate(d)}: ${names}">
+        <span class="lbl">${lbl}</span><span class="d num">${shortDate(d)}</span>
+        ${e ? `<span class="bins">${e.types.map(t => binSvg(t)).join('')}</span>` : '<span class="none">nema</span>'}
+      </button>`;
+    }
+    $('week').innerHTML = html;
+  }
+
+  function renderCal() {
+    const y = view.getFullYear(), m = view.getMonth();
+    $('calTitle').innerHTML = `${MONTHS[m]} <span class="num">${y}.</span>`;
+    $('prev').disabled = m === 0;
+    $('next').disabled = m === 11;
+    const first = new Date(y, m, 1), lead = (first.getDay() + 6) % 7, dim = new Date(y, m + 1, 0).getDate();
+    let html = '';
+    for (let i = 0; i < lead; i++) html += '<div class="cell blank"></div>';
+    for (let d = 1; d <= dim; d++) {
+      const dt = new Date(y, m, d), k = key(dt), e = SCHED[k];
+      const cls = ['cell', e && 'has', e && e.moved && 'moved', dt < T && 'past', k === key(T) && 'today', k === key(sel) && 'sel'].filter(Boolean).join(' ');
+      const label = `${longDate(dt)}: ${e ? e.types.map(t => TYPES[t].bin).join(', ') : 'nema odvoza'}`;
+      html += `<button class="${cls}" data-k="${k}" role="gridcell" aria-label="${label}" aria-selected="${k === key(sel)}" tabindex="${k === key(sel) ? 0 : -1}">
+        <span class="n">${d}</span><span class="mini">${e ? e.types.map(t => binSvg(t)).join('') : ''}</span></button>`;
+    }
+    $('cal').innerHTML = html;
+  }
+
+  function renderDetail() {
+    const k = key(sel), e = SCHED[k], n = diff(T, sel);
+    let html = `<div class="eyebrow">Odabrani dan</div><h3>${cap(longDate(sel))} ${sel.getFullYear()}.</h3><div class="rel">${cap(rel(n))}</div>`;
+    if (e) {
+      html += `<ul class="dlist">${e.types.map(t => `<li>${binSvg(t)}<div><b>${TYPES[t].bin}</b><small>${TYPES[t].name}</small></div></li>`).join('')}</ul>`;
+      if (e.moved) html += `<div class="flag warn">Odvoz je pomaknut na ${DAYS[sel.getDay()]} zbog neradnog dana u tom tjednu.</div>`;
+      if (testProject(sel, e)) html += `<div class="flag">Testni projekt: plastika, staklo i metal se od listopada odvoze 2x mjesečno.</div>`;
+      if (n >= 0) html += `<div class="flag">Iznesi kante do 07:00${n >= 1 ? `, ili večer prije (${DAYS[addDays(sel, -1).getDay()]})` : ''}.</div>`;
+    } else {
+      const nx = nextFrom(addDays(sel, 1));
+      html += `<p class="empty">Nema odvoza ovaj dan.</p>`;
+      if (nx) html += `<p>Sljedeći odvoz: <button class="link" data-k="${key(nx)}">${longDate(nx)}</button> <span style="color:var(--muted)">(${SCHED[key(nx)].moved ? 'pomaknuto, ' : ''}${rel(diff(T, nx))})</span></p>`;
+    }
+    $('detail').innerHTML = html;
+  }
+
+  function renderNext() {
+    let html = '<h3>Sljedeći odvoz po vrsti</h3>';
+    for (const t of ORDER) {
+      const d = nextFrom(T, t);
+      html += `<div class="nrow">${binSvg(t)}<div><div class="nm">${TYPES[t].bin}</div><small style="color:var(--muted)">${TYPES[t].name}</small></div>
+        <div class="when2">${d ? `<button class="link" style="text-decoration:none;color:var(--fg)" data-k="${key(d)}">${DAYS[d.getDay()].slice(0, 3)} ${shortDate(d)}</button><small>${rel(diff(T, d))}</small>` : '<small>nema više</small>'}</div></div>`;
+    }
+    $('nextByType').innerHTML = html;
+  }
+
+  function renderStatic() {
+    $('brandBin').outerHTML = binSvg('B').replace('class="bin "', 'class="bin" width="30" height="36"');
+    $('dows').innerHTML = DOW.map((d, i) => `<div class="dow ${i > 4 ? 'we' : ''}">${d}</div>`).join('');
+    $('legend').innerHTML = ORDER.map(t => `<span>${binSvg(t)}${TYPES[t].name}</span>`).join('') +
+      '<span><i class="dot"></i>Pomaknuto zbog praznika</span>';
+  }
+
+  function renderAll() { renderHeader(); renderHero(); renderWeek(); renderCal(); renderDetail(); renderNext(); }
+
+  document.addEventListener('click', ev => {
+    const b = ev.target.closest('[data-k]');
+    if (b) { select(fromKey(b.dataset.k)); if (b.classList.contains('cell')) b.focus(); }
+  });
+  $('prev').onclick = () => { view = new Date(YEAR, Math.max(0, view.getMonth() - 1), 1); renderCal(); };
+  $('next').onclick = () => { view = new Date(YEAR, Math.min(11, view.getMonth() + 1), 1); renderCal(); };
+  $('goToday').onclick = () => select(T);
+  $('cal').addEventListener('keydown', ev => {
+    const step = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -7, ArrowDown: 7 }[ev.key];
+    if (!step) return;
+    ev.preventDefault();
+    const d = addDays(sel, step);
+    if (d.getFullYear() !== YEAR) return;
+    select(d);
+    document.querySelector(`#cal [data-k="${key(d)}"]`)?.focus();
+  });
+
+  // Roll over at midnight if the tab stays open.
+  setInterval(() => {
+    const t = today();
+    if (key(t) !== key(T)) { const followToday = key(sel) === key(T); T = t; if (followToday) sel = t; renderAll(); }
+  }, 60000);
+
+  renderStatic();
+  renderAll();
+})();
+</script>
