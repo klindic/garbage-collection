@@ -176,6 +176,7 @@ button { font: inherit; color: inherit; }
 .sub p { margin: 0; color: var(--muted); font-size: .92rem; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; }
 .btn.primary:hover { color: var(--surface); filter: brightness(1.08); }
+.btn.wide { color: var(--fg); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; margin-top: -4px; }
 .sub details { border-top: 1px solid var(--line); padding-top: 10px; font-size: .9rem; }
 .sub summary { cursor: pointer; font-weight: 700; }
 .sub details p { margin-top: 8px; }
@@ -223,15 +224,22 @@ footer strong { color: var(--fg); }
       <section class="panel next" id="nextByType"></section>
       <section class="panel sub" aria-labelledby="subTitle">
         <h3 id="subTitle">Podsjetnik u kalendaru</h3>
-        <p>Pretplati se na kalendar odvoza. Svaki odvoz je događaj s obojenim kružićima kanti, a obavijest stiže večer prije u 20:00. Promjene rasporeda se same povuku.</p>
+        <p>Pretplati se na kalendar odvoza. Svaki odvoz je događaj s obojenim kružićima kanti, a na iPhoneu obavijest stiže večer prije u 20:00. Promjene rasporeda se same povuku.</p>
         <a class="btn primary" id="subLink" href="webcal://klindic.github.io/garbage-collection/odvoz.ics">Dodaj u iPhone kalendar</a>
+        <a class="btn wide" id="gcalLink" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fklindic.github.io%2Fgarbage-collection%2Fodvoz.ics" target="_blank" rel="noopener">Dodaj u Google kalendar (Android)</a>
         <details>
-          <summary>Ne stiže obavijest?</summary>
+          <summary>iPhone: ne stiže obavijest?</summary>
           <p>iPhone za pretplaćene kalendare zna ukloniti obavijesti. Na ekranu pretplate, ili kasnije u Postavke &gt; Aplikacije &gt; Kalendar &gt; Računi kalendara &gt; Pretplaćeni kalendari &gt; Odvoz otpada, isključi <b>Ukloni upozorenja</b>.</p>
         </details>
         <details>
-          <summary>Google kalendar ili drugi uređaj</summary>
-          <p>Dodaj kalendar putem URL-a (u Google kalendaru: Ostali kalendari, Putem URL-a):</p>
+          <summary>Android: obavijesti i sinkronizacija</summary>
+          <p>Gumb otvara Google kalendar i nudi dodavanje kalendara "Odvoz otpada" na tvoj Google račun. Ako se na mobitelu ne pojavi ponuda za dodavanje, otvori stranicu na računalu i klikni gumb tamo; kalendar se zatim sam prenese na mobitel.</p>
+          <p>Google kalendar ne preuzima obavijesti iz pretplaćenih kalendara. Postavi ih jednom na calendar.google.com: Postavke &gt; Odvoz otpada &gt; Obavijesti o cjelodnevnim događajima &gt; <b>1 dan prije u 20:00</b>.</p>
+          <p>Ako se događaji ne vide u aplikaciji, u postavkama aplikacije Google kalendar otvori Odvoz otpada i uključi <b>Sinkronizacija</b>. Google osvježava pretplaćene kalendare sporije od iPhonea, ponekad tek nakon dan-dva.</p>
+        </details>
+        <details>
+          <summary>Outlook ili drugi kalendar</summary>
+          <p>Dodaj kalendar putem URL-a (pretplata na internetski kalendar):</p>
           <div class="url"><code id="icsUrl">https://klindic.github.io/garbage-collection/odvoz.ics</code><button class="btn" id="copyUrl" type="button">Kopiraj</button></div>
         </details>
       </section>
