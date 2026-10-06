@@ -4,7 +4,7 @@ Mala web aplikacija koja pokazuje koje kante treba iznijeti danas, sutra i bilo 
 
 - `odvoz-zona5.html`: aplikacija (izvor; raspored je upisan u `RAW` u skripti).
 - `Raspored_odvoza_Zona5_2026.xlsx`: raspored po datumima i vrstama otpada.
-- `gen_ics.py`: iz istih podataka generira `odvoz.ics` (pretplata na kalendar, obavijest u 20:00 večer prije).
+- `gen_ics.py`: iz istih podataka generira `odvoz.ics` (pretplata na kalendar, obavijest u 18:00 dan prije).
 - `build.sh`: složi samostalnu stranicu i `odvoz.ics` u `_site/`.
 - `.github/workflows/pages.yml`: svaki push na `main` deploya na GitHub Pages.
 

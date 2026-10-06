@@ -7,7 +7,7 @@ from pathlib import Path
 
 SITE_URL = "https://klindic.github.io/garbage-collection/"
 UID_DOMAIN = "odvoz-zona5.klindic.github.io"
-ALARM_BEFORE = "-PT4H"  # all-day events start at 00:00, so this fires at 20:00 the evening before
+ALARM_BEFORE = "-PT6H"  # all-day events start at 00:00, so this fires at 18:00 the day before
 
 TYPES = {
     "M": ("\u26ab", "Miješani", "Crna kanta: miješani komunalni otpad"),
