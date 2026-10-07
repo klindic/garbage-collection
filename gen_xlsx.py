@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write one Excel workbook per zone (excel/Raspored_odvoza_ZonaN_<year>.xlsx) from the schedule data in odvoz.html.
+"""Write one Excel workbook per zone and year (excel/Raspored_odvoza_ZonaN_<year>.xlsx) from the schedule data in odvoz.html.
 
 Needs openpyxl. Run it after changing the schedule; build.sh only copies the committed files.
 """
@@ -53,9 +53,9 @@ def head(ws, ref, value, fill=HEAD_FILL, color="FFFFFF"):
     put(ws, ref, value, bold=True, color=color, fill=fill, center=True)
 
 
-def notes(data, zone, kinds):
+def notes(data, zone, rows, kinds):
     z = data["zones"][zone]
-    regular = DAYS_INS[DAYS.index(regular_day(data, zone))]
+    regular = DAYS_INS[DAYS.index(regular_day(rows))]
     out = [f'Crveno označeni datumi u listu "Raspored" su pomaknuti zbog neradnog dana u tom tjednu (inače je odvoz {regular}).']
     if z.get("note"):
         out.append(z["note"])
@@ -69,16 +69,16 @@ def notes(data, zone, kinds):
     return out
 
 
-def regular_day(data, zone):
-    days = [DAYS[d.weekday()] for d, _, moved in parse_schedule(data, zone) if not moved]
+def regular_day(rows):
+    days = [DAYS[d.weekday()] for d, _, moved in rows if not moved]
     return max(DAYS, key=days.count)
 
 
-def workbook(data, zone):
-    year, z = data["year"], data["zones"][zone]
-    rows = list(parse_schedule(data, zone))
+def workbook(data, zone, year):
+    z = data["zones"][zone]
+    rows = [r for r in parse_schedule(data, zone) if r[0].year == year]
     kinds = [t for t in ORDER if any(t in types for _, types, _ in rows)]
-    pilot_from = f"{year}-{z['pilotFrom']}" if z.get("pilotFrom") else None
+    pilot_from = z.get("pilotFrom")
     last = 4 + len(rows)
     tcol = {t: get_column_letter(4 + i) for i, t in enumerate(kinds)}  # type columns in "Raspored"
     note_col = get_column_letter(4 + len(kinds))
@@ -174,7 +174,7 @@ def workbook(data, zone):
         col = get_column_letter(2 + i)
         put(ov, f"{col}{total}", f"=SUM({col}{top + 2}:{col}{total - 1})", bold=True, center=True)
     put(ov, f"A{total + 2}", "Napomene:", bold=True, size=10, border=False)
-    for i, text in enumerate(notes(data, zone, kinds)):
+    for i, text in enumerate(notes(data, zone, rows, kinds)):
         put(ov, f"A{total + 3 + i}", f"• {text}", size=10, border=False)
     for col, width in zip("ABCDE", (26, 24, 24, 24, 20)):
         ov.column_dimensions[col].width = width
@@ -186,5 +186,6 @@ if __name__ == "__main__":
     data = load_data((here / "odvoz.html").read_text(encoding="utf-8"))
     out_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else here / "excel"
     out_dir.mkdir(exist_ok=True)
-    for zone in data["zones"]:
-        workbook(data, zone).save(out_dir / f"Raspored_odvoza_Zona{zone}_{data['year']}.xlsx")
+    for zone, z in data["zones"].items():
+        for year in z["raw"]:
+            workbook(data, zone, int(year)).save(out_dir / f"Raspored_odvoza_Zona{zone}_{year}.xlsx")

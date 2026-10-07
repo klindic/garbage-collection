@@ -286,201 +286,221 @@ footer strong { color: var(--fg); }
     <div><strong>Spremnike iznesi na javnu površinu najkasnije do 07:00</strong> na dan odvoza i ostavi ih vani dok ih ne isprazne. Svaku vrstu otpada odvozi posebno vozilo.</div>
     <div id="zoneNotes"></div>
     <div>Reciklažna dvorišta "Sisak Stari" (Kralja Zvonimira 7B) i "Novi Sisak" (Capraška 4): pon-pet 08-20, sub 08-13.</div>
-    <div><a id="xlsxLink" href="Raspored_odvoza_Zona1_2026.xlsx">Cijeli raspored u Excelu</a></div>
+    <div><a id="xlsxLink" href="Raspored_odvoza_Zona1_2026.xlsx">Cijeli raspored za 2026. u Excelu</a></div>
   </footer>
 </div>
 
-<!-- Raspored po zonama. "raw": MM-DD i vrste (M miješani, B bio, P plastika, K papir); "!" = pomaknuto zbog neradnog dana u tom tjednu. -->
+<!-- Raspored po zonama i godinama. "raw": {"GGGG": ["MM-DD vrste ...", ...]}, vrste M miješani, B bio, P plastika, K papir;
+     "!" = pomaknuto zbog neradnog dana u tom tjednu. Nova godina se dodaje s extract_pdf.py. -->
 <script type="application/json" id="zones">
 {
-  "year": 2026,
   "zones": {
     "1": {
       "place": "Sisak",
       "area": "Zeleni Brijeg, Segestica, Herbos",
-      "raw": [
-        "01-05 MP 01-12 BK 01-19 M 01-26 B",
-        "02-02 MP 02-09 BK 02-16 M 02-23 B",
-        "03-02 MP 03-09 BK 03-16 M 03-23 B 03-30 M",
-        "04-07 BP! 04-13 MK 04-20 B 04-27 M",
-        "05-04 BP 05-11 MK 05-18 B 05-25 M",
-        "06-01 BP 06-08 MK 06-15 B 06-23 M! 06-29 B",
-        "07-06 MP 07-13 BK 07-20 M 07-27 B",
-        "08-03 MP 08-10 BK 08-17 M 08-24 B 08-31 M",
-        "09-07 BP 09-14 MK 09-21 B 09-28 M",
-        "10-05 BP 10-12 MK 10-19 B 10-26 M",
-        "11-02 BP 11-09 MK 11-16 B 11-23 M 11-30 B",
-        "12-07 MP 12-14 BK 12-21 M 12-28 B"
-      ]
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 BK 01-19 M 01-26 B",
+          "02-02 MP 02-09 BK 02-16 M 02-23 B",
+          "03-02 MP 03-09 BK 03-16 M 03-23 B 03-30 M",
+          "04-07 BP! 04-13 MK 04-20 B 04-27 M",
+          "05-04 BP 05-11 MK 05-18 B 05-25 M",
+          "06-01 BP 06-08 MK 06-15 B 06-23 M! 06-29 B",
+          "07-06 MP 07-13 BK 07-20 M 07-27 B",
+          "08-03 MP 08-10 BK 08-17 M 08-24 B 08-31 M",
+          "09-07 BP 09-14 MK 09-21 B 09-28 M",
+          "10-05 BP 10-12 MK 10-19 B 10-26 M",
+          "11-02 BP 11-09 MK 11-16 B 11-23 M 11-30 B",
+          "12-07 MP 12-14 BK 12-21 M 12-28 B"
+        ]
+      }
     },
     "2": {
       "place": "Martinska Ves",
       "area": "Općina Martinska Ves",
-      "raw": [
-        "01-12 M 01-19 P 01-26 MK",
-        "02-09 M 02-16 P 02-23 MK",
-        "03-09 M 03-16 P 03-23 MK",
-        "04-07 M! 04-20 MP 04-27 K",
-        "05-04 M 05-18 MP 05-25 K",
-        "06-01 M 06-15 MP 06-23 K! 06-29 M",
-        "07-13 M 07-20 P 07-27 MK",
-        "08-10 M 08-17 P 08-24 MK",
-        "09-07 M 09-21 MP 09-28 K",
-        "10-05 M 10-19 MP 10-26 K",
-        "11-02 M 11-16 MP 11-23 K 11-30 M",
-        "12-14 M 12-21 P 12-28 MK"
-      ]
+      "raw": {
+        "2026": [
+          "01-12 M 01-19 P 01-26 MK",
+          "02-09 M 02-16 P 02-23 MK",
+          "03-09 M 03-16 P 03-23 MK",
+          "04-07 M! 04-20 MP 04-27 K",
+          "05-04 M 05-18 MP 05-25 K",
+          "06-01 M 06-15 MP 06-23 K! 06-29 M",
+          "07-13 M 07-20 P 07-27 MK",
+          "08-10 M 08-17 P 08-24 MK",
+          "09-07 M 09-21 MP 09-28 K",
+          "10-05 M 10-19 MP 10-26 K",
+          "11-02 M 11-16 MP 11-23 K 11-30 M",
+          "12-14 M 12-21 P 12-28 MK"
+        ]
+      }
     },
     "3": {
       "place": "Sisak",
       "area": "Naselja prema Zagrebu (Odra, Stupno, Žabno, Greda…)",
       "noBioIn": "naseljima Stara Drenčina, Vurot i Jazvenik",
-      "raw": [
-        "01-07 MP! 01-13 BK 01-20 M 01-27 B",
-        "02-03 MP 02-10 BK 02-17 M 02-24 B",
-        "03-03 MP 03-10 BK 03-17 M 03-24 B 03-31 M",
-        "04-08 BP! 04-14 MK 04-21 B 04-28 M",
-        "05-05 BP 05-12 MK 05-19 B 05-26 M",
-        "06-02 BP 06-09 MK 06-16 B 06-24 M! 06-30 B",
-        "07-07 MP 07-14 BK 07-21 M 07-28 B",
-        "08-04 MP 08-11 BK 08-18 M 08-25 B",
-        "09-01 MP 09-08 BK 09-15 M 09-22 B 09-29 M",
-        "10-06 BP 10-13 MK 10-20 B 10-27 M",
-        "11-03 BP 11-10 MK 11-17 B 11-24 M",
-        "12-01 BP 12-08 MK 12-15 B 12-22 M 12-29 B"
-      ]
+      "raw": {
+        "2026": [
+          "01-07 MP! 01-13 BK 01-20 M 01-27 B",
+          "02-03 MP 02-10 BK 02-17 M 02-24 B",
+          "03-03 MP 03-10 BK 03-17 M 03-24 B 03-31 M",
+          "04-08 BP! 04-14 MK 04-21 B 04-28 M",
+          "05-05 BP 05-12 MK 05-19 B 05-26 M",
+          "06-02 BP 06-09 MK 06-16 B 06-24 M! 06-30 B",
+          "07-07 MP 07-14 BK 07-21 M 07-28 B",
+          "08-04 MP 08-11 BK 08-18 M 08-25 B",
+          "09-01 MP 09-08 BK 09-15 M 09-22 B 09-29 M",
+          "10-06 BP 10-13 MK 10-20 B 10-27 M",
+          "11-03 BP 11-10 MK 11-17 B 11-24 M",
+          "12-01 BP 12-08 MK 12-15 B 12-22 M 12-29 B"
+        ]
+      }
     },
     "4": {
       "place": "Lekenik",
       "area": "Općina Lekenik",
-      "raw": [
-        "01-13 M 01-20 P 01-27 MK",
-        "02-10 M 02-17 P 02-24 MK",
-        "03-10 M 03-17 P 03-24 MK",
-        "04-08 M! 04-21 MP 04-28 K",
-        "05-05 M 05-19 MP 05-26 K",
-        "06-02 M 06-16 MP 06-24 K! 06-30 M",
-        "07-14 M 07-21 P 07-28 MK",
-        "08-11 M 08-18 P 08-25 MK",
-        "09-08 M 09-15 P 09-22 MK",
-        "10-06 M 10-20 MP 10-27 K",
-        "11-03 M 11-17 MP 11-24 K",
-        "12-01 M 12-15 MP 12-22 K 12-29 M"
-      ]
+      "raw": {
+        "2026": [
+          "01-13 M 01-20 P 01-27 MK",
+          "02-10 M 02-17 P 02-24 MK",
+          "03-10 M 03-17 P 03-24 MK",
+          "04-08 M! 04-21 MP 04-28 K",
+          "05-05 M 05-19 MP 05-26 K",
+          "06-02 M 06-16 MP 06-24 K! 06-30 M",
+          "07-14 M 07-21 P 07-28 MK",
+          "08-11 M 08-18 P 08-25 MK",
+          "09-08 M 09-15 P 09-22 MK",
+          "10-06 M 10-20 MP 10-27 K",
+          "11-03 M 11-17 MP 11-24 K",
+          "12-01 M 12-15 MP 12-22 K 12-29 M"
+        ]
+      }
     },
     "5": {
       "place": "Sisak",
       "area": "Centar, Vrbina, Tomčev put",
-      "pilotFrom": "10-01",
+      "pilotFrom": "2026-10-01",
       "note": "Od listopada traje testni projekt: plastika, staklo i metal odvoze se 2x mjesečno.",
-      "raw": [
-        "01-08 MP! 01-14 BK 01-21 M 01-28 B",
-        "02-04 MP 02-11 BK 02-18 M 02-25 B",
-        "03-04 MP 03-11 BK 03-18 M 03-25 B",
-        "04-01 MP 04-09 BK! 04-15 M 04-22 B 04-29 M",
-        "05-06 BP 05-13 MK 05-20 B 05-27 M",
-        "06-03 BP 06-10 MK 06-17 B 06-25 M!",
-        "07-01 BP 07-08 MK 07-15 B 07-22 M 07-29 B",
-        "08-06 MP! 08-12 BK 08-19 M 08-26 B",
-        "09-02 MP 09-09 BK 09-16 M 09-23 B 09-30 M",
-        "10-07 BP 10-14 MK 10-21 BP 10-28 M",
-        "11-04 BP 11-11 MK 11-19 BP! 11-25 M",
-        "12-02 BP 12-09 MK 12-16 BP 12-23 M 12-30 B"
-      ]
+      "raw": {
+        "2026": [
+          "01-08 MP! 01-14 BK 01-21 M 01-28 B",
+          "02-04 MP 02-11 BK 02-18 M 02-25 B",
+          "03-04 MP 03-11 BK 03-18 M 03-25 B",
+          "04-01 MP 04-09 BK! 04-15 M 04-22 B 04-29 M",
+          "05-06 BP 05-13 MK 05-20 B 05-27 M",
+          "06-03 BP 06-10 MK 06-17 B 06-25 M!",
+          "07-01 BP 07-08 MK 07-15 B 07-22 M 07-29 B",
+          "08-06 MP! 08-12 BK 08-19 M 08-26 B",
+          "09-02 MP 09-09 BK 09-16 M 09-23 B 09-30 M",
+          "10-07 BP 10-14 MK 10-21 BP 10-28 M",
+          "11-04 BP 11-11 MK 11-19 BP! 11-25 M",
+          "12-02 BP 12-09 MK 12-16 BP 12-23 M 12-30 B"
+        ]
+      }
     },
     "6": {
       "place": "Sisak",
       "area": "Prečki Sisak, Viktorovac, Brzaj, Podjarak, Caprag",
-      "raw": [
-        "01-08 B! 01-14 M 01-21 BP 01-28 MK",
-        "02-04 B 02-11 M 02-18 BP 02-25 MK",
-        "03-04 B 03-11 M 03-18 BP 03-25 MK",
-        "04-01 B 04-09 M! 04-15 BP 04-22 MK 04-29 B",
-        "05-06 M 05-13 B 05-20 MP 05-27 BK",
-        "06-03 M 06-10 B 06-17 MP 06-25 BK!",
-        "07-01 M 07-08 B 07-15 MP 07-22 BK 07-29 M",
-        "08-06 B! 08-12 M 08-19 BP 08-26 MK",
-        "09-02 B 09-09 M 09-16 BP 09-23 MK 09-30 B",
-        "10-07 M 10-14 B 10-21 MP 10-28 BK",
-        "11-04 M 11-11 B 11-19 MP! 11-25 BK",
-        "12-02 M 12-09 B 12-16 MP 12-23 BK 12-30 M"
-      ]
+      "raw": {
+        "2026": [
+          "01-08 B! 01-14 M 01-21 BP 01-28 MK",
+          "02-04 B 02-11 M 02-18 BP 02-25 MK",
+          "03-04 B 03-11 M 03-18 BP 03-25 MK",
+          "04-01 B 04-09 M! 04-15 BP 04-22 MK 04-29 B",
+          "05-06 M 05-13 B 05-20 MP 05-27 BK",
+          "06-03 M 06-10 B 06-17 MP 06-25 BK!",
+          "07-01 M 07-08 B 07-15 MP 07-22 BK 07-29 M",
+          "08-06 B! 08-12 M 08-19 BP 08-26 MK",
+          "09-02 B 09-09 M 09-16 BP 09-23 MK 09-30 B",
+          "10-07 M 10-14 B 10-21 MP 10-28 BK",
+          "11-04 M 11-11 B 11-19 MP! 11-25 BK",
+          "12-02 M 12-09 B 12-16 MP 12-23 BK 12-30 M"
+        ]
+      }
     },
     "7": {
       "place": "Sisak",
       "area": "Buićevo naselje, Capraške poljane, Crnac, naselja prema Sunji",
       "noBioIn": "naseljima Klobučak, Madžari, Letovanci i Staro Selo te na Capraškim poljanama",
-      "raw": [
-        "01-02 BP! 01-09 MK! 01-15 B 01-22 M 01-29 B",
-        "02-05 MP 02-12 BK 02-19 M 02-26 B",
-        "03-05 MP 03-12 BK 03-19 M 03-26 B",
-        "04-02 MP 04-10 BK! 04-16 M 04-23 B 04-30 M",
-        "05-07 BP 05-14 MK 05-21 B 05-28 M",
-        "06-05 BP! 06-11 MK 06-18 B 06-26 M!",
-        "07-02 BP 07-09 MK 07-16 B 07-23 M 07-30 B",
-        "08-07 MP! 08-13 BK 08-20 M 08-27 B",
-        "09-03 MP 09-10 BK 09-17 M 09-24 B",
-        "10-01 MP 10-08 BK 10-15 M 10-22 B 10-29 M",
-        "11-05 BP 11-12 MK 11-20 B! 11-26 M",
-        "12-03 BP 12-10 MK 12-17 B 12-24 M 12-31 B"
-      ]
+      "raw": {
+        "2026": [
+          "01-02 BP! 01-09 MK! 01-15 B 01-22 M 01-29 B",
+          "02-05 MP 02-12 BK 02-19 M 02-26 B",
+          "03-05 MP 03-12 BK 03-19 M 03-26 B",
+          "04-02 MP 04-10 BK! 04-16 M 04-23 B 04-30 M",
+          "05-07 BP 05-14 MK 05-21 B 05-28 M",
+          "06-05 BP! 06-11 MK 06-18 B 06-26 M!",
+          "07-02 BP 07-09 MK 07-16 B 07-23 M 07-30 B",
+          "08-07 MP! 08-13 BK 08-20 M 08-27 B",
+          "09-03 MP 09-10 BK 09-17 M 09-24 B",
+          "10-01 MP 10-08 BK 10-15 M 10-22 B 10-29 M",
+          "11-05 BP 11-12 MK 11-20 B! 11-26 M",
+          "12-03 BP 12-10 MK 12-17 B 12-24 M 12-31 B"
+        ]
+      }
     },
     "8": {
       "place": "Sunja",
       "area": "Općina Sunja",
       "note": "Od 1.9.2026. zona uključuje i Pobrđane, Čapljane, Jasenovčane, Papiće, Kostreše Šaške, Timarce, Slovince, Šaš, Donju i Gornju Letinu, Radonju Luku, Malu Paukovu, Kladare, Sjeverovac, Malu i Veliku Gradusu, Vukoševac i Blinjsku Gredu.",
-      "raw": [
-        "01-02 M! 01-15 MP 01-22 K 01-29 M",
-        "02-12 M 02-19 P 02-26 MK",
-        "03-12 M 03-19 P 03-26 MK",
-        "04-10 M! 04-16 P 04-23 MK",
-        "05-07 M 05-21 MP 05-28 K",
-        "06-05 M! 06-18 MP 06-26 K!",
-        "07-02 M 07-16 MP 07-23 K 07-30 M",
-        "08-13 M 08-20 P 08-27 MK",
-        "09-10 M 09-17 P 09-24 MK",
-        "10-08 M 10-15 P 10-22 MK",
-        "11-05 M 11-20 MP! 11-26 K",
-        "12-03 M 12-17 MP 12-24 K 12-31 M"
-      ]
+      "raw": {
+        "2026": [
+          "01-02 M! 01-15 MP 01-22 K 01-29 M",
+          "02-12 M 02-19 P 02-26 MK",
+          "03-12 M 03-19 P 03-26 MK",
+          "04-10 M! 04-16 P 04-23 MK",
+          "05-07 M 05-21 MP 05-28 K",
+          "06-05 M! 06-18 MP 06-26 K!",
+          "07-02 M 07-16 MP 07-23 K 07-30 M",
+          "08-13 M 08-20 P 08-27 MK",
+          "09-10 M 09-17 P 09-24 MK",
+          "10-08 M 10-15 P 10-22 MK",
+          "11-05 M 11-20 MP! 11-26 K",
+          "12-03 M 12-17 MP 12-24 K 12-31 M"
+        ]
+      }
     },
     "9": {
       "place": "Sisak",
       "area": "Galdovo, Hrastelnica, Palanjek, Novo Selo Palanječko",
       "noBioIn": "naselju Palanjek i Ulici Put Palanjek",
-      "raw": [
-        "01-03 BP! 01-10 MK! 01-16 B 01-23 M 01-30 B",
-        "02-06 MP 02-13 BK 02-20 M 02-27 B",
-        "03-06 MP 03-13 BK 03-20 M 03-27 B",
-        "04-03 MP 04-11 BK! 04-17 M 04-24 B",
-        "05-02 MP! 05-08 BK 05-15 M 05-22 B 05-29 M",
-        "06-06 BP! 06-12 MK 06-19 B 06-27 M!",
-        "07-03 BP 07-10 MK 07-17 B 07-24 M 07-31 B",
-        "08-08 MP! 08-14 BK 08-21 M 08-28 B",
-        "09-04 MP 09-11 BK 09-18 M 09-25 B",
-        "10-02 MP 10-09 BK 10-16 M 10-23 B 10-30 M",
-        "11-06 BP 11-13 MK 11-21 B! 11-27 M",
-        "12-04 BP 12-11 MK 12-18 B 12-26 M!"
-      ]
+      "raw": {
+        "2026": [
+          "01-03 BP! 01-10 MK! 01-16 B 01-23 M 01-30 B",
+          "02-06 MP 02-13 BK 02-20 M 02-27 B",
+          "03-06 MP 03-13 BK 03-20 M 03-27 B",
+          "04-03 MP 04-11 BK! 04-17 M 04-24 B",
+          "05-02 MP! 05-08 BK 05-15 M 05-22 B 05-29 M",
+          "06-06 BP! 06-12 MK 06-19 B 06-27 M!",
+          "07-03 BP 07-10 MK 07-17 B 07-24 M 07-31 B",
+          "08-08 MP! 08-14 BK 08-21 M 08-28 B",
+          "09-04 MP 09-11 BK 09-18 M 09-25 B",
+          "10-02 MP 10-09 BK 10-16 M 10-23 B 10-30 M",
+          "11-06 BP 11-13 MK 11-21 B! 11-27 M",
+          "12-04 BP 12-11 MK 12-18 B 12-26 M!"
+        ]
+      }
     },
     "10": {
       "place": "Sisak",
       "area": "Budaševo, Topolovac, naselja Donje Posavine",
       "noBioIn": "naseljima Donje Posavine",
-      "raw": [
-        "01-03 M! 01-10 B! 01-16 MP 01-23 BK 01-30 M",
-        "02-06 B 02-13 M 02-20 BP 02-27 MK",
-        "03-06 B 03-13 M 03-20 BP 03-27 MK",
-        "04-03 B 04-11 M! 04-17 BP 04-24 MK",
-        "05-02 B! 05-08 M 05-15 BP 05-22 MK 05-29 B",
-        "06-06 M! 06-12 B 06-19 MP 06-27 BK!",
-        "07-03 M 07-10 B 07-17 MP 07-24 BK 07-31 M",
-        "08-08 B! 08-14 M 08-21 BP 08-28 MK",
-        "09-04 B 09-11 M 09-18 BP 09-25 MK",
-        "10-02 B 10-09 M 10-16 BP 10-23 MK 10-30 B",
-        "11-06 M 11-13 B 11-21 MP! 11-27 BK",
-        "12-04 M 12-11 B 12-18 MP 12-26 BK!"
-      ]
+      "raw": {
+        "2026": [
+          "01-03 M! 01-10 B! 01-16 MP 01-23 BK 01-30 M",
+          "02-06 B 02-13 M 02-20 BP 02-27 MK",
+          "03-06 B 03-13 M 03-20 BP 03-27 MK",
+          "04-03 B 04-11 M! 04-17 BP 04-24 MK",
+          "05-02 B! 05-08 M 05-15 BP 05-22 MK 05-29 B",
+          "06-06 M! 06-12 B 06-19 MP 06-27 BK!",
+          "07-03 M 07-10 B 07-17 MP 07-24 BK 07-31 M",
+          "08-08 B! 08-14 M 08-21 BP 08-28 MK",
+          "09-04 B 09-11 M 09-18 BP 09-25 MK",
+          "10-02 B 10-09 M 10-16 BP 10-23 MK 10-30 B",
+          "11-06 M 11-13 B 11-21 MP! 11-27 BK",
+          "12-04 M 12-11 B 12-18 MP 12-26 BK!"
+        ]
+      }
     }
   }
 }
@@ -496,10 +516,16 @@ footer strong { color: var(--fg); }
   };
   const ORDER = ['M', 'B', 'P', 'K'];
   const DATA = JSON.parse(document.getElementById('zones').textContent);
-  const YEAR = DATA.year;
   const ZONES = Object.keys(DATA.zones).sort((a, b) => a - b);
   const DEFAULT_ZONE = '1';
-  // Selected zone: its schedule, the bin types it has and its usual collection day. Set by loadZone().
+  // Several years can be loaded at once, so the calendar runs from January of the first to December of the last.
+  const YEARS = [...new Set(ZONES.flatMap(z => Object.keys(DATA.zones[z].raw)))].map(Number).sort((a, b) => a - b);
+  const monthNo = d => d.getFullYear() * 12 + d.getMonth();
+  const FIRST_MONTH = YEARS[0] * 12, LAST_MONTH = YEARS[YEARS.length - 1] * 12 + 11;
+  const monthStart = m => new Date(Math.floor(m / 12), m % 12, 1);
+  const clampMonth = m => Math.min(LAST_MONTH, Math.max(FIRST_MONTH, m));
+  const inRange = d => monthNo(d) >= FIRST_MONTH && monthNo(d) <= LAST_MONTH;
+  // Selected zone: its schedule, the bin types it has and its usual collection day per year. Set by loadZone().
   let zone, Z, SCHED, KEYS, KINDS, REGULAR;
 
   const DAYS = ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'];
@@ -520,19 +546,22 @@ footer strong { color: var(--fg); }
     : n > 0 ? `za ${n} ${danWord(n)}` : `prije ${-n} ${danWord(-n)}`;
   const longDate = d => `${DAYS[d.getDay()]}, ${d.getDate()}. ${MONTHS_GEN[d.getMonth()]}`;
   const shortDate = d => `${d.getDate()}.${d.getMonth() + 1}.`;
-  const testProject = (d, e) => Z.pilotFrom && e && e.types.includes('P') && key(d) >= `${YEAR}-${Z.pilotFrom}`;
+  const testProject = (d, e) => Z.pilotFrom && e && e.types.includes('P') && key(d) >= Z.pilotFrom;
 
   function loadZone(id) {
-    zone = id; Z = DATA.zones[id]; SCHED = {};
-    const toks = Z.raw.join(' ').split(/\s+/);
-    for (let i = 0; i < toks.length; i += 2) {
-      SCHED[`${YEAR}-${toks[i]}`] = { types: ORDER.filter(t => toks[i + 1].includes(t)), moved: toks[i + 1].includes('!') };
+    zone = id; Z = DATA.zones[id]; SCHED = {}; REGULAR = {};
+    for (const [year, months] of Object.entries(Z.raw)) {
+      const toks = months.join(' ').split(/\s+/);
+      const perDay = [0, 0, 0, 0, 0, 0, 0];
+      for (let i = 0; i < toks.length; i += 2) {
+        const k = `${year}-${toks[i]}`, moved = toks[i + 1].includes('!');
+        SCHED[k] = { types: ORDER.filter(t => toks[i + 1].includes(t)), moved };
+        if (!moved) perDay[fromKey(k).getDay()]++;
+      }
+      REGULAR[year] = DAYS[perDay.indexOf(Math.max(...perDay))];
     }
     KEYS = Object.keys(SCHED).sort();
     KINDS = ORDER.filter(t => KEYS.some(k => SCHED[k].types.includes(t)));
-    const perDay = [0, 0, 0, 0, 0, 0, 0];
-    for (const k of KEYS) if (!SCHED[k].moved) perDay[fromKey(k).getDay()]++;
-    REGULAR = DAYS[perDay.indexOf(Math.max(...perDay))];
   }
 
   const binSvg = (t, cls = '') => `<svg class="bin ${cls}" viewBox="0 0 40 48" aria-hidden="true" style="color:${TYPES[t].color}">
@@ -553,11 +582,11 @@ footer strong { color: var(--fg); }
   const $ = id => document.getElementById(id);
   let T = today();
   let sel = T;
-  let view = new Date(YEAR, T.getFullYear() === YEAR ? T.getMonth() : (T.getFullYear() > YEAR ? 11 : 0), 1);
+  let view = monthStart(clampMonth(monthNo(T)));
 
   function select(d, { moveView = true } = {}) {
     sel = d;
-    if (moveView && d.getFullYear() === YEAR) view = new Date(YEAR, d.getMonth(), 1);
+    if (moveView && inRange(d)) view = new Date(d.getFullYear(), d.getMonth(), 1);
     renderCal(); renderDetail();
   }
 
@@ -570,7 +599,7 @@ footer strong { color: var(--fg); }
     const h = $('hero');
     if (!nd) {
       h.innerHTML = `<div><div class="eyebrow">Sljedeći odvoz</div><div class="when">Nema podataka</div>
-        <div class="date">Raspored za ${YEAR}. je završio, a raspored za sljedeću godinu još nije dodan.</div></div>`;
+        <div class="date">Raspored za ${KEYS.length ? KEYS[KEYS.length - 1].slice(0, 4) : YEARS[YEARS.length - 1]}. je završio, a raspored za sljedeću godinu još nije dodan.</div></div>`;
       return;
     }
     const n = diff(T, nd), e = SCHED[key(nd)];
@@ -584,7 +613,7 @@ footer strong { color: var(--fg); }
         <div class="when">${big}</div>
         <div class="date">${sub}</div>
         <div class="todo ${todo[1] ? 'urgent' : ''}">${todo[0]}</div>
-        ${e.moved ? `<div class="note">Pomaknuto zbog neradnog dana u tom tjednu (inače ${REGULAR}).</div>` : ''}
+        ${e.moved ? `<div class="note">Pomaknuto zbog neradnog dana u tom tjednu (inače ${REGULAR[nd.getFullYear()]}).</div>` : ''}
       </div>
       <div class="hero-bins">${e.types.map(t => `<div class="hero-bin">${binSvg(t)}<b>${TYPES[t].bin}</b><span>${TYPES[t].name}</span></div>`).join('')}</div>`;
   }
@@ -593,8 +622,12 @@ footer strong { color: var(--fg); }
   function renderCal() {
     const y = view.getFullYear(), m = view.getMonth();
     $('calTitle').innerHTML = `${MONTHS[m]} <span class="num">${y}.</span>`;
-    $('prev').disabled = m === 0;
-    $('next').disabled = m === 11;
+    $('prev').disabled = monthNo(view) <= FIRST_MONTH;
+    $('next').disabled = monthNo(view) >= LAST_MONTH;
+    // Excel for the year on screen, or the zone's latest year if it has none for it.
+    const xy = Z.raw[y] ? y : Object.keys(Z.raw).sort().pop();
+    $('xlsxLink').href = `Raspored_odvoza_Zona${zone}_${xy}.xlsx`;
+    $('xlsxLink').textContent = `Cijeli raspored za ${xy}. u Excelu`;
     const first = new Date(y, m, 1), lead = (first.getDay() + 6) % 7, dim = new Date(y, m + 1, 0).getDate();
     let html = '';
     for (let i = 0; i < lead; i++) html += '<div class="cell blank"></div>';
@@ -647,7 +680,6 @@ footer strong { color: var(--fg); }
       : 'Biootpad samo za korisnike koji su odabrali predaju biootpada u spremnicima.' + (Z.noBioIn ? ` Ne odvozi se u ${Z.noBioIn}.` : '');
     $('zoneNotes').textContent = [bio, Z.note].filter(Boolean).join(' ');
     $('subZone').textContent = `Zonu ${zone}`;
-    $('xlsxLink').href = `Raspored_odvoza_Zona${zone}_${YEAR}.xlsx`;
   }
 
   function renderAll() { renderHeader(); renderHero(); renderCal(); renderDetail(); renderNext(); }
@@ -708,15 +740,15 @@ footer strong { color: var(--fg); }
     const b = ev.target.closest('[data-k]');
     if (b) { select(fromKey(b.dataset.k)); if (b.classList.contains('cell')) b.focus(); }
   });
-  $('prev').onclick = () => { view = new Date(YEAR, Math.max(0, view.getMonth() - 1), 1); renderCal(); };
-  $('next').onclick = () => { view = new Date(YEAR, Math.min(11, view.getMonth() + 1), 1); renderCal(); };
+  $('prev').onclick = () => { view = monthStart(clampMonth(monthNo(view) - 1)); renderCal(); };
+  $('next').onclick = () => { view = monthStart(clampMonth(monthNo(view) + 1)); renderCal(); };
   $('goToday').onclick = () => select(T);
   $('cal').addEventListener('keydown', ev => {
     const step = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -7, ArrowDown: 7 }[ev.key];
     if (!step) return;
     ev.preventDefault();
     const d = addDays(sel, step);
-    if (d.getFullYear() !== YEAR) return;
+    if (!inRange(d)) return;
     select(d);
     document.querySelector(`#cal [data-k="${key(d)}"]`)?.focus();
   });

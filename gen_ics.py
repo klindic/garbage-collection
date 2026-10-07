@@ -34,10 +34,12 @@ def load_data(html):
 
 
 def parse_schedule(data, zone):
-    raw = " ".join(data["zones"][zone]["raw"]).split()
-    for day, codes in zip(raw[0::2], raw[1::2]):
-        month, dom = map(int, day.split("-"))
-        yield date(data["year"], month, dom), [t for t in ORDER if t in codes], "!" in codes
+    """(date, bin types, moved) for every collection day of the zone, all years in order."""
+    for year, months in sorted(data["zones"][zone]["raw"].items()):
+        raw = " ".join(months).split()
+        for day, codes in zip(raw[0::2], raw[1::2]):
+            month, dom = map(int, day.split("-"))
+            yield date(int(year), month, dom), [t for t in ORDER if t in codes], "!" in codes
 
 
 def escape(text):
