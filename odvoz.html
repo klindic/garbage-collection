@@ -273,7 +273,7 @@ footer strong { color: var(--fg); }
     <div><strong>Spremnike iznesi na javnu površinu najkasnije do 07:00</strong> na dan odvoza i ostavi ih vani dok ih ne isprazne. Svaku vrstu otpada odvozi posebno vozilo.</div>
     <div id="zoneNotes"></div>
     <div>Reciklažna dvorišta "Sisak Stari" (Kralja Zvonimira 7B) i "Novi Sisak" (Capraška 4): pon-pet 08-20, sub 08-13.</div>
-    <div>GOS d.o.o.: <span class="num">0800 200 214</span>, info@gos.hr, <a href="https://gos.hr" target="_blank" rel="noopener">gos.hr</a>. Izvor: službeni raspored za <span id="srcZone">Zonu 1</span>, 2026. <a id="xlsxLink" href="Raspored_odvoza_Zona1_2026.xlsx">Cijeli raspored u Excelu</a></div>
+    <div><a id="xlsxLink" href="Raspored_odvoza_Zona1_2026.xlsx">Cijeli raspored u Excelu</a></div>
   </footer>
 </div>
 
@@ -285,7 +285,6 @@ footer strong { color: var(--fg); }
     "1": {
       "place": "Sisak",
       "area": "Zeleni Brijeg, Segestica, Herbos",
-      "src": "RASPORED_2026_Zona_1.pdf",
       "raw": [
         "01-05 MP 01-12 BK 01-19 M 01-26 B",
         "02-02 MP 02-09 BK 02-16 M 02-23 B",
@@ -304,7 +303,6 @@ footer strong { color: var(--fg); }
     "2": {
       "place": "Martinska Ves",
       "area": "Općina Martinska Ves",
-      "src": "RASPORED_2026_Zona_2.pdf",
       "raw": [
         "01-12 M 01-19 P 01-26 MK",
         "02-09 M 02-16 P 02-23 MK",
@@ -323,7 +321,6 @@ footer strong { color: var(--fg); }
     "3": {
       "place": "Sisak",
       "area": "Naselja prema Zagrebu (Odra, Stupno, Žabno, Greda…)",
-      "src": "RASPORED_2026_Zona_3.pdf",
       "noBioIn": "naseljima Stara Drenčina, Vurot i Jazvenik",
       "raw": [
         "01-07 MP! 01-13 BK 01-20 M 01-27 B",
@@ -343,7 +340,6 @@ footer strong { color: var(--fg); }
     "4": {
       "place": "Lekenik",
       "area": "Općina Lekenik",
-      "src": "RASPORED_2026_Zona_4.pdf",
       "raw": [
         "01-13 M 01-20 P 01-27 MK",
         "02-10 M 02-17 P 02-24 MK",
@@ -362,7 +358,6 @@ footer strong { color: var(--fg); }
     "5": {
       "place": "Sisak",
       "area": "Centar, Vrbina, Tomčev put",
-      "src": "Novi_Raspored-Zona-05_2026.pdf",
       "pilotFrom": "10-01",
       "note": "Od listopada traje testni projekt: plastika, staklo i metal odvoze se 2x mjesečno.",
       "raw": [
@@ -383,7 +378,6 @@ footer strong { color: var(--fg); }
     "6": {
       "place": "Sisak",
       "area": "Prečki Sisak, Viktorovac, Brzaj, Podjarak, Caprag",
-      "src": "RASPORED_2026_Zona_6.pdf",
       "raw": [
         "01-08 B! 01-14 M 01-21 BP 01-28 MK",
         "02-04 B 02-11 M 02-18 BP 02-25 MK",
@@ -402,7 +396,6 @@ footer strong { color: var(--fg); }
     "7": {
       "place": "Sisak",
       "area": "Buićevo naselje, Capraške poljane, Crnac, naselja prema Sunji",
-      "src": "RASPORED_2026_Zona_7.pdf",
       "noBioIn": "naseljima Klobučak, Madžari, Letovanci i Staro Selo te na Capraškim poljanama",
       "raw": [
         "01-02 BP! 01-09 MK! 01-15 B 01-22 M 01-29 B",
@@ -422,7 +415,6 @@ footer strong { color: var(--fg); }
     "8": {
       "place": "Sunja",
       "area": "Općina Sunja",
-      "src": "RASPORED_2026_Zona_8_v2.pdf",
       "note": "Od 1.9.2026. zona uključuje i Pobrđane, Čapljane, Jasenovčane, Papiće, Kostreše Šaške, Timarce, Slovince, Šaš, Donju i Gornju Letinu, Radonju Luku, Malu Paukovu, Kladare, Sjeverovac, Malu i Veliku Gradusu, Vukoševac i Blinjsku Gredu.",
       "raw": [
         "01-02 M! 01-15 MP 01-22 K 01-29 M",
@@ -442,7 +434,6 @@ footer strong { color: var(--fg); }
     "9": {
       "place": "Sisak",
       "area": "Galdovo, Hrastelnica, Palanjek, Novo Selo Palanječko",
-      "src": "RASPORED_2026_Zona_9.pdf",
       "noBioIn": "naselju Palanjek i Ulici Put Palanjek",
       "raw": [
         "01-03 BP! 01-10 MK! 01-16 B 01-23 M 01-30 B",
@@ -462,7 +453,6 @@ footer strong { color: var(--fg); }
     "10": {
       "place": "Sisak",
       "area": "Budaševo, Topolovac, naselja Donje Posavine",
-      "src": "RASPORED_2026_Zona_10.pdf",
       "noBioIn": "naseljima Donje Posavine",
       "raw": [
         "01-03 M! 01-10 B! 01-16 MP 01-23 BK 01-30 M",
@@ -567,7 +557,7 @@ footer strong { color: var(--fg); }
     const h = $('hero');
     if (!nd) {
       h.innerHTML = `<div><div class="eyebrow">Sljedeći odvoz</div><div class="when">Nema podataka</div>
-        <div class="date">Raspored za ${YEAR}. je završio. Kad GOS objavi raspored za sljedeću godinu, treba ga dodati.</div></div>`;
+        <div class="date">Raspored za ${YEAR}. je završio, a raspored za sljedeću godinu još nije dodan.</div></div>`;
       return;
     }
     const n = diff(T, nd), e = SCHED[key(nd)];
@@ -640,10 +630,10 @@ footer strong { color: var(--fg); }
     document.title = `Odvoz otpada Zona ${zone}`;
     $('legend').innerHTML = KINDS.map(t => `<span>${binSvg(t)}${TYPES[t].name}</span>`).join('') +
       '<span><i class="dot"></i>Pomaknuto zbog praznika</span>';
-    const bio = !KINDS.includes('B') ? 'Biootpad se na ovom području ne odvozi; GOS predlaže kućno kompostiranje.'
+    const bio = !KINDS.includes('B') ? 'Biootpad se na ovom području ne odvozi; preporučuje se kućno kompostiranje.'
       : 'Biootpad samo za korisnike koji su odabrali predaju biootpada u spremnicima.' + (Z.noBioIn ? ` Ne odvozi se u ${Z.noBioIn}.` : '');
     $('zoneNotes').textContent = [bio, Z.note].filter(Boolean).join(' ');
-    $('subZone').textContent = $('srcZone').textContent = `Zonu ${zone}`;
+    $('subZone').textContent = `Zonu ${zone}`;
     $('xlsxLink').href = `Raspored_odvoza_Zona${zone}_${YEAR}.xlsx`;
   }
 

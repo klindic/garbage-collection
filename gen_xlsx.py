@@ -60,11 +60,11 @@ def notes(data, zone, kinds):
     if z.get("note"):
         out.append(z["note"])
     if "B" not in kinds:
-        out.append("Biootpad se na ovom području ne odvozi; GOS predlaže kućno kompostiranje (www.gos.hr/biootpad).")
+        out.append("Biootpad se na ovom području ne odvozi; preporučuje se kućno kompostiranje.")
     else:
         out.append("Biootpad samo za korisnike koji su odabrali predaju biootpada u spremnicima."
                    + (f" Ne odvozi se u {z['noBioIn']}." if z.get("noBioIn") else ""))
-    out.append("Spremnike iznijeti na javnu površinu najkasnije do 07:00. Info: 0800 200 214, info@gos.hr, www.gos.hr")
+    out.append("Spremnike iznijeti na javnu površinu najkasnije do 07:00.")
     out.append('Reciklažna dvorišta: "Sisak Stari" (Kralja Zvonimira 7B) i "Novi Sisak" (Capraška 4), pon-pet 08-20, sub 08-13.')
     return out
 
@@ -91,7 +91,7 @@ def workbook(data, zone):
 
     # Raspored: one row per collection day, "x" under each bin type.
     put(sch, "A1", f"Raspored odvoza otpada {year}., Zona {zone} ({z['place']})", bold=True, size=14, border=False)
-    put(sch, "A2", f'Izvor: GOS d.o.o., {z["src"]}. "x" = odvoz tog dana. Spremnike iznijeti do 07:00. '
+    put(sch, "A2", '"x" = odvoz tog dana. Spremnike iznijeti do 07:00. '
                    "Prošli datumi su posivljeni.", size=9, color="595959", italic=True, border=False)
     for col, title in zip("ABC", ("Datum", "Dan", "Mjesec")):
         head(sch, f"{col}4", title)
