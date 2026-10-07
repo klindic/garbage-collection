@@ -7,6 +7,8 @@
   "zupanija": "Sisačko-moslavačka",
   "jls": ["Sisak", "Lekenik", ...],                   cities/municipalities it covers
   "napomene": ["...", ...],                           provider-wide notes (recycling yards, rules)
+  "nazivi": {"P": "Plastika i metal"},                optional: provider's own names for bin types
+  "bioNapomena": "...",                               optional: biowaste note (zones without B get a "no biowaste" line)
   "zone": {
     "1": {
       "jls": "Sisak",                                 which city/municipality the zone is in

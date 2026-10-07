@@ -38,8 +38,9 @@ CENTER = Alignment(horizontal="center", vertical="center", wrap_text=True)
 DATE_FMT = "DD.MM.YYYY."
 
 
-def name(t):
-    return TYPES[t][0]
+def name(t, prov=None):
+    """Waste type label; a provider can rename one (e.g. yellow bin = "Plastika i metal")."""
+    return (prov or {}).get("nazivi", {}).get(t, TYPES[t][0])
 
 
 def fill(t):
@@ -107,7 +108,7 @@ def workbook(prov, zone, year):
     for col, title in zip("ABC", ("Datum", "Dan", "Mjesec")):
         head(sch, f"{col}4", title)
     for t in kinds:
-        head(sch, f"{tcol[t]}4", name(t), fill=fill(t), color=ink(t))
+        head(sch, f"{tcol[t]}4", name(t, prov), fill=fill(t), color=ink(t))
     head(sch, f"{note_col}4", "Napomena")
     sch.row_dimensions[4].height = 32
     for r, (day, types, moved) in enumerate(rows, start=5):
@@ -145,7 +146,7 @@ def workbook(prov, zone, year):
             r += 1
             put(by, f"A{r}", datetime(day.year, day.month, day.day), fmt=DATE_FMT)
             put(by, f"B{r}", DAYS[day.weekday()])
-            put(by, f"C{r}", name(t), bold=True, color=ink(t), fill=fill(t))
+            put(by, f"C{r}", name(t, prov), bold=True, color=ink(t), fill=fill(t))
             put(by, f"D{r}", MOVED if moved else None)
     by.freeze_panes = "A2"
     by.auto_filter.ref = f"A1:D{r}"
@@ -161,7 +162,7 @@ def workbook(prov, zone, year):
         head(ov, f"{col}5", title)
     weekdays = ",".join(f'"{d}"' for d in ["nedjelja"] + DAYS[:6])
     for r, t in enumerate(kinds, start=6):
-        put(ov, f"A{r}", name(t), bold=True, color=ink(t), fill=fill(t))
+        put(ov, f"A{r}", name(t, prov), bold=True, color=ink(t), fill=fill(t))
         put(ov, f"B{r}", f'=IFERROR(1/(1/_xlfn.MINIFS({rs("A")},{rs(tcol[t])},"x",{rs("A")},">="&$B$3)),'
                          f'"nema više u {year}.")', center=True, fmt=DATE_FMT)
         put(ov, f"C{r}", f'=IF(ISNUMBER(B{r}),INDEX({{{weekdays}}},WEEKDAY(B{r})),"")', center=True)
@@ -172,7 +173,7 @@ def workbook(prov, zone, year):
     head(ov, f"A{top + 1}", "Mjesec")
     ov.row_dimensions[top + 1].height = 30
     for i, t in enumerate(kinds):
-        head(ov, f"{get_column_letter(2 + i)}{top + 1}", name(t), fill=fill(t), color=ink(t))
+        head(ov, f"{get_column_letter(2 + i)}{top + 1}", name(t, prov), fill=fill(t), color=ink(t))
     for m, month in enumerate(MONTHS):
         r = top + 2 + m
         put(ov, f"A{r}", month)
@@ -219,7 +220,7 @@ def index_workbook(prov):
         kinds = "".join(t for t in ORDER if any(t in types for _, types, _ in rows))
         per_year = ", ".join(f"{y}: {len(list(podaci.iter_dates(z, int(y))))}" for y in sorted(z["raw"]))
         values = (zone, z.get("jls"), z.get("podrucje"), podaci.regular_day(rows),
-                  ", ".join(name(t) for t in kinds), per_year, ", ".join(z.get("ulice", [])))
+                  ", ".join(name(t, prov) for t in kinds), per_year, ", ".join(z.get("ulice", [])))
         for i, v in enumerate(values):
             put(ws, f"{get_column_letter(i + 1)}{r}", v).alignment = Alignment(vertical="top", wrap_text=True)
     for col, width in zip("ABCDEFG", (8, 18, 34, 14, 30, 16, 90)):
