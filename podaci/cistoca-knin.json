@@ -1,0 +1,144 @@
+{
+  "davatelj": "Čistoća i zelenilo d.o.o. Knin",
+  "web": "https://ciz.hr",
+  "izvor": "https://ciz.hr/raspored-odvoza-komunalnog-otpada/",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Knin"],
+  "nazivi": {"P": "Plastika"},
+  "napomene": ["Spremnici za pražnjenje moraju biti na javnoj površini do 6:00 sati na dan pražnjenja.", "Ako spremnik nije ispražnjen do 13:00 sati na dan pražnjenja, nazovite 022/668-163.", "Pomaci zbog blagdana ucrtani su u kalendare (označeni kao pomaknuti)."],
+  "bioNapomena": "Raspored Čistoće i zelenila ne navodi odvoz biootpada.",
+  "zone": {
+    "1": {
+      "jls": "Knin",
+      "podrucje": "Ponedjeljak – Tomislavova, Getaldićeva, Vukovarska …",
+      "ulice": ["Tomislavova", "Getaldićeva", "Vukovarska", "Hrvatskih generala", "Cotina", "Škabrnjska", "Suronjina", "Alkarska", "Matijaševa", "Paližina", "Kijevska", "Sigetski prolaz", "Kliški prolaz", "Krbavska", "Meštrovićeva", "Kačićeva", "Bribirskih knezova", "Šuškova", "Gotovčeva", "Braće Radića", "Ujevićeva", "Domagojeva", "Branimirova", "Velebitska", "Jelenina", "Nelipićeva", "Marulića trg", "Krešimirova", "Prolaz Petra Zrinskog", "Šimunovićeva", "Gundulićeva", "Dokozina", "Kosorova", "Gajeva", "Janjevačka", "Zoranićeva", "Dubravka Horvatića", "Frane Bulića", "Medačka", "Preradovićeva", "Anića glavica", "Blajburška", "Kranjčevićeva", "Fra Andrije Marića", "Domobranska", "Kovačićeva", "Stankovačka", "Bunjevački put", "Lišanska", "Hercegovački put"],
+      "napomena": "Miješani otpad ponedjeljak svaki tjedan; plastika i papir jednom mjesečno prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-08 P 01-09 K 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-05 P 02-06 K 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-05 P 03-06 K 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-07 M! 04-09 P 04-10 K 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-07 P 05-08 K 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-03 P! 06-05 K 06-08 M 06-15 M 06-23 M! 06-29 M",
+          "07-02 P 07-03 K 07-06 M 07-13 M 07-20 M 07-27 M 07-30 P",
+          "08-03 M 08-07 K 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-03 P 09-04 K 09-07 M 09-14 M 09-21 M 09-28 M",
+          "10-01 P 10-05 M 10-09 K 10-12 M 10-19 M 10-26 M 10-29 P",
+          "11-02 M 11-06 K 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-03 P 12-04 K 12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Knin",
+      "podrucje": "Utorak – Golubić novo naselje, Bubonje, Joška Čačića Bega …",
+      "ulice": ["Golubić novo naselje", "Bubonje", "Joška Čačića Bega", "Dobrilina", "Strmica", "Tavelićeva", "Badurinina", "Domovinskog rata", "Stošićeva", "Tuđmanova", "Grabovčeva", "Drniška", "Zvonimirova", "Cesarića obala", "7. gardijska", "Pavlinovićeva", "Franjevački trg", "Zadarska", "Trg Ante Starčevića", "Katićev prolaz", "Zagrebačka", "Višeslavova", "Dionisija Novakovića", "Dmitrovići", "Zelenbabe", "Zupbčići", "Svačićeva", "Martići", "Jelačićeva", "Gunjačine skale", "Rašule", "Nonkovići", "Miljevići", "Bajići"],
+      "napomena": "Miješani otpad utorak svaki tjedan; plastika i papir jednom mjesečno prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 M 01-15 P 01-16 K 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-12 P 02-13 K 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-12 P 03-13 K 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-10 K 04-14 M 04-16 P 04-21 M 04-28 M",
+          "05-05 M 05-12 M 05-14 P 05-15 K 05-19 M 05-26 M",
+          "06-02 M 06-09 M 06-11 P 06-12 K 06-16 M 06-23 M 06-30 M",
+          "07-07 M 07-09 P 07-10 K 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-13 P 08-14 K 08-18 M 08-25 M",
+          "09-01 M 09-08 M 09-10 P 09-11 K 09-15 M 09-22 M 09-29 M",
+          "10-06 M 10-08 P 10-13 M 10-16 K 10-20 M 10-27 M",
+          "11-03 M 11-05 P 11-10 M 11-13 K 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-10 P 12-11 K 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Knin",
+      "podrucje": "Srijeda – Kupreška, Jovićeva, Arambašićeva …",
+      "ulice": ["Kupreška", "Jovićeva", "Arambašićeva", "Poljička", "Ikičina", "Put Krčića", "Sisačka", "Ninska", "Prominski put", "Biogradska", "Imotska", "Sinjska cesta", "Solinska", "Dinarska", "Splitska", "Oćestovo", "Vrančićeva", "Vitezovićeva", "4. gardijska", "Boškovićeva", "Krambergerova", "Trpimirova", "Ružičkina", "Tvrtkova", "Visovačka (Ljubač)", "Kašićeva", "72. bojne Vojne policije", "Mohorovićeva", "Gospina", "Uskočka", "Rendićeva", "Montijeva", "Lornjina", "Vlahe Bukovca", "Teslina", "Novakova", "Hektorovića put", "Katićeva", "Fra Grge Martića", "Stari put", "Defilipsova", "Vrlička", "P. Jos. Karimovića grabe", "Šibenska (Konj)", "Vrgoračka", "Sv. Ante - Potkonje"],
+      "napomena": "Miješani otpad srijeda svaki tjedan; plastika i papir jednom mjesečno prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-22 P 01-23 K 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-19 P 02-20 K 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-19 P 03-20 K 03-25 M",
+          "04-01 M 04-08 M 04-15 M 04-17 K 04-22 M 04-23 P 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-21 P 05-22 K 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-18 P 06-19 K 06-24 M",
+          "07-01 M 07-08 M 07-15 M 07-16 P 07-17 K 07-22 M 07-29 M",
+          "08-06 M! 08-12 M 08-19 M 08-20 P 08-21 K 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-17 P 09-18 K 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-15 P 10-21 M 10-23 K 10-28 M",
+          "11-04 M 11-11 M 11-12 P 11-19 M! 11-20 K 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-17 P 12-18 K 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Knin",
+      "podrucje": "Četvrtak – Trg Oluje, Zlatovićeva, Bornina …",
+      "ulice": ["Trg Oluje", "Zlatovićeva", "Bornina", "Resičina", "Marka Čačića", "Milanovićeva", "Kninske bojne", "142. brigada", "Vugdelijin put", "Begovićeva", "Slavka Krvavice", "Gospodnetićev put", "Jerkovićev put", "Kuduzova", "Carevjev put", "Poljakov put", "Fra Mije Kotaraša", "Fra Petra Kneževića"],
+      "napomena": "Miješani otpad četvrtak svaki tjedan; plastika i papir jednom mjesečno prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 M 01-22 M 01-29 MP 01-30 K",
+          "02-05 M 02-12 M 02-19 M 02-26 MP 02-27 K",
+          "03-05 M 03-12 M 03-19 M 03-26 MP 03-27 K",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-24 K 04-30 MP",
+          "05-07 M 05-14 M 05-21 M 05-28 MP 05-29 K",
+          "06-05 M! 06-11 M 06-18 M 06-25 MP 06-26 K",
+          "07-02 M 07-09 M 07-16 M 07-23 MP 07-24 K 07-30 M",
+          "08-06 M 08-13 M 08-20 M 08-27 MP 08-28 K",
+          "09-03 M 09-10 M 09-17 M 09-24 MP 09-25 K",
+          "10-01 M 10-08 M 10-15 M 10-22 MP 10-29 M 10-30 K",
+          "11-05 M 11-12 M 11-19 M 11-26 MP 11-27 K",
+          "12-03 M 12-10 M 12-17 M 12-24 MK! 12-31 MP"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Knin",
+      "podrucje": "Petak – Hrvatski vitezovi, Đerekova, Ivana Brlić Mažuranić …",
+      "ulice": ["Hrvatski vitezovi", "Đerekova", "Ivana Brlić Mažuranić", "Lašvanski put", "Frane Šimunovića", "Paradžikova", "Ante Anića", "Kljakovićeva", "Bušićeva", "Galovićeva", "Hatzova", "Vojnovićeva", "Šenoina", "Zajčeva", "Kapitul", "Šimićeva", "Šeperova", "Raškajeva", "Marovićeva", "Stepinčeva", "Gojsaličina", "Mihanovićeva", "Viteza Jovana Sinobada", "Matoševa", "Lisinskog", "Berislavićeva", "Držićeva", "Tijardovićeva"],
+      "napomena": "Miješani otpad petak svaki tjedan; plastika i papir jednom mjesečno prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-29 P 01-30 MK",
+          "02-06 M 02-13 M 02-20 M 02-26 P 02-27 MK",
+          "03-06 M 03-13 M 03-20 M 03-26 P 03-27 MK",
+          "04-03 M 04-10 M 04-17 M 04-24 MK 04-30 MP!",
+          "05-08 M 05-15 M 05-22 M 05-28 P 05-29 MK",
+          "06-05 M 06-12 M 06-19 M 06-25 P 06-26 MK",
+          "07-03 M 07-10 M 07-17 M 07-23 P 07-24 MK 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-27 P 08-28 MK",
+          "09-04 M 09-11 M 09-18 M 09-24 P 09-25 MK",
+          "10-02 M 10-09 M 10-16 M 10-22 P 10-23 M 10-30 MK",
+          "11-06 M 11-13 M 11-20 M 11-26 P 11-27 MK",
+          "12-04 M 12-11 M 12-18 M 12-24 MK! 12-31 MP!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Knin",
+      "podrucje": "Subota – Stari Golubić",
+      "ulice": ["Stari Golubić"],
+      "napomena": "Miješani otpad subotom otprilike svaka dva tjedna; plastika i papir jednom mjesečno prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-03 M 01-13 P 01-17 M 01-20 K 01-31 M",
+          "02-10 P 02-14 M 02-17 K 02-28 M",
+          "03-10 P 03-14 M 03-17 K 03-28 M",
+          "04-11 M 04-14 P 04-21 K 04-25 M",
+          "05-09 M 05-12 P 05-19 K 05-23 M",
+          "06-06 M 06-09 P 06-16 K 06-20 M",
+          "07-04 M 07-14 P 07-18 M 07-21 K",
+          "08-01 M 08-11 P 08-18 K 08-22 M",
+          "09-05 M 09-08 P 09-19 M 09-22 K",
+          "10-03 M 10-13 P 10-17 M 10-20 K 10-31 M",
+          "11-10 P 11-14 M 11-17 K 11-28 M",
+          "12-05 M 12-08 P 12-19 M 12-22 K"
+        ]
+      }
+    }
+  }
+}
