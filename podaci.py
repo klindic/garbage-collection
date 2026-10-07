@@ -39,7 +39,7 @@ PODACI = ROOT / "podaci"
 TYPES = {
     "M": ("Miješani komunalni otpad", "Crna kanta", "262626", "FFFFFF", 16),
     "B": ("Biootpad", "Smeđa kanta", "7B4A2D", "FFFFFF", 12),
-    "P": ("Plastika, staklo i metal", "Žuta kanta", "FFE600", "000000", 16),
+    "P": ("Plastika i metal", "Žuta kanta", "FFE600", "000000", 16),
     "K": ("Papir i karton", "Plava kanta", "3B6EF5", "FFFFFF", 13),
     "S": ("Staklo", "Zelena kanta", "2E8B57", "FFFFFF", 11),
     "L": ("Metal", "Siva kanta", "A6A6A6", "000000", 11),

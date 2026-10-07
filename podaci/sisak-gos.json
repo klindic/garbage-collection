@@ -6,6 +6,7 @@
   "napomene": ["Spremnike iznijeti na javnu površinu najkasnije do 07:00.", "Reciklažna dvorišta: \"Sisak Stari\" (Kralja Zvonimira 7B) i \"Novi Sisak\" (Capraška 4), pon-pet 08-20, sub 08-13."],
   "izvor": "https://gos.hr/raspored-sakupljanja-otpada-2026/",
   "bioNapomena": "Biootpad samo za korisnike koji su odabrali predaju biootpada u spremnicima.",
+  "nazivi": {"P": "Plastika, staklo i metal"},
   "zone": {
     "1": {
       "jls": "Sisak",

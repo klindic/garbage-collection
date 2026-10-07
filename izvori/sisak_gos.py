@@ -48,6 +48,7 @@ PROVIDER = {
     "web": "https://gos.hr",
     "zupanija": "Sisačko-moslavačka",
     "jls": ["Sisak", "Martinska Ves", "Lekenik", "Sunja"],
+    "nazivi": {"P": "Plastika, staklo i metal"},
     "bioNapomena": "Biootpad samo za korisnike koji su odabrali predaju biootpada u spremnicima.",
     "napomene": [
         "Spremnike iznijeti na javnu površinu najkasnije do 07:00.",

@@ -245,6 +245,7 @@ def from_page(html_path):
             if v.get(src):
                 zones[zone][dst] = v[src]
     return {"davatelj": "Gospodarenje otpadom Sisak d.o.o.", "bioNapomena": SISAK_BIO,
+            "nazivi": {"P": "Plastika, staklo i metal"},
             "napomene": SISAK_NOTES, "zone": zones}
 
 
