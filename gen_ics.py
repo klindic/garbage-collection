@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
-"""Generate subscribable iCalendar feeds from the RAW schedule in odvoz-zona5.html."""
+"""Generate subscribable iCalendar feeds for every zone from the schedule data in odvoz.html."""
+import json
 import re
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 SITE_URL = "https://klindic.github.io/garbage-collection/"
-UID_DOMAIN = "odvoz-zona5.klindic.github.io"
-# One feed per alarm time, because a static host cannot personalise a single feed.
+# One feed per zone and alarm time, because a static host cannot personalise a single feed.
 # All-day events start at 00:00, so "-PT6H" fires at 18:00 the day before and "PT6H" at 06:00 the same day.
-FEEDS = {f"odvoz-{h}00.ics": (f"-PT{24 - h}H", "Sutra odvoz") for h in range(16, 23)}
+FEEDS = {f"{h}00": (f"-PT{24 - h}H", "Sutra odvoz") for h in range(16, 23)}
 FEEDS.update({
-    "odvoz-jutro-0530.ics": ("PT5H30M", "Danas odvoz"),
-    "odvoz-jutro-0600.ics": ("PT6H", "Danas odvoz"),
-    "odvoz-bez.ics": (None, None),
+    "jutro-0530": ("PT5H30M", "Danas odvoz"),
+    "jutro-0600": ("PT6H", "Danas odvoz"),
+    "bez": (None, None),
 })
-DEFAULT_FEED = "odvoz-1800.ics"  # also published as odvoz.ics for existing subscribers
+DEFAULT_ALARM = "1800"  # odvoz-zonaN.ics is the same as odvoz-zonaN-1800.ics
+# Before zones were added the site only had Zona 5, published as odvoz-<alarm>.ics and odvoz.ics.
+# Those names stay live with the same UIDs so existing subscriptions keep working.
+LEGACY_ZONE = "5"
 
 TYPES = {
     "M": ("\u26ab", "Miješani", "Crna kanta: miješani komunalni otpad"),
@@ -26,12 +29,15 @@ TYPES = {
 ORDER = "MBPK"
 
 
-def parse_schedule(html):
-    year = int(re.search(r"const YEAR = (\d{4});", html).group(1))
-    raw = re.search(r"const RAW = `([^`]*)`", html).group(1).split()
+def load_data(html):
+    return json.loads(re.search(r'<script type="application/json" id="zones">(.*?)</script>', html, re.S).group(1))
+
+
+def parse_schedule(data, zone):
+    raw = " ".join(data["zones"][zone]["raw"]).split()
     for day, codes in zip(raw[0::2], raw[1::2]):
         month, dom = map(int, day.split("-"))
-        yield date(year, month, dom), [t for t in ORDER if t in codes], "!" in codes
+        yield date(data["year"], month, dom), [t for t in ORDER if t in codes], "!" in codes
 
 
 def escape(text):
@@ -52,21 +58,23 @@ def fold(line):
     return "\r\n ".join(out)
 
 
-def build(html, trigger, alarm_prefix):
+def build(data, zone, trigger, alarm_prefix):
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    url = f"{SITE_URL}?zona={zone}"
+    place = data["zones"][zone]["place"]
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//klindic//Odvoz otpada Zona 5//HR",
+        f"PRODID:-//klindic//Odvoz otpada Zona {zone}//HR",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:Odvoz otpada",
-        "X-WR-CALDESC:" + escape("Odvoz otpada, Zona 5 Sisak. " + SITE_URL),
+        f"X-WR-CALNAME:Odvoz otpada Zona {zone}",
+        "X-WR-CALDESC:" + escape(f"Odvoz otpada, Zona {zone} ({place}). {url}"),
         "X-WR-TIMEZONE:Europe/Zagreb",
         "REFRESH-INTERVAL;VALUE=DURATION:P1D",
         "X-PUBLISHED-TTL:P1D",
     ]
-    for day, types, moved in parse_schedule(html):
+    for day, types, moved in parse_schedule(data, zone):
         icons = "".join(TYPES[t][0] for t in types)
         names = ", ".join(TYPES[t][1] for t in types)
         names = names[0] + names[1:].lower()
@@ -75,16 +83,16 @@ def build(html, trigger, alarm_prefix):
         details.append("Kante iznesi do 07:00.")
         if moved:
             details.append("Pomaknuto zbog neradnog dana u tom tjednu.")
-        details.append(SITE_URL)
+        details.append(url)
         lines += [
             "BEGIN:VEVENT",
-            f"UID:{day.isoformat()}@{UID_DOMAIN}",
+            f"UID:{day.isoformat()}@odvoz-zona{zone}.klindic.github.io",
             f"DTSTAMP:{stamp}",
             f"DTSTART;VALUE=DATE:{day:%Y%m%d}",
             f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
             "SUMMARY:" + escape(summary),
             "DESCRIPTION:" + escape("\n".join(details)),
-            "URL:" + SITE_URL,
+            "URL:" + url,
             "TRANSP:TRANSPARENT",
         ]
         if trigger:
@@ -101,10 +109,17 @@ def build(html, trigger, alarm_prefix):
 
 
 if __name__ == "__main__":
-    src = Path(__file__).with_name("odvoz-zona5.html").read_text(encoding="utf-8")
+    data = load_data(Path(__file__).with_name("odvoz.html").read_text(encoding="utf-8"))
     out_dir = Path(sys.argv[1])
-    for name, (trigger, prefix) in FEEDS.items():
-        data = build(src, trigger, prefix).encode("utf-8")
-        (out_dir / name).write_bytes(data)
-        if name == DEFAULT_FEED:
-            (out_dir / "odvoz.ics").write_bytes(data)
+    for zone in data["zones"]:
+        for alarm, (trigger, prefix) in FEEDS.items():
+            feed = build(data, zone, trigger, prefix).encode("utf-8")
+            names = [f"odvoz-zona{zone}-{alarm}.ics"]
+            if zone == LEGACY_ZONE:
+                names.append(f"odvoz-{alarm}.ics")
+            if alarm == DEFAULT_ALARM:
+                names.append(f"odvoz-zona{zone}.ics")
+                if zone == LEGACY_ZONE:
+                    names.append("odvoz.ics")
+            for name in names:
+                (out_dir / name).write_bytes(feed)
