@@ -113,7 +113,7 @@ def all_addresses():
     return list(seen.values()), names
 
 
-def prefetch(ids, workers=4):
+def prefetch(ids, workers=8):
     """Fetch the rules of many addresses in parallel into the cache (get() keeps the request rate)."""
     ids = [i for i in ids if not cache_path(f"{API}/addresses/{i}").exists()]
     with ThreadPoolExecutor(workers) as pool:
