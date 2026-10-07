@@ -21,10 +21,12 @@ import random
 import re
 import sys
 import tempfile
+import threading
 import time
 import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -56,30 +58,37 @@ PROVIDER = {
     ],
 }
 _last = [0.0]
+_lock = threading.Lock()
+
+
+def cache_path(url):
+    return CACHE / (hashlib.sha1(url.encode()).hexdigest() + ".json")
 
 
 def get(url, cache=True, pause=0.2):
-    """GET with a disk cache, a pause between live requests and retries with backoff."""
-    path = CACHE / (hashlib.sha1(url.encode()).hexdigest() + ".json")
+    """GET with a disk cache, retries with backoff and request starts at least `pause` s apart (thread-safe)."""
+    path = cache_path(url)
     if cache and path.exists():
         return path.read_bytes()
     for attempt in range(5):
-        wait = _last[0] + pause - time.time()
-        if wait > 0:
-            time.sleep(wait)
+        with _lock:
+            wait = _last[0] + pause - time.time()
+            if wait > 0:
+                time.sleep(wait)
+            _last[0] = time.time()
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r:
                 body = r.read()
-            _last[0] = time.time()
             break
         except Exception as e:  # noqa: BLE001 (network errors of every kind get the same retry)
-            _last[0] = time.time()
             if attempt == 4:
                 raise RuntimeError(f"{url}: {e}") from e
             time.sleep(2 ** attempt)
     if cache:
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(body)
+        tmp = path.with_suffix(f".{threading.get_ident()}.tmp")
+        tmp.write_bytes(body)
+        tmp.replace(path)  # atomic, so an interrupted run never leaves a half-written cache file
     return body
 
 
@@ -102,6 +111,15 @@ def all_addresses():
             if a["name"].casefold() == name.casefold():
                 seen[a["id"]] = a
     return list(seen.values()), names
+
+
+def prefetch(ids, workers=4):
+    """Fetch the rules of many addresses in parallel into the cache (get() keeps the request rate)."""
+    ids = [i for i in ids if not cache_path(f"{API}/addresses/{i}").exists()]
+    with ThreadPoolExecutor(workers) as pool:
+        for n, _ in enumerate(pool.map(rules, ids), start=1):
+            if n % 2000 == 0:
+                print(f"  preuzeto {n}/{len(ids)} adresa ...", flush=True)
 
 
 def rules(address_id):
@@ -225,9 +243,11 @@ def main(argv=None):
     groups = defaultdict(list)
     for a in addresses:
         groups[(a["name"], a["boardId"])].append(a)
+    for members in groups.values():
+        members.sort(key=lambda a: house_key(a["houseNumber"]))
+    prefetch([m[k]["id"] for m in groups.values() for k in (0, len(m) // 2, -1)])
     sig_of, mixed = {}, 0
     for i, ((name, board), members) in enumerate(sorted(groups.items())):
-        members.sort(key=lambda a: house_key(a["houseNumber"]))
         probe = {members[0]["id"]: members[0], members[len(members) // 2]["id"]: members[len(members) // 2],
                  members[-1]["id"]: members[-1]}
         sigs = {}
@@ -236,6 +256,7 @@ def main(argv=None):
             sigs[a["id"]] = signature(d) if d else ()
         if len(set(sigs.values())) > 1:  # differs along the street: read every house number
             mixed += 1
+            prefetch([a["id"] for a in members if a["id"] not in sigs])
             for a in members:
                 if a["id"] not in sigs:
                     d = rules(a["id"])
