@@ -1,0 +1,512 @@
+{
+  "davatelj": "GKP Čakom d.o.o.",
+  "web": "https://www.cakom.hr",
+  "zupanija": "Međimurska",
+  "jls": ["Čakovec", "Gornji Mihaljevec", "Mala Subotica", "Nedelišće", "Orehovica", "Strahoninec", "Šenkovec", "Štrigova"],
+  "nazivi": {"P": "Reciklabilni otpad (vreće)", "B": "Biootpad (smeđa kanta i vreće)", "G": "Glomazni otpad (samo uz najavu)"},
+  "napomene": ["Reciklabilni otpad (papir, plastika, staklo, metal, tetrapak) u namjenskim vrećama odvozi se u tjednu odvoza miješanog komunalnog otpada (crna kanta), istog dana.", "Biootpad u namjenskim vrećama odvozi se samo u tjednu odvoza biootpada (smeđa kanta).", "Glomazni otpad odvozi se na označeni dan samo uz najavu najkasnije 3 dana prije, na 0800 466 466 ili obrascem na www.cakom.hr; spremiti ga na privatnu površinu dostupnu vozilu.", "Odvoz od 6:00 do 16:00. Na blagdane nema odvoza; zamjenski dan je u kalendaru rute.", "Reciklažna dvorišta: Mihovljanska 10, Mihovljan (pon-pet 07-17) i Gospodarska 2, Totovec (pon-pet 06-15, sub 06-14). Otpadni tekstil predaje se u reciklažno dvorište.", "Čakom navodi i Općinu Sveti Juraj na Bregu, ali za nju nema rute u tražilici odvoza na cakom.hr, pa ni rasporeda ovdje."],
+  "izvor": "https://www.cakom.hr/raspored-odvoza-otpada/",
+  "zone": {
+    "1": {
+      "jls": "Strahoninec",
+      "podrucje": "Ruta 1: OPĆINA STRAHONINEC",
+      "ulice": ["Cvjetna ulica", "Čakovečka", "Dravska", "Ivana Hižmana", "Josipa Bajkovca", "Josipa Horvata Zdelara", "Kalnička ulica", "Katarine Zrinski", "Kolodvorska ulica", "Marka Kovača", "Matije Gupca", "Međimurska", "Odvojak Marka Kovača", "Palih boraca", "Pavleka Miškine", "Poljska ulica", "Prvomajska ulica", "Sportska", "Strahoninec", "Topolje", "Vrtna ulica", "Žrtava Fašizma"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-08 MP 01-15 B 01-22 MPG 01-29 B",
+          "02-05 MP 02-12 B 02-19 MP 02-26 BG",
+          "03-05 MP 03-12 B 03-19 MP 03-26 BG",
+          "04-02 MP 04-09 B 04-16 MP 04-23 BG 04-30 MP",
+          "05-07 B 05-14 MP 05-21 B 05-28 MPG",
+          "06-06 B! 06-11 MP 06-18 B 06-25 MPG",
+          "07-02 B 07-09 MP 07-16 B 07-23 MPG 07-30 B",
+          "08-06 MP 08-13 B 08-20 MP 08-27 BG",
+          "09-03 MP 09-10 B 09-17 MP 09-24 BG",
+          "10-01 MP 10-08 B 10-15 MP 10-22 BG 10-29 MP",
+          "11-05 B 11-12 MP 11-19 B 11-26 MPG",
+          "12-03 B 12-10 MP 12-17 B 12-24 MPG 12-31 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Šenkovec",
+      "podrucje": "Ruta 2: Općina Šenkovec – naselje Šenkovec i Knezovec",
+      "ulice": ["Anke Butorac (Šenkovec)", "Augusta Šenoe (Šenkovec)", "Braće Radića (Šenkovec)", "Budina (Šenkovec)", "Cvjetna ulica (Šenkovec)", "D. Brglesa (Šenkovec)", "Damira Lehkeca (Šenkovec)", "Dr. Vinka Žganca (Šenkovec)", "Franje Barića (Šenkovec)", "Gorčica (Šenkovec)", "Ive Lole Ribara (Šenkovec)", "Jelenska (Šenkovec)", "Josipa Bedekovića (Šenkovec)", "Josipa Horvata Zdelara (Šenkovec)", "Josipa Topleka (Šenkovec)", "Knezovec", "Ksajpa (Šenkovec)", "Marka Kovača (Šenkovec)", "Maršala Tita (Šenkovec)", "Naselje Dr. Vlatka Mačka (Šenkovec)", "Pavlinska (Šenkovec)", "Prvomajska ulica (Šenkovec)", "Šenkovec", "Trg Sv. Jelene (Šenkovec)", "Valenta Morandinija (Šenkovec)", "Vlahe Bukovca (Šenkovec)", "Vrtna ulica (Šenkovec)", "Zelengajska (Šenkovec)", "Zlatana Baloga (Šenkovec)", "Zrinskih (Šenkovec)"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-08 MP 01-15 BG 01-22 MP 01-29 B",
+          "02-05 MP 02-12 B 02-19 MPG 02-26 B",
+          "03-05 MP 03-12 B 03-19 MPG 03-26 B",
+          "04-02 MP 04-09 B 04-16 MPG 04-23 B 04-30 MP",
+          "05-07 B 05-14 MP 05-21 BG 05-28 MP",
+          "06-06 B! 06-11 MP 06-18 BG 06-25 MP",
+          "07-02 B 07-09 MP 07-16 BG 07-23 MP 07-30 B",
+          "08-06 MP 08-13 B 08-20 MPG 08-27 B",
+          "09-03 MP 09-10 B 09-17 MPG 09-24 B",
+          "10-01 MP 10-08 B 10-15 MPG 10-22 B 10-29 MP",
+          "11-05 B 11-12 MP 11-19 BG 11-26 MP",
+          "12-03 B 12-10 MP 12-17 BG 12-24 MP 12-31 B"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Mala Subotica",
+      "podrucje": "Ruta 3: OPĆINA MALA SUBOTICA - naselja Mala Subotica, Sveti Križ",
+      "ulice": ["Alojzija Stepinca (Mala Subotica)", "Augusta Šenoe (Mala Subotica)", "Augusta Šenoe (Sveti Križ)", "Benkovec (Mala Subotica)", "Braće Radića (Mala Subotica)", "Braće Radića (Sveti Križ)", "Brune Bušića (Mala Subotica)", "Cvjetna ulica (Mala Subotica)", "Čakovečka (Sveti Križ)", "Dr. Vinka Žganca (Mala Subotica)", "Dravska ulica (Mala Subotica)", "Glavna ulica (Mala Subotica)", "Gospodarska ulica (Mala Subotica)", "Ivana Gorana Kovačića (Mala Subotica)", "Ivana Vurušića (Mala Subotica)", "Jagodišće (Mala Subotica)", "Josipa Slavenskog (Sveti Križ)", "Ljudevita Gaja (Mala Subotica)", "Mala Subotica", "Marijin trg (Mala Subotica)", "Matije Gupca (Mala Subotica)", "Miroslava Krleže (Mala Subotica)", "Nikole Tesle (Mala Subotica)", "Nikole Tesle (Sveti Križ)", "Poljska ulica (Sveti Križ)", "Sajmišna ulica (Sveti Križ)", "Sveti Križ", "Tomaša Goričanca (Mala Subotica)", "Ulica 1. svibnja (Sveti Križ)", "Zorana Šegovića (Mala Subotica)"],
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 BG 01-21 MP 01-28 B",
+          "02-04 MP 02-11 BG 02-18 MP 02-25 B",
+          "03-04 MP 03-11 BG 03-18 MP 03-25 B",
+          "04-01 MP 04-08 BG 04-15 MP 04-22 B 04-29 MP",
+          "05-06 B 05-13 MPG 05-20 B 05-27 MP",
+          "06-03 B 06-10 MPG 06-17 B 06-24 MP",
+          "07-01 B 07-08 MPG 07-15 B 07-22 MP 07-29 B",
+          "08-08 MP! 08-12 BG 08-19 MP 08-26 B",
+          "09-02 MP 09-09 BG 09-16 MP 09-23 B 09-30 MP",
+          "10-07 B 10-14 MPG 10-21 B 10-28 MP",
+          "11-04 B 11-11 MPG 11-21 B! 11-25 MP",
+          "12-02 B 12-09 MPG 12-16 B 12-23 MP 12-30 B"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Mala Subotica",
+      "podrucje": "Ruta 4: Općina Mala Subotica – naselje Palovec,Držimurec,Strelec,Piškorovec",
+      "ulice": ["Čakovečka (Palovec)", "Držimurec", "Glavna ulica (Palovec)", "Mala (Palovec)", "Marof (Palovec)", "Melinska (Palovec)", "Nova ulica (Palovec)", "Palovec", "Piškorovec", "Strelec", "Športska ulica (Palovec)", "Tiha (Palovec)"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-08 MP 01-14 G 01-15 B 01-22 MP 01-29 B",
+          "02-05 MP 02-11 G 02-12 B 02-19 MP 02-26 B",
+          "03-05 MP 03-11 G 03-12 B 03-19 MP 03-26 B",
+          "04-02 MP 04-08 G 04-09 B 04-16 MP 04-23 B 04-30 MP",
+          "05-07 B 05-13 G 05-14 MP 05-21 B 05-28 MP",
+          "06-06 B! 06-10 G 06-11 MP 06-18 B 06-25 MP",
+          "07-02 B 07-08 G 07-09 MP 07-16 B 07-23 MP 07-30 B",
+          "08-06 MP 08-12 G 08-13 B 08-20 MP 08-27 B",
+          "09-03 MP 09-09 G 09-10 B 09-17 MP 09-24 B",
+          "10-01 MP 10-08 B 10-14 G 10-15 MP 10-22 B 10-29 MP",
+          "11-05 B 11-11 G 11-12 MP 11-19 B 11-26 MP",
+          "12-03 B 12-09 G 12-10 MP 12-17 B 12-24 MP 12-31 B"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Orehovica",
+      "podrucje": "Ruta 5: OPĆINA OREHOVICA - naselja Orehovica, Podbrest,Vularija",
+      "ulice": ["Antuna Gustava Matoša (Orehovica)", "Augusta Cesarca (Orehovica)", "Augusta Šenoe (Orehovica)", "Braće Malek (Podbrest)", "Braće Radića (Orehovica)", "Cvjetna ulica (Orehovica)", "Čakovečka (Orehovica)", "Dovrčice (Vularija)", "Dr. Vinka Žganca (Orehovica)", "Dravska (Vularija)", "Dravska ulica (Orehovica)", "Dravska ulica (Podbrest)", "Đurđevdanska ulica (Orehovica)", "Frankopanska ulica (Orehovica)", "Grofa Feštetića (Orehovica)", "Hrvatskih branitelja (Orehovica)", "Ilica (Orehovica)", "Josipa Slavenskog (Orehovica)", "Kalnička ulica (Podbrest)", "Kralja Zvonimira (Orehovica)", "Ljudevita Gaja (Orehovica)", "Marka Kovača (Podbrest)", "Matije Gupca (Orehovica)", "Matije Gupca (Vularija)", "Nikole Tesle (Orehovica)", "Omladinska ulica (Orehovica)", "Orehovica", "Pavleka Miškine (Orehovica)", "Podbrest", "Poljska ulica (Orehovica)", "Prvog maja (Vularija)", "Prvomajska ulica (Podbrest)", "Sportska (Orehovica)", "Stjepana Vojvode (Podbrest)", "Školska ulica (Orehovica)", "Vladimira Nazora (Orehovica)", "Vladimira Nazora (Podbrest)", "Vularija", "Zrinskih (Orehovica)", "Zrinskih (Vularija)"],
+      "raw": {
+        "2026": [
+          "01-10 MP! 01-13 B 01-20 MP 01-27 BG",
+          "02-03 MP 02-10 B 02-17 MP 02-24 BG",
+          "03-03 MP 03-10 B 03-17 MP 03-24 BG 03-31 MP",
+          "04-07 B 04-14 MP 04-21 B 04-28 MPG",
+          "05-05 B 05-12 MP 05-19 B 05-26 MPG",
+          "06-02 B 06-09 MP 06-16 B 06-23 MPG 06-30 B",
+          "07-07 MP 07-14 B 07-21 MP 07-28 BG",
+          "08-04 MP 08-11 B 08-18 MP 08-25 BG",
+          "09-01 MP 09-08 B 09-15 MP 09-22 BG 09-29 MP",
+          "10-06 B 10-13 MP 10-20 B 10-27 MPG",
+          "11-03 B 11-10 MP 11-17 B 11-24 MPG",
+          "12-01 B 12-08 MP 12-15 B 12-22 MPG 12-29 B"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Štrigova",
+      "podrucje": "Ruta 6: OPĆINA ŠTRIGOVA za naselja Štrigova,Leskovec,Robadje,Sveti Urban,Stanetinec",
+      "ulice": ["Leskovec", "Robadje", "Stanetinec", "Sveti Urban", "Štrigova"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-09 G 01-19 MP",
+          "02-02 MP 02-13 G 02-16 MP",
+          "03-02 MP 03-13 G 03-16 MP 03-30 MP",
+          "04-10 G 04-13 MP 04-27 MP",
+          "05-08 G 05-11 MP 05-25 MP",
+          "06-08 MP 06-12 G 06-27 MP!",
+          "07-06 MP 07-10 G 07-20 MP",
+          "08-03 MP 08-14 G 08-17 MP 08-31 MP",
+          "09-11 G 09-14 MP 09-28 MP",
+          "10-09 G 10-12 MP 10-26 MP",
+          "11-09 MP 11-13 G 11-23 MP",
+          "12-07 MP 12-11 G 12-21 MP"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Štrigova",
+      "podrucje": "Ruta 7: OPĆINA ŠTRIGOVA za naselja Prekopa,Železna Gora,Jalšovec,Grabrovnik,Banfi",
+      "ulice": ["Banfi", "Grabrovnik", "Jalšovec", "Prekopa", "Železna Gora"],
+      "raw": {
+        "2026": [
+          "01-09 G 01-10 MP! 01-20 MP",
+          "02-03 MP 02-13 G 02-17 MP",
+          "03-03 MP 03-13 G 03-17 MP 03-31 MP",
+          "04-10 G 04-14 MP 04-28 MP",
+          "05-08 G 05-12 MP 05-26 MP",
+          "06-09 MP 06-12 G 06-23 MP",
+          "07-07 MP 07-10 G 07-21 MP",
+          "08-04 MP 08-14 G 08-18 MP",
+          "09-01 MP 09-11 G 09-15 MP 09-29 MP",
+          "10-09 G 10-13 MP 10-27 MP",
+          "11-10 MP 11-13 G 11-24 MP",
+          "12-08 MP 12-11 G 12-22 MP"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Nedelišće",
+      "podrucje": "Ruta 8: OPĆINA NEDELIŠĆE- naselje Nedelišće (ponedjeljak)",
+      "ulice": ["Antuna Mutvara", "Augusta Šenoe", "Braće Radića", "Čakovečka", "Dravska ulica", "Grobljanska", "Josipa Štolcera Slavenskog", "Karlović Vinka", "Maršala Tita", "Nedelišće", "Nova ulica", "Novakova ulica", "Novo Naselje", "Ognjena Price", "Rade Končara", "Varaždinska", "Vrtna ulica"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-12 MPG 01-19 B 01-26 MP",
+          "02-02 B 02-09 MPG 02-16 B 02-23 MP",
+          "03-02 B 03-09 MPG 03-16 B 03-23 MP 03-30 B",
+          "04-11 MP! 04-13 BG 04-20 MP 04-27 B",
+          "05-04 MP 05-11 BG 05-18 MP 05-25 B",
+          "06-01 MP 06-08 BG 06-15 MP 06-27 B! 06-29 MP",
+          "07-06 B 07-13 MPG 07-20 B 07-27 MP",
+          "08-03 B 08-10 MPG 08-17 B 08-24 MP 08-31 B",
+          "09-07 MP 09-14 BG 09-21 MP 09-28 B",
+          "10-05 MP 10-12 BG 10-19 MP 10-26 B",
+          "11-02 MP 11-09 BG 11-16 MP 11-23 B 11-30 MP",
+          "12-07 B 12-14 MPG 12-21 B 12-28 MP"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Nedelišće",
+      "podrucje": "Ruta 9: OPĆINA NEDELIŠĆE - naselje Nedelišće - (utorak)",
+      "ulice": ["Antuna Gustava Matoša", "Đure Đakovića", "Gospodarska ulica", "Ivana Gundulića", "Ivana Mažuranića", "Josipa Marčeca", "Josipa Vrhovskog", "Jurja Križanića", "Kalnička ulica", "Livadarska", "Ljudevita Gaja", "Martina Viljevca", "Matije Gupca", "Nedelišće", "Petra Preradovića", "Prvomajska ulica", "Radnička ulica", "Ruđera Boškovića", "Sajmište", "Slavka Kolara", "Štamparska", "Trg Republike", "Trnavska ulica", "Uska ulica", "Vladimira Nazora", "Žarkovice"],
+      "raw": {
+        "2026": [
+          "01-10 B! 01-12 G 01-13 MP 01-20 B 01-27 MP",
+          "02-03 B 02-09 G 02-10 MP 02-17 B 02-24 MP",
+          "03-03 B 03-09 G 03-10 MP 03-17 B 03-24 MP 03-31 B",
+          "04-07 MP 04-13 G 04-14 B 04-21 MP 04-28 B",
+          "05-05 MP 05-11 G 05-12 B 05-19 MP 05-26 B",
+          "06-02 MP 06-08 G 06-09 B 06-16 MP 06-23 B 06-30 MP",
+          "07-07 B 07-13 G 07-14 MP 07-21 B 07-28 MP",
+          "08-04 B 08-10 G 08-11 MP 08-18 B 08-25 MP",
+          "09-01 B 09-08 MP 09-14 G 09-15 B 09-22 MP 09-29 B",
+          "10-06 MP 10-12 G 10-13 B 10-20 MP 10-27 B",
+          "11-03 MP 11-09 G 11-10 B 11-17 MP 11-24 B",
+          "12-01 MP 12-08 B 12-14 G 12-15 MP 12-22 B 12-29 MP"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Nedelišće",
+      "podrucje": "Ruta 10: Općina Nedelišće- naselje Pušćine, Gornji Kuršanec",
+      "ulice": ["Bana Josipa Jelačića (Gornji Kuršanec)", "Čakovečka (Gornji Kuršanec)", "Čakovečka (Pušćine)", "Dravska ulica (Gornji Kuršanec)", "Dravska ulica (Pušćine)", "Frankopanska ulica (Gornji Kuršanec)", "Gorčica (Nedelišće)", "Gornji Kuršanec", "Josipa Slavenskog (Pušćine)", "Ljudevita Gaja (Pušćine)", "Matije Gupca (Gornji Kuršanec)", "Matije Gupca (Pušćine)", "Nedelišće", "Nikole Tesle (Pušćine)", "Nova ulica (Pušćine)", "Obrtnička ulica (Pušćine)", "Petra Zrinskog (Pušćine)", "Pušćine", "Radnička ulica (Gornji Kuršanec)", "Školska ulica (Pušćine)", "Trg Mirka Blazinarića (Gornji Kuršanec)", "Uska ulica (Gornji Kuršanec)", "Vladimira Nazora (Pušćine)", "Voćarska ulica (Pušćine)", "Vodocrpilište (Nedelišće)", "Zrinskih (Gornji Kuršanec)"],
+      "raw": {
+        "2026": [
+          "01-07 B 01-08 G 01-14 MP 01-21 B 01-28 MP",
+          "02-04 B 02-11 MP 02-12 G 02-18 B 02-25 MP",
+          "03-04 B 03-11 MP 03-12 G 03-18 B 03-25 MP",
+          "04-01 B 04-08 MP 04-09 G 04-15 B 04-22 MP 04-29 B",
+          "05-06 MP 05-13 B 05-14 G 05-20 MP 05-27 B",
+          "06-03 MP 06-10 B 06-11 G 06-17 MP 06-24 B",
+          "07-01 MP 07-08 B 07-09 G 07-15 MP 07-22 B 07-29 MP",
+          "08-08 B! 08-12 MP 08-13 G 08-19 B 08-26 MP",
+          "09-02 B 09-09 MP 09-10 G 09-16 B 09-23 MP 09-30 B",
+          "10-07 MP 10-08 G 10-14 B 10-21 MP 10-28 B",
+          "11-04 MP 11-11 B 11-12 G 11-21 MP! 11-25 B",
+          "12-02 MP 12-09 B 12-10 G 12-16 MP 12-23 B 12-30 MP"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Nedelišće",
+      "podrucje": "Ruta 11: Općina Nedelišće - naselja Dunjkovec,Pretetinec,Slakovec,Črečan",
+      "ulice": ["Augusta Šenoe (Dunjkovec)", "Črečan", "Dunjkovec", "Glavna ulica (Dunjkovec)", "Ivana Gorana Kovačića (Dunjkovec)", "Ljudevita Gaja (Dunjkovec)", "Matije Gupca (Dunjkovec)", "Mirka Bukovca (Dunjkovec)", "Nikole Tesle (Dunjkovec)", "Nova ulica (Dunjkovec)", "Pretetinec", "Slakovec", "Strossmayerova (Dunjkovec)", "Zrinskih (Dunjkovec)", "Željezničko Stajalište (Dunjkovec)"],
+      "raw": {
+        "2026": [
+          "01-03 MP! 01-08 BG 01-15 MP 01-22 B 01-29 MP",
+          "02-05 B 02-12 MPG 02-19 B 02-26 MP",
+          "03-05 B 03-12 MPG 03-19 B 03-26 MP",
+          "04-02 B 04-09 MPG 04-16 B 04-23 MP 04-30 B",
+          "05-07 MP 05-14 BG 05-21 MP 05-28 B",
+          "06-06 MP! 06-11 BG 06-18 MP 06-25 B",
+          "07-02 MP 07-09 BG 07-16 MP 07-23 B 07-30 MP",
+          "08-06 B 08-13 MPG 08-20 B 08-27 MP",
+          "09-03 B 09-10 MPG 09-17 B 09-24 MP",
+          "10-01 B 10-08 MPG 10-15 B 10-22 MP 10-29 B",
+          "11-05 MP 11-12 BG 11-19 MP 11-26 B",
+          "12-03 MP 12-10 BG 12-17 MP 12-24 B 12-31 MP"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Nedelišće",
+      "podrucje": "Ruta 12: Općina Nedelišće - naselja Gornji Hrašćan,Macinec,Trnovec,Parag",
+      "ulice": ["Bana Josipa Jelačića (Gornji Hrašćan)", "Braće Radića (Gornji Hrašćan)", "Brežna ulica (Macinec)", "Čakovečka (Gornji Hrašćan)", "Dr. Ivana Novaka (Gornji Hrašćan)", "Dr. Ivana Novaka (Macinec)", "Dr. Vinka Žganca (Gornji Hrašćan)", "Glavna ulica (Macinec)", "Gornji Hrašćan", "Ivana Gorana Kovačića (Gornji Hrašćan)", "Josipa Bedekovića (Gornji Hrašćan)", "Kolodvorska ulica (Macinec)", "Kralja Tomislava (Gornji Hrašćan)", "Ljudevita Gaja (Macinec)", "Macinec", "Martina Pušteka (Gornji Hrašćan)", "Matije Gupca (Macinec)", "Miroslava Krleže (Macinec)", "Nikole Tesle (Gornji Hrašćan)", "Nova ulica (Macinec)", "Stjepana Radića (Macinec)", "Školska ulica (Macinec)", "Trnavska ulica (Macinec)", "Trnovec", "Varaždinska (Gornji Hrašćan)", "Vladimira Nazora (Gornji Hrašćan)", "Zrinsko-Frankopanska (Gornji Hrašćan)", "Željezničko Stajalište (Macinec)"],
+      "raw": {
+        "2026": [
+          "01-02 MP 01-08 G 01-09 B 01-16 MP 01-23 B 01-30 MP",
+          "02-06 B 02-12 G 02-13 MP 02-20 B 02-27 MP",
+          "03-06 B 03-12 G 03-13 MP 03-20 B 03-27 MP",
+          "04-03 B 04-09 G 04-10 MP 04-17 B 04-24 MP",
+          "05-02 B! 05-08 MP 05-14 G 05-15 B 05-22 MP 05-29 B",
+          "06-05 MP 06-11 G 06-12 B 06-19 MP 06-26 B",
+          "07-03 MP 07-09 G 07-10 B 07-17 MP 07-24 B 07-31 MP",
+          "08-07 B 08-13 G 08-14 MP 08-21 B 08-28 MP",
+          "09-04 B 09-10 G 09-11 MP 09-18 B 09-25 MP",
+          "10-02 B 10-08 G 10-09 MP 10-16 B 10-23 MP 10-30 B",
+          "11-06 MP 11-12 G 11-13 B 11-20 MP 11-27 B",
+          "12-04 MP 12-10 G 12-11 B 12-18 MP 12-28 B!"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 13: Grad Čakovec - naselje Čakovec - ponedjeljak 1.1",
+      "ulice": ["Bana Josipa Jelačića", "Branka Lustiga", "Čakovec", "Dr. Rudolfa Horvata", "Dragutina Domjanića", "Ivana Gorana Kovačića", "Ivana Gundulića", "Ivana Mažuranića", "Ivane Brlić Mažuranić", "Josipa Bana Jelačića", "Jurja IV. Zrinskog", "Koče Racina", "Marije Jurić-Zagorke", "Marije Zidarić", "Marofska ulica", "Martina Pušteka", "Mate Lovraka", "Mihalja Bučića", "Otona Župančića", "Petra Preradovića", "Stanka Vraza", "Tome Masaryka", "ZAVNOH-A"],
+      "raw": {
+        "2026": [
+          "01-05 BG 01-12 MP 01-19 B 01-26 MP",
+          "02-02 BG 02-09 MP 02-16 B 02-23 MP",
+          "03-02 BG 03-09 MP 03-16 B 03-23 MP 03-30 B",
+          "04-07 G 04-11 MP! 04-13 B 04-20 MP 04-27 B",
+          "05-04 MPG 05-11 B 05-18 MP 05-25 B",
+          "06-01 MPG 06-08 B 06-15 MP 06-27 B! 06-29 MP",
+          "07-06 BG 07-13 MP 07-20 B 07-27 MP",
+          "08-03 BG 08-10 MP 08-17 B 08-24 MP 08-31 B",
+          "09-07 MPG 09-14 B 09-21 MP 09-28 B",
+          "10-05 MPG 10-12 B 10-19 MP 10-26 B",
+          "11-02 MPG 11-09 B 11-16 MP 11-23 B 11-30 MP",
+          "12-07 BG 12-14 MP 12-21 B 12-28 MP"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 14: Grad Čakovec - naselje Čakovec - ponedjeljak 1.2",
+      "ulice": ["Čakovec", "Domovinskih žrtava", "Dr. Đorđa Pala", "Dr. Franje Bučara", "Dr. Tome Bratkovića", "Dragutina Tadijanovića", "Dravska", "E. i G. Legenstein", "Elemera Vajde", "Ivana Meštrovića", "Josipa Bedekovića", "Jurja Križanića", "Kalnička ulica", "Kolodvorska ulica", "Ladislava Jageca", "Martane", "Međimurskih branitelja", "Mihovljanska ulica", "Poljska ulica", "Silvija Strahimira Kranjčevića", "Tina Ujevića", "Trate", "Travnička ulica", "Travnik", "Vatroslava Lisinskog", "Vrtna ulica", "Zagrebačka ulica", "Zapadna ulica", "Zinke Kunc", "Zvonka Milkovića"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 G 01-12 MP 01-19 B 01-26 MP",
+          "02-02 B 02-03 G 02-09 MP 02-16 B 02-23 MP",
+          "03-02 B 03-03 G 03-09 MP 03-16 B 03-23 MP 03-30 B",
+          "04-07 G 04-11 MP! 04-13 B 04-20 MP 04-27 B",
+          "05-04 MP 05-05 G 05-11 B 05-18 MP 05-25 B",
+          "06-01 MP 06-02 G 06-08 B 06-15 MP 06-27 B! 06-29 MP",
+          "07-06 B 07-07 G 07-13 MP 07-20 B 07-27 MP",
+          "08-03 B 08-04 G 08-10 MP 08-17 B 08-24 MP 08-31 B",
+          "09-01 G 09-07 MP 09-14 B 09-21 MP 09-28 B",
+          "10-05 MP 10-06 G 10-12 B 10-19 MP 10-26 B",
+          "11-02 MP 11-03 G 11-09 B 11-16 MP 11-23 B 11-30 MP",
+          "12-01 G 12-07 B 12-14 MP 12-21 B 12-28 MP"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 15: Grad Čakovec - naselje Čakovec - višestambene zgrade (višestambene zgrade - kante)",
+      "ulice": ["Aleksandra Schulteissa", "Andrije Kačića-Miošića", "Andrije Mohorovičića", "Antuna Augustinčića", "Antuna Gustava Matoša", "Antuna Mihanovića", "Augusta Cesarca", "Augusta Šenoe", "Bana Josipa Jelačića", "Bartola Kašića", "Braće Graner", "Braće Vajs", "Branka Lustiga", "Buzovečka ulica", "Carinarski odvojak", "Cvjetna ulica", "Čakovec", "Dobriše Cesarića", "Domovinskih žrtava", "Dr. Ante Starčevića", "Dr. Đorđa Pala", "Dr. Franje Bučara", "Dr. Franje Debana", "Dr. Ivana Novaka", "Dr. Tome Bratkovića", "Dr. Vinka Žganca", "Dr. Vlatka Mačeka", "Dragutina Domjanića", "Dragutina Tadijanovića", "Dravska", "E. i G. Legenstein", "Elemera Vajde", "Florijana Andrašeca", "Fortunata Pintarića", "France Prešerna", "Franje Punčeca", "Franjevački trg", "Globetka", "Hrvatskih branitelja", "Istarska", "Ivana Gorana Kovačića", "Ivana Gundulića", "Ivana Mažuranića", "Ivana Meštrovića", "Ivana Pergošića", "Ivana pl. Zajca", "Ivana Sokača", "Ivane Brlić Mažuranić", "Ive Andrića", "Jakova Gotovca", "Janka Slogara", "Josipa Bana Jelačića", "Josipa Bedekovića", "Josipa Kozarca", "Josipa Štolcera Slavenskog", "Jože Požgaja", "Jurice Muraia", "Jurja IV. Zrinskog", "Jurja Križanića", "Kalmana Mesarića", "Kalnička ulica", "Katarine Zrinski", "Koče Racina", "Kolodvorska ulica", "Kralja Tomislava", "Kralja Zvonimira", "Ladislava Jageca", "Ladislava Kralja", "Lavoslava Ružičke", "Ljudevita Gaja", "Luje Bezeredija", "Marije Jurić-Zagorke", "Marije Zidarić", "Marofska ulica", "Martane", "Martina Pušteka", "Mate Lovraka", "Matice Hrvatske", "Matije Gupca", "Međimurskih branitelja", "Mihalja Bučića", "Mihovila Pavleka Miškine", "Mihovljanska ulica", "Milke Trnine", "Mirka Kolarića", "Miroslava Krleže", "Miroslava Magdalenića", "Mlinska ulica", "Neumannova ulica", "Nikole Pavića", "Nikole Tesle", "Nova ulica", "Obrtnička ulica", "Ognjena Price", "Otokara Keršovanija", "Otona Kučere", "Otona Župančića", "Park Rudolfa Kropeka", "Perivoj Zrinskih", "Petra Preradovića", "Planinarski put", "Poljska ulica", "Preloška", "Putjane", "Radnička ulica", "Republike Austrije", "Republike Italije", "Rudolfa Steinera", "Ruđera Boškovića", "Silvija Strahimira Kranjčevića", "Slave Raškaj", "Slavka Kolara", "Stanka Vraza", "Stjepana Bencea", "Stjepana Radića", "Strossmayerova", "Svetojelenska cesta", "Špinčićeva ulica", "Športska ulica", "Teniski park", "Tina Ujevića", "Tomaša Goričanca", "Tome Masaryka", "Trate", "Travnička ulica", "Travnik", "Trg Eugena Kvaternika", "Trg Pape Ivana Pavla II.", "Trg Republike", "Trnavska ulica", "Ulica 17. rujna 1991.", "Ulica 34. Inženjerske bojne", "Uska ulica", "Valenta Morandinija", "Vatroslava Lisinskog", "Vladimira Nazora", "Vrtna ulica", "Vukovarska ulica", "Zagrebačka ulica", "Zapadna ulica", "ZAVNOH-A", "Zelena ulica", "Zinke Kunc", "Zrinsko-Frankopanska", "Zvonka Milkovića", "Žrtava Fašizma"],
+      "raw": {
+        "2026": [
+          "01-02 MP 01-07 B! 01-09 MP 01-13 B 01-16 MP 01-20 B 01-23 MP 01-27 B 01-30 MP",
+          "02-03 B 02-06 MP 02-10 B 02-13 MP 02-17 B 02-20 MP 02-24 B 02-27 MP",
+          "03-03 B 03-06 MP 03-10 B 03-13 MP 03-17 B 03-20 MP 03-24 B 03-27 MP 03-31 B",
+          "04-03 MP 04-07 B 04-10 MP 04-14 B 04-17 MP 04-21 B 04-24 MP 04-28 B",
+          "05-02 MP! 05-05 B 05-08 MP 05-12 B 05-15 MP 05-19 B 05-22 MP 05-26 B 05-29 MP",
+          "06-02 B 06-05 MP 06-09 B 06-12 MP 06-16 B 06-19 MP 06-23 B 06-26 MP 06-30 B",
+          "07-03 MP 07-07 B 07-10 MP 07-14 B 07-17 MP 07-21 B 07-24 MP 07-28 B 07-31 MP",
+          "08-04 B 08-07 MP 08-11 B 08-14 MP 08-18 B 08-21 MP 08-25 B 08-28 MP",
+          "09-01 B 09-04 MP 09-08 B 09-11 MP 09-15 B 09-18 MP 09-22 B 09-25 MP 09-29 B",
+          "10-02 MP 10-06 B 10-09 MP 10-13 B 10-16 MP 10-20 B 10-23 MP 10-27 B 10-30 MP",
+          "11-03 B 11-06 MP 11-10 B 11-13 MP 11-17 B 11-20 MP 11-24 B 11-27 MP",
+          "12-01 B 12-04 MP 12-08 B 12-11 MP 12-15 B 12-18 MP 12-22 B 12-24 MP! 12-29 B"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 16: Grad Čakovec - MO Kuršanec LUG (kante: Kuršanec; kontejner 1100: Čakovec)",
+      "ulice": ["Cvjetna ulica (Kuršanec)", "Čakovec", "Dobriše Cesarića", "France Prešerna", "Ivana pl. Zajca", "Kuršanec", "Ludbreška (Kuršanec)", "Matije Gupca (Kuršanec)", "Radnička ulica (Kuršanec)", "Uska ulica (Kuršanec)", "Vrtna ulica (Kuršanec)", "Vukovarska ulica", "Vukovarska ulica (Kuršanec)", "Zrinskih (Kuršanec)"],
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 MP 01-21 MP 01-28 MP",
+          "02-04 MP 02-11 MP 02-18 MP 02-25 MP",
+          "03-04 MP 03-11 MP 03-18 MP 03-25 MP",
+          "04-01 MP 04-08 MP 04-15 MP 04-22 MP 04-29 MP",
+          "05-06 MP 05-13 MP 05-20 MP 05-27 MP",
+          "06-03 MP 06-10 MP 06-17 MP 06-24 MP",
+          "07-01 MP 07-08 MP 07-15 MP 07-22 MP 07-29 MP",
+          "08-08 MP! 08-12 MP 08-19 MP 08-26 MP",
+          "09-02 MP 09-09 MP 09-16 MP 09-23 MP 09-30 MP",
+          "10-07 MP 10-14 MP 10-21 MP 10-28 MP",
+          "11-04 MP 11-11 MP 11-21 MP! 11-25 MP",
+          "12-02 MP 12-09 MP 12-16 MP 12-23 MP 12-30 MP"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 17: GRAD ČAKOVEC - naselje Čakovec - srijeda 3.1",
+      "ulice": ["Andrije Kačića-Miošića", "Andrije Mohorovičića", "Antuna Gustava Matoša", "Augusta Šenoe", "Bartola Kašića", "Braće Graner", "Braće Vajs", "Carinarski odvojak", "Cvjetna ulica", "Čakovec", "Dr. Ivana Novaka", "Florijana Andrašeca", "Franje Punčeca", "Franjevački trg", "Globetka", "Hrvatskih branitelja", "Ivana pl. Zajca", "Jakova Gotovca", "Janka Slogara", "Josipa Štolcera Slavenskog", "Jože Požgaja", "Katarine Zrinski", "Kralja Tomislava", "Ljudevita Gaja", "Matice Hrvatske", "Mirka Kolarića", "Miroslava Magdalenića", "Mlinska ulica", "Neumannova ulica", "Obrtnička ulica", "Otokara Keršovanija", "Park Rudolfa Kropeka", "Perivoj Zrinskih", "Planinarski put", "Slavka Kolara", "Strossmayerova", "Svetojelenska cesta", "Športska ulica", "Teniski park", "Trg Eugena Kvaternika", "Trg Republike", "Uska ulica", "Valenta Morandinija", "Vladimira Nazora", "Vukovarska ulica", "Zelena ulica", "Zrinsko-Frankopanska"],
+      "raw": {
+        "2026": [
+          "01-07 BG 01-14 MP 01-21 B 01-28 MP",
+          "02-04 BG 02-11 MP 02-18 B 02-25 MP",
+          "03-04 BG 03-11 MP 03-18 B 03-25 MP",
+          "04-01 BG 04-08 MP 04-15 B 04-22 MP 04-29 B",
+          "05-06 MPG 05-13 B 05-20 MP 05-27 B",
+          "06-03 MPG 06-10 B 06-17 MP 06-24 B",
+          "07-01 MPG 07-08 B 07-15 MP 07-22 B 07-29 MP",
+          "08-06 G 08-08 B! 08-12 MP 08-19 B 08-26 MP",
+          "09-02 BG 09-09 MP 09-16 B 09-23 MP 09-30 B",
+          "10-07 MPG 10-14 B 10-21 MP 10-28 B",
+          "11-04 MPG 11-11 B 11-21 MP! 11-25 B",
+          "12-02 MPG 12-09 B 12-16 MP 12-23 B 12-30 MP"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 18: Grad Čakovec - naselje Čakovec - četvrtak 4.1",
+      "ulice": ["Aleksandra Schulteissa", "Augusta Cesarca", "Čakovec", "Dobriše Cesarića", "Dr. Ante Starčevića", "France Prešerna", "Istarska", "Ivana Pergošića", "Josipa Kozarca", "Jurice Muraia", "Kalmana Mesarića", "Kralja Zvonimira", "Lavoslava Ružičke", "Nikole Tesle", "Nova ulica", "Ognjena Price", "Otona Kučere", "Preloška", "Republike Austrije", "Republike Italije", "Rudolfa Steinera", "Ruđera Boškovića", "Stjepana Bencea", "Stjepana Radića", "Špinčićeva ulica", "Trnavska ulica", "Ulica 17. rujna 1991.", "Ulica 34. Inženjerske bojne", "Žrtava Fašizma"],
+      "raw": {
+        "2026": [
+          "01-02 G 01-03 MP! 01-08 B 01-15 MP 01-22 B 01-29 MP",
+          "02-05 BG 02-12 MP 02-19 B 02-26 MP",
+          "03-05 BG 03-12 MP 03-19 B 03-26 MP",
+          "04-02 BG 04-09 MP 04-16 B 04-23 MP 04-30 B",
+          "05-07 MPG 05-14 B 05-21 MP 05-28 B",
+          "06-05 G 06-06 MP! 06-11 B 06-18 MP 06-25 B",
+          "07-02 MPG 07-09 B 07-16 MP 07-23 B 07-30 MP",
+          "08-06 BG 08-13 MP 08-20 B 08-27 MP",
+          "09-03 BG 09-10 MP 09-17 B 09-24 MP",
+          "10-01 BG 10-08 MP 10-15 B 10-22 MP 10-29 B",
+          "11-05 MPG 11-12 B 11-19 MP 11-26 B",
+          "12-03 MPG 12-10 B 12-17 MP 12-24 B 12-31 MP"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 19: Grad Čakovec - naselje Čakovec - petak 5.2",
+      "ulice": ["Antuna Augustinčića", "Antuna Mihanovića", "Buzovečka ulica", "Čakovec", "Dr. Franje Debana", "Dr. Vinka Žganca", "Dr. Vlatka Mačeka", "Fortunata Pintarića", "Ivana Sokača", "Ive Andrića", "Ladislava Kralja", "Luje Bezeredija", "Matije Gupca", "Mihovila Pavleka Miškine", "Milke Trnine", "Miroslava Krleže", "Nikole Pavića", "Putjane", "Radnička ulica", "Slave Raškaj", "Tomaša Goričanca", "Trg Pape Ivana Pavla II."],
+      "raw": {
+        "2026": [
+          "01-02 MPG 01-09 B 01-16 MP 01-23 B 01-30 MP",
+          "02-06 BG 02-13 MP 02-20 B 02-27 MP",
+          "03-06 BG 03-13 MP 03-20 B 03-27 MP",
+          "04-03 BG 04-10 MP 04-17 B 04-24 MP",
+          "05-02 B! 05-04 G 05-08 MP 05-15 B 05-22 MP 05-29 B",
+          "06-05 MPG 06-12 B 06-19 MP 06-26 B",
+          "07-03 MPG 07-10 B 07-17 MP 07-24 B 07-31 MP",
+          "08-07 BG 08-14 MP 08-21 B 08-28 MP",
+          "09-04 BG 09-11 MP 09-18 B 09-25 MP",
+          "10-02 BG 10-09 MP 10-16 B 10-23 MP 10-30 B",
+          "11-06 MPG 11-13 B 11-20 MP 11-27 B",
+          "12-04 MPG 12-11 B 12-18 MP 12-28 B!"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 20: Grad Čakovec -naselja Mačkovec,Žiškovec, Slemenice, Krištanovec",
+      "napomena": "Pilot projekt: plastična ambalaža odlaže se u žutu kantu koja se odvozi jednom mjesečno, zajedno s miješanim otpadom: 20.07., 31.08., 28.09., 26.10., 23.11., 21.12.",
+      "ulice": ["Balogovec (Mačkovec)", "Breg (Mačkovec)", "Brezić (Mačkovec)", "Dr. Ivana Novaka (Mačkovec)", "Dr. Vinka Žganca (Mačkovec)", "Glavna ulica (Žiškovec)", "Josipa Bana Jelačića (Mačkovec)", "Josipa Slavenskog (Mačkovec)", "Jurja Zrinskog (Mačkovec)", "Kotić (Mačkovec)", "Krištanovec", "Mačkovec", "Međgaje (Mačkovec)", "Slemenice", "Trg Sv. Petra i Pavla (Mačkovec)", "Voljak (Mačkovec)", "Zelena ulica (Mačkovec)", "Žiškovec"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 B 01-19 MPG 01-26 B",
+          "02-02 MP 02-09 B 02-16 MPG 02-23 B",
+          "03-02 MP 03-09 B 03-16 MPG 03-23 B 03-30 MP",
+          "04-11 B! 04-13 MP 04-20 BG 04-27 MP",
+          "05-04 B 05-11 MP 05-18 BG 05-25 MP",
+          "06-01 B 06-08 MP 06-15 BG 06-27 MP! 06-29 B",
+          "07-06 MP 07-13 B 07-20 MPG 07-27 B",
+          "08-03 MP 08-10 B 08-17 MPG 08-24 B 08-31 MP",
+          "09-07 B 09-14 MP 09-21 BG 09-28 MP",
+          "10-05 B 10-12 MP 10-19 BG 10-26 MP",
+          "11-02 B 11-09 MP 11-16 BG 11-23 MP 11-30 B",
+          "12-07 MP 12-14 B 12-21 MPG 12-28 B"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 21: GRAD ČAKOVEC - naselja Štefanec,Ivanovec,Novo Selo na Dravi",
+      "ulice": ["Augusta Šenoe (Ivanovec)", "Bana Josipa Jelačića (Ivanovec)", "Braće Radića (Ivanovec)", "Braće Radića (Štefanec)", "Čakovečka (Ivanovec)", "Dr. Vinka Žganca (Novo Selo na Dravi)", "Dr. Vladimira Bakarića (Novo Selo na Dravi)", "Gornji Vidovec (Ivanovec)", "Grabanica (Ivanovec)", "Ivanovec", "Josipa Broza (Ivanovec)", "Josipa Slavenskog (Ivanovec)", "Kalnička ulica (Ivanovec)", "Kalnički odvojak (Ivanovec)", "Kralja Tomislava (Ivanovec)", "Matije Gupca (Ivanovec)", "Matije Gupca (Novo Selo na Dravi)", "Matije Gupca (Štefanec)", "Mihovila Pavleka Miškine (Ivanovec)", "Nikole Tesle (Štefanec)", "Novo Selo na Dravi", "Prečna (Ivanovec)", "Preloge (Ivanovec)", "Prvomajska ulica (Novo Selo na Dravi)", "Radnička ulica (Ivanovec)", "Štefanec", "Tina Ujevića (Ivanovec)", "Tratice (Ivanovec)", "Trg Hrvatskih velikana (Ivanovec)", "Varaždinska (Ivanovec)", "Vladimira Nazora (Ivanovec)", "Vladimira Nazora (Štefanec)", "Zagrebačka ulica (Ivanovec)", "Zavrtna (Ivanovec)", "Zrinskih (Ivanovec)", "Zrinskih (Štefanec)"],
+      "raw": {
+        "2026": [
+          "01-10 MP! 01-13 B 01-20 MPG 01-27 B",
+          "02-03 MP 02-10 B 02-17 MPG 02-24 B",
+          "03-03 MP 03-10 B 03-17 MPG 03-24 B 03-31 MP",
+          "04-07 B 04-14 MP 04-21 BG 04-28 MP",
+          "05-05 B 05-12 MP 05-19 BG 05-26 MP",
+          "06-02 B 06-09 MP 06-16 BG 06-23 MP 06-30 B",
+          "07-07 MP 07-14 B 07-21 MPG 07-28 B",
+          "08-04 MP 08-11 B 08-18 MPG 08-25 B",
+          "09-01 MP 09-08 B 09-15 MPG 09-22 B 09-29 MP",
+          "10-06 B 10-13 MP 10-20 BG 10-27 MP",
+          "11-03 B 11-10 MP 11-17 BG 11-24 MP",
+          "12-01 B 12-08 MP 12-15 BG 12-22 MP 12-29 B"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 22: GRAD ČAKOVEC - naselja Novo Selo Rok,Mihovljan",
+      "napomena": "Pilot projekt: plastična ambalaža odlaže se u žutu kantu koja se odvozi jednom mjesečno, zajedno s miješanim otpadom: 22.07., 19.08., 30.09., 28.10., 25.11., 23.12.",
+      "ulice": ["Ivana Gorana Kovačića (Mihovljan)", "Ivana Gundulića (Mihovljan)", "Ive Lole Ribara (Novo Selo Rok)", "Jerača (Mihovljan)", "Josipa Bajkovca (Mihovljan)", "Josipa Horvata Zdelara (Mihovljan)", "Katarine Zrinski (Mihovljan)", "Marka Kovača (Mihovljan)", "Maršala Tita (Novo Selo Rok)", "Matije Gupca (Mihovljan)", "Matije Gupca (Novo Selo Rok)", "Mihovljan", "Nikole Tesle (Mihovljan)", "Novo Selo Rok", "Prvomajska ulica (Mihovljan)", "Rade Končara (Mihovljan)", "Rade Končara (Novo Selo Rok)", "Sportska (Mihovljan)", "Svetog Mihovila (Mihovljan)", "Šafran (Mihovljan)", "Školska ulica (Novo Selo Rok)", "Športska ulica (Mihovljan)", "Vladimira Nazora (Mihovljan)", "Vladimira Nazora (Novo Selo Rok)", "Zvir (Mihovljan)"],
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 B 01-21 MPG 01-28 B",
+          "02-04 MP 02-11 B 02-18 MPG 02-25 B",
+          "03-04 MP 03-11 B 03-18 MPG 03-25 B",
+          "04-01 MP 04-08 B 04-15 MPG 04-22 B 04-29 MP",
+          "05-06 B 05-13 MP 05-20 BG 05-27 MP",
+          "06-03 B 06-10 MP 06-17 BG 06-24 MP",
+          "07-01 B 07-08 MP 07-15 BG 07-22 MP 07-29 B",
+          "08-08 MP! 08-12 B 08-19 MPG 08-26 B",
+          "09-02 MP 09-09 B 09-16 MPG 09-23 B 09-30 MP",
+          "10-07 B 10-14 MP 10-21 BG 10-28 MP",
+          "11-04 B 11-11 MP 11-19 G 11-21 B! 11-25 MP",
+          "12-02 B 12-09 MP 12-16 BG 12-23 MP 12-30 B"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Čakovec",
+      "podrucje": "Ruta 23: Grad Čakovec - naselja Savska Ves,Šandorovec,Totovec,Kuršanec",
+      "ulice": ["Bratstva i Jedinstva (Savska Ves)", "Cvjetna ulica (Šandorovec)", "Čakovec", "Čakovečka (Kuršanec)", "Čakovečka (Totovec)", "Dr. Vladimira Bakarića (Totovec)", "Dravska ulica (Kuršanec)", "Dravska ulica (Šandorovec)", "Dravska ulica (Totovec)", "Glavna ulica (Kuršanec)", "Josipa Bajkovca (Savska Ves)", "Katarine Zrinski (Savska Ves)", "Kolodvorska ulica (Savska Ves)", "Kuršanec", "Marka Kovača (Totovec)", "Međimurska (Kuršanec)", "Poljska ulica (Kuršanec)", "Prvomajska ulica (Kuršanec)", "Prvomajska ulica (Šandorovec)", "Prvomajska ulica (Totovec)", "Radnička ulica (Savska Ves)", "Radnička ulica (Šandorovec)", "Savska Ves", "Sv. Antuna Padovanskog (Savska Ves)", "Šandorovec", "Totovec", "Varaždinska (Kuršanec)", "Vladimira Nazora (Šandorovec)", "Zagrebačka ulica (Kuršanec)"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-09 MP 01-16 BG 01-23 MP 01-30 B",
+          "02-06 MP 02-13 B 02-20 MPG 02-27 B",
+          "03-06 MP 03-13 B 03-20 MPG 03-27 B",
+          "04-03 MP 04-10 B 04-17 MPG 04-24 B",
+          "05-02 MP! 05-08 B 05-15 MPG 05-22 B 05-29 MP",
+          "06-05 B 06-12 MP 06-19 BG 06-26 MP",
+          "07-03 B 07-10 MP 07-17 BG 07-24 MP 07-31 B",
+          "08-07 MP 08-14 B 08-21 MPG 08-28 B",
+          "09-04 MP 09-11 B 09-18 MPG 09-25 B",
+          "10-02 MP 10-09 B 10-16 MPG 10-23 B 10-30 MP",
+          "11-06 B 11-13 MP 11-20 BG 11-27 MP",
+          "12-04 B 12-11 MP 12-18 BG 12-28 MP!"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Gornji Mihaljevec",
+      "podrucje": "Ruta 24: Općina Gornji Mihaljevec za naselja Badličan, Bogdanovec, Dragoslavec Breg, Dragoslavec Selo, Gornja Dubrava, Gornji Mihaljevec, Martinuševec, Preseka, Prhovec, Tupkovec, Vugrišinec, Vukanovec",
+      "napomena": "Raspored ove rute objavljen je od 01.07.2026. Mobilno reciklažno dvorište: 28.07., 23.10.",
+      "ulice": ["Badličan", "Bogdanovec", "Dragoslavec Breg", "Dragoslavec Selo", "Gornja Dubrava", "Gornji Mihaljevec", "Martinuševec", "Preseka", "Prhovec", "Tupkovec", "Vugrišinec", "Vukanovec"],
+      "raw": {
+        "2026": [
+          "07-10 MP 07-24 MP 07-27 G",
+          "08-07 MP 08-21 MP 08-24 G",
+          "09-04 MP 09-18 MP 09-28 G",
+          "10-02 MP 10-16 MP 10-26 G 10-30 MP",
+          "11-13 MP 11-23 G 11-27 MP",
+          "12-11 MP 12-28 G 12-29 MP!"
+        ]
+      }
+    }
+  }
+}
