@@ -1,0 +1,1186 @@
+{
+  "davatelj": "Komunalac d.o.o. Slavonski Brod",
+  "web": "https://www.komunalac-sb.hr",
+  "izvor": "https://www.komunalac-sb.hr/raspored/komunalni",
+  "zupanija": "Brodsko-posavska",
+  "jls": ["Slavonski Brod"],
+  "napomene": ["Miješani komunalni otpad i biootpad odvoze se svaki tjedan, papir (plava kanta) i plastika (žuta kanta) zajedno dvaput mjesečno, prema danima iz tražilice ulica na komunalac-sb.hr.", "Zeleni otpad odvozi se jednom mjesečno po terenima (https://www.komunalac-sb.hr/raspored-odvoza-zelenog-otpada/); nije uključen u ovaj raspored.", "Reciklažna dvorišta: Sjeverna vezna cesta 52z, Gospodarska ulica 4 (Kolonija) i Stanka Vraza 2C (odlagalište Vijuš – jug).", "Dani odvoza po ulicama: https://komsb.silicabit.com/json/ulice.json (datoteka izmijenjena 13.01.2025.).", "Blagdani 2026: odvoz je i na blagdane prema rasporedu, osim: 01.01. → 03.01. (obavijest); 25.12. → 26.12. (pretpostavka prema praksi, obavijest još nije objavljena). Izvor: obavijesti \"Radno vrijeme ...\" na https://www.komunalac-sb.hr (redovno prema obavijesti: 06.01., 06.04., 01.05., 04.06., 22.06., 05.08.)."],
+  "zone": {
+    "1": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad ponedjeljak; papir i plastika 2. i 4. srijeda u mjesecu",
+      "ulice": ["Bračka ulica", "Cerje", "Cerje I", "Dravska ulica", "Dunavska ulica", "Firkovac", "Grabovac I", "Grabovac II", "Ivankov dol I", "Ivankov dol II", "Ivin put", "Krbavska ulica", "Kvarnerska ulica", "Mali dol", "Međimurska ulica", "Mosorska ulica", "Plitvička ulica", "Posavska ulica", "Požeška ulica neparni od 1 do 188", "Požeška ulica parni od 80 do 188", "Prigorska ulica", "Prigorski dol", "Put Male Gospe", "Sadovi I", "Sadovi II", "Ulica Svetog Roka", "Velebitska ulica", "Veliki dol", "Zagorska ulica", "Zagrebačka ulica neparni od 1 do 41", "Žumberačka ulica", "Županjska ulica"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-14 PK 01-19 MB 01-26 MB 01-28 PK",
+          "02-02 MB 02-09 MB 02-11 PK 02-16 MB 02-23 MB 02-25 PK",
+          "03-02 MB 03-09 MB 03-11 PK 03-16 MB 03-23 MB 03-25 PK 03-30 MB",
+          "04-06 MB 04-08 PK 04-13 MB 04-20 MB 04-22 PK 04-27 MB",
+          "05-04 MB 05-11 MB 05-13 PK 05-18 MB 05-25 MB 05-27 PK",
+          "06-01 MB 06-08 MB 06-10 PK 06-15 MB 06-22 MB 06-24 PK 06-29 MB",
+          "07-06 MB 07-08 PK 07-13 MB 07-20 MB 07-22 PK 07-27 MB",
+          "08-03 MB 08-10 MB 08-12 PK 08-17 MB 08-24 MB 08-26 PK 08-31 MB",
+          "09-07 MB 09-09 PK 09-14 MB 09-21 MB 09-23 PK 09-28 MB",
+          "10-05 MB 10-12 MB 10-14 PK 10-19 MB 10-26 MB 10-28 PK",
+          "11-02 MB 11-09 MB 11-11 PK 11-16 MB 11-23 MB 11-25 PK 11-30 MB",
+          "12-07 MB 12-09 PK 12-14 MB 12-21 MB 12-23 PK 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad ponedjeljak; papir i plastika 1. i 3. četvrtak u mjesecu",
+      "ulice": ["Bunjevačka ulica", "Dalmatinska ulica", "Istarska ulica", "Primorska ulica"],
+      "raw": {
+        "2026": [
+          "01-03 PK! 01-05 MB 01-12 MB 01-15 PK 01-19 MB 01-26 MB",
+          "02-02 MB 02-05 PK 02-09 MB 02-16 MB 02-19 PK 02-23 MB",
+          "03-02 MB 03-05 PK 03-09 MB 03-16 MB 03-19 PK 03-23 MB 03-30 MB",
+          "04-02 PK 04-06 MB 04-13 MB 04-16 PK 04-20 MB 04-27 MB",
+          "05-04 MB 05-07 PK 05-11 MB 05-18 MB 05-21 PK 05-25 MB",
+          "06-01 MB 06-04 PK 06-08 MB 06-15 MB 06-18 PK 06-22 MB 06-29 MB",
+          "07-02 PK 07-06 MB 07-13 MB 07-16 PK 07-20 MB 07-27 MB",
+          "08-03 MB 08-06 PK 08-10 MB 08-17 MB 08-20 PK 08-24 MB 08-31 MB",
+          "09-03 PK 09-07 MB 09-14 MB 09-17 PK 09-21 MB 09-28 MB",
+          "10-01 PK 10-05 MB 10-12 MB 10-15 PK 10-19 MB 10-26 MB",
+          "11-02 MB 11-05 PK 11-09 MB 11-16 MB 11-19 PK 11-23 MB 11-30 MB",
+          "12-03 PK 12-07 MB 12-14 MB 12-17 PK 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad srijeda; papir i plastika 2. i 4. utorak u mjesecu",
+      "ulice": ["Zapadna vezna cesta"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 B 01-12 M 01-13 PK 01-14 B 01-19 M 01-21 B 01-26 M 01-27 PK 01-28 B",
+          "02-02 M 02-04 B 02-09 M 02-10 PK 02-11 B 02-16 M 02-18 B 02-23 M 02-24 PK 02-25 B",
+          "03-02 M 03-04 B 03-09 M 03-10 PK 03-11 B 03-16 M 03-18 B 03-23 M 03-24 PK 03-25 B 03-30 M",
+          "04-01 B 04-06 M 04-08 B 04-13 M 04-14 PK 04-15 B 04-20 M 04-22 B 04-27 M 04-28 PK 04-29 B",
+          "05-04 M 05-06 B 05-11 M 05-12 PK 05-13 B 05-18 M 05-20 B 05-25 M 05-26 PK 05-27 B",
+          "06-01 M 06-03 B 06-08 M 06-09 PK 06-10 B 06-15 M 06-17 B 06-22 M 06-23 PK 06-24 B 06-29 M",
+          "07-01 B 07-06 M 07-08 B 07-13 M 07-14 PK 07-15 B 07-20 M 07-22 B 07-27 M 07-28 PK 07-29 B",
+          "08-03 M 08-05 B 08-10 M 08-11 PK 08-12 B 08-17 M 08-19 B 08-24 M 08-25 PK 08-26 B 08-31 M",
+          "09-02 B 09-07 M 09-08 PK 09-09 B 09-14 M 09-16 B 09-21 M 09-22 PK 09-23 B 09-28 M 09-30 B",
+          "10-05 M 10-07 B 10-12 M 10-13 PK 10-14 B 10-19 M 10-21 B 10-26 M 10-27 PK 10-28 B",
+          "11-02 M 11-04 B 11-09 M 11-10 PK 11-11 B 11-16 M 11-18 B 11-23 M 11-24 PK 11-25 B 11-30 M",
+          "12-02 B 12-07 M 12-08 PK 12-09 B 12-14 M 12-16 B 12-21 M 12-22 PK 12-23 B 12-28 M 12-30 B"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad srijeda; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Ksavera Šandora Đalskog"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 BPK 01-12 M 01-14 B 01-19 M 01-21 BPK 01-26 M 01-28 B",
+          "02-02 M 02-04 BPK 02-09 M 02-11 B 02-16 M 02-18 BPK 02-23 M 02-25 B",
+          "03-02 M 03-04 BPK 03-09 M 03-11 B 03-16 M 03-18 BPK 03-23 M 03-25 B 03-30 M",
+          "04-01 BPK 04-06 M 04-08 B 04-13 M 04-15 BPK 04-20 M 04-22 B 04-27 M 04-29 B",
+          "05-04 M 05-06 BPK 05-11 M 05-13 B 05-18 M 05-20 BPK 05-25 M 05-27 B",
+          "06-01 M 06-03 BPK 06-08 M 06-10 B 06-15 M 06-17 BPK 06-22 M 06-24 B 06-29 M",
+          "07-01 BPK 07-06 M 07-08 B 07-13 M 07-15 BPK 07-20 M 07-22 B 07-27 M 07-29 B",
+          "08-03 M 08-05 BPK 08-10 M 08-12 B 08-17 M 08-19 BPK 08-24 M 08-26 B 08-31 M",
+          "09-02 BPK 09-07 M 09-09 B 09-14 M 09-16 BPK 09-21 M 09-23 B 09-28 M 09-30 B",
+          "10-05 M 10-07 BPK 10-12 M 10-14 B 10-19 M 10-21 BPK 10-26 M 10-28 B",
+          "11-02 M 11-04 BPK 11-09 M 11-11 B 11-16 M 11-18 BPK 11-23 M 11-25 B 11-30 M",
+          "12-02 BPK 12-07 M 12-09 B 12-14 M 12-16 BPK 12-21 M 12-23 B 12-28 M 12-30 B"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad srijeda; papir i plastika 2. i 4. srijeda u mjesecu",
+      "ulice": ["Josipa Stadlera"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 B 01-12 M 01-14 BPK 01-19 M 01-21 B 01-26 M 01-28 BPK",
+          "02-02 M 02-04 B 02-09 M 02-11 BPK 02-16 M 02-18 B 02-23 M 02-25 BPK",
+          "03-02 M 03-04 B 03-09 M 03-11 BPK 03-16 M 03-18 B 03-23 M 03-25 BPK 03-30 M",
+          "04-01 B 04-06 M 04-08 BPK 04-13 M 04-15 B 04-20 M 04-22 BPK 04-27 M 04-29 B",
+          "05-04 M 05-06 B 05-11 M 05-13 BPK 05-18 M 05-20 B 05-25 M 05-27 BPK",
+          "06-01 M 06-03 B 06-08 M 06-10 BPK 06-15 M 06-17 B 06-22 M 06-24 BPK 06-29 M",
+          "07-01 B 07-06 M 07-08 BPK 07-13 M 07-15 B 07-20 M 07-22 BPK 07-27 M 07-29 B",
+          "08-03 M 08-05 B 08-10 M 08-12 BPK 08-17 M 08-19 B 08-24 M 08-26 BPK 08-31 M",
+          "09-02 B 09-07 M 09-09 BPK 09-14 M 09-16 B 09-21 M 09-23 BPK 09-28 M 09-30 B",
+          "10-05 M 10-07 B 10-12 M 10-14 BPK 10-19 M 10-21 B 10-26 M 10-28 BPK",
+          "11-02 M 11-04 B 11-09 M 11-11 BPK 11-16 M 11-18 B 11-23 M 11-25 BPK 11-30 M",
+          "12-02 B 12-07 M 12-09 BPK 12-14 M 12-16 B 12-21 M 12-23 BPK 12-28 M 12-30 B"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad srijeda; papir i plastika 2. i 4. četvrtak u mjesecu",
+      "ulice": ["Maka Dizdara", "Naselje Marinci", "Natka Nodila", "Pere Pirkera", "Psunjska ulica", "Rasadnička ulica", "Strma ulica", "Ulica Velike Gospe", "Vodovodna ulica"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 B 01-08 PK 01-12 M 01-14 B 01-19 M 01-21 B 01-22 PK 01-26 M 01-28 B",
+          "02-02 M 02-04 B 02-09 M 02-11 B 02-12 PK 02-16 M 02-18 B 02-23 M 02-25 B 02-26 PK",
+          "03-02 M 03-04 B 03-09 M 03-11 B 03-12 PK 03-16 M 03-18 B 03-23 M 03-25 B 03-26 PK 03-30 M",
+          "04-01 B 04-06 M 04-08 B 04-09 PK 04-13 M 04-15 B 04-20 M 04-22 B 04-23 PK 04-27 M 04-29 B",
+          "05-04 M 05-06 B 05-11 M 05-13 B 05-14 PK 05-18 M 05-20 B 05-25 M 05-27 B 05-28 PK",
+          "06-01 M 06-03 B 06-08 M 06-10 B 06-11 PK 06-15 M 06-17 B 06-22 M 06-24 B 06-25 PK 06-29 M",
+          "07-01 B 07-06 M 07-08 B 07-09 PK 07-13 M 07-15 B 07-20 M 07-22 B 07-23 PK 07-27 M 07-29 B",
+          "08-03 M 08-05 B 08-10 M 08-12 B 08-13 PK 08-17 M 08-19 B 08-24 M 08-26 B 08-27 PK 08-31 M",
+          "09-02 B 09-07 M 09-09 B 09-10 PK 09-14 M 09-16 B 09-21 M 09-23 B 09-24 PK 09-28 M 09-30 B",
+          "10-05 M 10-07 B 10-08 PK 10-12 M 10-14 B 10-19 M 10-21 B 10-22 PK 10-26 M 10-28 B",
+          "11-02 M 11-04 B 11-09 M 11-11 B 11-12 PK 11-16 M 11-18 B 11-23 M 11-25 B 11-26 PK 11-30 M",
+          "12-02 B 12-07 M 12-09 B 12-10 PK 12-14 M 12-16 B 12-21 M 12-23 B 12-24 PK 12-28 M 12-30 B"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad četvrtak; papir i plastika 2. i 4. utorak u mjesecu",
+      "ulice": ["Josipa Jurja Strossmayera", "Trg Josipa Godlara"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-05 M 01-08 B 01-12 M 01-13 PK 01-15 B 01-19 M 01-22 B 01-26 M 01-27 PK 01-29 B",
+          "02-02 M 02-05 B 02-09 M 02-10 PK 02-12 B 02-16 M 02-19 B 02-23 M 02-24 PK 02-26 B",
+          "03-02 M 03-05 B 03-09 M 03-10 PK 03-12 B 03-16 M 03-19 B 03-23 M 03-24 PK 03-26 B 03-30 M",
+          "04-02 B 04-06 M 04-09 B 04-13 M 04-14 PK 04-16 B 04-20 M 04-23 B 04-27 M 04-28 PK 04-30 B",
+          "05-04 M 05-07 B 05-11 M 05-12 PK 05-14 B 05-18 M 05-21 B 05-25 M 05-26 PK 05-28 B",
+          "06-01 M 06-04 B 06-08 M 06-09 PK 06-11 B 06-15 M 06-18 B 06-22 M 06-23 PK 06-25 B 06-29 M",
+          "07-02 B 07-06 M 07-09 B 07-13 M 07-14 PK 07-16 B 07-20 M 07-23 B 07-27 M 07-28 PK 07-30 B",
+          "08-03 M 08-06 B 08-10 M 08-11 PK 08-13 B 08-17 M 08-20 B 08-24 M 08-25 PK 08-27 B 08-31 M",
+          "09-03 B 09-07 M 09-08 PK 09-10 B 09-14 M 09-17 B 09-21 M 09-22 PK 09-24 B 09-28 M",
+          "10-01 B 10-05 M 10-08 B 10-12 M 10-13 PK 10-15 B 10-19 M 10-22 B 10-26 M 10-27 PK 10-29 B",
+          "11-02 M 11-05 B 11-09 M 11-10 PK 11-12 B 11-16 M 11-19 B 11-23 M 11-24 PK 11-26 B 11-30 M",
+          "12-03 B 12-07 M 12-08 PK 12-10 B 12-14 M 12-17 B 12-21 M 12-22 PK 12-24 B 12-28 M 12-31 B"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad četvrtak; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Ante Kovačića", "Antuna Barca", "Bože Milanovića", "Branimira Livadića", "Dinka Šimunovića", "Frana Mažuranića", "Frana Supila", "Franje Marinića", "Grofa Janka Draškovića", "Ivana Franje Jukića", "Ivana Meštrovića", "Jure Kaštelana", "Jurja Dalmatinca", "Jurja Dobrile neparni od 1 do 9", "Jurja Dobrile parni od 2 do 20", "Krste Frankopana", "Leopolda Mandića", "Marije Jurić Zagorke", "Mirka Bogovića", "Naselje Hrvatskih Branitelja", "Naselje Mikrorajon", "Pavla Štoosa", "Petra Hektorovića", "Stanka Vraza", "Tome Bakača"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-05 M 01-07 PK 01-08 B 01-12 M 01-15 B 01-19 M 01-21 PK 01-22 B 01-26 M 01-29 B",
+          "02-02 M 02-04 PK 02-05 B 02-09 M 02-12 B 02-16 M 02-18 PK 02-19 B 02-23 M 02-26 B",
+          "03-02 M 03-04 PK 03-05 B 03-09 M 03-12 B 03-16 M 03-18 PK 03-19 B 03-23 M 03-26 B 03-30 M",
+          "04-01 PK 04-02 B 04-06 M 04-09 B 04-13 M 04-15 PK 04-16 B 04-20 M 04-23 B 04-27 M 04-30 B",
+          "05-04 M 05-06 PK 05-07 B 05-11 M 05-14 B 05-18 M 05-20 PK 05-21 B 05-25 M 05-28 B",
+          "06-01 M 06-03 PK 06-04 B 06-08 M 06-11 B 06-15 M 06-17 PK 06-18 B 06-22 M 06-25 B 06-29 M",
+          "07-01 PK 07-02 B 07-06 M 07-09 B 07-13 M 07-15 PK 07-16 B 07-20 M 07-23 B 07-27 M 07-30 B",
+          "08-03 M 08-05 PK 08-06 B 08-10 M 08-13 B 08-17 M 08-19 PK 08-20 B 08-24 M 08-27 B 08-31 M",
+          "09-02 PK 09-03 B 09-07 M 09-10 B 09-14 M 09-16 PK 09-17 B 09-21 M 09-24 B 09-28 M",
+          "10-01 B 10-05 M 10-07 PK 10-08 B 10-12 M 10-15 B 10-19 M 10-21 PK 10-22 B 10-26 M 10-29 B",
+          "11-02 M 11-04 PK 11-05 B 11-09 M 11-12 B 11-16 M 11-18 PK 11-19 B 11-23 M 11-26 B 11-30 M",
+          "12-02 PK 12-03 B 12-07 M 12-10 B 12-14 M 12-16 PK 12-17 B 12-21 M 12-24 B 12-28 M 12-31 B"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad četvrtak; papir i plastika 2. i 4. srijeda u mjesecu",
+      "ulice": ["Alojzija Stepinca", "Božidara Adžije", "Braće Damira i Davora Kevo", "Grge Novaka", "Ivana Domca", "Milana Kerdića", "Pavla Radića", "Tina Ujevića", "Vladimira Filakovca"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-05 M 01-08 B 01-12 M 01-14 PK 01-15 B 01-19 M 01-22 B 01-26 M 01-28 PK 01-29 B",
+          "02-02 M 02-05 B 02-09 M 02-11 PK 02-12 B 02-16 M 02-19 B 02-23 M 02-25 PK 02-26 B",
+          "03-02 M 03-05 B 03-09 M 03-11 PK 03-12 B 03-16 M 03-19 B 03-23 M 03-25 PK 03-26 B 03-30 M",
+          "04-02 B 04-06 M 04-08 PK 04-09 B 04-13 M 04-16 B 04-20 M 04-22 PK 04-23 B 04-27 M 04-30 B",
+          "05-04 M 05-07 B 05-11 M 05-13 PK 05-14 B 05-18 M 05-21 B 05-25 M 05-27 PK 05-28 B",
+          "06-01 M 06-04 B 06-08 M 06-10 PK 06-11 B 06-15 M 06-18 B 06-22 M 06-24 PK 06-25 B 06-29 M",
+          "07-02 B 07-06 M 07-08 PK 07-09 B 07-13 M 07-16 B 07-20 M 07-22 PK 07-23 B 07-27 M 07-30 B",
+          "08-03 M 08-06 B 08-10 M 08-12 PK 08-13 B 08-17 M 08-20 B 08-24 M 08-26 PK 08-27 B 08-31 M",
+          "09-03 B 09-07 M 09-09 PK 09-10 B 09-14 M 09-17 B 09-21 M 09-23 PK 09-24 B 09-28 M",
+          "10-01 B 10-05 M 10-08 B 10-12 M 10-14 PK 10-15 B 10-19 M 10-22 B 10-26 M 10-28 PK 10-29 B",
+          "11-02 M 11-05 B 11-09 M 11-11 PK 11-12 B 11-16 M 11-19 B 11-23 M 11-25 PK 11-26 B 11-30 M",
+          "12-03 B 12-07 M 12-09 PK 12-10 B 12-14 M 12-17 B 12-21 M 12-23 PK 12-24 B 12-28 M 12-31 B"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad petak; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Dr. Vladka Mačeka", "Ivana Filipovića", "Naselje Andrije Hebranga", "Trg Svetog Trojstva"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-05 M 01-07 PK 01-09 B 01-12 M 01-16 B 01-19 M 01-21 PK 01-23 B 01-26 M 01-30 B",
+          "02-02 M 02-04 PK 02-06 B 02-09 M 02-13 B 02-16 M 02-18 PK 02-20 B 02-23 M 02-27 B",
+          "03-02 M 03-04 PK 03-06 B 03-09 M 03-13 B 03-16 M 03-18 PK 03-20 B 03-23 M 03-27 B 03-30 M",
+          "04-01 PK 04-03 B 04-06 M 04-10 B 04-13 M 04-15 PK 04-17 B 04-20 M 04-24 B 04-27 M",
+          "05-01 B 05-04 M 05-06 PK 05-08 B 05-11 M 05-15 B 05-18 M 05-20 PK 05-22 B 05-25 M 05-29 B",
+          "06-01 M 06-03 PK 06-05 B 06-08 M 06-12 B 06-15 M 06-17 PK 06-19 B 06-22 M 06-26 B 06-29 M",
+          "07-01 PK 07-03 B 07-06 M 07-10 B 07-13 M 07-15 PK 07-17 B 07-20 M 07-24 B 07-27 M 07-31 B",
+          "08-03 M 08-05 PK 08-07 B 08-10 M 08-14 B 08-17 M 08-19 PK 08-21 B 08-24 M 08-28 B 08-31 M",
+          "09-02 PK 09-04 B 09-07 M 09-11 B 09-14 M 09-16 PK 09-18 B 09-21 M 09-25 B 09-28 M",
+          "10-02 B 10-05 M 10-07 PK 10-09 B 10-12 M 10-16 B 10-19 M 10-21 PK 10-23 B 10-26 M 10-30 B",
+          "11-02 M 11-04 PK 11-06 B 11-09 M 11-13 B 11-16 M 11-18 PK 11-20 B 11-23 M 11-27 B 11-30 M",
+          "12-02 PK 12-04 B 12-07 M 12-11 B 12-14 M 12-16 PK 12-18 B 12-21 M 12-26 B! 12-28 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad petak; papir i plastika 1. i 3. petak u mjesecu",
+      "ulice": ["Naselje Slavonija I"],
+      "raw": {
+        "2026": [
+          "01-02 BPK 01-05 M 01-09 B 01-12 M 01-16 BPK 01-19 M 01-23 B 01-26 M 01-30 B",
+          "02-02 M 02-06 BPK 02-09 M 02-13 B 02-16 M 02-20 BPK 02-23 M 02-27 B",
+          "03-02 M 03-06 BPK 03-09 M 03-13 B 03-16 M 03-20 BPK 03-23 M 03-27 B 03-30 M",
+          "04-03 BPK 04-06 M 04-10 B 04-13 M 04-17 BPK 04-20 M 04-24 B 04-27 M",
+          "05-01 BPK 05-04 M 05-08 B 05-11 M 05-15 BPK 05-18 M 05-22 B 05-25 M 05-29 B",
+          "06-01 M 06-05 BPK 06-08 M 06-12 B 06-15 M 06-19 BPK 06-22 M 06-26 B 06-29 M",
+          "07-03 BPK 07-06 M 07-10 B 07-13 M 07-17 BPK 07-20 M 07-24 B 07-27 M 07-31 B",
+          "08-03 M 08-07 BPK 08-10 M 08-14 B 08-17 M 08-21 BPK 08-24 M 08-28 B 08-31 M",
+          "09-04 BPK 09-07 M 09-11 B 09-14 M 09-18 BPK 09-21 M 09-25 B 09-28 M",
+          "10-02 BPK 10-05 M 10-09 B 10-12 M 10-16 BPK 10-19 M 10-23 B 10-26 M 10-30 B",
+          "11-02 M 11-06 BPK 11-09 M 11-13 B 11-16 M 11-20 BPK 11-23 M 11-27 B 11-30 M",
+          "12-04 BPK 12-07 M 12-11 B 12-14 M 12-18 BPK 12-21 M 12-26 B! 12-28 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad petak; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Petra Svačića neparni od 25 do 53/1", "Trg Hrvatskog Proljeća"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-05 M 01-09 BPK 01-12 M 01-16 B 01-19 M 01-23 BPK 01-26 M 01-30 B",
+          "02-02 M 02-06 B 02-09 M 02-13 BPK 02-16 M 02-20 B 02-23 M 02-27 BPK",
+          "03-02 M 03-06 B 03-09 M 03-13 BPK 03-16 M 03-20 B 03-23 M 03-27 BPK 03-30 M",
+          "04-03 B 04-06 M 04-10 BPK 04-13 M 04-17 B 04-20 M 04-24 BPK 04-27 M",
+          "05-01 B 05-04 M 05-08 BPK 05-11 M 05-15 B 05-18 M 05-22 BPK 05-25 M 05-29 B",
+          "06-01 M 06-05 B 06-08 M 06-12 BPK 06-15 M 06-19 B 06-22 M 06-26 BPK 06-29 M",
+          "07-03 B 07-06 M 07-10 BPK 07-13 M 07-17 B 07-20 M 07-24 BPK 07-27 M 07-31 B",
+          "08-03 M 08-07 B 08-10 M 08-14 BPK 08-17 M 08-21 B 08-24 M 08-28 BPK 08-31 M",
+          "09-04 B 09-07 M 09-11 BPK 09-14 M 09-18 B 09-21 M 09-25 BPK 09-28 M",
+          "10-02 B 10-05 M 10-09 BPK 10-12 M 10-16 B 10-19 M 10-23 BPK 10-26 M 10-30 B",
+          "11-02 M 11-06 B 11-09 M 11-13 BPK 11-16 M 11-20 B 11-23 M 11-27 BPK 11-30 M",
+          "12-04 B 12-07 M 12-11 BPK 12-14 M 12-18 B 12-21 M 12-26 BPK! 12-28 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani ponedjeljak, biootpad petak; papir i plastika 3. i 4. petak u mjesecu",
+      "ulice": ["Petra Svačića parni od 2 do 8"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-05 M 01-09 B 01-12 M 01-16 BPK 01-19 M 01-23 BPK 01-26 M 01-30 B",
+          "02-02 M 02-06 B 02-09 M 02-13 B 02-16 M 02-20 BPK 02-23 M 02-27 BPK",
+          "03-02 M 03-06 B 03-09 M 03-13 B 03-16 M 03-20 BPK 03-23 M 03-27 BPK 03-30 M",
+          "04-03 B 04-06 M 04-10 B 04-13 M 04-17 BPK 04-20 M 04-24 BPK 04-27 M",
+          "05-01 B 05-04 M 05-08 B 05-11 M 05-15 BPK 05-18 M 05-22 BPK 05-25 M 05-29 B",
+          "06-01 M 06-05 B 06-08 M 06-12 B 06-15 M 06-19 BPK 06-22 M 06-26 BPK 06-29 M",
+          "07-03 B 07-06 M 07-10 B 07-13 M 07-17 BPK 07-20 M 07-24 BPK 07-27 M 07-31 B",
+          "08-03 M 08-07 B 08-10 M 08-14 B 08-17 M 08-21 BPK 08-24 M 08-28 BPK 08-31 M",
+          "09-04 B 09-07 M 09-11 B 09-14 M 09-18 BPK 09-21 M 09-25 BPK 09-28 M",
+          "10-02 B 10-05 M 10-09 B 10-12 M 10-16 BPK 10-19 M 10-23 BPK 10-26 M 10-30 B",
+          "11-02 M 11-06 B 11-09 M 11-13 B 11-16 M 11-20 BPK 11-23 M 11-27 BPK 11-30 M",
+          "12-04 B 12-07 M 12-11 B 12-14 M 12-18 BPK 12-21 M 12-26 BPK! 12-28 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad ponedjeljak; papir i plastika 2. i 4. srijeda u mjesecu",
+      "ulice": ["Bečic", "Fra Anđela Zvizdovića", "Graničarska ulica", "Luke Lukića", "Požeška ulica parni od 2 do 78", "Zagrebačka ulica neparni od 43 do 397"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-06 M 01-12 B 01-13 M 01-14 PK 01-19 B 01-20 M 01-26 B 01-27 M 01-28 PK",
+          "02-02 B 02-03 M 02-09 B 02-10 M 02-11 PK 02-16 B 02-17 M 02-23 B 02-24 M 02-25 PK",
+          "03-02 B 03-03 M 03-09 B 03-10 M 03-11 PK 03-16 B 03-17 M 03-23 B 03-24 M 03-25 PK 03-30 B 03-31 M",
+          "04-06 B 04-07 M 04-08 PK 04-13 B 04-14 M 04-20 B 04-21 M 04-22 PK 04-27 B 04-28 M",
+          "05-04 B 05-05 M 05-11 B 05-12 M 05-13 PK 05-18 B 05-19 M 05-25 B 05-26 M 05-27 PK",
+          "06-01 B 06-02 M 06-08 B 06-09 M 06-10 PK 06-15 B 06-16 M 06-22 B 06-23 M 06-24 PK 06-29 B 06-30 M",
+          "07-06 B 07-07 M 07-08 PK 07-13 B 07-14 M 07-20 B 07-21 M 07-22 PK 07-27 B 07-28 M",
+          "08-03 B 08-04 M 08-10 B 08-11 M 08-12 PK 08-17 B 08-18 M 08-24 B 08-25 M 08-26 PK 08-31 B",
+          "09-01 M 09-07 B 09-08 M 09-09 PK 09-14 B 09-15 M 09-21 B 09-22 M 09-23 PK 09-28 B 09-29 M",
+          "10-05 B 10-06 M 10-12 B 10-13 M 10-14 PK 10-19 B 10-20 M 10-26 B 10-27 M 10-28 PK",
+          "11-02 B 11-03 M 11-09 B 11-10 M 11-11 PK 11-16 B 11-17 M 11-23 B 11-24 M 11-25 PK 11-30 B",
+          "12-01 M 12-07 B 12-08 M 12-09 PK 12-14 B 12-15 M 12-21 B 12-22 M 12-23 PK 12-28 B 12-29 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad ponedjeljak; papir i plastika 1. i 3. četvrtak u mjesecu",
+      "ulice": ["Baranjska ulica", "Bilogorska ulica", "Hvarska ulica", "Imotska ulica", "Lička ulica", "Moslavačka ulica", "Omiška ulica", "Podravska ulica", "Slavonska ulica", "Splitska ulica", "Trogirska ulica", "Turopoljska ulica", "Vinogradska cesta neparni od 1 do 7", "Zadarska ulica", "Zagrebačka ulica parni od 2 do 388"],
+      "raw": {
+        "2026": [
+          "01-03 PK! 01-05 B 01-06 M 01-12 B 01-13 M 01-15 PK 01-19 B 01-20 M 01-26 B 01-27 M",
+          "02-02 B 02-03 M 02-05 PK 02-09 B 02-10 M 02-16 B 02-17 M 02-19 PK 02-23 B 02-24 M",
+          "03-02 B 03-03 M 03-05 PK 03-09 B 03-10 M 03-16 B 03-17 M 03-19 PK 03-23 B 03-24 M 03-30 B 03-31 M",
+          "04-02 PK 04-06 B 04-07 M 04-13 B 04-14 M 04-16 PK 04-20 B 04-21 M 04-27 B 04-28 M",
+          "05-04 B 05-05 M 05-07 PK 05-11 B 05-12 M 05-18 B 05-19 M 05-21 PK 05-25 B 05-26 M",
+          "06-01 B 06-02 M 06-04 PK 06-08 B 06-09 M 06-15 B 06-16 M 06-18 PK 06-22 B 06-23 M 06-29 B 06-30 M",
+          "07-02 PK 07-06 B 07-07 M 07-13 B 07-14 M 07-16 PK 07-20 B 07-21 M 07-27 B 07-28 M",
+          "08-03 B 08-04 M 08-06 PK 08-10 B 08-11 M 08-17 B 08-18 M 08-20 PK 08-24 B 08-25 M 08-31 B",
+          "09-01 M 09-03 PK 09-07 B 09-08 M 09-14 B 09-15 M 09-17 PK 09-21 B 09-22 M 09-28 B 09-29 M",
+          "10-01 PK 10-05 B 10-06 M 10-12 B 10-13 M 10-15 PK 10-19 B 10-20 M 10-26 B 10-27 M",
+          "11-02 B 11-03 M 11-05 PK 11-09 B 11-10 M 11-16 B 11-17 M 11-19 PK 11-23 B 11-24 M 11-30 B",
+          "12-01 M 12-03 PK 12-07 B 12-08 M 12-14 B 12-15 M 12-17 PK 12-21 B 12-22 M 12-28 B 12-29 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad utorak; papir i plastika 2. i 4. ponedjeljak u mjesecu",
+      "ulice": ["Ulica Kukanj"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-12 PK 01-13 MB 01-20 MB 01-26 PK 01-27 MB",
+          "02-03 MB 02-09 PK 02-10 MB 02-17 MB 02-23 PK 02-24 MB",
+          "03-03 MB 03-09 PK 03-10 MB 03-17 MB 03-23 PK 03-24 MB 03-31 MB",
+          "04-07 MB 04-13 PK 04-14 MB 04-21 MB 04-27 PK 04-28 MB",
+          "05-05 MB 05-11 PK 05-12 MB 05-19 MB 05-25 PK 05-26 MB",
+          "06-02 MB 06-08 PK 06-09 MB 06-16 MB 06-22 PK 06-23 MB 06-30 MB",
+          "07-07 MB 07-13 PK 07-14 MB 07-21 MB 07-27 PK 07-28 MB",
+          "08-04 MB 08-10 PK 08-11 MB 08-18 MB 08-24 PK 08-25 MB",
+          "09-01 MB 09-08 MB 09-14 PK 09-15 MB 09-22 MB 09-28 PK 09-29 MB",
+          "10-06 MB 10-12 PK 10-13 MB 10-20 MB 10-26 PK 10-27 MB",
+          "11-03 MB 11-09 PK 11-10 MB 11-17 MB 11-23 PK 11-24 MB",
+          "12-01 MB 12-08 MB 12-14 PK 12-15 MB 12-22 MB 12-28 PK 12-29 MB"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad utorak; papir i plastika 2. i 4. četvrtak u mjesecu",
+      "ulice": ["Cvjetna ulica", "Naselje Grbavica"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-08 PK 01-13 MB 01-20 MB 01-22 PK 01-27 MB",
+          "02-03 MB 02-10 MB 02-12 PK 02-17 MB 02-24 MB 02-26 PK",
+          "03-03 MB 03-10 MB 03-12 PK 03-17 MB 03-24 MB 03-26 PK 03-31 MB",
+          "04-07 MB 04-09 PK 04-14 MB 04-21 MB 04-23 PK 04-28 MB",
+          "05-05 MB 05-12 MB 05-14 PK 05-19 MB 05-26 MB 05-28 PK",
+          "06-02 MB 06-09 MB 06-11 PK 06-16 MB 06-23 MB 06-25 PK 06-30 MB",
+          "07-07 MB 07-09 PK 07-14 MB 07-21 MB 07-23 PK 07-28 MB",
+          "08-04 MB 08-11 MB 08-13 PK 08-18 MB 08-25 MB 08-27 PK",
+          "09-01 MB 09-08 MB 09-10 PK 09-15 MB 09-22 MB 09-24 PK 09-29 MB",
+          "10-06 MB 10-08 PK 10-13 MB 10-20 MB 10-22 PK 10-27 MB",
+          "11-03 MB 11-10 MB 11-12 PK 11-17 MB 11-24 MB 11-26 PK",
+          "12-01 MB 12-08 MB 12-10 PK 12-15 MB 12-22 MB 12-24 PK 12-29 MB"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad srijeda; papir i plastika 2. i 4. srijeda u mjesecu",
+      "ulice": ["Krndijska ulica"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 B 01-13 M 01-14 BPK 01-20 M 01-21 B 01-27 M 01-28 BPK",
+          "02-03 M 02-04 B 02-10 M 02-11 BPK 02-17 M 02-18 B 02-24 M 02-25 BPK",
+          "03-03 M 03-04 B 03-10 M 03-11 BPK 03-17 M 03-18 B 03-24 M 03-25 BPK 03-31 M",
+          "04-01 B 04-07 M 04-08 BPK 04-14 M 04-15 B 04-21 M 04-22 BPK 04-28 M 04-29 B",
+          "05-05 M 05-06 B 05-12 M 05-13 BPK 05-19 M 05-20 B 05-26 M 05-27 BPK",
+          "06-02 M 06-03 B 06-09 M 06-10 BPK 06-16 M 06-17 B 06-23 M 06-24 BPK 06-30 M",
+          "07-01 B 07-07 M 07-08 BPK 07-14 M 07-15 B 07-21 M 07-22 BPK 07-28 M 07-29 B",
+          "08-04 M 08-05 B 08-11 M 08-12 BPK 08-18 M 08-19 B 08-25 M 08-26 BPK",
+          "09-01 M 09-02 B 09-08 M 09-09 BPK 09-15 M 09-16 B 09-22 M 09-23 BPK 09-29 M 09-30 B",
+          "10-06 M 10-07 B 10-13 M 10-14 BPK 10-20 M 10-21 B 10-27 M 10-28 BPK",
+          "11-03 M 11-04 B 11-10 M 11-11 BPK 11-17 M 11-18 B 11-24 M 11-25 BPK",
+          "12-01 M 12-02 B 12-08 M 12-09 BPK 12-15 M 12-16 B 12-22 M 12-23 BPK 12-29 M 12-30 B"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad srijeda; papir i plastika 2. i 4. četvrtak u mjesecu",
+      "ulice": ["22. lipnja 1941.", "Andrije Kačića Miošića", "Blagoje Berse", "Brdska ulica", "Brlićev odvojak", "Brlićev put", "Dragutina Rakovca", "Frane Bulića", "Hrastić", "Ivana Kukuljevića", "Ivana pl. Trnskog", "Jablanska ulica", "Jasinjska ulica", "Jurja Dobrile neparni od 11 do 41", "Jurja Dobrile parni od 22 do 52", "Kalnička ulica", "Kapelska ulica", "Kotlić", "Košarevac", "Marka Marulića", "Medvednička ulica", "Orahova ulica", "Planinarska ulica", "Pribudovačka ulica", "Rozinka", "Ulica Marinci", "Ulica Vrba", "Ulica Čaplja", "Vatroslava Jagića", "Vatroslava Lisinskog", "Viktora Kovačića", "Vinogorska ulica", "Vinogorčeva ulica", "Vladimira Nazora", "Vladimira Prebega", "Vlahe Bukovca", "Voćarska ulica", "Vrtlarska ulica", "Zlatka Balokovića", "Šumica"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 B 01-08 PK 01-13 M 01-14 B 01-20 M 01-21 B 01-22 PK 01-27 M 01-28 B",
+          "02-03 M 02-04 B 02-10 M 02-11 B 02-12 PK 02-17 M 02-18 B 02-24 M 02-25 B 02-26 PK",
+          "03-03 M 03-04 B 03-10 M 03-11 B 03-12 PK 03-17 M 03-18 B 03-24 M 03-25 B 03-26 PK 03-31 M",
+          "04-01 B 04-07 M 04-08 B 04-09 PK 04-14 M 04-15 B 04-21 M 04-22 B 04-23 PK 04-28 M 04-29 B",
+          "05-05 M 05-06 B 05-12 M 05-13 B 05-14 PK 05-19 M 05-20 B 05-26 M 05-27 B 05-28 PK",
+          "06-02 M 06-03 B 06-09 M 06-10 B 06-11 PK 06-16 M 06-17 B 06-23 M 06-24 B 06-25 PK 06-30 M",
+          "07-01 B 07-07 M 07-08 B 07-09 PK 07-14 M 07-15 B 07-21 M 07-22 B 07-23 PK 07-28 M 07-29 B",
+          "08-04 M 08-05 B 08-11 M 08-12 B 08-13 PK 08-18 M 08-19 B 08-25 M 08-26 B 08-27 PK",
+          "09-01 M 09-02 B 09-08 M 09-09 B 09-10 PK 09-15 M 09-16 B 09-22 M 09-23 B 09-24 PK 09-29 M 09-30 B",
+          "10-06 M 10-07 B 10-08 PK 10-13 M 10-14 B 10-20 M 10-21 B 10-22 PK 10-27 M 10-28 B",
+          "11-03 M 11-04 B 11-10 M 11-11 B 11-12 PK 11-17 M 11-18 B 11-24 M 11-25 B 11-26 PK",
+          "12-01 M 12-02 B 12-08 M 12-09 B 12-10 PK 12-15 M 12-16 B 12-22 M 12-23 B 12-24 PK 12-29 M 12-30 B"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad srijeda; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Sjeverna vezna cesta neparni od 1 do 23", "Sjeverna vezna cesta parni od 2 do 18"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 B 01-09 PK 01-13 M 01-14 B 01-20 M 01-21 B 01-23 PK 01-27 M 01-28 B",
+          "02-03 M 02-04 B 02-10 M 02-11 B 02-13 PK 02-17 M 02-18 B 02-24 M 02-25 B 02-27 PK",
+          "03-03 M 03-04 B 03-10 M 03-11 B 03-13 PK 03-17 M 03-18 B 03-24 M 03-25 B 03-27 PK 03-31 M",
+          "04-01 B 04-07 M 04-08 B 04-10 PK 04-14 M 04-15 B 04-21 M 04-22 B 04-24 PK 04-28 M 04-29 B",
+          "05-05 M 05-06 B 05-08 PK 05-12 M 05-13 B 05-19 M 05-20 B 05-22 PK 05-26 M 05-27 B",
+          "06-02 M 06-03 B 06-09 M 06-10 B 06-12 PK 06-16 M 06-17 B 06-23 M 06-24 B 06-26 PK 06-30 M",
+          "07-01 B 07-07 M 07-08 B 07-10 PK 07-14 M 07-15 B 07-21 M 07-22 B 07-24 PK 07-28 M 07-29 B",
+          "08-04 M 08-05 B 08-11 M 08-12 B 08-14 PK 08-18 M 08-19 B 08-25 M 08-26 B 08-28 PK",
+          "09-01 M 09-02 B 09-08 M 09-09 B 09-11 PK 09-15 M 09-16 B 09-22 M 09-23 B 09-25 PK 09-29 M 09-30 B",
+          "10-06 M 10-07 B 10-09 PK 10-13 M 10-14 B 10-20 M 10-21 B 10-23 PK 10-27 M 10-28 B",
+          "11-03 M 11-04 B 11-10 M 11-11 B 11-13 PK 11-17 M 11-18 B 11-24 M 11-25 B 11-27 PK",
+          "12-01 M 12-02 B 12-08 M 12-09 B 12-11 PK 12-15 M 12-16 B 12-22 M 12-23 B 12-26 PK! 12-29 M 12-30 B"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad četvrtak; papir i plastika 2. i 4. srijeda u mjesecu",
+      "ulice": ["Bosutska ulica", "Koranska ulica", "Kupska ulica"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-06 M 01-08 B 01-13 M 01-14 PK 01-15 B 01-20 M 01-22 B 01-27 M 01-28 PK 01-29 B",
+          "02-03 M 02-05 B 02-10 M 02-11 PK 02-12 B 02-17 M 02-19 B 02-24 M 02-25 PK 02-26 B",
+          "03-03 M 03-05 B 03-10 M 03-11 PK 03-12 B 03-17 M 03-19 B 03-24 M 03-25 PK 03-26 B 03-31 M",
+          "04-02 B 04-07 M 04-08 PK 04-09 B 04-14 M 04-16 B 04-21 M 04-22 PK 04-23 B 04-28 M 04-30 B",
+          "05-05 M 05-07 B 05-12 M 05-13 PK 05-14 B 05-19 M 05-21 B 05-26 M 05-27 PK 05-28 B",
+          "06-02 M 06-04 B 06-09 M 06-10 PK 06-11 B 06-16 M 06-18 B 06-23 M 06-24 PK 06-25 B 06-30 M",
+          "07-02 B 07-07 M 07-08 PK 07-09 B 07-14 M 07-16 B 07-21 M 07-22 PK 07-23 B 07-28 M 07-30 B",
+          "08-04 M 08-06 B 08-11 M 08-12 PK 08-13 B 08-18 M 08-20 B 08-25 M 08-26 PK 08-27 B",
+          "09-01 M 09-03 B 09-08 M 09-09 PK 09-10 B 09-15 M 09-17 B 09-22 M 09-23 PK 09-24 B 09-29 M",
+          "10-01 B 10-06 M 10-08 B 10-13 M 10-14 PK 10-15 B 10-20 M 10-22 B 10-27 M 10-28 PK 10-29 B",
+          "11-03 M 11-05 B 11-10 M 11-11 PK 11-12 B 11-17 M 11-19 B 11-24 M 11-25 PK 11-26 B",
+          "12-01 M 12-03 B 12-08 M 12-09 PK 12-10 B 12-15 M 12-17 B 12-22 M 12-23 PK 12-24 B 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad četvrtak; papir i plastika 1. i 3. četvrtak u mjesecu",
+      "ulice": ["Antuna Branka Šimića", "Bartola Kašića", "Bogoslava Šuleka", "Cetinska ulica", "Dubrovačka ulica", "Fra Marijana Jaića", "Gospodarska ulica", "Ivana Antunovića", "Ivana Belostenca", "Jakova Gotovca", "Kaje Adžić", "Mate Ujevića", "Matije Vlačića Ilirika", "Mihovila Pavlinovića", "Mijata Stojanovića", "Ninska ulica", "Radnička ulica", "Vinogradska cesta neparni od 9 do 155", "Vinogradska cesta parni od 2 do 122", "Vjekoslava Babukića"],
+      "raw": {
+        "2026": [
+          "01-03 BPK! 01-06 M 01-08 B 01-13 M 01-15 BPK 01-20 M 01-22 B 01-27 M 01-29 B",
+          "02-03 M 02-05 BPK 02-10 M 02-12 B 02-17 M 02-19 BPK 02-24 M 02-26 B",
+          "03-03 M 03-05 BPK 03-10 M 03-12 B 03-17 M 03-19 BPK 03-24 M 03-26 B 03-31 M",
+          "04-02 BPK 04-07 M 04-09 B 04-14 M 04-16 BPK 04-21 M 04-23 B 04-28 M 04-30 B",
+          "05-05 M 05-07 BPK 05-12 M 05-14 B 05-19 M 05-21 BPK 05-26 M 05-28 B",
+          "06-02 M 06-04 BPK 06-09 M 06-11 B 06-16 M 06-18 BPK 06-23 M 06-25 B 06-30 M",
+          "07-02 BPK 07-07 M 07-09 B 07-14 M 07-16 BPK 07-21 M 07-23 B 07-28 M 07-30 B",
+          "08-04 M 08-06 BPK 08-11 M 08-13 B 08-18 M 08-20 BPK 08-25 M 08-27 B",
+          "09-01 M 09-03 BPK 09-08 M 09-10 B 09-15 M 09-17 BPK 09-22 M 09-24 B 09-29 M",
+          "10-01 BPK 10-06 M 10-08 B 10-13 M 10-15 BPK 10-20 M 10-22 B 10-27 M 10-29 B",
+          "11-03 M 11-05 BPK 11-10 M 11-12 B 11-17 M 11-19 BPK 11-24 M 11-26 B",
+          "12-01 M 12-03 BPK 12-08 M 12-10 B 12-15 M 12-17 BPK 12-22 M 12-24 B 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad četvrtak; papir i plastika 2. i 4. četvrtak u mjesecu",
+      "ulice": ["Ferde Filipovića", "Franje Kulmera", "Krešimira Blaževića", "Lučka ulica", "Svetog Lovre", "Vjekoslava Karasa"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-06 M 01-08 BPK 01-13 M 01-15 B 01-20 M 01-22 BPK 01-27 M 01-29 B",
+          "02-03 M 02-05 B 02-10 M 02-12 BPK 02-17 M 02-19 B 02-24 M 02-26 BPK",
+          "03-03 M 03-05 B 03-10 M 03-12 BPK 03-17 M 03-19 B 03-24 M 03-26 BPK 03-31 M",
+          "04-02 B 04-07 M 04-09 BPK 04-14 M 04-16 B 04-21 M 04-23 BPK 04-28 M 04-30 B",
+          "05-05 M 05-07 B 05-12 M 05-14 BPK 05-19 M 05-21 B 05-26 M 05-28 BPK",
+          "06-02 M 06-04 B 06-09 M 06-11 BPK 06-16 M 06-18 B 06-23 M 06-25 BPK 06-30 M",
+          "07-02 B 07-07 M 07-09 BPK 07-14 M 07-16 B 07-21 M 07-23 BPK 07-28 M 07-30 B",
+          "08-04 M 08-06 B 08-11 M 08-13 BPK 08-18 M 08-20 B 08-25 M 08-27 BPK",
+          "09-01 M 09-03 B 09-08 M 09-10 BPK 09-15 M 09-17 B 09-22 M 09-24 BPK 09-29 M",
+          "10-01 B 10-06 M 10-08 BPK 10-13 M 10-15 B 10-20 M 10-22 BPK 10-27 M 10-29 B",
+          "11-03 M 11-05 B 11-10 M 11-12 BPK 11-17 M 11-19 B 11-24 M 11-26 BPK",
+          "12-01 M 12-03 B 12-08 M 12-10 BPK 12-15 M 12-17 B 12-22 M 12-24 BPK 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad petak; papir i plastika 1. i 3. utorak u mjesecu",
+      "ulice": ["Josipa Kozarca", "Radoslava Lopašića", "Trg Ivane Brlić Mažuranić od 5 do 11"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 MPK 01-09 B 01-13 M 01-16 B 01-20 MPK 01-23 B 01-27 M 01-30 B",
+          "02-03 MPK 02-06 B 02-10 M 02-13 B 02-17 MPK 02-20 B 02-24 M 02-27 B",
+          "03-03 MPK 03-06 B 03-10 M 03-13 B 03-17 MPK 03-20 B 03-24 M 03-27 B 03-31 M",
+          "04-03 B 04-07 MPK 04-10 B 04-14 M 04-17 B 04-21 MPK 04-24 B 04-28 M",
+          "05-01 B 05-05 MPK 05-08 B 05-12 M 05-15 B 05-19 MPK 05-22 B 05-26 M 05-29 B",
+          "06-02 MPK 06-05 B 06-09 M 06-12 B 06-16 MPK 06-19 B 06-23 M 06-26 B 06-30 M",
+          "07-03 B 07-07 MPK 07-10 B 07-14 M 07-17 B 07-21 MPK 07-24 B 07-28 M 07-31 B",
+          "08-04 MPK 08-07 B 08-11 M 08-14 B 08-18 MPK 08-21 B 08-25 M 08-28 B",
+          "09-01 MPK 09-04 B 09-08 M 09-11 B 09-15 MPK 09-18 B 09-22 M 09-25 B 09-29 M",
+          "10-02 B 10-06 MPK 10-09 B 10-13 M 10-16 B 10-20 MPK 10-23 B 10-27 M 10-30 B",
+          "11-03 MPK 11-06 B 11-10 M 11-13 B 11-17 MPK 11-20 B 11-24 M 11-27 B",
+          "12-01 MPK 12-04 B 12-08 M 12-11 B 12-15 MPK 12-18 B 12-22 M 12-26 B! 12-29 M"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad petak; papir i plastika 2. i 4. četvrtak u mjesecu",
+      "ulice": ["Ante Starčevića", "Augusta Šenoe", "Ivana pl. Zajca", "Matije Mesića", "Petra Preradovića", "Svetog Florijana", "Tome Skalice", "Trg Ivane Brlić Mažuranić od 1 do 4", "Trg žrtava rata"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 M 01-08 PK 01-09 B 01-13 M 01-16 B 01-20 M 01-22 PK 01-23 B 01-27 M 01-30 B",
+          "02-03 M 02-06 B 02-10 M 02-12 PK 02-13 B 02-17 M 02-20 B 02-24 M 02-26 PK 02-27 B",
+          "03-03 M 03-06 B 03-10 M 03-12 PK 03-13 B 03-17 M 03-20 B 03-24 M 03-26 PK 03-27 B 03-31 M",
+          "04-03 B 04-07 M 04-09 PK 04-10 B 04-14 M 04-17 B 04-21 M 04-23 PK 04-24 B 04-28 M",
+          "05-01 B 05-05 M 05-08 B 05-12 M 05-14 PK 05-15 B 05-19 M 05-22 B 05-26 M 05-28 PK 05-29 B",
+          "06-02 M 06-05 B 06-09 M 06-11 PK 06-12 B 06-16 M 06-19 B 06-23 M 06-25 PK 06-26 B 06-30 M",
+          "07-03 B 07-07 M 07-09 PK 07-10 B 07-14 M 07-17 B 07-21 M 07-23 PK 07-24 B 07-28 M 07-31 B",
+          "08-04 M 08-07 B 08-11 M 08-13 PK 08-14 B 08-18 M 08-21 B 08-25 M 08-27 PK 08-28 B",
+          "09-01 M 09-04 B 09-08 M 09-10 PK 09-11 B 09-15 M 09-18 B 09-22 M 09-24 PK 09-25 B 09-29 M",
+          "10-02 B 10-06 M 10-08 PK 10-09 B 10-13 M 10-16 B 10-20 M 10-22 PK 10-23 B 10-27 M 10-30 B",
+          "11-03 M 11-06 B 11-10 M 11-12 PK 11-13 B 11-17 M 11-20 B 11-24 M 11-26 PK 11-27 B",
+          "12-01 M 12-04 B 12-08 M 12-10 PK 12-11 B 12-15 M 12-18 B 12-22 M 12-24 PK 12-26 B! 12-29 M"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani utorak, biootpad petak; papir i plastika 1. i 3. petak u mjesecu",
+      "ulice": ["Zapadna ulica"],
+      "raw": {
+        "2026": [
+          "01-02 BPK 01-06 M 01-09 B 01-13 M 01-16 BPK 01-20 M 01-23 B 01-27 M 01-30 B",
+          "02-03 M 02-06 BPK 02-10 M 02-13 B 02-17 M 02-20 BPK 02-24 M 02-27 B",
+          "03-03 M 03-06 BPK 03-10 M 03-13 B 03-17 M 03-20 BPK 03-24 M 03-27 B 03-31 M",
+          "04-03 BPK 04-07 M 04-10 B 04-14 M 04-17 BPK 04-21 M 04-24 B 04-28 M",
+          "05-01 BPK 05-05 M 05-08 B 05-12 M 05-15 BPK 05-19 M 05-22 B 05-26 M 05-29 B",
+          "06-02 M 06-05 BPK 06-09 M 06-12 B 06-16 M 06-19 BPK 06-23 M 06-26 B 06-30 M",
+          "07-03 BPK 07-07 M 07-10 B 07-14 M 07-17 BPK 07-21 M 07-24 B 07-28 M 07-31 B",
+          "08-04 M 08-07 BPK 08-11 M 08-14 B 08-18 M 08-21 BPK 08-25 M 08-28 B",
+          "09-01 M 09-04 BPK 09-08 M 09-11 B 09-15 M 09-18 BPK 09-22 M 09-25 B 09-29 M",
+          "10-02 BPK 10-06 M 10-09 B 10-13 M 10-16 BPK 10-20 M 10-23 B 10-27 M 10-30 B",
+          "11-03 M 11-06 BPK 11-10 M 11-13 B 11-17 M 11-20 BPK 11-24 M 11-27 B",
+          "12-01 M 12-04 BPK 12-08 M 12-11 B 12-15 M 12-18 BPK 12-22 M 12-26 B! 12-29 M"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad srijeda; papir i plastika 1. i 3. ponedjeljak u mjesecu",
+      "ulice": ["Josipa Runjanina neparni od 75 do 119", "Josipa Runjanina parni od 108 do 182"],
+      "raw": {
+        "2026": [
+          "01-05 PK 01-07 MB 01-14 MB 01-19 PK 01-21 MB 01-28 MB",
+          "02-02 PK 02-04 MB 02-11 MB 02-16 PK 02-18 MB 02-25 MB",
+          "03-02 PK 03-04 MB 03-11 MB 03-16 PK 03-18 MB 03-25 MB",
+          "04-01 MB 04-06 PK 04-08 MB 04-15 MB 04-20 PK 04-22 MB 04-29 MB",
+          "05-04 PK 05-06 MB 05-13 MB 05-18 PK 05-20 MB 05-27 MB",
+          "06-01 PK 06-03 MB 06-10 MB 06-15 PK 06-17 MB 06-24 MB",
+          "07-01 MB 07-06 PK 07-08 MB 07-15 MB 07-20 PK 07-22 MB 07-29 MB",
+          "08-03 PK 08-05 MB 08-12 MB 08-17 PK 08-19 MB 08-26 MB",
+          "09-02 MB 09-07 PK 09-09 MB 09-16 MB 09-21 PK 09-23 MB 09-30 MB",
+          "10-05 PK 10-07 MB 10-14 MB 10-19 PK 10-21 MB 10-28 MB",
+          "11-02 PK 11-04 MB 11-11 MB 11-16 PK 11-18 MB 11-25 MB",
+          "12-02 MB 12-07 PK 12-09 MB 12-16 MB 12-21 PK 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad srijeda; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Naselje Marsonia"],
+      "raw": {
+        "2026": [
+          "01-07 MBPK 01-14 MB 01-21 MBPK 01-28 MB",
+          "02-04 MBPK 02-11 MB 02-18 MBPK 02-25 MB",
+          "03-04 MBPK 03-11 MB 03-18 MBPK 03-25 MB",
+          "04-01 MBPK 04-08 MB 04-15 MBPK 04-22 MB 04-29 MB",
+          "05-06 MBPK 05-13 MB 05-20 MBPK 05-27 MB",
+          "06-03 MBPK 06-10 MB 06-17 MBPK 06-24 MB",
+          "07-01 MBPK 07-08 MB 07-15 MBPK 07-22 MB 07-29 MB",
+          "08-05 MBPK 08-12 MB 08-19 MBPK 08-26 MB",
+          "09-02 MBPK 09-09 MB 09-16 MBPK 09-23 MB 09-30 MB",
+          "10-07 MBPK 10-14 MB 10-21 MBPK 10-28 MB",
+          "11-04 MBPK 11-11 MB 11-18 MBPK 11-25 MB",
+          "12-02 MBPK 12-09 MB 12-16 MBPK 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad srijeda; papir i plastika 1. i 3. petak u mjesecu",
+      "ulice": ["Frana Folnegovića", "Osječka ulica neparni od 41 do 429", "Vjenceslava Novaka"],
+      "raw": {
+        "2026": [
+          "01-02 PK 01-07 MB 01-14 MB 01-16 PK 01-21 MB 01-28 MB",
+          "02-04 MB 02-06 PK 02-11 MB 02-18 MB 02-20 PK 02-25 MB",
+          "03-04 MB 03-06 PK 03-11 MB 03-18 MB 03-20 PK 03-25 MB",
+          "04-01 MB 04-03 PK 04-08 MB 04-15 MB 04-17 PK 04-22 MB 04-29 MB",
+          "05-01 PK 05-06 MB 05-13 MB 05-15 PK 05-20 MB 05-27 MB",
+          "06-03 MB 06-05 PK 06-10 MB 06-17 MB 06-19 PK 06-24 MB",
+          "07-01 MB 07-03 PK 07-08 MB 07-15 MB 07-17 PK 07-22 MB 07-29 MB",
+          "08-05 MB 08-07 PK 08-12 MB 08-19 MB 08-21 PK 08-26 MB",
+          "09-02 MB 09-04 PK 09-09 MB 09-16 MB 09-18 PK 09-23 MB 09-30 MB",
+          "10-02 PK 10-07 MB 10-14 MB 10-16 PK 10-21 MB 10-28 MB",
+          "11-04 MB 11-06 PK 11-11 MB 11-18 MB 11-20 PK 11-25 MB",
+          "12-02 MB 12-04 PK 12-09 MB 12-16 MB 12-18 PK 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad srijeda; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Augustina Kažotića", "Blage Zadre", "Branimirova", "Don Ive Prodana neparni od 1 do 55", "Don Ive Prodana parni od 2 do 68", "Franje Maričevića neparni od 19 do 55", "Franje Maričevića parni od 6 do 56", "Josipa Bašića", "Josipa Lovretića", "Joze Martinovića", "Julija Domca", "Mije Čorak Slavenske", "Naselje Biskupa Ćirila Kosa", "Naselje Josipa Franka", "Rudine", "Selište I", "Selište II", "Sjeverna vezna cesta neparni od 47 do 109", "Sjeverna vezna cesta parni od 48 do 98", "Slavka Martinovića", "Vida Došena neparni od 1 do 121", "Vida Došena parni od 116 do 128", "Vida Došena parni od 2 do 106"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-09 PK 01-14 MB 01-21 MB 01-23 PK 01-28 MB",
+          "02-04 MB 02-11 MB 02-13 PK 02-18 MB 02-25 MB 02-27 PK",
+          "03-04 MB 03-11 MB 03-13 PK 03-18 MB 03-25 MB 03-27 PK",
+          "04-01 MB 04-08 MB 04-10 PK 04-15 MB 04-22 MB 04-24 PK 04-29 MB",
+          "05-06 MB 05-08 PK 05-13 MB 05-20 MB 05-22 PK 05-27 MB",
+          "06-03 MB 06-10 MB 06-12 PK 06-17 MB 06-24 MB 06-26 PK",
+          "07-01 MB 07-08 MB 07-10 PK 07-15 MB 07-22 MB 07-24 PK 07-29 MB",
+          "08-05 MB 08-12 MB 08-14 PK 08-19 MB 08-26 MB 08-28 PK",
+          "09-02 MB 09-09 MB 09-11 PK 09-16 MB 09-23 MB 09-25 PK 09-30 MB",
+          "10-07 MB 10-09 PK 10-14 MB 10-21 MB 10-23 PK 10-28 MB",
+          "11-04 MB 11-11 MB 11-13 PK 11-18 MB 11-25 MB 11-27 PK",
+          "12-02 MB 12-09 MB 12-11 PK 12-16 MB 12-23 MB 12-26 PK! 12-30 MB"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad četvrtak; papir i plastika 1. i 3. utorak u mjesecu",
+      "ulice": ["Antuna Mihanovića", "Ljudevita Gaja"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-06 PK 01-07 M 01-08 B 01-14 M 01-15 B 01-20 PK 01-21 M 01-22 B 01-28 M 01-29 B",
+          "02-03 PK 02-04 M 02-05 B 02-11 M 02-12 B 02-17 PK 02-18 M 02-19 B 02-25 M 02-26 B",
+          "03-03 PK 03-04 M 03-05 B 03-11 M 03-12 B 03-17 PK 03-18 M 03-19 B 03-25 M 03-26 B",
+          "04-01 M 04-02 B 04-07 PK 04-08 M 04-09 B 04-15 M 04-16 B 04-21 PK 04-22 M 04-23 B 04-29 M 04-30 B",
+          "05-05 PK 05-06 M 05-07 B 05-13 M 05-14 B 05-19 PK 05-20 M 05-21 B 05-27 M 05-28 B",
+          "06-02 PK 06-03 M 06-04 B 06-10 M 06-11 B 06-16 PK 06-17 M 06-18 B 06-24 M 06-25 B",
+          "07-01 M 07-02 B 07-07 PK 07-08 M 07-09 B 07-15 M 07-16 B 07-21 PK 07-22 M 07-23 B 07-29 M 07-30 B",
+          "08-04 PK 08-05 M 08-06 B 08-12 M 08-13 B 08-18 PK 08-19 M 08-20 B 08-26 M 08-27 B",
+          "09-01 PK 09-02 M 09-03 B 09-09 M 09-10 B 09-15 PK 09-16 M 09-17 B 09-23 M 09-24 B 09-30 M",
+          "10-01 B 10-06 PK 10-07 M 10-08 B 10-14 M 10-15 B 10-20 PK 10-21 M 10-22 B 10-28 M 10-29 B",
+          "11-03 PK 11-04 M 11-05 B 11-11 M 11-12 B 11-17 PK 11-18 M 11-19 B 11-25 M 11-26 B",
+          "12-01 PK 12-02 M 12-03 B 12-09 M 12-10 B 12-15 PK 12-16 M 12-17 B 12-23 M 12-24 B 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "32": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad četvrtak; papir i plastika 1. i 3. petak u mjesecu",
+      "ulice": ["Naselje Slavonija II"],
+      "raw": {
+        "2026": [
+          "01-02 PK 01-03 B! 01-07 M 01-08 B 01-14 M 01-15 B 01-16 PK 01-21 M 01-22 B 01-28 M 01-29 B",
+          "02-04 M 02-05 B 02-06 PK 02-11 M 02-12 B 02-18 M 02-19 B 02-20 PK 02-25 M 02-26 B",
+          "03-04 M 03-05 B 03-06 PK 03-11 M 03-12 B 03-18 M 03-19 B 03-20 PK 03-25 M 03-26 B",
+          "04-01 M 04-02 B 04-03 PK 04-08 M 04-09 B 04-15 M 04-16 B 04-17 PK 04-22 M 04-23 B 04-29 M 04-30 B",
+          "05-01 PK 05-06 M 05-07 B 05-13 M 05-14 B 05-15 PK 05-20 M 05-21 B 05-27 M 05-28 B",
+          "06-03 M 06-04 B 06-05 PK 06-10 M 06-11 B 06-17 M 06-18 B 06-19 PK 06-24 M 06-25 B",
+          "07-01 M 07-02 B 07-03 PK 07-08 M 07-09 B 07-15 M 07-16 B 07-17 PK 07-22 M 07-23 B 07-29 M 07-30 B",
+          "08-05 M 08-06 B 08-07 PK 08-12 M 08-13 B 08-19 M 08-20 B 08-21 PK 08-26 M 08-27 B",
+          "09-02 M 09-03 B 09-04 PK 09-09 M 09-10 B 09-16 M 09-17 B 09-18 PK 09-23 M 09-24 B 09-30 M",
+          "10-01 B 10-02 PK 10-07 M 10-08 B 10-14 M 10-15 B 10-16 PK 10-21 M 10-22 B 10-28 M 10-29 B",
+          "11-04 M 11-05 B 11-06 PK 11-11 M 11-12 B 11-18 M 11-19 B 11-20 PK 11-25 M 11-26 B",
+          "12-02 M 12-03 B 12-04 PK 12-09 M 12-10 B 12-16 M 12-17 B 12-18 PK 12-23 M 12-24 B 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "33": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad četvrtak; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Augusta Cesarca", "Nikole Tesle", "Pavleka Miškina", "Trg kralja Tomislava"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-07 M 01-08 B 01-09 PK 01-14 M 01-15 B 01-21 M 01-22 B 01-23 PK 01-28 M 01-29 B",
+          "02-04 M 02-05 B 02-11 M 02-12 B 02-13 PK 02-18 M 02-19 B 02-25 M 02-26 B 02-27 PK",
+          "03-04 M 03-05 B 03-11 M 03-12 B 03-13 PK 03-18 M 03-19 B 03-25 M 03-26 B 03-27 PK",
+          "04-01 M 04-02 B 04-08 M 04-09 B 04-10 PK 04-15 M 04-16 B 04-22 M 04-23 B 04-24 PK 04-29 M 04-30 B",
+          "05-06 M 05-07 B 05-08 PK 05-13 M 05-14 B 05-20 M 05-21 B 05-22 PK 05-27 M 05-28 B",
+          "06-03 M 06-04 B 06-10 M 06-11 B 06-12 PK 06-17 M 06-18 B 06-24 M 06-25 B 06-26 PK",
+          "07-01 M 07-02 B 07-08 M 07-09 B 07-10 PK 07-15 M 07-16 B 07-22 M 07-23 B 07-24 PK 07-29 M 07-30 B",
+          "08-05 M 08-06 B 08-12 M 08-13 B 08-14 PK 08-19 M 08-20 B 08-26 M 08-27 B 08-28 PK",
+          "09-02 M 09-03 B 09-09 M 09-10 B 09-11 PK 09-16 M 09-17 B 09-23 M 09-24 B 09-25 PK 09-30 M",
+          "10-01 B 10-07 M 10-08 B 10-09 PK 10-14 M 10-15 B 10-21 M 10-22 B 10-23 PK 10-28 M 10-29 B",
+          "11-04 M 11-05 B 11-11 M 11-12 B 11-13 PK 11-18 M 11-19 B 11-25 M 11-26 B 11-27 PK",
+          "12-02 M 12-03 B 12-09 M 12-10 B 12-11 PK 12-16 M 12-17 B 12-23 M 12-24 B 12-26 PK! 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "34": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad petak; papir i plastika 1. i 3. utorak u mjesecu",
+      "ulice": ["Trg Stjepana Miletića", "Šetalište braće Radić"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 PK 01-07 M 01-09 B 01-14 M 01-16 B 01-20 PK 01-21 M 01-23 B 01-28 M 01-30 B",
+          "02-03 PK 02-04 M 02-06 B 02-11 M 02-13 B 02-17 PK 02-18 M 02-20 B 02-25 M 02-27 B",
+          "03-03 PK 03-04 M 03-06 B 03-11 M 03-13 B 03-17 PK 03-18 M 03-20 B 03-25 M 03-27 B",
+          "04-01 M 04-03 B 04-07 PK 04-08 M 04-10 B 04-15 M 04-17 B 04-21 PK 04-22 M 04-24 B 04-29 M",
+          "05-01 B 05-05 PK 05-06 M 05-08 B 05-13 M 05-15 B 05-19 PK 05-20 M 05-22 B 05-27 M 05-29 B",
+          "06-02 PK 06-03 M 06-05 B 06-10 M 06-12 B 06-16 PK 06-17 M 06-19 B 06-24 M 06-26 B",
+          "07-01 M 07-03 B 07-07 PK 07-08 M 07-10 B 07-15 M 07-17 B 07-21 PK 07-22 M 07-24 B 07-29 M 07-31 B",
+          "08-04 PK 08-05 M 08-07 B 08-12 M 08-14 B 08-18 PK 08-19 M 08-21 B 08-26 M 08-28 B",
+          "09-01 PK 09-02 M 09-04 B 09-09 M 09-11 B 09-15 PK 09-16 M 09-18 B 09-23 M 09-25 B 09-30 M",
+          "10-02 B 10-06 PK 10-07 M 10-09 B 10-14 M 10-16 B 10-20 PK 10-21 M 10-23 B 10-28 M 10-30 B",
+          "11-03 PK 11-04 M 11-06 B 11-11 M 11-13 B 11-17 PK 11-18 M 11-20 B 11-25 M 11-27 B",
+          "12-01 PK 12-02 M 12-04 B 12-09 M 12-11 B 12-15 PK 12-16 M 12-18 B 12-23 M 12-26 B! 12-30 M"
+        ]
+      }
+    },
+    "35": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad petak; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Ivana Fajerbaha"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-07 MPK 01-09 B 01-14 M 01-16 B 01-21 MPK 01-23 B 01-28 M 01-30 B",
+          "02-04 MPK 02-06 B 02-11 M 02-13 B 02-18 MPK 02-20 B 02-25 M 02-27 B",
+          "03-04 MPK 03-06 B 03-11 M 03-13 B 03-18 MPK 03-20 B 03-25 M 03-27 B",
+          "04-01 MPK 04-03 B 04-08 M 04-10 B 04-15 MPK 04-17 B 04-22 M 04-24 B 04-29 M",
+          "05-01 B 05-06 MPK 05-08 B 05-13 M 05-15 B 05-20 MPK 05-22 B 05-27 M 05-29 B",
+          "06-03 MPK 06-05 B 06-10 M 06-12 B 06-17 MPK 06-19 B 06-24 M 06-26 B",
+          "07-01 MPK 07-03 B 07-08 M 07-10 B 07-15 MPK 07-17 B 07-22 M 07-24 B 07-29 M 07-31 B",
+          "08-05 MPK 08-07 B 08-12 M 08-14 B 08-19 MPK 08-21 B 08-26 M 08-28 B",
+          "09-02 MPK 09-04 B 09-09 M 09-11 B 09-16 MPK 09-18 B 09-23 M 09-25 B 09-30 M",
+          "10-02 B 10-07 MPK 10-09 B 10-14 M 10-16 B 10-21 MPK 10-23 B 10-28 M 10-30 B",
+          "11-04 MPK 11-06 B 11-11 M 11-13 B 11-18 MPK 11-20 B 11-25 M 11-27 B",
+          "12-02 MPK 12-04 B 12-09 M 12-11 B 12-16 MPK 12-18 B 12-23 M 12-26 B! 12-30 M"
+        ]
+      }
+    },
+    "36": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad petak; papir i plastika 2. i 4. četvrtak u mjesecu",
+      "ulice": ["Trg Josipa Stadlera"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-07 M 01-08 PK 01-09 B 01-14 M 01-16 B 01-21 M 01-22 PK 01-23 B 01-28 M 01-30 B",
+          "02-04 M 02-06 B 02-11 M 02-12 PK 02-13 B 02-18 M 02-20 B 02-25 M 02-26 PK 02-27 B",
+          "03-04 M 03-06 B 03-11 M 03-12 PK 03-13 B 03-18 M 03-20 B 03-25 M 03-26 PK 03-27 B",
+          "04-01 M 04-03 B 04-08 M 04-09 PK 04-10 B 04-15 M 04-17 B 04-22 M 04-23 PK 04-24 B 04-29 M",
+          "05-01 B 05-06 M 05-08 B 05-13 M 05-14 PK 05-15 B 05-20 M 05-22 B 05-27 M 05-28 PK 05-29 B",
+          "06-03 M 06-05 B 06-10 M 06-11 PK 06-12 B 06-17 M 06-19 B 06-24 M 06-25 PK 06-26 B",
+          "07-01 M 07-03 B 07-08 M 07-09 PK 07-10 B 07-15 M 07-17 B 07-22 M 07-23 PK 07-24 B 07-29 M 07-31 B",
+          "08-05 M 08-07 B 08-12 M 08-13 PK 08-14 B 08-19 M 08-21 B 08-26 M 08-27 PK 08-28 B",
+          "09-02 M 09-04 B 09-09 M 09-10 PK 09-11 B 09-16 M 09-18 B 09-23 M 09-24 PK 09-25 B 09-30 M",
+          "10-02 B 10-07 M 10-08 PK 10-09 B 10-14 M 10-16 B 10-21 M 10-22 PK 10-23 B 10-28 M 10-30 B",
+          "11-04 M 11-06 B 11-11 M 11-12 PK 11-13 B 11-18 M 11-20 B 11-25 M 11-26 PK 11-27 B",
+          "12-02 M 12-04 B 12-09 M 12-10 PK 12-11 B 12-16 M 12-18 B 12-23 M 12-24 PK 12-26 B! 12-30 M"
+        ]
+      }
+    },
+    "37": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad petak; papir i plastika 1. i 3. petak u mjesecu",
+      "ulice": ["30. svibnja 1990.", "Babinac I", "Babinac II", "Davida Bogdanovića", "Glogovačka ulica", "Karašička ulica", "Majke Terezije", "Marijana Lanosovića", "Matije Ivanića", "Mirka Turčinovića", "Osječka ulica parni od 56 do 332", "Slavka Pokaza", "Svete obitelji", "Vilme Daus", "Šestinac I", "Šestinac II", "Šestinac III", "Šestinac IV", "Šestinac V", "Šubićeva ulica"],
+      "raw": {
+        "2026": [
+          "01-02 BPK 01-07 M 01-09 B 01-14 M 01-16 BPK 01-21 M 01-23 B 01-28 M 01-30 B",
+          "02-04 M 02-06 BPK 02-11 M 02-13 B 02-18 M 02-20 BPK 02-25 M 02-27 B",
+          "03-04 M 03-06 BPK 03-11 M 03-13 B 03-18 M 03-20 BPK 03-25 M 03-27 B",
+          "04-01 M 04-03 BPK 04-08 M 04-10 B 04-15 M 04-17 BPK 04-22 M 04-24 B 04-29 M",
+          "05-01 BPK 05-06 M 05-08 B 05-13 M 05-15 BPK 05-20 M 05-22 B 05-27 M 05-29 B",
+          "06-03 M 06-05 BPK 06-10 M 06-12 B 06-17 M 06-19 BPK 06-24 M 06-26 B",
+          "07-01 M 07-03 BPK 07-08 M 07-10 B 07-15 M 07-17 BPK 07-22 M 07-24 B 07-29 M 07-31 B",
+          "08-05 M 08-07 BPK 08-12 M 08-14 B 08-19 M 08-21 BPK 08-26 M 08-28 B",
+          "09-02 M 09-04 BPK 09-09 M 09-11 B 09-16 M 09-18 BPK 09-23 M 09-25 B 09-30 M",
+          "10-02 BPK 10-07 M 10-09 B 10-14 M 10-16 BPK 10-21 M 10-23 B 10-28 M 10-30 B",
+          "11-04 M 11-06 BPK 11-11 M 11-13 B 11-18 M 11-20 BPK 11-25 M 11-27 B",
+          "12-02 M 12-04 BPK 12-09 M 12-11 B 12-16 M 12-18 BPK 12-23 M 12-26 B! 12-30 M"
+        ]
+      }
+    },
+    "38": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani srijeda, biootpad petak; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Borovska ulica", "Brune Bušića", "Domobranska", "Ivana Mažuranića", "Julija Hoffmana", "Matije Gupca", "Petra Krešimira IV neparni od 1 do 57", "Petra Krešimira IV parni od 8 do 62", "Petra Svačića neparni od 1 do 23", "Slunjska ulica", "Stjepana Marjanovića", "Trg Ivane Brlić Mažuranić od 13 do 17", "Trg Pobjede", "Vukovarska ulica", "Đure Pilara"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-07 M 01-09 BPK 01-14 M 01-16 B 01-21 M 01-23 BPK 01-28 M 01-30 B",
+          "02-04 M 02-06 B 02-11 M 02-13 BPK 02-18 M 02-20 B 02-25 M 02-27 BPK",
+          "03-04 M 03-06 B 03-11 M 03-13 BPK 03-18 M 03-20 B 03-25 M 03-27 BPK",
+          "04-01 M 04-03 B 04-08 M 04-10 BPK 04-15 M 04-17 B 04-22 M 04-24 BPK 04-29 M",
+          "05-01 B 05-06 M 05-08 BPK 05-13 M 05-15 B 05-20 M 05-22 BPK 05-27 M 05-29 B",
+          "06-03 M 06-05 B 06-10 M 06-12 BPK 06-17 M 06-19 B 06-24 M 06-26 BPK",
+          "07-01 M 07-03 B 07-08 M 07-10 BPK 07-15 M 07-17 B 07-22 M 07-24 BPK 07-29 M 07-31 B",
+          "08-05 M 08-07 B 08-12 M 08-14 BPK 08-19 M 08-21 B 08-26 M 08-28 BPK",
+          "09-02 M 09-04 B 09-09 M 09-11 BPK 09-16 M 09-18 B 09-23 M 09-25 BPK 09-30 M",
+          "10-02 B 10-07 M 10-09 BPK 10-14 M 10-16 B 10-21 M 10-23 BPK 10-28 M 10-30 B",
+          "11-04 M 11-06 B 11-11 M 11-13 BPK 11-18 M 11-20 B 11-25 M 11-27 BPK",
+          "12-02 M 12-04 B 12-09 M 12-11 BPK 12-16 M 12-18 B 12-23 M 12-26 BPK! 12-30 M"
+        ]
+      }
+    },
+    "39": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad ponedjeljak; papir i plastika 1. i 3. utorak u mjesecu",
+      "ulice": ["2. svibnja 1992.", "3. Gardijske Brigade", "Andrije Medulića", "Antuna Vrančića", "Bosanska ulica", "Carinska ulica", "Franje Kuhača", "Grgura Ninskog", "Hanibala Lucića", "Hercegovačka ulica", "Jadranska ulica", "Jurja Križanića", "Katarine Kotromanić", "Kolodvorska ulica", "Luke Botića", "Marina Getaldića", "Naselje Jelas", "Opatijska ulica", "Panonska ulica", "Pavla Šubića", "Ruđera Boškovića", "Svetog Nikole Tavelića"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-05 B 01-06 PK 01-08 M 01-12 B 01-15 M 01-19 B 01-20 PK 01-22 M 01-26 B 01-29 M",
+          "02-02 B 02-03 PK 02-05 M 02-09 B 02-12 M 02-16 B 02-17 PK 02-19 M 02-23 B 02-26 M",
+          "03-02 B 03-03 PK 03-05 M 03-09 B 03-12 M 03-16 B 03-17 PK 03-19 M 03-23 B 03-26 M 03-30 B",
+          "04-02 M 04-06 B 04-07 PK 04-09 M 04-13 B 04-16 M 04-20 B 04-21 PK 04-23 M 04-27 B 04-30 M",
+          "05-04 B 05-05 PK 05-07 M 05-11 B 05-14 M 05-18 B 05-19 PK 05-21 M 05-25 B 05-28 M",
+          "06-01 B 06-02 PK 06-04 M 06-08 B 06-11 M 06-15 B 06-16 PK 06-18 M 06-22 B 06-25 M 06-29 B",
+          "07-02 M 07-06 B 07-07 PK 07-09 M 07-13 B 07-16 M 07-20 B 07-21 PK 07-23 M 07-27 B 07-30 M",
+          "08-03 B 08-04 PK 08-06 M 08-10 B 08-13 M 08-17 B 08-18 PK 08-20 M 08-24 B 08-27 M 08-31 B",
+          "09-01 PK 09-03 M 09-07 B 09-10 M 09-14 B 09-15 PK 09-17 M 09-21 B 09-24 M 09-28 B",
+          "10-01 M 10-05 B 10-06 PK 10-08 M 10-12 B 10-15 M 10-19 B 10-20 PK 10-22 M 10-26 B 10-29 M",
+          "11-02 B 11-03 PK 11-05 M 11-09 B 11-12 M 11-16 B 11-17 PK 11-19 M 11-23 B 11-26 M 11-30 B",
+          "12-01 PK 12-03 M 12-07 B 12-10 M 12-14 B 12-15 PK 12-17 M 12-21 B 12-24 M 12-28 B 12-31 M"
+        ]
+      }
+    },
+    "40": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad ponedjeljak; papir i plastika 2. i 4. utorak u mjesecu",
+      "ulice": ["Augustina Jarića", "Ivana Mertza", "Ivana Velikanovića", "Ive Vojnovića", "Josipa Rimca", "Mrsunjska ulica", "Orljavska ulica", "Savska ulica", "Stadionska ulica", "Stjepana Radića", "Svetog Franje"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-05 B 01-08 M 01-12 B 01-13 PK 01-15 M 01-19 B 01-22 M 01-26 B 01-27 PK 01-29 M",
+          "02-02 B 02-05 M 02-09 B 02-10 PK 02-12 M 02-16 B 02-19 M 02-23 B 02-24 PK 02-26 M",
+          "03-02 B 03-05 M 03-09 B 03-10 PK 03-12 M 03-16 B 03-19 M 03-23 B 03-24 PK 03-26 M 03-30 B",
+          "04-02 M 04-06 B 04-09 M 04-13 B 04-14 PK 04-16 M 04-20 B 04-23 M 04-27 B 04-28 PK 04-30 M",
+          "05-04 B 05-07 M 05-11 B 05-12 PK 05-14 M 05-18 B 05-21 M 05-25 B 05-26 PK 05-28 M",
+          "06-01 B 06-04 M 06-08 B 06-09 PK 06-11 M 06-15 B 06-18 M 06-22 B 06-23 PK 06-25 M 06-29 B",
+          "07-02 M 07-06 B 07-09 M 07-13 B 07-14 PK 07-16 M 07-20 B 07-23 M 07-27 B 07-28 PK 07-30 M",
+          "08-03 B 08-06 M 08-10 B 08-11 PK 08-13 M 08-17 B 08-20 M 08-24 B 08-25 PK 08-27 M 08-31 B",
+          "09-03 M 09-07 B 09-08 PK 09-10 M 09-14 B 09-17 M 09-21 B 09-22 PK 09-24 M 09-28 B",
+          "10-01 M 10-05 B 10-08 M 10-12 B 10-13 PK 10-15 M 10-19 B 10-22 M 10-26 B 10-27 PK 10-29 M",
+          "11-02 B 11-05 M 11-09 B 11-10 PK 11-12 M 11-16 B 11-19 M 11-23 B 11-24 PK 11-26 M 11-30 B",
+          "12-03 M 12-07 B 12-08 PK 12-10 M 12-14 B 12-17 M 12-21 B 12-22 PK 12-24 M 12-28 B 12-31 M"
+        ]
+      }
+    },
+    "41": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad utorak; papir i plastika 2. i 4. ponedjeljak u mjesecu",
+      "ulice": ["108. Brigade ZNG", "Braće Crljen", "Dimitrija Demetra", "Fra Grge Martića od 19 do 24", "Jakova Užarevića", "Kolara I", "Kolara II", "Kolara III", "Kolara IV", "Kolara V", "Ljudevita Jonkea", "Marina Držića", "Trešnjica"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-06 B 01-08 M 01-12 PK 01-13 B 01-15 M 01-20 B 01-22 M 01-26 PK 01-27 B 01-29 M",
+          "02-03 B 02-05 M 02-09 PK 02-10 B 02-12 M 02-17 B 02-19 M 02-23 PK 02-24 B 02-26 M",
+          "03-03 B 03-05 M 03-09 PK 03-10 B 03-12 M 03-17 B 03-19 M 03-23 PK 03-24 B 03-26 M 03-31 B",
+          "04-02 M 04-07 B 04-09 M 04-13 PK 04-14 B 04-16 M 04-21 B 04-23 M 04-27 PK 04-28 B 04-30 M",
+          "05-05 B 05-07 M 05-11 PK 05-12 B 05-14 M 05-19 B 05-21 M 05-25 PK 05-26 B 05-28 M",
+          "06-02 B 06-04 M 06-08 PK 06-09 B 06-11 M 06-16 B 06-18 M 06-22 PK 06-23 B 06-25 M 06-30 B",
+          "07-02 M 07-07 B 07-09 M 07-13 PK 07-14 B 07-16 M 07-21 B 07-23 M 07-27 PK 07-28 B 07-30 M",
+          "08-04 B 08-06 M 08-10 PK 08-11 B 08-13 M 08-18 B 08-20 M 08-24 PK 08-25 B 08-27 M",
+          "09-01 B 09-03 M 09-08 B 09-10 M 09-14 PK 09-15 B 09-17 M 09-22 B 09-24 M 09-28 PK 09-29 B",
+          "10-01 M 10-06 B 10-08 M 10-12 PK 10-13 B 10-15 M 10-20 B 10-22 M 10-26 PK 10-27 B 10-29 M",
+          "11-03 B 11-05 M 11-09 PK 11-10 B 11-12 M 11-17 B 11-19 M 11-23 PK 11-24 B 11-26 M",
+          "12-01 B 12-03 M 12-08 B 12-10 M 12-14 PK 12-15 B 12-17 M 12-22 B 12-24 M 12-28 PK 12-29 B 12-31 M"
+        ]
+      }
+    },
+    "42": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad srijeda; papir i plastika 2. i 4. utorak u mjesecu",
+      "ulice": ["Andrije Štampara neparni od 19 do 71", "Andrije Štampara parni od 26 do 60", "Baruna Trenka", "Dragutina Račkog", "Ivana Gorana Kovačića", "Kneza Domagoja", "Kneza Trpimira", "Matije Antuna Reljkovića", "Nikole Zrinskog neparni od 71 do 109", "Nikole Zrinskog parni od 88 do 100", "Osječka ulica neparni od 5 do 39", "Radnički trg"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-07 B 01-08 M 01-13 PK 01-14 B 01-15 M 01-21 B 01-22 M 01-27 PK 01-28 B 01-29 M",
+          "02-04 B 02-05 M 02-10 PK 02-11 B 02-12 M 02-18 B 02-19 M 02-24 PK 02-25 B 02-26 M",
+          "03-04 B 03-05 M 03-10 PK 03-11 B 03-12 M 03-18 B 03-19 M 03-24 PK 03-25 B 03-26 M",
+          "04-01 B 04-02 M 04-08 B 04-09 M 04-14 PK 04-15 B 04-16 M 04-22 B 04-23 M 04-28 PK 04-29 B 04-30 M",
+          "05-06 B 05-07 M 05-12 PK 05-13 B 05-14 M 05-20 B 05-21 M 05-26 PK 05-27 B 05-28 M",
+          "06-03 B 06-04 M 06-09 PK 06-10 B 06-11 M 06-17 B 06-18 M 06-23 PK 06-24 B 06-25 M",
+          "07-01 B 07-02 M 07-08 B 07-09 M 07-14 PK 07-15 B 07-16 M 07-22 B 07-23 M 07-28 PK 07-29 B 07-30 M",
+          "08-05 B 08-06 M 08-11 PK 08-12 B 08-13 M 08-19 B 08-20 M 08-25 PK 08-26 B 08-27 M",
+          "09-02 B 09-03 M 09-08 PK 09-09 B 09-10 M 09-16 B 09-17 M 09-22 PK 09-23 B 09-24 M 09-30 B",
+          "10-01 M 10-07 B 10-08 M 10-13 PK 10-14 B 10-15 M 10-21 B 10-22 M 10-27 PK 10-28 B 10-29 M",
+          "11-04 B 11-05 M 11-10 PK 11-11 B 11-12 M 11-18 B 11-19 M 11-24 PK 11-25 B 11-26 M",
+          "12-02 B 12-03 M 12-08 PK 12-09 B 12-10 M 12-16 B 12-17 M 12-22 PK 12-23 B 12-24 M 12-30 B 12-31 M"
+        ]
+      }
+    },
+    "43": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad srijeda; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Naselje Lutvinka"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-07 BPK 01-08 M 01-14 B 01-15 M 01-21 BPK 01-22 M 01-28 B 01-29 M",
+          "02-04 BPK 02-05 M 02-11 B 02-12 M 02-18 BPK 02-19 M 02-25 B 02-26 M",
+          "03-04 BPK 03-05 M 03-11 B 03-12 M 03-18 BPK 03-19 M 03-25 B 03-26 M",
+          "04-01 BPK 04-02 M 04-08 B 04-09 M 04-15 BPK 04-16 M 04-22 B 04-23 M 04-29 B 04-30 M",
+          "05-06 BPK 05-07 M 05-13 B 05-14 M 05-20 BPK 05-21 M 05-27 B 05-28 M",
+          "06-03 BPK 06-04 M 06-10 B 06-11 M 06-17 BPK 06-18 M 06-24 B 06-25 M",
+          "07-01 BPK 07-02 M 07-08 B 07-09 M 07-15 BPK 07-16 M 07-22 B 07-23 M 07-29 B 07-30 M",
+          "08-05 BPK 08-06 M 08-12 B 08-13 M 08-19 BPK 08-20 M 08-26 B 08-27 M",
+          "09-02 BPK 09-03 M 09-09 B 09-10 M 09-16 BPK 09-17 M 09-23 B 09-24 M 09-30 B",
+          "10-01 M 10-07 BPK 10-08 M 10-14 B 10-15 M 10-21 BPK 10-22 M 10-28 B 10-29 M",
+          "11-04 BPK 11-05 M 11-11 B 11-12 M 11-18 BPK 11-19 M 11-25 B 11-26 M",
+          "12-02 BPK 12-03 M 12-09 B 12-10 M 12-16 BPK 12-17 M 12-23 B 12-24 M 12-30 B 12-31 M"
+        ]
+      }
+    },
+    "44": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad četvrtak; papir i plastika 1. i 3. utorak u mjesecu",
+      "ulice": ["Huge Badalića", "Ivana Gundulića", "Josipa Muravića", "Naselje Huge Badalića", "Naselje kraljice Jelene", "Stjepana pl. Horvata", "Trg Ignjata Alojzija Brlića", "Đure Basaričeka"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-06 PK 01-08 MB 01-15 MB 01-20 PK 01-22 MB 01-29 MB",
+          "02-03 PK 02-05 MB 02-12 MB 02-17 PK 02-19 MB 02-26 MB",
+          "03-03 PK 03-05 MB 03-12 MB 03-17 PK 03-19 MB 03-26 MB",
+          "04-02 MB 04-07 PK 04-09 MB 04-16 MB 04-21 PK 04-23 MB 04-30 MB",
+          "05-05 PK 05-07 MB 05-14 MB 05-19 PK 05-21 MB 05-28 MB",
+          "06-02 PK 06-04 MB 06-11 MB 06-16 PK 06-18 MB 06-25 MB",
+          "07-02 MB 07-07 PK 07-09 MB 07-16 MB 07-21 PK 07-23 MB 07-30 MB",
+          "08-04 PK 08-06 MB 08-13 MB 08-18 PK 08-20 MB 08-27 MB",
+          "09-01 PK 09-03 MB 09-10 MB 09-15 PK 09-17 MB 09-24 MB",
+          "10-01 MB 10-06 PK 10-08 MB 10-15 MB 10-20 PK 10-22 MB 10-29 MB",
+          "11-03 PK 11-05 MB 11-12 MB 11-17 PK 11-19 MB 11-26 MB",
+          "12-01 PK 12-03 MB 12-10 MB 12-15 PK 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "45": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad četvrtak; papir i plastika 2. i 4. utorak u mjesecu",
+      "ulice": ["Andrije Štampara neparni od 1 do 17", "Andrije Štampara parni od 2 do 24", "Nikole Zrinskog neparni od 1 do 69", "Nikole Zrinskog parni od 2 do 86"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-13 PK 01-15 MB 01-22 MB 01-27 PK 01-29 MB",
+          "02-05 MB 02-10 PK 02-12 MB 02-19 MB 02-24 PK 02-26 MB",
+          "03-05 MB 03-10 PK 03-12 MB 03-19 MB 03-24 PK 03-26 MB",
+          "04-02 MB 04-09 MB 04-14 PK 04-16 MB 04-23 MB 04-28 PK 04-30 MB",
+          "05-07 MB 05-12 PK 05-14 MB 05-21 MB 05-26 PK 05-28 MB",
+          "06-04 MB 06-09 PK 06-11 MB 06-18 MB 06-23 PK 06-25 MB",
+          "07-02 MB 07-09 MB 07-14 PK 07-16 MB 07-23 MB 07-28 PK 07-30 MB",
+          "08-06 MB 08-11 PK 08-13 MB 08-20 MB 08-25 PK 08-27 MB",
+          "09-03 MB 09-08 PK 09-10 MB 09-17 MB 09-22 PK 09-24 MB",
+          "10-01 MB 10-08 MB 10-13 PK 10-15 MB 10-22 MB 10-27 PK 10-29 MB",
+          "11-05 MB 11-10 PK 11-12 MB 11-19 MB 11-24 PK 11-26 MB",
+          "12-03 MB 12-08 PK 12-10 MB 12-17 MB 12-22 PK 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "46": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad četvrtak; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Naselje kralja Tomislava"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-07 PK 01-08 MB 01-15 MB 01-21 PK 01-22 MB 01-29 MB",
+          "02-04 PK 02-05 MB 02-12 MB 02-18 PK 02-19 MB 02-26 MB",
+          "03-04 PK 03-05 MB 03-12 MB 03-18 PK 03-19 MB 03-26 MB",
+          "04-01 PK 04-02 MB 04-09 MB 04-15 PK 04-16 MB 04-23 MB 04-30 MB",
+          "05-06 PK 05-07 MB 05-14 MB 05-20 PK 05-21 MB 05-28 MB",
+          "06-03 PK 06-04 MB 06-11 MB 06-17 PK 06-18 MB 06-25 MB",
+          "07-01 PK 07-02 MB 07-09 MB 07-15 PK 07-16 MB 07-23 MB 07-30 MB",
+          "08-05 PK 08-06 MB 08-13 MB 08-19 PK 08-20 MB 08-27 MB",
+          "09-02 PK 09-03 MB 09-10 MB 09-16 PK 09-17 MB 09-24 MB",
+          "10-01 MB 10-07 PK 10-08 MB 10-15 MB 10-21 PK 10-22 MB 10-29 MB",
+          "11-04 PK 11-05 MB 11-12 MB 11-18 PK 11-19 MB 11-26 MB",
+          "12-02 PK 12-03 MB 12-10 MB 12-16 PK 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "47": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad petak; papir i plastika 2. i 4. utorak u mjesecu",
+      "ulice": ["Osječka ulica parni od 8 do 54", "Vladimira Gortana"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-03 M! 01-08 M 01-09 B 01-13 PK 01-15 M 01-16 B 01-22 M 01-23 B 01-27 PK 01-29 M 01-30 B",
+          "02-05 M 02-06 B 02-10 PK 02-12 M 02-13 B 02-19 M 02-20 B 02-24 PK 02-26 M 02-27 B",
+          "03-05 M 03-06 B 03-10 PK 03-12 M 03-13 B 03-19 M 03-20 B 03-24 PK 03-26 M 03-27 B",
+          "04-02 M 04-03 B 04-09 M 04-10 B 04-14 PK 04-16 M 04-17 B 04-23 M 04-24 B 04-28 PK 04-30 M",
+          "05-01 B 05-07 M 05-08 B 05-12 PK 05-14 M 05-15 B 05-21 M 05-22 B 05-26 PK 05-28 M 05-29 B",
+          "06-04 M 06-05 B 06-09 PK 06-11 M 06-12 B 06-18 M 06-19 B 06-23 PK 06-25 M 06-26 B",
+          "07-02 M 07-03 B 07-09 M 07-10 B 07-14 PK 07-16 M 07-17 B 07-23 M 07-24 B 07-28 PK 07-30 M 07-31 B",
+          "08-06 M 08-07 B 08-11 PK 08-13 M 08-14 B 08-20 M 08-21 B 08-25 PK 08-27 M 08-28 B",
+          "09-03 M 09-04 B 09-08 PK 09-10 M 09-11 B 09-17 M 09-18 B 09-22 PK 09-24 M 09-25 B",
+          "10-01 M 10-02 B 10-08 M 10-09 B 10-13 PK 10-15 M 10-16 B 10-22 M 10-23 B 10-27 PK 10-29 M 10-30 B",
+          "11-05 M 11-06 B 11-10 PK 11-12 M 11-13 B 11-19 M 11-20 B 11-24 PK 11-26 M 11-27 B",
+          "12-03 M 12-04 B 12-08 PK 12-10 M 12-11 B 12-17 M 12-18 B 12-22 PK 12-24 M 12-26 B! 12-31 M"
+        ]
+      }
+    },
+    "48": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani četvrtak, biootpad petak; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Petra Krešimira IV parni od 2 do 6"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-03 M! 01-08 M 01-09 BPK 01-15 M 01-16 B 01-22 M 01-23 BPK 01-29 M 01-30 B",
+          "02-05 M 02-06 B 02-12 M 02-13 BPK 02-19 M 02-20 B 02-26 M 02-27 BPK",
+          "03-05 M 03-06 B 03-12 M 03-13 BPK 03-19 M 03-20 B 03-26 M 03-27 BPK",
+          "04-02 M 04-03 B 04-09 M 04-10 BPK 04-16 M 04-17 B 04-23 M 04-24 BPK 04-30 M",
+          "05-01 B 05-07 M 05-08 BPK 05-14 M 05-15 B 05-21 M 05-22 BPK 05-28 M 05-29 B",
+          "06-04 M 06-05 B 06-11 M 06-12 BPK 06-18 M 06-19 B 06-25 M 06-26 BPK",
+          "07-02 M 07-03 B 07-09 M 07-10 BPK 07-16 M 07-17 B 07-23 M 07-24 BPK 07-30 M 07-31 B",
+          "08-06 M 08-07 B 08-13 M 08-14 BPK 08-20 M 08-21 B 08-27 M 08-28 BPK",
+          "09-03 M 09-04 B 09-10 M 09-11 BPK 09-17 M 09-18 B 09-24 M 09-25 BPK",
+          "10-01 M 10-02 B 10-08 M 10-09 BPK 10-15 M 10-16 B 10-22 M 10-23 BPK 10-29 M 10-30 B",
+          "11-05 M 11-06 B 11-12 M 11-13 BPK 11-19 M 11-20 B 11-26 M 11-27 BPK",
+          "12-03 M 12-04 B 12-10 M 12-11 BPK 12-17 M 12-18 B 12-24 M 12-26 BPK! 12-31 M"
+        ]
+      }
+    },
+    "49": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad utorak; papir i plastika 1. i 3. ponedjeljak u mjesecu",
+      "ulice": ["Adama Baltazara Krčelića", "Anastasa Popovića", "Antuna Kanižlića", "Ardelija Della Belle", "Braće Matić", "Cvijete Zuzorić", "Eugena Kumičića", "Fra Luje Maruna", "Franje Krežme", "Grgura Čevapovića", "Hrvoja Vukčića-Hrvatinića", "Ignjata Đorđića", "Ivana Lucića", "Joakima Stullija", "Julija Klovića", "Junija Palmotića", "Jurja Habdelića", "Matije Petra Katančića", "Nikole Nalješkovića", "Pavla Rittera Vitezovića", "Stjepana Lukića", "Ulica Svetog Antuna", "Valentina Benošića", "Vinkovačkih žrtava", "Vladimira Vidrića", "Zvonimira Lukačevića", "Šiška Menčetića"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 PK 01-06 B 01-09 M 01-13 B 01-16 M 01-19 PK 01-20 B 01-23 M 01-27 B 01-30 M",
+          "02-02 PK 02-03 B 02-06 M 02-10 B 02-13 M 02-16 PK 02-17 B 02-20 M 02-24 B 02-27 M",
+          "03-02 PK 03-03 B 03-06 M 03-10 B 03-13 M 03-16 PK 03-17 B 03-20 M 03-24 B 03-27 M 03-31 B",
+          "04-03 M 04-06 PK 04-07 B 04-10 M 04-14 B 04-17 M 04-20 PK 04-21 B 04-24 M 04-28 B",
+          "05-01 M 05-04 PK 05-05 B 05-08 M 05-12 B 05-15 M 05-18 PK 05-19 B 05-22 M 05-26 B 05-29 M",
+          "06-01 PK 06-02 B 06-05 M 06-09 B 06-12 M 06-15 PK 06-16 B 06-19 M 06-23 B 06-26 M 06-30 B",
+          "07-03 M 07-06 PK 07-07 B 07-10 M 07-14 B 07-17 M 07-20 PK 07-21 B 07-24 M 07-28 B 07-31 M",
+          "08-03 PK 08-04 B 08-07 M 08-11 B 08-14 M 08-17 PK 08-18 B 08-21 M 08-25 B 08-28 M",
+          "09-01 B 09-04 M 09-07 PK 09-08 B 09-11 M 09-15 B 09-18 M 09-21 PK 09-22 B 09-25 M 09-29 B",
+          "10-02 M 10-05 PK 10-06 B 10-09 M 10-13 B 10-16 M 10-19 PK 10-20 B 10-23 M 10-27 B 10-30 M",
+          "11-02 PK 11-03 B 11-06 M 11-10 B 11-13 M 11-16 PK 11-17 B 11-20 M 11-24 B 11-27 M",
+          "12-01 B 12-04 M 12-07 PK 12-08 B 12-11 M 12-15 B 12-18 M 12-21 PK 12-22 B 12-26 M! 12-29 B"
+        ]
+      }
+    },
+    "50": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad utorak; papir i plastika 2. i 4. ponedjeljak u mjesecu",
+      "ulice": ["Antuna Gustava Matoša", "Brkića put", "Diljska ulica", "Dobriše Cesarića", "Dudinjak", "Eugena Kvaternika", "Fra Grge Martića od 1 do 18", "Fra Luke Ibrišimovića", "Gaj I", "Gaj II", "Gaj III", "Generala Petra Stipetića", "Grošića put", "Hrvatskih boraca", "Hrvatskih dobrovoljaca", "Ivana Cankara", "Janiševac I", "Janiševac II", "Janiševac III", "Janiševac IV", "Janiševac IX", "Janiševac V", "Janiševac VI", "Janiševac VII", "Janiševac VIII", "Janiševac X", "Janiševac XI", "Janiševac XII", "Janiševac XIII", "Josipa Eugena Tomića", "Kerdeni", "Krivača I", "Krivača II", "Krivača III", "Livade I", "Livade II", "Ljudevita Posavskog", "Mate Grkovića", "Mate Topalovića", "Naselje Čaplja I", "Naselje Čaplja II", "Naselje Čaplja III", "Naselje Čaplja IV", "Podvinjska ulica", "Rasulovica I", "Rasulovica II", "Rasulovica III", "Trg Svetog Antuna", "Ulica Breza", "Vjekoslava Bacha", "Vjekoslava Klaića", "Čavlički kraj"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 B 01-09 M 01-12 PK 01-13 B 01-16 M 01-20 B 01-23 M 01-26 PK 01-27 B 01-30 M",
+          "02-03 B 02-06 M 02-09 PK 02-10 B 02-13 M 02-17 B 02-20 M 02-23 PK 02-24 B 02-27 M",
+          "03-03 B 03-06 M 03-09 PK 03-10 B 03-13 M 03-17 B 03-20 M 03-23 PK 03-24 B 03-27 M 03-31 B",
+          "04-03 M 04-07 B 04-10 M 04-13 PK 04-14 B 04-17 M 04-21 B 04-24 M 04-27 PK 04-28 B",
+          "05-01 M 05-05 B 05-08 M 05-11 PK 05-12 B 05-15 M 05-19 B 05-22 M 05-25 PK 05-26 B 05-29 M",
+          "06-02 B 06-05 M 06-08 PK 06-09 B 06-12 M 06-16 B 06-19 M 06-22 PK 06-23 B 06-26 M 06-30 B",
+          "07-03 M 07-07 B 07-10 M 07-13 PK 07-14 B 07-17 M 07-21 B 07-24 M 07-27 PK 07-28 B 07-31 M",
+          "08-04 B 08-07 M 08-10 PK 08-11 B 08-14 M 08-18 B 08-21 M 08-24 PK 08-25 B 08-28 M",
+          "09-01 B 09-04 M 09-08 B 09-11 M 09-14 PK 09-15 B 09-18 M 09-22 B 09-25 M 09-28 PK 09-29 B",
+          "10-02 M 10-06 B 10-09 M 10-12 PK 10-13 B 10-16 M 10-20 B 10-23 M 10-26 PK 10-27 B 10-30 M",
+          "11-03 B 11-06 M 11-09 PK 11-10 B 11-13 M 11-17 B 11-20 M 11-23 PK 11-24 B 11-27 M",
+          "12-01 B 12-04 M 12-08 B 12-11 M 12-14 PK 12-15 B 12-18 M 12-22 B 12-26 M! 12-28 PK 12-29 B"
+        ]
+      }
+    },
+    "51": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad utorak; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Don Ive Prodana parni od 70 do 112"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 B 01-09 MPK 01-13 B 01-16 M 01-20 B 01-23 MPK 01-27 B 01-30 M",
+          "02-03 B 02-06 M 02-10 B 02-13 MPK 02-17 B 02-20 M 02-24 B 02-27 MPK",
+          "03-03 B 03-06 M 03-10 B 03-13 MPK 03-17 B 03-20 M 03-24 B 03-27 MPK 03-31 B",
+          "04-03 M 04-07 B 04-10 MPK 04-14 B 04-17 M 04-21 B 04-24 MPK 04-28 B",
+          "05-01 M 05-05 B 05-08 MPK 05-12 B 05-15 M 05-19 B 05-22 MPK 05-26 B 05-29 M",
+          "06-02 B 06-05 M 06-09 B 06-12 MPK 06-16 B 06-19 M 06-23 B 06-26 MPK 06-30 B",
+          "07-03 M 07-07 B 07-10 MPK 07-14 B 07-17 M 07-21 B 07-24 MPK 07-28 B 07-31 M",
+          "08-04 B 08-07 M 08-11 B 08-14 MPK 08-18 B 08-21 M 08-25 B 08-28 MPK",
+          "09-01 B 09-04 M 09-08 B 09-11 MPK 09-15 B 09-18 M 09-22 B 09-25 MPK 09-29 B",
+          "10-02 M 10-06 B 10-09 MPK 10-13 B 10-16 M 10-20 B 10-23 MPK 10-27 B 10-30 M",
+          "11-03 B 11-06 M 11-10 B 11-13 MPK 11-17 B 11-20 M 11-24 B 11-27 MPK",
+          "12-01 B 12-04 M 12-08 B 12-11 MPK 12-15 B 12-18 M 12-22 B 12-26 MPK! 12-29 B"
+        ]
+      }
+    },
+    "52": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad srijeda; papir i plastika 1. i 3. ponedjeljak u mjesecu",
+      "ulice": ["Aleja Miroslava Krleže", "Ante Gabrića", "Berislavićeva", "Davorina Bazjanca", "Dombovićeva ulica", "Ferde Šišića", "Franje Cejtnara", "Ivana Gržinića", "Josipa Hlišića", "Josipa Pleše", "Josipa Runjanina neparni od 1 do 73", "Josipa Runjanina parni od 2 do 106", "Milana Delića", "Mirka Iličića", "Mostarska ulica", "Petra Zoranića", "Silvija Strahimira Kranjčevića", "Stjepana Dubravčića Klikera", "Tadije Smičiklasa", "Vladimira Becića", "Zvonimirova ulica", "Šime i Kate Marukića", "Željeznička ulica"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 PK 01-07 B 01-09 M 01-14 B 01-16 M 01-19 PK 01-21 B 01-23 M 01-28 B 01-30 M",
+          "02-02 PK 02-04 B 02-06 M 02-11 B 02-13 M 02-16 PK 02-18 B 02-20 M 02-25 B 02-27 M",
+          "03-02 PK 03-04 B 03-06 M 03-11 B 03-13 M 03-16 PK 03-18 B 03-20 M 03-25 B 03-27 M",
+          "04-01 B 04-03 M 04-06 PK 04-08 B 04-10 M 04-15 B 04-17 M 04-20 PK 04-22 B 04-24 M 04-29 B",
+          "05-01 M 05-04 PK 05-06 B 05-08 M 05-13 B 05-15 M 05-18 PK 05-20 B 05-22 M 05-27 B 05-29 M",
+          "06-01 PK 06-03 B 06-05 M 06-10 B 06-12 M 06-15 PK 06-17 B 06-19 M 06-24 B 06-26 M",
+          "07-01 B 07-03 M 07-06 PK 07-08 B 07-10 M 07-15 B 07-17 M 07-20 PK 07-22 B 07-24 M 07-29 B 07-31 M",
+          "08-03 PK 08-05 B 08-07 M 08-12 B 08-14 M 08-17 PK 08-19 B 08-21 M 08-26 B 08-28 M",
+          "09-02 B 09-04 M 09-07 PK 09-09 B 09-11 M 09-16 B 09-18 M 09-21 PK 09-23 B 09-25 M 09-30 B",
+          "10-02 M 10-05 PK 10-07 B 10-09 M 10-14 B 10-16 M 10-19 PK 10-21 B 10-23 M 10-28 B 10-30 M",
+          "11-02 PK 11-04 B 11-06 M 11-11 B 11-13 M 11-16 PK 11-18 B 11-20 M 11-25 B 11-27 M",
+          "12-02 B 12-04 M 12-07 PK 12-09 B 12-11 M 12-16 B 12-18 M 12-21 PK 12-23 B 12-26 M! 12-30 B"
+        ]
+      }
+    },
+    "53": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad srijeda; papir i plastika 2. i 4. ponedjeljak u mjesecu",
+      "ulice": ["Naselje kardinala Franje Kuharića", "Naselje Marka Majstorovića", "Ulica Svete Ane", "Vida Došena parni od 108 do 114"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-07 B 01-09 M 01-12 PK 01-14 B 01-16 M 01-21 B 01-23 M 01-26 PK 01-28 B 01-30 M",
+          "02-04 B 02-06 M 02-09 PK 02-11 B 02-13 M 02-18 B 02-20 M 02-23 PK 02-25 B 02-27 M",
+          "03-04 B 03-06 M 03-09 PK 03-11 B 03-13 M 03-18 B 03-20 M 03-23 PK 03-25 B 03-27 M",
+          "04-01 B 04-03 M 04-08 B 04-10 M 04-13 PK 04-15 B 04-17 M 04-22 B 04-24 M 04-27 PK 04-29 B",
+          "05-01 M 05-06 B 05-08 M 05-11 PK 05-13 B 05-15 M 05-20 B 05-22 M 05-25 PK 05-27 B 05-29 M",
+          "06-03 B 06-05 M 06-08 PK 06-10 B 06-12 M 06-17 B 06-19 M 06-22 PK 06-24 B 06-26 M",
+          "07-01 B 07-03 M 07-08 B 07-10 M 07-13 PK 07-15 B 07-17 M 07-22 B 07-24 M 07-27 PK 07-29 B 07-31 M",
+          "08-05 B 08-07 M 08-10 PK 08-12 B 08-14 M 08-19 B 08-21 M 08-24 PK 08-26 B 08-28 M",
+          "09-02 B 09-04 M 09-09 B 09-11 M 09-14 PK 09-16 B 09-18 M 09-23 B 09-25 M 09-28 PK 09-30 B",
+          "10-02 M 10-07 B 10-09 M 10-12 PK 10-14 B 10-16 M 10-21 B 10-23 M 10-26 PK 10-28 B 10-30 M",
+          "11-04 B 11-06 M 11-09 PK 11-11 B 11-13 M 11-18 B 11-20 M 11-23 PK 11-25 B 11-27 M",
+          "12-02 B 12-04 M 12-09 B 12-11 M 12-14 PK 12-16 B 12-18 M 12-23 B 12-26 M! 12-28 PK 12-30 B"
+        ]
+      }
+    },
+    "54": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad srijeda; papir i plastika 2. i 4. petak u mjesecu",
+      "ulice": ["Antuna Bačića", "Franje Maričevića neparni od 1 do 17", "Franje Maričevića parni od 2 do 4", "Sjeverna vezna cesta neparni od 25 do 45", "Sjeverna vezna cesta parni od 20 do 46b"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-07 B 01-09 MPK 01-14 B 01-16 M 01-21 B 01-23 MPK 01-28 B 01-30 M",
+          "02-04 B 02-06 M 02-11 B 02-13 MPK 02-18 B 02-20 M 02-25 B 02-27 MPK",
+          "03-04 B 03-06 M 03-11 B 03-13 MPK 03-18 B 03-20 M 03-25 B 03-27 MPK",
+          "04-01 B 04-03 M 04-08 B 04-10 MPK 04-15 B 04-17 M 04-22 B 04-24 MPK 04-29 B",
+          "05-01 M 05-06 B 05-08 MPK 05-13 B 05-15 M 05-20 B 05-22 MPK 05-27 B 05-29 M",
+          "06-03 B 06-05 M 06-10 B 06-12 MPK 06-17 B 06-19 M 06-24 B 06-26 MPK",
+          "07-01 B 07-03 M 07-08 B 07-10 MPK 07-15 B 07-17 M 07-22 B 07-24 MPK 07-29 B 07-31 M",
+          "08-05 B 08-07 M 08-12 B 08-14 MPK 08-19 B 08-21 M 08-26 B 08-28 MPK",
+          "09-02 B 09-04 M 09-09 B 09-11 MPK 09-16 B 09-18 M 09-23 B 09-25 MPK 09-30 B",
+          "10-02 M 10-07 B 10-09 MPK 10-14 B 10-16 M 10-21 B 10-23 MPK 10-28 B 10-30 M",
+          "11-04 B 11-06 M 11-11 B 11-13 MPK 11-18 B 11-20 M 11-25 B 11-27 MPK",
+          "12-02 B 12-04 M 12-09 B 12-11 MPK 12-16 B 12-18 M 12-23 B 12-26 MPK! 12-30 B"
+        ]
+      }
+    },
+    "55": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad četvrtak; papir i plastika 1. i 3. srijeda u mjesecu",
+      "ulice": ["Splavarska ulica"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-03 B! 01-07 PK 01-08 B 01-09 M 01-15 B 01-16 M 01-21 PK 01-22 B 01-23 M 01-29 B 01-30 M",
+          "02-04 PK 02-05 B 02-06 M 02-12 B 02-13 M 02-18 PK 02-19 B 02-20 M 02-26 B 02-27 M",
+          "03-04 PK 03-05 B 03-06 M 03-12 B 03-13 M 03-18 PK 03-19 B 03-20 M 03-26 B 03-27 M",
+          "04-01 PK 04-02 B 04-03 M 04-09 B 04-10 M 04-15 PK 04-16 B 04-17 M 04-23 B 04-24 M 04-30 B",
+          "05-01 M 05-06 PK 05-07 B 05-08 M 05-14 B 05-15 M 05-20 PK 05-21 B 05-22 M 05-28 B 05-29 M",
+          "06-03 PK 06-04 B 06-05 M 06-11 B 06-12 M 06-17 PK 06-18 B 06-19 M 06-25 B 06-26 M",
+          "07-01 PK 07-02 B 07-03 M 07-09 B 07-10 M 07-15 PK 07-16 B 07-17 M 07-23 B 07-24 M 07-30 B 07-31 M",
+          "08-05 PK 08-06 B 08-07 M 08-13 B 08-14 M 08-19 PK 08-20 B 08-21 M 08-27 B 08-28 M",
+          "09-02 PK 09-03 B 09-04 M 09-10 B 09-11 M 09-16 PK 09-17 B 09-18 M 09-24 B 09-25 M",
+          "10-01 B 10-02 M 10-07 PK 10-08 B 10-09 M 10-15 B 10-16 M 10-21 PK 10-22 B 10-23 M 10-29 B 10-30 M",
+          "11-04 PK 11-05 B 11-06 M 11-12 B 11-13 M 11-18 PK 11-19 B 11-20 M 11-26 B 11-27 M",
+          "12-02 PK 12-03 B 12-04 M 12-10 B 12-11 M 12-16 PK 12-17 B 12-18 M 12-24 B 12-26 M! 12-31 B"
+        ]
+      }
+    },
+    "56": {
+      "jls": "Slavonski Brod",
+      "podrucje": "Miješani petak, biootpad petak; papir i plastika 1. i 3. ponedjeljak u mjesecu",
+      "ulice": ["Božidara Lučića"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-05 PK 01-09 MB 01-16 MB 01-19 PK 01-23 MB 01-30 MB",
+          "02-02 PK 02-06 MB 02-13 MB 02-16 PK 02-20 MB 02-27 MB",
+          "03-02 PK 03-06 MB 03-13 MB 03-16 PK 03-20 MB 03-27 MB",
+          "04-03 MB 04-06 PK 04-10 MB 04-17 MB 04-20 PK 04-24 MB",
+          "05-01 MB 05-04 PK 05-08 MB 05-15 MB 05-18 PK 05-22 MB 05-29 MB",
+          "06-01 PK 06-05 MB 06-12 MB 06-15 PK 06-19 MB 06-26 MB",
+          "07-03 MB 07-06 PK 07-10 MB 07-17 MB 07-20 PK 07-24 MB 07-31 MB",
+          "08-03 PK 08-07 MB 08-14 MB 08-17 PK 08-21 MB 08-28 MB",
+          "09-04 MB 09-07 PK 09-11 MB 09-18 MB 09-21 PK 09-25 MB",
+          "10-02 MB 10-05 PK 10-09 MB 10-16 MB 10-19 PK 10-23 MB 10-30 MB",
+          "11-02 PK 11-06 MB 11-13 MB 11-16 PK 11-20 MB 11-27 MB",
+          "12-04 MB 12-07 PK 12-11 MB 12-18 MB 12-21 PK 12-26 MB!"
+        ]
+      }
+    }
+  }
+}

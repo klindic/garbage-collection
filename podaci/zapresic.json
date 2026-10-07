@@ -1,0 +1,1029 @@
+{
+  "davatelj": "Zaprešić d.o.o.",
+  "web": "https://komunalno.vio-zapresic.hr",
+  "zupanija": "Zagrebačka",
+  "jls": ["Zaprešić", "Bistra", "Brdovec", "Dubravica", "Luka", "Marija Gorica", "Pušća"],
+  "nazivi": {"P": "Plastika"},
+  "izvor": "https://komunalno.vio-zapresic.hr/raspored-odvoza-mijesanog-komunalnog-otpada/",
+  "napomene": ["Posude za otpad moraju biti spremne za odvoz najkasnije do 7 sati.", "Reciklažna dvorišta: Zaprešić, Bistra i Brdovec.", "Izvori: https://komunalno.vio-zapresic.hr/raspored-odvoza-mijesanog-komunalnog-otpada/ (miješani otpad) i https://komunalno.vio-zapresic.hr/rapored-odvoza-papira-i-plastike/ (papir i plastika).", "Rasporedi na stranicama nemaju godinu (zadnje izmjene: miješani otpad 21.07.2025., papir i plastika 28.11.2025.); datumi za 2026. izračunati su iz pravila.", "Plastika se odvozi dva puta mjesečno, papir jednom (u jednom od tjedana plastike).", "Blagdani 2026: odvoz je i na blagdane prema rasporedu, osim: 01.01. → 03.01. (obavijest); 25.12. → 26.12. (pretpostavka prema praksi, obavijest još nije objavljena). Izvor: obavijesti na https://komunalno.vio-zapresic.hr/obavijesti/ (redovno prema obavijesti: 06.01., 06.04., 04.06., 22.06., 05.08.).", "Ulice i naselja navedeni samo na jednom od dva popisa imaju samo taj dio rasporeda (vidi napomenu zone)."],
+  "zone": {
+    "1": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani ponedjeljak; plastika 1. i 3. ponedjeljak, papir 1. ponedjeljak",
+      "ulice": ["A. Kovačića", "Aleja Đure Jelačića", "D. Domjanića", "D. Tadijanovića", "Grada Kaštela", "Hruševečka", "I. Mažuranića", "Industrijska", "J. Draškovića", "J. Oršića", "K. Š. Đalskog", "Kalamirova", "Kanadska", "Kiseljak", "Kupljenska", "Lučka", "M. Krleže", "M. Skurjenija", "Merenjska", "Pojatenska", "T. Ujevića", "Veliki vrh"],
+      "raw": {
+        "2026": [
+          "01-05 MPK 01-12 M 01-19 MP 01-26 M",
+          "02-02 MPK 02-09 M 02-16 MP 02-23 M",
+          "03-02 MPK 03-09 M 03-16 MP 03-23 M 03-30 M",
+          "04-06 MPK 04-13 M 04-20 MP 04-27 M",
+          "05-04 MPK 05-11 M 05-18 MP 05-25 M",
+          "06-01 MPK 06-08 M 06-15 MP 06-22 M 06-29 M",
+          "07-06 MPK 07-13 M 07-20 MP 07-27 M",
+          "08-03 MPK 08-10 M 08-17 MP 08-24 M 08-31 M",
+          "09-07 MPK 09-14 M 09-21 MP 09-28 M",
+          "10-05 MPK 10-12 M 10-19 MP 10-26 M",
+          "11-02 MPK 11-09 M 11-16 MP 11-23 M 11-30 M",
+          "12-07 MPK 12-14 M 12-21 MP 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani ponedjeljak; plastika 1. i 3. utorak, papir 1. utorak",
+      "ulice": ["A. Šenoe", "Brdovečka", "D. Demetera", "F. Galovića", "F. Livadića", "I. Kukuljevića", "LJ. Gaja 5-35", "Lužnička", "M. Ožegovića", "Mokrička", "Prigorska", "V. Babukića", "Vukotinovićeva"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-06 PK 01-12 M 01-19 M 01-20 P 01-26 M",
+          "02-02 M 02-03 PK 02-09 M 02-16 M 02-17 P 02-23 M",
+          "03-02 M 03-03 PK 03-09 M 03-16 M 03-17 P 03-23 M 03-30 M",
+          "04-06 M 04-07 PK 04-13 M 04-20 M 04-21 P 04-27 M",
+          "05-04 M 05-05 PK 05-11 M 05-18 M 05-19 P 05-25 M",
+          "06-01 M 06-02 PK 06-08 M 06-15 M 06-16 P 06-22 M 06-29 M",
+          "07-06 M 07-07 PK 07-13 M 07-20 M 07-21 P 07-27 M",
+          "08-03 M 08-04 PK 08-10 M 08-17 M 08-18 P 08-24 M 08-31 M",
+          "09-01 PK 09-07 M 09-14 M 09-15 P 09-21 M 09-28 M",
+          "10-05 M 10-06 PK 10-12 M 10-19 M 10-20 P 10-26 M",
+          "11-02 M 11-03 PK 11-09 M 11-16 M 11-17 P 11-23 M 11-30 M",
+          "12-01 PK 12-07 M 12-14 M 12-15 P 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani ponedjeljak; plastika 1. i 3. srijeda, papir 1. srijeda",
+      "ulice": ["F. Galijaševića", "I. Jurmana", "I. Turkovića", "I. Vencla", "J. Malekovića", "J. Petrekovića", "Kneza Domagoja", "M. Šestanja", "M.Gajšaka", "Nine Kinka", "Obrubići", "P. Lončara", "R. Teofilovića", "Savska", "Stjepana Ružića Hlaja", "Tržna", "V. Prišćana", "Z. Lozančića"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 PK 01-12 M 01-19 M 01-21 P 01-26 M",
+          "02-02 M 02-04 PK 02-09 M 02-16 M 02-18 P 02-23 M",
+          "03-02 M 03-04 PK 03-09 M 03-16 M 03-18 P 03-23 M 03-30 M",
+          "04-01 PK 04-06 M 04-13 M 04-15 P 04-20 M 04-27 M",
+          "05-04 M 05-06 PK 05-11 M 05-18 M 05-20 P 05-25 M",
+          "06-01 M 06-03 PK 06-08 M 06-15 M 06-17 P 06-22 M 06-29 M",
+          "07-01 PK 07-06 M 07-13 M 07-15 P 07-20 M 07-27 M",
+          "08-03 M 08-05 PK 08-10 M 08-17 M 08-19 P 08-24 M 08-31 M",
+          "09-02 PK 09-07 M 09-14 M 09-16 P 09-21 M 09-28 M",
+          "10-05 M 10-07 PK 10-12 M 10-19 M 10-21 P 10-26 M",
+          "11-02 M 11-04 PK 11-09 M 11-16 M 11-18 P 11-23 M 11-30 M",
+          "12-02 PK 12-07 M 12-14 M 12-16 P 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Zaprešić",
+      "podrucje": "Šibice (dio naselja) – miješani ponedjeljak; plastika 1. i 3. srijeda, papir 3. srijeda",
+      "ulice": ["Lužnički odvojak (Šibice)"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 P 01-12 M 01-19 M 01-21 PK 01-26 M",
+          "02-02 M 02-04 P 02-09 M 02-16 M 02-18 PK 02-23 M",
+          "03-02 M 03-04 P 03-09 M 03-16 M 03-18 PK 03-23 M 03-30 M",
+          "04-01 P 04-06 M 04-13 M 04-15 PK 04-20 M 04-27 M",
+          "05-04 M 05-06 P 05-11 M 05-18 M 05-20 PK 05-25 M",
+          "06-01 M 06-03 P 06-08 M 06-15 M 06-17 PK 06-22 M 06-29 M",
+          "07-01 P 07-06 M 07-13 M 07-15 PK 07-20 M 07-27 M",
+          "08-03 M 08-05 P 08-10 M 08-17 M 08-19 PK 08-24 M 08-31 M",
+          "09-02 P 09-07 M 09-14 M 09-16 PK 09-21 M 09-28 M",
+          "10-05 M 10-07 P 10-12 M 10-19 M 10-21 PK 10-26 M",
+          "11-02 M 11-04 P 11-09 M 11-16 M 11-18 PK 11-23 M 11-30 M",
+          "12-02 P 12-07 M 12-14 M 12-16 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Zaprešić",
+      "podrucje": "Šibice (dio naselja) – miješani ponedjeljak; plastika 1. i 3. četvrtak, papir 3. četvrtak",
+      "ulice": ["Ravnice (Šibice)", "Šibička (Šibice)"],
+      "raw": {
+        "2026": [
+          "01-03 P! 01-05 M 01-12 M 01-15 PK 01-19 M 01-26 M",
+          "02-02 M 02-05 P 02-09 M 02-16 M 02-19 PK 02-23 M",
+          "03-02 M 03-05 P 03-09 M 03-16 M 03-19 PK 03-23 M 03-30 M",
+          "04-02 P 04-06 M 04-13 M 04-16 PK 04-20 M 04-27 M",
+          "05-04 M 05-07 P 05-11 M 05-18 M 05-21 PK 05-25 M",
+          "06-01 M 06-04 P 06-08 M 06-15 M 06-18 PK 06-22 M 06-29 M",
+          "07-02 P 07-06 M 07-13 M 07-16 PK 07-20 M 07-27 M",
+          "08-03 M 08-06 P 08-10 M 08-17 M 08-20 PK 08-24 M 08-31 M",
+          "09-03 P 09-07 M 09-14 M 09-17 PK 09-21 M 09-28 M",
+          "10-01 P 10-05 M 10-12 M 10-15 PK 10-19 M 10-26 M",
+          "11-02 M 11-05 P 11-09 M 11-16 M 11-19 PK 11-23 M 11-30 M",
+          "12-03 P 12-07 M 12-14 M 12-17 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Zaprešić",
+      "podrucje": "Šibice (dio naselja), Zaprešić (dio grada) – miješani ponedjeljak",
+      "ulice": ["B. J. Jelačića 139-165", "Lužnička (Šibice)"],
+      "napomena": "Dan odvoza papira i plastike za ova mjesta nije naveden (ili se ne može pouzdano povezati) u rasporedu za papir i plastiku.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-22 M 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani utorak; plastika 1. i 3. ponedjeljak, papir 1. ponedjeljak",
+      "ulice": ["A. Starčevića"],
+      "raw": {
+        "2026": [
+          "01-05 PK 01-06 M 01-13 M 01-19 P 01-20 M 01-27 M",
+          "02-02 PK 02-03 M 02-10 M 02-16 P 02-17 M 02-24 M",
+          "03-02 PK 03-03 M 03-10 M 03-16 P 03-17 M 03-24 M 03-31 M",
+          "04-06 PK 04-07 M 04-14 M 04-20 P 04-21 M 04-28 M",
+          "05-04 PK 05-05 M 05-12 M 05-18 P 05-19 M 05-26 M",
+          "06-01 PK 06-02 M 06-09 M 06-15 P 06-16 M 06-23 M 06-30 M",
+          "07-06 PK 07-07 M 07-14 M 07-20 P 07-21 M 07-28 M",
+          "08-03 PK 08-04 M 08-11 M 08-17 P 08-18 M 08-25 M",
+          "09-01 M 09-07 PK 09-08 M 09-15 M 09-21 P 09-22 M 09-29 M",
+          "10-05 PK 10-06 M 10-13 M 10-19 P 10-20 M 10-27 M",
+          "11-02 PK 11-03 M 11-10 M 11-16 P 11-17 M 11-24 M",
+          "12-01 M 12-07 PK 12-08 M 12-15 M 12-21 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani utorak; plastika 1. i 3. utorak, papir 1. utorak",
+      "ulice": ["A. Mihanovića", "Braće Ribara", "D. Rakovca", "J. Kosića", "J. Račića", "Ledine", "M. Račkog", "O. Ivekovića", "P. Štoosa", "S. Fabeka", "S. Vraza", "V. Bukovca", "V. Novaka", "Zabočka"],
+      "raw": {
+        "2026": [
+          "01-06 MPK 01-13 M 01-20 MP 01-27 M",
+          "02-03 MPK 02-10 M 02-17 MP 02-24 M",
+          "03-03 MPK 03-10 M 03-17 MP 03-24 M 03-31 M",
+          "04-07 MPK 04-14 M 04-21 MP 04-28 M",
+          "05-05 MPK 05-12 M 05-19 MP 05-26 M",
+          "06-02 MPK 06-09 M 06-16 MP 06-23 M 06-30 M",
+          "07-07 MPK 07-14 M 07-21 MP 07-28 M",
+          "08-04 MPK 08-11 M 08-18 MP 08-25 M",
+          "09-01 MPK 09-08 M 09-15 MP 09-22 M 09-29 M",
+          "10-06 MPK 10-13 M 10-20 MP 10-27 M",
+          "11-03 MPK 11-10 M 11-17 MP 11-24 M",
+          "12-01 MPK 12-08 M 12-15 MP 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani utorak; plastika 1. i 3. srijeda, papir 1. srijeda",
+      "ulice": ["Avenija Hrv. Branitelja", "I. Ostreša", "K.A.Stepinca", "Zagorska"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 PK 01-13 M 01-20 M 01-21 P 01-27 M",
+          "02-03 M 02-04 PK 02-10 M 02-17 M 02-18 P 02-24 M",
+          "03-03 M 03-04 PK 03-10 M 03-17 M 03-18 P 03-24 M 03-31 M",
+          "04-01 PK 04-07 M 04-14 M 04-15 P 04-21 M 04-28 M",
+          "05-05 M 05-06 PK 05-12 M 05-19 M 05-20 P 05-26 M",
+          "06-02 M 06-03 PK 06-09 M 06-16 M 06-17 P 06-23 M 06-30 M",
+          "07-01 PK 07-07 M 07-14 M 07-15 P 07-21 M 07-28 M",
+          "08-04 M 08-05 PK 08-11 M 08-18 M 08-19 P 08-25 M",
+          "09-01 M 09-02 PK 09-08 M 09-15 M 09-16 P 09-22 M 09-29 M",
+          "10-06 M 10-07 PK 10-13 M 10-20 M 10-21 P 10-27 M",
+          "11-03 M 11-04 PK 11-10 M 11-17 M 11-18 P 11-24 M",
+          "12-01 M 12-02 PK 12-08 M 12-15 M 12-16 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Zaprešić",
+      "podrucje": "Šibice (dio naselja) – miješani utorak; plastika 1. i 3. srijeda, papir 3. srijeda",
+      "ulice": ["Braće Bukovina (Šibice)"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 P 01-13 M 01-20 M 01-21 PK 01-27 M",
+          "02-03 M 02-04 P 02-10 M 02-17 M 02-18 PK 02-24 M",
+          "03-03 M 03-04 P 03-10 M 03-17 M 03-18 PK 03-24 M 03-31 M",
+          "04-01 P 04-07 M 04-14 M 04-15 PK 04-21 M 04-28 M",
+          "05-05 M 05-06 P 05-12 M 05-19 M 05-20 PK 05-26 M",
+          "06-02 M 06-03 P 06-09 M 06-16 M 06-17 PK 06-23 M 06-30 M",
+          "07-01 P 07-07 M 07-14 M 07-15 PK 07-21 M 07-28 M",
+          "08-04 M 08-05 P 08-11 M 08-18 M 08-19 PK 08-25 M",
+          "09-01 M 09-02 P 09-08 M 09-15 M 09-16 PK 09-22 M 09-29 M",
+          "10-06 M 10-07 P 10-13 M 10-20 M 10-21 PK 10-27 M",
+          "11-03 M 11-04 P 11-10 M 11-17 M 11-18 PK 11-24 M",
+          "12-01 M 12-02 P 12-08 M 12-15 M 12-16 PK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani utorak; plastika 1. i 3. četvrtak, papir 1. četvrtak",
+      "ulice": ["Bistranska", "D. Kodrmana", "Dolenska", "Hrv. mladeži", "I. Gregorića", "I. Svrača", "Ivanečka", "J. Jug", "Jakšina", "Klake", "Kolodvorska", "Krapinska", "M. Fistrića", "Nova ulica", "P. Devčića", "Poljanička", "Pušćanska", "R. Bosaka", "Rakitovec I", "Rakitovec II", "Rakitovec III", "Ruševje", "Sljemenska", "Trakonšćanska", "V. Nazora", "Z. Vinceka"],
+      "raw": {
+        "2026": [
+          "01-03 PK! 01-06 M 01-13 M 01-15 P 01-20 M 01-27 M",
+          "02-03 M 02-05 PK 02-10 M 02-17 M 02-19 P 02-24 M",
+          "03-03 M 03-05 PK 03-10 M 03-17 M 03-19 P 03-24 M 03-31 M",
+          "04-02 PK 04-07 M 04-14 M 04-16 P 04-21 M 04-28 M",
+          "05-05 M 05-07 PK 05-12 M 05-19 M 05-21 P 05-26 M",
+          "06-02 M 06-04 PK 06-09 M 06-16 M 06-18 P 06-23 M 06-30 M",
+          "07-02 PK 07-07 M 07-14 M 07-16 P 07-21 M 07-28 M",
+          "08-04 M 08-06 PK 08-11 M 08-18 M 08-20 P 08-25 M",
+          "09-01 M 09-03 PK 09-08 M 09-15 M 09-17 P 09-22 M 09-29 M",
+          "10-01 PK 10-06 M 10-13 M 10-15 P 10-20 M 10-27 M",
+          "11-03 M 11-05 PK 11-10 M 11-17 M 11-19 P 11-24 M",
+          "12-01 M 12-03 PK 12-08 M 12-15 M 12-17 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Zaprešić",
+      "podrucje": "Šibice (dio naselja) – miješani utorak; plastika 1. i 3. četvrtak, papir 3. četvrtak",
+      "ulice": ["Doračićeva (Šibice)", "Industrijska (Šibice)", "J. Novoselca (Šibice)", "Vodovodna (Šibice)", "Zagrebačka (Šibice)"],
+      "raw": {
+        "2026": [
+          "01-03 P! 01-06 M 01-13 M 01-15 PK 01-20 M 01-27 M",
+          "02-03 M 02-05 P 02-10 M 02-17 M 02-19 PK 02-24 M",
+          "03-03 M 03-05 P 03-10 M 03-17 M 03-19 PK 03-24 M 03-31 M",
+          "04-02 P 04-07 M 04-14 M 04-16 PK 04-21 M 04-28 M",
+          "05-05 M 05-07 P 05-12 M 05-19 M 05-21 PK 05-26 M",
+          "06-02 M 06-04 P 06-09 M 06-16 M 06-18 PK 06-23 M 06-30 M",
+          "07-02 P 07-07 M 07-14 M 07-16 PK 07-21 M 07-28 M",
+          "08-04 M 08-06 P 08-11 M 08-18 M 08-20 PK 08-25 M",
+          "09-01 M 09-03 P 09-08 M 09-15 M 09-17 PK 09-22 M 09-29 M",
+          "10-01 P 10-06 M 10-13 M 10-15 PK 10-20 M 10-27 M",
+          "11-03 M 11-05 P 11-10 M 11-17 M 11-19 PK 11-24 M",
+          "12-01 M 12-03 P 12-08 M 12-15 M 12-17 PK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – miješani utorak",
+      "ulice": ["B. J. Jelačića 1-102", "F. Krajačića"],
+      "napomena": "Dan odvoza papira i plastike za ova mjesta nije naveden (ili se ne može pouzdano povezati) u rasporedu za papir i plastiku.",
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-28 M",
+          "05-05 M 05-12 M 05-19 M 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-22 M 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Zaprešić",
+      "podrucje": "Kupljenovo – miješani srijeda; plastika 1. i 3. ponedjeljak, papir 3. ponedjeljak",
+      "ulice": ["Kupljenovo"],
+      "raw": {
+        "2026": [
+          "01-05 P 01-07 M 01-14 M 01-19 PK 01-21 M 01-28 M",
+          "02-02 P 02-04 M 02-11 M 02-16 PK 02-18 M 02-25 M",
+          "03-02 P 03-04 M 03-11 M 03-16 PK 03-18 M 03-25 M",
+          "04-01 M 04-06 P 04-08 M 04-15 M 04-20 PK 04-22 M 04-29 M",
+          "05-04 P 05-06 M 05-13 M 05-18 PK 05-20 M 05-27 M",
+          "06-01 P 06-03 M 06-10 M 06-15 PK 06-17 M 06-24 M",
+          "07-01 M 07-06 P 07-08 M 07-15 M 07-20 PK 07-22 M 07-29 M",
+          "08-03 P 08-05 M 08-12 M 08-17 PK 08-19 M 08-26 M",
+          "09-02 M 09-07 P 09-09 M 09-16 M 09-21 PK 09-23 M 09-30 M",
+          "10-05 P 10-07 M 10-14 M 10-19 PK 10-21 M 10-28 M",
+          "11-02 P 11-04 M 11-11 M 11-16 PK 11-18 M 11-25 M",
+          "12-02 M 12-07 P 12-09 M 12-16 M 12-21 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Zaprešić",
+      "podrucje": "Kupljenski Hruševac – miješani srijeda; plastika 1. i 3. petak, papir 3. petak",
+      "ulice": ["Kupljenski Hruševac"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-07 M 01-14 M 01-16 PK 01-21 M 01-28 M",
+          "02-04 M 02-06 P 02-11 M 02-18 M 02-20 PK 02-25 M",
+          "03-04 M 03-06 P 03-11 M 03-18 M 03-20 PK 03-25 M",
+          "04-01 M 04-03 P 04-08 M 04-15 M 04-17 PK 04-22 M 04-29 M",
+          "05-01 P 05-06 M 05-13 M 05-15 PK 05-20 M 05-27 M",
+          "06-03 M 06-05 P 06-10 M 06-17 M 06-19 PK 06-24 M",
+          "07-01 M 07-03 P 07-08 M 07-15 M 07-17 PK 07-22 M 07-29 M",
+          "08-05 M 08-07 P 08-12 M 08-19 M 08-21 PK 08-26 M",
+          "09-02 M 09-04 P 09-09 M 09-16 M 09-18 PK 09-23 M 09-30 M",
+          "10-02 P 10-07 M 10-14 M 10-16 PK 10-21 M 10-28 M",
+          "11-04 M 11-06 P 11-11 M 11-18 M 11-20 PK 11-25 M",
+          "12-02 M 12-04 P 12-09 M 12-16 M 12-18 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Zaprešić",
+      "podrucje": "Ivanec, Jablanovec – miješani četvrtak; plastika 2. i 4. petak, papir 4. petak",
+      "ulice": ["Ivanec", "Jablanovec"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-09 P 01-15 M 01-22 M 01-23 PK 01-29 M",
+          "02-05 M 02-12 M 02-13 P 02-19 M 02-26 M 02-27 PK",
+          "03-05 M 03-12 M 03-13 P 03-19 M 03-26 M 03-27 PK",
+          "04-02 M 04-09 M 04-10 P 04-16 M 04-23 M 04-24 PK 04-30 M",
+          "05-07 M 05-08 P 05-14 M 05-21 M 05-22 PK 05-28 M",
+          "06-04 M 06-11 M 06-12 P 06-18 M 06-25 M 06-26 PK",
+          "07-02 M 07-09 M 07-10 P 07-16 M 07-23 M 07-24 PK 07-30 M",
+          "08-06 M 08-13 M 08-14 P 08-20 M 08-27 M 08-28 PK",
+          "09-03 M 09-10 M 09-11 P 09-17 M 09-24 M 09-25 PK",
+          "10-01 M 10-08 M 10-09 P 10-15 M 10-22 M 10-23 PK 10-29 M",
+          "11-05 M 11-12 M 11-13 P 11-19 M 11-26 M 11-27 PK",
+          "12-03 M 12-10 M 12-11 P 12-17 M 12-24 M 12-26 PK! 12-31 M"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Zaprešić",
+      "podrucje": "Pojatno – miješani petak; plastika 1. i 3. ponedjeljak, papir 3. ponedjeljak",
+      "ulice": ["Pojatno"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 P 01-09 M 01-16 M 01-19 PK 01-23 M 01-30 M",
+          "02-02 P 02-06 M 02-13 M 02-16 PK 02-20 M 02-27 M",
+          "03-02 P 03-06 M 03-13 M 03-16 PK 03-20 M 03-27 M",
+          "04-03 M 04-06 P 04-10 M 04-17 M 04-20 PK 04-24 M",
+          "05-01 M 05-04 P 05-08 M 05-15 M 05-18 PK 05-22 M 05-29 M",
+          "06-01 P 06-05 M 06-12 M 06-15 PK 06-19 M 06-26 M",
+          "07-03 M 07-06 P 07-10 M 07-17 M 07-20 PK 07-24 M 07-31 M",
+          "08-03 P 08-07 M 08-14 M 08-17 PK 08-21 M 08-28 M",
+          "09-04 M 09-07 P 09-11 M 09-18 M 09-21 PK 09-25 M",
+          "10-02 M 10-05 P 10-09 M 10-16 M 10-19 PK 10-23 M 10-30 M",
+          "11-02 P 11-06 M 11-13 M 11-16 PK 11-20 M 11-27 M",
+          "12-04 M 12-07 P 12-11 M 12-18 M 12-21 PK 12-26 M!"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – plastika 1. i 3. ponedjeljak, papir 1. ponedjeljak",
+      "ulice": ["bana J. Jelačića od Skurijenijeve", "I. Kozarčanina", "M. Bogovića"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-05 PK 01-19 P",
+          "02-02 PK 02-16 P",
+          "03-02 PK 03-16 P",
+          "04-06 PK 04-20 P",
+          "05-04 PK 05-18 P",
+          "06-01 PK 06-15 P",
+          "07-06 PK 07-20 P",
+          "08-03 PK 08-17 P",
+          "09-07 PK 09-21 P",
+          "10-05 PK 10-19 P",
+          "11-02 PK 11-16 P",
+          "12-07 PK 12-21 P"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – plastika 1. i 3. utorak, papir 1. utorak",
+      "ulice": ["Bana J. Jelačića do Skurjenijeve", "Klanječka"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-06 PK 01-20 P",
+          "02-03 PK 02-17 P",
+          "03-03 PK 03-17 P",
+          "04-07 PK 04-21 P",
+          "05-05 PK 05-19 P",
+          "06-02 PK 06-16 P",
+          "07-07 PK 07-21 P",
+          "08-04 PK 08-18 P",
+          "09-01 PK 09-15 P",
+          "10-06 PK 10-20 P",
+          "11-03 PK 11-17 P",
+          "12-01 PK 12-15 P"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – plastika 1. i 3. srijeda, papir 1. srijeda",
+      "ulice": ["Aleja žrtava 1903.", "Davora bašića", "M. Brašića", "M. Krušlina"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-07 PK 01-21 P",
+          "02-04 PK 02-18 P",
+          "03-04 PK 03-18 P",
+          "04-01 PK 04-15 P",
+          "05-06 PK 05-20 P",
+          "06-03 PK 06-17 P",
+          "07-01 PK 07-15 P",
+          "08-05 PK 08-19 P",
+          "09-02 PK 09-16 P",
+          "10-07 PK 10-21 P",
+          "11-04 PK 11-18 P",
+          "12-02 PK 12-16 P"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Zaprešić",
+      "podrucje": "Šibice (dio naselja) – plastika 1. i 3. srijeda, papir 3. srijeda",
+      "ulice": ["odvojak Braće Bukovina (Šibice)"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-07 P 01-21 PK",
+          "02-04 P 02-18 PK",
+          "03-04 P 03-18 PK",
+          "04-01 P 04-15 PK",
+          "05-06 P 05-20 PK",
+          "06-03 P 06-17 PK",
+          "07-01 P 07-15 PK",
+          "08-05 P 08-19 PK",
+          "09-02 P 09-16 PK",
+          "10-07 P 10-21 PK",
+          "11-04 P 11-18 PK",
+          "12-02 P 12-16 PK"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Zaprešić",
+      "podrucje": "Zaprešić (dio grada) – plastika 1. i 3. četvrtak, papir 1. četvrtak",
+      "ulice": ["M. Gupca", "Oborovska", "Rakitovec IV"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-03 PK! 01-15 P",
+          "02-05 PK 02-19 P",
+          "03-05 PK 03-19 P",
+          "04-02 PK 04-16 P",
+          "05-07 PK 05-21 P",
+          "06-04 PK 06-18 P",
+          "07-02 PK 07-16 P",
+          "08-06 PK 08-20 P",
+          "09-03 PK 09-17 P",
+          "10-01 PK 10-15 P",
+          "11-05 PK 11-19 P",
+          "12-03 PK 12-17 P"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Zaprešić",
+      "podrucje": "Merenje – plastika 1. i 3. petak, papir 3. petak",
+      "ulice": ["Merenje"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-02 P 01-16 PK",
+          "02-06 P 02-20 PK",
+          "03-06 P 03-20 PK",
+          "04-03 P 04-17 PK",
+          "05-01 P 05-15 PK",
+          "06-05 P 06-19 PK",
+          "07-03 P 07-17 PK",
+          "08-07 P 08-21 PK",
+          "09-04 P 09-18 PK",
+          "10-02 P 10-16 PK",
+          "11-06 P 11-20 PK",
+          "12-04 P 12-18 PK"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Zaprešić",
+      "podrucje": "Jarek – plastika 2. i 4. petak, papir 4. petak",
+      "ulice": ["Jarek"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-09 P 01-23 PK",
+          "02-13 P 02-27 PK",
+          "03-13 P 03-27 PK",
+          "04-10 P 04-24 PK",
+          "05-08 P 05-22 PK",
+          "06-12 P 06-26 PK",
+          "07-10 P 07-24 PK",
+          "08-14 P 08-28 PK",
+          "09-11 P 09-25 PK",
+          "10-09 P 10-23 PK",
+          "11-13 P 11-27 PK",
+          "12-11 P 12-26 PK!"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Bistra",
+      "podrucje": "Novaki – miješani četvrtak; plastika 2. i 4. utorak, papir 4. utorak",
+      "ulice": ["Novaki"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-13 P 01-15 M 01-22 M 01-27 PK 01-29 M",
+          "02-05 M 02-10 P 02-12 M 02-19 M 02-24 PK 02-26 M",
+          "03-05 M 03-10 P 03-12 M 03-19 M 03-24 PK 03-26 M",
+          "04-02 M 04-09 M 04-14 P 04-16 M 04-23 M 04-28 PK 04-30 M",
+          "05-07 M 05-12 P 05-14 M 05-21 M 05-26 PK 05-28 M",
+          "06-04 M 06-09 P 06-11 M 06-18 M 06-23 PK 06-25 M",
+          "07-02 M 07-09 M 07-14 P 07-16 M 07-23 M 07-28 PK 07-30 M",
+          "08-06 M 08-11 P 08-13 M 08-20 M 08-25 PK 08-27 M",
+          "09-03 M 09-08 P 09-10 M 09-17 M 09-22 PK 09-24 M",
+          "10-01 M 10-08 M 10-13 P 10-15 M 10-22 M 10-27 PK 10-29 M",
+          "11-05 M 11-10 P 11-12 M 11-19 M 11-24 PK 11-26 M",
+          "12-03 M 12-08 P 12-10 M 12-17 M 12-22 PK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Bistra",
+      "podrucje": "Bukovje – miješani četvrtak; plastika 2. i 4. srijeda, papir 4. srijeda",
+      "ulice": ["Bukovje"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-14 P 01-15 M 01-22 M 01-28 PK 01-29 M",
+          "02-05 M 02-11 P 02-12 M 02-19 M 02-25 PK 02-26 M",
+          "03-05 M 03-11 P 03-12 M 03-19 M 03-25 PK 03-26 M",
+          "04-02 M 04-08 P 04-09 M 04-16 M 04-22 PK 04-23 M 04-30 M",
+          "05-07 M 05-13 P 05-14 M 05-21 M 05-27 PK 05-28 M",
+          "06-04 M 06-10 P 06-11 M 06-18 M 06-24 PK 06-25 M",
+          "07-02 M 07-08 P 07-09 M 07-16 M 07-22 PK 07-23 M 07-30 M",
+          "08-06 M 08-12 P 08-13 M 08-20 M 08-26 PK 08-27 M",
+          "09-03 M 09-09 P 09-10 M 09-17 M 09-23 PK 09-24 M",
+          "10-01 M 10-08 M 10-14 P 10-15 M 10-22 M 10-28 PK 10-29 M",
+          "11-05 M 11-11 P 11-12 M 11-19 M 11-25 PK 11-26 M",
+          "12-03 M 12-09 P 12-10 M 12-17 M 12-23 PK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Bistra",
+      "podrucje": "Gornja Bistra (ostale ulice), Oborovo – miješani četvrtak; plastika 2. i 4. četvrtak, papir 4. četvrtak",
+      "ulice": ["Gornja Bistra (ostale ulice)", "Oborovo"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 MP 01-15 M 01-22 MPK 01-29 M",
+          "02-05 M 02-12 MP 02-19 M 02-26 MPK",
+          "03-05 M 03-12 MP 03-19 M 03-26 MPK",
+          "04-02 M 04-09 MP 04-16 M 04-23 MPK 04-30 M",
+          "05-07 M 05-14 MP 05-21 M 05-28 MPK",
+          "06-04 M 06-11 MP 06-18 M 06-25 MPK",
+          "07-02 M 07-09 MP 07-16 M 07-23 MPK 07-30 M",
+          "08-06 M 08-13 MP 08-20 M 08-27 MPK",
+          "09-03 M 09-10 MP 09-17 M 09-24 MPK",
+          "10-01 M 10-08 MP 10-15 M 10-22 MPK 10-29 M",
+          "11-05 M 11-12 MP 11-19 M 11-26 MPK",
+          "12-03 M 12-10 MP 12-17 M 12-24 MPK 12-31 M"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Bistra",
+      "podrucje": "Poljanica – miješani petak; plastika 2. i 4. utorak, papir 4. utorak",
+      "ulice": ["Poljanica"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-13 P 01-16 M 01-23 M 01-27 PK 01-30 M",
+          "02-06 M 02-10 P 02-13 M 02-20 M 02-24 PK 02-27 M",
+          "03-06 M 03-10 P 03-13 M 03-20 M 03-24 PK 03-27 M",
+          "04-03 M 04-10 M 04-14 P 04-17 M 04-24 M 04-28 PK",
+          "05-01 M 05-08 M 05-12 P 05-15 M 05-22 M 05-26 PK 05-29 M",
+          "06-05 M 06-09 P 06-12 M 06-19 M 06-23 PK 06-26 M",
+          "07-03 M 07-10 M 07-14 P 07-17 M 07-24 M 07-28 PK 07-31 M",
+          "08-07 M 08-11 P 08-14 M 08-21 M 08-25 PK 08-28 M",
+          "09-04 M 09-08 P 09-11 M 09-18 M 09-22 PK 09-25 M",
+          "10-02 M 10-09 M 10-13 P 10-16 M 10-23 M 10-27 PK 10-30 M",
+          "11-06 M 11-10 P 11-13 M 11-20 M 11-24 PK 11-27 M",
+          "12-04 M 12-08 P 12-11 M 12-18 M 12-22 PK 12-26 M!"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Bistra",
+      "podrucje": "Donja Bistra – miješani petak; plastika 2. i 4. srijeda, papir 4. srijeda",
+      "ulice": ["Donja Bistra"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-14 P 01-16 M 01-23 M 01-28 PK 01-30 M",
+          "02-06 M 02-11 P 02-13 M 02-20 M 02-25 PK 02-27 M",
+          "03-06 M 03-11 P 03-13 M 03-20 M 03-25 PK 03-27 M",
+          "04-03 M 04-08 P 04-10 M 04-17 M 04-22 PK 04-24 M",
+          "05-01 M 05-08 M 05-13 P 05-15 M 05-22 M 05-27 PK 05-29 M",
+          "06-05 M 06-10 P 06-12 M 06-19 M 06-24 PK 06-26 M",
+          "07-03 M 07-08 P 07-10 M 07-17 M 07-22 PK 07-24 M 07-31 M",
+          "08-07 M 08-12 P 08-14 M 08-21 M 08-26 PK 08-28 M",
+          "09-04 M 09-09 P 09-11 M 09-18 M 09-23 PK 09-25 M",
+          "10-02 M 10-09 M 10-14 P 10-16 M 10-23 M 10-28 PK 10-30 M",
+          "11-06 M 11-11 P 11-13 M 11-20 M 11-25 PK 11-27 M",
+          "12-04 M 12-09 P 12-11 M 12-18 M 12-23 PK 12-26 M!"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Bistra",
+      "podrucje": "Gornja Bistra (dio naselja) – miješani petak; plastika 2. i 4. četvrtak, papir 4. četvrtak",
+      "ulice": ["M. štreka (Gornja Bistra)", "Novo naselje (Gornja Bistra)", "Pljuskovec (Gornja Bistra)", "Podgorska (Gornja Bistra)", "Strmečka (Gornja Bistra)", "Vinogradski odvojak (Gornja Bistra)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-08 P 01-09 M 01-16 M 01-22 PK 01-23 M 01-30 M",
+          "02-06 M 02-12 P 02-13 M 02-20 M 02-26 PK 02-27 M",
+          "03-06 M 03-12 P 03-13 M 03-20 M 03-26 PK 03-27 M",
+          "04-03 M 04-09 P 04-10 M 04-17 M 04-23 PK 04-24 M",
+          "05-01 M 05-08 M 05-14 P 05-15 M 05-22 M 05-28 PK 05-29 M",
+          "06-05 M 06-11 P 06-12 M 06-19 M 06-25 PK 06-26 M",
+          "07-03 M 07-09 P 07-10 M 07-17 M 07-23 PK 07-24 M 07-31 M",
+          "08-07 M 08-13 P 08-14 M 08-21 M 08-27 PK 08-28 M",
+          "09-04 M 09-10 P 09-11 M 09-18 M 09-24 PK 09-25 M",
+          "10-02 M 10-08 P 10-09 M 10-16 M 10-22 PK 10-23 M 10-30 M",
+          "11-06 M 11-12 P 11-13 M 11-20 M 11-26 PK 11-27 M",
+          "12-04 M 12-10 P 12-11 M 12-18 M 12-24 PK 12-26 M!"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Brdovec",
+      "podrucje": "Brdovec (dio naselja) – miješani ponedjeljak; plastika 1. i 3. utorak, papir 3. utorak",
+      "ulice": ["A. Baričevića (Brdovec)", "A. Šenoe (Brdovec)", "Bregovita od Nove ulice (Brdovec)", "D. Butorca (Brdovec)", "Gračec (Brdovec)", "I. Gregorića (Brdovec)", "J. Dojčića (Brdovec)", "J. Kukovića (Brdovec)", "Luska (Brdovec)", "N. Širanovića (Brdovec)", "N. Tesle (Brdovec)", "Nova ulica (Brdovec)", "P. Horvatića (Brdovec)", "Pavla Beluhana (Brdovec)", "Rujave (Brdovec)", "S. Radića (Brdovec)", "Šumska (Brdovec)", "Vinogradska (Brdovec)", "Željeznička (Brdovec)"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-06 P 01-12 M 01-19 M 01-20 PK 01-26 M",
+          "02-02 M 02-03 P 02-09 M 02-16 M 02-17 PK 02-23 M",
+          "03-02 M 03-03 P 03-09 M 03-16 M 03-17 PK 03-23 M 03-30 M",
+          "04-06 M 04-07 P 04-13 M 04-20 M 04-21 PK 04-27 M",
+          "05-04 M 05-05 P 05-11 M 05-18 M 05-19 PK 05-25 M",
+          "06-01 M 06-02 P 06-08 M 06-15 M 06-16 PK 06-22 M 06-29 M",
+          "07-06 M 07-07 P 07-13 M 07-20 M 07-21 PK 07-27 M",
+          "08-03 M 08-04 P 08-10 M 08-17 M 08-18 PK 08-24 M 08-31 M",
+          "09-01 P 09-07 M 09-14 M 09-15 PK 09-21 M 09-28 M",
+          "10-05 M 10-06 P 10-12 M 10-19 M 10-20 PK 10-26 M",
+          "11-02 M 11-03 P 11-09 M 11-16 M 11-17 PK 11-23 M 11-30 M",
+          "12-01 P 12-07 M 12-14 M 12-15 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "32": {
+      "jls": "Brdovec",
+      "podrucje": "Brdovec (dio naselja) – miješani ponedjeljak; plastika 1. i 3. srijeda, papir 3. srijeda",
+      "ulice": ["B. Malekovića (Brdovec)", "Braće Bukovine (Brdovec)", "Bregovita do Nove ulice (Brdovec)", "J. Anića (Brdovec)", "Lozančićeva (Brdovec)", "M. Gupca (Brdovec)", "odvojak braće Bukovine (Brdovec)", "Popov brijeg (Brdovec)", "R. Balje (Brdovec)", "S. Zagozde (Brdovec)", "Selec (Brdovec)", "V. Leša (Brdovec)", "V. Novaka (Brdovec)", "Ž. Klinčića (Brdovec)", "Zagorska (Brdovec)"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 P 01-12 M 01-19 M 01-21 PK 01-26 M",
+          "02-02 M 02-04 P 02-09 M 02-16 M 02-18 PK 02-23 M",
+          "03-02 M 03-04 P 03-09 M 03-16 M 03-18 PK 03-23 M 03-30 M",
+          "04-01 P 04-06 M 04-13 M 04-15 PK 04-20 M 04-27 M",
+          "05-04 M 05-06 P 05-11 M 05-18 M 05-20 PK 05-25 M",
+          "06-01 M 06-03 P 06-08 M 06-15 M 06-17 PK 06-22 M 06-29 M",
+          "07-01 P 07-06 M 07-13 M 07-15 PK 07-20 M 07-27 M",
+          "08-03 M 08-05 P 08-10 M 08-17 M 08-19 PK 08-24 M 08-31 M",
+          "09-02 P 09-07 M 09-14 M 09-16 PK 09-21 M 09-28 M",
+          "10-05 M 10-07 P 10-12 M 10-19 M 10-21 PK 10-26 M",
+          "11-02 M 11-04 P 11-09 M 11-16 M 11-18 PK 11-23 M 11-30 M",
+          "12-02 P 12-07 M 12-14 M 12-16 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "33": {
+      "jls": "Brdovec",
+      "podrucje": "Javorje – miješani utorak; plastika 2. i 4. utorak, papir 2. utorak",
+      "ulice": ["Javorje"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 MPK 01-20 M 01-27 MP",
+          "02-03 M 02-10 MPK 02-17 M 02-24 MP",
+          "03-03 M 03-10 MPK 03-17 M 03-24 MP 03-31 M",
+          "04-07 M 04-14 MPK 04-21 M 04-28 MP",
+          "05-05 M 05-12 MPK 05-19 M 05-26 MP",
+          "06-02 M 06-09 MPK 06-16 M 06-23 MP 06-30 M",
+          "07-07 M 07-14 MPK 07-21 M 07-28 MP",
+          "08-04 M 08-11 MPK 08-18 M 08-25 MP",
+          "09-01 M 09-08 MPK 09-15 M 09-22 MP 09-29 M",
+          "10-06 M 10-13 MPK 10-20 M 10-27 MP",
+          "11-03 M 11-10 MPK 11-17 M 11-24 MP",
+          "12-01 M 12-08 MPK 12-15 M 12-22 MP 12-29 M"
+        ]
+      }
+    },
+    "34": {
+      "jls": "Brdovec",
+      "podrucje": "Drenje, Ključ Brdovečki, Vukovo Selo – miješani utorak; plastika 2. i 4. srijeda, papir 2. srijeda",
+      "ulice": ["Drenje", "Ključ Brdovečki", "Vukovo Selo"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-14 PK 01-20 M 01-27 M 01-28 P",
+          "02-03 M 02-10 M 02-11 PK 02-17 M 02-24 M 02-25 P",
+          "03-03 M 03-10 M 03-11 PK 03-17 M 03-24 M 03-25 P 03-31 M",
+          "04-07 M 04-08 PK 04-14 M 04-21 M 04-22 P 04-28 M",
+          "05-05 M 05-12 M 05-13 PK 05-19 M 05-26 M 05-27 P",
+          "06-02 M 06-09 M 06-10 PK 06-16 M 06-23 M 06-24 P 06-30 M",
+          "07-07 M 07-08 PK 07-14 M 07-21 M 07-22 P 07-28 M",
+          "08-04 M 08-11 M 08-12 PK 08-18 M 08-25 M 08-26 P",
+          "09-01 M 09-08 M 09-09 PK 09-15 M 09-22 M 09-23 P 09-29 M",
+          "10-06 M 10-13 M 10-14 PK 10-20 M 10-27 M 10-28 P",
+          "11-03 M 11-10 M 11-11 PK 11-17 M 11-24 M 11-25 P",
+          "12-01 M 12-08 M 12-09 PK 12-15 M 12-22 M 12-23 P 12-29 M"
+        ]
+      }
+    },
+    "35": {
+      "jls": "Brdovec",
+      "podrucje": "Prudnice, Zdenci – miješani srijeda; plastika 2. i 4. utorak, papir 2. utorak",
+      "ulice": ["Prudnice", "Zdenci"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-13 PK 01-14 M 01-21 M 01-27 P 01-28 M",
+          "02-04 M 02-10 PK 02-11 M 02-18 M 02-24 P 02-25 M",
+          "03-04 M 03-10 PK 03-11 M 03-18 M 03-24 P 03-25 M",
+          "04-01 M 04-08 M 04-14 PK 04-15 M 04-22 M 04-28 P 04-29 M",
+          "05-06 M 05-12 PK 05-13 M 05-20 M 05-26 P 05-27 M",
+          "06-03 M 06-09 PK 06-10 M 06-17 M 06-23 P 06-24 M",
+          "07-01 M 07-08 M 07-14 PK 07-15 M 07-22 M 07-28 P 07-29 M",
+          "08-05 M 08-11 PK 08-12 M 08-19 M 08-25 P 08-26 M",
+          "09-02 M 09-08 PK 09-09 M 09-16 M 09-22 P 09-23 M 09-30 M",
+          "10-07 M 10-13 PK 10-14 M 10-21 M 10-27 P 10-28 M",
+          "11-04 M 11-10 PK 11-11 M 11-18 M 11-24 P 11-25 M",
+          "12-02 M 12-08 PK 12-09 M 12-16 M 12-22 P 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "36": {
+      "jls": "Brdovec",
+      "podrucje": "Prigorje – miješani srijeda; plastika 1. i 3. četvrtak, papir 3. četvrtak",
+      "ulice": ["Prigorje"],
+      "raw": {
+        "2026": [
+          "01-03 P! 01-07 M 01-14 M 01-15 PK 01-21 M 01-28 M",
+          "02-04 M 02-05 P 02-11 M 02-18 M 02-19 PK 02-25 M",
+          "03-04 M 03-05 P 03-11 M 03-18 M 03-19 PK 03-25 M",
+          "04-01 M 04-02 P 04-08 M 04-15 M 04-16 PK 04-22 M 04-29 M",
+          "05-06 M 05-07 P 05-13 M 05-20 M 05-21 PK 05-27 M",
+          "06-03 M 06-04 P 06-10 M 06-17 M 06-18 PK 06-24 M",
+          "07-01 M 07-02 P 07-08 M 07-15 M 07-16 PK 07-22 M 07-29 M",
+          "08-05 M 08-06 P 08-12 M 08-19 M 08-20 PK 08-26 M",
+          "09-02 M 09-03 P 09-09 M 09-16 M 09-17 PK 09-23 M 09-30 M",
+          "10-01 P 10-07 M 10-14 M 10-15 PK 10-21 M 10-28 M",
+          "11-04 M 11-05 P 11-11 M 11-18 M 11-19 PK 11-25 M",
+          "12-02 M 12-03 P 12-09 M 12-16 M 12-17 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "37": {
+      "jls": "Brdovec",
+      "podrucje": "Laduč, Šenkovec – miješani petak; plastika 2. i 4. ponedjeljak, papir 2. ponedjeljak",
+      "ulice": ["Laduč", "Šenkovec"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-12 PK 01-16 M 01-23 M 01-26 P 01-30 M",
+          "02-06 M 02-09 PK 02-13 M 02-20 M 02-23 P 02-27 M",
+          "03-06 M 03-09 PK 03-13 M 03-20 M 03-23 P 03-27 M",
+          "04-03 M 04-10 M 04-13 PK 04-17 M 04-24 M 04-27 P",
+          "05-01 M 05-08 M 05-11 PK 05-15 M 05-22 M 05-25 P 05-29 M",
+          "06-05 M 06-08 PK 06-12 M 06-19 M 06-22 P 06-26 M",
+          "07-03 M 07-10 M 07-13 PK 07-17 M 07-24 M 07-27 P 07-31 M",
+          "08-07 M 08-10 PK 08-14 M 08-21 M 08-24 P 08-28 M",
+          "09-04 M 09-11 M 09-14 PK 09-18 M 09-25 M 09-28 P",
+          "10-02 M 10-09 M 10-12 PK 10-16 M 10-23 M 10-26 P 10-30 M",
+          "11-06 M 11-09 PK 11-13 M 11-20 M 11-23 P 11-27 M",
+          "12-04 M 12-11 M 12-14 PK 12-18 M 12-26 M! 12-28 P"
+        ]
+      }
+    },
+    "38": {
+      "jls": "Brdovec",
+      "podrucje": "Harmica – miješani petak; plastika 2. i 4. srijeda, papir 2. srijeda",
+      "ulice": ["Harmica"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-14 PK 01-16 M 01-23 M 01-28 P 01-30 M",
+          "02-06 M 02-11 PK 02-13 M 02-20 M 02-25 P 02-27 M",
+          "03-06 M 03-11 PK 03-13 M 03-20 M 03-25 P 03-27 M",
+          "04-03 M 04-08 PK 04-10 M 04-17 M 04-22 P 04-24 M",
+          "05-01 M 05-08 M 05-13 PK 05-15 M 05-22 M 05-27 P 05-29 M",
+          "06-05 M 06-10 PK 06-12 M 06-19 M 06-24 P 06-26 M",
+          "07-03 M 07-08 PK 07-10 M 07-17 M 07-22 P 07-24 M 07-31 M",
+          "08-07 M 08-12 PK 08-14 M 08-21 M 08-26 P 08-28 M",
+          "09-04 M 09-09 PK 09-11 M 09-18 M 09-23 P 09-25 M",
+          "10-02 M 10-09 M 10-14 PK 10-16 M 10-23 M 10-28 P 10-30 M",
+          "11-06 M 11-11 PK 11-13 M 11-20 M 11-25 P 11-27 M",
+          "12-04 M 12-09 PK 12-11 M 12-18 M 12-23 P 12-26 M!"
+        ]
+      }
+    },
+    "39": {
+      "jls": "Dubravica",
+      "podrucje": "Dubravica (cijela općina) – miješani srijeda; plastika 1. i 3. petak, papir 1. petak",
+      "ulice": ["Dubravica (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-02 PK 01-07 M 01-14 M 01-16 P 01-21 M 01-28 M",
+          "02-04 M 02-06 PK 02-11 M 02-18 M 02-20 P 02-25 M",
+          "03-04 M 03-06 PK 03-11 M 03-18 M 03-20 P 03-25 M",
+          "04-01 M 04-03 PK 04-08 M 04-15 M 04-17 P 04-22 M 04-29 M",
+          "05-01 PK 05-06 M 05-13 M 05-15 P 05-20 M 05-27 M",
+          "06-03 M 06-05 PK 06-10 M 06-17 M 06-19 P 06-24 M",
+          "07-01 M 07-03 PK 07-08 M 07-15 M 07-17 P 07-22 M 07-29 M",
+          "08-05 M 08-07 PK 08-12 M 08-19 M 08-21 P 08-26 M",
+          "09-02 M 09-04 PK 09-09 M 09-16 M 09-18 P 09-23 M 09-30 M",
+          "10-02 PK 10-07 M 10-14 M 10-16 P 10-21 M 10-28 M",
+          "11-04 M 11-06 PK 11-11 M 11-18 M 11-20 P 11-25 M",
+          "12-02 M 12-04 PK 12-09 M 12-16 M 12-18 P 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "40": {
+      "jls": "Luka",
+      "podrucje": "Luka (cijela općina) – miješani utorak; plastika 1. i 3. petak, papir 3. petak",
+      "ulice": ["Luka (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-06 M 01-13 M 01-16 PK 01-20 M 01-27 M",
+          "02-03 M 02-06 P 02-10 M 02-17 M 02-20 PK 02-24 M",
+          "03-03 M 03-06 P 03-10 M 03-17 M 03-20 PK 03-24 M 03-31 M",
+          "04-03 P 04-07 M 04-14 M 04-17 PK 04-21 M 04-28 M",
+          "05-01 P 05-05 M 05-12 M 05-15 PK 05-19 M 05-26 M",
+          "06-02 M 06-05 P 06-09 M 06-16 M 06-19 PK 06-23 M 06-30 M",
+          "07-03 P 07-07 M 07-14 M 07-17 PK 07-21 M 07-28 M",
+          "08-04 M 08-07 P 08-11 M 08-18 M 08-21 PK 08-25 M",
+          "09-01 M 09-04 P 09-08 M 09-15 M 09-18 PK 09-22 M 09-29 M",
+          "10-02 P 10-06 M 10-13 M 10-16 PK 10-20 M 10-27 M",
+          "11-03 M 11-06 P 11-10 M 11-17 M 11-20 PK 11-24 M",
+          "12-01 M 12-04 P 12-08 M 12-15 M 12-18 PK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "41": {
+      "jls": "Marija Gorica",
+      "podrucje": "Trstenik – miješani ponedjeljak; plastika 2. i 4. četvrtak, papir 2. četvrtak",
+      "ulice": ["Trstenik"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-08 PK 01-12 M 01-19 M 01-22 P 01-26 M",
+          "02-02 M 02-09 M 02-12 PK 02-16 M 02-23 M 02-26 P",
+          "03-02 M 03-09 M 03-12 PK 03-16 M 03-23 M 03-26 P 03-30 M",
+          "04-06 M 04-09 PK 04-13 M 04-20 M 04-23 P 04-27 M",
+          "05-04 M 05-11 M 05-14 PK 05-18 M 05-25 M 05-28 P",
+          "06-01 M 06-08 M 06-11 PK 06-15 M 06-22 M 06-25 P 06-29 M",
+          "07-06 M 07-09 PK 07-13 M 07-20 M 07-23 P 07-27 M",
+          "08-03 M 08-10 M 08-13 PK 08-17 M 08-24 M 08-27 P 08-31 M",
+          "09-07 M 09-10 PK 09-14 M 09-21 M 09-24 P 09-28 M",
+          "10-05 M 10-08 PK 10-12 M 10-19 M 10-22 P 10-26 M",
+          "11-02 M 11-09 M 11-12 PK 11-16 M 11-23 M 11-26 P 11-30 M",
+          "12-07 M 12-10 PK 12-14 M 12-21 M 12-24 P 12-28 M"
+        ]
+      }
+    },
+    "42": {
+      "jls": "Marija Gorica",
+      "podrucje": "Celine, Hrastina, Marija Gorica … – miješani srijeda; plastika 2. i 4. četvrtak, papir 2. četvrtak",
+      "ulice": ["Celine", "Hrastina", "Marija Gorica", "Oplaznik", "Žlebec Gorički"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-08 PK 01-14 M 01-21 M 01-22 P 01-28 M",
+          "02-04 M 02-11 M 02-12 PK 02-18 M 02-25 M 02-26 P",
+          "03-04 M 03-11 M 03-12 PK 03-18 M 03-25 M 03-26 P",
+          "04-01 M 04-08 M 04-09 PK 04-15 M 04-22 M 04-23 P 04-29 M",
+          "05-06 M 05-13 M 05-14 PK 05-20 M 05-27 M 05-28 P",
+          "06-03 M 06-10 M 06-11 PK 06-17 M 06-24 M 06-25 P",
+          "07-01 M 07-08 M 07-09 PK 07-15 M 07-22 M 07-23 P 07-29 M",
+          "08-05 M 08-12 M 08-13 PK 08-19 M 08-26 M 08-27 P",
+          "09-02 M 09-09 M 09-10 PK 09-16 M 09-23 M 09-24 P 09-30 M",
+          "10-07 M 10-08 PK 10-14 M 10-21 M 10-22 P 10-28 M",
+          "11-04 M 11-11 M 11-12 PK 11-18 M 11-25 M 11-26 P",
+          "12-02 M 12-09 M 12-10 PK 12-16 M 12-23 M 12-24 P 12-30 M"
+        ]
+      }
+    },
+    "43": {
+      "jls": "Marija Gorica",
+      "podrucje": "Bijela Gorica, Kraj Donji, Kraj Gornji … – miješani srijeda; plastika 2. i 4. petak, papir 2. petak",
+      "ulice": ["Bijela Gorica", "Kraj Donji", "Kraj Gornji", "Sv. Križ"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-09 PK 01-14 M 01-21 M 01-23 P 01-28 M",
+          "02-04 M 02-11 M 02-13 PK 02-18 M 02-25 M 02-27 P",
+          "03-04 M 03-11 M 03-13 PK 03-18 M 03-25 M 03-27 P",
+          "04-01 M 04-08 M 04-10 PK 04-15 M 04-22 M 04-24 P 04-29 M",
+          "05-06 M 05-08 PK 05-13 M 05-20 M 05-22 P 05-27 M",
+          "06-03 M 06-10 M 06-12 PK 06-17 M 06-24 M 06-26 P",
+          "07-01 M 07-08 M 07-10 PK 07-15 M 07-22 M 07-24 P 07-29 M",
+          "08-05 M 08-12 M 08-14 PK 08-19 M 08-26 M 08-28 P",
+          "09-02 M 09-09 M 09-11 PK 09-16 M 09-23 M 09-25 P 09-30 M",
+          "10-07 M 10-09 PK 10-14 M 10-21 M 10-23 P 10-28 M",
+          "11-04 M 11-11 M 11-13 PK 11-18 M 11-25 M 11-27 P",
+          "12-02 M 12-09 M 12-11 PK 12-16 M 12-23 M 12-26 P! 12-30 M"
+        ]
+      }
+    },
+    "44": {
+      "jls": "Pušća",
+      "podrucje": "Pušćanski Hruševac – miješani srijeda; plastika 1. i 3. ponedjeljak, papir 3. ponedjeljak",
+      "ulice": ["Pušćanski Hruševac"],
+      "raw": {
+        "2026": [
+          "01-05 P 01-07 M 01-14 M 01-19 PK 01-21 M 01-28 M",
+          "02-02 P 02-04 M 02-11 M 02-16 PK 02-18 M 02-25 M",
+          "03-02 P 03-04 M 03-11 M 03-16 PK 03-18 M 03-25 M",
+          "04-01 M 04-06 P 04-08 M 04-15 M 04-20 PK 04-22 M 04-29 M",
+          "05-04 P 05-06 M 05-13 M 05-18 PK 05-20 M 05-27 M",
+          "06-01 P 06-03 M 06-10 M 06-15 PK 06-17 M 06-24 M",
+          "07-01 M 07-06 P 07-08 M 07-15 M 07-20 PK 07-22 M 07-29 M",
+          "08-03 P 08-05 M 08-12 M 08-17 PK 08-19 M 08-26 M",
+          "09-02 M 09-07 P 09-09 M 09-16 M 09-21 PK 09-23 M 09-30 M",
+          "10-05 P 10-07 M 10-14 M 10-19 PK 10-21 M 10-28 M",
+          "11-02 P 11-04 M 11-11 M 11-16 PK 11-18 M 11-25 M",
+          "12-02 M 12-07 P 12-09 M 12-16 M 12-21 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "45": {
+      "jls": "Pušća",
+      "podrucje": "Pušća (dio naselja) – miješani srijeda; plastika 2. i 4. ponedjeljak, papir 4. ponedjeljak",
+      "ulice": ["A. Kovačića (Pušća)", "Grmovćica (Pušća)", "S. Stanišaka (Pušća)"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-12 P 01-14 M 01-21 M 01-26 PK 01-28 M",
+          "02-04 M 02-09 P 02-11 M 02-18 M 02-23 PK 02-25 M",
+          "03-04 M 03-09 P 03-11 M 03-18 M 03-23 PK 03-25 M",
+          "04-01 M 04-08 M 04-13 P 04-15 M 04-22 M 04-27 PK 04-29 M",
+          "05-06 M 05-11 P 05-13 M 05-20 M 05-25 PK 05-27 M",
+          "06-03 M 06-08 P 06-10 M 06-17 M 06-22 PK 06-24 M",
+          "07-01 M 07-08 M 07-13 P 07-15 M 07-22 M 07-27 PK 07-29 M",
+          "08-05 M 08-10 P 08-12 M 08-19 M 08-24 PK 08-26 M",
+          "09-02 M 09-09 M 09-14 P 09-16 M 09-23 M 09-28 PK 09-30 M",
+          "10-07 M 10-12 P 10-14 M 10-21 M 10-26 PK 10-28 M",
+          "11-04 M 11-09 P 11-11 M 11-18 M 11-23 PK 11-25 M",
+          "12-02 M 12-09 M 12-14 P 12-16 M 12-23 M 12-28 PK 12-30 M"
+        ]
+      }
+    },
+    "46": {
+      "jls": "Pušća",
+      "podrucje": "D. Pušća, G. Pušća, Hrebine … – miješani četvrtak; plastika 2. i 4. ponedjeljak, papir 4. ponedjeljak",
+      "ulice": ["D. Pušća", "G. Pušća", "Hrebine", "M. Magdalena", "Žlebec Pušćanski"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-12 P 01-15 M 01-22 M 01-26 PK 01-29 M",
+          "02-05 M 02-09 P 02-12 M 02-19 M 02-23 PK 02-26 M",
+          "03-05 M 03-09 P 03-12 M 03-19 M 03-23 PK 03-26 M",
+          "04-02 M 04-09 M 04-13 P 04-16 M 04-23 M 04-27 PK 04-30 M",
+          "05-07 M 05-11 P 05-14 M 05-21 M 05-25 PK 05-28 M",
+          "06-04 M 06-08 P 06-11 M 06-18 M 06-22 PK 06-25 M",
+          "07-02 M 07-09 M 07-13 P 07-16 M 07-23 M 07-27 PK 07-30 M",
+          "08-06 M 08-10 P 08-13 M 08-20 M 08-24 PK 08-27 M",
+          "09-03 M 09-10 M 09-14 P 09-17 M 09-24 M 09-28 PK",
+          "10-01 M 10-08 M 10-12 P 10-15 M 10-22 M 10-26 PK 10-29 M",
+          "11-05 M 11-09 P 11-12 M 11-19 M 11-23 PK 11-26 M",
+          "12-03 M 12-10 M 12-14 P 12-17 M 12-24 M 12-28 PK 12-31 M"
+        ]
+      }
+    },
+    "47": {
+      "jls": "Pušća",
+      "podrucje": "Bregovljana, Pušćanska Dubrava – miješani petak; plastika 2. i 4. ponedjeljak, papir 4. ponedjeljak",
+      "ulice": ["Bregovljana", "Pušćanska Dubrava"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-12 P 01-16 M 01-23 M 01-26 PK 01-30 M",
+          "02-06 M 02-09 P 02-13 M 02-20 M 02-23 PK 02-27 M",
+          "03-06 M 03-09 P 03-13 M 03-20 M 03-23 PK 03-27 M",
+          "04-03 M 04-10 M 04-13 P 04-17 M 04-24 M 04-27 PK",
+          "05-01 M 05-08 M 05-11 P 05-15 M 05-22 M 05-25 PK 05-29 M",
+          "06-05 M 06-08 P 06-12 M 06-19 M 06-22 PK 06-26 M",
+          "07-03 M 07-10 M 07-13 P 07-17 M 07-24 M 07-27 PK 07-31 M",
+          "08-07 M 08-10 P 08-14 M 08-21 M 08-24 PK 08-28 M",
+          "09-04 M 09-11 M 09-14 P 09-18 M 09-25 M 09-28 PK",
+          "10-02 M 10-09 M 10-12 P 10-16 M 10-23 M 10-26 PK 10-30 M",
+          "11-06 M 11-09 P 11-13 M 11-20 M 11-23 PK 11-27 M",
+          "12-04 M 12-11 M 12-14 P 12-18 M 12-26 M! 12-28 PK"
+        ]
+      }
+    },
+    "48": {
+      "jls": "Pušća",
+      "podrucje": "Stanišakov Jarek – plastika 2. i 4. ponedjeljak, papir 4. ponedjeljak",
+      "ulice": ["Stanišakov Jarek"],
+      "napomena": "Dan odvoza miješanog otpada za ova mjesta nije naveden u rasporedu (navedena su samo na popisu za papir i plastiku).",
+      "raw": {
+        "2026": [
+          "01-12 P 01-26 PK",
+          "02-09 P 02-23 PK",
+          "03-09 P 03-23 PK",
+          "04-13 P 04-27 PK",
+          "05-11 P 05-25 PK",
+          "06-08 P 06-22 PK",
+          "07-13 P 07-27 PK",
+          "08-10 P 08-24 PK",
+          "09-14 P 09-28 PK",
+          "10-12 P 10-26 PK",
+          "11-09 P 11-23 PK",
+          "12-14 P 12-28 PK"
+        ]
+      }
+    }
+  }
+}
