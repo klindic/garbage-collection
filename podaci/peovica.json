@@ -1,0 +1,392 @@
+{
+  "davatelj": "Peovica d.o.o.",
+  "web": "https://peovica.hr",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Omiš", "Dugi Rat", "Šestanovac", "Zadvarje"],
+  "nazivi": {"P": "Ambalažni otpad (plastična ambalaža)"},
+  "napomene": ["Uži centar Omiša i Dugog Rata koristi polupodzemne spremnike, pa za njih nema rasporeda odvoza od vrata do vrata; raspored vrijedi za naselja navedena u zonama.", "Kalendar ne označava pomake zbog blagdana; Peovica ih objavljuje u obavijestima na peovica.hr, pa ih pratite ondje. Datumi su preneseni kako su u kalendaru (npr. 25.12. nema odvoza).", "Reciklabilni otpad prikuplja se i prema rasporedu \"Od kvarta do kvarta\" (peovica.hr).", "Kontakt: Peovica d.o.o., Vladimira Nazora 12, Omiš, 021 862 388.", "Izvor: https://peovica.hr/wp-content/uploads/2026/02/2026-Raspored-prikupljanja-otpada-0701.xlsx (poveznica na naslovnici https://peovica.hr)."],
+  "izvor": "https://peovica.hr/wp-content/uploads/2026/02/2026-Raspored-prikupljanja-otpada-0701.xlsx",
+  "zone": {
+    "1": {
+      "jls": "Dugi Rat",
+      "podrucje": "Orij, Mali Rat, Sumpetar, Suhi Potok, Krilo, Bajnice – miješani ponedjeljak i petak; ambalaža četvrtak",
+      "opis": "ORIJ - MALI RAT - SUMPETAR - SUHI POTOK - KRILO- BAJNICE",
+      "ulice": ["Orij", "Mali Rat", "Sumpetar", "Suhi Potok", "Krilo", "Bajnice"],
+      "napomena": "Duboki (polupodzemni) spremnici za miješani otpad prazne se svake srijede (oznaka \"DUBOKA – MKO\" u kalendaru); datumi u rasporedu su za odvoz od vrata do vrata. U kalendaru nisu označeni datumi za papir i karton (legenda: \"PAPIR / KARTON SVAKA DRUGA SRIJEDA\"); pitajte Peovicu.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-08 P 01-09 M 01-12 M 01-16 M 01-19 M 01-22 P 01-23 M 01-26 M 01-30 M",
+          "02-02 M 02-05 P 02-06 M 02-09 M 02-13 M 02-16 M 02-19 P 02-20 M 02-23 M 02-27 M",
+          "03-02 M 03-05 P 03-06 M 03-09 M 03-13 M 03-16 M 03-19 P 03-20 M 03-23 M 03-27 M",
+          "04-02 P 04-03 M 04-06 M 04-10 M 04-13 M 04-16 P 04-17 M 04-20 M 04-24 M 04-27 M 04-30 P",
+          "05-01 M 05-04 M 05-08 M 05-11 M 05-14 P 05-15 M 05-18 M 05-22 M 05-25 M 05-28 P 05-29 M",
+          "06-01 M 06-04 P 06-05 M 06-08 M 06-11 P 06-12 M 06-15 M 06-18 P 06-19 M 06-22 M 06-25 P 06-26 M 06-29 M",
+          "07-02 P 07-03 M 07-06 M 07-09 P 07-10 M 07-13 M 07-16 P 07-17 M 07-20 M 07-23 P 07-24 M 07-27 M 07-30 P 07-31 M",
+          "08-03 M 08-06 P 08-07 M 08-10 M 08-13 P 08-14 M 08-17 M 08-20 P 08-21 M 08-24 M 08-27 P 08-28 M",
+          "09-03 P 09-04 M 09-07 M 09-10 P 09-11 M 09-14 M 09-17 P 09-18 M 09-21 M 09-24 P 09-25 M 09-28 M",
+          "10-01 P 10-02 M 10-05 M 10-09 M 10-12 M 10-15 P 10-16 M 10-19 M 10-23 M 10-26 M 10-29 P 10-30 M",
+          "11-02 M 11-06 M 11-09 M 11-12 P 11-13 M 11-16 M 11-20 M 11-23 M 11-26 P 11-27 M",
+          "12-04 M 12-07 M 12-10 P 12-11 M 12-14 M 12-18 M 12-21 M 12-24 P 12-28 M"
+        ]
+      }
+    },
+    "2A": {
+      "jls": "Omiš",
+      "podrucje": "Omiš Priko (Vukovarska ulica), Lisičina, Put Vrila – miješani utorak i subota; papir srijeda; ambalaža četvrtak",
+      "opis": "OMIŠ PRIKO (Vukovarska ulica) LISIČINA - PUT VRILA- DUĆE - DUGI RAT",
+      "ulice": ["Omiš Priko (Vukovarska ulica)", "Lisičina", "Put Vrila"],
+      "napomena": "Isti raspored vrijedi i za: Duće, Dugi Rat (Dugi Rat).",
+      "raw": {
+        "2026": [
+          "01-01 P 01-03 M 01-06 M 01-10 M 01-13 M 01-14 K 01-15 P 01-17 M 01-20 M 01-24 M 01-27 M 01-28 K 01-29 P 01-31 M",
+          "02-03 M 02-07 M 02-10 M 02-11 K 02-12 P 02-14 M 02-17 M 02-21 M 02-24 M 02-25 K 02-26 P 02-28 M",
+          "03-03 M 03-07 M 03-10 M 03-11 K 03-12 P 03-14 M 03-17 M 03-21 M 03-24 M 03-25 K 03-26 P 03-28 M 03-31 M",
+          "04-04 M 04-07 M 04-08 K 04-09 P 04-11 M 04-14 M 04-18 M 04-21 M 04-22 K 04-23 P 04-25 M 04-28 M",
+          "05-02 M 05-05 M 05-06 K 05-07 P 05-09 M 05-12 M 05-16 M 05-19 M 05-20 K 05-21 P 05-23 M 05-26 M 05-30 M",
+          "06-02 M 06-03 K 06-04 P 06-06 M 06-09 M 06-11 P 06-13 M 06-16 M 06-17 K 06-18 P 06-20 M 06-23 M 06-25 P 06-27 M 06-30 M",
+          "07-01 K 07-02 P 07-04 M 07-07 M 07-09 P 07-11 M 07-14 M 07-15 K 07-16 P 07-18 M 07-21 M 07-23 P 07-25 M 07-28 M 07-29 K 07-30 P",
+          "08-01 M 08-04 M 08-06 P 08-08 M 08-11 M 08-12 K 08-13 P 08-15 M 08-18 M 08-20 P 08-22 M 08-25 M 08-26 K 08-27 P 08-29 M",
+          "09-01 M 09-03 P 09-05 M 09-08 M 09-09 K 09-10 P 09-12 M 09-15 M 09-17 P 09-19 M 09-22 M 09-23 K 09-24 P 09-26 M 09-29 M",
+          "10-03 M 10-06 M 10-07 K 10-08 P 10-10 M 10-13 M 10-17 M 10-20 M 10-21 K 10-22 P 10-24 M 10-27 M 10-31 M",
+          "11-03 M 11-04 K 11-05 P 11-07 M 11-10 M 11-14 M 11-17 M 11-18 K 11-19 P 11-21 M 11-24 M 11-28 M",
+          "12-01 M 12-02 K 12-03 P 12-05 M 12-08 M 12-12 M 12-15 M 12-16 K 12-17 P 12-19 M 12-22 M 12-26 M 12-29 M 12-30 K 12-31 P"
+        ]
+      }
+    },
+    "2B": {
+      "jls": "Dugi Rat",
+      "podrucje": "Duće, Dugi Rat – miješani utorak i subota; papir srijeda; ambalaža četvrtak",
+      "opis": "OMIŠ PRIKO (Vukovarska ulica) LISIČINA - PUT VRILA- DUĆE - DUGI RAT",
+      "ulice": ["Duće", "Dugi Rat"],
+      "napomena": "Isti raspored vrijedi i za: Omiš Priko (Vukovarska ulica), Lisičina, Put Vrila (Omiš).",
+      "raw": {
+        "2026": [
+          "01-01 P 01-03 M 01-06 M 01-10 M 01-13 M 01-14 K 01-15 P 01-17 M 01-20 M 01-24 M 01-27 M 01-28 K 01-29 P 01-31 M",
+          "02-03 M 02-07 M 02-10 M 02-11 K 02-12 P 02-14 M 02-17 M 02-21 M 02-24 M 02-25 K 02-26 P 02-28 M",
+          "03-03 M 03-07 M 03-10 M 03-11 K 03-12 P 03-14 M 03-17 M 03-21 M 03-24 M 03-25 K 03-26 P 03-28 M 03-31 M",
+          "04-04 M 04-07 M 04-08 K 04-09 P 04-11 M 04-14 M 04-18 M 04-21 M 04-22 K 04-23 P 04-25 M 04-28 M",
+          "05-02 M 05-05 M 05-06 K 05-07 P 05-09 M 05-12 M 05-16 M 05-19 M 05-20 K 05-21 P 05-23 M 05-26 M 05-30 M",
+          "06-02 M 06-03 K 06-04 P 06-06 M 06-09 M 06-11 P 06-13 M 06-16 M 06-17 K 06-18 P 06-20 M 06-23 M 06-25 P 06-27 M 06-30 M",
+          "07-01 K 07-02 P 07-04 M 07-07 M 07-09 P 07-11 M 07-14 M 07-15 K 07-16 P 07-18 M 07-21 M 07-23 P 07-25 M 07-28 M 07-29 K 07-30 P",
+          "08-01 M 08-04 M 08-06 P 08-08 M 08-11 M 08-12 K 08-13 P 08-15 M 08-18 M 08-20 P 08-22 M 08-25 M 08-26 K 08-27 P 08-29 M",
+          "09-01 M 09-03 P 09-05 M 09-08 M 09-09 K 09-10 P 09-12 M 09-15 M 09-17 P 09-19 M 09-22 M 09-23 K 09-24 P 09-26 M 09-29 M",
+          "10-03 M 10-06 M 10-07 K 10-08 P 10-10 M 10-13 M 10-17 M 10-20 M 10-21 K 10-22 P 10-24 M 10-27 M 10-31 M",
+          "11-03 M 11-04 K 11-05 P 11-07 M 11-10 M 11-14 M 11-17 M 11-18 K 11-19 P 11-21 M 11-24 M 11-28 M",
+          "12-01 M 12-02 K 12-03 P 12-05 M 12-08 M 12-12 M 12-15 M 12-16 K 12-17 P 12-19 M 12-22 M 12-26 M 12-29 M 12-30 K 12-31 P"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Omiš",
+      "podrucje": "Zakučac (naselje), Borak – miješani ponedjeljak i petak; papir srijeda; ambalaža četvrtak",
+      "opis": "ZAKUČAC - NASELJE - BORAK",
+      "ulice": ["Zakučac (naselje)", "Borak"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K 01-08 P 01-09 M 01-12 M 01-16 M 01-19 M 01-21 K 01-22 P 01-23 M 01-26 M 01-30 M",
+          "02-02 M 02-04 K 02-05 P 02-06 M 02-09 M 02-13 M 02-16 M 02-18 K 02-19 P 02-20 M 02-23 M 02-27 M",
+          "03-02 M 03-04 K 03-05 P 03-06 M 03-09 M 03-13 M 03-16 M 03-18 K 03-19 P 03-20 M 03-23 M 03-27 M 03-30 M",
+          "04-01 K 04-02 P 04-03 M 04-06 M 04-10 M 04-13 M 04-15 K 04-16 P 04-17 M 04-20 M 04-24 M 04-27 M 04-29 K 04-30 P",
+          "05-01 M 05-04 M 05-08 M 05-11 M 05-13 K 05-14 P 05-15 M 05-18 M 05-22 M 05-25 M 05-27 K 05-28 P 05-29 M",
+          "06-01 M 06-04 P 06-05 M 06-08 M 06-10 K 06-11 P 06-12 M 06-15 M 06-18 P 06-19 M 06-22 M 06-24 K 06-25 P 06-26 M 06-29 M",
+          "07-02 P 07-03 M 07-06 M 07-08 K 07-09 P 07-10 M 07-13 M 07-16 P 07-17 M 07-20 M 07-22 K 07-23 P 07-24 M 07-27 M 07-30 P 07-31 M",
+          "08-03 M 08-05 K 08-06 P 08-07 M 08-10 M 08-13 P 08-14 M 08-17 M 08-19 K 08-20 P 08-21 M 08-24 M 08-27 P 08-28 M 08-31 M",
+          "09-02 K 09-03 P 09-04 M 09-07 M 09-10 P 09-11 M 09-14 M 09-16 K 09-17 P 09-18 M 09-21 M 09-24 P 09-25 M 09-28 M 09-30 K",
+          "10-01 P 10-02 M 10-05 M 10-09 M 10-12 M 10-14 K 10-15 P 10-16 M 10-19 M 10-23 M 10-26 M 10-28 K 10-29 P 10-30 M",
+          "11-02 M 11-06 M 11-09 M 11-11 K 11-12 P 11-13 M 11-16 M 11-20 M 11-23 M 11-25 K 11-26 P 11-27 M 11-30 M",
+          "12-04 M 12-07 M 12-09 K 12-10 P 12-11 M 12-14 M 12-18 M 12-21 M 12-23 K 12-24 P 12-28 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Omiš",
+      "podrucje": "Slavinj, Brzet, Garma, Ravnice, Balića Rat, Stanići, Čelina – miješani utorak i subota; papir srijeda; ambalaža četvrtak",
+      "opis": "SLAVINJ-BRZET-GARMA-RAVNICE-BALIĆA RAT-STANIĆI-ČELINA",
+      "ulice": ["Slavinj", "Brzet", "Garma", "Ravnice", "Balića Rat", "Stanići", "Čelina"],
+      "napomena": "Papir i karton odvozi se samo u dijelu Slavinj – Stanići (prema legendi kalendara).",
+      "raw": {
+        "2026": [
+          "01-03 M 01-06 M 01-07 K 01-08 P 01-10 M 01-13 M 01-17 M 01-20 M 01-21 K 01-22 P 01-24 M 01-27 M 01-31 M",
+          "02-03 M 02-04 K 02-05 P 02-07 M 02-10 M 02-14 M 02-17 M 02-18 K 02-19 P 02-21 M 02-24 M 02-28 M",
+          "03-03 M 03-04 K 03-05 P 03-07 M 03-10 M 03-14 M 03-17 M 03-18 K 03-19 P 03-21 M 03-24 M 03-28 M 03-31 M",
+          "04-01 K 04-02 P 04-04 M 04-07 M 04-11 M 04-14 M 04-15 K 04-16 P 04-18 M 04-21 M 04-25 M 04-28 M 04-29 K 04-30 P",
+          "05-02 M 05-05 M 05-09 M 05-12 M 05-13 K 05-14 P 05-16 M 05-19 M 05-23 M 05-26 M 05-27 K 05-28 P 05-30 M",
+          "06-02 M 06-04 P 06-06 M 06-09 M 06-10 K 06-11 P 06-13 M 06-16 M 06-18 P 06-20 M 06-23 M 06-24 K 06-25 P 06-27 M 06-30 M",
+          "07-02 P 07-04 M 07-07 M 07-08 K 07-09 P 07-11 M 07-14 M 07-16 P 07-18 M 07-21 M 07-22 K 07-23 P 07-25 M 07-28 M 07-30 P",
+          "08-01 M 08-04 M 08-05 K 08-06 P 08-08 M 08-11 M 08-13 P 08-15 M 08-18 M 08-19 K 08-20 P 08-22 M 08-25 M 08-27 P 08-29 M",
+          "09-01 M 09-02 K 09-03 P 09-05 M 09-08 M 09-10 P 09-12 M 09-15 M 09-16 K 09-17 P 09-19 M 09-22 M 09-24 P 09-26 M 09-29 M 09-30 K",
+          "10-01 P 10-03 M 10-06 M 10-10 M 10-13 M 10-14 K 10-15 P 10-17 M 10-20 M 10-24 M 10-27 M 10-28 K 10-29 P 10-31 M",
+          "11-03 M 11-07 M 11-10 M 11-11 K 11-12 P 11-14 M 11-17 M 11-21 M 11-24 M 11-25 K 11-26 P 11-28 M",
+          "12-01 M 12-05 M 12-08 M 12-09 K 12-10 P 12-12 M 12-15 M 12-19 M 12-22 M 12-23 K 12-24 P 12-26 M 12-29 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Omiš",
+      "podrucje": "Nemira – miješani utorak i subota; papir srijeda; ambalaža četvrtak",
+      "opis": "NEMIRA",
+      "ulice": ["Nemira"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-06 M 01-07 K 01-08 P 01-10 M 01-13 M 01-17 M 01-20 M 01-21 K 01-22 P 01-24 M 01-27 M 01-31 M",
+          "02-03 M 02-04 K 02-05 P 02-07 M 02-10 M 02-14 M 02-17 M 02-18 K 02-19 P 02-21 M 02-24 M 02-28 M",
+          "03-03 M 03-04 K 03-05 P 03-07 M 03-10 M 03-14 M 03-17 M 03-18 K 03-19 P 03-21 M 03-24 M 03-28 M 03-31 M",
+          "04-01 K 04-02 P 04-04 M 04-07 M 04-11 M 04-14 M 04-15 K 04-16 P 04-18 M 04-21 M 04-25 M 04-28 M 04-29 K 04-30 P",
+          "05-02 M 05-05 M 05-09 M 05-12 M 05-13 K 05-14 P 05-16 M 05-19 M 05-23 M 05-26 M 05-27 K 05-28 P 05-30 M",
+          "06-02 M 06-04 P 06-06 M 06-09 M 06-10 K 06-11 P 06-13 M 06-16 M 06-18 P 06-20 M 06-23 M 06-24 K 06-25 P 06-27 M 06-30 M",
+          "07-02 P 07-04 M 07-07 M 07-08 K 07-09 P 07-11 M 07-14 M 07-16 P 07-18 M 07-21 M 07-22 K 07-23 P 07-25 M 07-28 M 07-30 P",
+          "08-01 M 08-04 M 08-05 K 08-06 P 08-08 M 08-11 M 08-13 P 08-15 M 08-18 M 08-19 K 08-20 P 08-22 M 08-25 M 08-27 P 08-29 M",
+          "09-01 M 09-02 K 09-03 P 09-05 M 09-08 M 09-10 P 09-12 M 09-15 M 09-16 K 09-17 P 09-19 M 09-22 M 09-24 P 09-26 M 09-29 M 09-30 K",
+          "10-01 P 10-03 M 10-06 M 10-10 M 10-13 M 10-14 K 10-15 P 10-17 M 10-20 M 10-24 M 10-27 M 10-28 K 10-29 P 10-31 M",
+          "11-03 M 11-07 M 11-10 M 11-11 K 11-12 P 11-14 M 11-17 M 11-21 M 11-24 M 11-25 K 11-26 P 11-28 M",
+          "12-01 M 12-05 M 12-08 M 12-09 K 12-10 P 12-12 M 12-15 M 12-19 M 12-22 M 12-23 K 12-24 P 12-26 M 12-29 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Omiš",
+      "podrucje": "Stara Sela Lokva, Lokva Rogoznica – miješani utorak i subota; papir srijeda; ambalaža četvrtak",
+      "opis": "STARA SELA LOKVA-LOKVA ROGOZNICA",
+      "ulice": ["Stara Sela Lokva", "Lokva Rogoznica"],
+      "raw": {
+        "2026": [
+          "01-01 P 01-03 M 01-06 M 01-10 M 01-13 M 01-14 K 01-15 P 01-17 M 01-20 M 01-24 M 01-27 M 01-28 K 01-29 P 01-31 M",
+          "02-03 M 02-07 M 02-10 M 02-11 K 02-12 P 02-14 M 02-17 M 02-21 M 02-24 M 02-25 K 02-26 P 02-28 M",
+          "03-03 M 03-07 M 03-10 M 03-11 K 03-12 P 03-14 M 03-17 M 03-21 M 03-24 M 03-25 K 03-26 P 03-28 M 03-31 M",
+          "04-04 M 04-07 M 04-08 K 04-09 P 04-11 M 04-14 M 04-18 M 04-21 M 04-22 K 04-23 P 04-25 M 04-28 M",
+          "05-02 M 05-05 M 05-06 K 05-07 P 05-09 M 05-12 M 05-16 M 05-19 M 05-20 K 05-21 P 05-23 M 05-26 M 05-30 M",
+          "06-02 M 06-03 K 06-04 P 06-06 M 06-09 M 06-11 P 06-13 M 06-16 M 06-17 K 06-18 P 06-20 M 06-23 M 06-25 P 06-27 M 06-30 M",
+          "07-01 K 07-02 P 07-04 M 07-07 M 07-09 P 07-11 M 07-14 M 07-15 K 07-16 P 07-18 M 07-21 M 07-23 P 07-25 M 07-28 M 07-29 K 07-30 P",
+          "08-01 M 08-04 M 08-06 P 08-08 M 08-11 M 08-12 K 08-13 P 08-15 M 08-18 M 08-20 P 08-22 M 08-25 M 08-26 K 08-27 P 08-29 M",
+          "09-01 M 09-03 P 09-05 M 09-08 M 09-09 K 09-10 P 09-12 M 09-15 M 09-17 P 09-19 M 09-22 M 09-23 K 09-24 P 09-26 M 09-29 M",
+          "10-03 M 10-06 M 10-07 K 10-08 P 10-10 M 10-13 M 10-17 M 10-20 M 10-21 K 10-22 P 10-24 M 10-27 M 10-31 M",
+          "11-03 M 11-04 K 11-05 P 11-07 M 11-10 M 11-14 M 11-17 M 11-18 K 11-19 P 11-21 M 11-24 M 11-28 M",
+          "12-01 M 12-02 K 12-03 P 12-05 M 12-08 M 12-12 M 12-15 M 12-16 K 12-17 P 12-19 M 12-22 M 12-26 M 12-29 M 12-30 K 12-31 P"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Omiš",
+      "podrucje": "Medići, Mimice, Marušići, Pisak – miješani ponedjeljak i petak; papir srijeda; ambalaža četvrtak",
+      "opis": "MEDIĆI - MIMICE - MARUŠIĆI - PISAK",
+      "ulice": ["Medići", "Mimice", "Marušići", "Pisak"],
+      "raw": {
+        "2026": [
+          "01-01 P 01-02 M 01-05 M 01-09 M 01-12 M 01-14 K 01-15 P 01-16 M 01-19 M 01-23 M 01-26 M 01-28 K 01-29 P 01-30 M",
+          "02-02 M 02-06 M 02-09 M 02-11 K 02-12 P 02-13 M 02-16 M 02-20 M 02-23 M 02-25 K 02-26 P 02-27 M",
+          "03-02 M 03-06 M 03-09 M 03-11 K 03-12 P 03-13 M 03-16 M 03-20 M 03-23 M 03-25 K 03-26 P 03-27 M 03-30 M",
+          "04-03 M 04-06 M 04-08 K 04-09 P 04-10 M 04-13 M 04-17 M 04-20 M 04-22 K 04-23 P 04-24 M 04-27 M",
+          "05-01 M 05-04 M 05-06 K 05-07 P 05-08 M 05-11 M 05-15 M 05-18 M 05-20 K 05-21 P 05-22 M 05-25 M 05-29 M",
+          "06-01 M 06-03 K 06-04 P 06-05 M 06-08 M 06-11 P 06-12 M 06-15 M 06-17 K 06-18 P 06-19 M 06-22 M 06-25 P 06-26 M 06-29 M",
+          "07-01 K 07-02 P 07-03 M 07-06 M 07-09 P 07-10 M 07-13 M 07-15 K 07-16 P 07-17 M 07-20 M 07-23 P 07-24 M 07-27 M 07-29 K 07-30 P 07-31 M",
+          "08-03 M 08-06 P 08-07 M 08-10 M 08-12 K 08-13 P 08-14 M 08-17 M 08-20 P 08-21 M 08-24 M 08-26 K 08-27 P 08-28 M 08-31 M",
+          "09-03 P 09-04 M 09-07 M 09-09 K 09-10 P 09-11 M 09-14 M 09-17 P 09-18 M 09-21 M 09-23 K 09-24 P 09-25 M 09-28 M",
+          "10-02 M 10-05 M 10-07 K 10-08 P 10-09 M 10-12 M 10-16 M 10-19 M 10-21 K 10-22 P 10-23 M 10-26 M 10-30 M",
+          "11-02 M 11-04 K 11-05 P 11-06 M 11-09 M 11-13 M 11-16 M 11-18 K 11-19 P 11-20 M 11-23 M 11-27 M 11-30 M",
+          "12-02 K 12-03 P 12-04 M 12-07 M 12-11 M 12-14 M 12-16 K 12-17 P 12-18 M 12-21 M 12-28 M 12-30 K 12-31 P"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Omiš",
+      "podrucje": "Podašpilje, Svinišće, Kučiće, Slime – miješani srijeda; papir petak; ambalaža subota",
+      "opis": "PODAŠPILJE - SVINIŠĆE - KUČIĆE - SLIME",
+      "ulice": ["Podašpilje", "Svinišće", "Kučiće", "Slime"],
+      "raw": {
+        "2026": [
+          "01-03 P 01-07 M 01-09 K 01-14 M 01-17 P 01-21 M 01-23 K 01-28 M 01-31 P",
+          "02-04 M 02-06 K 02-11 M 02-14 P 02-18 M 02-20 K 02-25 M 02-28 P",
+          "03-04 M 03-06 K 03-11 M 03-14 P 03-18 M 03-20 K 03-25 M 03-28 P",
+          "04-01 M 04-03 K 04-08 M 04-11 P 04-15 M 04-17 K 04-22 M 04-25 P 04-29 M",
+          "05-01 K 05-06 M 05-09 P 05-13 M 05-15 K 05-20 M 05-23 P 05-27 M 05-29 K",
+          "06-03 M 06-06 P 06-10 M 06-12 K 06-17 M 06-20 P 06-24 M 06-26 K",
+          "07-01 M 07-04 P 07-08 M 07-10 K 07-15 M 07-18 P 07-22 M 07-24 K 07-29 M",
+          "08-01 P 08-05 M 08-07 K 08-12 M 08-15 P 08-19 M 08-21 K 08-26 M 08-29 P",
+          "09-02 M 09-04 K 09-09 M 09-12 P 09-16 M 09-18 K 09-23 M 09-26 P 09-30 M",
+          "10-02 K 10-07 M 10-10 P 10-14 M 10-16 K 10-21 M 10-24 P 10-28 M 10-30 K",
+          "11-04 M 11-07 P 11-11 M 11-13 K 11-18 M 11-21 P 11-25 M 11-27 K",
+          "12-02 M 12-05 P 12-09 M 12-11 K 12-16 M 12-19 P 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Omiš",
+      "podrucje": "Naklice, Tugare, Dubrava – miješani četvrtak; ambalaža subota",
+      "opis": "NAKLICE - TUGARE - DUBRAVA",
+      "ulice": ["Naklice", "Tugare", "Dubrava"],
+      "napomena": "U kalendaru nisu označeni datumi za papir i karton (legenda: \"PAPIR/KARTON SVAKI DRUGI ČETVRTAK\"); pitajte Peovicu.",
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-10 P 01-15 M 01-22 M 01-24 P 01-29 M",
+          "02-05 M 02-07 P 02-12 M 02-19 M 02-21 P 02-26 M",
+          "03-05 M 03-07 P 03-12 M 03-19 M 03-21 P 03-26 M",
+          "04-02 M 04-04 P 04-09 M 04-16 M 04-18 P 04-23 M 04-30 M",
+          "05-02 P 05-07 M 05-14 M 05-16 P 05-21 M 05-28 M 05-30 P",
+          "06-04 M 06-11 M 06-13 P 06-18 M 06-25 M 06-27 P",
+          "07-02 M 07-09 M 07-11 P 07-16 M 07-23 M 07-25 P 07-30 M",
+          "08-06 M 08-08 P 08-13 M 08-20 M 08-22 P 08-27 M",
+          "09-03 M 09-05 P 09-10 M 09-17 M 09-19 P 09-24 M",
+          "10-01 M 10-03 P 10-08 M 10-15 M 10-17 P 10-22 M 10-29 M 10-31 P",
+          "11-05 M 11-12 M 11-14 P 11-19 M 11-26 M 11-28 P",
+          "12-03 M 12-10 M 12-12 P 12-17 M 12-24 M 12-26 P 12-31 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Omiš",
+      "podrucje": "Gata, Čišla, Ostrvica, Zvečanje, Smolonje – miješani utorak; papir subota; ambalaža srijeda",
+      "opis": "GATA - ČIŠLA - OSTRVICA - ZVEČANJE - SMOLONJE",
+      "ulice": ["Gata", "Čišla", "Ostrvica", "Zvečanje", "Smolonje"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 P 01-10 K 01-13 M 01-20 M 01-21 P 01-24 K 01-27 M",
+          "02-03 M 02-04 P 02-07 K 02-10 M 02-17 M 02-18 P 02-21 K 02-24 M",
+          "03-03 M 03-04 P 03-07 K 03-10 M 03-17 M 03-18 P 03-21 K 03-24 M 03-31 M",
+          "04-01 P 04-04 K 04-07 M 04-14 M 04-15 P 04-18 K 04-21 M 04-28 M 04-29 P",
+          "05-02 K 05-05 M 05-12 M 05-13 P 05-16 K 05-19 M 05-26 M 05-27 P 05-30 K",
+          "06-02 M 06-09 M 06-10 P 06-13 K 06-16 M 06-23 M 06-24 P 06-27 K 06-30 M",
+          "07-07 M 07-08 P 07-11 K 07-14 M 07-21 M 07-22 P 07-25 K 07-28 M",
+          "08-04 M 08-05 P 08-08 K 08-11 M 08-18 M 08-19 P 08-22 K 08-25 M",
+          "09-01 M 09-02 P 09-05 K 09-08 M 09-15 M 09-16 P 09-19 K 09-22 M 09-29 M 09-30 P",
+          "10-03 K 10-06 M 10-13 M 10-14 P 10-17 K 10-20 M 10-27 M 10-28 P 10-31 K",
+          "11-03 M 11-10 M 11-11 P 11-14 K 11-17 M 11-24 M 11-25 P 11-28 K",
+          "12-01 M 12-08 M 12-09 P 12-12 K 12-15 M 12-22 M 12-23 P 12-26 K 12-29 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Omiš",
+      "podrucje": "Kostanje, Podgrađe, Seoca – miješani ponedjeljak; papir subota; ambalaža srijeda",
+      "opis": "KOSTANJE - PODGRAĐE - SEOCA",
+      "ulice": ["Kostanje", "Podgrađe", "Seoca"],
+      "raw": {
+        "2026": [
+          "01-03 K 01-05 M 01-12 M 01-14 P 01-17 K 01-19 M 01-26 M 01-28 P 01-31 K",
+          "02-02 M 02-09 M 02-11 P 02-14 K 02-16 M 02-23 M 02-25 P 02-28 K",
+          "03-02 M 03-09 M 03-11 P 03-14 K 03-16 M 03-23 M 03-25 P 03-28 K 03-30 M",
+          "04-06 M 04-08 P 04-11 K 04-13 M 04-20 M 04-22 P 04-25 K 04-27 M",
+          "05-04 M 05-06 P 05-09 K 05-11 M 05-18 M 05-20 P 05-23 K 05-25 M",
+          "06-01 M 06-03 P 06-06 K 06-08 M 06-15 M 06-17 P 06-20 K 06-22 M 06-29 M",
+          "07-01 P 07-04 K 07-06 M 07-13 M 07-15 P 07-18 K 07-20 M 07-27 M 07-29 P",
+          "08-01 K 08-03 M 08-10 M 08-12 P 08-15 K 08-17 M 08-24 M 08-26 P 08-29 K 08-31 M",
+          "09-07 M 09-09 P 09-12 K 09-14 M 09-21 M 09-23 P 09-26 K 09-28 M",
+          "10-05 M 10-07 P 10-10 K 10-12 M 10-19 M 10-21 P 10-24 K 10-26 M",
+          "11-02 M 11-04 P 11-07 K 11-09 M 11-16 M 11-18 P 11-21 K 11-23 M 11-30 M",
+          "12-02 P 12-05 K 12-07 M 12-14 M 12-16 P 12-19 K 12-21 M 12-28 M 12-30 P"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Omiš",
+      "podrucje": "Blato na Cetini – miješani ponedjeljak; papir subota; ambalaža srijeda",
+      "opis": "BLATO NA CETINI",
+      "ulice": ["Blato na Cetini"],
+      "raw": {
+        "2026": [
+          "01-03 K 01-05 M 01-12 M 01-14 P 01-17 K 01-19 M 01-26 M 01-28 P 01-31 K",
+          "02-02 M 02-09 M 02-11 P 02-14 K 02-16 M 02-23 M 02-25 P 02-28 K",
+          "03-02 M 03-09 M 03-11 P 03-14 K 03-16 M 03-23 M 03-25 P 03-28 K 03-30 M",
+          "04-06 M 04-08 P 04-11 K 04-13 M 04-20 M 04-22 P 04-25 K 04-27 M",
+          "05-04 M 05-06 P 05-09 K 05-11 M 05-18 M 05-20 P 05-23 K 05-25 M",
+          "06-01 M 06-03 P 06-06 K 06-08 M 06-15 M 06-17 P 06-20 K 06-22 M 06-29 M",
+          "07-01 P 07-04 K 07-06 M 07-13 M 07-15 P 07-18 K 07-20 M 07-27 M 07-29 P",
+          "08-01 K 08-03 M 08-10 M 08-12 P 08-15 K 08-17 M 08-24 M 08-26 P 08-29 K 08-31 M",
+          "09-07 M 09-09 P 09-12 K 09-14 M 09-21 M 09-23 P 09-26 K 09-28 M",
+          "10-05 M 10-07 P 10-10 K 10-12 M 10-19 M 10-21 P 10-24 K 10-26 M",
+          "11-02 M 11-04 P 11-07 K 11-09 M 11-16 M 11-18 P 11-21 K 11-23 M 11-30 M",
+          "12-02 P 12-05 K 12-07 M 12-14 M 12-16 P 12-19 K 12-21 M 12-28 M 12-30 P"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Omiš",
+      "podrucje": "Trnbusi, Gornji Dolac, Srijane, Putišići, Donji Dolac, Nova Sela – miješani ponedjeljak; papir četvrtak; ambalaža petak",
+      "opis": "TRNBUSI-GORNJI DOLAC-SRIJANE-PUTIŠIĆI-DONJI DOLAC-NOVA SELA",
+      "ulice": ["Trnbusi", "Gornji Dolac", "Srijane", "Putišići", "Donji Dolac", "Nova Sela"],
+      "napomena": "Legenda kalendara navodi \"Plastična ambalaža svaki drugi četvrtak\", a označeni datumi su petak; preneseni su označeni datumi.",
+      "raw": {
+        "2026": [
+          "01-01 K 01-02 P 01-05 M 01-12 M 01-15 K 01-16 P 01-19 M 01-26 M 01-29 K 01-30 P",
+          "02-02 M 02-09 M 02-12 K 02-13 P 02-16 M 02-23 M 02-26 K 02-27 P",
+          "03-02 M 03-09 M 03-12 K 03-13 P 03-16 M 03-23 M 03-26 K 03-27 P 03-30 M",
+          "04-06 M 04-09 K 04-10 P 04-13 M 04-20 M 04-23 K 04-24 P 04-27 M",
+          "05-04 M 05-07 K 05-08 P 05-11 M 05-18 M 05-21 K 05-22 P 05-25 M",
+          "06-01 M 06-04 K 06-05 P 06-08 M 06-15 M 06-18 K 06-19 P 06-22 M 06-29 M",
+          "07-02 K 07-03 P 07-06 M 07-13 M 07-16 K 07-17 P 07-20 M 07-27 M 07-30 K 07-31 P",
+          "08-03 M 08-10 M 08-13 K 08-14 P 08-17 M 08-24 M 08-27 K 08-28 P 08-31 M",
+          "09-07 M 09-10 K 09-11 P 09-14 M 09-21 M 09-24 K 09-25 P 09-28 M",
+          "10-05 M 10-08 K 10-09 P 10-12 M 10-19 M 10-22 K 10-23 P 10-26 M",
+          "11-02 M 11-05 K 11-06 P 11-09 M 11-16 M 11-19 K 11-20 P 11-23 M 11-30 M",
+          "12-03 K 12-04 P 12-07 M 12-14 M 12-17 K 12-18 P 12-21 M 12-28 M 12-31 K"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Zadvarje",
+      "podrucje": "Zadvarje – miješani ponedjeljak; papir petak; ambalaža petak",
+      "opis": "ZADVARJE",
+      "ulice": ["Zadvarje"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-05 M 01-09 P 01-12 M 01-16 K 01-19 M 01-23 P 01-26 M 01-30 K",
+          "02-02 M 02-06 P 02-09 M 02-13 K 02-16 M 02-20 P 02-23 M 02-27 K",
+          "03-02 M 03-06 P 03-09 M 03-13 K 03-16 M 03-20 P 03-23 M 03-27 K 03-30 M",
+          "04-03 P 04-06 M 04-10 K 04-13 M 04-17 P 04-20 M 04-24 K 04-27 M",
+          "05-01 P 05-04 M 05-08 K 05-11 M 05-15 P 05-18 M 05-22 K 05-25 M 05-29 P",
+          "06-01 M 06-05 K 06-08 M 06-12 P 06-15 M 06-19 K 06-22 M 06-26 P 06-29 M",
+          "07-03 K 07-06 M 07-10 P 07-13 M 07-17 K 07-20 M 07-24 P 07-27 M 07-31 K",
+          "08-03 M 08-07 P 08-10 M 08-14 K 08-17 M 08-21 P 08-24 M 08-28 K 08-31 M",
+          "09-04 P 09-07 M 09-11 K 09-14 M 09-18 P 09-21 M 09-25 K 09-28 M",
+          "10-02 P 10-05 M 10-09 K 10-12 M 10-16 P 10-19 M 10-23 K 10-26 M 10-30 P",
+          "11-02 M 11-06 K 11-09 M 11-13 P 11-16 M 11-20 K 11-23 M 11-27 P 11-30 M",
+          "12-04 K 12-07 M 12-11 P 12-14 M 12-18 K 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Šestanovac",
+      "podrucje": "Katuni, Kreševo, Šestanovac – miješani srijeda; papir utorak; ambalaža utorak",
+      "opis": "KATUNI-KREŠEVO-ŠESTANOVAC",
+      "ulice": ["Katuni", "Kreševo", "Šestanovac"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-13 P 01-14 M 01-21 M 01-27 K 01-28 M",
+          "02-04 M 02-10 P 02-11 M 02-18 M 02-24 K 02-25 M",
+          "03-04 M 03-10 P 03-11 M 03-18 M 03-24 K 03-25 M",
+          "04-01 M 04-07 P 04-08 M 04-15 M 04-21 K 04-22 M 04-29 M",
+          "05-05 P 05-06 M 05-13 M 05-19 K 05-20 M 05-27 M",
+          "06-02 P 06-03 M 06-10 M 06-16 K 06-17 M 06-24 M 06-30 P",
+          "07-01 M 07-08 M 07-14 K 07-15 M 07-22 M 07-28 P 07-29 M",
+          "08-05 M 08-11 K 08-12 M 08-19 M 08-25 P 08-26 M",
+          "09-02 M 09-08 K 09-09 M 09-16 M 09-22 P 09-23 M 09-30 M",
+          "10-06 K 10-07 M 10-14 M 10-20 P 10-21 M 10-28 M",
+          "11-03 K 11-04 M 11-11 M 11-17 P 11-18 M 11-25 M",
+          "12-01 K 12-02 M 12-09 M 12-15 P 12-16 M 12-23 M 12-29 K 12-30 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Šestanovac",
+      "podrucje": "Žeževica, Grabovac – miješani petak; papir utorak",
+      "opis": "ŽEŽEVICA - GRABOVAC",
+      "ulice": ["Žeževica", "Grabovac"],
+      "napomena": "U kalendaru nisu označeni datumi za ambalažni otpad (legenda: \"PLASTIČNA AMBALAŽA\"); pitajte Peovicu. Legenda kalendara navodi \"Miješani kom. otpad srijeda\", a označeni datumi su petak; preneseni su označeni datumi.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 K 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-03 K 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-03 K 03-06 M 03-13 M 03-20 M 03-27 M 03-31 K",
+          "04-03 M 04-10 M 04-17 M 04-24 M 04-28 K",
+          "05-01 M 05-08 M 05-15 M 05-22 M 05-26 K 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-23 K 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-21 K 07-24 M 07-31 M",
+          "08-07 M 08-14 M 08-18 K 08-21 M 08-28 M",
+          "09-04 M 09-11 M 09-15 K 09-18 M 09-25 M",
+          "10-02 M 10-09 M 10-13 K 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-10 K 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-08 K 12-11 M 12-18 M"
+        ]
+      }
+    }
+  }
+}

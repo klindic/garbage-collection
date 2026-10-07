@@ -1,0 +1,144 @@
+{
+  "davatelj": "Ivakop d.o.o.",
+  "web": "https://www.ivakop.hr",
+  "izvor": "https://www.ivakop.hr/raspored-odvoza-otpada/",
+  "zupanija": "Zagrebačka",
+  "jls": ["Ivanić-Grad", "Kloštar Ivanić", "Križ"],
+  "napomene": ["Miješani komunalni otpad odvozi se svaki tjedan, plastika dvaput i papir jednom mjesečno, prema danu odvoza naselja (ponedjeljak do petak).", "Biootpad iz obiteljskih kuća prikuplja se jednom tjedno na dan odvoza miješanog komunalnog otpada, iz stambenih zgrada četvrtkom ili petkom (prema kalendaru Ivakopa); datumi biootpada nisu posebno navedeni.", "Reciklažna dvorišta: Ivanić-Grad (Tarno 13 B), Kloštar Ivanić (Čemernička 34), Križ (Poduzetnička cesta); ne rade na blagdane. Ivakop: 01 2888 938, ivakop@ivakop.hr.", "Datumi od 01.10.2026. do 31.12.2026. iz kalendara na https://www.ivakop.hr/raspored-odvoza-otpada/ (JSON tražilice, objavljuje nekoliko mjeseci unaprijed); ranije upisani mjeseci se zadržavaju, a ostali mjeseci 2026. preuzeti su iz godišnjeg PDF kalendara (https://www.ivakop.hr/2021/wp-content/uploads/2019/02/kalendar_odvoza_otpada_2026_web.pdf), koji se na razdoblju JSON-a potpuno slaže s njim. Ukupno razdoblje: 1/2026 – 12/2026.", "Blagdani: prema kalendaru odvoz je i blagdanima, osim neradnih dana 01.01.2026., 25.12.2026.; odvozi s tih dana pomaknuti su na prethodni ili idući radni dan i označeni kao pomaknuti."],
+  "zone": {
+    "1": {
+      "jls": "Kloštar Ivanić",
+      "podrucje": "Ponedjeljak – Kloštar Ivanić, Vinari, Vinogradski odvojci, Sobočani …",
+      "opis": "Ponedjeljak: Kloštar Ivanić, Vinari, Vinogradski odvojci, Sobočani, Lipovec Lonjski, Šćapovec, Bešlinec, Čemernica Lonjska, Donja Obreška, Gornja Obreška, Krišci, Predavec, Stara Marča",
+      "ulice": ["Kloštar Ivanić", "Vinari", "Vinogradski odvojci", "Sobočani", "Lipovec Lonjski", "Šćapovec", "Bešlinec", "Čemernica Lonjska", "Donja Obreška", "Gornja Obreška", "Krišci", "Predavec", "Stara Marča"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 MK 01-19 MP 01-26 M",
+          "02-02 MP 02-09 MK 02-16 MP 02-23 M",
+          "03-02 MP 03-09 MK 03-16 MP 03-23 M 03-30 M",
+          "04-06 MP 04-13 MK 04-20 MP 04-27 M",
+          "05-04 MP 05-11 MK 05-18 MP 05-25 M",
+          "06-01 MP 06-08 MK 06-15 MP 06-22 M 06-29 M",
+          "07-06 MP 07-13 MK 07-20 MP 07-27 M",
+          "08-03 MP 08-10 MK 08-17 MP 08-24 M 08-31 M",
+          "09-07 MP 09-14 MK 09-21 MP 09-28 M",
+          "10-05 MP 10-12 MK 10-19 MP 10-26 M",
+          "11-02 MP 11-09 MK 11-16 MP 11-23 M 11-30 M",
+          "12-07 MP 12-14 MK 12-21 MP 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Ivanić-Grad",
+      "podrucje": "Utorak – Ivanić-Grad - centar, Donji Šarampov, Šemovec Breški, Trebovec …",
+      "opis": "Utorak: Ivanić-Grad - centar, Donji Šarampov, Šemovec Breški, Trebovec, Zelina Breška, Greda Breška, Šarampov Gornji (područje iza željezničke pruge prema Kloštru), Siporeks",
+      "ulice": ["Ivanić-Grad - centar", "Donji Šarampov", "Šemovec Breški", "Trebovec", "Zelina Breška", "Greda Breška", "Šarampov Gornji (područje iza željezničke pruge prema Kloštru)", "Siporeks"],
+      "raw": {
+        "2026": [
+          "01-06 MP 01-13 MK 01-20 MP 01-27 M",
+          "02-03 MP 02-10 MK 02-17 MP 02-24 M",
+          "03-03 MP 03-10 MK 03-17 MP 03-24 M 03-31 M",
+          "04-07 MP 04-14 MK 04-21 MP 04-28 M",
+          "05-05 MP 05-12 MK 05-19 MP 05-26 M",
+          "06-02 MP 06-09 MK 06-16 MP 06-23 M 06-30 M",
+          "07-07 MP 07-14 MK 07-21 MP 07-28 M",
+          "08-04 MP 08-11 MK 08-18 MP 08-25 M",
+          "09-01 M 09-08 MP 09-15 MK 09-22 MP 09-29 M",
+          "10-06 MP 10-13 MK 10-20 MP 10-27 M",
+          "11-03 MP 11-10 MK 11-17 MP 11-24 M",
+          "12-01 M 12-08 MP 12-15 MK 12-22 MP 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Ivanić-Grad",
+      "podrucje": "Srijeda – Lonja, Jalševec Breški, Opatinec, Lepšić …",
+      "opis": "Srijeda: Lonja, Jalševec Breški, Opatinec, Lepšić, Tarno, Posavski Bregi, Zaklepica, Topolje, Lijevi Dubrovčak, Prerovec, Prečno, Donja Poljana, Gornja Poljana",
+      "ulice": ["Lonja", "Jalševec Breški", "Opatinec", "Lepšić", "Tarno", "Posavski Bregi", "Zaklepica", "Topolje", "Lijevi Dubrovčak", "Prerovec", "Prečno", "Donja Poljana", "Gornja Poljana"],
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 MK 01-21 MP 01-28 M",
+          "02-04 MP 02-11 MK 02-18 MP 02-25 M",
+          "03-04 MP 03-11 MK 03-18 MP 03-25 M",
+          "04-01 M 04-08 MP 04-15 MK 04-22 MP 04-29 M",
+          "05-06 MP 05-13 MK 05-20 MP 05-27 M",
+          "06-03 MP 06-10 MK 06-17 MP 06-24 M",
+          "07-01 M 07-08 MP 07-15 MK 07-22 MP 07-29 M",
+          "08-05 MP 08-12 MK 08-19 MP 08-26 M",
+          "09-02 M 09-09 MP 09-16 MK 09-23 MP 09-30 M",
+          "10-07 MP 10-14 MK 10-21 MP 10-28 M",
+          "11-04 MP 11-11 MK 11-18 MP 11-25 M",
+          "12-02 M 12-09 MP 12-16 MK 12-23 MP 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Križ",
+      "podrucje": "Četvrtak – Križ, Novoselec, Bunjani, Mala Hrastilnica …",
+      "opis": "Četvrtak: Križ, Novoselec, Bunjani, Mala Hrastilnica, Velika Hrastilnica, Johovec, Širinec, Okešinec, Vezišće, Obedišće",
+      "ulice": ["Križ", "Novoselec", "Bunjani", "Mala Hrastilnica", "Velika Hrastilnica", "Johovec", "Širinec", "Okešinec", "Vezišće", "Obedišće"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 MP 01-15 MK 01-22 MP 01-29 M",
+          "02-05 MP 02-12 MK 02-19 MP 02-26 M",
+          "03-05 MP 03-12 MK 03-19 MP 03-26 M",
+          "04-02 M 04-09 MP 04-16 MK 04-23 MP 04-30 M",
+          "05-07 MP 05-14 MK 05-21 MP 05-28 M",
+          "06-04 MP 06-11 MK 06-18 MP 06-25 M",
+          "07-02 M 07-09 MP 07-16 MK 07-23 MP 07-30 M",
+          "08-06 MP 08-13 MK 08-20 MP 08-27 M",
+          "09-03 M 09-10 MP 09-17 MK 09-24 MP",
+          "10-01 M 10-08 MP 10-15 MK 10-22 MP 10-29 M",
+          "11-05 MP 11-12 MK 11-19 MP 11-26 M",
+          "12-03 M 12-10 MP 12-17 MK 12-24 MP 12-31 M"
+        ]
+      }
+    },
+    "5A": {
+      "jls": "Ivanić-Grad",
+      "podrucje": "Petak – Caginec, Šumećani, Prkos Ivanićki, Graberje Ivanićko …",
+      "opis": "Petak: Caginec, Šumećani, Prkos Ivanićki, Graberje Ivanićko, Grabersko brdo, Deanovečko Brdo, Deanovec, Derežani",
+      "ulice": ["Caginec", "Šumećani", "Prkos Ivanićki", "Graberje Ivanićko", "Grabersko brdo", "Deanovečko Brdo", "Deanovec", "Derežani"],
+      "napomena": "Ivakopova zona \"Petak\" obuhvaća i naselja: Razljev, Rečica Kriška, Šušnjari, Bunjani - Staklena ulica, Konšćani, Gornji Prnjarovec, Donji Prnjarovec, dio Staklene ulice (iz pravca Šumećana) (Križ, zona 5B); datumi su isti.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MP 01-16 MK 01-23 MP 01-30 M",
+          "02-06 MP 02-13 MK 02-20 MP 02-27 M",
+          "03-06 MP 03-13 MK 03-20 MP 03-27 M",
+          "04-03 M 04-10 MP 04-17 MK 04-24 MP",
+          "05-01 M 05-08 MP 05-15 MK 05-22 MP 05-29 M",
+          "06-05 MP 06-12 MK 06-19 MP 06-26 M",
+          "07-03 M 07-10 MP 07-17 MK 07-24 MP 07-31 M",
+          "08-07 MP 08-14 MK 08-21 MP 08-28 M",
+          "09-04 M 09-11 MP 09-18 MK 09-25 MP",
+          "10-02 M 10-09 MP 10-16 MK 10-23 MP 10-30 M",
+          "11-06 MP 11-13 MK 11-20 MP 11-27 M",
+          "12-04 M 12-11 MP 12-18 MK 12-24 MP!"
+        ]
+      }
+    },
+    "5B": {
+      "jls": "Križ",
+      "podrucje": "Petak – Razljev, Rečica Kriška, Šušnjari, Bunjani - Staklena ulica …",
+      "opis": "Petak: Razljev, Rečica Kriška, Šušnjari, Bunjani - Staklena ulica, Konšćani, Gornji Prnjarovec, Donji Prnjarovec, dio Staklene ulice (iz pravca Šumećana)",
+      "ulice": ["Razljev", "Rečica Kriška", "Šušnjari", "Bunjani - Staklena ulica", "Konšćani", "Gornji Prnjarovec", "Donji Prnjarovec", "dio Staklene ulice (iz pravca Šumećana)"],
+      "napomena": "Ivakopova zona \"Petak\" obuhvaća i naselja: Caginec, Šumećani, Prkos Ivanićki, Graberje Ivanićko, Grabersko brdo, Deanovečko Brdo, Deanovec, Derežani (Ivanić-Grad, zona 5A); datumi su isti.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MP 01-16 MK 01-23 MP 01-30 M",
+          "02-06 MP 02-13 MK 02-20 MP 02-27 M",
+          "03-06 MP 03-13 MK 03-20 MP 03-27 M",
+          "04-03 M 04-10 MP 04-17 MK 04-24 MP",
+          "05-01 M 05-08 MP 05-15 MK 05-22 MP 05-29 M",
+          "06-05 MP 06-12 MK 06-19 MP 06-26 M",
+          "07-03 M 07-10 MP 07-17 MK 07-24 MP 07-31 M",
+          "08-07 MP 08-14 MK 08-21 MP 08-28 M",
+          "09-04 M 09-11 MP 09-18 MK 09-25 MP",
+          "10-02 M 10-09 MP 10-16 MK 10-23 MP 10-30 M",
+          "11-06 MP 11-13 MK 11-20 MP 11-27 M",
+          "12-04 M 12-11 MP 12-18 MK 12-24 MP!"
+        ]
+      }
+    }
+  }
+}

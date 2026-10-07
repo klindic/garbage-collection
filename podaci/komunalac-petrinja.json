@@ -1,0 +1,165 @@
+{
+  "davatelj": "Komunalac Petrinja d.o.o.",
+  "web": "https://www.komunalac-petrinja.hr",
+  "izvor": "https://www.komunalac-petrinja.hr/raspored-odvoza-otpada/",
+  "zupanija": "Sisačko-moslavačka",
+  "jls": ["Petrinja", "Donji Kukuruzari", "Majur"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)", "K": "Papir i karton (plava kanta)", "P": "Miješana ambalaža – plastika i metal (žuta kanta)"},
+  "napomene": ["Svako se kućanstvo prazni jednom tjedno na svoj dan; vrsta otpada ide u četverotjednom ciklusu od ponedjeljka 29.12.2025.: plava kanta (papir) → zelena (miješani otpad) → žuta (plastika i metal) → zelena.", "Blagdani 2026. (pomaci s tražilice na stranici): 01.01. → 03.01.; 06.01. → 07.01.; 06.04. → 04.04.; 01.05. → 30.04.; 04.06. → 06.06.; 22.06. → 23.06.; 05.08. → 06.08.; 18.11. → 21.11.; 25.12. → 23.12.; pomaknuti odvozi označeni su.", "Tražilica na stranici računa tjedne u lokalnom vremenu, pa za tjedne od 30.03. do 25.10.2026. (ljetno vrijeme) prikazuje boju kante prethodnog tjedna ciklusa; ovaj raspored slijedi objavljeni ciklus. Ako se boja razlikuje, provjerite kod Komunalca Petrinja (044 527 440).", "Reciklažno dvorište: pon–pet 9–16, sub 8–13. Komunalac Petrinja, Ivana Gundulića 14, 044 527 440."],
+  "zone": {
+    "1": {
+      "jls": "Petrinja",
+      "podrucje": "Ponedjeljak – Ajdovščinska, Ive Andrića, Dobriše Cesarića, Cvjetna Ulica …",
+      "napomena": "Ulice podijeljene na više dana (provjerite svoj dio ulice): Vladimira Nazora (i srijeda, petak); Sisačka (i utorak); Sajmište (i četvrtak, petak); Vinogradi (i četvrtak).",
+      "ulice": ["Ajdovščinska, Petrinja", "Ive Andrića, Petrinja", "Dobriše Cesarića, Petrinja", "Cvjetna Ulica, Petrinja", "Dragutina Benka, Petrinja", "Marina Beretina, Petrinja", "Ruđera Boškovića, Petrinja", "Drenačka, Petrinja", "Nova Drenčina, Petrinja", "Vere Grozaj, Petrinja", "Milivoja Grgića, Petrinja", "Matije Gupca, Petrinja", "Rudolfa Horvata, Petrinja", "Ivice Hrnčevića, Petrinja", "Ivana Hangija, Petrinja", "Braće Janeković, Petrinja", "Mate Jerkovića, Petrinja", "Kupska, Petrinja", "Šetalište Kajetana Knežića, Petrinja", "Slavka Kolara, Petrinja", "Slavoljuba Kostinčera, Petrinja", "Ivana Gorana Kovačića, Petrinja", "Blaženke Krnic, Petrinja", "Braće Kunert, Petrinja", "Josipa Kundeka, Petrinja", "Sveti Marka Križevčanina, Petrinja", "Sveti Lovro, Petrinja", "Sveti Leopolda Mandića, Petrinja", "Milana Makanca, Petrinja", "Marka Marulića, Petrinja", "Antuna Gustava Matoša, Petrinja", "Josipa Mencina, Petrinja", "Antuna Mihanovića, Petrinja", "Vilima Muhe, Petrinja", "Vladimira Nazora, Petrinja", "Josipa Nemeca, Petrinja", "Grge Novaka, Petrinja", "Novog Naselja, Petrinja", "Andrije Pirnata, Petrinja", "Andrije Petračića, Petrinja", "Trg Petra Preradovića, Petrinja", "Dražena Petrovića, Petrinja", "Franca Prešerna, Petrinja", "Đure Pukeca, Petrinja", "Josipa Runjanina, Petrinja", "Matije Reljkovića, Petrinja", "Pejina Bukva, Petrinja", "Sisačka, Petrinja", "Prilaz Sisačkoj, Petrinja", "Stanički Put, Petrinja", "Splitska, Petrinja", "Franje Ogulinca Selje, Petrinja", "Ulica Pukovnika Predraga Matanovića, Petrinja", "Janka Stjepušina, Petrinja", "Sajmište, Petrinja", "Đure Srebrića, Petrinja", "Pavla Štoosa, Petrinja", "Franje Šrama, Petrinja", "Trg Doktora Franje Tuđmana, Petrinja", "Sveti Nikole Tavelića, Petrinja", "Unska, Petrinja", "Tina Ujevića, Petrinja", "Vidikovac, Petrinja", "Vinogradi, Petrinja", "Voćarska, Petrinja", "Ivana Vončine, Petrinja", "Vukovarska, Petrinja", "Zagrebačka, Petrinja", "Ivana Zocha, Petrinja", "Zvornička, Petrinja", "Ulica Zelenila, Petrinja", "Franza Wagnera, Petrinja", "Ulica Mile Vod, Petrinja", "Novo Selište, Petrinja"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 P 01-19 M 01-26 K",
+          "02-02 M 02-09 P 02-16 M 02-23 K",
+          "03-02 M 03-09 P 03-16 M 03-23 K 03-30 M",
+          "04-04 P! 04-13 M 04-20 K 04-27 M",
+          "05-04 P 05-11 M 05-18 K 05-25 M",
+          "06-01 P 06-08 M 06-15 K 06-23 M! 06-29 P",
+          "07-06 M 07-13 K 07-20 M 07-27 P",
+          "08-03 M 08-10 K 08-17 M 08-24 P 08-31 M",
+          "09-07 K 09-14 M 09-21 P 09-28 M",
+          "10-05 K 10-12 M 10-19 P 10-26 M",
+          "11-02 K 11-09 M 11-16 P 11-23 M 11-30 K",
+          "12-07 M 12-14 P 12-21 M 12-28 K"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Petrinja",
+      "podrucje": "Utorak – Jelene Babić, Mate Božičevića, Miroslava Ebnera, Ulica Gromova 2.d.o. Prema Groblju …",
+      "napomena": "Ulice podijeljene na više dana (provjerite svoj dio ulice): Sisačka (i ponedjeljak).",
+      "ulice": ["Jelene Babić, Petrinja", "Mate Božičevića, Petrinja", "Miroslava Ebnera, Petrinja", "Ulica Gromova 2.d.o. Prema Groblju, Petrinja", "Tomislava Ivkaneca, Petrinja", "Zvonimira Kuhara, Petrinja", "Sveti Kvirina Biskupa, Petrinja", "Tome Bakača Erdodya, Petrinja", "Ive Maline, Petrinja", "Sisačka, Petrinja", "Josipa Miškatovića, Petrinja", "Pavla Miškine, Petrinja", "Matije Mrazovića, Petrinja", "Vinka Nikolića, Petrinja", "Antuna Pechana, Petrinja", "Ivana Petrušića, Petrinja", "Ivana Janka Štromara, Petrinja", "Mihovila Pleše, Petrinja", "Dragutina Šimončića, Petrinja", "Bogoslava Šuleka, Petrinja", "Milke Trnine, Petrinja", "Jure Turka, Petrinja", "Vatrogasna, Petrinja", "Petra Zrinskog, Petrinja", "Željeznička, Petrinja", "22. Lipnja, Mošćenica", "Bana Tome Bakača, Mošćenica", "Ruđera Boškovića, Mošćenica", "Kneza Branimira, Mošćenica", "Brezovačkog Odreda, Mošćenica", "Marina Držića, Mošćenica", "Krste Frankopana, Mošćenica", "Ljudevita Gaja, Mošćenica", "Ivana Gundulića, Mošćenica", "Matije Gupca, Mošćenica", "Hrvatskih Branitelja, Mošćenica", "Bana Jelačića, Mošćenica", "Kolodvorska, Mošćenica", "Kupska, Mošćenica", "Petra Krešimira, Mošćenica", "Vatroslava Lisinskog, Mošćenica", "Hrvatskog Narodnog Preporoda, Mošćenica", "Ljudevita Posavskog, Mošćenica", "Braće Radić, Mošćenica", "Ante Starčevića, Mošćenica", "Josipa Jurja Strossmayera, Mošćenica", "Augusta Šenoe, Mošćenica", "Kralja Tomislava, Mošćenica", "Trg Žrtava Domovinskog Rata, Mošćenica", "Ribnjak, Mošćenica", "Tina Ujevića, Mošćenica", "Petra Zrinskog, Mošćenica", "Kralja Zvonimira, Mošćenica", "Cepeliš", "Pecki", "Gornja Bačuga", "Donja Bačuga", "Grabovac Banski", "Luščani"],
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 P 01-20 M 01-27 K",
+          "02-03 M 02-10 P 02-17 M 02-24 K",
+          "03-03 M 03-10 P 03-17 M 03-24 K 03-31 M",
+          "04-07 P 04-14 M 04-21 K 04-28 M",
+          "05-05 P 05-12 M 05-19 K 05-26 M",
+          "06-02 P 06-09 M 06-16 K 06-23 M 06-30 P",
+          "07-07 M 07-14 K 07-21 M 07-28 P",
+          "08-04 M 08-11 K 08-18 M 08-25 P",
+          "09-01 M 09-08 K 09-15 M 09-22 P 09-29 M",
+          "10-06 K 10-13 M 10-20 P 10-27 M",
+          "11-03 K 11-10 M 11-17 P 11-24 M",
+          "12-01 K 12-08 M 12-15 P 12-22 M 12-29 K"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Petrinja",
+      "podrucje": "Srijeda – Huge Badalića, Ivane Brlić Mažuranić, Dragutina Careka, Marina Držića …",
+      "napomena": "Ulice podijeljene na više dana (provjerite svoj dio ulice): Vladimira Nazora (i ponedjeljak, petak); Jabukovac (i četvrtak).",
+      "ulice": ["Huge Badalića, Petrinja", "Ivane Brlić Mažuranić, Petrinja", "Dragutina Careka, Petrinja", "Marina Držića, Petrinja", "Duga Ulica, Petrinja", "Ljudevita Gaja, Petrinja", "Ivana Gundulića, Petrinja", "Braće Hanžek, Petrinja", "Matije Jandrića, Petrinja", "Andrije Kačića Miošića, Petrinja", "Ante Kovačića, Petrinja", "Josipa Kozarca, Petrinja", "Trg Matice Hrvatske, Petrinja", "Ivana Mažuranića, Petrinja", "Vladimira Nazora, Petrinja", "Trg Narodnih Učitelja, Petrinja", "Ivana Ribara, Petrinja", "Trg Stjepana Radića, Petrinja", "Frana Supila, Petrinja", "Augusta Šenoe, Petrinja", "Artura Turkulina, Petrinja", "Trg Hrvatskih Branitelja, Petrinja", "Otona Župančića, Petrinja", "Gradsko Groblje, Petrinja", "Učiteljski Fakultet, Petrinja", "Brest Pokupski", "Dodoši", "Mala Gorica", "Gora", "Jabukovac", "Jošavica", "Klinac", "Strašnik", "Križ Hrastovački", "Miočinovići", "Mačkovo Selo", "Gornja Mlinoga", "Donja Pastuša", "Gornja Pastuša", "Begovići", "Sibić", "Tremušnjak", "Deanovići"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 P 01-21 M 01-28 K",
+          "02-04 M 02-11 P 02-18 M 02-25 K",
+          "03-04 M 03-11 P 03-18 M 03-25 K",
+          "04-01 M 04-08 P 04-15 M 04-22 K 04-29 M",
+          "05-06 P 05-13 M 05-20 K 05-27 M",
+          "06-03 P 06-10 M 06-17 K 06-24 M",
+          "07-01 P 07-08 M 07-15 K 07-22 M 07-29 P",
+          "08-06 M! 08-12 K 08-19 M 08-26 P",
+          "09-02 M 09-09 K 09-16 M 09-23 P 09-30 M",
+          "10-07 K 10-14 M 10-21 P 10-28 M",
+          "11-04 K 11-11 M 11-21 P! 11-25 M",
+          "12-02 K 12-09 M 12-16 P 12-23 M 12-30 K"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Petrinja",
+      "podrucje": "Četvrtak – 6. Kolovoza, Matije Antolca, Mije Biljana, Gustava Bolteka …",
+      "napomena": "Ulice podijeljene na više dana (provjerite svoj dio ulice): Sajmište (i ponedjeljak, petak); Vinogradi (i ponedjeljak); Jabukovac (i srijeda).",
+      "ulice": ["6. Kolovoza, Petrinja", "Matije Antolca, Petrinja", "Mije Biljana, Petrinja", "Gustava Bolteka, Petrinja", "Brezje, Petrinja", "Zeleni Brijeg, Petrinja", "Milana Dujnića, Petrinja", "Mate Filjaka, Petrinja", "Josipa Glasera, Petrinja", "Marcela Gorupa, Petrinja", "Rudolfa Hercega, Petrinja", "Franje Jelačića, Petrinja", "Kneza Domagoja, Petrinja", "Josipa Kraša, Petrinja", "Franje Kuhača, Petrinja", "Milana Miholjevića, Petrinja", "Ljudevita Modeca, Petrinja", "Josipa Nemeca Od Sajmišta, Petrinja", "Vilka Panaca, Petrinja", "Potočani, Petrinja", "Bogomira Rumlera, Petrinja", "Rokova, Petrinja", "Sajmište, Petrinja", "Mije Srnaka, Petrinja", "Josipa Šokčevića, Petrinja", "Stjepana Tonkovića, Petrinja", "Ivana Trnskog, Petrinja", "Jure Turića, Petrinja", "Vinogradska, Petrinja", "Vinogradi, Petrinja", "Vila I Odv., Petrinja", "Mate Bučara, Petrinja", "Vrtni Put, Petrinja", "Katarine Zrinske, Petrinja", "Vinka Žganeca, Petrinja", "II Osnovna, Petrinja", "Kodrićevo, Petrinja", "Blinja", "Bijelnik", "Donja Budičina", "Moštanica", "Dragotinci", "Hrastovica", "Hrvatski Čuntić", "Jabukovac", "Kraljevčani", "Donja Mlinoga", "Nova Drenčina", "Prnjavor Čuntićki", "Taborište", "Veliki Šušnjar", "Zelena Dolina"],
+      "raw": {
+        "2026": [
+          "01-03 K! 01-08 M 01-15 P 01-22 M 01-29 K",
+          "02-05 M 02-12 P 02-19 M 02-26 K",
+          "03-05 M 03-12 P 03-19 M 03-26 K",
+          "04-02 M 04-09 P 04-16 M 04-23 K 04-30 M",
+          "05-07 P 05-14 M 05-21 K 05-28 M",
+          "06-06 P! 06-11 M 06-18 K 06-25 M",
+          "07-02 P 07-09 M 07-16 K 07-23 M 07-30 P",
+          "08-06 M 08-13 K 08-20 M 08-27 P",
+          "09-03 M 09-10 K 09-17 M 09-24 P",
+          "10-01 M 10-08 K 10-15 M 10-22 P 10-29 M",
+          "11-05 K 11-12 M 11-19 P 11-26 M",
+          "12-03 K 12-10 M 12-17 P 12-24 M 12-31 K"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Petrinja",
+      "podrucje": "Petak – Augusta Cesarca, Martina Frankopana, Frana Galovića, Ulica Gromova …",
+      "napomena": "Ulice podijeljene na više dana (provjerite svoj dio ulice): Vladimira Nazora (i ponedjeljak, srijeda); Sajmište (i ponedjeljak, četvrtak).",
+      "ulice": ["Augusta Cesarca, Petrinja", "Martina Frankopana, Petrinja", "Frana Galovića, Petrinja", "Ulica Gromova, Petrinja", "Andrije Hebranga, Petrinja", "Krste Hegedušića, Petrinja", "Martina Juranovića, Petrinja", "Otokara Keršovanija, Petrinja", "Vjekoslava Klaića, Petrinja", "Ive Križevića, Petrinja", "Otona Kučere, Petrinja", "Miroslava Krleže, Petrinja", "Šetalište Vatroslava Lisinskog, Petrinja", "Radoslava Lopašića, Petrinja", "Ivana Lucića, Petrinja", "Matije Mesića, Petrinja", "Franje Miličića, Petrinja", "Ivana Meštrovića, Petrinja", "Vladimira Stahuljaka, Petrinja", "Vladimira Nazora, Petrinja", "Milana Nemičića, Petrinja", "Đure Tiljka, Petrinja", "Stjepana Pejakovića, Petrinja", "Matije Peraka, Petrinja", "Zlatka Peterneka, Petrinja", "Stjepana Radića, Petrinja", "Vladka Mačeka, Petrinja", "Tadije Smičiklasa, Petrinja", "Ive Valenta, Petrinja", "Vladimira Vidrića, Petrinja", "Pavla Rittera Vitezovića, Petrinja", "Sajmište, Petrinja", "Dumače", "Glinska Poljana", "Međurače", "Gornje Mokrice", "Donje Mokrice", "Srednje Mokrice", "Nebojan", "Novi Farkašić", "Slana", "Vratečko", "Župić"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-09 M 01-16 P 01-23 M 01-30 K",
+          "02-06 M 02-13 P 02-20 M 02-27 K",
+          "03-06 M 03-13 P 03-20 M 03-27 K",
+          "04-03 M 04-10 P 04-17 M 04-24 K 04-30 M!",
+          "05-08 P 05-15 M 05-22 K 05-29 M",
+          "06-05 P 06-12 M 06-19 K 06-26 M",
+          "07-03 P 07-10 M 07-17 K 07-24 M 07-31 P",
+          "08-07 M 08-14 K 08-21 M 08-28 P",
+          "09-04 M 09-11 K 09-18 M 09-25 P",
+          "10-02 M 10-09 K 10-16 M 10-23 P 10-30 M",
+          "11-06 K 11-13 M 11-20 P 11-27 M",
+          "12-04 K 12-11 M 12-18 P 12-23 M!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Donji Kukuruzari",
+      "podrucje": "Općina Donji Kukuruzari – petak",
+      "napomena": "U popisu Komunalca Petrinja navedeno je samo naselje Donji Kukuruzari (petak); za ostala naselja Općine Donji Kukuruzari provjerite dan odvoza kod Komunalca Petrinja (044 527 440).",
+      "ulice": ["Donji Kukuruzari"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-09 M 01-16 P 01-23 M 01-30 K",
+          "02-06 M 02-13 P 02-20 M 02-27 K",
+          "03-06 M 03-13 P 03-20 M 03-27 K",
+          "04-03 M 04-10 P 04-17 M 04-24 K 04-30 M!",
+          "05-08 P 05-15 M 05-22 K 05-29 M",
+          "06-05 P 06-12 M 06-19 K 06-26 M",
+          "07-03 P 07-10 M 07-17 K 07-24 M 07-31 P",
+          "08-07 M 08-14 K 08-21 M 08-28 P",
+          "09-04 M 09-11 K 09-18 M 09-25 P",
+          "10-02 M 10-09 K 10-16 M 10-23 P 10-30 M",
+          "11-06 K 11-13 M 11-20 P 11-27 M",
+          "12-04 K 12-11 M 12-18 P 12-23 M!"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Majur",
+      "podrucje": "Općina Majur – srijeda",
+      "napomena": "U popisu Komunalca Petrinja navedeno je samo naselje Majur (srijeda); za ostala naselja Općine Majur provjerite dan odvoza kod Komunalca Petrinja (044 527 440).",
+      "ulice": ["Majur"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 P 01-21 M 01-28 K",
+          "02-04 M 02-11 P 02-18 M 02-25 K",
+          "03-04 M 03-11 P 03-18 M 03-25 K",
+          "04-01 M 04-08 P 04-15 M 04-22 K 04-29 M",
+          "05-06 P 05-13 M 05-20 K 05-27 M",
+          "06-03 P 06-10 M 06-17 K 06-24 M",
+          "07-01 P 07-08 M 07-15 K 07-22 M 07-29 P",
+          "08-06 M! 08-12 K 08-19 M 08-26 P",
+          "09-02 M 09-09 K 09-16 M 09-23 P 09-30 M",
+          "10-07 K 10-14 M 10-21 P 10-28 M",
+          "11-04 K 11-11 M 11-21 P! 11-25 M",
+          "12-02 K 12-09 M 12-16 P 12-23 M 12-30 K"
+        ]
+      }
+    }
+  }
+}

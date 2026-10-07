@@ -1,0 +1,94 @@
+{
+  "davatelj": "Čistoća Imotske krajine d.o.o.",
+  "web": "https://cistoca-imotske-krajine.hr",
+  "izvor": "https://cistoca-imotske-krajine.hr/cms/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Podbablje", "Cista Provo", "Runovići"],
+  "nazivi": {"K": "Papir (plava vreća)", "T": "Tekstil (narančasta vreća)", "P": "Plastika (žuta vreća)", "S": "Staklo (smeđa vreća)"},
+  "napomene": ["Raspored miješanog komunalnog otpada nije objavljen; ovdje su samo datumi odvoza oporabljivog otpada u vrećama (papir i tekstil, plastika i staklo).", "Vreće: plava za papir, narančasta za tekstil, žuta za plastiku, smeđa za staklo.", "Pomaci zbog blagdana već su ugrađeni u objavljene datume; datumi izvan uobičajenog dana označeni su kao pomaknuti.", "Za ostale općine koje opslužuje Čistoća Imotske krajine (Imotski, Lokvičići, Lovreć, Proložac, Zagvozd, Zmijavci) važeći raspored nije objavljen (posljednji objavljeni: Lokvičići do 12/2025, Lovreć do 12/2025, Proložac do 12/2024, Zagvozd do 01/2026, Zmijavci do 11/2025).", "Čistoća Imotske krajine d.o.o., Šetalište Stjepana Radića 22, Imotski; 021 540 037.", "Izvori: https://cistoca-imotske-krajine.hr/cms/wp-content/uploads/2025/03/OPCINA-PODBABLJE-RASPORED-ODVOZA-OD-05-2025-DO-04-2026.docx, https://cistoca-imotske-krajine.hr/cms/wp-content/uploads/2026/04/OPCINA-PODBABLJE-RASPORED-ODVOZA-OD-05-2026-DO-04-2027.docx, https://cistoca-imotske-krajine.hr/cms/wp-content/uploads/2026/02/OPCINA-CISTA-PROVO-RASPORED-ODVOZA-OD-03-2025-DO-03-2026-1.docx, https://cistoca-imotske-krajine.hr/cms/wp-content/uploads/2026/05/OPCINA-CISTA-PROVO-RASPORED-ODVOZA-OD-03-2026-DO-03-2027.docx, https://cistoca-imotske-krajine.hr/cms/wp-content/uploads/2025/04/OPCINA-RUNOVIC-RASPORED-ODVOZA-OD-06-2025-DO-05-2026.docx, https://cistoca-imotske-krajine.hr/cms/wp-content/uploads/2026/05/OPCINA-RUNOVIC-RASPORED-ODVOZA-OD-06-2026-DO-05-2027.docx."],
+  "zone": {
+    "1": {
+      "jls": "Podbablje",
+      "podrucje": "Općina Podbablje – papir i tekstil te plastika i staklo u vrećama, jednom mjesečno (srijeda)",
+      "ulice": ["Podbablje (cijela općina)"],
+      "napomena": "Raspored oporabljivog otpada za razdoblje 21.01.2026. – 28.04.2027. Pomaknuti datumi: 19.11.2026.",
+      "raw": {
+        "2026": [
+          "01-21 KT 01-28 PS",
+          "02-18 KT 02-25 PS",
+          "03-18 KT 03-25 PS",
+          "04-22 KT 04-29 PS",
+          "05-20 KT 05-27 PS",
+          "06-17 KT 06-24 PS",
+          "07-15 KT 07-22 PS",
+          "08-19 KT 08-26 PS",
+          "09-23 KT 09-30 PS",
+          "10-21 KT 10-28 PS",
+          "11-19 KT! 11-25 PS",
+          "12-16 KT 12-30 PS"
+        ],
+        "2027": [
+          "01-20 KT 01-27 PS",
+          "02-17 KT 02-24 PS",
+          "03-17 KT 03-24 PS",
+          "04-21 KT 04-28 PS"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Cista Provo",
+      "podrucje": "Općina Cista Provo – papir i tekstil te plastika i staklo u vrećama, jednom mjesečno (utorak)",
+      "ulice": ["Cista Provo (cijela općina)"],
+      "napomena": "Raspored oporabljivog otpada za razdoblje 20.01.2026. – 23.02.2027. Pomaknuti datumi: nema.",
+      "raw": {
+        "2026": [
+          "01-20 KT 01-27 PS",
+          "02-17 KT 02-24 PS",
+          "03-17 KT 03-24 PS",
+          "04-21 KT 04-28 PS",
+          "05-19 KT 05-26 PS",
+          "06-16 KT 06-30 PS",
+          "07-21 KT 07-28 PS",
+          "08-18 KT 08-25 PS",
+          "09-22 KT 09-29 PS",
+          "10-20 KT 10-27 PS",
+          "11-17 KT 11-24 PS",
+          "12-15 KT 12-22 PS"
+        ],
+        "2027": [
+          "01-19 KT 01-26 PS",
+          "02-16 KT 02-23 PS"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Runovići",
+      "podrucje": "Općina Runovići – papir i tekstil te plastika i staklo u vrećama, jednom mjesečno (srijeda)",
+      "ulice": ["Runovići (cijela općina)"],
+      "napomena": "Raspored oporabljivog otpada za razdoblje 07.01.2026. – 12.05.2027. Pomaknuti datumi: 08.08.2026., 09.01.2027.",
+      "raw": {
+        "2026": [
+          "01-07 KT 01-14 PS",
+          "02-04 KT 02-11 PS",
+          "03-04 KT 03-11 PS",
+          "04-01 KT 04-15 PS",
+          "05-06 KT 05-13 PS",
+          "06-03 KT 06-10 PS",
+          "07-01 KT 07-08 PS",
+          "08-08 KT! 08-12 PS",
+          "09-02 KT 09-09 PS",
+          "10-07 KT 10-14 PS",
+          "11-04 KT 11-11 PS",
+          "12-02 KT 12-09 PS"
+        ],
+        "2027": [
+          "01-09 KT! 01-13 PS",
+          "02-03 KT 02-10 PS",
+          "03-03 KT 03-10 PS",
+          "04-07 KT 04-14 PS",
+          "05-05 KT 05-12 PS"
+        ]
+      }
+    }
+  }
+}
