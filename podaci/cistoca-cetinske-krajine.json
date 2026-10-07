@@ -1,0 +1,502 @@
+{
+  "davatelj": "Čistoća Cetinske krajine d.o.o.",
+  "web": "https://www.cistoca-ck.hr",
+  "izvor": "https://www.cistoca-ck.hr/raspored-sakupljanja-komunalnog-otpada/komunalni-otpad/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Sinj", "Trilj", "Dicmo", "Hrvace", "Otok"],
+  "nazivi": {"P": "Plastika (reciklabilni otpad)", "K": "Papir i karton (reciklabilni otpad)"},
+  "napomene": ["Raspored odvoza miješanog komunalnog otpada nije objavljen; ovdje je samo odvoz reciklabilnog otpada (papir, karton i plastika zajedno, jednom mjesečno). Za miješani otpad: Čistoća Cetinske krajine, 021 668 140, tajnica@cistoca-ck.hr.", "Spremnike na dan odvoza iznijeti na prvu dostupnu javnu površinu tako da ne ometaju promet.", "Raspored ne navodi pomake zbog blagdana; datumi su upisani kako su objavljeni (oni koji padaju na blagdan navedeni su u napomeni zone).", "Reciklažna dvorišta Sinj (Turjaci 392), Trilj (Čaporice 148) i Dicmo (Kraj 5C): ponedjeljak 12–20, utorak–petak 7–15 sati; subotom, nedjeljom i praznikom zatvoreno. Informacije 021 668 174."],
+  "zone": {
+    "1": {
+      "jls": "Trilj",
+      "podrucje": "Trilj – Košute, Brodarić",
+      "opis": "KOŠUTE - BRODARIĆ",
+      "ulice": ["Košute", "Brodarić"],
+      "napomena": "Izmijenjeni raspored za papir i plastiku (svibanj 2026.). Datum odvoza pada na blagdan (22.06.); raspored ne navodi pomak.",
+      "raw": {
+        "2026": [
+          "01-22 PK",
+          "02-20 PK",
+          "03-23 PK",
+          "04-22 PK",
+          "05-22 PK",
+          "06-22 PK",
+          "07-22 PK",
+          "08-21 PK",
+          "09-22 PK",
+          "10-22 PK",
+          "11-23 PK",
+          "12-22 PK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Trilj",
+      "podrucje": "Trilj – Gardun, Trilj (od Košuta do mosta)",
+      "opis": "GARDUN – TRILJ (od Košuta do mosta)",
+      "ulice": ["Gardun", "Trilj (od Košuta do mosta)"],
+      "napomena": "Izmijenjeni raspored za papir i plastiku (svibanj 2026.).",
+      "raw": {
+        "2026": [
+          "01-23 PK",
+          "02-23 PK",
+          "03-24 PK",
+          "04-23 PK",
+          "05-23 PK",
+          "06-23 PK",
+          "07-23 PK",
+          "08-24 PK",
+          "09-23 PK",
+          "10-23 PK",
+          "11-24 PK",
+          "12-23 PK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Trilj",
+      "podrucje": "Trilj – Trilj (centar), Vedrine, Strmendolac",
+      "opis": "TRILJ (centar) – VEDRINE - STRMENDOLAC",
+      "ulice": ["Trilj (centar)", "Vedrine", "Strmendolac"],
+      "napomena": "Izmijenjeni raspored za papir i plastiku (svibanj 2026.).",
+      "raw": {
+        "2026": [
+          "01-26 PK",
+          "02-24 PK",
+          "03-25 PK",
+          "04-24 PK",
+          "05-25 PK",
+          "06-24 PK",
+          "07-24 PK",
+          "08-25 PK",
+          "09-24 PK",
+          "10-26 PK",
+          "11-25 PK",
+          "12-24 PK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Trilj",
+      "podrucje": "Trilj – Jabuka, Grab, Vrabač …",
+      "opis": "JABUKA – GRAB – VRABAČ – VELIĆ – UGLJANE",
+      "ulice": ["Jabuka", "Grab", "Vrabač", "Velić", "Ugljane"],
+      "napomena": "Izmijenjeni raspored za papir i plastiku (svibanj 2026.).",
+      "raw": {
+        "2026": [
+          "01-27 PK",
+          "02-25 PK",
+          "03-26 PK",
+          "04-27 PK",
+          "05-26 PK",
+          "06-25 PK",
+          "07-27 PK",
+          "08-26 PK",
+          "09-25 PK",
+          "10-27 PK",
+          "11-26 PK",
+          "12-28 PK"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Trilj",
+      "podrucje": "Trilj – Vojnić, Bisko, Čaporice",
+      "opis": "VOJNIĆ – BISKO - ČAPORICE",
+      "ulice": ["Vojnić", "Bisko", "Čaporice"],
+      "napomena": "Izmijenjeni raspored za papir i plastiku (svibanj 2026.).",
+      "raw": {
+        "2026": [
+          "01-28 PK",
+          "02-26 PK",
+          "03-27 PK",
+          "04-28 PK",
+          "05-27 PK",
+          "06-26 PK",
+          "07-28 PK",
+          "08-27 PK",
+          "09-28 PK",
+          "10-28 PK",
+          "11-27 PK",
+          "12-29 PK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Pelimovac, Ramska ulica, Ulica Put Međina …",
+      "opis": "PELIMOVAC - RAMSKA ULICA - ULICA PUT MEĐINA - PUT RUDUŠE - ČEMER - ULICA 126. BRIGADE HV-a - LUKA - PUT PAZARA - ULICA ŠIMUNA MILINOVIĆA - PUT ŽUPIĆA - GORUĆICA - PUT RADOŠIĆA - SERDARA TOMAŠEVIĆA - ULICA NIKOLE TESLE - ULICA FRA PAVLA VUČKOVIĆA - ULICA JOSIPA BANA JELAČIĆA - BORIĆEVAC - ŠILANOVAC - IVANIŠA NELIPIĆA - ANDRIJE KAČIĆA MIOŠIĆA - FRA IVANA MARKOVIĆA - DOMALDOVA - GRABOVČEV PROLAZ - ULICA HRVOJA VUKČIĆA HRVATINIĆA - MILETIN - BATONOVA - PUT ŠIMACA - ODRINA - BREKIN PUT - ULICA BRAĆE RADIĆ - PUT ODRINE - ULICA VLADIMIRA NAZORA - ULICA ANTUNA KONSTANTINA MATASA - ULICA ANTE STARČEVIĆA - ULICA RUĐERA BOŠKOVIĆA",
+      "ulice": ["Pelimovac", "Ramska ulica", "Ulica Put Međina", "Put Ruduše", "Čemer", "Ulica 126. Brigade HV-a", "Luka", "Put Pazara", "Ulica Šimuna Milinovića", "Put Župića", "Gorućica", "Put Radošića", "Serdara Tomaševića", "Ulica Nikole Tesle", "Ulica Fra Pavla Vučkovića", "Ulica Josipa Bana Jelačića", "Borićevac", "Šilanovac", "Ivaniša Nelipića", "Andrije Kačića Miošića", "Fra Ivana Markovića", "Domaldova", "Grabovčev Prolaz", "Ulica Hrvoja Vukčića Hrvatinića", "Miletin", "Batonova", "Put Šimaca", "Odrina", "Brekin Put", "Ulica Braće Radić", "Put Odrine", "Ulica Vladimira Nazora", "Ulica Antuna Konstantina Matasa", "Ulica Ante Starčevića", "Ulica Ruđera Boškovića"],
+      "raw": {
+        "2026": [
+          "01-08 PK",
+          "02-09 PK",
+          "03-09 PK",
+          "04-08 PK",
+          "05-08 PK",
+          "06-08 PK",
+          "07-08 PK",
+          "08-07 PK",
+          "09-08 PK",
+          "10-08 PK",
+          "11-09 PK",
+          "12-08 PK"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Ćosin Potok, Omiška ulica, Drniška ulica …",
+      "opis": "ĆOSIN POTOK - OMIŠKA ULICA - DRNIŠKA ULICA - IMOTSKA ULICA - JADRANSKA ULICA - SOLINSKA ULICA - ULICA FILIPA GRABOVCA - MARINOVAC - ULICA PUT ŠUŠNJEVAČE - ULICA VLAHE BUKOVCA - ULICA IVANA MEŠTROVIĆA - ĆURLINI - ULICA JURJA DALMATINCA - ULICA FRA RAFE KALINIĆA - PUT KUKA - ČUGURINA GLAVICA",
+      "ulice": ["Ćosin Potok", "Omiška ulica", "Drniška ulica", "Imotska ulica", "Jadranska ulica", "Solinska ulica", "Ulica Filipa Grabovca", "Marinovac", "Ulica Put Šušnjevače", "Ulica Vlahe Bukovca", "Ulica Ivana Meštrovića", "Ćurlini", "Ulica Jurja Dalmatinca", "Ulica Fra Rafe Kalinića", "Put Kuka", "Čugurina Glavica"],
+      "raw": {
+        "2026": [
+          "01-09 PK",
+          "02-10 PK",
+          "03-10 PK",
+          "04-09 PK",
+          "05-11 PK",
+          "06-09 PK",
+          "07-09 PK",
+          "08-10 PK",
+          "09-09 PK",
+          "10-09 PK",
+          "11-10 PK",
+          "12-09 PK"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Splitska ulica, Alkarsko Trkalište, Ulica Franjevačke Gimnazije …",
+      "opis": "SPLITSKA ULICA - ALKARSKO TRKALIŠTE - ULICA FRANJEVAČKE GIMNAZIJE - ULICA IVANA LOVRIĆA - ULICA KRALJA ZVONIMIRA - ULICA FRANE BULIĆA - ULICA KNEZA BRANIMIRA - ULICA MILJENKA BULJANA - PUT FERATE - TRIPALOV VOĆNJAK - TRG GOJKA ŠUŠKA - PUT PIKETA - PUT ŠUMARIJE - ULICA DOMOVINSKOG RATA - PUT MEDINJAKA - ULICA IVANA FILIPOVIĆA GRČIĆA - ZAGREBAČKA ULICA - ULICA IVANA GUNDULIĆA",
+      "ulice": ["Splitska ulica", "Alkarsko Trkalište", "Ulica Franjevačke Gimnazije", "Ulica Ivana Lovrića", "Ulica Kralja Zvonimira", "Ulica Frane Bulića", "Ulica Kneza Branimira", "Ulica Miljenka Buljana", "Put Ferate", "Tripalov Voćnjak", "Trg Gojka Šuška", "Put Piketa", "Put Šumarije", "Ulica Domovinskog Rata", "Put Medinjaka", "Ulica Ivana Filipovića Grčića", "Zagrebačka ulica", "Ulica Ivana Gundulića"],
+      "raw": {
+        "2026": [
+          "01-12 PK",
+          "02-11 PK",
+          "03-11 PK",
+          "04-10 PK",
+          "05-12 PK",
+          "06-10 PK",
+          "07-10 PK",
+          "08-11 PK",
+          "09-10 PK",
+          "10-12 PK",
+          "11-11 PK",
+          "12-10 PK"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Suhač, Lučane, Radošić",
+      "opis": "SUHAČ – LUČANE – RADOŠIĆ",
+      "ulice": ["Suhač", "Lučane", "Radošić"],
+      "raw": {
+        "2026": [
+          "01-13 PK",
+          "02-12 PK",
+          "03-12 PK",
+          "04-13 PK",
+          "05-13 PK",
+          "06-11 PK",
+          "07-13 PK",
+          "08-12 PK",
+          "09-11 PK",
+          "10-13 PK",
+          "11-12 PK",
+          "12-11 PK"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Karakašica, Jasensko, Čitluk",
+      "opis": "KARAKAŠICA - JASENSKO – ČITLUK",
+      "ulice": ["Karakašica", "Jasensko", "Čitluk"],
+      "raw": {
+        "2026": [
+          "01-14 PK",
+          "02-13 PK",
+          "03-13 PK",
+          "04-14 PK",
+          "05-14 PK",
+          "06-12 PK",
+          "07-14 PK",
+          "08-13 PK",
+          "09-14 PK",
+          "10-14 PK",
+          "11-13 PK",
+          "12-14 PK"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Glavice – donje",
+      "opis": "GLAVICE – donje",
+      "ulice": ["Glavice – donje"],
+      "raw": {
+        "2026": [
+          "01-15 PK",
+          "02-14 PK",
+          "03-16 PK",
+          "04-15 PK",
+          "05-15 PK",
+          "06-15 PK",
+          "07-15 PK",
+          "08-14 PK",
+          "09-15 PK",
+          "10-15 PK",
+          "11-16 PK",
+          "12-15 PK"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Glavice – gornje",
+      "opis": "GLAVICE – gornje",
+      "ulice": ["Glavice – gornje"],
+      "raw": {
+        "2026": [
+          "01-16 PK",
+          "02-16 PK",
+          "03-17 PK",
+          "04-16 PK",
+          "05-18 PK",
+          "06-16 PK",
+          "07-16 PK",
+          "08-17 PK",
+          "09-16 PK",
+          "10-16 PK",
+          "11-17 PK",
+          "12-16 PK"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Han, Obrovac Sinjski, Bajagić …",
+      "opis": "HAN - OBROVAC SINJSKI - BAJAGIĆ – GLJEV",
+      "ulice": ["Han", "Obrovac Sinjski", "Bajagić", "Gljev"],
+      "napomena": "Datum odvoza pada na blagdan (18.11.); raspored ne navodi pomak.",
+      "raw": {
+        "2026": [
+          "01-19 PK",
+          "02-17 PK",
+          "03-18 PK",
+          "04-17 PK",
+          "05-19 PK",
+          "06-17 PK",
+          "07-17 PK",
+          "08-18 PK",
+          "09-17 PK",
+          "10-19 PK",
+          "11-18 PK",
+          "12-17 PK"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Dalmatinska ulica, Brnaze (do Masle i Tifona)",
+      "opis": "DALMATINSKA ULICA - BRNAZE (do Masle i Tifona)",
+      "ulice": ["Dalmatinska ulica", "Brnaze (do Masle i Tifona)"],
+      "raw": {
+        "2026": [
+          "01-20 PK",
+          "02-18 PK",
+          "03-19 PK",
+          "04-20 PK",
+          "05-20 PK",
+          "06-18 PK",
+          "07-20 PK",
+          "08-19 PK",
+          "09-18 PK",
+          "10-20 PK",
+          "11-19 PK",
+          "12-18 PK"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Sinj",
+      "podrucje": "Sinj – Brnaze (od Masle), Turjaci",
+      "opis": "BRNAZE (od Masle) – TURJACI",
+      "ulice": ["Brnaze (od Masle)", "Turjaci"],
+      "raw": {
+        "2026": [
+          "01-21 PK",
+          "02-19 PK",
+          "03-20 PK",
+          "04-21 PK",
+          "05-21 PK",
+          "06-19 PK",
+          "07-21 PK",
+          "08-20 PK",
+          "09-21 PK",
+          "10-21 PK",
+          "11-20 PK",
+          "12-21 PK"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Otok",
+      "podrucje": "Otok – Centar Otoka, Vuletina Rupa, Strana I …",
+      "opis": "CENTAR OTOKA – VULETINA RUPA – STRANA I – STRANA II – PUT OVRLJE – RUDA – UDOVIČIĆI",
+      "ulice": ["Centar Otoka", "Vuletina Rupa", "Strana I", "Strana II", "Put Ovrlje", "Ruda", "Udovičići"],
+      "raw": {
+        "2026": [
+          "01-29 PK",
+          "02-27 PK",
+          "03-30 PK",
+          "04-29 PK",
+          "05-28 PK",
+          "06-29 PK",
+          "07-29 PK",
+          "08-28 PK",
+          "09-29 PK",
+          "10-29 PK",
+          "11-28 PK",
+          "12-30 PK"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Otok",
+      "podrucje": "Otok – Jelašce, Seget, Priblaće …",
+      "opis": "JELAŠCE – SEGET – PRIBLAĆE – GLAVIČICA – ŽIVINIĆ - GALA",
+      "ulice": ["Jelašce", "Seget", "Priblaće", "Glavičica", "Živinić", "Gala"],
+      "raw": {
+        "2026": [
+          "01-30 PK",
+          "02-28 PK",
+          "03-31 PK",
+          "04-30 PK",
+          "05-29 PK",
+          "06-30 PK",
+          "07-30 PK",
+          "08-31 PK",
+          "09-30 PK",
+          "10-30 PK",
+          "11-30 PK",
+          "12-31 PK"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Hrvace",
+      "podrucje": "Hrvace – Hrvace (do Doljaninovog mosta)",
+      "opis": "HRVACE (do Doljaninovog mosta)",
+      "ulice": ["Hrvace (do Doljaninovog mosta)"],
+      "napomena": "Odvoz za 8. mjesec je 31.7. (prema rasporedu). Datum odvoza pada na blagdan (01.05.); raspored ne navodi pomak.",
+      "raw": {
+        "2026": [
+          "01-02 PK",
+          "02-02 PK",
+          "03-02 PK",
+          "04-01 PK",
+          "05-01 PK",
+          "06-01 PK",
+          "07-01 PK 07-31 PK",
+          "09-01 PK",
+          "10-01 PK",
+          "11-02 PK",
+          "12-01 PK"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Hrvace",
+      "podrucje": "Hrvace – Hrvace (od Doljaninovog mosta), Satrić, Potravlje …",
+      "opis": "HRVACE (od Doljaninovog mosta) – SATRIĆ – POTRAVLJE - MALJKOVO",
+      "ulice": ["Hrvace (od Doljaninovog mosta)", "Satrić", "Potravlje", "Maljkovo"],
+      "raw": {
+        "2026": [
+          "01-03 PK",
+          "02-03 PK",
+          "03-03 PK",
+          "04-02 PK",
+          "05-04 PK",
+          "06-02 PK",
+          "07-02 PK",
+          "08-03 PK",
+          "09-02 PK",
+          "10-02 PK",
+          "11-03 PK",
+          "12-02 PK"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Hrvace",
+      "podrucje": "Hrvace – Bitelić, Rumin, Panj …",
+      "opis": "BITELIĆ – RUMIN – PANJ – ZASIOK – VUČIPOLJE - DABAR",
+      "ulice": ["Bitelić", "Rumin", "Panj", "Zasiok", "Vučipolje", "Dabar"],
+      "raw": {
+        "2026": [
+          "01-05 PK",
+          "02-04 PK",
+          "03-04 PK",
+          "04-03 PK",
+          "05-05 PK",
+          "06-03 PK",
+          "07-03 PK",
+          "08-04 PK",
+          "09-03 PK",
+          "10-05 PK",
+          "11-04 PK",
+          "12-03 PK"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Dicmo",
+      "podrucje": "Dicmo – Sičane, Sušci, Kraj",
+      "opis": "SIČANE – SUŠCI - KRAJ",
+      "ulice": ["Sičane", "Sušci", "Kraj"],
+      "napomena": "Datum odvoza pada na blagdan (06.01., 06.04., 04.06., 05.08.); raspored ne navodi pomak.",
+      "raw": {
+        "2026": [
+          "01-06 PK",
+          "02-05 PK",
+          "03-05 PK",
+          "04-06 PK",
+          "05-06 PK",
+          "06-04 PK",
+          "07-06 PK",
+          "08-05 PK",
+          "09-04 PK",
+          "10-06 PK",
+          "11-05 PK",
+          "12-04 PK"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Dicmo",
+      "podrucje": "Dicmo – Osoje, Prisoje, Krušvar …",
+      "opis": "OSOJE – PRISOJE – KRUŠVAR - ERCEGOVCI",
+      "ulice": ["Osoje", "Prisoje", "Krušvar", "Ercegovci"],
+      "raw": {
+        "2026": [
+          "01-07 PK",
+          "02-06 PK",
+          "03-06 PK",
+          "04-07 PK",
+          "05-07 PK",
+          "06-05 PK",
+          "07-07 PK",
+          "08-06 PK",
+          "09-07 PK",
+          "10-07 PK",
+          "11-06 PK",
+          "12-07 PK"
+        ]
+      }
+    }
+  }
+}

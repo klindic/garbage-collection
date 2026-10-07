@@ -1,0 +1,403 @@
+{
+  "davatelj": "Komunalno poduzeće Križevci d.o.o.",
+  "web": "https://komunalno.hr",
+  "zupanija": "Koprivničko-križevačka",
+  "jls": ["Križevci", "Gornja Rijeka", "Kalnik", "Sveti Ivan Žabno", "Sveti Petar Orehovec"],
+  "nazivi": {"P": "Reciklabilni otpad (plastika, metal, tetrapak)", "G": "Glomazni otpad (samo uz narudžbu)"},
+  "bioNapomena": "Biootpad se odvozi samo u dijelovima Grada Križevaca navedenima u kalendaru.",
+  "napomene": ["Datumi otisnuti crveno u kalendaru (promjene zbog blagdana i praznika) označeni su kao pomaknuti.", "Kante postavite na javnu površinu prije vremena odvoza navedenog za vrstu otpada (npr. miješani od 15 sati, ostalo od 7 sati); vrijeme je u napomeni zone.", "Glomazni otpad odvozi se na predviđene datume samo uz narudžbu najkasnije 3 dana prije (048 720 918, www.komunalno.hr ili kupon iz kalendara); jedan odvoz godišnje je besplatan.", "Višak otpada: miješani u vrećama Komunalnog poduzeća, reciklabilni u narančastim, papir u plavim i biootpad u smeđim vrećama (besplatne na blagajni i u reciklažnom dvorištu).", "Reciklažno dvorište Donji Cubinec 30: ponedjeljak 8–18, utorak–petak 8–16, subota 8–14 sati (048 693 561). Informacije: 048 720 918, info@komunalno.hr."],
+  "izvor": "https://komunalno.hr/wp-content/uploads/2026/01/Kalendar-2026.pdf",
+  "zone": {
+    "1": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci (ponedjeljak) – Alberta Štrige, Antuna Mihanovića, Crni put …",
+      "opis": "Alberta Štrige, Antuna Mihanovića, Crni put, Ferde Kerna, Frana Galovića, Frana Gundruma, Glogovničke bune, Gustava Bohutinskog, Istarska ulica, Josipa Buturca, Karane, Karla Hauslera, Koruška, Kralja Petra Krešimira, Križevčine Donje i Gornje, Krunoslava Heruca, Mirka Bogovića, Slavka Kolara, Trg sv. Florijana, Vrbovečka ulica i Zagrebačka ulica.",
+      "ulice": ["Alberta Štrige", "Antuna Mihanovića", "Crni put", "Ferde Kerna", "Frana Galovića", "Frana Gundruma", "Glogovničke bune", "Gustava Bohutinskog", "Istarska ulica", "Josipa Buturca", "Karane", "Karla Hauslera", "Koruška", "Kralja Petra Krešimira", "Križevčine Donje i Gornje", "Krunoslava Heruca", "Mirka Bogovića", "Slavka Kolara", "Trg sv. Florijana", "Vrbovečka ulica", "Zagrebačka ulica"],
+      "napomena": "Vrijeme odvoza: miješani od 15 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; biootpad od 15 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-05 MBP 01-12 MK 01-19 MBP 01-26 MS",
+          "02-02 MBP 02-09 MK 02-16 MBP 02-23 M",
+          "03-02 MBP 03-09 MK 03-16 MBP 03-23 MS 03-30 MBP",
+          "04-03 B! 04-07 MK! 04-13 MBP 04-20 MB 04-27 MBP",
+          "05-04 MBKG 05-11 MBP 05-18 MBS 05-25 MBP",
+          "06-01 MBK 06-08 MBP 06-15 MB 06-20 MBP! 06-29 MBK",
+          "07-06 MBP 07-13 MBS 07-20 MBP 07-27 MBK",
+          "08-03 MBP 08-10 MB 08-17 MBP 08-24 MBK 08-31 MBP",
+          "09-07 MBS 09-14 MBP 09-21 MBK 09-28 MBPG",
+          "10-05 MB 10-12 MBP 10-19 MBK 10-26 MBP",
+          "11-02 MBS 11-09 MP 11-16 MBK 11-23 MP 11-30 MB",
+          "12-07 MP 12-14 MBK 12-21 MP 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci (utorak) – Ante Starčevića, Antuna Gustava Matoša, Augusta Šenoe …",
+      "opis": "Ante Starčevića, Antuna Gustava Matoša, Augusta Šenoe, Brace Hanžeka, Branitelja Hrvatske, Drage Grdenića, Frana Supila, Frankopanska ulica, Ivana Lepušića, I. Z. Dijankovečkog, Ive Vojnovića, Kralja Zvonimira, Mladine, Paška, Petra Preradovića, Stanka Miholića, Sviličićev put, Stjepana Radića, Tina Ujevića, Tome Sermagea, Trg Antuna Nemčića, Trg Ivana Mažuranića, Trg J.J. Strossmayera, Trg S. S. Kranjčevića, Ulica Franje Tuđmana, Vjenceslava Novaka i Posrednji put.",
+      "ulice": ["Ante Starčevića", "Antuna Gustava Matoša", "Augusta Šenoe", "Brace Hanžeka", "Branitelja Hrvatske", "Drage Grdenića", "Frana Supila", "Frankopanska ulica", "Ivana Lepušića", "I. Z. Dijankovečkog", "Ive Vojnovića", "Kralja Zvonimira", "Mladine", "Paška", "Petra Preradovića", "Stanka Miholića", "Sviličićev put", "Stjepana Radića", "Tina Ujevića", "Tome Sermagea", "Trg Antuna Nemčića", "Trg Ivana Mažuranića", "Trg J.J. Strossmayera", "Trg S. S. Kranjčevića", "Ulica Franje Tuđmana", "Vjenceslava Novaka", "Posrednji put"],
+      "napomena": "Vrijeme odvoza: miješani od 15 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; biootpad od 15 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-05 M! 01-07 P! 01-09 B! 01-13 MK 01-20 MBP 01-27 MS",
+          "02-03 MBP 02-10 MK 02-17 MBP 02-24 M",
+          "03-03 MBP 03-10 MK 03-17 MBP 03-24 MS 03-31 MBP",
+          "04-07 MBK 04-14 MBP 04-21 MB 04-28 MBP",
+          "05-05 MBK 05-06 G 05-12 MBP 05-19 MBS 05-26 MBP",
+          "06-02 MBK 06-09 MBP 06-16 MB 06-23 MBP 06-30 MBK",
+          "07-07 MBP 07-14 MBS 07-21 MBP 07-28 MBK",
+          "08-04 MBP 08-11 MB 08-18 MBP 08-25 MBK",
+          "09-01 MBP 09-08 MBS 09-15 MBP 09-22 MBK 09-29 MBP 09-30 G",
+          "10-06 MB 10-13 MBP 10-20 MBK 10-27 MBP",
+          "11-03 MBS 11-10 MP 11-17 MBK 11-24 MP",
+          "12-01 MB 12-08 MP 12-15 MBK 12-22 MP 12-29 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci (srijeda) – Bana Josipa Jelačića, Dragutina Renarića, Koprivnička ulica …",
+      "opis": "Bana Josipa Jelačića, Dragutina Renarića, Koprivnička ulica, Ljudevita Gaja, Ljudevita Modeca, Ljudevita Vukotinovića, Marijana Detonija, Milislava Demerca, Mojsija Baltića, Nehajeva ulica, Obrtnička ulica, Petra Zrinskog, Potočka ulica, Ratarna,Svetokriška ulica, Široko Brezje, Trg bana Lackovića i Veliki Potočec.",
+      "ulice": ["Bana Josipa Jelačića", "Dragutina Renarića", "Koprivnička ulica", "Ljudevita Gaja", "Ljudevita Modeca", "Ljudevita Vukotinovića", "Marijana Detonija", "Milislava Demerca", "Mojsija Baltića", "Nehajeva ulica", "Obrtnička ulica", "Petra Zrinskog", "Potočka ulica", "Ratarna", "Svetokriška ulica", "Široko Brezje", "Trg bana Lackovića", "Veliki Potočec"],
+      "napomena": "Vrijeme odvoza: miješani od 15 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; biootpad od 15 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-07 MBP 01-14 MK 01-21 MBP 01-28 MS",
+          "02-04 MBP 02-11 MK 02-18 MBP 02-25 M",
+          "03-04 MBP 03-11 MK 03-18 MBP 03-25 MS",
+          "04-01 MBP 04-08 MBK 04-15 MBP 04-22 MB 04-29 MBP",
+          "05-06 MBK 05-08 G 05-13 MBP 05-20 MBS 05-27 MBP",
+          "06-03 MBK 06-10 MBP 06-17 MB 06-24 MBP",
+          "07-01 MBK 07-08 MBP 07-15 MBS 07-22 MBP 07-29 MBK",
+          "08-08 MBP! 08-12 MB 08-19 MBP 08-26 MBK",
+          "09-02 MBP 09-09 MBS 09-16 MBP 09-23 MBK 09-30 MBP",
+          "10-02 G 10-07 MB 10-14 MBP 10-21 MBK 10-28 MBP",
+          "11-04 MBS 11-11 MP 11-21 MBK! 11-25 MP",
+          "12-02 MB 12-09 MP 12-16 MBK 12-23 MP 12-30 MB"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci (četvrtak) – Biskupa B. Božičkovića, Biskupa J. Drohobeczkog, Franje Markovića …",
+      "opis": "Biskupa B. Božičkovića, Biskupa J. Drohobeczkog, Franje Markovića, Franje Račkoga, Gornje Vine, Greberanec, Helenski put, Ivana Viteza, Kalnička ulica, Kramarovec, Lipovčica, Pesek, Prigorska ulica, Pušća, Radnički dol, Tadije Smičiklasa, Varaždinska ulica i Zagorska ulica.",
+      "ulice": ["Biskupa B. Božičkovića", "Biskupa J. Drohobeczkog", "Franje Markovića", "Franje Račkoga", "Gornje Vine", "Greberanec", "Helenski put", "Ivana Viteza", "Kalnička ulica", "Kramarovec", "Lipovčica", "Pesek", "Prigorska ulica", "Pušća", "Radnički dol", "Tadije Smičiklasa", "Varaždinska ulica", "Zagorska ulica"],
+      "napomena": "Vrijeme odvoza: miješani od 15 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; biootpad od 15 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 MBP 01-15 MK 01-22 MBP 01-29 MS",
+          "02-05 MBP 02-12 MK 02-19 MBP 02-26 M",
+          "03-05 MBP 03-12 MK 03-19 MBP 03-26 MS",
+          "04-02 MBP 04-09 MBK 04-16 MBP 04-23 MB 04-30 MBP",
+          "05-07 MBK 05-12 G 05-14 MBP 05-21 MBS 05-28 MBP",
+          "06-06 MBK! 06-11 MBP 06-18 MB 06-25 MBP",
+          "07-02 MBK 07-09 MBP 07-16 MBS 07-23 MBP 07-30 MBK",
+          "08-06 MBP 08-13 MB 08-20 MBP 08-27 MBK",
+          "09-03 MBP 09-10 MBS 09-17 MBP 09-24 MBK",
+          "10-01 MBP 10-06 G 10-08 MB 10-15 MBP 10-22 MBK 10-29 MBP",
+          "11-05 MBS 11-12 MP 11-19 MBK 11-26 MP",
+          "12-03 MB 12-10 MP 12-17 MBK 12-24 MP 12-31 MB"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci (petak) – Andrije Lenarčića, Bjelovarska cesta, Cvjetna ulica …",
+      "opis": "Andrije Lenarčića, Bjelovarska cesta, Cvjetna ulica, Donji Cubinec, Dragutina Lambla, Gustava Neuberga, Ivana Gundulića, Kalničke punte, Kosovec, Kralja Tomislava, Mali Potočec, Marcela Kiepacha, Matije Gupca, Nikole Tesle, Nine Vavre, Sidonije Rubido i Vjekoslava Koroskenya.",
+      "ulice": ["Andrije Lenarčića", "Bjelovarska cesta", "Cvjetna ulica", "Donji Cubinec", "Dragutina Lambla", "Gustava Neuberga", "Ivana Gundulića", "Kalničke punte", "Kosovec", "Kralja Tomislava", "Mali Potočec", "Marcela Kiepacha", "Matije Gupca", "Nikole Tesle", "Nine Vavre", "Sidonije Rubido", "Vjekoslava Koroskenya"],
+      "napomena": "Vrijeme odvoza: miješani od 15 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; biootpad od 15 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MBP! 01-16 MK 01-20 B 01-23 MP 01-30 MS",
+          "02-03 B 02-06 MP 02-13 MK 02-17 B 02-20 MP 02-27 M",
+          "03-03 B 03-06 MP 03-13 MK 03-17 B 03-20 MP 03-27 MS 03-31 B",
+          "04-03 MP 04-07 B 04-10 MK 04-14 B 04-17 MP 04-21 B 04-24 M 04-28 B",
+          "05-02 MP! 05-05 B 05-08 MK 05-12 B 05-14 G 05-15 MP 05-19 B 05-22 MS 05-26 B 05-29 MP",
+          "06-02 B 06-05 MK 06-09 B 06-12 MP 06-16 B 06-19 M 06-23 B 06-26 MP 06-30 B",
+          "07-03 MK 07-07 B 07-10 MP 07-14 B 07-17 MS 07-21 B 07-24 MP 07-28 B 07-31 MK",
+          "08-04 B 08-07 MP 08-11 B 08-14 M 08-18 B 08-21 MP 08-25 B 08-28 MK",
+          "09-01 B 09-04 MP 09-08 B 09-11 MS 09-15 B 09-18 MP 09-22 B 09-25 MK 09-29 B",
+          "10-02 MP 10-06 B 10-08 G 10-09 M 10-13 B 10-16 MP 10-20 B 10-23 MK 10-27 B 10-30 MP",
+          "11-03 B 11-06 MS 11-13 MP 11-17 B 11-20 MK 11-27 MP",
+          "12-01 B 12-04 M 12-11 MP 12-15 B 12-18 MK 12-24 MP! 12-29 B"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci – okolna naselja (ponedjeljak) – Desetine, Dijankovec, Donja Brckovčina …",
+      "opis": "Desetine, Dijankovec, Donja Brckovčina, Erdovec, Gornja Brckovčina, Heruci, Karansko Brdo, Kunđevec, Podgajec, Prikraj Križevački, Ravenski Lemeš, Stara Ves, Sveti Martin i Špiranec",
+      "ulice": ["Desetine", "Dijankovec", "Donja Brckovčina", "Erdovec", "Gornja Brckovčina", "Heruci", "Karansko Brdo", "Kunđevec", "Podgajec", "Prikraj Križevački", "Ravenski Lemeš", "Stara Ves", "Sveti Martin", "Špiranec"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-05 MPS 01-19 MK",
+          "02-02 MP 02-16 MK",
+          "03-02 MPS 03-16 MK 03-30 MP",
+          "04-13 MKG 04-27 MP",
+          "05-11 MK 05-25 MPS",
+          "06-08 MK 06-20 MP!",
+          "07-06 MK 07-20 MPS",
+          "08-03 MK 08-17 MP 08-31 MKG",
+          "09-14 MPS 09-28 MK",
+          "10-12 MP 10-26 MK",
+          "11-09 MPS 11-23 MK",
+          "12-07 MP 12-21 MK"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci – okolna naselja (utorak) – Beketinec, Bojnikovec, Doljanec …",
+      "opis": "Beketinec, Bojnikovec, Doljanec, Donji Dubovec, Srednji Dubovec, Gornji Dubovec, Gornji Cubinec, Gračina, Križevačka Poljana, Kučari, Mali Raven, Ravenski Novaki, Ravenski Pavlovec i Veliki Raven",
+      "ulice": ["Beketinec", "Bojnikovec", "Doljanec", "Donji Dubovec", "Srednji Dubovec", "Gornji Dubovec", "Gornji Cubinec", "Gračina", "Križevačka Poljana", "Kučari", "Mali Raven", "Ravenski Novaki", "Ravenski Pavlovec", "Veliki Raven"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-10 MPS! 01-20 MK",
+          "02-03 MP 02-17 MK",
+          "03-03 MPS 03-17 MK 03-31 MP",
+          "04-14 MKG 04-28 MP",
+          "05-12 MK 05-26 MPS",
+          "06-09 MK 06-23 MP",
+          "07-07 MK 07-21 MPS",
+          "08-04 MK 08-18 MP",
+          "09-01 MKG 09-15 MPS 09-29 MK",
+          "10-13 MP 10-27 MK",
+          "11-10 MPS 11-24 MK",
+          "12-08 MP 12-22 MK"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci – okolna naselja (srijeda) – Brezov most, Bukovje, Čabraji …",
+      "opis": "Brezov most, Bukovje, Čabraji, Križevački Lemeš, Mičijevac, Novi Đurđic, Stari Đurđic, Vojakovac, Vojakovački Kloštar, Vujići i Poslovna zona Čret",
+      "ulice": ["Brezov most", "Bukovje", "Čabraji", "Križevački Lemeš", "Mičijevac", "Novi Đurđic", "Stari Đurđic", "Vojakovac", "Vojakovački Kloštar", "Vujići", "Poslovna zona Čret"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-07 MPS 01-21 MK",
+          "02-04 MP 02-18 MK",
+          "03-04 MPS 03-18 MK",
+          "04-01 MP 04-15 MKG 04-29 MP",
+          "05-13 MK 05-27 MPS",
+          "06-10 MK 06-24 MP",
+          "07-08 MK 07-22 MPS",
+          "08-08 MK! 08-19 MP",
+          "09-02 MKG 09-16 MPS 09-30 MK",
+          "10-14 MP 10-28 MK",
+          "11-11 MPS 11-25 MK",
+          "12-09 MP 12-23 MK"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci – okolna naselja (četvrtak) – Carevdar, Donjara, Kostadinovac …",
+      "opis": "Carevdar, Donjara, Kostadinovac, Majurec, Male Sesvete, Mali Carevdar, Novi Bošnjani, Pobrđani, Povelić, Rajići, Ruševac, Stari Bošnjani, Većeslavec i Velike Sesvete",
+      "ulice": ["Carevdar", "Donjara", "Kostadinovac", "Majurec", "Male Sesvete", "Mali Carevdar", "Novi Bošnjani", "Pobrđani", "Povelić", "Rajići", "Ruševac", "Stari Bošnjani", "Većeslavec", "Velike Sesvete"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-08 MPS 01-22 MK",
+          "02-05 MP 02-19 MK",
+          "03-05 MPS 03-19 MK",
+          "04-02 MP 04-16 MKG 04-30 MP",
+          "05-14 MK 05-28 MPS",
+          "06-11 MK 06-25 MP",
+          "07-09 MK 07-23 MPS",
+          "08-06 MK 08-20 MP",
+          "09-03 MKG 09-17 MPS",
+          "10-01 MK 10-15 MP 10-29 MK",
+          "11-12 MPS 11-26 MK",
+          "12-10 MP 12-24 MK"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Križevci",
+      "podrucje": "Grad Križevci – okolna naselja (petak) – Apatovec, Glogovnica, Ivanec Križevački …",
+      "opis": "Apatovec, Glogovnica, Ivanec Križevački, Jarčani, Marinovec, Sveta Helena, Vojakovački Osijek i Žibrinovec",
+      "ulice": ["Apatovec", "Glogovnica", "Ivanec Križevački", "Jarčani", "Marinovec", "Sveta Helena", "Vojakovački Osijek", "Žibrinovec"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; staklo od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-09 MPS 01-23 MK",
+          "02-06 MP 02-20 MK",
+          "03-06 MPS 03-20 MK",
+          "04-03 MP 04-17 MKG",
+          "05-02 MP! 05-15 MK 05-29 MPS",
+          "06-12 MK 06-26 MP",
+          "07-10 MK 07-24 MPS",
+          "08-07 MK 08-21 MP",
+          "09-04 MKG 09-18 MPS",
+          "10-02 MK 10-16 MP 10-30 MK",
+          "11-13 MPS 11-27 MK",
+          "12-11 MP 12-28 MK!"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Gornja Rijeka",
+      "podrucje": "Gornja Rijeka (četvrtak) – Barlabaševec, Deklešanec, Donja Rijeka …",
+      "opis": "Barlabaševec, Deklešanec, Donja Rijeka, Dropkovec, Fajerovec, Fodrovec Riječki, Gornja Rijeka, Kolarec, Kostanjevec Riječki, Lukaševec, Nemčevec, Pofuki, Štrigovec i Vukšinec Riječki",
+      "ulice": ["Barlabaševec", "Deklešanec", "Donja Rijeka", "Dropkovec", "Fajerovec", "Fodrovec Riječki", "Gornja Rijeka", "Kolarec", "Kostanjevec Riječki", "Lukaševec", "Nemčevec", "Pofuki", "Štrigovec", "Vukšinec Riječki"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-03 MP! 01-15 MK 01-29 MP",
+          "02-12 MK 02-26 MP",
+          "03-12 MKG 03-26 MP",
+          "04-09 MK 04-23 MP",
+          "05-07 MK 05-21 MP",
+          "06-06 MK! 06-18 MP",
+          "07-02 MK 07-16 MP 07-30 MK",
+          "08-13 MP 08-27 MK",
+          "09-10 MP 09-24 MK",
+          "10-08 MP 10-22 MK",
+          "11-05 MP 11-19 MK",
+          "12-03 MP 12-17 MK 12-31 MP"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Kalnik",
+      "podrucje": "Kalnik (srijeda) – Borje, Kalnik, Kamešnica …",
+      "opis": "Borje, Kalnik, Kamešnica, Obrež, Popovec, Potok Kalnički, Šopron i Vojnovec",
+      "ulice": ["Borje", "Kalnik", "Kamešnica", "Obrež", "Popovec", "Potok Kalnički", "Šopron", "Vojnovec"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-14 M 01-28 MP",
+          "02-11 M 02-25 MP",
+          "03-11 MG 03-25 MP",
+          "04-08 M 04-22 MP",
+          "05-06 M 05-20 MP",
+          "06-03 M 06-17 MP",
+          "07-01 M 07-15 MP 07-29 M",
+          "08-12 MP 08-26 M",
+          "09-09 MP 09-23 M",
+          "10-07 MP 10-21 M",
+          "11-04 MP 11-21 M!",
+          "12-02 MP 12-16 M 12-30 MP"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Sveti Petar Orehovec",
+      "podrucje": "Sveti Petar Orehovec (četvrtak) – Brezje Miholečko, Brežani, Donji Fodrovec …",
+      "opis": "Brezje Miholečko, Brežani, Donji Fodrovec, Ferežani, Gorica Miholečka, Gornji Fodrovec, Gregurovec, Kapela Ravenska, Kusijevec, Mokrice Miholečke, Rovci, Sela Ravenska i Zaistovec",
+      "ulice": ["Brezje Miholečko", "Brežani", "Donji Fodrovec", "Ferežani", "Gorica Miholečka", "Gornji Fodrovec", "Gregurovec", "Kapela Ravenska", "Kusijevec", "Mokrice Miholečke", "Rovci", "Sela Ravenska", "Zaistovec"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-03 MP! 01-15 MK 01-29 MP",
+          "02-12 MK 02-26 MP",
+          "03-12 MK 03-26 MP",
+          "04-09 MK 04-23 MP",
+          "05-07 MK 05-21 MP",
+          "06-06 MK! 06-11 G 06-18 MP",
+          "07-02 MK 07-16 MP 07-30 MK",
+          "08-13 MP 08-27 MK",
+          "09-10 MP 09-24 MK",
+          "10-08 MP 10-22 MK",
+          "11-05 MP 11-19 MK",
+          "12-03 MP 12-17 MK 12-31 MP"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Sveti Petar Orehovec",
+      "podrucje": "Sveti Petar Orehovec (petak) – Bočkovec, Brdo Orehovačko, Dedina …",
+      "opis": "Bočkovec, Brdo Orehovačko, Dedina, Donji Črnčevec, Finčevec, Gornji Črnčevec, Guščerovec, Hižanovec, Hrgovec, Međa, Miholec, Mikovec, Orehovec, Orehovačko Bogačevo, Piškovec, Podvinje, Riječko Bogačevo, Selanec, Selnica, Sv.Petar Orehovec, Šalamunovec, Vinarec, Voljavec, Vukovec i Zamladinec",
+      "ulice": ["Bočkovec", "Brdo Orehovačko", "Dedina", "Donji Črnčevec", "Finčevec", "Gornji Črnčevec", "Guščerovec", "Hižanovec", "Hrgovec", "Međa", "Miholec", "Mikovec", "Orehovec", "Orehovačko Bogačevo", "Piškovec", "Podvinje", "Riječko Bogačevo", "Selanec", "Selnica", "Sv.Petar Orehovec", "Šalamunovec", "Vinarec", "Voljavec", "Vukovec", "Zamladinec"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-02 MP 01-16 MK 01-30 MP",
+          "02-13 MK 02-27 MP",
+          "03-13 MK 03-27 MP",
+          "04-10 MK 04-24 MP",
+          "05-08 MK 05-22 MP",
+          "06-05 MK 06-12 G 06-19 MP",
+          "07-03 MK 07-17 MP 07-31 MK",
+          "08-14 MP 08-28 MK",
+          "09-11 MP 09-25 MK",
+          "10-09 MP 10-23 MK",
+          "11-06 MP 11-20 MK",
+          "12-04 MP 12-18 MK"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Sveti Ivan Žabno",
+      "podrucje": "Sveti Ivan Žabno (ponedjeljak) – Bjelavine, Brezovljani, Cvjetna ulica …",
+      "opis": "Bjelavine, Brezovljani, Cvjetna ulica, Habijanci, Kolodvorska ulica, Križevačka ulica, Lanišće, Paromlinska ulica, Predavec Križevački, Škrinjari, Šofići, Trg Karla Lukaša, Ulica Antuna Gustava Matoša, Ulica braće Radića, Ulica kralja Tomislava, Ulica Republike, Voćarska ulica i Zagrebačka ulica",
+      "ulice": ["Bjelavine", "Brezovljani", "Cvjetna ulica", "Habijanci", "Kolodvorska ulica", "Križevačka ulica", "Lanišće", "Paromlinska ulica", "Predavec Križevački", "Škrinjari", "Šofići", "Trg Karla Lukaša", "Ulica Antuna Gustava Matoša", "Ulica braće Radića", "Ulica kralja Tomislava", "Ulica Republike", "Voćarska ulica", "Zagrebačka ulica"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-12 MK 01-26 MP",
+          "02-09 MK 02-23 MP",
+          "03-09 MK 03-23 MP",
+          "04-03 MK! 04-20 MP",
+          "05-04 MK 05-18 MP",
+          "06-01 MK 06-15 MP 06-29 MK",
+          "07-13 MP 07-27 MK",
+          "08-10 MP 08-24 MK",
+          "09-07 MP 09-21 MK",
+          "10-05 MP 10-08 G 10-19 MK",
+          "11-02 MP 11-16 MK 11-30 MP",
+          "12-14 MK 12-28 MP"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Sveti Ivan Žabno",
+      "podrucje": "Sveti Ivan Žabno (utorak) – Balogi, Bolteki, Bušići …",
+      "opis": "Balogi, Bolteki, Bušići, Carevići, Cepidlak, Crlenjaki, Čeredari, Damjani, Ervišci, Ferenčići, Grabrovec, Jakčini, Jambrušići, Kaniža, Kemenovići, Lalići, Plentaji, Purga, Rađe, Rašćani, Rumenjaki, Šebi, Škvorci, Štefanci, Štefanci Ištoki, Sveti Petar Čvrstec, Trema Budilovo, Trema Dvorišće, Trema Gornje Selo, Trema Grubiševo, Trema Medačevo, Trema Osuđevo, Trema Prkos, Trema Vražje Oko i Vukoslav",
+      "ulice": ["Balogi", "Bolteki", "Bušići", "Carevići", "Cepidlak", "Crlenjaki", "Čeredari", "Damjani", "Ervišci", "Ferenčići", "Grabrovec", "Jakčini", "Jambrušići", "Kaniža", "Kemenovići", "Lalići", "Plentaji", "Purga", "Rađe", "Rašćani", "Rumenjaki", "Šebi", "Škvorci", "Štefanci", "Štefanci Ištoki", "Sveti Petar Čvrstec", "Trema Budilovo", "Trema Dvorišće", "Trema Gornje Selo", "Trema Grubiševo", "Trema Medačevo", "Trema Osuđevo", "Trema Prkos", "Trema Vražje Oko", "Vukoslav"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-13 MK 01-27 MP",
+          "02-10 MK 02-24 MP",
+          "03-10 MK 03-24 MP",
+          "04-07 MK 04-21 MP",
+          "05-05 MK 05-19 MP",
+          "06-02 MK 06-09 G 06-16 MP 06-30 MK",
+          "07-14 MP 07-28 MK",
+          "08-11 MP 08-25 MK",
+          "09-08 MP 09-22 MK",
+          "10-06 MP 10-20 MK",
+          "11-03 MP 11-17 MK",
+          "12-01 MP 12-15 MK 12-29 MP"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Sveti Ivan Žabno",
+      "podrucje": "Sveti Ivan Žabno (srijeda) – Benčakova ulica, Borička, Carova ulica …",
+      "opis": "Benčakova ulica, Borička, Carova ulica, Cirkvensko Brdo, Donja ulica, Duga ulica, Đurekova, Gradišće, Grobljanska ulica, Hrsovo, Kenđelovec, Kolodvorska ulica, Kuštani, Ladinec, Ledine, Markovac Križevački, Mlinarska ulica, Novi Glog, Pavlićeva ulica, Predavčeva ulica, Pužarova ulica, Topljakova ulica, Trg slobode, Ulica Novi Glog, Varoška ulica i Vinogradska ulica",
+      "ulice": ["Benčakova ulica", "Borička", "Carova ulica", "Cirkvensko Brdo", "Donja ulica", "Duga ulica", "Đurekova", "Gradišće", "Grobljanska ulica", "Hrsovo", "Kenđelovec", "Kolodvorska ulica", "Kuštani", "Ladinec", "Ledine", "Markovac Križevački", "Mlinarska ulica", "Novi Glog", "Pavlićeva ulica", "Predavčeva ulica", "Pužarova ulica", "Topljakova ulica", "Trg slobode", "Ulica Novi Glog", "Varoška ulica", "Vinogradska ulica"],
+      "napomena": "Vrijeme odvoza: miješani od 7 sati; reciklabilni od 7 sati; papir od 7 sati; glomazni od 7 sati.",
+      "raw": {
+        "2026": [
+          "01-14 MK 01-28 MP",
+          "02-11 MK 02-25 MP",
+          "03-11 MK 03-25 MP",
+          "04-08 MK 04-22 MP",
+          "05-06 MK 05-20 MP",
+          "06-03 MK 06-10 G 06-17 MP",
+          "07-01 MK 07-15 MP 07-29 MK",
+          "08-12 MP 08-26 MK",
+          "09-09 MP 09-23 MK",
+          "10-07 MP 10-21 MK",
+          "11-04 MP 11-21 MK!",
+          "12-02 MP 12-16 MK 12-30 MP"
+        ]
+      }
+    }
+  }
+}
