@@ -1,0 +1,180 @@
+{
+  "davatelj": "Komunalac Konjščina d.o.o.",
+  "web": "https://www.komunalac.net",
+  "izvor": "https://www.komunalac.net/kalendari-odvoza-po-opcinama/",
+  "zupanija": "Krapinsko-zagorska",
+  "jls": ["Zlatar", "Budinščina", "Hrašćina", "Konjščina", "Lobor", "Mače", "Novi Golubovec", "Zlatar Bistrica"],
+  "nazivi": {"P": "Korisni otpad"},
+  "bioNapomena": "Biootpad se odvozi u Gradu Zlataru te općinama Konjščina i Zlatar Bistrica.",
+  "napomene": ["Posude i/ili vreće s otpadom iznijeti na dan odvoza, najkasnije do 6:30 h.", "Pomaknuti datumi su odvozi premješteni zbog blagdana, kako su označeni u kalendaru.", "Glomazni otpad: besplatan odvoz uz kupon za 2026. (dostaviti do 13. 2. 2026.), termin javlja Komunalac.", "Mobilno reciklažno dvorište: raspored rada na stranici kalendara.", "Informacije: 049 465 120, www.komunalac.net. Komunalac Konjščina zadržava pravo izmjene rasporeda."],
+  "zone": {
+    "1": {
+      "jls": "Hrašćina",
+      "podrucje": "Općina Hrašćina – miješani 1., 3. i 5. utorak u mjesecu, korisni otpad 2. utorak, papir 4. utorak",
+      "ulice": ["Hrašćina (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-05 M! 01-13 P 01-20 M 01-27 K",
+          "02-03 M 02-10 P 02-17 M 02-24 K",
+          "03-03 M 03-10 P 03-17 M 03-24 K 03-31 M",
+          "04-07 M 04-14 P 04-21 M 04-28 K",
+          "05-05 M 05-12 P 05-19 M 05-26 K",
+          "06-02 M 06-09 P 06-16 M 06-23 K 06-30 M",
+          "07-07 M 07-14 P 07-21 M 07-28 K",
+          "08-04 M 08-11 P 08-18 M 08-25 K",
+          "09-01 M 09-08 P 09-15 M 09-22 K 09-29 M",
+          "10-06 M 10-13 P 10-20 M 10-27 K",
+          "11-03 M 11-10 P 11-17 M 11-24 K",
+          "12-01 M 12-08 P 12-15 M 12-22 K 12-29 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Budinščina",
+      "podrucje": "Općina Budinščina – miješani 1., 3. i 5. utorak u mjesecu, korisni otpad 2. utorak, papir 4. utorak",
+      "ulice": ["Budinščina (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-05 M! 01-13 P 01-20 M 01-27 K",
+          "02-03 M 02-10 P 02-17 M 02-24 K",
+          "03-03 M 03-10 P 03-17 M 03-24 K 03-31 M",
+          "04-07 M 04-14 P 04-21 M 04-28 K",
+          "05-05 M 05-12 P 05-19 M 05-26 K",
+          "06-02 M 06-09 P 06-16 M 06-23 K 06-30 M",
+          "07-07 M 07-14 P 07-21 M 07-28 K",
+          "08-04 M 08-11 P 08-18 M 08-25 K",
+          "09-01 M 09-08 P 09-15 M 09-22 K 09-29 M",
+          "10-06 M 10-13 P 10-20 M 10-27 K",
+          "11-03 M 11-10 P 11-17 M 11-24 K",
+          "12-01 M 12-08 P 12-15 M 12-22 K 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Konjščina",
+      "podrucje": "Općina Konjščina – miješani 1., 3. i 5. srijeda u mjesecu, korisni otpad 2. srijeda, papir 4. srijeda, biootpad svaki ponedjeljak",
+      "ulice": ["Konjščina (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 M 01-12 B 01-14 P 01-19 B 01-21 M 01-26 B 01-28 K",
+          "02-02 B 02-04 M 02-09 B 02-11 P 02-16 B 02-18 M 02-23 B 02-25 K",
+          "03-02 B 03-04 M 03-09 B 03-11 P 03-16 B 03-18 M 03-23 B 03-25 K 03-30 B",
+          "04-01 M 04-07 B! 04-08 P 04-13 B 04-15 M 04-20 B 04-22 K 04-27 B 04-29 M",
+          "05-04 B 05-06 M 05-11 B 05-13 P 05-18 B 05-20 M 05-25 B 05-27 K",
+          "06-01 B 06-03 M 06-08 B 06-10 P 06-15 B 06-17 M 06-23 B! 06-24 K 06-29 B",
+          "07-01 M 07-06 B 07-08 P 07-13 B 07-15 M 07-20 B 07-22 K 07-27 B 07-29 M",
+          "08-03 B 08-10 MB! 08-12 P 08-17 B 08-19 M 08-24 B 08-26 K 08-31 B",
+          "09-02 M 09-07 B 09-09 P 09-14 B 09-16 M 09-21 B 09-23 K 09-28 B 09-30 M",
+          "10-05 B 10-07 M 10-12 B 10-14 P 10-19 B 10-21 M 10-26 B 10-28 K",
+          "11-02 B 11-04 M 11-09 B 11-11 P 11-16 B 11-23 MB! 11-25 K 11-30 B",
+          "12-02 M 12-07 B 12-09 P 12-14 B 12-16 M 12-21 B 12-23 K 12-28 B 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Zlatar Bistrica",
+      "podrucje": "Općina Zlatar Bistrica – miješani 1., 3. i 5. srijeda u mjesecu, korisni otpad 2. srijeda, papir 4. srijeda, biootpad svaki ponedjeljak",
+      "ulice": ["Zlatar Bistrica (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 M 01-12 B 01-14 P 01-19 B 01-21 M 01-26 B 01-28 K",
+          "02-02 B 02-04 M 02-09 B 02-11 P 02-16 B 02-18 M 02-23 B 02-25 K",
+          "03-02 B 03-04 M 03-09 B 03-11 P 03-16 B 03-18 M 03-23 B 03-25 K 03-30 B",
+          "04-01 M 04-07 B! 04-08 P 04-13 B 04-15 M 04-20 B 04-22 K 04-27 B 04-29 M",
+          "05-04 B 05-06 M 05-11 B 05-13 P 05-18 B 05-20 M 05-25 B 05-27 K",
+          "06-01 B 06-03 M 06-08 B 06-10 P 06-15 B 06-17 M 06-23 B! 06-24 K 06-29 B",
+          "07-01 M 07-06 B 07-08 P 07-13 B 07-15 M 07-20 B 07-22 K 07-27 B 07-29 M",
+          "08-03 B 08-10 MB! 08-12 P 08-17 B 08-19 M 08-24 B 08-26 K 08-31 B",
+          "09-02 M 09-07 B 09-09 P 09-14 B 09-16 M 09-21 B 09-23 K 09-28 B 09-30 M",
+          "10-05 B 10-07 M 10-12 B 10-14 P 10-19 B 10-21 M 10-26 B 10-28 K",
+          "11-02 B 11-04 M 11-09 B 11-11 P 11-16 B 11-23 MB! 11-25 K 11-30 B",
+          "12-02 M 12-07 B 12-09 P 12-14 B 12-16 M 12-21 B 12-23 K 12-28 B 12-30 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Lobor",
+      "podrucje": "Općina Lobor – miješani 1., 3. i 5. petak u mjesecu, korisni otpad 2. petak, papir 4. petak",
+      "ulice": ["Lobor (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 P 01-16 M 01-23 K 01-30 M",
+          "02-06 M 02-13 P 02-20 M 02-27 K",
+          "03-06 M 03-13 P 03-20 M 03-27 K",
+          "04-03 M 04-10 P 04-17 M 04-24 K",
+          "05-04 M! 05-08 P 05-15 M 05-22 K 05-29 M",
+          "06-05 M 06-12 P 06-19 M 06-26 K",
+          "07-03 M 07-10 P 07-17 M 07-24 K 07-31 M",
+          "08-07 M 08-14 P 08-21 M 08-28 K",
+          "09-04 M 09-11 P 09-18 M 09-25 K",
+          "10-02 M 10-09 P 10-16 M 10-23 K 10-30 M",
+          "11-06 M 11-13 P 11-20 M 11-27 K",
+          "12-04 M 12-11 P 12-18 M 12-21 K! 12-28 M!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Mače",
+      "podrucje": "Općina Mače – miješani 1., 3. i 5. petak u mjesecu, korisni otpad 2. petak, papir 4. petak",
+      "ulice": ["Mače (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 P 01-16 M 01-23 K 01-30 M",
+          "02-06 M 02-13 P 02-20 M 02-27 K",
+          "03-06 M 03-13 P 03-20 M 03-27 K",
+          "04-03 M 04-10 P 04-17 M 04-24 K",
+          "05-04 M! 05-08 P 05-15 M 05-22 K 05-29 M",
+          "06-05 M 06-12 P 06-19 M 06-26 K",
+          "07-03 M 07-10 P 07-17 M 07-24 K 07-31 M",
+          "08-07 M 08-14 P 08-21 M 08-28 K",
+          "09-04 M 09-11 P 09-18 M 09-25 K",
+          "10-02 M 10-09 P 10-16 M 10-23 K 10-30 M",
+          "11-06 M 11-13 P 11-20 M 11-27 K",
+          "12-04 M 12-11 P 12-18 M 12-21 K! 12-28 M!"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Novi Golubovec",
+      "podrucje": "Općina Novi Golubovec – miješani 1., 3. i 5. petak u mjesecu, korisni otpad 2. petak, papir 4. petak",
+      "ulice": ["Novi Golubovec (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 P 01-16 M 01-23 K 01-30 M",
+          "02-06 M 02-13 P 02-20 M 02-27 K",
+          "03-06 M 03-13 P 03-20 M 03-27 K",
+          "04-03 M 04-10 P 04-17 M 04-24 K",
+          "05-04 M! 05-08 P 05-15 M 05-22 K 05-29 M",
+          "06-05 M 06-12 P 06-19 M 06-26 K",
+          "07-03 M 07-10 P 07-17 M 07-24 K 07-31 M",
+          "08-07 M 08-14 P 08-21 M 08-28 K",
+          "09-04 M 09-11 P 09-18 M 09-25 K",
+          "10-02 M 10-09 P 10-16 M 10-23 K 10-30 M",
+          "11-06 M 11-13 P 11-20 M 11-27 K",
+          "12-04 M 12-11 P 12-18 M 12-21 K! 12-28 M!"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Zlatar",
+      "podrucje": "Grad Zlatar – miješani 1., 3. i 5. četvrtak u mjesecu, korisni otpad 2. četvrtak, papir 4. četvrtak, biootpad svaki ponedjeljak",
+      "ulice": ["Zlatar (cijeli grad)"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-08 M! 01-12 B 01-15 P 01-19 B 01-22 M 01-26 B 01-29 K",
+          "02-02 B 02-05 M 02-09 B 02-12 P 02-16 B 02-19 M 02-23 B 02-26 K",
+          "03-02 B 03-05 M 03-09 B 03-12 P 03-16 B 03-19 M 03-23 B 03-26 K 03-30 B",
+          "04-02 M 04-07 B! 04-09 P 04-13 B 04-16 M 04-20 B 04-23 K 04-27 B 04-30 M",
+          "05-04 B 05-07 M 05-11 B 05-14 P 05-18 B 05-21 M 05-25 B 05-28 K",
+          "06-01 B 06-08 MB! 06-11 P 06-15 B 06-18 M 06-23 B! 06-25 K 06-29 B",
+          "07-02 M 07-06 B 07-09 P 07-13 B 07-16 M 07-20 B 07-23 K 07-27 B 07-30 M",
+          "08-03 B 08-06 M 08-10 B 08-13 P 08-17 B 08-20 M 08-24 B 08-27 K 08-31 B",
+          "09-03 M 09-07 B 09-10 P 09-14 B 09-17 M 09-21 B 09-24 K 09-28 B",
+          "10-01 M 10-05 B 10-08 P 10-12 B 10-15 M 10-19 B 10-22 K 10-26 B 10-29 M",
+          "11-02 B 11-05 M 11-09 B 11-12 P 11-16 B 11-19 M 11-23 B 11-26 K 11-30 B",
+          "12-03 M 12-07 B 12-10 P 12-14 B 12-17 M 12-21 B 12-24 K 12-28 B 12-31 M"
+        ]
+      }
+    }
+  }
+}
