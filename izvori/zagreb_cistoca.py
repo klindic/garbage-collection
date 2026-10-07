@@ -70,7 +70,7 @@ def get(url, cache=True, pause=0.2):
     path = cache_path(url)
     if cache and path.exists():
         return path.read_bytes()
-    for attempt in range(5):
+    for attempt in range(6):
         with _lock:
             wait = _last[0] + pause - time.time()
             if wait > 0:
@@ -81,7 +81,7 @@ def get(url, cache=True, pause=0.2):
                 body = r.read()
             break
         except Exception as e:  # noqa: BLE001 (network errors of every kind get the same retry)
-            if attempt == 4:
+            if attempt == 5:
                 raise RuntimeError(f"{url}: {e}") from e
             time.sleep(2 ** attempt)
     if cache:
@@ -113,13 +113,24 @@ def all_addresses():
     return list(seen.values()), names
 
 
-def prefetch(ids, workers=8):
-    """Fetch the rules of many addresses in parallel into the cache (get() keeps the request rate)."""
+def prefetch(ids, workers=6):
+    """Fetch the rules of many addresses in parallel into the cache (get() keeps the request rate).
+
+    A request that still fails after its retries is skipped here; the caller fetches it again one by one."""
+    def one(address_id):
+        try:
+            rules(address_id)
+            return True
+        except RuntimeError:
+            return False
+
     ids = [i for i in ids if not cache_path(f"{API}/addresses/{i}").exists()]
+    failed = 0
     with ThreadPoolExecutor(workers) as pool:
-        for n, _ in enumerate(pool.map(rules, ids), start=1):
+        for n, ok in enumerate(pool.map(one, ids), start=1):
+            failed += not ok
             if n % 2000 == 0:
-                print(f"  preuzeto {n}/{len(ids)} adresa ...", flush=True)
+                print(f"  preuzeto {n}/{len(ids)} adresa ({failed} neuspjelih, ponovit će se) ...", flush=True)
 
 
 def rules(address_id):
