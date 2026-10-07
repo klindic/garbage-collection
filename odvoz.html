@@ -684,9 +684,17 @@ footer strong { color: var(--fg); }
     try { localStorage.setItem('odvoz-zona', zone); } catch {}
     // Keep a ?zona= link (from a calendar event) in step with the choice, so a reload shows the same zone.
     try { const u = new URL(location.href); if (u.searchParams.has('zona')) { u.searchParams.set('zona', zone); history.replaceState(null, '', u); } } catch {}
+    track(`zona-odabrana-${zone}`, `Odabrana zona ${zone}`);
   };
 
+  // GoatCounter events (build.sh adds the script to the published page; without it these do nothing).
+  function track(path, title) { try { window.goatcounter?.count?.({ path, title, event: true }); } catch {} }
+  $('subLink').addEventListener('click', () => track(`kalendar-iphone-zona-${zone}`, `Dodaj u iPhone kalendar, Zona ${zone}`));
+  $('gcalLink').addEventListener('click', () => track(`kalendar-google-zona-${zone}`, `Dodaj u Google kalendar, Zona ${zone}`));
+  $('xlsxLink').addEventListener('click', () => track(`excel-zona-${zone}`, `Excel raspored, Zona ${zone}`));
+
   $('copyUrl').onclick = () => {
+    track(`kalendar-url-zona-${zone}`, `Kopiran URL kalendara, Zona ${zone}`);
     const btn = $('copyUrl'), text = $('icsUrl').textContent;
     const done = () => { btn.textContent = 'Kopirano'; setTimeout(() => { btn.textContent = 'Kopiraj'; }, 2000); };
     const selectText = () => { const r = document.createRange(); r.selectNodeContents($('icsUrl')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };

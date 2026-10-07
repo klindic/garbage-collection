@@ -17,6 +17,7 @@ ICON="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Odvoz">
 <link rel="icon" href="${ICON}">
+<script data-goatcounter="https://klindic.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 HTML
   # <title>, font links and <style> belong in <head>; everything from the first <div> on is body.

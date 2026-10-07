@@ -7,5 +7,6 @@ Mala web aplikacija koja pokazuje koje kante treba iznijeti danas, sutra i bilo 
 - `gen_ics.py`: iz istih podataka generira kalendare za pretplatu, za svaku zonu po jedan za svako vrijeme obavijesti (`odvoz-zonaN-1600.ics` do `odvoz-zonaN-2200.ics` dan prije, `odvoz-zonaN-jutro-0530.ics`, `odvoz-zonaN-jutro-0600.ics`, `odvoz-zonaN-bez.ics`). `odvoz-zonaN.ics` je isto što i `odvoz-zonaN-1800.ics`. Stari nazivi bez zone (`odvoz.ics`, `odvoz-1800.ics` itd.) i dalje postoje i sadrže Zonu 5, zbog postojećih pretplata.
 - `build.sh`: složi samostalnu stranicu, kalendare i Excel tablice u `_site/`.
 - `.github/workflows/pages.yml`: svaki push na `main` deploya na GitHub Pages.
+- Posjete broji GoatCounter (https://klindic.goatcounter.com, bez kolačića). Skriptu dodaje `build.sh` samo na objavljenu stranicu. Događaji: `zona-odabrana-N`, `kalendar-iphone-zona-N`, `kalendar-google-zona-N`, `kalendar-url-zona-N`, `excel-zona-N`.
 
 Izvor podataka: službeni rasporedi GOS d.o.o. za 2026. (PDF po zoni). Za 2027. treba zamijeniti `year` i `raw` u JSON bloku u `odvoz.html`, pa ponovno pokrenuti `gen_xlsx.py`.
