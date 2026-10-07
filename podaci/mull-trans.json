@@ -1,0 +1,1536 @@
+{
+  "davatelj": "Mull-Trans d.o.o. (i Eko-Flor Plus d.o.o.)",
+  "web": "https://mull-trans.hr",
+  "izvor": "https://mull-trans.hr/podrucje/",
+  "zupanija": "Zagrebačka",
+  "jls": ["Bedenica", "Jakovlje", "Klinča Sela", "Krašić", "Rugvica", "Stupnik", "Žumberak", "Jastrebarsko", "Pisarovina", "Sveta Nedelja", "Donja Stubica", "Pregrada", "Gornja Stubica", "Stubičke Toplice", "Sveti Križ Začretje", "Oroslavje", "Krapinske Toplice", "Mihovljan", "Veliko Trgovišće", "Bosiljevo", "Breznica", "Čađavica", "Mikleuš", "Sopje", "Voćin", "Nova Bukovica", "Donji Andrijevci", "Garčin", "Gundinci", "Oprisavci", "Velika Kopanica", "Vrpolje", "Stankovci", "Drenje", "Koška", "Magadenovac", "Podravska Moslavina", "Punitovci", "Viljevo", "Lovas", "Nijemci", "Tovarnik", "Sveti Juraj na Bregu"],
+  "napomene": ["Rasporede za općine koje je ranije opsluživao Eko-Flor Plus d.o.o. sada objavljuje Mull-Trans d.o.o. na mull-trans.hr (izbornik Područje); neki PDF-ovi i dalje nose oznaku i kontakte Eko-Flora.", "Spremnike treba iznijeti najkasnije do 6:00 na dan odvoza, na vidljivo mjesto pored obračunskog mjesta.", "Glomazni otpad odvozi se na zahtjev podnesen najkasnije 3 radna dana prije termina: 049/587-837, glomazni@mull-trans.hr (stariji PDF-ovi navode glomazni@eko-flor.hr).", "Blagdani: pomaci su ucrtani u kalendare (sivo ili uokvireno označen blagdan, strelica do zamjenskog dana, najčešće subote); takvi datumi označeni su kao pomaknuti.", "Mobilno reciklažno dvorište (MRD) nije odvoz s kućnog praga; datumi su u napomeni zone, lokacije i vrijeme u PDF-u općine.", "Nije uključeno: Štefanje (na mull-trans.hr je samo stariji raspored, Opcina-Stefanje-2025.pdf)."],
+  "bioNapomena": "Biootpad se odvozi samo gdje je naveden u rasporedu; drugdje ga korisnici kompostiraju ili predaju u zasebnom spremniku prema ugovoru.",
+  "zone": {
+    "1": {
+      "jls": "Bedenica",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 16.1., 24.4., 6.8., 23.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Bedenica-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-19 M 01-20 PK 01-26 M",
+          "02-02 M 02-16 M 02-17 PK 02-23 M",
+          "03-02 M 03-16 M 03-17 PK 03-30 M",
+          "04-04 M! 04-13 M 04-27 M 04-28 PK",
+          "05-04 M 05-18 M 05-19 PK 05-25 M",
+          "06-01 M 06-15 M 06-16 PK 06-29 M",
+          "07-06 M 07-13 M 07-14 PK 07-27 M",
+          "08-03 M 08-17 M 08-18 PK 08-31 M",
+          "09-07 M 09-15 PK 09-21 M 09-28 M",
+          "10-05 M 10-13 PK 10-19 M 10-26 M",
+          "11-02 M 11-16 M 11-17 PK 11-30 M",
+          "12-07 M 12-10 G 12-15 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Jakovlje",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 23.1., 19.6., 30.9. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Jakovlje-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 PK 01-26 M",
+          "02-02 M 02-09 M 02-16 PK 02-23 M",
+          "03-02 M 03-16 M 03-23 PK 03-30 M",
+          "04-04 M! 04-13 M 04-20 PK 04-27 M",
+          "05-04 M 05-11 M 05-18 PK 05-25 M",
+          "06-01 M 06-15 M 06-20 PK! 06-29 M",
+          "07-06 M 07-13 M 07-20 PK 07-27 M",
+          "08-03 M 08-17 M 08-24 PK 08-31 M",
+          "09-07 M 09-14 M 09-17 G 09-21 PK 09-28 M",
+          "10-05 M 10-12 M 10-19 PK 10-26 M",
+          "11-02 M 11-16 M 11-23 PK 11-30 M",
+          "12-07 M 12-14 M 12-21 PK 12-28 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Klinča Sela",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Klinca-Sela-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-22 K 01-23 MP 01-30 M",
+          "02-06 M 02-13 M 02-19 K 02-20 MP 02-27 M",
+          "03-06 M 03-09 G 03-13 M 03-19 K 03-20 MP 03-27 M",
+          "04-03 M 04-10 M 04-16 K 04-17 MP 04-24 M",
+          "05-02 M! 05-08 M 05-15 M 05-21 K 05-22 MP 05-29 M",
+          "06-05 M 06-12 M 06-18 K 06-19 MP 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-23 K 07-24 MP 07-31 M",
+          "08-07 M 08-14 M 08-20 K 08-21 MP 08-28 M",
+          "09-04 M 09-11 M 09-17 K 09-18 MP 09-25 M",
+          "10-02 M 10-09 M 10-16 M 10-22 K 10-23 MP 10-30 M",
+          "11-06 M 11-13 M 11-19 K 11-20 MP 11-27 M",
+          "12-04 M 12-11 M 12-17 K 12-18 MP 12-23 M! 12-31 M!"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Krašić",
+      "podrucje": "Teren ponedjeljak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 1.7., 7.10. (lokacije i vrijeme u PDF-u). Objavljeni raspored počinje u mjesecu: srpanj 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/07/Opcina-Krasic-novo.pdf (PDF izmijenjen 27.07.2026.)",
+      "raw": {
+        "2026": [
+          "07-06 M 07-13 K 07-14 P 07-20 M",
+          "08-03 M 08-10 K 08-11 P 08-17 M 08-31 M",
+          "09-08 G 09-14 M 09-21 K 09-22 P 09-28 M",
+          "10-12 M 10-19 K 10-20 P 10-26 M",
+          "11-09 M 11-16 K 11-17 P 11-23 M",
+          "12-07 M 12-14 K 12-15 P 12-21 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Krašić",
+      "podrucje": "Teren utorak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 1.7., 7.10. (lokacije i vrijeme u PDF-u). Objavljeni raspored počinje u mjesecu: srpanj 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/07/Opcina-Krasic-novo.pdf (PDF izmijenjen 27.07.2026.)",
+      "raw": {
+        "2026": [
+          "07-07 M 07-13 K 07-14 P 07-21 M",
+          "08-04 M 08-10 K 08-11 P 08-18 M",
+          "09-01 M 09-08 G 09-15 M 09-21 K 09-22 P 09-29 M",
+          "10-13 M 10-19 K 10-20 P 10-27 M",
+          "11-10 M 11-16 K 11-17 P 11-24 M",
+          "12-08 M 12-14 K 12-15 P 12-22 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Rugvica",
+      "podrucje": "Ponedjeljak – Savska ulica, Pirinova ulica, Zdelarčeva ulica …",
+      "ulice": ["Savska ulica", "Pirinova ulica", "Zdelarčeva ulica", "Mitrekovićeva ulica", "Kocijanova ulica", "Industrijska ulica", "Školska ulica", "Zavrtnička ulica", "Padolečka ulica", "Palešićeva ulica", "Sunekova ulica", "Selska ulica", "Šolinova ulica", "Svibovska ulica", "Predorska ulica", "Dalmatinska ulica", "Posavska ulica", "Otočka ulica", "Gaji ulica", "Kaptolska ulica", "Ulica Hrvatskih Branitelja", "Ulica Miroslava Krleže", "Lička ulica", "Slavonska Ulica", "Jagodička Ulica", "Sop", "Poljakova Ulica", "Dumovečka Ulica"],
+      "napomena": "Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Rugvica-raspored-za-2026-1.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-14 K 01-15 K 01-16 K 01-19 M 01-21 P 01-22 P 01-23 P 01-26 M",
+          "02-02 M 02-09 M 02-11 K 02-12 K 02-13 K 02-16 M 02-18 P 02-19 P 02-20 P 02-23 M",
+          "03-02 M 03-09 M 03-11 K 03-12 K 03-13 K 03-16 M 03-18 P 03-19 P 03-20 P 03-23 M 03-30 M",
+          "04-04 M! 04-13 M 04-15 K 04-16 K 04-17 K 04-20 M 04-22 P 04-23 P 04-24 P 04-27 M",
+          "05-04 M 05-11 MG 05-13 K 05-14 K 05-15 K 05-18 M 05-20 P 05-21 P 05-22 P 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-17 K 06-18 K 06-19 K 06-20 M! 06-24 P 06-25 P 06-26 P 06-29 M",
+          "07-06 M 07-13 M 07-15 K 07-16 K 07-17 K 07-20 M 07-22 P 07-23 P 07-24 P 07-27 M",
+          "08-03 M 08-10 M 08-12 K 08-13 K 08-14 K 08-17 M 08-19 P 08-20 P 08-21 P 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-16 K 09-17 K 09-18 K 09-21 M 09-23 P 09-24 P 09-25 P 09-28 M",
+          "10-05 M 10-12 M 10-14 K 10-15 K 10-16 K 10-19 M 10-21 P 10-22 P 10-23 P 10-26 M",
+          "11-02 M 11-09 M 11-14 K! 11-16 M 11-19 KG 11-20 K 11-23 M 11-25 P 11-26 P 11-27 P 11-30 M",
+          "12-07 M 12-14 M 12-16 K 12-17 K 12-18 K 12-19 P! 12-21 M 12-23 P 12-24 P 12-28 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Rugvica",
+      "podrucje": "Utorak – Ulica Novo Svibje, Gardijska brigade Gromovi, Jadranska ulica …",
+      "ulice": ["Ulica Novo Svibje", "Gardijska brigade Gromovi", "Jadranska ulica", "Podravska ulica", "Zagrebačka ulica", "Krčka ulica", "Trstenički ulica odvojak I", "I. Zagrebački odvojak", "Posavska ulica odvojak I", "II. Posavski odvojak", "Cvjetna ulica", "III. Posavski odvojak", "Otok Nartski", "Ulica Miroslava Krleže", "Ulica Matije Gupca", "Vuročka cesta", "Ulica Stjepana Radića", "Ulica Svetog Mateja", "Ulica Josipa Barberića", "Ulica Josipa Barberića odvojak I", "Šolinova Ulica", "Posavska Ulica", "II. Trstenečki odvojak", "Trg dr. Franje Tuđmana", "I. Šolinov odvojak"],
+      "napomena": "Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Rugvica-raspored-za-2026-1.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-10 M! 01-13 M 01-14 K 01-15 K 01-16 K 01-20 M 01-21 P 01-22 P 01-23 P 01-27 M",
+          "02-03 M 02-10 M 02-11 K 02-12 K 02-13 K 02-17 M 02-18 P 02-19 P 02-20 P 02-24 M",
+          "03-03 M 03-10 M 03-11 K 03-12 K 03-13 K 03-17 M 03-18 P 03-19 P 03-20 P 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-15 K 04-16 K 04-17 K 04-21 M 04-22 P 04-23 P 04-24 P 04-28 M",
+          "05-05 M 05-12 M 05-13 K 05-14 KG 05-15 K 05-19 M 05-20 P 05-21 P 05-22 P 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-17 K 06-18 K 06-19 K 06-23 M 06-24 P 06-25 P 06-26 P 06-30 M",
+          "07-07 M 07-14 M 07-15 K 07-16 K 07-17 K 07-21 M 07-22 P 07-23 P 07-24 P 07-28 M",
+          "08-04 M 08-11 M 08-12 K 08-13 K 08-14 K 08-18 M 08-19 P 08-20 P 08-21 P 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-16 K 09-17 K 09-18 K 09-22 M 09-23 P 09-24 P 09-25 P 09-29 M",
+          "10-06 M 10-13 M 10-14 K 10-15 K 10-16 K 10-20 M 10-21 P 10-22 P 10-23 P 10-27 M",
+          "11-03 M 11-10 M 11-14 K! 11-17 M 11-19 K 11-20 K 11-23 G 11-24 M 11-25 P 11-26 P 11-27 P",
+          "12-01 M 12-08 M 12-15 M 12-16 K 12-17 K 12-18 K 12-19 P! 12-22 M 12-23 P 12-24 P 12-29 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Rugvica",
+      "podrucje": "Srijeda – Zagrebačka ulica, Novačka ulica, Brestovečka ulica …",
+      "ulice": ["Zagrebačka ulica", "Novačka ulica", "Brestovečka ulica", "Ulica Martina Bogdana", "Savska ulica", "Čoporova ulica", "Kurekova ulica", "Siromajska ulica", "Maslačkova ulica", "Selska cesta", "Jezerska ulica", "Stružečka ulica", "Majevička ulica", "Školska ulica odvojak I", "Školska ulica", "Posavska ulica", "Cvetkovićeva ulica", "Jakšićeva ulica", "Ulica Filipa Marušića", "I. Savski odvojak", "II. Savski odvojak", "I. Nartski odvojak", "Jalševečka ulica", "Dugoselska ulica", "Nartska ulica", "Sabolova ulica", "I. Sabolov odvojak", "Petkova ulica", "Stara cesta", "Ulica Đure Podleana", "Škrlecova ulica", "Grgačeva ulica", "Grabička ulica", "Gorička ulica", "Jalševečka Ulica odvojak I", "II. Dragošičkin odvojak"],
+      "napomena": "Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Rugvica-raspored-za-2026-1.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 MK 01-15 K 01-16 K 01-21 MP 01-22 P 01-23 P 01-28 M",
+          "02-04 M 02-11 MK 02-12 K 02-13 K 02-18 MP 02-19 P 02-20 P 02-25 M",
+          "03-04 M 03-11 MK 03-12 K 03-13 K 03-18 MP 03-19 P 03-20 P 03-25 M",
+          "04-01 M 04-08 M 04-15 MK 04-16 K 04-17 K 04-22 MP 04-23 P 04-24 P 04-29 M",
+          "05-06 M 05-13 MK 05-14 K 05-15 KG 05-20 MP 05-21 P 05-22 P 05-27 M",
+          "06-03 M 06-10 M 06-17 MK 06-18 K 06-19 K 06-24 MP 06-25 P 06-26 P",
+          "07-01 M 07-08 M 07-15 MK 07-16 K 07-17 K 07-22 MP 07-23 P 07-24 P 07-29 M",
+          "08-08 M! 08-12 MK 08-13 K 08-14 K 08-19 MP 08-20 P 08-21 P 08-26 M",
+          "09-02 M 09-09 M 09-16 MK 09-17 K 09-18 K 09-23 MP 09-24 P 09-25 P 09-30 M",
+          "10-07 M 10-14 MK 10-15 K 10-16 K 10-21 MP 10-22 P 10-23 P 10-28 M",
+          "11-04 M 11-11 M 11-14 MK! 11-19 K 11-20 K 11-24 G 11-25 MP 11-26 P 11-27 P",
+          "12-02 M 12-09 M 12-16 MK 12-17 K 12-18 K 12-19 P! 12-23 MP 12-24 P 12-30 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Rugvica",
+      "podrucje": "Četvrtak – Dugoselska ulica, Gospodarska ulica, Kolarova ulica …",
+      "ulice": ["Dugoselska ulica", "Gospodarska ulica", "Kolarova ulica", "Rugvička ulica", "Rugvička ulica odvojak I", "Rugvička ulica odvojak II", "Rugvička ulica odvojak III", "Rugvička ulica odvojak IV", "Dragošičkin odvojak I", "Dragošičkin odvojak III", "Ulica Zavoj", "Ulica Lazi", "Dragošičkin odvojak IV", "Kratka ulica", "Okunjska ulica", "Marekovićeva ulica", "ZavrtnicaJambrišakova ulica", "Stara cesta", "Galovićeva ulica", "Krajnova ulica", "Antoljakova ulica", "Staroškolska ulica", "Voćarska ulica", "Smolkova ulica", "Ulica Kralja Krešimira", "Juršićeva ulica", "Ulica Hrvatskog Proljeća", "Behetićeva ulica", "Martekova ulica", "Jandrovčeva ulica", "Kapitanova ulica", "Predavčeva ulica", "Zvonimirova ulica", "Trg Franje Tuđmana (Savska Ulica 1)", "Ulica J. Zorića"],
+      "napomena": "Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Rugvica-raspored-za-2026-1.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-14 K 01-15 MK 01-16 K 01-21 P 01-22 MP 01-23 P 01-29 M",
+          "02-05 M 02-11 K 02-12 MK 02-13 K 02-18 P 02-19 MP 02-20 P 02-26 M",
+          "03-05 M 03-11 K 03-12 MK 03-13 K 03-18 P 03-19 MP 03-20 P 03-26 M",
+          "04-02 M 04-09 M 04-15 K 04-16 MK 04-17 K 04-22 P 04-23 MP 04-24 P 04-30 M",
+          "05-07 M 05-13 K 05-14 MK 05-15 K 05-18 G 05-20 P 05-21 MP 05-22 P 05-28 M",
+          "06-06 M! 06-11 M 06-17 K 06-18 MK 06-19 K 06-24 P 06-25 MP 06-26 P",
+          "07-02 M 07-09 M 07-15 K 07-16 MK 07-17 K 07-22 P 07-23 MP 07-24 P 07-30 M",
+          "08-06 M 08-12 K 08-13 MK 08-14 K 08-19 P 08-20 MP 08-21 P 08-27 M",
+          "09-03 M 09-10 M 09-16 K 09-17 MK 09-18 K 09-23 P 09-24 MP 09-25 P",
+          "10-01 M 10-08 M 10-14 K 10-15 MK 10-16 K 10-21 P 10-22 MP 10-23 P 10-29 M",
+          "11-05 M 11-12 M 11-14 K! 11-19 MK 11-20 K 11-25 P 11-26 MP 11-27 PG",
+          "12-03 M 12-10 M 12-16 K 12-17 MK 12-18 K 12-19 P! 12-23 P 12-24 MP 12-31 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Rugvica",
+      "podrucje": "Petak – Ježevečka ulica, Dolenska ulica, Mađerska ulica …",
+      "ulice": ["Ježevečka ulica", "Dolenska ulica", "Mađerska ulica", "Sisečka ulica", "Friganova ulica", "Grgićeva ulica", "Sportska ulica", "Trojnička ulica", "Ulica Slavka Kolara", "Maglička ulica", "Donja Greda", "Savska ulica", "Ulica Bože Huzanića", "Prigorska ulica", "Posavska ulica", "Rugvička ulica", "Ulica Stjepana Radića", "Knezova ulica", "Ulica Matije Gupca", "Dugoselska ulica", "Puževa ulica", "Kuzmecova ulica", "Stara cesta", "Rumenčićeva ulica", "Munićeva ulica", "Štabina ulica", "Harabajsova ulica", "Đurinova ulica", "Kirinova ulica", "Marinov Put", "Sočnićeva ulica", "Šantićeva ulica", "Kičudina ulica", "Zagrebačka ulica", "Vranićeva ulica", "Presečka ulica", "Vranekova ulica", "Vrbančićeva ulica", "Matin Put", "Hajdukova ulica", "Čorakova ulica", "Šimunčeva ulica", "Velika ulica", "Bukova ulica", "Kuninova ulica", "Kestarova ulica", "Tukčeva ulica", "Careva ulica", "Kebrova ulica", "Đuranova ulica", "Basarićekova ulica", "Hrkina ulica", "Robićeva ulica", "Trebovečka ulica", "Školnikovčeva ulica", "Galenićeva ulica", "Jugova ulica", "Sajmišna ulica", "Prelosna ulica", "Švedijeva ulica", "Šurceva ulica", "Perčeva ulica", "Đurašinova ulica", "Kosakova ulica", "Dorodina ulica", "II Košćeva ulica", "I Kosceva ulica", "Pevekova ulica", "Obrstarova ulica", "Antolekova ulica", "Oborovska ulica", "Sočnova ulica", "Prevlačka ulica", "Bertakova ulica", "Zabočka ulica", "Jerkova ulica", "Severova ulica", "Belonjkova ulica", "Saharova ulica", "Črnec Rugvički", "Obedišće Ježevsko"],
+      "napomena": "Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Rugvica-raspored-za-2026-1.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-14 K 01-15 K 01-16 MK 01-21 P 01-22 P 01-23 MP 01-30 M",
+          "02-06 M 02-11 K 02-12 K 02-13 MK 02-18 P 02-19 P 02-20 MP 02-27 M",
+          "03-06 M 03-11 K 03-12 K 03-13 MK 03-18 P 03-19 P 03-20 MP 03-27 M",
+          "04-03 M 04-10 M 04-15 K 04-16 K 04-17 MK 04-22 P 04-23 P 04-24 MP",
+          "05-08 M 05-13 K 05-14 K 05-15 MK 05-19 G 05-20 P 05-21 P 05-22 MP 05-29 M",
+          "06-05 M 06-12 M 06-17 K 06-18 K 06-19 MK 06-24 P 06-25 P 06-26 MP",
+          "07-03 M 07-10 M 07-15 K 07-16 K 07-17 MK 07-22 P 07-23 P 07-24 MP 07-31 M",
+          "08-07 M 08-12 K 08-13 K 08-14 MK 08-19 P 08-20 P 08-21 MP 08-28 M",
+          "09-04 M 09-11 M 09-16 K 09-17 K 09-18 MK 09-23 P 09-24 P 09-25 MP",
+          "10-02 M 10-09 M 10-14 K 10-15 K 10-16 MK 10-21 P 10-22 P 10-23 MP 10-30 M",
+          "11-06 M 11-13 M 11-14 K! 11-19 K 11-20 MK 11-25 P 11-26 P 11-27 MP 11-30 G",
+          "12-04 M 12-11 M 12-16 K 12-17 K 12-18 MK 12-19 MP! 12-23 P 12-24 P"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Stupnik",
+      "podrucje": "Četvrtak – Gorenska ulica, Kratka Ulica, Trdakova ulica …",
+      "ulice": ["Gorenska ulica", "Kratka Ulica", "Trdakova ulica", "Široka ulica", "Gornjostupnička ulica", "Stupničke Šipkovine", "Dolenica", "Gospodarska ulica", "Trgovačka ulica", "Ledinska", "Ledinska ulica", "Nova Ulica", "Ulica Nikole Tesle", "Japjejci", "Ograjska Ulica", "Pod Bregom", "Žužići", "Žužići odvojak I i II", "Božići", "Topoljska", "Božići Ulica odvojak I i II", "Donjostupnička ulica", "Drobilina", "Drobilina odvojak I i II", "Hrastinski put", "Hrastina", "Meglajci", "Jugova ulica", "Katričeki", "Štefanjska Ulica", "Rožmanka", "Kračnica", "Ferde Belaja", "Ulica Svetog Benedikta", "Selište", "Šetalište", "Voćarska ulica", "Ulica Dragutina Novaka", "Pavlovićka", "Pavlovićka odvojak I", "Cvjetna ulica"],
+      "napomena": "Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Mobilno reciklažno dvorište: 11.3., 24.6., 2.9., 16.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Stupnik-raspored-za-2026.-dopune.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-05 B 01-08 M 01-10 K! 01-12 B 01-13 P 01-15 M 01-19 B 01-20 K 01-22 M 01-26 B 01-27 P 01-29 M",
+          "02-02 B 02-03 K 02-05 M 02-09 B 02-10 P 02-12 M 02-16 B 02-17 K 02-19 M 02-23 B 02-24 P 02-26 M",
+          "03-02 B 03-05 M 03-09 B 03-10 K 03-12 M 03-16 B 03-17 P 03-19 M 03-23 B 03-24 K 03-26 M 03-30 B 03-31 P",
+          "04-02 M 04-04 B! 04-07 K 04-09 M 04-13 B 04-14 P 04-16 M 04-20 B 04-21 K 04-23 M 04-27 B 04-28 P 04-30 M",
+          "05-04 B 05-05 K 05-07 M 05-11 B 05-12 P 05-14 M 05-18 B 05-19 K 05-21 M 05-25 BG 05-26 P 05-28 M",
+          "06-01 B 06-06 M! 06-08 B 06-09 K 06-11 M 06-15 B 06-16 P 06-18 M 06-20 B! 06-23 K 06-25 M 06-29 B 06-30 P",
+          "07-02 M 07-06 B 07-07 K 07-09 M 07-13 B 07-14 P 07-16 M 07-20 B 07-21 K 07-23 M 07-27 B 07-28 P 07-29 S 07-30 M",
+          "08-03 B 08-04 K 08-06 M 08-10 B 08-11 P 08-13 M 08-17 B 08-18 K 08-20 M 08-24 B 08-25 P 08-27 M 08-31 B",
+          "09-03 M 09-07 B 09-08 K 09-10 M 09-14 B 09-15 P 09-17 M 09-21 B 09-22 K 09-24 M 09-28 B 09-29 P",
+          "10-01 M 10-05 B 10-06 K 10-08 M 10-12 B 10-13 P 10-15 M 10-19 B 10-20 PK 10-22 M 10-26 B 10-29 M",
+          "11-02 B 11-03 K 11-05 M 11-09 B 11-10 P 11-12 M 11-16 B 11-17 K 11-19 M 11-23 B 11-24 P 11-26 M 11-30 B",
+          "12-03 M 12-07 B 12-08 K 12-10 M 12-14 B 12-15 P 12-17 M 12-21 B 12-22 K 12-24 M 12-28 B 12-29 P 12-31 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Stupnik",
+      "podrucje": "Petak – Stupničkoobreška ulica, Horvatska ulica, Marovići …",
+      "ulice": ["Stupničkoobreška ulica", "Horvatska ulica", "Marovići", "Farkači", "Ulica Javora", "Ulica Hrastova", "Micani", "Ulica jakoba Fratrića", "Cigulići", "Botinka", "Dvorski Put", "Lipovac", "Ulica Svetog Benedikta", "Trgovenska ulica", "Horvatinci ulica", "Ulica Runtaši", "Vernička ulica", "Svetog Benedikta odvojak I", "Medcestami", "Domovićev Breg", "Domovićev Breg odvojak I", "Domovićeva Ulica", "Ulica Kovačičko", "Kobasova ulica", "Lopuhi", "Ulica Svetog Florijana", "Jugova ulica", "Katrići", "Majdačka Ulica", "Gradek", "odvojak Gornjostupničke ulice", "Zavrti", "Rubna Ulica", "Botinka 1. odvojak", "Prudnice", "Ulica Josipa Sačića", "Gornjostupnička 1. odvojak"],
+      "napomena": "Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Mobilno reciklažno dvorište: 11.3., 24.6., 2.9., 16.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Stupnik-raspored-za-2026.-dopune.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 B 01-09 M 01-10 K! 01-12 B 01-13 P 01-16 M 01-19 B 01-20 K 01-23 M 01-26 B 01-27 P 01-30 M",
+          "02-02 B 02-03 K 02-06 M 02-09 B 02-10 P 02-13 M 02-16 B 02-17 K 02-20 M 02-23 B 02-24 P 02-27 M",
+          "03-02 B 03-06 M 03-09 B 03-10 K 03-13 M 03-16 B 03-17 P 03-20 M 03-23 B 03-24 K 03-27 M 03-30 B 03-31 P",
+          "04-03 M 04-04 B! 04-07 K 04-10 M 04-13 B 04-14 P 04-17 M 04-20 B 04-21 K 04-24 M 04-27 B 04-28 P",
+          "05-02 M! 05-04 B 05-05 K 05-08 M 05-11 B 05-12 P 05-15 M 05-18 B 05-19 K 05-22 M 05-25 BG 05-26 P 05-29 M",
+          "06-01 B 06-05 M 06-08 B 06-09 K 06-12 M 06-15 B 06-16 P 06-19 M 06-20 B! 06-23 K 06-26 M 06-29 B 06-30 P",
+          "07-03 M 07-06 B 07-07 K 07-10 M 07-13 B 07-14 P 07-17 M 07-20 B 07-21 K 07-24 M 07-27 B 07-28 P 07-29 S 07-31 M",
+          "08-03 B 08-04 K 08-07 M 08-10 B 08-11 P 08-14 M 08-17 B 08-18 K 08-21 M 08-24 B 08-25 P 08-28 M 08-31 B",
+          "09-04 M 09-07 B 09-08 K 09-11 M 09-14 B 09-15 P 09-18 M 09-21 B 09-22 K 09-25 M 09-28 B 09-29 P",
+          "10-02 M 10-05 B 10-06 K 10-09 M 10-12 B 10-13 P 10-16 M 10-19 B 10-20 PK 10-23 M 10-26 B 10-30 M",
+          "11-02 B 11-03 K 11-06 M 11-09 B 11-10 P 11-13 M 11-16 B 11-17 K 11-20 M 11-23 B 11-24 P 11-27 M 11-30 B",
+          "12-04 M 12-07 B 12-08 K 12-11 M 12-14 B 12-15 P 12-18 M 12-21 B 12-22 K 12-23 M! 12-28 B 12-29 P"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Žumberak",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 19.1., 30.4., 17.7., 30.11. (lokacije i vrijeme u PDF-u). Izvor: https://eko-flor.hr/wp-content/uploads/2025/12/Opcina-Zumberak-raspored-za-2026.pdf (PDF izmijenjen 30.12.2025.)",
+      "raw": {
+        "2026": [
+          "01-08 K 01-09 P 01-13 M 01-27 M",
+          "02-05 K 02-06 P 02-10 M 02-24 M",
+          "03-05 K 03-06 P 03-10 M 03-24 M",
+          "04-02 K 04-03 P 04-07 M 04-21 M",
+          "05-07 K 05-08 P 05-12 M 05-26 M",
+          "06-05 P 06-06 K! 06-09 M 06-19 G 06-23 M",
+          "07-02 K 07-03 P 07-07 M 07-21 M",
+          "08-04 M 08-06 K 08-07 P 08-18 M",
+          "09-01 M 09-03 K 09-04 P 09-15 M 09-29 M",
+          "10-01 K 10-02 P 10-06 M 10-20 M",
+          "11-03 M 11-05 K 11-06 P 11-17 M",
+          "12-03 K 12-04 P 12-08 M 12-22 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Jastrebarsko",
+      "podrucje": "Teren ponedjeljak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda, četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Objavljeni raspored počinje u mjesecu: lipanj 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/05/Grad-Jastrebarsko-raspored-za-2026_MT.pdf (PDF izmijenjen 11.05.2026.)",
+      "raw": {
+        "2026": [
+          "06-01 MPK 06-08 M 06-15 M 06-20 M! 06-29 M",
+          "07-06 MPK 07-13 M 07-20 M 07-27 M",
+          "08-03 MPKG 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-07 MPK 09-14 M 09-21 M 09-28 M",
+          "10-05 MPK 10-12 M 10-19 M 10-26 M",
+          "11-02 MPK 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-07 MPK 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Jastrebarsko",
+      "podrucje": "Teren utorak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda, četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Objavljeni raspored počinje u mjesecu: lipanj 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/05/Grad-Jastrebarsko-raspored-za-2026_MT.pdf (PDF izmijenjen 11.05.2026.)",
+      "raw": {
+        "2026": [
+          "06-02 MPK 06-09 M 06-16 M 06-23 M 06-30 M",
+          "07-07 MPK 07-14 M 07-21 M 07-28 M",
+          "08-04 MPK 08-07 G 08-11 M 08-18 M 08-25 M",
+          "09-01 M 09-08 MPK 09-15 M 09-22 M 09-29 M",
+          "10-06 MPK 10-13 M 10-20 M 10-27 M",
+          "11-03 MPK 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 MPK 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Jastrebarsko",
+      "podrucje": "Teren srijeda (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda, četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Objavljeni raspored počinje u mjesecu: lipanj 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/05/Grad-Jastrebarsko-raspored-za-2026_MT.pdf (PDF izmijenjen 11.05.2026.)",
+      "raw": {
+        "2026": [
+          "06-03 MPK 06-10 M 06-17 M 06-24 M",
+          "07-01 M 07-08 MPK 07-15 M 07-22 M 07-29 M",
+          "08-08 MPK! 08-10 G 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-09 MPK 09-16 M 09-23 M 09-30 M",
+          "10-07 MPK 10-14 M 10-21 M 10-28 M",
+          "11-04 MPK 11-11 M 11-14 M! 11-25 M",
+          "12-02 M 12-09 MPK 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Jastrebarsko",
+      "podrucje": "Teren četvrtak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda, četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Objavljeni raspored počinje u mjesecu: lipanj 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/05/Grad-Jastrebarsko-raspored-za-2026_MT.pdf (PDF izmijenjen 11.05.2026.)",
+      "raw": {
+        "2026": [
+          "06-06 MPK! 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-09 MPK 07-16 M 07-23 M 07-30 M",
+          "08-06 MPK 08-12 G 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-10 MPK 09-17 M 09-24 M",
+          "10-01 M 10-08 MPK 10-15 M 10-22 M 10-29 M",
+          "11-05 MPK 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-10 MPK 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Jastrebarsko",
+      "podrucje": "Teren petak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda, četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Objavljeni raspored počinje u mjesecu: lipanj 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/05/Grad-Jastrebarsko-raspored-za-2026_MT.pdf (PDF izmijenjen 11.05.2026.)",
+      "raw": {
+        "2026": [
+          "06-05 MPK 06-12 M 06-19 M 06-26 M",
+          "07-03 M 07-10 MPK 07-17 M 07-24 M 07-31 M",
+          "08-07 MPK 08-14 MG 08-21 M 08-28 M",
+          "09-04 M 09-11 MPK 09-18 M 09-25 M",
+          "10-02 M 10-09 MPK 10-16 M 10-23 M 10-30 M",
+          "11-06 MPK 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-11 MPK 12-18 M 12-19 M!"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Pisarovina",
+      "podrucje": "Utorak – Donja Kupčina, Bratina, Lučelnica …",
+      "ulice": ["Donja Kupčina", "Bratina", "Lučelnica", "Belečaki", "Velika Jamnička", "Trnjanska ulica", "Podgorje Jamničko", "Ulica Vladimira Nazora", "Zagrebačka ulica", "Karlovačka Ulica", "Sajmišna Ulica", "Trg Stjepana Radića", "Bregana Pisarovinska", "Gorica Jamnička", "Ulica Ivana Gorana Kovačića", "Jamnica Pisarovinska", "Topolovec Pisarovinski", "Novi Topolovec", "Dvoranci i Selsko Brdo"],
+      "napomena": "Plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Mobilno reciklažno dvorište: 3.4., 3.7., 6.11. (lokacije i vrijeme u PDF-u). Izmjena rasporeda za srpanj (obavijest 10.7.2026., https://mull-trans.hr/2026/07/10/vazna-obavijest-izmjena-rasporeda-odvoza-otpada-u-opcini-pisarovina-srpanj-2026/): miješani 14.7., 15.7., 28.7., 29.7. umjesto 21.7., 22.7.; papir 21.7., 22.7. umjesto 14.7., 15.7.; plastika 23.7., 24.7. umjesto 16.7., 17.7. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Pisarovina-raspored-za-2026.-dopuna.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-10 M! 01-13 K 01-15 P 01-16 P 01-20 M",
+          "02-03 M 02-10 K 02-12 P 02-13 P 02-17 M",
+          "03-03 M 03-10 K 03-12 P 03-13 P 03-17 M 03-31 M",
+          "04-07 M 04-14 K 04-16 P 04-17 P 04-21 M 04-28 S",
+          "05-05 M 05-12 K 05-14 P 05-15 P 05-19 M",
+          "06-02 M 06-09 K 06-11 P 06-12 P 06-16 M 06-30 M",
+          "07-07 M 07-14 M 07-21 K 07-23 P 07-24 P 07-28 M",
+          "08-04 M 08-11 K 08-13 P 08-14 P 08-18 M",
+          "09-01 MG 09-08 K 09-10 P 09-11 P 09-15 M 09-29 M",
+          "10-06 M 10-13 K 10-15 P 10-16 P 10-20 M 10-27 S",
+          "11-03 M 11-10 K 11-12 P 11-13 P 11-17 M",
+          "12-01 M 12-15 M 12-19 P! 12-22 K 12-24 P 12-29 M"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Pisarovina",
+      "podrucje": "Srijeda – Pisarovina, Gradec i Sredičko/Lijevo Sredičko, Zagrebačka Ulica …",
+      "ulice": ["Pisarovina", "Gradec i Sredičko/Lijevo Sredičko", "Zagrebačka Ulica", "Trnjanska Ulica", "Ulica Ivana Gorana Kovačića", "Trg Stjepana Radića", "Karlovačka ulica", "Ulica Vladimira Nazora", "Vrtna ulica", "Podgorje Jamničko", "Ulica Dr. Otmar Zwiebelhofer", "Sajmišna ulica", "Gospodarska Ulica", "Ribnjačarska Ulica", "Dvoranjski put", "Kupska ulica", "Gradec Pokupski", "Ulica Kupski Slapovi", "Ulica Putina", "Jurajčeva ulica", "Školska ulica", "Tomasovićeva ulica", "Mirna Ulica", "Krčac Ulica", "Vidačka ulica", "Vikendaška ulica", "Vikendaška ulica odvojak I", "Vikendaška ulica odvojak II", "Topolonjakova ulica", "Obala Kupe", "Mirni Ulični odvojak I", "II", "III", "IV i V", "Cvetnička ulica", "Odvojak obale Kupe", "Ulica Kupski Slapovi Odvojak I", "Ulica Zdenac", "Kravarščica ulica", "Lukšina ulica", "Kravarščica ulica odvojak"],
+      "napomena": "Plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Mobilno reciklažno dvorište: 3.4., 3.7., 6.11. (lokacije i vrijeme u PDF-u). Izmjena rasporeda za srpanj (obavijest 10.7.2026., https://mull-trans.hr/2026/07/10/vazna-obavijest-izmjena-rasporeda-odvoza-otpada-u-opcini-pisarovina-srpanj-2026/): miješani 14.7., 15.7., 28.7., 29.7. umjesto 21.7., 22.7.; papir 21.7., 22.7. umjesto 14.7., 15.7.; plastika 23.7., 24.7. umjesto 16.7., 17.7. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Pisarovina-raspored-za-2026.-dopuna.pdf (PDF izmijenjen 23.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 K 01-15 P 01-16 P 01-21 M",
+          "02-04 M 02-11 K 02-12 P 02-13 P 02-18 M",
+          "03-04 M 03-11 K 03-12 P 03-13 P 03-18 M",
+          "04-01 M 04-08 M 04-15 K 04-16 P 04-17 P 04-22 M 04-29 S",
+          "05-06 M 05-13 K 05-14 P 05-15 P 05-20 M",
+          "06-03 M 06-10 K 06-11 P 06-12 P 06-17 M",
+          "07-01 M 07-08 M 07-15 M 07-22 K 07-23 P 07-24 P 07-29 M",
+          "08-08 M! 08-12 K 08-13 P 08-14 P 08-19 M",
+          "09-02 M 09-03 G 09-09 K 09-10 P 09-11 P 09-16 M 09-30 M",
+          "10-07 M 10-14 K 10-15 P 10-16 P 10-21 M 10-28 S",
+          "11-04 M 11-11 K 11-12 P 11-13 P 11-14 M!",
+          "12-02 M 12-16 M 12-19 P! 12-23 K 12-24 P 12-30 M"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Ponedjeljak – Svetonedeljska cesta, Ulica Siget 1, Ulica Siget 2 …",
+      "ulice": ["Svetonedeljska cesta", "Ulica Siget 1", "Ulica Siget 2", "Ulica Vladimira Nazora", "Brezjanski put", "Ulica Matija Gupca", "Stubička ulica", "Radnička ulica", "Selska ulica", "Karabljeva ulica", "Sopićeva Ulica", "Ulica Jakova Gotovca", "Ulica Marina Držića", "Turkovićeva ulica", "Ulica Ferde Livadića", "Ulica Marka Marulića", "Ulica Franje Gredelja", "Omladinska ulica", "Ulica Marijana Stilinovića", "Ribnjak", "Ulica Petra Preradovića", "Ulica Stanka Vraza", "Vodovodna", "Ulica Padež", "Plešivička", "Ulica Lug", "Industrijska ulica", "Obrtnička ulica", "Plešivička ulica I. Odvojak", "Dužica", "Ulica Loza I", "Ulica Augusta Šenoe", "Ulica Augusta Šenoe odvojak I", "Ratkajeva ulica", "Malogoriška ulica", "Ulica Ljudevita Gaja", "Ivanska ulica", "Krijačica", "Klenovec ulica", "Nedeljščak ulica", "Rakička ulica", "Posavska ulica", "Horvatica ulica", "Ulica Plohi", "Trešnjevačka Ulica", "Trešnjevačka ulica odvojak I", "Trešnjevačka ulica odvojak II", "Strma ulica", "Kozjak", "Pušinec", "Svetonedeljski Breg", "Ulica Antuna Gustava Matoša", "Vinogradska ulica", "Odvojak Vinogradske ulice", "Okićka ulica"],
+      "napomena": "Staklo: PDF za cijeli grad navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Biootpad: svaki ponedjeljak prema PDF-u; pomak zbog blagdana nije objavljen. Grad Sveta Nedelja (Zagrebačka županija), ne Općina Sveta Nedelja u Istri. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Sveta-Nedelja-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-19 MB 01-26 MBPK",
+          "02-02 MB 02-09 MB 02-16 MB 02-23 MBPK",
+          "03-02 MB 03-09 MB 03-16 MB 03-23 MBPK 03-30 MB",
+          "04-04 M! 04-06 B 04-13 MB 04-20 MBPK 04-27 MBS 04-28 S 04-29 S",
+          "05-04 MB 05-11 MB 05-18 MB 05-25 MBPK",
+          "06-01 MB 06-08 MB 06-15 MB 06-20 MPK! 06-22 B 06-26 G 06-29 MB",
+          "07-06 MB 07-13 MB 07-20 MB 07-27 MBPK",
+          "08-03 MB 08-10 MB 08-17 MB 08-24 MBPK 08-31 MB",
+          "09-07 MB 09-14 MB 09-21 MBPK 09-28 MB",
+          "10-05 MB 10-12 MB 10-19 MB 10-21 S 10-22 S 10-23 S 10-26 MBPK",
+          "11-02 MB 11-09 MB 11-16 MB 11-23 MBPK 11-30 MB",
+          "12-07 MB 12-14 MB 12-21 MBPK 12-28 MB"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Utorak – Ulica Kralja Tomislava, Ulica Janka Mišića, Pružna ulica …",
+      "ulice": ["Ulica Kralja Tomislava", "Ulica Janka Mišića", "Pružna ulica", "Ulica Hrvatskih Branitelja", "Ulica Josipa Kozarca", "Obrtnička ulica", "Tratinska ulica", "Ulica Augusta Šenoe", "Ulica Stanka Vraza", "Hoto Vile (Ulica Bagrema", "Ulica Javora", "Platana", "Ulica Jasena", "Ulica Sviba", "Ulica Lipa)", "Cvjetna Ulica", "Cvjetna ulica odvojak I", "II i III", "Plješivička Ulica", "Zaorska ulica", "Topolovec", "Ulica Dr. Franje Tuđmana", "Ulica Vladimira Nazora", "Vukovarska ulica", "Susedgradska ulica", "Kalnička ulica", "Gorjanska ulica", "Ulica Novačko Polje", "Primorska Ulica", "Kumrovečka Ulica", "Slovenska Ulica", "Primorska ulica", "Kratka ulica", "Zlatarska ulica", "Stubička ulica", "Stara Cesta", "Savska Ulica", "Ulica Zdenci", "Kolodvorska ulica", "Kirinova ulica", "Gospodarska ulica", "Kipišće", "Ulica Vladimira Gortana", "Dubravica", "Ulica Matije Gupca", "Zagrebačka Ulica", "Slavonska Ulica", "Dalmatinska ulica", "Samoborska Cesta", "Ulica Ljudevita Gaja", "Ulica Tina Ujevića", "Ulica Galici", "Ulica Vjekoslava Majera", "Zlodijeva ulica", "Vrbovečka ulica", "Nova Csta", "Harambašićeva ulica", "Ulica franje Francetića", "Ulica Ivana Gorana Kovačića", "Preićeva ulica", "Ulica Lovašića", "Kresišće ulica", "Trg Lazina", "Trnska ulica", "Ulica Jure i Nikole Cvetkovića", "Čuvela ulica", "Ulica Ivana Gundulića", "Školska", "Ulica Ferde Livadića", "Ulica Ivane Brlić Mažuranić", "Ulica Ante Starčevića", "Prečna ulica"],
+      "napomena": "Staklo: PDF za cijeli grad navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Biootpad: svaki ponedjeljak prema PDF-u; pomak zbog blagdana nije objavljen. Grad Sveta Nedelja (Zagrebačka županija), ne Općina Sveta Nedelja u Istri. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Sveta-Nedelja-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 B 01-06 M 01-12 B 01-13 M 01-19 B 01-20 M 01-26 B 01-27 MPK",
+          "02-02 B 02-03 M 02-09 B 02-10 M 02-16 B 02-17 M 02-23 B 02-24 MPK",
+          "03-02 B 03-03 M 03-09 B 03-10 M 03-16 B 03-17 M 03-23 B 03-24 MPK 03-30 B 03-31 M",
+          "04-06 B 04-07 M 04-13 B 04-14 M 04-20 B 04-21 MPK 04-27 BS 04-28 MS 04-29 S",
+          "05-04 B 05-05 M 05-11 B 05-12 M 05-18 B 05-19 M 05-25 B 05-26 MPK",
+          "06-01 B 06-02 M 06-08 B 06-09 M 06-15 B 06-16 M 06-22 B 06-23 MPK 06-29 B 06-30 MG",
+          "07-06 B 07-07 M 07-13 B 07-14 M 07-20 B 07-21 M 07-27 B 07-28 MPK",
+          "08-03 B 08-04 M 08-10 B 08-11 M 08-17 B 08-18 M 08-24 B 08-25 MPK 08-31 B",
+          "09-01 M 09-07 B 09-08 M 09-14 B 09-15 M 09-21 B 09-22 MPK 09-28 B 09-29 M",
+          "10-05 B 10-06 M 10-12 B 10-13 M 10-19 B 10-20 M 10-21 S 10-22 S 10-23 S 10-26 B 10-27 MPK",
+          "11-02 B 11-03 M 11-09 B 11-10 M 11-16 B 11-17 M 11-23 B 11-24 MPK 11-30 B",
+          "12-01 M 12-07 B 12-08 M 12-14 B 12-15 M 12-21 B 12-22 MPK 12-28 B 12-29 M"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Srijeda – Kerestinečka cesta, Kerestinečka cesta odvojak 1 i 2, Dekanići …",
+      "ulice": ["Kerestinečka cesta", "Kerestinečka cesta odvojak 1 i 2", "Dekanići", "Dekanići odovjak 1", "2 i 3", "4", "5 i 6", "Ravnice", "Purgarija", "Siječanjska ulica", "Purgarija odvojak I i II", "Ulica Šikara", "Klemenićeva Ulica", "Rimski Trg", "Ulica Mate Lovraka", "Ulica Augusta Šenoe", "Ulica Antuna Mihanovića", "Ulica Vlatka Mačeka", "Deakov Klanje", "Šabarići ulica", "Ulica Matije Gupca", "Ulica Slave Ratkaj", "Stublov Zdenac", "Ulica Ljudevita Gaja", "Ulica Svete Marije Magdalene", "Topolina ulica", "Srebrnjak", "Ulica Krajačići", "Ulica Puhali", "Ulica Puhali odvojak", "Svetonedeljska cesta", "Potočna ulica", "Ladovići", "Ladovići odvojak I", "Ulica Braće Radić", "Ulica Tina Ujevića", "Cjetno Naselje", "Ulica Antuna Gustava Matoša", "Miholićeva ulica", "Ulica Mirislava Krleže", "Ulica Vladimira Nazora", "Radnička ulica", "Čižmešijeva ulica", "Širanovići", "Širanovići odvojak I", "Čižmešijeva ulica odvojak I", "Travanjska ulica", "Anina ulica", "Listopadska ulica", "Rujanska ulica"],
+      "napomena": "Staklo: PDF za cijeli grad navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Biootpad: svaki ponedjeljak prema PDF-u; pomak zbog blagdana nije objavljen. Grad Sveta Nedelja (Zagrebačka županija), ne Općina Sveta Nedelja u Istri. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Sveta-Nedelja-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 M 01-12 B 01-14 M 01-19 B 01-21 M 01-26 B 01-28 MPK",
+          "02-02 B 02-04 M 02-09 B 02-11 M 02-16 B 02-18 M 02-23 B 02-25 MPK",
+          "03-02 B 03-04 M 03-09 B 03-11 M 03-16 B 03-18 M 03-23 B 03-25 MPK 03-30 B",
+          "04-01 M 04-06 B 04-08 M 04-13 B 04-15 M 04-20 B 04-22 MPK 04-27 BS 04-28 S 04-29 MS",
+          "05-04 B 05-06 M 05-11 B 05-13 M 05-18 B 05-20 M 05-25 B 05-27 MPK",
+          "06-01 B 06-03 M 06-08 B 06-10 M 06-15 B 06-17 M 06-22 B 06-24 MPK 06-29 B",
+          "07-01 M 07-03 G 07-06 B 07-08 M 07-13 B 07-15 M 07-20 B 07-22 M 07-27 B 07-29 MPK",
+          "08-03 B 08-08 M! 08-10 B 08-12 M 08-17 B 08-19 M 08-24 B 08-26 MPK 08-31 B",
+          "09-02 M 09-07 B 09-09 M 09-14 B 09-16 M 09-21 B 09-23 MPK 09-28 B 09-30 M",
+          "10-05 B 10-07 M 10-12 B 10-14 M 10-19 B 10-21 MS 10-22 S 10-23 S 10-26 B 10-28 MPK",
+          "11-02 B 11-04 M 11-09 B 11-11 M 11-14 M! 11-16 B 11-23 B 11-25 MPK 11-30 B",
+          "12-02 M 12-07 B 12-09 M 12-14 B 12-16 M 12-21 B 12-23 MPK 12-28 B 12-30 M"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Četvrtak – Zagrebačka ulica, Radnička ulica, Savišće …",
+      "ulice": ["Zagrebačka ulica", "Radnička ulica", "Savišće", "Ulica Ribel", "Ulica Stari Hrast", "Selišće", "Ulica Augusta Cesarca", "Voćarska Ulica", "Rakitska ulica", "Ulica Gustava Krkleca", "Ulica Augusta Šenoe", "Novačka cesta", "Novački odvojak I", "Novački odovjak II", "Ulica Loze", "Gmajna Ulica", "Kelekovići ulica", "Selska ulica", "Videkovići", "Školska ulica", "Klanjec", "Ulica Antuna Augustinčića", "Ulica Matije Gupca", "Rakitska ulica odvojak I", "II", "III", "IV", "V i VI", "Jezerska ulica", "Ulica Ivana Mažuranića", "Obrtnička ulica", "Velebitska ulica", "Ulica DR. Franje Tuđmana", "Cvjetna Ulica", "Ulica Zdenčice", "Ulica Ledine", "Siget glavna cesta", "Sportska ulica", "Ulica Braće Ribara", "Bosanska ulica", "Poljski Put", "Gacka Ulica", "Podrebar ulica", "Proljetna ulica", "Žumberačka Ulica", "Prudnjaki", "Zelinska Ulica i Prigorska ulica"],
+      "napomena": "Staklo: PDF za cijeli grad navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Biootpad: svaki ponedjeljak prema PDF-u; pomak zbog blagdana nije objavljen. Grad Sveta Nedelja (Zagrebačka županija), ne Općina Sveta Nedelja u Istri. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Sveta-Nedelja-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-05 B 01-08 M 01-12 B 01-15 M 01-19 B 01-22 M 01-26 B 01-29 MPK",
+          "02-02 B 02-05 M 02-09 B 02-12 M 02-16 B 02-19 M 02-23 B 02-26 MPK",
+          "03-02 B 03-05 M 03-09 B 03-12 M 03-16 B 03-19 M 03-23 B 03-26 MPK 03-30 B",
+          "04-02 M 04-06 B 04-09 M 04-13 B 04-16 M 04-20 B 04-23 MPK 04-27 BS 04-28 S 04-29 S 04-30 M",
+          "05-04 B 05-07 M 05-11 B 05-14 M 05-18 B 05-21 M 05-25 B 05-28 MPK",
+          "06-01 B 06-06 M! 06-08 B 06-11 M 06-15 B 06-18 M 06-22 B 06-25 MPK 06-29 B",
+          "07-02 M 07-06 B 07-07 G 07-09 M 07-13 B 07-16 M 07-20 B 07-23 M 07-27 B 07-30 MPK",
+          "08-03 B 08-06 M 08-10 B 08-13 M 08-17 B 08-20 M 08-24 B 08-27 MPK 08-31 B",
+          "09-03 M 09-07 B 09-10 M 09-14 B 09-17 M 09-21 B 09-24 MPK 09-28 B",
+          "10-01 M 10-05 B 10-08 M 10-12 B 10-15 M 10-19 B 10-21 S 10-22 MS 10-23 S 10-26 B 10-29 MPK",
+          "11-02 B 11-05 M 11-09 B 11-12 M 11-16 B 11-19 M 11-23 B 11-26 MPK 11-30 B",
+          "12-03 M 12-07 B 12-10 M 12-14 B 12-17 M 12-21 B 12-24 MPK 12-28 B 12-31 M"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Petak – Novačka Ulica, Rakitska Ulica, Ograja …",
+      "ulice": ["Novačka Ulica", "Rakitska Ulica", "Ograja", "Ulica Svetog Ivana", "Obrovec ulica", "Žugci", "Tratina", "Topolje", "Čakanići", "Jakšina ulica", "Habdelići ulica", "Rakajska ulica", "Celinka ulica", "Ulica Damira Horvatiaća", "Markovići", "Videkovići odvojak I", "Vojvodići ulica", "Vedekovići II i III odovjak", "Ulica Svetog Andrije", "Panteki", "Plješivička ulica", "Selčica ulica", "Rakitovec", "Trg Lipa", "Klest ulica", "Cvjetna ulica", "Gospodska ulica", "Ulica Ljudevita Gaja", "Vrtna ulica", "Ulica Marije Jurić Zagorke", "Ulica Vladimira Nazora", "Ulica Nikole Tesle", "Ulica Antuna Mihanovića", "Stara Cesta", "Filipovićeva Ulica", "Harambašićeva ulica", "Mlinska ulica", "Stari Vrti", "Ljubljanska ulica", "Ulica Dr. Franje Tuđmana", "Položnica", "Javorska ulica", "Zagorska ulica", "Obrtnička ulica", "Drenčica ulica", "Lička ulica", "Vodovodna ulica", "Industrijska ulica", "Bumbarov put", "Zagrebačka ulica", "Omladinska ulica", "Dugi Put", "Selska ulica", "Selska ulica odvojak", "Ulica Matije Gupca"],
+      "napomena": "Staklo: PDF za cijeli grad navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Biootpad: svaki ponedjeljak prema PDF-u; pomak zbog blagdana nije objavljen. Grad Sveta Nedelja (Zagrebačka županija), ne Općina Sveta Nedelja u Istri. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Sveta-Nedelja-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 B 01-09 M 01-12 B 01-16 M 01-19 B 01-23 M 01-26 B 01-30 MPK",
+          "02-02 B 02-06 M 02-09 B 02-13 M 02-16 B 02-20 M 02-23 B 02-27 MPK",
+          "03-02 B 03-06 M 03-09 B 03-13 M 03-16 B 03-20 M 03-23 B 03-27 MPK 03-30 B",
+          "04-03 M 04-06 B 04-10 M 04-13 B 04-17 M 04-20 B 04-24 MPK 04-27 BS 04-28 S 04-29 S",
+          "05-02 M! 05-04 B 05-08 M 05-11 B 05-15 M 05-18 B 05-22 M 05-25 B 05-29 MPK",
+          "06-01 B 06-05 M 06-08 B 06-12 M 06-15 B 06-19 M 06-22 B 06-26 MPK 06-29 B",
+          "07-03 M 07-06 B 07-10 MG 07-13 B 07-17 M 07-20 B 07-24 M 07-27 B 07-31 MPK",
+          "08-03 B 08-07 M 08-10 B 08-14 M 08-17 B 08-21 M 08-24 B 08-28 MPK 08-31 B",
+          "09-04 M 09-07 B 09-11 M 09-14 B 09-18 M 09-21 B 09-25 MPK 09-28 B",
+          "10-02 M 10-05 B 10-09 M 10-12 B 10-16 M 10-19 B 10-21 S 10-22 S 10-23 MS 10-26 B 10-30 MPK",
+          "11-02 B 11-06 M 11-09 B 11-13 M 11-16 B 11-20 M 11-23 B 11-27 MPK 11-30 B",
+          "12-04 M 12-07 B 12-11 M 12-14 B 12-18 M 12-19 MPK! 12-21 B 12-28 B"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Donja Stubica",
+      "podrucje": "Teren DS-1, ponedjeljak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 27.3., 27.8., 27.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Donja-Stubica-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 K 01-20 P 01-26 M",
+          "02-02 M 02-09 M 02-16 K 02-17 P 02-23 M",
+          "03-02 M 03-09 K 03-10 P 03-16 M 03-30 M",
+          "04-04 M! 04-13 M 04-20 K 04-21 P 04-27 M",
+          "05-04 M 05-11 M 05-18 K 05-19 P 05-25 M",
+          "06-01 G 06-08 M 06-15 K 06-16 P 06-20 M! 06-29 M",
+          "07-06 M 07-13 K 07-14 P 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 K 08-18 P 08-24 M",
+          "09-07 M 09-14 K 09-15 P 09-21 M 09-28 M",
+          "10-05 M 10-12 M 10-19 K 10-20 P 10-26 M",
+          "11-02 M 11-09 M 11-16 K 11-17 P 11-23 M",
+          "12-07 M 12-14 K 12-15 P 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Donja Stubica",
+      "podrucje": "Teren DS-2, utorak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 27.3., 27.8., 27.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Donja-Stubica-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-10 M! 01-13 M 01-19 K 01-20 P 01-27 M",
+          "02-03 M 02-10 M 02-16 K 02-17 P 02-24 M",
+          "03-03 M 03-09 K 03-10 P 03-17 M 03-31 M",
+          "04-07 M 04-14 M 04-20 K 04-21 P 04-28 M",
+          "05-05 M 05-12 M 05-18 K 05-19 P 05-26 M",
+          "06-03 G 06-09 M 06-15 K 06-16 P 06-23 M 06-30 M",
+          "07-07 M 07-13 K 07-14 P 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-17 K 08-18 P 08-25 M",
+          "09-08 M 09-14 K 09-15 P 09-22 M 09-29 M",
+          "10-06 M 10-13 M 10-19 K 10-20 P 10-27 M",
+          "11-03 M 11-10 M 11-16 K 11-17 P 11-24 M",
+          "12-08 M 12-14 K 12-15 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Pregrada",
+      "podrucje": "Teren četvrtak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 28.4., 12.8., 23.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Pregrada-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-15 M 01-22 PK 01-29 M",
+          "02-05 M 02-12 PK 02-19 M 02-26 M",
+          "03-05 M 03-12 PK 03-19 M 03-26 M",
+          "04-02 M 04-09 PK 04-16 M 04-23 M 04-27 G 04-30 M",
+          "05-07 M 05-14 M 05-21 PK 05-28 M",
+          "06-06 M! 06-11 PK 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-16 PK 07-23 M 07-30 M",
+          "08-06 M 08-13 PK 08-20 M 08-27 M",
+          "09-03 M 09-10 PK 09-17 M 09-24 M 09-28 G",
+          "10-01 M 10-08 M 10-15 M 10-22 PK 10-29 M",
+          "11-05 M 11-12 PK 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-24 PK 12-31 M"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Pregrada",
+      "podrucje": "Teren petak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 28.4., 12.8., 23.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Pregrada-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 PK 01-30 M",
+          "02-06 M 02-13 PK 02-20 M 02-27 M",
+          "03-06 M 03-13 PK 03-20 M 03-27 M",
+          "04-03 M 04-10 PK 04-17 M 04-24 M 04-30 G",
+          "05-02 M! 05-08 M 05-15 M 05-22 PK 05-29 M",
+          "06-05 M 06-12 PK 06-19 M 06-26 M",
+          "07-03 M 07-10 M 07-17 PK 07-24 M 07-31 M",
+          "08-07 M 08-14 PK 08-21 M 08-28 M",
+          "09-04 M 09-11 PK 09-18 M 09-25 M 09-30 G",
+          "10-02 M 10-09 M 10-16 M 10-23 PK 10-30 M",
+          "11-06 M 11-13 PK 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-19 PK!"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Gornja Stubica",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Gornja-Stubica-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-09 K 01-14 M 01-16 P 01-28 M",
+          "02-04 M 02-11 M 02-13 K 02-20 P 02-25 M",
+          "03-02 G 03-04 M 03-11 M 03-13 K 03-20 P 03-25 M",
+          "04-01 M 04-10 K 04-15 M 04-17 P 04-29 M",
+          "05-06 M 05-08 K 05-13 M 05-15 P 05-27 M",
+          "06-03 M 06-12 K 06-17 M 06-19 P 06-24 M",
+          "07-01 M 07-10 K 07-15 M 07-17 P 07-29 M",
+          "08-08 M! 08-14 K 08-19 M 08-21 P 08-26 M",
+          "09-02 M 09-11 K 09-16 M 09-18 P 09-30 M",
+          "10-07 M 10-09 K 10-16 P 10-21 M 10-28 M",
+          "11-04 M 11-13 K 11-14 M! 11-20 P 11-25 M",
+          "12-02 M 12-11 K 12-16 M 12-18 P 12-30 M"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Stubičke Toplice",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 5.3., 8.7., 4.9. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Stubicke-Toplice-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-10 M! 01-12 K 01-15 P 01-20 M 01-27 M",
+          "02-03 M 02-09 K 02-12 P 02-17 M 02-24 M",
+          "03-03 M 03-09 K 03-12 P 03-17 M 03-31 M",
+          "04-13 K 04-14 M 04-16 P 04-21 M 04-28 M",
+          "05-05 M 05-11 K 05-14 P 05-19 M 05-26 M",
+          "06-02 M 06-08 K 06-11 P 06-16 M 06-30 M",
+          "07-07 M 07-13 K 07-16 P 07-21 M 07-28 M 07-29 G",
+          "08-04 M 08-10 K 08-13 P 08-18 M 08-25 M",
+          "09-01 M 09-14 K 09-15 M 09-17 P 09-29 M",
+          "10-06 M 10-12 K 10-15 P 10-20 M 10-27 M",
+          "11-03 M 11-09 K 11-12 P 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-14 K 12-17 P 12-22 M"
+        ]
+      }
+    },
+    "32": {
+      "jls": "Sveti Križ Začretje",
+      "podrucje": "Teren četvrtak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Mobilno reciklažno dvorište: 7.1., 4.2., 4.3., 1.4., 6.5., 3.6., 1.7., 4.8., 2.9., 7.10., 4.11., 2.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Sveti-Kriz-Zacretje-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-13 PK 01-14 PK 01-15 M 01-29 M",
+          "02-05 M 02-10 K 02-11 P 02-12 M 02-26 M",
+          "03-05 M 03-10 K 03-11 P 03-12 M 03-26 M",
+          "04-02 M 04-14 K 04-15 P 04-16 MG 04-23 M",
+          "05-07 M 05-12 P 05-13 K 05-14 M 05-28 M",
+          "06-06 M! 06-09 K 06-10 P 06-18 M 06-25 M",
+          "07-02 M 07-07 P 07-08 K 07-16 M 07-30 M",
+          "08-06 M 08-11 P 08-12 K 08-20 M 08-27 M",
+          "09-03 M 09-17 M 09-22 P 09-23 K 09-24 M",
+          "10-01 M 10-13 P 10-14 K 10-15 M 10-29 M",
+          "11-05 M 11-10 P 11-11 K 11-19 M 11-26 M",
+          "12-03 M 12-08 P 12-09 K 12-10 M 12-24 M"
+        ]
+      }
+    },
+    "33": {
+      "jls": "Sveti Križ Začretje",
+      "podrucje": "Teren petak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Papir i plastika: PDF za cijelu općinu navodi nekoliko uzastopnih dana; koji je dan za koji teren nije objavljeno, pa su navedeni svi. Mobilno reciklažno dvorište: 7.1., 4.2., 4.3., 1.4., 6.5., 3.6., 1.7., 4.8., 2.9., 7.10., 4.11., 2.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Sveti-Kriz-Zacretje-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-13 PK 01-14 PK 01-16 M 01-30 M",
+          "02-06 M 02-10 K 02-11 P 02-13 M 02-27 M",
+          "03-06 M 03-10 K 03-11 P 03-13 M 03-27 M",
+          "04-03 M 04-14 K 04-15 P 04-17 M 04-20 G 04-24 M",
+          "05-08 M 05-12 P 05-13 K 05-15 M 05-29 M",
+          "06-05 M 06-09 K 06-10 P 06-19 M 06-26 M",
+          "07-03 M 07-07 P 07-08 K 07-17 M 07-31 M",
+          "08-07 M 08-11 P 08-12 K 08-21 M 08-28 M",
+          "09-04 M 09-18 M 09-22 P 09-23 K 09-25 M",
+          "10-02 M 10-13 P 10-14 K 10-16 M 10-30 M",
+          "11-06 M 11-10 P 11-11 K 11-20 M 11-27 M",
+          "12-04 M 12-08 P 12-09 K 12-11 M 12-19 M!"
+        ]
+      }
+    },
+    "34": {
+      "jls": "Oroslavje",
+      "podrucje": "Teren utorak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: utorak, srijeda) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 6.2., 20.7., 20.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Oroslavje-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-10 M! 01-13 K 01-20 M 01-27 P",
+          "02-03 M 02-10 K 02-17 M 02-24 P",
+          "03-03 M 03-10 K 03-17 M 03-24 P 03-31 M",
+          "04-07 M 04-14 K 04-21 M 04-28 P",
+          "05-05 M 05-12 K 05-19 M 05-26 P",
+          "06-02 M 06-09 K 06-16 M 06-23 P 06-30 M",
+          "07-07 M 07-14 K 07-16 G 07-21 M 07-28 P",
+          "08-04 M 08-11 K 08-18 M 08-25 P",
+          "09-01 M 09-08 K 09-15 M 09-22 P 09-29 M",
+          "10-06 M 10-13 K 10-20 M 10-26 G 10-27 P",
+          "11-03 M 11-10 K 11-17 M 11-24 P",
+          "12-01 M 12-08 K 12-15 M 12-22 P 12-29 M"
+        ]
+      }
+    },
+    "35": {
+      "jls": "Oroslavje",
+      "podrucje": "Teren srijeda (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: utorak, srijeda) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 6.2., 20.7., 20.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Grad-Oroslavje-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 K 01-21 M 01-28 P",
+          "02-04 M 02-11 K 02-18 M 02-25 P",
+          "03-04 M 03-11 K 03-18 M 03-25 P",
+          "04-01 M 04-08 M 04-15 K 04-22 M 04-29 P",
+          "05-06 M 05-13 K 05-20 M 05-27 P",
+          "06-03 M 06-10 K 06-17 M 06-24 P",
+          "07-01 M 07-08 M 07-15 K 07-22 MG 07-29 P",
+          "08-08 M! 08-12 K 08-19 M 08-26 P",
+          "09-02 M 09-09 K 09-16 M 09-23 P 09-30 M",
+          "10-07 M 10-14 K 10-21 M 10-28 P",
+          "11-02 G 11-04 M 11-11 K 11-14 M! 11-25 P",
+          "12-02 M 12-09 K 12-16 M 12-23 P 12-30 M"
+        ]
+      }
+    },
+    "36": {
+      "jls": "Krapinske Toplice",
+      "podrucje": "Teren ponedjeljak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, srijeda) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 8.5., 10.7., 9.10. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Krapinske-Toplice-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-21 PK 01-26 M",
+          "02-02 M 02-11 PK 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-18 PK 03-23 M",
+          "04-04 M! 04-15 PK 04-20 M 04-27 M",
+          "05-04 M 05-13 PK 05-18 M 05-25 M",
+          "06-01 M 06-08 MG 06-17 PK 06-20 M!",
+          "07-06 M 07-15 PK 07-20 M 07-27 M",
+          "08-03 M 08-12 PK 08-17 M 08-24 M",
+          "09-07 M 09-16 PK 09-21 M 09-28 M",
+          "10-05 M 10-14 PK 10-19 M 10-26 M",
+          "11-02 M 11-11 PK 11-16 M 11-23 M",
+          "12-07 M 12-16 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "37": {
+      "jls": "Krapinske Toplice",
+      "podrucje": "Teren srijeda (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, srijeda) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 8.5., 10.7., 9.10. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Krapinske-Toplice-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 PK 01-28 M",
+          "02-04 M 02-11 PK 02-18 M 02-25 M",
+          "03-04 M 03-11 M 03-18 PK 03-25 M",
+          "04-08 M 04-15 PK 04-22 M 04-29 M",
+          "05-06 M 05-13 PK 05-20 M 05-27 M",
+          "06-03 M 06-08 G 06-10 M 06-17 PK 06-24 M",
+          "07-08 M 07-15 PK 07-22 M 07-29 M",
+          "08-08 M! 08-12 PK 08-19 M 08-26 M",
+          "09-09 M 09-16 PK 09-23 M 09-30 M",
+          "10-07 M 10-14 PK 10-21 M 10-28 M",
+          "11-04 M 11-11 PK 11-14 M! 11-25 M",
+          "12-09 M 12-16 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "38": {
+      "jls": "Mihovljan",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 18.3., 15.6., 21.9., 7.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Mihovljan-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-30 PK",
+          "02-06 M 02-13 M 02-20 M 02-27 PK",
+          "03-06 M 03-13 M 03-20 M 03-27 PK",
+          "04-03 M 04-10 M 04-17 M 04-24 PK",
+          "05-02 M! 05-06 G 05-08 M 05-15 M 05-22 M 05-29 PK",
+          "06-05 M 06-12 M 06-19 M 06-26 PK",
+          "07-03 M 07-10 M 07-17 M 07-24 PK 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-28 PK",
+          "09-04 M 09-11 M 09-18 M 09-25 PK",
+          "10-02 M 10-16 M 10-23 PK 10-30 M",
+          "11-06 M 11-11 G 11-13 M 11-20 M 11-27 PK",
+          "12-04 M 12-11 M 12-18 M 12-19 PK!"
+        ]
+      }
+    },
+    "39": {
+      "jls": "Veliko Trgovišće",
+      "podrucje": "Teren srijeda (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: srijeda, četvrtak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 31.3., 31.7., 30.10. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Veliko-Trgovisce-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 PK 01-28 M",
+          "02-04 M 02-11 M 02-18 PK 02-25 MG",
+          "03-04 M 03-11 M 03-18 PK 03-25 M",
+          "04-08 M 04-15 M 04-22 PK 04-29 M",
+          "05-06 M 05-13 M 05-20 PK 05-27 M",
+          "06-03 M 06-10 PK 06-17 M 06-24 M",
+          "07-01 M 07-08 M 07-15 PK 07-22 M",
+          "08-08 M! 08-12 PK 08-19 M 08-26 M",
+          "09-09 M 09-16 M 09-23 PK 09-30 M",
+          "10-07 M 10-14 M 10-21 PK 10-28 M",
+          "11-04 M 11-11 PK 11-14 M! 11-25 M",
+          "12-09 M 12-16 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "40": {
+      "jls": "Veliko Trgovišće",
+      "podrucje": "Teren četvrtak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: srijeda, četvrtak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 31.3., 31.7., 30.10. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Veliko-Trgovisce-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-08 M 01-15 M 01-22 PK 01-29 M",
+          "02-05 M 02-12 M 02-19 PK 02-25 G 02-26 M",
+          "03-05 M 03-12 M 03-19 PK 03-26 M",
+          "04-09 M 04-16 M 04-23 PK 04-30 M",
+          "05-07 M 05-14 M 05-21 PK 05-28 M",
+          "06-06 M! 06-11 PK 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-16 PK 07-23 M",
+          "08-06 M 08-13 PK 08-20 M 08-27 M",
+          "09-10 M 09-17 M 09-24 MPK",
+          "10-08 M 10-15 M 10-22 PK 10-29 M",
+          "11-05 M 11-12 PK 11-19 M 11-26 M",
+          "12-10 M 12-17 PK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "41": {
+      "jls": "Bosiljevo",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 20.3., 30.6., 10.9., 22.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Bosiljevo-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 K 01-19 M 01-26 P",
+          "02-02 M 02-09 K 02-16 M 02-20 G 02-23 P",
+          "03-09 M 03-16 K 03-23 M 03-30 P",
+          "04-04 M! 04-13 K 04-20 M 04-27 P",
+          "05-04 M 05-11 K 05-18 M 05-25 P",
+          "06-01 M 06-08 K 06-20 M! 06-29 P",
+          "07-06 M 07-13 K 07-20 M 07-27 P",
+          "08-03 M 08-10 K 08-19 G 08-24 M 08-31 P",
+          "09-07 M 09-14 K 09-21 M 09-28 P",
+          "10-05 M 10-12 K 10-19 M 10-26 P",
+          "11-02 M 11-09 K 11-23 M 11-30 P",
+          "12-07 M 12-14 K 12-21 M 12-28 P"
+        ]
+      }
+    },
+    "42": {
+      "jls": "Breznica",
+      "podrucje": "Teren ponedjeljak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 27.2., 29.5., 28.8., 13.11. (lokacije i vrijeme u PDF-u). Izmjena rasporeda za srpanj (obavijest 10.7.2026., https://mull-trans.hr/2026/07/10/opcinu-breznica-srpanj-2026-vazna-obavijest/): miješani 13.7., 14.7., 27.7., 28.7. umjesto 20.7., 21.7. Izvor: https://mull-trans.hr/wp-content/uploads/2026/08/Opcina-Breznica-raspored-za-2026.pdf (PDF izmijenjen 25.08.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 K 01-14 P 01-19 M",
+          "02-09 M 02-16 K 02-18 P 02-23 M",
+          "03-09 M 03-16 K 03-18 P 03-23 M",
+          "04-04 M! 04-13 K 04-15 P 04-20 M",
+          "05-04 M 05-11 K 05-13 P 05-18 M",
+          "06-08 MK 06-10 P 06-29 M",
+          "07-06 MK 07-08 P 07-13 M 07-27 M",
+          "08-10 M 08-17 K 08-19 P 08-24 M",
+          "09-07 M 09-14 K 09-16 P 09-21 M 09-23 G",
+          "10-05 M 10-12 K 10-14 P 10-19 M",
+          "11-02 M 11-09 K 11-14 P! 11-16 M 11-30 M",
+          "12-07 K 12-09 P 12-21 M"
+        ]
+      }
+    },
+    "43": {
+      "jls": "Breznica",
+      "podrucje": "Teren utorak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 27.2., 29.5., 28.8., 13.11. (lokacije i vrijeme u PDF-u). Izmjena rasporeda za srpanj (obavijest 10.7.2026., https://mull-trans.hr/2026/07/10/opcinu-breznica-srpanj-2026-vazna-obavijest/): miješani 13.7., 14.7., 27.7., 28.7. umjesto 20.7., 21.7. Izvor: https://mull-trans.hr/wp-content/uploads/2026/08/Opcina-Breznica-raspored-za-2026.pdf (PDF izmijenjen 25.08.2026.)",
+      "raw": {
+        "2026": [
+          "01-10 M! 01-12 K 01-14 P 01-20 M",
+          "02-10 M 02-16 K 02-18 P 02-24 M",
+          "03-10 M 03-16 K 03-18 P 03-24 M",
+          "04-07 M 04-13 K 04-15 P 04-21 M",
+          "05-05 M 05-11 K 05-13 P 05-19 M",
+          "06-08 K 06-09 M 06-10 P 06-30 M",
+          "07-06 K 07-07 M 07-08 P 07-14 M 07-28 M",
+          "08-11 M 08-17 K 08-19 P 08-25 M",
+          "09-08 M 09-14 K 09-16 P 09-22 M 09-23 G",
+          "10-06 M 10-12 K 10-14 P 10-20 M",
+          "11-03 M 11-09 K 11-14 P! 11-17 M",
+          "12-01 M 12-07 K 12-09 P 12-22 M"
+        ]
+      }
+    },
+    "44": {
+      "jls": "Čađavica",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-CADAVICA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-14 M 01-26 PK 01-28 M",
+          "02-11 M 02-23 PK 02-25 M",
+          "03-11 M 03-23 G 03-25 M 03-30 PK",
+          "04-08 M 04-22 M 04-27 PK",
+          "05-06 M 05-20 M 05-25 PK",
+          "06-03 M 06-17 M 06-29 PK",
+          "07-01 M 07-15 M 07-27 PK 07-29 M",
+          "08-12 M 08-26 M 08-31 PK",
+          "09-09 M 09-23 M 09-28 PK",
+          "10-07 M 10-21 M 10-26 PK",
+          "11-04 M 11-21 M! 11-30 PK",
+          "12-02 M 12-16 M 12-28 PK 12-30 M"
+        ]
+      }
+    },
+    "45": {
+      "jls": "Mikleuš",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "U službenoj evidenciji davatelja usluge (stanje 5.10.2026.) za ovu općinu naveden je Papuk d.o.o.; Mull-Trans ipak objavljuje raspored za 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-MIKLEUS-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-09 M 01-21 PK 01-23 M",
+          "02-06 M 02-18 PK 02-20 M",
+          "03-06 M 03-18 PK 03-20 M",
+          "04-03 M 04-15 PK 04-17 M",
+          "05-02 M! 05-15 MG 05-20 PK 05-29 M",
+          "06-12 M 06-17 PK 06-26 M",
+          "07-10 M 07-15 PK 07-24 M",
+          "08-07 M 08-19 PK 08-21 M",
+          "09-04 M 09-16 PK 09-18 M",
+          "10-02 M 10-16 M 10-21 PK 10-30 M",
+          "11-13 M 11-21 PK! 11-27 M",
+          "12-11 M 12-16 PK 12-24 M!"
+        ]
+      }
+    },
+    "46": {
+      "jls": "Sopje",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 11.2., 13.5., 12.8., 9.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-SOPJE-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-07 PK 01-16 M 01-30 M",
+          "02-04 PK 02-13 M 02-27 M",
+          "03-04 PK 03-13 M 03-16 G 03-27 M",
+          "04-01 PK 04-10 M 04-24 M",
+          "05-06 PK 05-08 M 05-22 M",
+          "06-03 PK 06-05 M 06-19 M",
+          "07-01 PK 07-03 M 07-17 M 07-31 M",
+          "08-08 PK! 08-14 M 08-28 M",
+          "09-02 PK 09-11 M 09-25 M",
+          "10-07 PK 10-09 M 10-23 M",
+          "11-04 PK 11-06 M 11-20 M",
+          "12-02 PK 12-04 M 12-18 M"
+        ]
+      }
+    },
+    "47": {
+      "jls": "Voćin",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 18.2., 20.5., 20.8., 16.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-VOCIN-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 PK 01-07 M 01-21 M",
+          "02-04 M 02-06 PK 02-18 M",
+          "03-04 M 03-06 PK 03-18 M",
+          "04-01 M 04-03 PK 04-15 M 04-29 M",
+          "05-02 PK! 05-13 M 05-27 M",
+          "06-05 PK 06-10 MG 06-24 M",
+          "07-03 PK 07-08 M 07-22 M",
+          "08-07 PK 08-08 M! 08-19 M",
+          "09-02 M 09-04 PK 09-16 MG 09-30 M",
+          "10-02 PK 10-14 M 10-28 M",
+          "11-06 PK 11-11 M 11-25 M",
+          "12-04 PK 12-09 M 12-23 M"
+        ]
+      }
+    },
+    "48": {
+      "jls": "Nova Bukovica",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 5.2., 7.5., 6.8., 19.10. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-NOVA-BUKOVICA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 PK 01-20 M",
+          "02-03 M 02-11 PK 02-17 M",
+          "03-03 M 03-11 PK 03-17 M 03-31 M",
+          "04-08 PK 04-13 G 04-14 M 04-28 M",
+          "05-12 M 05-13 PK 05-26 M",
+          "06-09 M 06-10 PK 06-23 M",
+          "07-07 M 07-08 PK 07-21 M",
+          "08-04 M 08-12 PK 08-18 M",
+          "09-01 M 09-09 PK 09-15 M 09-29 M",
+          "10-13 M 10-14 PK 10-27 M",
+          "11-10 M 11-11 PK 11-24 M",
+          "12-08 M 12-09 PK 12-22 M"
+        ]
+      }
+    },
+    "49": {
+      "jls": "Donji Andrijevci",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 17.2., 19.5., 19.8., 13.11. (lokacije i vrijeme u PDF-u). U službenoj evidenciji davatelja usluge (stanje 5.10.2026.) za ovu općinu naveden je Runolist d.o.o.; Mull-Trans ipak objavljuje raspored za 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-DONJI-ANDRIJEVCI-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-09 PK 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-13 PK 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-13 PK 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-10 PK 04-16 M 04-23 M 04-30 M",
+          "05-04 G 05-07 M 05-08 PK 05-14 M 05-21 M 05-28 M",
+          "06-06 M! 06-11 M 06-12 PK 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-10 PK 07-16 M 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-14 PK 08-20 M 08-27 M",
+          "09-03 M 09-10 M 09-11 PK 09-17 M 09-24 M",
+          "10-01 M 10-08 M 10-09 PK 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-13 PK 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-11 PK 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "50": {
+      "jls": "Garčin",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-GARCIN-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 MPK! 01-12 M 01-13 PK 01-19 M 01-26 M",
+          "02-02 M 02-03 PK 02-09 M 02-10 PK 02-16 M 02-23 M",
+          "03-02 M 03-03 PK 03-09 M 03-10 PK 03-16 M 03-23 M 03-30 M",
+          "04-04 M! 04-07 PK 04-13 M 04-14 PK 04-20 MG 04-27 M",
+          "05-04 M 05-05 PK 05-11 M 05-12 PK 05-18 M 05-25 M",
+          "06-01 M 06-02 PK 06-08 M 06-09 PK 06-15 M 06-20 M! 06-29 M",
+          "07-06 M 07-07 PK 07-13 M 07-14 PK 07-20 M 07-27 M",
+          "08-03 M 08-04 PK 08-10 M 08-11 PK 08-17 M 08-24 M 08-31 M",
+          "09-01 PK 09-07 M 09-08 PK 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-06 PK 10-12 M 10-13 PK 10-19 M 10-26 M",
+          "11-02 M 11-03 PK 11-09 M 11-10 PK 11-16 M 11-23 M 11-30 M",
+          "12-01 PK 12-07 M 12-08 PK 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "51": {
+      "jls": "Gundinci",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 12.1., 5.3., 21.5., 21.8., 17.11., 10.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-GUNDINCI-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-21 PK 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-18 PK 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-18 PK 03-23 M 03-30 M",
+          "04-04 M! 04-13 M 04-15 PK 04-17 G 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-20 PK 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-17 PK 06-20 M! 06-29 M",
+          "07-06 M 07-13 M 07-15 PK 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-19 PK 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-16 PK 09-21 M 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-21 PK 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-21 PK! 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-16 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "52": {
+      "jls": "Oprisavci",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-OPRISAVCI-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-20 PK 01-23 M 01-30 M",
+          "02-06 M 02-13 M 02-17 PK 02-20 M 02-27 M",
+          "03-06 M 03-13 M 03-17 PK 03-20 M 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-21 PK 04-24 M",
+          "05-02 M! 05-07 G 05-08 M 05-15 M 05-19 PK 05-22 M 05-29 M",
+          "06-05 M 06-12 M 06-16 PK 06-19 M 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-21 PK 07-24 M 07-31 M",
+          "08-07 M 08-14 M 08-18 PK 08-21 M 08-28 M",
+          "09-04 M 09-11 M 09-15 PK 09-18 M 09-25 M",
+          "10-02 M 10-09 M 10-16 M 10-20 PK 10-23 M 10-30 M",
+          "11-06 M 11-13 M 11-17 PK 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-15 PK 12-18 M 12-23 M!"
+        ]
+      }
+    },
+    "53": {
+      "jls": "Velika Kopanica",
+      "podrucje": "Teren četvrtak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 13.2., 15.5., 17.8., 11.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-VELIKA-KOPANICA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-14 PK 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-11 PK 02-12 M 02-19 M 02-26 M",
+          "03-05 M 03-11 PK 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-08 PK 04-09 M 04-16 M 04-22 G 04-23 M 04-30 M",
+          "05-07 M 05-13 PK 05-14 M 05-21 M 05-28 M",
+          "06-06 M! 06-10 PK 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-08 PK 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-06 M 08-12 PK 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-09 PK 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-08 M 10-14 PK 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-11 PK 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-09 PK 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "54": {
+      "jls": "Velika Kopanica",
+      "podrucje": "Teren petak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Mobilno reciklažno dvorište: 13.2., 15.5., 17.8., 11.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-VELIKA-KOPANICA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-14 PK 01-16 M 01-23 M 01-30 M",
+          "02-06 M 02-11 PK 02-13 M 02-20 M 02-27 M",
+          "03-06 M 03-11 PK 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-08 PK 04-10 M 04-17 M 04-22 G 04-24 M",
+          "05-02 M! 05-08 M 05-13 PK 05-15 M 05-22 M 05-29 M",
+          "06-05 M 06-10 PK 06-12 M 06-19 M 06-26 M",
+          "07-03 M 07-08 PK 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-07 M 08-12 PK 08-14 M 08-21 M 08-28 M",
+          "09-04 M 09-09 PK 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-09 M 10-14 PK 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-11 PK 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-09 PK 12-11 M 12-18 M 12-23 M!"
+        ]
+      }
+    },
+    "55": {
+      "jls": "Vrpolje",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 10.1., 14.2., 14.3., 11.4., 9.5., 13.6., 11.7., 8.8., 12.9., 10.10., 14.11., 12.12. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-VRPOLJE-raspored-odvoza-otpada-za-2026-1.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-13 M 01-15 PK 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-19 PK 02-24 M",
+          "03-03 M 03-10 M 03-17 M 03-19 PK 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-16 PK 04-21 M 04-28 M",
+          "05-05 M 05-11 G 05-12 M 05-19 M 05-21 PK 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-18 PK 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-16 PK 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-20 PK 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-17 PK 09-22 M 09-29 M",
+          "10-06 M 10-13 M 10-15 PK 10-20 M 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-19 PK 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-17 PK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "56": {
+      "jls": "Stankovci",
+      "podrucje": "Teren četvrtak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Glomazni otpad (raspon dana; dan za pojedino naselje nije objavljen): 9.–13.3.; 8.–12.6.; 7.–11.9.; 7.–11.12. U službenoj evidenciji davatelja usluge (stanje 5.10.2026.) za ovu općinu naveden je Michieli-Tomić d.o.o.; Mull-Trans ipak objavljuje raspored za 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/07/Opcina-Stankovci-raspored-za-2026.-izmjene-i-dopune.pdf (PDF izmijenjen 30.07.2026.)",
+      "raw": {
+        "2026": [
+          "01-08 M 01-15 M 01-21 P 01-22 M 01-28 K 01-29 M",
+          "02-05 M 02-12 M 02-18 P 02-19 M 02-25 K 02-26 M",
+          "03-05 M 03-12 M 03-18 P 03-19 M 03-25 K 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-22 P 04-23 M 04-28 K 04-30 M",
+          "05-07 M 05-14 M 05-20 P 05-21 M 05-27 K 05-28 M",
+          "06-03 M! 06-11 M 06-17 P 06-18 M 06-24 K 06-25 M",
+          "07-02 M 07-06 M 07-09 M 07-13 M 07-16 M 07-20 M 07-22 P 07-23 M 07-27 M 07-29 K 07-30 M",
+          "08-03 M 08-06 M 08-10 M 08-13 M 08-17 M 08-19 P 08-20 M 08-24 M 08-26 K 08-27 M 08-31 M",
+          "09-03 M 09-10 M 09-17 M 09-23 P 09-24 M 09-30 K",
+          "10-01 M 10-08 M 10-15 M 10-21 P 10-22 M 10-28 K 10-29 M",
+          "11-05 M 11-12 M 11-17 P 11-19 M 11-25 K 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-22 P 12-24 M 12-29 K 12-31 M"
+        ]
+      }
+    },
+    "57": {
+      "jls": "Stankovci",
+      "podrucje": "Teren petak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: četvrtak, petak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Glomazni otpad (raspon dana; dan za pojedino naselje nije objavljen): 9.–13.3.; 8.–12.6.; 7.–11.9.; 7.–11.12. U službenoj evidenciji davatelja usluge (stanje 5.10.2026.) za ovu općinu naveden je Michieli-Tomić d.o.o.; Mull-Trans ipak objavljuje raspored za 2026. Izvor: https://mull-trans.hr/wp-content/uploads/2026/07/Opcina-Stankovci-raspored-za-2026.-izmjene-i-dopune.pdf (PDF izmijenjen 30.07.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-21 P 01-23 M 01-28 K 01-30 M",
+          "02-06 M 02-13 M 02-18 P 02-20 M 02-25 K 02-27 M",
+          "03-06 M 03-13 M 03-18 P 03-20 M 03-25 K 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-22 P 04-24 M 04-28 K 04-29 M!",
+          "05-08 M 05-15 M 05-20 P 05-22 M 05-27 K 05-29 M",
+          "06-05 M 06-12 M 06-17 P 06-19 M 06-24 K 06-26 M",
+          "07-03 M 07-07 M 07-10 M 07-14 M 07-17 M 07-21 M 07-22 P 07-24 M 07-28 M 07-29 K 07-31 M",
+          "08-04 M 08-07 M 08-11 M 08-14 M 08-18 M 08-19 P 08-21 M 08-25 M 08-26 K 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-23 P 09-25 M 09-30 K",
+          "10-02 M 10-09 M 10-16 M 10-21 P 10-23 M 10-28 K 10-30 M",
+          "11-06 M 11-13 M 11-17 P 11-20 M 11-25 K 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-22 P 12-23 M! 12-29 K"
+        ]
+      }
+    },
+    "58": {
+      "jls": "Drenje",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 12.2., 14.5., 13.8., 10.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-DRENJE-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-30 MPK",
+          "02-06 M 02-13 M 02-20 M 02-27 MPK",
+          "03-06 M 03-13 M 03-20 M 03-27 MPK",
+          "04-02 G 04-03 M 04-10 M 04-17 M 04-24 MPK",
+          "05-02 M! 05-08 M 05-15 M 05-22 M 05-29 MPK",
+          "06-05 M 06-12 M 06-19 M 06-26 MPK",
+          "07-03 M 07-10 M 07-17 M 07-24 M 07-31 MPK",
+          "08-07 M 08-14 M 08-21 M 08-28 MPK",
+          "09-04 M 09-11 M 09-18 M 09-25 MPK",
+          "10-02 M 10-09 M 10-16 M 10-23 M 10-30 MPK",
+          "11-06 M 11-13 M 11-20 M 11-27 MPK",
+          "12-04 M 12-11 M 12-18 M 12-23 PK 12-24 M!"
+        ]
+      }
+    },
+    "59": {
+      "jls": "Koška",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-KOSKA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-13 M 01-27 M 01-28 PK",
+          "02-10 M 02-24 M 02-25 PK",
+          "03-02 G 03-10 M 03-24 M 03-25 PK",
+          "04-07 M 04-21 M 04-29 PK",
+          "05-05 M 05-19 M 05-27 PK",
+          "06-02 M 06-16 M 06-24 PK 06-30 M",
+          "07-14 M 07-28 M 07-29 PK",
+          "08-11 M 08-25 M 08-26 PK",
+          "09-08 M 09-22 M 09-30 PK",
+          "10-06 M 10-20 M 10-28 PK",
+          "11-03 M 11-17 M 11-25 PK",
+          "12-01 M 12-15 M 12-29 M 12-30 PK"
+        ]
+      }
+    },
+    "60": {
+      "jls": "Magadenovac",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 9.2., 11.5., 10.8., 5.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-MAGADENOVAC-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-15 M 01-22 M 01-29 PK",
+          "02-05 M 02-12 M 02-19 M 02-26 PK",
+          "03-05 M 03-12 MG 03-19 M 03-26 PK",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-30 PK",
+          "05-07 M 05-14 M 05-21 M 05-28 PK",
+          "06-06 M! 06-11 M 06-18 M 06-25 PK",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-30 PK",
+          "08-06 M 08-13 M 08-20 M 08-27 PK",
+          "09-03 M 09-07 G 09-10 M 09-17 M 09-24 PK",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 PK",
+          "11-05 M 11-12 M 11-19 M 11-26 PK",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 PK"
+        ]
+      }
+    },
+    "61": {
+      "jls": "Podravska Moslavina",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-PODRAVSKA-MOSLAVINA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-27 PK",
+          "02-02 M 02-09 M 02-16 M 02-24 PK",
+          "03-02 M 03-09 M 03-13 G 03-16 M 03-23 M 03-31 PK",
+          "04-04 M! 04-13 M 04-20 M 04-28 PK",
+          "05-04 M 05-11 M 05-18 M 05-26 PK",
+          "06-01 M 06-08 M 06-15 M 06-20 M! 06-30 PK",
+          "07-06 M 07-13 M 07-20 M 07-28 PK",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-25 PK",
+          "09-07 M 09-14 M 09-21 MG 09-29 PK",
+          "10-05 M 10-12 M 10-19 M 10-27 PK",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-24 PK",
+          "12-07 M 12-14 M 12-21 M 12-29 PK"
+        ]
+      }
+    },
+    "62": {
+      "jls": "Punitovci",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 16.2., 18.5., 18.8., 12.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-PUNITOVCI-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-15 M 01-22 M 01-29 PK",
+          "02-05 M 02-12 M 02-19 M 02-26 PK",
+          "03-05 M 03-12 M 03-19 M 03-26 PK",
+          "04-02 M 04-09 G 04-16 M 04-23 M 04-30 PK",
+          "05-07 M 05-14 M 05-21 M 05-28 PK",
+          "06-06 M! 06-11 M 06-18 M 06-25 PK",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-30 PK",
+          "08-06 M 08-13 M 08-20 M 08-27 PK",
+          "09-03 M 09-10 M 09-17 M 09-24 PK",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 PK",
+          "11-05 M 11-12 M 11-19 M 11-26 PK",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 PK"
+        ]
+      }
+    },
+    "63": {
+      "jls": "Viljevo",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 10.2., 12.5., 11.8., 6.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-VILJEVO-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-13 M 01-20 M 01-27 PK",
+          "02-03 M 02-10 M 02-17 M 02-24 PK",
+          "03-03 M 03-10 M 03-13 G 03-17 M 03-24 M 03-31 PK",
+          "04-07 M 04-14 M 04-21 M 04-28 PK",
+          "05-05 M 05-12 M 05-19 M 05-26 PK",
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 PK",
+          "07-07 M 07-14 M 07-21 M 07-28 PK",
+          "08-04 M 08-11 M 08-18 M 08-25 PK",
+          "09-01 M 09-08 M 09-15 M 09-22 M 09-29 PK",
+          "10-06 M 10-13 M 10-20 M 10-27 PK",
+          "11-03 M 11-10 M 11-17 M 11-24 PK",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 PK"
+        ]
+      }
+    },
+    "64": {
+      "jls": "Lovas",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 13.1., 10.2., 14.4., 12.5., 14.7., 11.8., 13.10., 10.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-LOVAS-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-02 M 01-07 PK 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-04 PK 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-04 PK 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-01 PK 04-03 M 04-10 M 04-17 M 04-24 M",
+          "05-02 M! 05-06 PK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-03 PK 06-05 M 06-12 M 06-15 G 06-19 M 06-26 M",
+          "07-01 PK 07-03 M 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-07 M 08-08 PK! 08-14 M 08-21 M 08-28 M",
+          "09-02 PK 09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-07 PK 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-04 PK 11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-02 PK 12-04 M 12-11 M 12-18 M 12-23 M!"
+        ]
+      }
+    },
+    "65": {
+      "jls": "Nijemci",
+      "podrucje": "Teren ponedjeljak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-NIJEMCI-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 PK",
+          "02-02 M 02-09 M 02-16 M 02-23 PK",
+          "03-02 M 03-09 MG 03-16 M 03-23 M 03-30 PK",
+          "04-04 M! 04-13 M 04-20 M 04-27 PK",
+          "05-04 M 05-11 M 05-18 M 05-25 PK",
+          "06-01 M 06-08 M 06-15 M 06-20 M! 06-29 PK",
+          "07-06 M 07-13 M 07-20 M 07-27 PK",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-31 PK",
+          "09-07 M 09-14 M 09-21 M 09-28 PK",
+          "10-05 M 10-12 M 10-19 M 10-26 PK",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-30 PK",
+          "12-07 M 12-14 M 12-21 M 12-28 PK"
+        ]
+      }
+    },
+    "66": {
+      "jls": "Nijemci",
+      "podrucje": "Teren utorak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-NIJEMCI-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-13 M 01-20 M 01-27 PK",
+          "02-03 M 02-10 M 02-17 M 02-24 PK",
+          "03-03 M 03-09 G 03-10 M 03-17 M 03-24 M 03-31 PK",
+          "04-07 M 04-14 M 04-21 M 04-28 PK",
+          "05-05 M 05-12 M 05-19 M 05-26 PK",
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 PK",
+          "07-07 M 07-14 M 07-21 M 07-28 PK",
+          "08-04 M 08-11 M 08-18 M 08-25 PK",
+          "09-01 M 09-08 M 09-15 M 09-22 M 09-29 PK",
+          "10-06 M 10-13 M 10-20 M 10-27 PK",
+          "11-03 M 11-10 M 11-17 M 11-24 PK",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 PK"
+        ]
+      }
+    },
+    "67": {
+      "jls": "Nijemci",
+      "podrucje": "Teren srijeda (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: ponedjeljak, utorak, srijeda) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-NIJEMCI-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-28 PK",
+          "02-04 M 02-11 M 02-18 M 02-25 PK",
+          "03-04 M 03-09 G 03-11 M 03-18 M 03-25 PK",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-29 PK",
+          "05-06 M 05-13 M 05-20 M 05-27 PK",
+          "06-03 M 06-10 M 06-17 M 06-24 PK",
+          "07-08 M 07-15 M 07-22 M 07-29 PK",
+          "08-08 M! 08-12 M 08-19 M 08-26 PK",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-30 PK",
+          "10-07 M 10-14 M 10-21 M 10-28 PK",
+          "11-04 M 11-11 M 11-21 M! 11-25 PK",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-30 PK"
+        ]
+      }
+    },
+    "68": {
+      "jls": "Tovarnik",
+      "podrucje": "Srijeda – Ilača",
+      "ulice": ["Ilača"],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-TOVARNIK-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-28 MPK",
+          "02-04 M 02-11 M 02-18 M 02-25 MPK",
+          "03-04 M 03-05 G 03-11 M 03-18 M 03-25 MPK",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-29 MPK",
+          "05-06 M 05-13 M 05-20 M 05-27 MPK",
+          "06-03 M 06-10 M 06-17 M 06-24 MPK",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-29 MPK",
+          "08-08 M! 08-12 M 08-19 M 08-26 MPK",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-30 MPK",
+          "10-07 M 10-14 M 10-21 M 10-28 MPK",
+          "11-04 M 11-11 M 11-21 M! 11-25 MPK",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-30 MPK"
+        ]
+      }
+    },
+    "69": {
+      "jls": "Tovarnik",
+      "podrucje": "Četvrtak – Tovarnik",
+      "ulice": ["Tovarnik"],
+      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-TOVARNIK-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-15 M 01-22 M 01-28 PK 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-25 PK 02-26 M",
+          "03-05 MG 03-12 M 03-19 M 03-25 PK 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-29 PK 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-27 PK 05-28 M",
+          "06-06 M! 06-11 M 06-18 M 06-24 PK 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-29 PK 07-30 M",
+          "08-06 M 08-13 M 08-20 M 08-26 PK 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 M 09-30 PK",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-28 PK 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-25 PK 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-30 PK 12-31 M"
+        ]
+      }
+    },
+    "70": {
+      "jls": "Sveti Juraj na Bregu",
+      "podrucje": "Teren utorak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: utorak, četvrtak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Glomazni otpad (raspon dana; dan za pojedino naselje nije objavljen): 7.–9.10. naselja Brezje i Lopatinec; 12.–14.10. naselja Dragoslavec - Pleškovec - Frkanovec; 15.–16.10. naselja Okrugli Vrh - Vučetinec; 19.–20.10. naselja Mali Mihaljevec - Zasadbreg. Mobilno reciklažno dvorište: 2.2., 3.2., 7.4., 8.4., 13.7., 14.7., 16.11., 17.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Sveti-Juraj-na-Bregu-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-13 M 01-20 PK 01-27 M",
+          "02-03 M 02-10 PK 02-17 M 02-24 M",
+          "03-03 M 03-10 PK 03-17 M 03-24 M",
+          "04-07 M 04-14 PK 04-21 M 04-28 M",
+          "05-05 M 05-12 PK 05-19 M 05-26 M",
+          "06-02 M 06-09 PK 06-16 M 06-23 M",
+          "07-07 M 07-14 M 07-21 PK 07-28 M",
+          "08-04 M 08-11 PK 08-18 M 08-25 M",
+          "09-01 M 09-08 PK 09-15 M 09-22 M",
+          "10-06 M 10-13 M 10-20 PK 10-27 M",
+          "11-03 M 11-10 PK 11-17 M 11-24 M",
+          "12-01 M 12-08 PK 12-15 M 12-22 M"
+        ]
+      }
+    },
+    "71": {
+      "jls": "Sveti Juraj na Bregu",
+      "podrucje": "Teren četvrtak (naselja po terenu nisu objavljena)",
+      "ulice": [],
+      "napomena": "PDF ne navodi naselja po terenima; svoj teren (dan odvoza miješanog otpada: utorak, četvrtak) provjerite kod Mull-Transa (049/587-837, info@mull-trans.hr). Glomazni otpad (raspon dana; dan za pojedino naselje nije objavljen): 7.–9.10. naselja Brezje i Lopatinec; 12.–14.10. naselja Dragoslavec - Pleškovec - Frkanovec; 15.–16.10. naselja Okrugli Vrh - Vučetinec; 19.–20.10. naselja Mali Mihaljevec - Zasadbreg. Mobilno reciklažno dvorište: 2.2., 3.2., 7.4., 8.4., 13.7., 14.7., 16.11., 17.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/Opcina-Sveti-Juraj-na-Bregu-raspored-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-15 M 01-22 PK 01-29 M",
+          "02-05 M 02-12 PK 02-19 M 02-26 M",
+          "03-05 M 03-12 PK 03-19 M 03-26 M",
+          "04-09 M 04-16 PK 04-23 M 04-30 M",
+          "05-07 M 05-14 PK 05-21 M 05-28 M",
+          "06-06 M! 06-11 PK 06-18 M 06-25 M",
+          "07-09 M 07-16 M 07-23 PK 07-30 M",
+          "08-06 M 08-13 PK 08-20 M 08-27 M",
+          "09-03 M 09-10 PK 09-17 M 09-24 M",
+          "10-08 M 10-15 M 10-22 PK 10-29 M",
+          "11-05 M 11-12 PK 11-19 M 11-26 M",
+          "12-03 M 12-10 PK 12-17 M 12-24 M"
+        ]
+      }
+    }
+  }
+}
