@@ -152,11 +152,12 @@ button { font: inherit; color: inherit; }
 .legend .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--warn); display: inline-block; }
 
 /* side */
-.side { display: grid; gap: 20px; min-width: 0; }
-/* Single column: selected day goes above the calendar, next-by-type stays below it. */
+.primary, .side { display: grid; gap: 20px; min-width: 0; }
+/* Single column: selected day goes above the calendar, next-by-type below it, calendar reminder last. */
 @media (max-width: 899px) {
-  .side { display: contents; }
+  .primary, .side { display: contents; }
   .detail { order: -1; }
+  .sub { order: 1; }
 }
 .detail h3 { font-size: 1.5rem; font-weight: 800; font-stretch: 112%; letter-spacing: -.01em; }
 .detail .rel { color: var(--muted); margin-top: 2px; }
@@ -177,12 +178,16 @@ button { font: inherit; color: inherit; }
 .nrow .when2 { text-align: right; font-variant-numeric: tabular-nums; line-height: 1.2; }
 .nrow .when2 small { display: block; color: var(--muted); font-size: .8rem; }
 
-.sub { display: grid; gap: 12px; }
+/* Reminder: subscribe controls beside the help notes once the panel is wide enough. */
+.sub { container-type: inline-size; }
+.sub-grid { display: grid; gap: 12px; }
+.sub-col { display: grid; gap: 12px; align-content: start; min-width: 0; }
+@container (min-width: 520px) { .sub-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 24px; } }
 .sub h3 { font-size: 1.05rem; font-weight: 800; font-stretch: 110%; }
 .sub p { margin: 0; color: var(--muted); font-size: .92rem; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; }
 .btn.primary:hover { color: var(--surface); filter: brightness(1.08); }
-.btn.wide { color: var(--fg); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; margin-top: -4px; }
+.btn.wide { color: var(--fg); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; text-align: center; min-height: 44px; font-size: 1rem; margin-top: -4px; }
 .field { display: grid; gap: 6px; }
 .field label { font-weight: 700; font-size: .9rem; }
 .field select { font: inherit; color: var(--fg); background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; padding: 0 12px; min-height: 44px; width: 100%; }
@@ -216,56 +221,64 @@ footer strong { color: var(--fg); }
   <section class="hero" id="hero" aria-live="polite"></section>
 
   <div class="main">
-    <section class="panel" aria-label="Kalendar">
-      <div class="cal-head">
-        <h2 id="calTitle"></h2>
-        <div class="nav">
-          <button class="btn icon" id="prev" aria-label="Prethodni mjesec">&#8249;</button>
-          <button class="btn" id="goToday">Danas</button>
-          <button class="btn icon" id="next" aria-label="Sljedeći mjesec">&#8250;</button>
+    <div class="primary">
+      <section class="panel" aria-label="Kalendar">
+        <div class="cal-head">
+          <h2 id="calTitle"></h2>
+          <div class="nav">
+            <button class="btn icon" id="prev" aria-label="Prethodni mjesec">&#8249;</button>
+            <button class="btn" id="goToday">Danas</button>
+            <button class="btn icon" id="next" aria-label="Sljedeći mjesec">&#8250;</button>
+          </div>
         </div>
-      </div>
-      <div class="grid7" id="dows"></div>
-      <div class="grid7" id="cal" role="grid"></div>
-      <div class="legend" id="legend"></div>
-    </section>
+        <div class="grid7" id="dows"></div>
+        <div class="grid7" id="cal" role="grid"></div>
+        <div class="legend" id="legend"></div>
+      </section>
+      <section class="panel sub" aria-labelledby="subTitle">
+        <div class="sub-grid">
+          <div class="sub-col">
+            <h3 id="subTitle">Podsjetnik u kalendaru</h3>
+            <p>Pretplati se na kalendar odvoza za <b id="subZone">Zonu 1</b>. Svaki odvoz je događaj s obojenim kružićima kanti, a promjene rasporeda se same povuku.</p>
+            <div class="field">
+              <label for="alarmSel">Kad želiš obavijest?</label>
+              <select id="alarmSel"></select>
+            </div>
+            <a class="btn primary" id="subLink" href="webcal://klindic.github.io/garbage-collection/odvoz-zona1-1800.ics">Dodaj u iPhone kalendar</a>
+            <a class="btn wide" id="gcalLink" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fklindic.github.io%2Fgarbage-collection%2Fodvoz-zona1.ics" target="_blank" rel="noopener">Dodaj u Google kalendar (Android)</a>
+          </div>
+          <div class="sub-col">
+            <div class="flag warn">
+              <b>iPhone:</b> pri pretplati isključi <b>Ukloni upozorenja</b> (Remove Alerts). Ako ostane uključeno, iPhone izbaci ovu obavijest i stavi svoju zadanu (dan prije u 9:00).
+            </div>
+            <details>
+              <summary>iPhone: već si pretplaćen ili želiš drugo vrijeme?</summary>
+              <p>Otvori bilo koji događaj odvoza u kalendaru i dodirni <b>Otkaži pretplatu na ovaj kalendar</b> (Unsubscribe from This Calendar). Zatim ovdje odaberi vrijeme i ponovno dodirni "Dodaj u iPhone kalendar", s isključenim Ukloni upozorenja.</p>
+              <p>Postojeću pretplatu možeš i popraviti: Postavke &gt; Aplikacije &gt; Kalendar &gt; Računi kalendara &gt; Pretplaćeni kalendari &gt; Odvoz otpada (Settings &gt; Apps &gt; Calendar &gt; Calendar Accounts &gt; Subscribed Calendars). Obavijesti se vrate kad iPhone sljedeći put osvježi kalendar.</p>
+            </details>
+            <details>
+              <summary>iPhone: vidiš i drugu obavijest u 9:00?</summary>
+              <p>To je zadana obavijest iPhonea za sve cjelodnevne događaje ("Default (1 day before (9 AM))") i ne dolazi iz ovog kalendara. Ako je ne želiš: Postavke &gt; Aplikacije &gt; Kalendar &gt; Zadana vremena upozorenja &gt; Cjelodnevni događaji &gt; <b>Ništa</b> (Settings &gt; Apps &gt; Calendar &gt; Default Alert Times &gt; All-Day Events &gt; None). To vrijedi za sve tvoje cjelodnevne događaje; rođendani imaju zasebnu postavku.</p>
+            </details>
+            <details>
+              <summary>Android: obavijesti i sinkronizacija</summary>
+              <p>Gumb otvara Google kalendar i nudi dodavanje kalendara "Odvoz otpada" na tvoj Google račun. Ako se na mobitelu ne pojavi ponuda za dodavanje, otvori stranicu na računalu i klikni gumb tamo; kalendar se zatim sam prenese na mobitel.</p>
+              <p>Google kalendar ne preuzima obavijesti iz pretplaćenih kalendara, pa odabrano vrijeme postavi jednom ručno na calendar.google.com: Postavke &gt; Odvoz otpada &gt; Obavijesti o cjelodnevnim događajima &gt; <b id="gcalWhen">1 dan prije u 18:00</b>.</p>
+              <p>Ako se događaji ne vide u aplikaciji, u postavkama aplikacije Google kalendar otvori Odvoz otpada i uključi <b>Sinkronizacija</b>. Google osvježava pretplaćene kalendare sporije od iPhonea, ponekad tek nakon dan-dva.</p>
+            </details>
+            <details>
+              <summary>Outlook ili drugi kalendar</summary>
+              <p>Dodaj kalendar putem URL-a (pretplata na internetski kalendar). Adresa prati odabrano vrijeme obavijesti:</p>
+              <div class="url"><code id="icsUrl">https://klindic.github.io/garbage-collection/odvoz-zona1-1800.ics</code><button class="btn" id="copyUrl" type="button">Kopiraj</button></div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <div class="side">
       <section class="panel detail" id="detail" aria-live="polite"></section>
       <section class="panel next" id="nextByType"></section>
-      <section class="panel sub" aria-labelledby="subTitle">
-        <h3 id="subTitle">Podsjetnik u kalendaru</h3>
-        <p>Pretplati se na kalendar odvoza za <b id="subZone">Zonu 1</b>. Svaki odvoz je događaj s obojenim kružićima kanti, a promjene rasporeda se same povuku.</p>
-        <div class="field">
-          <label for="alarmSel">Kad želiš obavijest?</label>
-          <select id="alarmSel"></select>
-        </div>
-        <a class="btn primary" id="subLink" href="webcal://klindic.github.io/garbage-collection/odvoz-zona1-1800.ics">Dodaj u iPhone kalendar</a>
-        <a class="btn wide" id="gcalLink" href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fklindic.github.io%2Fgarbage-collection%2Fodvoz-zona1.ics" target="_blank" rel="noopener">Dodaj u Google kalendar (Android)</a>
-        <div class="flag warn">
-          <b>iPhone:</b> pri pretplati isključi <b>Ukloni upozorenja</b> (Remove Alerts). Ako ostane uključeno, iPhone izbaci ovu obavijest i stavi svoju zadanu (dan prije u 9:00).
-        </div>
-        <details>
-          <summary>iPhone: već si pretplaćen ili želiš drugo vrijeme?</summary>
-          <p>Otvori bilo koji događaj odvoza u kalendaru i dodirni <b>Otkaži pretplatu na ovaj kalendar</b> (Unsubscribe from This Calendar). Zatim ovdje odaberi vrijeme i ponovno dodirni "Dodaj u iPhone kalendar", s isključenim Ukloni upozorenja.</p>
-          <p>Postojeću pretplatu možeš i popraviti: Postavke &gt; Aplikacije &gt; Kalendar &gt; Računi kalendara &gt; Pretplaćeni kalendari &gt; Odvoz otpada (Settings &gt; Apps &gt; Calendar &gt; Calendar Accounts &gt; Subscribed Calendars). Obavijesti se vrate kad iPhone sljedeći put osvježi kalendar.</p>
-        </details>
-        <details>
-          <summary>iPhone: vidiš i drugu obavijest u 9:00?</summary>
-          <p>To je zadana obavijest iPhonea za sve cjelodnevne događaje ("Default (1 day before (9 AM))") i ne dolazi iz ovog kalendara. Ako je ne želiš: Postavke &gt; Aplikacije &gt; Kalendar &gt; Zadana vremena upozorenja &gt; Cjelodnevni događaji &gt; <b>Ništa</b> (Settings &gt; Apps &gt; Calendar &gt; Default Alert Times &gt; All-Day Events &gt; None). To vrijedi za sve tvoje cjelodnevne događaje; rođendani imaju zasebnu postavku.</p>
-        </details>
-        <details>
-          <summary>Android: obavijesti i sinkronizacija</summary>
-          <p>Gumb otvara Google kalendar i nudi dodavanje kalendara "Odvoz otpada" na tvoj Google račun. Ako se na mobitelu ne pojavi ponuda za dodavanje, otvori stranicu na računalu i klikni gumb tamo; kalendar se zatim sam prenese na mobitel.</p>
-          <p>Google kalendar ne preuzima obavijesti iz pretplaćenih kalendara, pa odabrano vrijeme postavi jednom ručno na calendar.google.com: Postavke &gt; Odvoz otpada &gt; Obavijesti o cjelodnevnim događajima &gt; <b id="gcalWhen">1 dan prije u 18:00</b>.</p>
-          <p>Ako se događaji ne vide u aplikaciji, u postavkama aplikacije Google kalendar otvori Odvoz otpada i uključi <b>Sinkronizacija</b>. Google osvježava pretplaćene kalendare sporije od iPhonea, ponekad tek nakon dan-dva.</p>
-        </details>
-        <details>
-          <summary>Outlook ili drugi kalendar</summary>
-          <p>Dodaj kalendar putem URL-a (pretplata na internetski kalendar). Adresa prati odabrano vrijeme obavijesti:</p>
-          <div class="url"><code id="icsUrl">https://klindic.github.io/garbage-collection/odvoz-zona1-1800.ics</code><button class="btn" id="copyUrl" type="button">Kopiraj</button></div>
-        </details>
-      </section>
     </div>
   </div>
 
