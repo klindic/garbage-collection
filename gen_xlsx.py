@@ -3,13 +3,17 @@
 
     python3 gen_xlsx.py            live page data (odvoz.html) -> excel/Raspored_odvoza_ZonaN_<year>.xlsx
     python3 gen_xlsx.py --podaci   every podaci/<slug>.json -> excel/<slug>/Raspored_<City>_ZonaN_<year>.xlsx
-                                   plus excel/<slug>/Pregled_zona.xlsx (zones, areas, streets)
+                                   plus excel/<slug>/Pregled_zona.xlsx (zones, areas, streets);
+                                   add slugs after --podaci to do only those providers
 
-Needs openpyxl. Run it after changing a schedule; build.sh only copies the committed files.
+Needs openpyxl. Run it after changing a schedule; build.sh only copies the committed files. A file
+whose content did not change is left alone, and --podaci removes workbooks of zones that are gone.
 """
+import io
 import re
 import sys
 import unicodedata
+import zipfile
 from datetime import datetime
 from pathlib import Path
 
@@ -249,17 +253,39 @@ def from_page(html_path):
             "napomene": SISAK_NOTES, "zone": zones}
 
 
+def parts(blob):
+    """Members of an .xlsx except the document properties, which hold the save time."""
+    with zipfile.ZipFile(io.BytesIO(blob)) as z:
+        return {n: z.read(n) for n in z.namelist() if n != "docProps/core.xml"}
+
+
+def save(wb, path):
+    """Write the workbook unless the file already has the same content (keeps git diffs real)."""
+    buf = io.BytesIO()
+    wb.save(buf)
+    if path.exists() and parts(path.read_bytes()) == parts(buf.getvalue()):
+        return
+    path.write_bytes(buf.getvalue())
+
+
 def main(argv):
     here = Path(__file__).parent
     if "--podaci" in argv:
+        only = [a for a in argv if a != "--podaci"]
         for slug, prov in podaci.providers():
+            if only and slug not in only:
+                continue
             out = here / "excel" / slug
             out.mkdir(parents=True, exist_ok=True)
+            written = {out / "Pregled_zona.xlsx"}
             for zone, z in prov["zone"].items():
                 for year in z["raw"]:
-                    workbook(prov, zone, int(year)).save(
-                        out / f"Raspored_{ascii_slug(z['jls'])}_Zona{zone}_{year}.xlsx")
-            index_workbook(prov).save(out / "Pregled_zona.xlsx")
+                    path = out / f"Raspored_{ascii_slug(z['jls'])}_Zona{zone}_{year}.xlsx"
+                    save(workbook(prov, zone, int(year)), path)
+                    written.add(path)
+            save(index_workbook(prov), out / "Pregled_zona.xlsx")
+            for old in set(out.glob("*.xlsx")) - written:  # zones that no longer exist
+                old.unlink()
             print(f"{slug}: {len(prov['zone'])} zona -> {out.relative_to(here)}/")
         return
     prov = from_page(here / "odvoz.html")
@@ -267,7 +293,7 @@ def main(argv):
     out_dir.mkdir(exist_ok=True)
     for zone, z in prov["zone"].items():
         for year in z["raw"]:
-            workbook(prov, zone, int(year)).save(out_dir / f"Raspored_odvoza_Zona{zone}_{year}.xlsx")
+            save(workbook(prov, zone, int(year)), out_dir / f"Raspored_odvoza_Zona{zone}_{year}.xlsx")
 
 
 if __name__ == "__main__":
