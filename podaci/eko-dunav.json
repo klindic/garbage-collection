@@ -1,0 +1,146 @@
+{
+  "davatelj": "Eko-Dunav d.o.o.",
+  "web": "https://www.eko-dunav.hr",
+  "izvor": "https://www.eko-dunav.hr/dokumenti.asp",
+  "zupanija": "Vukovarsko-srijemska",
+  "jls": ["Borovo"],
+  "nazivi": {"P": "Plastika"},
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno: srijedom, četvrtkom ili petkom, ovisno o ulici.", "Papir (ponedjeljak) i plastika (utorak): prvi ponedjeljak i utorak u mjesecu od Crepulja do Bulićeve, zadnji ponedjeljak i utorak u mjesecu od Bulićeve do Savulje. Eko-Dunav ne navodi koje skupine ulica pripadaju kojoj polovici, pa je svaka skupina ulica upisana dvaput (po jedna zona za svaku polovicu).", "Na neradne dane nema odvoza; zamjenski dani iz tablice u kalendaru upisani su i označeni kao pomaknuti.", "Izvor: https://www.eko-dunav.hr/upload/KALENDAR ODVOZA OTPADA ZA 2026.pdf"],
+  "zone": {
+    "1": {
+      "jls": "Borovo",
+      "podrucje": "Srijeda (miješani); papir i plastika prvi ponedjeljak/utorak u mjesecu (od Crepulja do Bulićeve)",
+      "opis": "Srijeda: Crepulje, Desna i lijeva strana Glavne i Školske ulice do ulice Ive Andrića, Braće Mišljenović, Slobode, Dunavska, Trg palih boraca, Branka Radičevića, Ive Lole Ribara,Vinogradska,Veselina Stojakovića, Ruže Stojanović, Ive Andrića",
+      "ulice": ["Crepulje", "Desna i lijeva strana Glavne i Školske ulice do ulice Ive Andrića", "Braće Mišljenović", "Slobode", "Dunavska", "Trg palih boraca", "Branka Radičevića", "Ive Lole Ribara", "Vinogradska", "Veselina Stojakovića", "Ruže Stojanović", "Ive Andrića"],
+      "raw": {
+        "2026": [
+          "01-05 PK! 01-08 M! 01-14 M 01-21 M 01-28 M",
+          "02-02 K 02-03 P 02-04 M 02-11 M 02-18 M 02-25 M",
+          "03-02 K 03-03 P 03-04 M 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-07 PK! 04-08 M 04-15 M 04-22 M 04-29 M",
+          "05-04 K 05-05 P 05-06 M 05-13 M 05-20 M 05-27 M",
+          "06-01 K 06-02 P 06-03 M 06-10 M 06-17 M 06-24 M",
+          "07-01 M 07-06 K 07-07 P 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-03 K 08-04 P 08-06 M! 08-12 M 08-19 M 08-26 M",
+          "09-01 P 09-02 M 09-07 K 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-05 K 10-06 P 10-07 M 10-14 M 10-21 M 10-28 M",
+          "11-02 K 11-03 P 11-04 M 11-11 M 11-19 M! 11-25 M",
+          "12-01 P 12-02 M 12-07 K 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Borovo",
+      "podrucje": "Srijeda (miješani); papir i plastika zadnji ponedjeljak/utorak u mjesecu (od Bulićeve do Savulje)",
+      "opis": "Srijeda: Crepulje, Desna i lijeva strana Glavne i Školske ulice do ulice Ive Andrića, Braće Mišljenović, Slobode, Dunavska, Trg palih boraca, Branka Radičevića, Ive Lole Ribara,Vinogradska,Veselina Stojakovića, Ruže Stojanović, Ive Andrića",
+      "ulice": ["Crepulje", "Desna i lijeva strana Glavne i Školske ulice do ulice Ive Andrića", "Braće Mišljenović", "Slobode", "Dunavska", "Trg palih boraca", "Branka Radičevića", "Ive Lole Ribara", "Vinogradska", "Veselina Stojakovića", "Ruže Stojanović", "Ive Andrića"],
+      "napomena": "08.2026.: po pravilu papir 31.08., a kalendar u boji (bez 31. dana) 24.08.; taj odvoz nije upisan.",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-21 M 01-26 K 01-27 P 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-23 K 02-24 P 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-25 M 03-30 K 03-31 P",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-27 K 04-28 P 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-25 K 05-26 P 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-24 M 06-29 K 06-30 P",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-27 K 07-28 P 07-29 M",
+          "08-06 M! 08-12 M 08-19 M 08-25 P 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-28 K 09-29 P 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-26 K 10-27 P 10-28 M",
+          "11-04 M 11-11 M 11-19 M! 11-24 P 11-25 M 11-30 K",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-28 K 12-29 P 12-30 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Borovo",
+      "podrucje": "Četvrtak (miješani); papir i plastika prvi ponedjeljak/utorak u mjesecu (od Crepulja do Bulićeve)",
+      "opis": "Četvrtak: Školska od Ive Andrića prema Ozrenskoj i lijeva i desna strana, Ozrenska, Đure Pucara, Augusta Cesarca, Petra Kočića, Nikole Tesle, Đorđa Sremca, Nikole Kovačevića, Grobljanska, Dio Ratarske od Augusta Cesarca do Bulićeve Bulićeva, Željeznička",
+      "ulice": ["Školska od Ive Andrića prema Ozrenskoj i lijeva i desna strana", "Ozrenska", "Đure Pucara", "Augusta Cesarca", "Petra Kočića", "Nikole Tesle", "Đorđa Sremca", "Nikole Kovačevića", "Grobljanska", "Dio Ratarske od Augusta Cesarca do Bulićeve", "Bulićeva", "Željeznička"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-05 PK! 01-08 M 01-15 M 01-22 M 01-29 M",
+          "02-02 K 02-03 P 02-05 M 02-12 M 02-19 M 02-26 M",
+          "03-02 K 03-03 P 03-05 M 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-07 PK! 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-04 K 05-05 P 05-07 M 05-14 M 05-21 M 05-28 M",
+          "06-01 K 06-02 P 06-05 M! 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-06 K 07-07 P 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-03 K 08-04 P 08-06 M 08-13 M 08-20 M 08-27 M",
+          "09-01 P 09-03 M 09-07 K 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-05 K 10-06 P 10-08 M 10-15 M 10-22 M 10-29 M",
+          "11-02 K 11-03 P 11-05 M 11-12 M 11-19 M 11-26 M",
+          "12-01 P 12-03 M 12-07 K 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Borovo",
+      "podrucje": "Četvrtak (miješani); papir i plastika zadnji ponedjeljak/utorak u mjesecu (od Bulićeve do Savulje)",
+      "opis": "Četvrtak: Školska od Ive Andrića prema Ozrenskoj i lijeva i desna strana, Ozrenska, Đure Pucara, Augusta Cesarca, Petra Kočića, Nikole Tesle, Đorđa Sremca, Nikole Kovačevića, Grobljanska, Dio Ratarske od Augusta Cesarca do Bulićeve Bulićeva, Željeznička",
+      "ulice": ["Školska od Ive Andrića prema Ozrenskoj i lijeva i desna strana", "Ozrenska", "Đure Pucara", "Augusta Cesarca", "Petra Kočića", "Nikole Tesle", "Đorđa Sremca", "Nikole Kovačevića", "Grobljanska", "Dio Ratarske od Augusta Cesarca do Bulićeve", "Bulićeva", "Željeznička"],
+      "napomena": "08.2026.: po pravilu papir 31.08., a kalendar u boji (bez 31. dana) 24.08.; taj odvoz nije upisan.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 M 01-22 M 01-26 K 01-27 P 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-23 K 02-24 P 02-26 M",
+          "03-05 M 03-12 M 03-19 M 03-26 M 03-30 K 03-31 P",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-27 K 04-28 P 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-25 K 05-26 P 05-28 M",
+          "06-05 M! 06-11 M 06-18 M 06-25 M 06-29 K 06-30 P",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-27 K 07-28 P 07-30 M",
+          "08-06 M 08-13 M 08-20 M 08-25 P 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 M 09-28 K 09-29 P",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-26 K 10-27 P 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-24 P 11-26 M 11-30 K",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-28 K 12-29 P 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Borovo",
+      "podrucje": "Petak (miješani); papir i plastika prvi ponedjeljak/utorak u mjesecu (od Crepulja do Bulićeve)",
+      "opis": "Petak: Partizanska, Gajićeva, Sremska, Radnička, Mala, Vladimira Nazora, Nova, Ratarski odvojak i Ratarska do ulaska u mjesto, Mjesno groblje Borovo",
+      "ulice": ["Partizanska", "Gajićeva", "Sremska", "Radnička", "Mala", "Vladimira Nazora", "Nova", "Ratarski odvojak i Ratarska do ulaska u mjesto", "Mjesno groblje Borovo"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 PK! 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-02 K 02-03 P 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-02 K 03-03 P 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-07 PK! 04-10 M 04-17 M 04-24 M 04-30 M!",
+          "05-04 K 05-05 P 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-01 K 06-02 P 06-05 M 06-12 M 06-19 M 06-26 M",
+          "07-03 M 07-06 K 07-07 P 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-03 K 08-04 P 08-07 M 08-14 M 08-21 M 08-28 M",
+          "09-01 P 09-04 M 09-07 K 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-05 K 10-06 P 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-02 K 11-03 P 11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-01 P 12-04 M 12-07 K 12-11 M 12-18 M 12-24 M!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Borovo",
+      "podrucje": "Petak (miješani); papir i plastika zadnji ponedjeljak/utorak u mjesecu (od Bulićeve do Savulje)",
+      "opis": "Petak: Partizanska, Gajićeva, Sremska, Radnička, Mala, Vladimira Nazora, Nova, Ratarski odvojak i Ratarska do ulaska u mjesto, Mjesno groblje Borovo",
+      "ulice": ["Partizanska", "Gajićeva", "Sremska", "Radnička", "Mala", "Vladimira Nazora", "Nova", "Ratarski odvojak i Ratarska do ulaska u mjesto", "Mjesno groblje Borovo"],
+      "napomena": "08.2026.: po pravilu papir 31.08., a kalendar u boji (bez 31. dana) 24.08.; taj odvoz nije upisan.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-26 K 01-27 P 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-23 K 02-24 P 02-27 M",
+          "03-06 M 03-13 M 03-20 M 03-27 M 03-30 K 03-31 P",
+          "04-03 M 04-10 M 04-17 M 04-24 M 04-27 K 04-28 P 04-30 M!",
+          "05-08 M 05-15 M 05-22 M 05-25 K 05-26 P 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-26 M 06-29 K 06-30 P",
+          "07-03 M 07-10 M 07-17 M 07-24 M 07-27 K 07-28 P 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-25 P 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-25 M 09-28 K 09-29 P",
+          "10-02 M 10-09 M 10-16 M 10-23 M 10-26 K 10-27 P 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-24 P 11-27 M 11-30 K",
+          "12-04 M 12-11 M 12-18 M 12-24 M! 12-28 K 12-29 P"
+        ]
+      }
+    }
+  }
+}

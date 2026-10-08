@@ -1,0 +1,31 @@
+{
+  "davatelj": "Babić d.o.o.",
+  "web": "https://visoko.hr",
+  "zupanija": "Varaždinska",
+  "jls": ["Visoko"],
+  "napomene": ["Raspored objavljuje Općina Visoko na visoko.hr; uslugu obavlja Babić d.o.o. (naslov rasporeda i cjenik).", "Miješani komunalni otpad i plastika odvoze se srijedom, naizmjence svaki drugi tjedan.", "Kad je srijeda neradni dan, odvoz je sljedeći dan; takvi su datumi već upisani u rasporedu."],
+  "izvor": "https://visoko.hr/odvoz-otpada-2026/",
+  "zone": {
+    "1": {
+      "jls": "Visoko",
+      "podrucje": "Cijela općina (srijeda)",
+      "ulice": [],
+      "raw": {
+        "2026": [
+          "01-07 P 01-14 M 01-21 P 01-28 M",
+          "02-04 P 02-11 M 02-18 P 02-25 M",
+          "03-04 P 03-11 M 03-18 P 03-25 M",
+          "04-01 P 04-08 M 04-15 P 04-22 M 04-29 P",
+          "05-06 M 05-13 P 05-20 M 05-27 P",
+          "06-03 M 06-10 P 06-17 M 06-24 P",
+          "07-01 M 07-08 P 07-15 M 07-22 P 07-29 M",
+          "08-06 P! 08-12 M 08-19 P 08-26 M",
+          "09-02 P 09-09 M 09-16 P 09-23 M 09-30 P",
+          "10-07 M 10-14 P 10-21 M 10-28 P",
+          "11-04 M 11-11 P 11-19 M! 11-25 P",
+          "12-02 M 12-09 P 12-16 M 12-23 P 12-30 M"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "davatelj": "Krakom d.o.o.",
+  "web": "https://krakom.hr",
+  "izvor": "https://krakom.hr/raspored-odvoza/",
+  "zupanija": "Krapinsko-zagorska",
+  "jls": ["Krapina", "Đurmanec", "Radoboj", "Jesenje", "Petrovsko"],
+  "nazivi": {"M": "Miješani komunalni otpad (zeleni spremnik)", "P": "Plastika (žuti spremnik)", "K": "Papir, karton i tetrapak (plavi spremnik)"},
+  "bioNapomena": "Biootpad (smeđi spremnik) u Krapini se preuzima svaki utorak, za korisnike koji ne kompostiraju samostalno.",
+  "napomene": ["Svaki tjedan odvozi se jedan spremnik (zeleni, žuti ili plavi, ponekad zeleni zajedno sa žutim ili plavim), na dan u tjednu određen za ulicu ili općinu.", "Ako je dan odvoza neradni dan, odvoz je u subotu: za ponedjeljak i utorak prethodnu, za srijedu do petka sljedeću; kad se dva praznika spoje, Krakom objavljuje promjenu (ovdje su upisane subote iz kalendara).", "Glomazni otpad: zasebni raspored po naseljima na krakom.hr (nije uključen).", "Kontakt: 049/382-700, krakom@krakom.hr."],
+  "zone": {
+    "1": {
+      "jls": "Krapina",
+      "podrucje": "Ponedjeljak: Žutnica, Ulica Frana Galovića, Ulica Ante Starčevića, Trg Stjepana Radića, …",
+      "ulice": ["Žutnica", "Ulica Frana Galovića", "Ulica Ante Starčevića", "Trg Stjepana Radića", "Trg dr. Mirka Dražena Grmeka", "Ulica Dragutina Domjanića", "Ulica Ivana Rendića", "Ulica Hrvatskih branitelja", "Ulica Dragutina Gorjanovića Krambergera", "Ulica Matije Gupca", "Ulica Augusta Cesarca", "Ulica bana Josipa Jelačića", "Ulica Petra Zrinskog i Krste Frankopana", "Perivoj Gustava Krkleca"],
+      "napomena": "Biootpad se preuzima utorkom (za korisnike koji ne kompostiraju). Izvor: https://krakom.hr/wp-content/uploads/2026/03/KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-05 P 01-10 B! 01-12 M 01-13 B 01-19 K 01-20 B 01-26 M 01-27 B",
+          "02-02 P 02-03 B 02-09 M 02-10 B 02-16 K 02-17 B 02-23 M 02-24 B",
+          "03-02 P 03-03 B 03-09 M 03-10 B 03-16 K 03-17 B 03-23 M 03-24 B 03-30 P 03-31 B",
+          "04-04 M! 04-07 B 04-13 K 04-14 B 04-20 M 04-21 B 04-27 P 04-28 B",
+          "05-04 M 05-05 B 05-11 K 05-12 B 05-18 M 05-19 B 05-25 P 05-26 B",
+          "06-01 M 06-02 B 06-08 MK 06-09 B 06-15 M 06-16 B 06-20 MP! 06-23 B 06-29 M 06-30 B",
+          "07-06 MK 07-07 B 07-13 M 07-14 B 07-20 MP 07-21 B 07-27 M 07-28 B",
+          "08-03 MK 08-04 B 08-10 M 08-11 B 08-17 MP 08-18 B 08-24 M 08-25 B 08-31 K",
+          "09-01 B 09-07 M 09-08 B 09-14 P 09-15 B 09-21 M 09-22 B 09-28 K 09-29 B",
+          "10-05 M 10-06 B 10-12 P 10-13 B 10-19 M 10-20 B 10-26 K 10-27 B",
+          "11-02 M 11-03 B 11-09 P 11-10 B 11-16 M 11-17 B 11-23 K 11-24 B 11-30 M",
+          "12-01 B 12-07 P 12-08 B 12-14 M 12-15 B 12-21 K 12-22 B 12-28 M 12-29 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Krapina",
+      "podrucje": "Utorak: Bobovje, Polje Krapinsko, Mihaljekov Jarek, Krapinska Straža, …",
+      "ulice": ["Bobovje", "Polje Krapinsko", "Mihaljekov Jarek", "Krapinska Straža", "Pristava Krapinska", "Ulica kralja Tomislava", "Ulica kralja Ljudevita", "Ulica kralja Petra Svačića", "Ulica kralja Zvonimira", "Ulica kneza Trpimira", "Ulica kralja Petra Krešimira IV", "Ulica kralja Stjepana Držislava", "Ulica kneza Branimira", "Ulica kneza Domagoja", "Ulica Rudolfa Lovreca", "Ulica Branka Samca", "Ulica Đure Prejca", "Ulica Mirka Crkvenca", "Zagrebačka cesta", "Ulica dr. Franje Tuđmana", "Tkalci"],
+      "napomena": "Izvor: https://krakom.hr/wp-content/uploads/2026/03/KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-10 BP! 01-13 MB 01-20 BK 01-27 MB",
+          "02-03 BP 02-10 MB 02-17 BK 02-24 MB",
+          "03-03 BP 03-10 MB 03-17 BK 03-24 MB 03-31 BP",
+          "04-07 MB 04-14 BK 04-21 MB 04-28 BP",
+          "05-05 MB 05-12 BK 05-19 MB 05-26 BP",
+          "06-02 MB 06-09 MBK 06-16 MB 06-23 MBP 06-30 MB",
+          "07-07 MBK 07-14 MB 07-21 MBP 07-28 MB",
+          "08-04 MBK 08-11 MB 08-18 MBP 08-25 MB",
+          "09-01 BK 09-08 MB 09-15 BP 09-22 MB 09-29 BK",
+          "10-06 MB 10-13 BP 10-20 MB 10-27 BK",
+          "11-03 MB 11-10 BP 11-17 MB 11-24 BK",
+          "12-01 MB 12-08 BP 12-15 MB 12-22 BK 12-29 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Krapina",
+      "podrucje": "Srijeda: Ulica Andrije Hebranga, Ulica Žrtava rata, Radobojska cesta, Ulica Antuna Gustava Matoša, …",
+      "ulice": ["Ulica Andrije Hebranga", "Ulica Žrtava rata", "Radobojska cesta", "Ulica Antuna Gustava Matoša", "Ulica dr. Živka Vukasovića", "Ulica Ivana Lowa", "Ulica Antuna Mihanovića", "Ulica Ivana Gorana Kovačića", "Ulica Ante Kovačića", "Ulica Vatroslava Lisinskog", "Bregovita ulica", "Ulica Augusta Hercega Brke", "Ulica Stjepana Ortnera", "Ulica Janka Leskovara", "Ulica Augusta Šenoe", "Samostanska ulica", "Podgora Krapinska", "Ulica 103. brigade Hrvatske vojske", "Strahinje", "Lazi Krapinski", "Stop Shop"],
+      "napomena": "Biootpad se preuzima utorkom (za korisnike koji ne kompostiraju). Izvor: https://krakom.hr/wp-content/uploads/2026/03/KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-07 P 01-10 B! 01-13 B 01-14 M 01-20 B 01-21 K 01-27 B 01-28 M",
+          "02-03 B 02-04 P 02-10 B 02-11 M 02-17 B 02-18 K 02-24 B 02-25 M",
+          "03-03 B 03-04 P 03-10 B 03-11 M 03-17 B 03-18 K 03-24 B 03-25 M 03-31 B",
+          "04-01 P 04-07 B 04-08 M 04-14 B 04-15 K 04-21 B 04-22 M 04-28 B 04-29 P",
+          "05-05 B 05-06 M 05-12 B 05-13 K 05-19 B 05-20 M 05-26 B 05-27 P",
+          "06-02 B 06-03 M 06-09 B 06-10 MK 06-16 B 06-17 M 06-23 B 06-24 MP 06-30 B",
+          "07-01 M 07-07 B 07-08 MK 07-14 B 07-15 M 07-21 B 07-22 MP 07-28 B 07-29 M",
+          "08-01 MK! 08-04 B 08-11 B 08-12 M 08-18 B 08-19 MP 08-25 B 08-26 M",
+          "09-01 B 09-02 K 09-08 B 09-09 M 09-15 B 09-16 P 09-22 B 09-23 M 09-29 B 09-30 K",
+          "10-06 B 10-07 M 10-13 B 10-14 P 10-20 B 10-21 M 10-27 B 10-28 K",
+          "11-03 B 11-04 M 11-10 B 11-11 P 11-17 B 11-21 M! 11-24 B 11-25 K",
+          "12-01 B 12-02 M 12-08 B 12-09 P 12-15 B 12-16 M 12-22 B 12-23 K 12-29 B 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Krapina",
+      "podrucje": "Četvrtak: Trški Vrh, Ulica Miroslava Krleže, Ulica Marije Jambrišak, Ulica Marije Jurić Zagorke, …",
+      "ulice": ["Trški Vrh", "Ulica Miroslava Krleže", "Ulica Marije Jambrišak", "Ulica Marije Jurić Zagorke", "Ulica Dubravka Ivančana", "Ulica Mate Lovraka", "Ulica Grigora Viteza", "Ulica Tituša Brezovačkog", "Ulica Miška Pavića", "Ulica Ivane Brlić Mažuranić", "Ulica Sidonije Košutić", "Ulica Mihovila Pavleka Miškine", "Ulica Vladimira Nazora", "Ulica Josipa Jurja Strossmayera", "Trg svetog Nikole Biskupa", "Crkvena ulica", "Ulica Ilirskog pokreta", "Ulica kardinala Stepinca", "Velika Ves", "Lepajci", "Donja Šemnica", "Zagora"],
+      "napomena": "Biootpad se preuzima utorkom (za korisnike koji ne kompostiraju). Izvor: https://krakom.hr/wp-content/uploads/2026/03/KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 P 01-10 B! 01-13 B 01-15 M 01-20 B 01-22 K 01-27 B 01-29 M",
+          "02-03 B 02-05 P 02-10 B 02-12 M 02-17 B 02-19 K 02-24 B 02-26 M",
+          "03-03 B 03-05 P 03-10 B 03-12 M 03-17 B 03-19 K 03-24 B 03-26 M 03-31 B",
+          "04-02 P 04-07 B 04-09 M 04-14 B 04-16 K 04-21 B 04-23 M 04-28 B 04-30 P",
+          "05-05 B 05-07 M 05-12 B 05-14 K 05-19 B 05-21 M 05-26 B 05-28 P",
+          "06-02 B 06-06 M! 06-09 B 06-11 MK 06-16 B 06-18 M 06-23 B 06-25 MP 06-30 B",
+          "07-02 M 07-07 B 07-09 MK 07-14 B 07-16 M 07-21 B 07-23 MP 07-28 B 07-30 M",
+          "08-04 B 08-06 MK 08-11 B 08-13 M 08-18 B 08-20 MP 08-25 B 08-27 M",
+          "09-01 B 09-03 K 09-08 B 09-10 M 09-15 B 09-17 P 09-22 B 09-24 M 09-29 B",
+          "10-01 K 10-06 B 10-08 M 10-13 B 10-15 P 10-20 B 10-22 M 10-27 B 10-29 K",
+          "11-03 B 11-05 M 11-10 B 11-12 P 11-17 B 11-19 M 11-24 B 11-26 K",
+          "12-01 B 12-03 M 12-08 B 12-10 P 12-15 B 12-17 M 12-22 B 12-24 K 12-29 B 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Krapina",
+      "podrucje": "Petak: Ulica Ljudevita Gaja, Šetalište Hrvatskog narodnog preporoda, Park Matice Hrvatske, Magistratska ulica, …",
+      "ulice": ["Ulica Ljudevita Gaja", "Šetalište Hrvatskog narodnog preporoda", "Park Matice Hrvatske", "Magistratska ulica", "Starogradska ulica", "Ulica Ksavera Šandora Đalskog", "Trg Ljudevita Gaja", "Uska ulica", "Doliće", "Dolac", "Ulica Ivice Gregurovića", "Šetalište Vilibalda Sluge", "Gornja Pačetina", "Škarićevo", "Krapinski Vidovec", "Petrovski Vidovec", "Pretkovec"],
+      "napomena": "Biootpad se preuzima utorkom (za korisnike koji ne kompostiraju). Izvor: https://krakom.hr/wp-content/uploads/2026/03/KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 P 01-10 B! 01-13 B 01-16 M 01-20 B 01-23 K 01-27 B 01-30 M",
+          "02-03 B 02-06 P 02-10 B 02-13 M 02-17 B 02-20 K 02-24 B 02-27 M",
+          "03-03 B 03-06 P 03-10 B 03-13 M 03-17 B 03-20 K 03-24 B 03-27 M 03-31 B",
+          "04-03 P 04-07 B 04-10 M 04-14 B 04-17 K 04-21 B 04-24 M 04-28 B",
+          "05-02 P! 05-05 B 05-08 M 05-12 B 05-15 K 05-19 B 05-22 M 05-26 B 05-29 P",
+          "06-02 B 06-05 M 06-09 B 06-12 MK 06-16 B 06-19 M 06-23 B 06-26 MP 06-30 B",
+          "07-03 M 07-07 B 07-10 MK 07-14 B 07-17 M 07-21 B 07-24 MP 07-28 B 07-31 M",
+          "08-04 B 08-07 MK 08-11 B 08-14 M 08-18 B 08-21 MP 08-25 B 08-28 M",
+          "09-01 B 09-04 K 09-08 B 09-11 M 09-15 B 09-18 P 09-22 B 09-25 M 09-29 B",
+          "10-02 K 10-06 B 10-09 M 10-13 B 10-16 P 10-20 B 10-23 M 10-27 B 10-30 K",
+          "11-03 B 11-06 M 11-10 B 11-13 P 11-17 B 11-20 M 11-24 B 11-27 K",
+          "12-01 B 12-04 M 12-08 B 12-11 P 12-15 B 12-18 M 12-19 K! 12-22 B 12-29 B"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Đurmanec",
+      "podrucje": "Cijela općina (ponedjeljak)",
+      "ulice": [],
+      "napomena": "Izvor: https://krakom.hr/wp-content/uploads/2025/12/Durmanec_KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-05 P 01-12 M 01-19 K 01-26 M",
+          "02-02 P 02-09 M 02-16 K 02-23 M",
+          "03-02 P 03-09 M 03-16 K 03-23 M 03-30 P",
+          "04-04 M! 04-13 K 04-20 M 04-27 P",
+          "05-04 M 05-11 K 05-18 M 05-25 P",
+          "06-01 M 06-08 MK 06-15 M 06-20 MP! 06-29 M",
+          "07-06 MK 07-13 M 07-20 MP 07-27 M",
+          "08-03 MK 08-10 M 08-17 MP 08-24 M 08-31 K",
+          "09-07 M 09-14 P 09-21 M 09-28 K",
+          "10-05 M 10-12 P 10-19 M 10-26 K",
+          "11-02 M 11-09 P 11-16 M 11-23 K 11-30 M",
+          "12-07 P 12-14 M 12-21 K 12-28 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Radoboj",
+      "podrucje": "Cijela općina (srijeda)",
+      "ulice": [],
+      "napomena": "18.11. je blagdan, a kalendar ga prikazuje kao dan odvoza; po pravilu bi odvoz bio u subotu (provjeriti kod Krakoma). Izvor: https://krakom.hr/wp-content/uploads/2026/01/KALENDAR-Radoboj-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-07 P 01-14 M 01-21 K 01-28 M",
+          "02-04 P 02-11 M 02-18 K 02-25 M",
+          "03-04 P 03-11 M 03-18 K 03-25 M",
+          "04-01 P 04-08 M 04-15 K 04-22 M 04-29 P",
+          "05-06 M 05-13 K 05-20 M 05-27 P",
+          "06-03 M 06-10 MK 06-17 M 06-24 MP",
+          "07-01 M 07-08 MK 07-15 M 07-22 MP 07-29 M",
+          "08-08 MK! 08-12 M 08-19 MP 08-26 M",
+          "09-02 K 09-09 M 09-16 P 09-23 M 09-30 K",
+          "10-07 M 10-14 P 10-21 M 10-28 K",
+          "11-04 M 11-11 P 11-18 M 11-25 K",
+          "12-02 M 12-09 P 12-16 M 12-23 K 12-30 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Jesenje",
+      "podrucje": "Cijela općina (četvrtak)",
+      "ulice": [],
+      "napomena": "Izvor: https://krakom.hr/wp-content/uploads/2025/12/Jesenje_KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 P 01-15 M 01-22 K 01-29 M",
+          "02-05 P 02-12 M 02-19 K 02-26 M",
+          "03-05 P 03-12 M 03-19 K 03-26 M",
+          "04-02 P 04-09 M 04-16 K 04-23 M 04-30 P",
+          "05-07 M 05-14 K 05-21 M 05-28 P",
+          "06-06 M! 06-11 MK 06-18 M 06-25 MP",
+          "07-02 M 07-09 MK 07-16 M 07-23 MP 07-30 M",
+          "08-06 MK 08-13 M 08-20 MP 08-27 M",
+          "09-03 K 09-10 M 09-17 P 09-24 M",
+          "10-01 K 10-08 M 10-15 P 10-22 M 10-29 K",
+          "11-05 M 11-12 P 11-19 M 11-26 K",
+          "12-03 M 12-10 P 12-17 M 12-24 K 12-31 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Petrovsko",
+      "podrucje": "Cijela općina (petak)",
+      "ulice": [],
+      "napomena": "25.12. je blagdan, a i subota 26.12.; kalendar ne navodi zamjenski dan (Krakom ga objavljuje naknadno). Izvor: https://krakom.hr/wp-content/uploads/2025/12/Petrovsko_KALENDAR-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 P 01-16 M 01-23 K 01-30 M",
+          "02-06 P 02-13 M 02-20 K 02-27 M",
+          "03-06 P 03-13 M 03-20 K 03-27 M",
+          "04-03 P 04-10 M 04-17 K 04-24 M",
+          "05-02 P! 05-08 M 05-15 K 05-22 M 05-29 P",
+          "06-05 M 06-12 MK 06-19 M 06-26 MP",
+          "07-03 M 07-10 MK 07-17 M 07-24 MP 07-31 M",
+          "08-07 MK 08-14 M 08-21 MP 08-28 M",
+          "09-04 K 09-11 M 09-18 P 09-25 M",
+          "10-02 K 10-09 M 10-16 P 10-23 M 10-30 K",
+          "11-06 M 11-13 P 11-20 M 11-27 K",
+          "12-04 M 12-11 P 12-18 M"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "davatelj": "Nevkoš d.o.o.",
+  "web": "https://nevkos.hr",
+  "izvor": "https://nevkos.hr/raspored/",
+  "zupanija": "Vukovarsko-srijemska",
+  "jls": ["Vinkovci", "Ivankovo", "Markušica", "Nuštar", "Tordinci", "Privlaka", "Šodolovci", "Andrijaševci"],
+  "napomene": ["Vinkovci: miješani komunalni otpad odvozi se jednom tjedno na dan naveden za ulicu (zone po danima); zgrade i dijelovi ulica s više odvoza tjedno navedeni su u više zona. Nevkoš ne objavljuje pomake tog odvoza zbog blagdana, pa su datumi izračunati bez pomaka.", "Vinkovci: papir i plastika odvoze se jednom mjesečno po blokovima grada (zasebne zone); Nevkoš ne objavljuje koje ulice pripadaju kojem bloku. Ako odvoz padne na blagdan, obavlja se sljedeći radni dan ili u subotu.", "Općine: datumi su iz godišnjih kalendara na nevkos.hr; pomaci zbog blagdana već su upisani.", "Posudu (s vrećicom) treba iznijeti na dan odvoza najkasnije do 7:00, uz prometnicu.", "Općina Jarmina (također Nevkoš) nije uključena: na nevkos.hr za nju je objavljen samo cjenik, bez rasporeda.", "Kontakt: 032/306-130, info@nevkos.hr (pon-pet 7-15 h)."],
+  "zone": {
+    "1": {
+      "jls": "Vinkovci",
+      "podrucje": "Miješani otpad ponedjeljak: Andrije Hebranga, Andrije Štampara, Ante Starčevića, Ante Starčevića (neparna od 49 do 79), …",
+      "ulice": ["Andrije Hebranga", "Andrije Štampara", "Ante Starčevića", "Ante Starčevića (neparna od 49 do 79)", "Ante Starčevića-stan 4 (Neboder)", "Antuna Akšamovića", "Antuna Branka Šimića", "Antuna Gustava Matoša - stan (od 1 do 11) + 21+ 54", "Antuna Zrinšeka", "Augusta Šenoe-stan (24,26,35,37,39)", "Bana Jelačića-stan 38", "Ćirila i Metoda (od 1 do 23) Lijevo", "Dragutina Žanića-Karle", "Frane Kršinića", "Glagoljaška", "Hansa Dietricha Genschera", "Hrvoja Vukčića Hrvatinića", "Istarska", "Ivana Domca", "Ivana Gundulića (od 1 do 11a) Desno", "Ive Tijardovića", "Izidora Kršnjavog", "Jakova Gotovca", "Josipa Bognera", "Josipa Jurja Strossmayera", "Josipa Lovretića", "Josipa Matasovića", "Jurja Dalmatinca-stan (10,10a,10b,10c)", "Jurja Dalmatinca-stan (5,5a,5b,7)", "Jurja Dalmatinca-stan (neparni od 17 do 23)", "Kanovačka", "Kneza Mislava (samo zgrade - neparni od 1 do 13)", "Krajiška", "Ksavera Šandora Gjalskog", "Kunjevci", "Lapovačka - (parna od 2 do 36)", "Lavoslava Ružičke", "Ljudevita Gaja", "Ljudevita Posavskog-stan 1A", "Ljudevita Posavskog-stan 1B", "Mate Medvedovića", "Matije Antuna Reljkovića - ulica", "Matije Gupca (od 1 do 105) - Lijevo", "Miroslava Krleže", "Nikole Tordinca", "Ohridska (samo zgrade do 14a)", "Otona Kučere", "Pavleka Miškine", "Prilaz Ruđera Boškovića", "Prolaz A. Ulmana", "Ruđera Boškovića", "S.S. Kranjčevića", "Slavka Jankovića", "Slavka Mađera", "Splitska", "Srijemska", "Stanka Vraza", "Stjepana Radića", "Stjepana Šulcera-stan 16", "Trg Josipa Runjanina (neparna od 1 do 9)", "Trg Kralja Tomislava", "Trg Vinkovačkih jeseni", "Tvrtka Kotromanića", "Ulica Breza", "Ulica lipa", "Vanje Radauša", "Vatrogasna", "Vatroslava Lisinskog", "Vijenac Jakova Gotovca", "Vladimira Nazora (parna od 2 do 14) i (neparna od 1 do 33)", "Vojarska", "Zagrebačka - stan (od 16 do 20)", "Zalužje"],
+      "napomena": "Papir i plastiku odvozi Nevkoš po blokovima grada, vidi zone 'Papir i plastika'; Nevkoš ne objavljuje koje ulice pripadaju kojem bloku.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-22 M 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Vinkovci",
+      "podrucje": "Miješani otpad utorak: Alojzija Stepinca, Anđela Gabrijela, Anđela Rafaela, Antuna Mihanovića (od 1 do 11) - Zgrada, …",
+      "ulice": ["Alojzija Stepinca", "Anđela Gabrijela", "Anđela Rafaela", "Antuna Mihanovića (od 1 do 11) - Zgrada", "Bana Jelačića 44 - Zgrada", "Bana Jelačića-stan 82 - Zgrada", "Bartola Kašića", "Blok Vladimira Nazora - (od 1 do 17)", "Bohnova", "Bosanska", "Bosutska", "Brčanska", "Ciglarska", "Crkvište", "Ćirila i Metoda - Desno (20 do 95d)", "Dalmatinska", "Dren", "Dubrovačka", "Ervenička", "Eugena Kumičića", "Fra Vjekoslava Mičude", "Glagoljaška", "Grigora Viteza", "Hansa D. Genschera 16a - Zgrada", "Industrijska", "Industrijska zona Jošine - Put Silosa, M.Ballinga, Kumanova", "Ivana Meštrovića", "Ivane Brlić Mažuranić", "Ivane Brlić Mažuranić (od 1 do 30)", "Izvorska", "Jadranska", "Jošine", "Julija Klovića", "Jurja Dalmatinca-stan (5c,7,9) - Zgrada", "Katarine Kotromanić", "Kneza Domagoja", "Kneza Višeslava", "Kralja Stjepana Tomaševića", "Kralja Zvonimira 4 - Zgrada", "Krbavska", "Lavoslava Ružičke", "Ljeskovačka", "Ljudevita Gaja-stan (od 15 do 27) - Zgrada", "Majke Tereze", "Makedonska", "Marka Marulića", "Matice Hrvatske 6,8,10 - Zgrada", "Matije Antuna Reljkovića", "Matije Gupca", "Matije Ivanića", "Mijata Stojanovića", "Nikole Jurišića", "Nova brana", "Petra Hektorovića", "Petra Preradovića", "Primorska", "Prolazna", "Senjskih uskoka", "Sigetska", "Slavka Kopača", "Sopot - ulica", "Srce Marijino", "Srijemska", "Sv.Leopolda Mandića", "Šetalište Dion. Švagelja - (od 1 do 8a)", "Šime Debelića", "Školska", "Trg dr.Franje Tuđmana 2", "Trogirska", "Velebitska", "Visovačka", "Vladimira Nazora (neparna od 35 do 43) - Zgrada", "Vladimira Nazora (parna od 16 do 24) - Zgrada", "Voćarska", "Vodenička", "Zagorska", "Željeznička", "Županjska"],
+      "napomena": "Papir i plastiku odvozi Nevkoš po blokovima grada, vidi zone 'Papir i plastika'; Nevkoš ne objavljuje koje ulice pripadaju kojem bloku.",
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-28 M",
+          "05-05 M 05-12 M 05-19 M 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-22 M 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Vinkovci",
+      "podrucje": "Miješani otpad srijeda: Andrije Kačića-Miošića, Ante Starčevića - Zgrada - (54a,56a,58a,60,62,64,66,68,70,72,74), Ante Starčevića-stan 4 - Neboder, Blok Julija Domca, …",
+      "ulice": ["Andrije Kačića-Miošića", "Ante Starčevića - Zgrada - (54a,56a,58a,60,62,64,66,68,70,72,74)", "Ante Starčevića-stan 4 - Neboder", "Blok Julija Domca", "Brodska", "Cerička", "Ciglarska", "Diljeva ulica", "Diljevo naselje", "Dirov brijeg", "Duga ulica", "Dvanaest redarstvenika", "Đakovačka", "Elise Šokčević", "Eugena Kvaternika", "Ferde Livadića", "Frana Krste Frankopana", "Grgura Ninskog", "Grobljanska", "Hrvatskih kraljeva (od 1 do 70a)", "Iločka", "Ivana Filipovića", "Ivana Kozarca", "Ivana Mažuranića - Zgrada - (od 1 do 24)", "Josipa Brunšmida", "Josipa Kozarca", "Julija Benešića", "Karlovačka", "Kneza Zdeslava", "Koprivnička", "Kralja Zvonimira (parna od 2 do 114a) i (neparna od 1 do 127)", "Kraljice mira", "Makova", "Marije Jurić Zagorke - Zgrada - (22,24,26,28,30)", "Matice Hrvatske 4 - Zgrada", "Matije Klajna", "Mirkovačka", "Nikole Tesle", "Nova ulica", "Nuštarska", "Petra Zrinskog", "Petrinjska", "Požeška", "Privlačka", "Slavonska", "Sv.Antuna Padovanskog", "Tenina", "Trg bana Josipa Šokčevića", "Trg dr. Franje Tuđmana", "Trg Josipa Runjanina - (od 11 do 21)", "Ulica maslačaka", "Vladimira Gortana", "Vrtna", "Vukovarska", "Zlatana Sremca", "Zvonarska (zgrade od 46 do 56)"],
+      "napomena": "Papir i plastiku odvozi Nevkoš po blokovima grada, vidi zone 'Papir i plastika'; Nevkoš ne objavljuje koje ulice pripadaju kojem bloku.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-24 M",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-05 M 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-11 M 11-18 M 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Vinkovci",
+      "podrucje": "Miješani otpad srijeda – Mirkovci: 9. svibnja, Baranjska, Bare, Branka Radičevića, …",
+      "ulice": ["9. svibnja (Mirkovci)", "Baranjska (Mirkovci)", "Bare (Mirkovci)", "Branka Radičevića (Mirkovci)", "Dunavska (Mirkovci)", "Mali kraj (Mirkovci)", "Nogometna (Mirkovci)", "Savska (Mirkovci)", "Sime Lončara (Mirkovci)", "Ulica mladosti (Mirkovci)", "Ulica trešanja (Mirkovci)", "Uska ulica (Mirkovci)", "Vidorska (Mirkovci)"],
+      "napomena": "Papir i plastiku odvozi Nevkoš po blokovima grada, vidi zone 'Papir i plastika'; Nevkoš ne objavljuje koje ulice pripadaju kojem bloku.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-24 M",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-05 M 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-11 M 11-18 M 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Vinkovci",
+      "podrucje": "Miješani otpad četvrtak: Alberta Kinerta, Andrije Hebranga, Anina, Ante Majstorovića, …",
+      "ulice": ["Alberta Kinerta", "Andrije Hebranga", "Anina", "Ante Majstorovića", "Ante Starčevića (od 1 do 19)", "Ante Starčevića-stan 4 - Neboder", "Antuna Branka Šimića", "Antuna Gustava Matoša", "Augusta Cesarca", "Augusta Šenoe", "Bana Ivaniša Horvata", "Barutana", "Blato", "Blok tržnica", "Borinačka", "Borovska", "Bračka", "Bribirska", "Brijunska", "Brune Bušića", "Bunjevačka", "Cara Graciana", "Cara Valentinijana I", "Cvjetna", "Dr. Mate Topalovića", "Dr.Josipa Fulanovića", "Ferde Šišića", "Fra Didaka Buntića", "Gustava Krkleca", "Hercegovačka", "Hrvatskih kraljeva (od 78 do 130)", "Hrvatskih kraljeva (od 67 do 76d)", "Hrvatskih žrtava", "Hvarska", "Ivana Antuna Fitzyja", "Ivana Gorana Kovačića zgrade (od 58 do 68)", "Ivana K. Sakcinskog", "Ivana Vučića", "Ivana Zajca", "Josipa Jovića", "Josipa Jurja Strossmayera", "Josipa Kosora", "Josipa Runjanina", "Jure Kaštelana", "Jurja Dalmatinca", "Klenova", "Kneza Branimira", "Kneza Mislava (samo zgrade - neparni od 1 do 13)", "Kneza Trpimira", "Kolarska", "Kolodvorska", "Kralja Krešimira", "Kralja Tomislava", "Kulina bana", "Kvarnerska", "Lapovačka - (parna od 2 do 36)", "Luja Adamića", "Ljudevita Posavskog", "Marije Jurić Zagorke", "Marina Držića", "Marka Kadića", "Mije Brašnića", "Mije Mareka", "Mile Budaka", "Mostarska", "Nikole Šubića Zrinskog", "Nikole Tesle", "Ohridska (samo zgrade do 14a)", "Osječka", "Otočka", "Pavla Šubića", "Petra Zoranića", "Slave Raškaj", "Slavija", "Slavka Jankovića", "Splitska", "Stjepana Đakovića", "Stjepana Ivšića", "Stjepana Pavičića", "Stjepana Šulcera", "Sunčana", "Šokačka", "Tina Ujevića", "Vikend naselje Borinci", "Vjekoslava Klaića", "Vladimira Kovačića", "Zagrebačka (od 22 do 65)", "Zvjezdana", "Zvonarska od (1 do 55)", "Žankovac", "Željeznički vijenac"],
+      "napomena": "Papir i plastiku odvozi Nevkoš po blokovima grada, vidi zone 'Papir i plastika'; Nevkoš ne objavljuje koje ulice pripadaju kojem bloku.",
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-28 M",
+          "06-04 M 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Vinkovci",
+      "podrucje": "Miješani otpad četvrtak – Mirkovci: 22. lipnja, Bana Jelačića, Branislava Nušića, Branka Radičevića, …",
+      "ulice": ["22. lipnja (Mirkovci)", "Bana Jelačića (Mirkovci)", "Branislava Nušića (Mirkovci)", "Branka Radičevića (Mirkovci)", "Crkvena (Mirkovci)", "Drenova (Mirkovci)", "Europske unije (Mirkovci)", "Jankovačka (Mirkovci)", "Josifa Pančića (Mirkovci)", "Kamenice (Mirkovci)", "Mirkova (Mirkovci)", "Panonska (Mirkovci)", "Prišinci (Mirkovci)", "Strma (Mirkovci)", "Trg Nikole Tesle (Mirkovci)", "Ulica Hrvatskih branitelja (Mirkovci)", "Ulica Hrvatskih sokolova (Mirkovci)", "Ulica suncokreta (Mirkovci)", "Vinkovačka (Mirkovci)", "Vukovarska (Mirkovci)", "Zelena (Mirkovci)", "Zrmanjska (Mirkovci)", "Željeznička (Mirkovci)", "Žrtava fašizma (Mirkovci)"],
+      "napomena": "Papir i plastiku odvozi Nevkoš po blokovima grada, vidi zone 'Papir i plastika'; Nevkoš ne objavljuje koje ulice pripadaju kojem bloku.",
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-28 M",
+          "06-04 M 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Vinkovci",
+      "podrucje": "Miješani otpad petak: Ante Starčevića-stan 4 - Neboder, Antuna Mihanovića (od 1 do 11) - Zgrada, Bana Jelačića, Blok Vladimira Nazora - (od 1 do 17), …",
+      "ulice": ["Ante Starčevića-stan 4 - Neboder", "Antuna Mihanovića (od 1 do 11) - Zgrada", "Bana Jelačića", "Blok Vladimira Nazora - (od 1 do 17)", "Duga ulica 19 - Zgrada", "Istarska", "Ivana Gorana Kovačića - (bez zgrada)", "Ivana Gundulića - Lijevo", "Joze Ivakića", "Jurja Dalmatinca-stan (5c,7,9) - Zgrada", "Kneza Mislava - (parni od 2 do 38)", "Kralja Zvonimira 4 - Zgrada", "Lapovačka - (neparni od 1 do 11)", "Ljudevita Gaja-stan (od 15 do 27) - Zgrada", "Matice Hrvatske", "Poljska", "Šetalište Dion. Švagelja", "Vladimira Nazora (neparna od 35 do 43) - Zgrada", "Vladimira Nazora (parna od 16 do 24) - Zgrada", "SUBOTA", "Ante Starčevića - Zgrada - (54a,56a,58a,60,62,64,66,68,70,72,74)", "Duga ulica 24 - Zgrada", "Ivana Mažuranića - Zgrada - (od 1 do 24)", "Marije Jurić Zagorke - Zgrada - (22,24,26,28,30)", "Nikole Tesle - (zgrade 39,39a,39b)", "Trg Josipa Runjanina - (od 11 do 21)", "Zvonarska - (zgrade od 46 do 56)"],
+      "napomena": "Papir i plastiku odvozi Nevkoš po blokovima grada, vidi zone 'Papir i plastika'; Nevkoš ne objavljuje koje ulice pripadaju kojem bloku.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-24 M",
+          "05-01 M 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-25 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (prva srijeda u mjesecu): Kanovci",
+      "ulice": ["Kanovci"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-07 PK",
+          "02-04 PK",
+          "03-04 PK",
+          "04-01 PK",
+          "05-06 PK",
+          "06-03 PK",
+          "07-01 PK",
+          "08-06 PK!",
+          "09-02 PK",
+          "10-07 PK",
+          "11-04 PK",
+          "12-02 PK"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (prvi četvrtak u mjesecu): Vašarište, Radićev blok – lijeva strana, Ivana i Josipa Kozarca",
+      "ulice": ["Vašarište", "Radićev blok – lijeva strana", "Ivana i Josipa Kozarca"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-02 PK!",
+          "02-05 PK",
+          "03-05 PK",
+          "04-02 PK",
+          "05-07 PK",
+          "06-05 PK!",
+          "07-02 PK",
+          "08-06 PK",
+          "09-03 PK",
+          "10-01 PK",
+          "11-05 PK",
+          "12-03 PK"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (prvi petak u mjesecu): Radićev blok – desna strana, Bana Jelačića, R. Boškovića",
+      "ulice": ["Radićev blok – desna strana", "Bana Jelačića", "R. Boškovića"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-02 PK",
+          "02-06 PK",
+          "03-06 PK",
+          "04-03 PK",
+          "05-02 PK!",
+          "06-05 PK",
+          "07-03 PK",
+          "08-07 PK",
+          "09-04 PK",
+          "10-02 PK",
+          "11-06 PK",
+          "12-04 PK"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (druga srijeda u mjesecu): Novo Selo – desna strana",
+      "ulice": ["Novo Selo – desna strana"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-14 PK",
+          "02-11 PK",
+          "03-11 PK",
+          "04-08 PK",
+          "05-13 PK",
+          "06-10 PK",
+          "07-08 PK",
+          "08-12 PK",
+          "09-09 PK",
+          "10-14 PK",
+          "11-11 PK",
+          "12-09 PK"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (drugi četvrtak u mjesecu): Novo Selo – lijeva strana",
+      "ulice": ["Novo Selo – lijeva strana"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-08 PK",
+          "02-12 PK",
+          "03-12 PK",
+          "04-09 PK",
+          "05-14 PK",
+          "06-11 PK",
+          "07-09 PK",
+          "08-13 PK",
+          "09-10 PK",
+          "10-08 PK",
+          "11-12 PK",
+          "12-10 PK"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (drugi petak u mjesecu): Slavija i Borinci",
+      "ulice": ["Slavija i Borinci"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-09 PK",
+          "02-13 PK",
+          "03-13 PK",
+          "04-10 PK",
+          "05-08 PK",
+          "06-12 PK",
+          "07-10 PK",
+          "08-14 PK",
+          "09-11 PK",
+          "10-09 PK",
+          "11-13 PK",
+          "12-11 PK"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (treća srijeda u mjesecu): Mirkovci",
+      "ulice": ["Mirkovci"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-21 PK",
+          "02-18 PK",
+          "03-18 PK",
+          "04-15 PK",
+          "05-20 PK",
+          "06-17 PK",
+          "07-15 PK",
+          "08-19 PK",
+          "09-16 PK",
+          "10-21 PK",
+          "11-19 PK!",
+          "12-16 PK"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (treći četvrtak u mjesecu): Mala Bosna",
+      "ulice": ["Mala Bosna"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-15 PK",
+          "02-19 PK",
+          "03-19 PK",
+          "04-16 PK",
+          "05-21 PK",
+          "06-18 PK",
+          "07-16 PK",
+          "08-20 PK",
+          "09-17 PK",
+          "10-15 PK",
+          "11-19 PK",
+          "12-17 PK"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (treći petak u mjesecu): Zagrebački blok, Kralja Zvonimira – desna strana",
+      "ulice": ["Zagrebački blok", "Kralja Zvonimira – desna strana"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-16 PK",
+          "02-20 PK",
+          "03-20 PK",
+          "04-17 PK",
+          "05-15 PK",
+          "06-19 PK",
+          "07-17 PK",
+          "08-21 PK",
+          "09-18 PK",
+          "10-16 PK",
+          "11-20 PK",
+          "12-18 PK"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Vinkovci",
+      "podrucje": "Papir i plastika (četvrta srijeda u mjesecu): Kolodvor, Vrtno naselje, Kralja Zvonimira – lijeva strana",
+      "ulice": ["Kolodvor", "Vrtno naselje", "Kralja Zvonimira – lijeva strana"],
+      "napomena": "Samo papir i plastika; miješani otpad odvozi se prema popisu ulica po danima (zone 'Miješani otpad').",
+      "raw": {
+        "2026": [
+          "01-28 PK",
+          "02-25 PK",
+          "03-25 PK",
+          "04-22 PK",
+          "05-27 PK",
+          "06-24 PK",
+          "07-22 PK",
+          "08-26 PK",
+          "09-23 PK",
+          "10-28 PK",
+          "11-25 PK",
+          "12-23 PK"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Ivankovo",
+      "podrucje": "Ivankovo",
+      "opis": "Godišnji raspored odvoza za općinu Ivankovo (Ivankovo) | Miješani komunalni otpad - svaki drugi petak | Biootpad - svaki drugi petak | Papir, plastika i metal, staklo (4. četrvrtak i 4. petak u mjesecu)",
+      "ulice": ["Ivankovo"],
+      "napomena": "Reciklabilni otpad: 4. četvrtak i 4. petak u mjesecu, oba dana označena su u kalendaru; Nevkoš ne navodi koji dio naselja odvozi koji dan. Izvor: https://nevkos.hr/wp-content/uploads/2026/01/Godisnji-raspored-odvoza-za-opcine-2026-Ivankovo.pdf",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 B 01-16 M 01-22 PKS 01-23 BPKS 01-30 M",
+          "02-06 B 02-13 M 02-20 B 02-26 PKS 02-27 MPKS",
+          "03-06 B 03-13 M 03-20 B 03-26 PKS 03-27 MPKS",
+          "04-03 B 04-10 M 04-17 B 04-23 PKS 04-24 MPKS",
+          "05-02 B! 05-08 M 05-15 B 05-22 MPKS 05-28 PKS 05-29 B",
+          "06-05 M 06-12 B 06-19 M 06-25 PKS 06-26 BPKS",
+          "07-03 M 07-10 B 07-17 M 07-23 PKS 07-24 BPKS 07-31 M",
+          "08-07 B 08-14 M 08-21 B 08-27 PKS 08-28 MPKS",
+          "09-04 B 09-11 M 09-18 B 09-24 PKS 09-25 MPKS",
+          "10-02 B 10-09 M 10-16 B 10-22 PKS 10-23 MPKS 10-30 B",
+          "11-06 M 11-13 B 11-20 M 11-26 PKS 11-27 BPKS",
+          "12-04 M 12-11 B 12-18 M 12-24 PKS 12-28 BPKS!"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Ivankovo",
+      "podrucje": "Prkovci, Retkovci",
+      "opis": "Godišnji raspored odvoza za općinu Ivankovo ( Prkovci i Retkovci) | Miješani komunalni otpad - svaka druga subota | Biootpad - svaka druga subota | Papir, plastika i metal, staklo (3. subota u mjesecu)",
+      "ulice": ["Prkovci", "Retkovci"],
+      "napomena": "U kalendaru su 13.06., 27.06., 31.10. označeni tamnocrvenom bojom koje nema u legendi; ti datumi nisu upisani (provjeriti kod Nevkoša). Izvor: https://nevkos.hr/wp-content/uploads/2026/01/Godisnji-raspored-odvoza-za-opcine-2026-Retkovci-i-Prkovci.pdf",
+      "raw": {
+        "2026": [
+          "01-03 M 01-10 B 01-17 MPKS 01-24 B 01-31 M",
+          "02-07 B 02-14 M 02-21 BPKS 02-28 M",
+          "03-07 B 03-14 M 03-21 BPKS 03-28 M",
+          "04-04 B 04-11 M 04-18 BPKS 04-25 M",
+          "05-02 B 05-09 M 05-16 BPKS 05-23 M",
+          "06-01 B! 06-06 M 06-20 MPKS",
+          "07-04 M 07-11 B 07-18 MPKS 07-25 B",
+          "08-01 M 08-08 B 08-17 MPKS! 08-22 B 08-29 M",
+          "09-05 B 09-12 M 09-19 BPKS 09-26 M",
+          "10-03 B 10-10 M 10-17 BPKS 10-24 M",
+          "11-07 M 11-14 B 11-21 MPKS 11-28 B",
+          "12-05 M 12-12 B 12-19 MPKS 12-28 B!"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Markušica",
+      "podrucje": "Markušica, Ostrovo, Gaboš, Podrinje, Karadžićevo",
+      "opis": "Godišnji raspored odvoza za općinu Markušica (Markušica, Ostrovo, Gaboš, Podrinje, Karadžićevo) | Miješani komunalni otpad - svaki drugi petak | Biootpad - svaki drugi petak | Papir, plastika i metal, staklo (4. ponedjeljak u mjesecu)",
+      "ulice": ["Markušica", "Ostrovo", "Gaboš", "Podrinje", "Karadžićevo"],
+      "napomena": "Izvor: https://nevkos.hr/wp-content/uploads/2026/01/Godisnji-raspored-odvoza-za-opcine-2026-Markusica.pdf",
+      "raw": {
+        "2026": [
+          "01-02 B 01-09 M 01-16 B 01-23 M 01-26 PKS 01-30 B",
+          "02-06 M 02-13 B 02-20 M 02-23 PKS 02-27 B",
+          "03-06 M 03-13 B 03-20 M 03-23 PKS 03-27 B",
+          "04-03 M 04-10 B 04-17 M 04-24 B 04-27 PKS",
+          "05-02 M! 05-08 B 05-15 M 05-22 B 05-25 PKS 05-29 M",
+          "06-05 B 06-12 M 06-19 B 06-23 PKS 06-26 M",
+          "07-03 B 07-10 M 07-17 B 07-24 M 07-27 PKS 07-31 B",
+          "08-07 M 08-14 B 08-21 M 08-24 PKS 08-28 B",
+          "09-04 M 09-11 B 09-18 M 09-25 B 09-28 PKS",
+          "10-02 M 10-09 B 10-16 M 10-23 B 10-26 PKS 10-30 M",
+          "11-06 B 11-13 M 11-20 B 11-23 PKS 11-27 M",
+          "12-04 B 12-11 M 12-18 B 12-28 MPKS!"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Nuštar",
+      "podrucje": "Nuštar",
+      "opis": "Godišnji raspored odvoza za općinu Nuštar (Nuštar, Cerić, Marinci) | Miješani komunalni otpad - svaki drugi petak - Nuštar, Cerić i Marinci | Biootpad - svaki drugi petak - Nuštar, Cerić i Marinci | Papir, plastika i metal, staklo - Nuštar (4. utorak u mjesecu) | Papir, plastika i metal, staklo - Cerić i Marinci (3. četvrtak u mjesecu)",
+      "ulice": ["Nuštar"],
+      "napomena": "Isti odvoz miješanog i biootpada za cijelu općinu; reciklabilni otpad za Nuštar prema kalendaru općine. U kalendaru su 14.08. označeni tamnocrvenom bojom koje nema u legendi; ti datumi nisu upisani (provjeriti kod Nevkoša). Izvor: https://nevkos.hr/wp-content/uploads/2026/01/Godisnji-raspored-odvoza-za-opcine-2026-Nustar.pdf",
+      "raw": {
+        "2026": [
+          "01-02 B 01-09 M 01-16 B 01-23 M 01-27 PKS 01-30 B",
+          "02-06 M 02-13 B 02-20 M 02-24 PKS 02-27 B",
+          "03-06 M 03-13 B 03-20 M 03-24 PKS 03-27 B",
+          "04-03 M 04-10 B 04-17 M 04-24 B 04-28 PKS",
+          "05-02 M! 05-08 B 05-15 M 05-22 B 05-26 PKS 05-29 M",
+          "06-05 B 06-12 M 06-19 B 06-23 PKS 06-26 M",
+          "07-03 B 07-10 M 07-17 B 07-24 M 07-28 PKS 07-31 B",
+          "08-07 M 08-21 M 08-25 PKS 08-28 B",
+          "09-04 M 09-11 B 09-18 M 09-22 PKS 09-25 B",
+          "10-02 M 10-09 B 10-16 M 10-23 B 10-27 PKS 10-30 M",
+          "11-06 B 11-13 M 11-20 B 11-24 PKS 11-27 M",
+          "12-04 B 12-11 M 12-18 B 12-22 PKS 12-28 M!"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Nuštar",
+      "podrucje": "Cerić, Marinci",
+      "opis": "Godišnji raspored odvoza za općinu Nuštar (Nuštar, Cerić, Marinci) | Miješani komunalni otpad - svaki drugi petak - Nuštar, Cerić i Marinci | Biootpad - svaki drugi petak - Nuštar, Cerić i Marinci | Papir, plastika i metal, staklo - Nuštar (4. utorak u mjesecu) | Papir, plastika i metal, staklo - Cerić i Marinci (3. četvrtak u mjesecu)",
+      "ulice": ["Cerić", "Marinci"],
+      "napomena": "Isti odvoz miješanog i biootpada za cijelu općinu; reciklabilni otpad za Cerić, Marinci prema kalendaru općine. U kalendaru su 14.08. označeni tamnocrvenom bojom koje nema u legendi; ti datumi nisu upisani (provjeriti kod Nevkoša). Izvor: https://nevkos.hr/wp-content/uploads/2026/01/Godisnji-raspored-odvoza-za-opcine-2026-Nustar.pdf",
+      "raw": {
+        "2026": [
+          "01-02 B 01-09 M 01-15 PKS 01-16 B 01-23 M 01-30 B",
+          "02-06 M 02-13 B 02-19 PKS 02-20 M 02-27 B",
+          "03-06 M 03-13 B 03-19 PKS 03-20 M 03-27 B",
+          "04-03 M 04-10 B 04-16 PKS 04-17 M 04-24 B",
+          "05-02 M! 05-08 B 05-15 M 05-21 PKS 05-22 B 05-29 M",
+          "06-05 B 06-12 M 06-18 PKS 06-19 B 06-26 M",
+          "07-03 B 07-10 M 07-16 PKS 07-17 B 07-24 M 07-31 B",
+          "08-07 M 08-20 PKS 08-21 M 08-28 B",
+          "09-04 M 09-11 B 09-17 PKS 09-18 M 09-25 B",
+          "10-02 M 10-09 B 10-15 PKS 10-16 M 10-23 B 10-30 M",
+          "11-06 B 11-13 M 11-19 PKS 11-20 B 11-27 M",
+          "12-04 B 12-11 M 12-17 PKS 12-18 B 12-28 M!"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Tordinci",
+      "podrucje": "Tordinci, Antin, Korog, Mlaka Antinska",
+      "opis": "Godišnji raspored odvoza za općinu Tordinci (Tordinci, Antin, Korog, Mlaka Antinska) | Miješani komunalni otpad - svaka druga srijeda | Biootpad - svaka druga srijeda | Papir, plastika i metal, staklo (2. utorak u mjesecu)",
+      "ulice": ["Tordinci", "Antin", "Korog", "Mlaka Antinska"],
+      "napomena": "Izvor: https://nevkos.hr/wp-content/uploads/2026/01/Godisnji-raspored-odvoza-za-opcine-2026-Tordinci.pdf",
+      "raw": {
+        "2026": [
+          "01-07 B 01-13 PKS 01-14 M 01-21 B 01-28 M",
+          "02-04 B 02-10 PKS 02-11 M 02-18 B 02-25 M",
+          "03-04 B 03-10 PKS 03-11 M 03-18 B 03-25 M",
+          "04-01 B 04-08 M 04-14 PKS 04-15 B 04-22 M 04-29 B",
+          "05-06 M 05-12 PKS 05-13 B 05-20 M 05-27 B",
+          "06-03 M 06-09 PKS 06-10 B 06-17 M 06-24 B",
+          "07-01 M 07-08 B 07-14 PKS 07-15 M 07-22 B 07-29 M",
+          "08-06 B! 08-11 PKS 08-12 M 08-19 B 08-26 M",
+          "09-02 B 09-08 PKS 09-09 M 09-16 B 09-23 M 09-30 B",
+          "10-07 M 10-13 PKS 10-14 B 10-21 M 10-28 B",
+          "11-04 M 11-10 PKS 11-11 B 11-19 M! 11-25 B",
+          "12-02 M 12-08 PKS 12-09 B 12-16 M 12-23 B 12-30 M"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Privlaka",
+      "podrucje": "Cijela općina",
+      "opis": "Godišnji raspored odvoza za općinu Privlaka | Miješani komunalni otpad - svaki drugi četvrtak | Biootpad - svaki drugi četvrtak | Papir, plastika i metal (1. ponedjeljak u mjesecu) | Državni praznici i blagdani",
+      "ulice": ["Privlaka"],
+      "napomena": "Reciklabilni otpad ovdje bez stakla (papir, plastika i metal). Izvor: https://nevkos.hr/wp-content/uploads/2026/03/Godisnji-raspored-odvoza-za-opcine-2026-Privlaka.pdf",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-05 PK 01-08 M 01-15 M 01-22 M 01-29 M",
+          "02-02 PK 02-05 M 02-12 M 02-19 M 02-26 M",
+          "03-02 PK 03-05 B 03-12 M 03-19 B 03-26 M",
+          "04-02 B 04-07 PK 04-09 M 04-16 B 04-23 M 04-30 B",
+          "05-04 PK 05-07 M 05-14 B 05-21 M 05-28 B",
+          "06-01 PK 06-05 M! 06-11 B 06-18 M 06-25 B",
+          "07-02 M 07-06 PK 07-09 B 07-16 M 07-23 B 07-30 M",
+          "08-03 PK 08-06 B 08-13 M 08-20 B 08-27 M",
+          "09-03 B 09-07 PK 09-10 M 09-17 B 09-24 M",
+          "10-01 B 10-05 PK 10-08 M 10-15 B 10-22 M 10-29 B",
+          "11-02 PK 11-05 M 11-12 B 11-19 M 11-26 B",
+          "12-03 M 12-07 PK 12-10 B 12-17 M 12-24 B 12-31 M"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Šodolovci",
+      "podrucje": "Šodolovci, Koprivna, Paulin Dvor, Petrova Slatina, Palača, Silaš, Ada",
+      "opis": "Godišnji raspored odvoza za općinu Šodolovci (Šodolovci, Koprivna, Paulin Dvor, Petrova Slatina, Palača, Silaš, Ada) | Miješani komunalni otpad - utorak | Papir, plastika i metal, staklo (2. utorak u mjesecu) | Državni praznici i blagdani",
+      "ulice": ["Šodolovci", "Koprivna", "Paulin Dvor", "Petrova Slatina", "Palača", "Silaš", "Ada"],
+      "napomena": "Izvor: https://nevkos.hr/wp-content/uploads/2026/03/Godisnji-raspored-odvoza-za-opcine-2026-Sodolovci.pdf",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 MPKS 01-20 M 01-27 M",
+          "02-03 M 02-10 MPKS 02-17 M 02-24 M",
+          "03-03 M 03-10 MPKS 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 MPKS 04-21 M 04-28 M",
+          "05-05 M 05-12 MPKS 05-19 M 05-26 M",
+          "06-02 M 06-09 MPKS 06-16 M 06-23 M 06-30 M",
+          "07-07 M 07-14 MPKS 07-21 M 07-28 M",
+          "08-04 M 08-11 MPKS 08-18 M 08-25 M",
+          "09-01 M 09-08 MPKS 09-15 M 09-22 M 09-29 M",
+          "10-06 M 10-13 MPKS 10-20 M 10-27 M",
+          "11-03 M 11-10 MPKS 11-17 M 11-24 M",
+          "12-01 M 12-08 MPKS 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Andrijaševci",
+      "podrucje": "Rokovci",
+      "opis": "Godišnji raspored odvoza za općinu Andrijaševci (Rokovci) | Miješani komunalni otpad - svaki drugi četvrtak | Biootpad - svaki drugi četvrtak | Papir, plastika i metal, staklo (3. utorak u mjesecu) | Državni praznici i blagdani",
+      "ulice": ["Rokovci"],
+      "napomena": "Izvor: https://nevkos.hr/wp-content/uploads/2026/09/Raspored-odvoza-Rokovci.pdf",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 M 01-20 PKS 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-17 PKS 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-17 PKS 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-21 PKS 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-19 PKS 05-21 M 05-28 M",
+          "06-05 B! 06-11 M 06-16 PKS 06-18 B 06-25 M",
+          "07-02 B 07-09 M 07-16 B 07-21 PKS 07-23 M 07-30 B",
+          "08-06 M 08-13 B 08-18 PKS 08-20 M 08-27 B",
+          "09-03 M 09-10 B 09-15 PKS 09-17 M 09-24 B",
+          "10-01 M 10-08 B 10-15 M 10-20 PKS 10-22 B 10-29 M",
+          "11-05 B 11-12 M 11-17 PKS 11-19 B 11-26 M",
+          "12-03 B 12-10 M 12-15 PKS 12-17 B 12-24 M 12-31 B"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Andrijaševci",
+      "podrucje": "Andrijaševci",
+      "opis": "Godišnji raspored odvoza za općinu Andrijaševci (Andrijaševci) | Miješani komunalni otpad - svaka druga srijeda | Biootpad - svaka druga srijeda | Papir, plastika i metal, staklo (3. utorak u mjesecu) | Državni praznici i blagdani",
+      "ulice": ["Andrijaševci"],
+      "napomena": "Izvor: https://nevkos.hr/wp-content/uploads/2026/09/Raspored-odvoza-Andrijasevci.pdf",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-20 PKS 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-17 PKS 02-18 M 02-25 M",
+          "03-04 M 03-11 M 03-17 PKS 03-18 M 03-25 M",
+          "04-01 M 04-08 M 04-15 M 04-21 PKS 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-19 PKS 05-20 M 05-27 M",
+          "06-03 B 06-10 M 06-16 PKS 06-17 B 06-24 M",
+          "07-01 B 07-08 M 07-15 B 07-21 PKS 07-22 M 07-29 B",
+          "08-06 M! 08-12 B 08-18 PKS 08-19 M 08-26 B",
+          "09-02 M 09-09 B 09-15 PKS 09-16 M 09-23 B 09-30 M",
+          "10-07 B 10-14 M 10-20 PKS 10-21 B 10-28 M",
+          "11-04 B 11-11 M 11-17 PKS 11-19 B! 11-25 M",
+          "12-02 B 12-09 M 12-15 PKS 12-16 B 12-23 M 12-30 B"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "davatelj": "Univerzal d.o.o.",
+  "web": "https://univerzal-djakovo.hr",
+  "izvor": "https://univerzal-djakovo.hr/sakupljanje-otpada/",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Đakovo", "Strizivojna", "Satnica Đakovačka", "Viškovci", "Trnava", "Gorjani", "Levanjska Varoš"],
+  "nazivi": {"P": "Plastika i plastična ambalaža", "S": "Staklena ambalaža (vreća)", "L": "Metalna ambalaža (vreća)"},
+  "bioNapomena": "Biootpad u Gradu Đakovu odvozi se po zasebnim skupinama ulica (zone 'Biootpad'); općine nemaju odvoz biootpada u ovom rasporedu.",
+  "napomene": ["Grad Đakovo: miješani otpad, papir i plastika po područjima (zone 1-6), biootpad po skupinama ulica (zone 'Biootpad'); za puni raspored treba pogledati obje zone svoje ulice.", "Grad Đakovo: staklena i metalna ambalaža u posebnim vrećama tri puta godišnje (prigradska naselja dan ranije od grada).", "Kalendari prikazuju blagdane crvenim brojevima; dani odvoza su obojeni i kad padnu na blagdan, pa su datumi upisani kako su objavljeni.", "Glomazni otpad i mobilno reciklažno dvorište imaju zasebne kalendare na univerzal-djakovo.hr (nisu uključeni).", "Reciklažna dvorišta: Ljudevita Gaja 31, Đakovo; Vitika (Ulica Ive Lole Ribara 125, Budrovci). Kontakt: 031/811-018."],
+  "zone": {
+    "1": {
+      "jls": "Đakovo",
+      "podrucje": "Miješani, papir, plastika – Đakovo: Zvečaj I, Zvečaj II, Petra Preradovića, Otona Ivekovića, …",
+      "ulice": ["Zvečaj I", "Zvečaj II", "Petra Preradovića", "Otona Ivekovića", "Bosutska", "Vatroslava Doneganija", "Certisa", "Nikole Jurja Tordinca", "Krešimira Pavića", "Makarska", "Industrijska zona", "Slavka Tomerlina", "Antuna Mihanovića", "Bartola Kašića", "Mate Topalovića", "Stanka Vraza", "Matije Gupca", "Školski prolaz", "Augusta Cesarca", "Splitska", "Vinkovačka", "Osječka", "Zagrebačka", "Kralja Tvrtka", "Kolodvorska", "Vatroslava Lisinskog", "Hercega Kolomana", "Ljudevita Šestića", "Antuna Gustava Matoša", "Hrvoja Vukčića Hrvatinića", "Poljska", "Radnička", "Mihovila Pavlinovića", "Trg Nikole Šubića Zrinskog", "Vjekoslava Karasa", "Trg Josipa Jurja Strossmayera", "Pape Ivana Pavla II.", "Trg dr. Franje Tuđmana", "Vijenac kardinala Alojzija Stepinca", "Ivana Zajca", "Ante Starčevića", "Dragovoljaca Domovinskog rata", "Pašin prolaz", "Matije Antuna Reljkovića", "Ćirila Kosa"],
+      "napomena": "Biootpad: vidi zone 'Biootpad' za svoju ulicu. Staklo i metal: dani za grad. Odvoz i na blagdan prema kalendaru: 06.04., 01.05., 22.06., 05.08.",
+      "raw": {
+        "2026": [
+          "01-02 P 01-05 M 01-07 K 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-04 K 02-06 P 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-04 K 03-06 P 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-01 K 04-03 P 04-06 M 04-13 M 04-20 M 04-22 S 04-27 M",
+          "05-01 P 05-04 M 05-06 K 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-03 K 06-05 P 06-08 M 06-15 M 06-22 M 06-24 L 06-29 M",
+          "07-01 K 07-03 P 07-06 M 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-05 K 08-07 P 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-02 K 09-04 P 09-07 M 09-14 M 09-21 M 09-23 S 09-28 M",
+          "10-02 P 10-05 M 10-07 K 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-04 K 11-06 P 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-02 K 12-04 P 12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Đakovo",
+      "podrucje": "Miješani, papir, plastika – Đakovo: Jakova Gotovca, Bračka, Rapska, Korčulanska, …",
+      "ulice": ["Jakova Gotovca", "Bračka", "Rapska", "Korčulanska", "Vladimira Nazora", "Električne centrale", "Nikole Tesle", "Lička", "Otokara Keršovanija", "Ivana Mažuranića", "Jure Kaštelana", "Silvija Strahimira Kranjčevića", "Ivana Gorana Kovačića", "Park pobjede", "Dragutina Domjanića", "Pisak", "Pavićeva", "Hedvige Deker", "Budrovačka", "Frankopanska", "Ivana Tišova", "Kralja Tomislava", "Dubrovačka", "Pave Kraljevića", "Cvjetni prolaz", "Josipa Runjanina", "Ivice Račana", "Franje Arpada Mesaroša", "Luke Botića", "Junija Palmotića", "Katarine Zrinski", "Stjepana Radića", "Bana Josipa Jelačića", "Franje Kuhača", "Lavoslava Ružičke", "Ivana Kukuljevića", "Frana Supila", "Bana Emerika Derenčina", "Božidara Adžije", "Psunjska", "Diljska", "Dr. Zvonimira Benčevića", "Petra Svačića", "Dravska", "Savska", "Ilirska", "Ruđera Boškovića", "Milka Cepelića", "Franje Kosine", "Josipa Kozarca", "Petra Katančića", "Pavleka Miškine", "Istarska"],
+      "napomena": "Biootpad: vidi zone 'Biootpad' za svoju ulicu. Staklo i metal: dani za grad. Odvoz i na blagdan prema kalendaru: 06.01., 01.05., 05.08.",
+      "raw": {
+        "2026": [
+          "01-02 P 01-06 M 01-07 K 01-13 M 01-20 M 01-27 M",
+          "02-03 M 02-04 K 02-06 P 02-10 M 02-17 M 02-24 M",
+          "03-03 M 03-04 K 03-06 P 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-01 K 04-03 P 04-07 M 04-14 M 04-21 M 04-22 S 04-28 M",
+          "05-01 P 05-05 M 05-06 K 05-12 M 05-19 M 05-26 M",
+          "06-02 M 06-03 K 06-05 P 06-09 M 06-16 M 06-23 M 06-24 L 06-30 M",
+          "07-01 K 07-03 P 07-07 M 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-05 K 08-07 P 08-11 M 08-18 M 08-25 M",
+          "09-01 M 09-02 K 09-04 P 09-08 M 09-15 M 09-22 M 09-23 S 09-29 M",
+          "10-02 P 10-06 M 10-07 K 10-13 M 10-20 M 10-27 M",
+          "11-03 M 11-04 K 11-06 P 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-02 K 12-04 P 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Đakovo",
+      "podrucje": "Miješani, papir, plastika – Đakovo: Andrije Hebranga, Vice Vukova, Mike Tripala, Marka Marulića, …",
+      "ulice": ["Andrije Hebranga", "Vice Vukova", "Mike Tripala", "Marka Marulića", "Joze Ivakića", "Ljudevita Gaja", "Biskupa Josipa A. Ćolnića", "Biskupa Antuna Mandića", "Đure Basaričeka", "Miroslava Krleže", "Antuna Augustinčića", "Vanje Radauša", "Bana Nikole Jurišića", "Kneza Višeslava", "Kralja Petra Krešimira IV.", "Kneza Branimira", "Kralja Zvonimira", "Kneza Domagoja", "Kneza Trpimira", "122. brigade Hrvatske vojske", "Kralja Stjepana Držislava", "Vukovarskih branitelja", "Franje Račkog", "Tina Ujevića", "Augusta Šenoe", "Gundulićeva", "Marina Držića"],
+      "napomena": "Biootpad: vidi zone 'Biootpad' za svoju ulicu. Staklo i metal: dani za grad. Odvoz i na blagdan prema kalendaru: 01.01., 01.05., 04.06., 05.08.",
+      "raw": {
+        "2026": [
+          "01-01 M 01-02 P 01-07 K 01-08 M 01-15 M 01-22 M 01-29 M",
+          "02-04 K 02-05 M 02-06 P 02-12 M 02-19 M 02-26 M",
+          "03-04 K 03-05 M 03-06 P 03-12 M 03-19 M 03-26 M",
+          "04-01 K 04-02 M 04-03 P 04-09 M 04-16 M 04-22 S 04-23 M 04-30 M",
+          "05-01 P 05-06 K 05-07 M 05-14 M 05-21 M 05-28 M",
+          "06-03 K 06-04 M 06-05 P 06-11 M 06-18 M 06-24 L 06-25 M",
+          "07-01 K 07-02 M 07-03 P 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-05 K 08-06 M 08-07 P 08-13 M 08-20 M 08-27 M",
+          "09-02 K 09-03 M 09-04 P 09-10 M 09-17 M 09-23 S 09-24 M",
+          "10-01 M 10-02 P 10-07 K 10-08 M 10-15 M 10-22 M 10-29 M",
+          "11-04 K 11-05 M 11-06 P 11-12 M 11-19 M 11-26 M",
+          "12-02 K 12-03 M 12-04 P 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Đakovo",
+      "podrucje": "Miješani, papir, plastika – Piškorevci, Selci Đakovački, Novi Perkovci: M. Gupca, Bana J. Jelačića, Kralja Tomislava, S. Radića, …",
+      "ulice": ["Piškorevci", "M. Gupca (Piškorevci)", "Bana J. Jelačića (Piškorevci)", "Kralja Tomislava (Piškorevci)", "S. Radića (Piškorevci)", "J.J. Strossmayera (Piškorevci)", "A. Šenoe (Piškorevci)", "Sajmište (Piškorevci)", "Zagrebačka (Piškorevci)", "Gardun (Piškorevci)", "Žrtava Domovinskog rata (Piškorevci)", "I. Meštrovića (Piškorevci)", "Medenica (Piškorevci)", "I. Mažuranića (Piškorevci)", "Preobraženski trg (Piškorevci)", "N. Š. Zrinskog (Piškorevci)", "A. Starčevića (Piškorevci)", "J. Kozarca (Piškorevci)", "P. Miškine (Piškorevci)", "Industrijska zona (Piškorevci)", "Selci Đakovački", "Bana J. Jelačića (Selci Đakovački)", "Grobljanska (Selci Đakovački)", "Kralja Tomislava (Selci Đakovački)", "Brana (Selci Đakovački)", "Obrovčeva (Selci Đakovački)", "Nova Ulica (Selci Đakovački)", "Đurina (Selci Đakovački)", "V. Nazora (Selci Đakovački)", "Drenškov prolaz (Selci Đakovački)", "Vargov prolaz (Selci Đakovački)", "S. Radića (Selci Đakovački)", "Kralja Tvrtka (Selci Đakovački)", "Novi Perkovci"],
+      "napomena": "Biootpad: vidi zone 'Biootpad' za svoju ulicu. Staklo i metal: dani za prigradska naselja. Odvoz i na blagdan prema kalendaru: 06.04., 22.06.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-09 P 01-12 M 01-14 K 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-11 K 02-13 P 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-11 K 03-13 P 03-16 M 03-23 M 03-30 M",
+          "04-06 M 04-08 K 04-10 P 04-13 M 04-20 M 04-21 S 04-27 M",
+          "05-04 M 05-08 P 05-11 M 05-13 K 05-18 M 05-25 M",
+          "06-01 M 06-08 M 06-10 K 06-12 P 06-15 M 06-22 M 06-23 L 06-29 M",
+          "07-06 M 07-08 K 07-10 P 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-12 K 08-14 P 08-17 M 08-24 M 08-31 M",
+          "09-07 M 09-09 K 09-11 P 09-14 M 09-21 M 09-22 S 09-28 M",
+          "10-05 M 10-09 P 10-12 M 10-14 K 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-11 K 11-13 P 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-09 K 12-11 P 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Đakovo",
+      "podrucje": "Miješani, papir, plastika – Kuševac, Ivanovci Đakovački, Široko Polje: R. Boškovića, Lj. Gaja, J. Kozarca, A. Šenoe, …",
+      "ulice": ["Kuševac", "R. Boškovića (Kuševac)", "Lj. Gaja (Kuševac)", "J. Kozarca (Kuševac)", "A. Šenoe (Kuševac)", "S. Radića (Kuševac)", "A. Starčevića (Kuševac)", "Jošavska (Kuševac)", "I. G. Kovačića (Kuševac)", "Strossmayerovac (Kuševac)", "Ivanovci Đakovački", "Čepinska (Ivanovci Đakovački)", "Poljska (Ivanovci Đakovački)", "Grobljanska (Ivanovci Đakovački)", "Zmajevac (Ivanovci Đakovački)", "Đakovačka (Ivanovci Đakovački)", "Široko Polje", "Đakovačka (Široko Polje)", "Kolodvorska (Široko Polje)", "Grobljanska (Široko Polje)", "Hrvatske mladeži (Široko Polje)", "V. patera Z. Lajoša (Široko Polje)", "Sunčana (Široko Polje)", "Veliko Polje (Široko Polje)"],
+      "napomena": "Biootpad: vidi zone 'Biootpad' za svoju ulicu. Staklo i metal: dani za prigradska naselja. Odvoz i na blagdan prema kalendaru: 06.01.",
+      "raw": {
+        "2026": [
+          "01-06 M 01-09 P 01-13 M 01-14 K 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-11 K 02-13 P 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-11 K 03-13 P 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-08 K 04-10 P 04-14 M 04-21 MS 04-28 M",
+          "05-05 M 05-08 P 05-12 M 05-13 K 05-19 M 05-26 M",
+          "06-02 M 06-09 M 06-10 K 06-12 P 06-16 M 06-23 ML 06-30 M",
+          "07-07 M 07-08 K 07-10 P 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-12 K 08-14 P 08-18 M 08-25 M",
+          "09-01 M 09-08 M 09-09 K 09-11 P 09-15 M 09-22 MS 09-29 M",
+          "10-06 M 10-09 P 10-13 M 10-14 K 10-20 M 10-27 M",
+          "11-03 M 11-10 M 11-11 K 11-13 P 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-09 K 12-11 P 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Đakovo",
+      "podrucje": "Miješani, papir, plastika – Budrovci, Đurđanci: S. Radića, I. L. Ribara, P. Miškine, Gupčev trg, …",
+      "ulice": ["Budrovci", "S. Radića (Budrovci)", "I. L. Ribara (Budrovci)", "P. Miškine (Budrovci)", "Gupčev trg (Budrovci)", "S. Lehote (Budrovci)", "Budrovačko Brdo (Budrovci)", "Đurđanci", "Glavna (Đurđanci)"],
+      "napomena": "Biootpad: vidi zone 'Biootpad' za svoju ulicu. Staklo i metal: dani za prigradska naselja. Odvoz i na blagdan prema kalendaru: 01.01., 04.06.",
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-09 P 01-14 K 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-11 K 02-12 M 02-13 P 02-19 M 02-26 M",
+          "03-05 M 03-11 K 03-12 M 03-13 P 03-19 M 03-26 M",
+          "04-02 M 04-08 K 04-09 M 04-10 P 04-16 M 04-21 S 04-23 M 04-30 M",
+          "05-07 M 05-08 P 05-13 K 05-14 M 05-21 M 05-28 M",
+          "06-04 M 06-10 K 06-11 M 06-12 P 06-18 M 06-23 L 06-25 M",
+          "07-02 M 07-08 K 07-09 M 07-10 P 07-16 M 07-23 M 07-30 M",
+          "08-06 M 08-12 K 08-13 M 08-14 P 08-20 M 08-27 M",
+          "09-03 M 09-09 K 09-10 M 09-11 P 09-17 M 09-22 S 09-24 M",
+          "10-01 M 10-08 M 10-09 P 10-14 K 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-11 K 11-12 M 11-13 P 11-19 M 11-26 M",
+          "12-03 M 12-09 K 12-10 M 12-11 P 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Đakovo",
+      "podrucje": "Biootpad (ponedjeljak): Đakovo, Novi Perkovci, Budrovci, Đurđanci, Piškorevci",
+      "ulice": ["Đakovo", "Petra Preradovića", "Certise", "Industrijska zona", "K. Pavića", "J. Tordinca", "Makarska", "E. Kvaternika", "Kralja Tvrtka", "I. Gundulića", "A. Šenoe", "M. Držića", "Osječka", "Vinkovačka", "Zagrebačka", "M. Gupca", "Školski prolaz", "A. Cesarca", "Splitska", "P. Svačića", "Trg J.J. Strossmayera", "Novi Perkovci", "Budrovci", "S. Radića (Budrovci)", "I. L. Ribara (Budrovci)", "P. Miškine (Budrovci)", "Gupčev trg (Budrovci)", "S. Lehote (Budrovci)", "Budrovačko Brdo (Budrovci)", "Đurđanci", "Glavna (Đurđanci)", "Arduševac (Đurđanci)", "Piškorevci", "M. Gupca (Piškorevci)", "Bana J. Jelačića (Piškorevci)", "Kralja Tomislava (Piškorevci)", "S. Radića (Piškorevci)", "J.J. Strossmayera (Piškorevci)", "A. Šenoe (Piškorevci)", "Sajmište (Piškorevci)", "Zagrebačka (Piškorevci)", "Gardun (Piškorevci)", "Žrtava Domovinskog rata (Piškorevci)", "I. Meštrovića (Piškorevci)", "Medenica (Piškorevci)", "I. Mažuranića (Piškorevci)", "Preobraženski trg (Piškorevci)", "N. Š. Zrinskog (Piškorevci)", "A. Starčevića (Piškorevci)", "J. Kozarca (Piškorevci)", "P. Miškine (Piškorevci)", "Industrijska zona (Piškorevci)"],
+      "napomena": "Samo biootpad; miješani otpad, papir i plastika prema zonama područja (1-6). Odvoz i na blagdan prema kalendaru: 06.04., 22.06.",
+      "raw": {
+        "2026": [
+          "01-05 B 01-12 B 01-19 B 01-26 B",
+          "02-02 B 02-09 B 02-16 B 02-23 B",
+          "03-02 B 03-09 B 03-16 B 03-23 B 03-30 B",
+          "04-06 B 04-13 B 04-20 B 04-27 B",
+          "05-04 B 05-11 B 05-18 B 05-25 B",
+          "06-01 B 06-08 B 06-15 B 06-22 B 06-29 B",
+          "07-06 B 07-13 B 07-20 B 07-27 B",
+          "08-03 B 08-10 B 08-17 B 08-24 B 08-31 B",
+          "09-07 B 09-14 B 09-21 B 09-28 B",
+          "10-05 B 10-12 B 10-19 B 10-26 B",
+          "11-02 B 11-09 B 11-16 B 11-23 B 11-30 B",
+          "12-07 B 12-14 B 12-21 B 12-28 B"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Đakovo",
+      "podrucje": "Biootpad (utorak): Đakovo",
+      "ulice": ["Đakovo", "A. Starčevića", "Drag. Domovinskog rata", "Poljska", "Lička", "Radnička", "V. Karasa", "M. Pavlinovića", "O. Keršovanija", "Rapska", "Bračka", "Hvarska", "Trg N. Š. Zrinskog", "V. Radauša", "M. Krleže", "Bana N. Jurišića", "J. Gotovca", "A. Augustinčića", "J. Runjanina", "Cvjetni prolaz", "V. Vukova", "M. Tripala", "Korčulanska", "A. Hebranga", "I. Račana", "S. D. Kučar", "I. Supeka", "B. Adžije", "Diljska", "Psunjska"],
+      "napomena": "Samo biootpad; miješani otpad, papir i plastika prema zonama područja (1-6). Odvoz i na blagdan prema kalendaru: 06.01.",
+      "raw": {
+        "2026": [
+          "01-06 B 01-13 B 01-20 B 01-27 B",
+          "02-03 B 02-10 B 02-17 B 02-24 B",
+          "03-03 B 03-10 B 03-17 B 03-24 B 03-31 B",
+          "04-07 B 04-14 B 04-21 B 04-28 B",
+          "05-05 B 05-12 B 05-19 B 05-26 B",
+          "06-02 B 06-09 B 06-16 B 06-23 B 06-30 B",
+          "07-07 B 07-14 B 07-21 B 07-28 B",
+          "08-04 B 08-11 B 08-18 B 08-25 B",
+          "09-01 B 09-08 B 09-15 B 09-22 B 09-29 B",
+          "10-06 B 10-13 B 10-20 B 10-27 B",
+          "11-03 B 11-10 B 11-17 B 11-24 B",
+          "12-01 B 12-08 B 12-15 B 12-22 B 12-29 B"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Đakovo",
+      "podrucje": "Biootpad (srijeda): Đakovo, Široko Polje, Ivanovci Đakovački, Kuševac",
+      "ulice": ["Đakovo", "I. Mažuranića", "S. S. Kranjčevića", "I. G. Kovačića", "Park pobjede", "Kolodvorska", "D. Domjanića", "H. V. Hrvatinića", "Pisak", "H. Kolomana", "V. Lisinskog", "Lj. Šestića", "A. G. Matoša", "P. Katančića", "J. Kaštelana", "J. Kozarca", "P. Miškine", "Istarska", "Široko Polje", "Đakovačka (Široko Polje)", "Kolodvorska (Široko Polje)", "Grobljanska (Široko Polje)", "Hrvatske mladeži (Široko Polje)", "V. patera Z. Lajoša (Široko Polje)", "Sunčana (Široko Polje)", "Veliko Polje (Široko Polje)", "Ivanovci Đakovački", "Čepinska (Ivanovci Đakovački)", "Poljska (Ivanovci Đakovački)", "Grobljanska (Ivanovci Đakovački)", "Zmajevac (Ivanovci Đakovački)", "Đakovačka (Ivanovci Đakovački)", "Kuševac", "R. Boškovića (Kuševac)", "Lj. Gaja (Kuševac)", "J. Kozarca (Kuševac)", "A. Šenoe (Kuševac)", "S. Radića (Kuševac)", "A. Starčevića (Kuševac)", "Jošavska (Kuševac)", "I. G. Kovačića (Kuševac)", "Strossmayerovac (Kuševac)"],
+      "napomena": "Samo biootpad; miješani otpad, papir i plastika prema zonama područja (1-6). Odvoz i na blagdan prema kalendaru: 05.08., 18.11.",
+      "raw": {
+        "2026": [
+          "01-07 B 01-14 B 01-21 B 01-28 B",
+          "02-04 B 02-11 B 02-18 B 02-25 B",
+          "03-04 B 03-11 B 03-18 B 03-25 B",
+          "04-08 B 04-15 B 04-22 B 04-29 B",
+          "05-06 B 05-13 B 05-20 B 05-27 B",
+          "06-03 B 06-10 B 06-17 B 06-24 B",
+          "07-01 B 07-08 B 07-15 B 07-22 B 07-29 B",
+          "08-05 B 08-12 B 08-19 B 08-26 B",
+          "09-02 B 09-09 B 09-16 B 09-23 B 09-30 B",
+          "10-07 B 10-14 B 10-21 B 10-28 B",
+          "11-04 B 11-11 B 11-18 B 11-25 B",
+          "12-02 B 12-09 B 12-16 B 12-23 B 12-30 B"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Đakovo",
+      "podrucje": "Biootpad (četvrtak): Đakovo",
+      "ulice": ["Đakovo", "Ć. Kosa", "Pašin prolaz", "A. Reljkovića", "Vij. k. A. Stepinca", "Trg dr. F. Tuđmana", "Pape Ivana Pavla II.", "I. Zajca", "J. Ivakića", "L. Ružičke", "I. Kukuljevića", "F. Kuhača", "F. Supila", "B. E. Derenčina", "B. J. Jelačića", "M. Marulića", "V. Nazora", "El. centrale", "N. Tesle", "Ilirska", "R. Boškovića", "Savska", "Dravska", "Dunavska", "Dr. Z. Benčevića", "F. A. Mesaroša", "M. Cepelića", "F. Kosine", "Frankopanska", "I. Tišova", "K. Tomislava", "Dubrovačka", "P. Kraljevića", "S. Radića", "L. Botića", "J. Palmotića", "K. Zrinski", "Pavićeva", "H. Deker", "Budrovačka"],
+      "napomena": "Samo biootpad; miješani otpad, papir i plastika prema zonama područja (1-6). Odvoz i na blagdan prema kalendaru: 01.01., 04.06.",
+      "raw": {
+        "2026": [
+          "01-01 B 01-08 B 01-15 B 01-22 B 01-29 B",
+          "02-05 B 02-12 B 02-19 B 02-26 B",
+          "03-05 B 03-12 B 03-19 B 03-26 B",
+          "04-02 B 04-09 B 04-16 B 04-23 B 04-30 B",
+          "05-07 B 05-14 B 05-21 B 05-28 B",
+          "06-04 B 06-11 B 06-18 B 06-25 B",
+          "07-02 B 07-09 B 07-16 B 07-23 B 07-30 B",
+          "08-06 B 08-13 B 08-20 B 08-27 B",
+          "09-03 B 09-10 B 09-17 B 09-24 B",
+          "10-01 B 10-08 B 10-15 B 10-22 B 10-29 B",
+          "11-05 B 11-12 B 11-19 B 11-26 B",
+          "12-03 B 12-10 B 12-17 B 12-24 B 12-31 B"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Đakovo",
+      "podrucje": "Biootpad (petak): Đakovo, Selci Đakovački",
+      "ulice": ["Đakovo", "B. J. A. Ćolnića", "Lj. Gaja", "B. A. Mandića", "Đ. Basaričeka", "O. Ivekovića", "V. Doneganija", "Bosutska", "Zvečaj I i II", "S. Tomerlina", "S. Vraza", "A. Mihanovića", "M. Topalovića", "B. Kašića", "K. Zvonimira", "K. S. Držislava", "Ul. 122. brigade HV-a", "K. Trpimira", "K. Domagoja", "K. Branimira", "K. Višeslava", "K. P. Krešimira", "F. Račkog", "T. Ujevića", "Vukovarskih branitelja", "Selci Đakovački", "Bana J. Jelačića (Selci Đakovački)", "Grobljanska (Selci Đakovački)", "Kralja Tomislava (Selci Đakovački)", "Brana (Selci Đakovački)", "Obrovčeva (Selci Đakovački)", "Nova Ulica (Selci Đakovački)", "Đurina (Selci Đakovački)", "V. Nazora (Selci Đakovački)", "Drenškov prolaz (Selci Đakovački)", "Vargov prolaz (Selci Đakovački)", "S. Radića (Selci Đakovački)", "Kralja Tvrtka (Selci Đakovački)"],
+      "napomena": "Samo biootpad; miješani otpad, papir i plastika prema zonama područja (1-6). Odvoz i na blagdan prema kalendaru: 01.05., 25.12.",
+      "raw": {
+        "2026": [
+          "01-09 B 01-16 B 01-23 B 01-30 B",
+          "02-06 B 02-13 B 02-20 B 02-27 B",
+          "03-06 B 03-13 B 03-20 B 03-27 B",
+          "04-10 B 04-17 B 04-24 B",
+          "05-01 B 05-08 B 05-15 B 05-22 B 05-29 B",
+          "06-05 B 06-12 B 06-19 B 06-26 B",
+          "07-03 B 07-10 B 07-17 B 07-24 B 07-31 B",
+          "08-07 B 08-14 B 08-21 B 08-28 B",
+          "09-04 B 09-11 B 09-18 B 09-25 B",
+          "10-02 B 10-09 B 10-16 B 10-23 B 10-30 B",
+          "11-06 B 11-13 B 11-20 B 11-27 B",
+          "12-04 B 12-11 B 12-18 B 12-25 B"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Strizivojna",
+      "podrucje": "Cijela općina (miješani otpad: utorak)",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 08.01. (7-14 h), 22.01. (10-17 h), 12.02. (7-14 h), 26.02. (10-17 h), 12.03. (7-14 h), 26.03. (10-17 h), 09.04. (7-14 h), 23.04. (10-17 h), 14.05. (7-14 h), 28.05. (10-17 h), 11.06. (7-14 h), 25.06. (10-17 h), 09.07. (7-14 h), 23.07. (10-17 h), 13.08. (7-14 h), 27.08. (10-17 h), 10.09. (7-14 h), 24.09. (10-17 h), 08.10. (7-14 h), 22.10. (10-17 h), 12.11. (7-14 h), 26.11. (10-17 h), 10.12. (7-14 h), 24.12. (10-17 h) Odvoz i na blagdan prema kalendaru: 06.01., 18.11. Izvor: https://univerzal-djakovo.hr/wp-content/uploads/2025/12/Strizivojna-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-16 P 01-20 M 01-21 K 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-18 K 02-20 P 02-24 M",
+          "03-03 M 03-10 M 03-17 M 03-18 K 03-20 P 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-15 K 04-17 P 04-21 M 04-28 M",
+          "05-05 M 05-12 M 05-15 P 05-19 M 05-20 K 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-17 K 06-19 P 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-15 K 07-17 P 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-19 K 08-21 P 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-16 K 09-18 P 09-22 M 09-29 M",
+          "10-06 M 10-13 M 10-16 P 10-20 M 10-21 K 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-18 K 11-20 P 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-16 K 12-18 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Satnica Đakovačka",
+      "podrucje": "Cijela općina (miješani otpad: četvrtak)",
+      "ulice": [],
+      "napomena": "Odvoz i na blagdan prema kalendaru: 01.01., 04.06., 25.12. Izvor: https://univerzal-djakovo.hr/wp-content/uploads/2025/12/Satnica-Djakovacka-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 M 01-22 M 01-28 K 01-29 M 01-30 P",
+          "02-05 M 02-12 M 02-19 M 02-25 K 02-26 M 02-27 P",
+          "03-05 M 03-12 M 03-19 M 03-25 K 03-26 M 03-27 P",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-24 P 04-29 K 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-27 K 05-28 M 05-29 P",
+          "06-04 M 06-11 M 06-18 M 06-24 K 06-25 M 06-26 P",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-29 K 07-30 M 07-31 P",
+          "08-06 M 08-13 M 08-20 M 08-26 K 08-27 M 08-28 P",
+          "09-03 M 09-10 M 09-17 M 09-24 M 09-25 P 09-30 K",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-28 K 10-29 M 10-30 P",
+          "11-05 M 11-12 M 11-19 M 11-25 K 11-26 M 11-27 P",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-25 P 12-30 K 12-31 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Viškovci",
+      "podrucje": "Cijela općina (miješani otpad: četvrtak)",
+      "ulice": [],
+      "napomena": "Odvoz i na blagdan prema kalendaru: 01.01., 04.06., 25.12. Izvor: https://univerzal-djakovo.hr/wp-content/uploads/2025/12/Viskovci-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 M 01-22 M 01-28 K 01-29 M 01-30 P",
+          "02-05 M 02-12 M 02-19 M 02-25 K 02-26 M 02-27 P",
+          "03-05 M 03-12 M 03-19 M 03-25 K 03-26 M 03-27 P",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-24 P 04-29 K 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-27 K 05-28 M 05-29 P",
+          "06-04 M 06-11 M 06-18 M 06-24 K 06-25 M 06-26 P",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-29 K 07-30 M 07-31 P",
+          "08-06 M 08-13 M 08-20 M 08-26 K 08-27 M 08-28 P",
+          "09-03 M 09-10 M 09-17 M 09-24 M 09-25 P 09-30 K",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-28 K 10-29 M 10-30 P",
+          "11-05 M 11-12 M 11-19 M 11-25 K 11-26 M 11-27 P",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-25 P 12-30 K 12-31 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Trnava",
+      "podrucje": "Cijela općina (miješani otpad: srijeda)",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 13.01. (7-14 h), 27.01. (10-17 h), 10.02. (7-14 h), 24.02. (10-17 h), 10.03. (7-14 h), 24.03. (10-17 h), 14.04. (7-14 h), 28.04. (10-17 h), 12.05. (7-14 h), 26.05. (10-17 h), 09.06. (7-14 h), 23.06. (10-17 h), 14.07. (7-14 h), 28.07. (10-17 h), 11.08. (7-14 h), 25.08. (10-17 h), 08.09. (7-14 h), 22.09. (10-17 h), 13.10. (7-14 h), 27.10. (10-17 h), 10.11. (7-14 h), 24.11. (10-17 h), 08.12. (7-14 h), 22.12. (10-17 h) Odvoz i na blagdan prema kalendaru: 05.08., 18.11. Izvor: https://univerzal-djakovo.hr/wp-content/uploads/2025/12/Trnava-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-07 K 01-14 M 01-21 P 01-28 M",
+          "02-04 K 02-11 M 02-18 P 02-25 M",
+          "03-04 K 03-11 M 03-18 P 03-25 M",
+          "04-01 K 04-08 M 04-15 P 04-22 M 04-29 K",
+          "05-06 M 05-13 P 05-20 M 05-27 K",
+          "06-03 M 06-10 P 06-17 M 06-24 K",
+          "07-01 M 07-08 P 07-15 M 07-22 K 07-29 M",
+          "08-05 P 08-12 M 08-19 K 08-26 M",
+          "09-02 P 09-09 M 09-16 K 09-23 M 09-30 P",
+          "10-07 M 10-14 K 10-21 M 10-28 P",
+          "11-04 M 11-11 K 11-18 M 11-25 P",
+          "12-02 M 12-09 K 12-16 M 12-23 P 12-30 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Gorjani",
+      "podrucje": "Cijela općina (miješani otpad: četvrtak)",
+      "ulice": [],
+      "napomena": "Odvoz i na blagdan prema kalendaru: 01.01., 04.06., 18.11. Izvor: https://univerzal-djakovo.hr/wp-content/uploads/2025/12/Gorjani-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 M 01-16 P 01-21 K 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-18 K 02-19 M 02-20 P 02-26 M",
+          "03-05 M 03-12 M 03-18 K 03-19 M 03-20 P 03-26 M",
+          "04-02 M 04-09 M 04-15 K 04-16 M 04-17 P 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-15 P 05-20 K 05-21 M 05-28 M",
+          "06-04 M 06-11 M 06-17 K 06-18 M 06-19 P 06-25 M",
+          "07-02 M 07-09 M 07-15 K 07-16 M 07-17 P 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-19 K 08-20 M 08-21 P 08-27 M",
+          "09-03 M 09-10 M 09-16 K 09-17 M 09-18 P 09-24 M",
+          "10-01 M 10-08 M 10-15 M 10-16 P 10-21 K 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-18 K 11-19 M 11-20 P 11-26 M",
+          "12-03 M 12-10 M 12-16 K 12-17 M 12-18 P 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Levanjska Varoš",
+      "podrucje": "Cijela općina (miješani otpad: petak)",
+      "ulice": [],
+      "napomena": "Mobilno reciklažno dvorište: 14.01. (7-14 h), 28.01. (10-17 h), 11.02. (7-14 h), 25.02. (10-17 h), 11.03. (7-14 h), 25.03. (10-17 h), 08.04. (7-14 h), 22.04. (10-17 h), 13.05. (7-14 h), 27.05. (10-17 h), 10.06. (7-14 h), 24.06. (10-17 h), 08.07. (7-14 h), 22.07. (10-17 h), 12.08. (7-14 h), 26.08. (10-17 h), 09.09. (7-14 h), 23.09. (10-17 h), 14.10. (7-14 h), 28.10. (10-17 h), 11.11. (7-14 h), 25.11. (10-17 h), 09.12. (7-14 h), 23.12. (10-17 h) Odvoz i na blagdan prema kalendaru: 01.05., 25.12. Izvor: https://univerzal-djakovo.hr/wp-content/uploads/2025/12/Levanjska-Varos-2026.pdf",
+      "raw": {
+        "2026": [
+          "01-02 K 01-09 M 01-16 P 01-23 M 01-30 K",
+          "02-06 M 02-13 P 02-20 M 02-27 K",
+          "03-06 M 03-13 P 03-20 M 03-27 K",
+          "04-03 M 04-10 P 04-17 M 04-24 K",
+          "05-01 M 05-08 P 05-15 M 05-22 K 05-29 M",
+          "06-05 P 06-12 M 06-19 K 06-26 M",
+          "07-03 P 07-10 M 07-17 K 07-24 M 07-31 P",
+          "08-07 M 08-14 K 08-21 M 08-28 P",
+          "09-04 M 09-11 K 09-18 M 09-25 P",
+          "10-02 M 10-09 K 10-16 M 10-23 P 10-30 M",
+          "11-06 K 11-13 M 11-20 P 11-27 M",
+          "12-04 K 12-11 M 12-18 P 12-25 M"
+        ]
+      }
+    }
+  }
+}
