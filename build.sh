@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Wraps odvoz.html (artifact source, no <head>) into a standalone page in _site/.
+# Wraps hrvatska.html (page source, no <head>) into a standalone page in _site/ and writes its data, calendar feeds
+# and Excel files next to it (gen_web.py). The first, Sisak-only feeds and Excel files stay at their old addresses.
 set -euo pipefail
 cd "$(dirname "$0")"
 # OUT: output folder (default _site). SITE_BASE: the address the pages are served from (default: this repo's GitHub
@@ -30,7 +31,7 @@ ICON="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Kalendar odvoza otpada za Sisak i okolicu, 2026., zone 1 do 10.">
+<meta name="description" content="Kalendar odvoza otpada za gradove i općine u Hrvatskoj: upiši ulicu i vidi kad se odvozi koja vrsta otpada, uz podsjetnik u kalendaru.">
 <meta name="theme-color" content="#eef2ee" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1411" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -40,14 +41,16 @@ ${ROBOTS}${ANALYTICS}
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 HTML
   # <title>, font links and <style> belong in <head>; everything from the first <div> on is body.
-  awk '/^<div class="wrap">/{exit} {print}' odvoz.html
+  awk '/^<div class="wrap">/{exit} {print}' hrvatska.html
   echo '</head>'
   echo '<body>'
   if [ -n "$BANNER" ]; then echo "$BANNER"; fi
-  awk 'f{print} /^<div class="wrap">/{f=1; print}' odvoz.html
+  awk 'f{print} /^<div class="wrap">/{f=1; print}' hrvatska.html
   echo '</body>'
   echo '</html>'
 } | sed -e "s|${PROD_BASE}|${BASE}|g" -e "s|klindic.github.io%2Fgarbage-collection%2F|${BASE//\//%2F}|g" > "$OUT/index.html"
+python3 gen_web.py "$OUT"
+# Addresses from the Sisak-only page (odvoz.html), still in people's calendars and bookmarks.
 cp excel/*.xlsx "$OUT/"
 python3 gen_ics.py "$OUT"
 echo "Built $OUT/index.html"

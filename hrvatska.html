@@ -1,0 +1,1007 @@
+<title>Odvoz otpada u Hrvatskoj</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: place finder on top, then "what goes out next" hero, then month calendar beside the selected-day panel (stacks
+   on phones). The base styles are the same as in odvoz.html; the national page's own are at the end. */
+:root {
+  --bg: #eef2ee;
+  --surface: #ffffff;
+  --sunk: #e3e9e3;
+  --fg: #16201a;
+  --muted: #5a685e;
+  --line: #d3dcd4;
+  --accent: #1d6b3b;
+  --accent-soft: #d8eadc;
+  --warn: #c0392b;
+  --warn-soft: #fbe3df;
+  --t-mix: #24221f;
+  --t-bio: #7b4a2b;
+  --t-plast: #f3c517;
+  --t-paper: #2e62d9;
+  --bin-edge: rgba(0,0,0,.28);
+  --wheel: #141414;
+  --shadow: 0 1px 2px rgba(22,32,26,.06), 0 6px 20px rgba(22,32,26,.06);
+  --f-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --r: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1411; --surface: #171e19; --sunk: #1f2822; --fg: #e5ebe5; --muted: #93a297;
+    --line: #2a352d; --accent: #63c486; --accent-soft: #1d3326; --warn: #ff7a6b; --warn-soft: #3a1f1b;
+    --t-mix: #3b3936; --t-bio: #94603e; --t-plast: #f1c62a; --t-paper: #4b7ff0;
+    --bin-edge: rgba(255,255,255,.38); --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1411; --surface: #171e19; --sunk: #1f2822; --fg: #e5ebe5; --muted: #93a297;
+  --line: #2a352d; --accent: #63c486; --accent-soft: #1d3326; --warn: #ff7a6b; --warn-soft: #3a1f1b;
+  --t-mix: #3b3936; --t-bio: #94603e; --t-plast: #f1c62a; --t-paper: #4b7ff0;
+  --bin-edge: rgba(255,255,255,.38); --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--f-body); font-size: 1rem; line-height: 1.5;
+  padding-inline: 16px; padding-block: 20px 40px;
+}
+.wrap { max-width: 1080px; margin-inline: auto; display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); }
+.wrap > * { min-width: 0; }
+h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.eyebrow {
+  font-family: var(--f-display); font-size: .75rem; font-weight: 700; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--muted);
+}
+.num, .cell .n, .nrow .when2 { font-family: var(--f-display); font-variant-numeric: tabular-nums; }
+
+/* bins */
+.bin { display: inline-block; flex: none; }
+.bin .body, .bin .lid, .bin .handle { stroke: var(--bin-edge); stroke-width: 1.2; }
+.bin .shade { fill: rgba(0,0,0,.18); }
+.bin .wheel { fill: var(--wheel); stroke: var(--bin-edge); stroke-width: 1; }
+.bin .rib { stroke: rgba(0,0,0,.22); stroke-width: 1.4; }
+
+/* header */
+.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; max-width: 100%; }
+.brand > div { min-width: 0; }
+.brand h1 { font-size: 1.25rem; font-weight: 800; font-stretch: 112%; letter-spacing: -.01em; }
+.today-tag { color: var(--muted); font-size: .9rem; }
+.today-tag strong { color: var(--fg); }
+
+/* hero */
+.hero {
+  background: var(--surface); border-radius: calc(var(--r) + 4px); box-shadow: var(--shadow);
+  padding: clamp(18px, 4vw, 32px);
+  display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 760px) { .hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: center; } }
+.hero .when {
+  font-size: clamp(2.6rem, 9vw, 4.6rem); font-weight: 800; font-stretch: 118%;
+  line-height: .95; letter-spacing: -.025em; margin-top: 6px;
+}
+.hero .date { font-size: 1.15rem; margin-top: 8px; }
+.hero .todo {
+  margin-top: 14px; display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-soft); color: var(--fg); border-radius: 999px; padding: 6px 14px 6px 10px;
+  font-weight: 700; font-size: .95rem;
+}
+.hero .todo::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+.hero .todo.urgent { background: var(--warn-soft); }
+.hero .todo.urgent::before { background: var(--warn); }
+.hero-bins { display: flex; flex-wrap: wrap; gap: 14px; justify-content: flex-start; }
+@media (min-width: 760px) { .hero-bins { justify-content: flex-end; } }
+.hero-bin { display: grid; justify-items: center; gap: 8px; text-align: center; width: 132px; }
+.hero-bin .bin { width: 92px; height: 110px; }
+.hero-bin b { font-family: var(--f-display); font-stretch: 110%; font-size: 1rem; line-height: 1.15; }
+.hero-bin span { color: var(--muted); font-size: .82rem; line-height: 1.2; }
+.hero .note { color: var(--warn); font-weight: 700; font-size: .9rem; margin-top: 10px; }
+/* main grid */
+.main { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); align-items: start; }
+@media (min-width: 900px) { .main { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); } }
+.panel { background: var(--surface); border-radius: var(--r); box-shadow: var(--shadow); padding: clamp(14px, 3vw, 22px); min-width: 0; }
+
+/* calendar */
+.cal-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+.cal-head h2 { font-size: 1.6rem; font-weight: 800; font-stretch: 115%; letter-spacing: -.015em; }
+.cal-head h2 span { color: var(--muted); font-weight: 500; }
+.nav { display: flex; gap: 6px; }
+.btn {
+  border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 6px 12px; cursor: pointer;
+  font-weight: 700; font-size: .9rem; min-height: 36px;
+}
+.btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.btn:disabled { opacity: .35; cursor: default; }
+.btn.icon { width: 36px; padding: 0; font-size: 1.1rem; }
+.grid7 { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.dow { text-align: center; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding-bottom: 4px; }
+.dow.we { opacity: .7; }
+.cell {
+  border: 0; background: transparent; border-radius: 10px; min-height: 66px; padding: 6px 4px 6px;
+  display: grid; grid-template-rows: auto 1fr; justify-items: center; gap: 4px; cursor: pointer; position: relative;
+}
+@media (max-width: 520px) { .cell { min-height: 54px; padding: 4px 2px; } }
+.cell:hover { background: var(--sunk); }
+.cell .n { font-size: .95rem; font-variant-numeric: tabular-nums; line-height: 1; padding: 4px 0 0; width: 28px; height: 26px; display: grid; place-items: center; border-radius: 50%; }
+.cell .mini { display: flex; gap: 1px; align-items: end; }
+.cell .mini .bin { width: 15px; height: 18px; }
+@media (max-width: 520px) { .cell .mini .bin { width: 13px; height: 15px; } }
+.cell.has { background: var(--sunk); }
+.cell.past { opacity: .42; }
+.cell.today .n { background: var(--accent); color: var(--surface); font-weight: 700; padding: 0; }
+.cell.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
+.cell.moved .n { color: var(--warn); font-weight: 700; }
+.cell.moved.today .n { color: var(--surface); background: var(--warn); }
+.cell.moved::after { content: ""; position: absolute; top: 5px; right: 6px; width: 6px; height: 6px; border-radius: 50%; background: var(--warn); }
+.cell.blank { visibility: hidden; pointer-events: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .85rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend .bin { width: 16px; height: 19px; }
+.legend .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--warn); display: inline-block; }
+
+/* side */
+.primary, .side { display: grid; gap: 20px; min-width: 0; }
+/* Single column: selected day goes above the calendar, next-by-type below it, calendar reminder last. */
+@media (max-width: 899px) {
+  .primary, .side { display: contents; }
+  .detail { order: -1; }
+  .sub { order: 1; }
+}
+.detail h3 { font-size: 1.5rem; font-weight: 800; font-stretch: 112%; letter-spacing: -.01em; }
+.detail .rel { color: var(--muted); margin-top: 2px; }
+.dlist { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 10px; }
+.dlist li { display: flex; align-items: center; gap: 12px; }
+.dlist .bin { width: 34px; height: 41px; }
+.dlist b { display: block; line-height: 1.2; }
+.dlist small { color: var(--muted); }
+.flag { margin-top: 14px; font-size: .88rem; border-radius: 10px; padding: 8px 12px; background: var(--sunk); }
+.flag.warn { background: var(--warn-soft); }
+.empty { margin-top: 14px; color: var(--muted); }
+.link { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 700; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.next h3 { font-size: 1.05rem; font-weight: 800; font-stretch: 110%; margin-bottom: 10px; }
+.nrow { display: grid; grid-template-columns: auto minmax(0,1fr) auto; gap: 12px; align-items: center; padding: 8px 0; border-top: 1px solid var(--line); }
+.nrow:first-of-type { border-top: 0; }
+.nrow .bin { width: 26px; height: 31px; }
+.nrow .nm { font-weight: 700; line-height: 1.2; }
+.nrow .when2 { text-align: right; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.nrow .when2 small { display: block; color: var(--muted); font-size: .8rem; }
+
+/* Reminder: subscribe controls beside the help notes once the panel is wide enough. */
+.sub { container-type: inline-size; }
+.sub-grid { display: grid; gap: 12px; }
+.sub-col { display: grid; gap: 12px; align-content: start; min-width: 0; }
+@container (min-width: 520px) { .sub-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 24px; } }
+.sub h3 { font-size: 1.05rem; font-weight: 800; font-stretch: 110%; }
+.sub p { margin: 0; color: var(--muted); font-size: .92rem; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; min-height: 44px; font-size: 1rem; }
+.btn.primary:hover { color: var(--surface); filter: brightness(1.08); }
+.btn.wide { color: var(--fg); text-decoration: none; display: inline-flex; align-items: center; justify-content: center; text-align: center; min-height: 44px; font-size: 1rem; margin-top: -4px; }
+.field { display: grid; gap: 6px; }
+.field label { font-weight: 700; font-size: .9rem; }
+.field select { font: inherit; color: var(--fg); background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; padding: 0 12px; min-height: 44px; width: 100%; }
+.sub .flag { margin-top: 0; }
+.sub .flag b { color: var(--fg); }
+.sub details { border-top: 1px solid var(--line); padding-top: 10px; font-size: .9rem; }
+.sub summary { cursor: pointer; font-weight: 700; }
+.sub details p { margin-top: 8px; }
+.sub details b { color: var(--fg); }
+.url { display: flex; gap: 8px; align-items: center; margin-top: 8px; min-width: 0; }
+.url code { flex: 1; min-width: 0; overflow-wrap: anywhere; font-size: .8rem; background: var(--sunk); border-radius: 8px; padding: 6px 8px; user-select: all; }
+footer { color: var(--muted); font-size: .85rem; display: grid; gap: 6px; max-width: 75ch; }
+footer a { color: var(--accent); }
+footer strong { color: var(--fg); }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-bin .bin { animation: drop .5s cubic-bezier(.2,.9,.3,1.2) both; }
+  .hero-bin:nth-child(2) .bin { animation-delay: .08s; }
+  @keyframes drop { from { transform: translateY(-8px); } to { transform: none; } }
+}
+/* National page: extra bin colours and the "where do you live" finder. */
+:root { --t-glass: #2f8f5b; --t-metal: #9aa1a8; --t-green: #6b8e23; --t-bulky: #7a6550; --t-textile: #8e44ad; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --t-glass: #3fae73; --t-metal: #b3b9bf; --t-green: #8bb33a; --t-bulky: #9c8268; --t-textile: #b06fd0; }
+}
+:root[data-theme="dark"] { --t-glass: #3fae73; --t-metal: #b3b9bf; --t-green: #8bb33a; --t-bulky: #9c8268; --t-textile: #b06fd0; }
+.brand .tag { color: var(--muted); font-size: .9rem; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.finder { display: grid; gap: 14px; }
+.finder h2 { font-size: 1.35rem; font-weight: 800; font-stretch: 112%; letter-spacing: -.01em; }
+.search { position: relative; }
+.search input {
+  width: 100%; min-height: 50px; padding: 0 14px 0 44px; font: inherit; font-size: 1.05rem; color: var(--fg);
+  background: var(--sunk); border: 2px solid var(--line); border-radius: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%235a685e' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: 14px center;
+}
+.search input:focus { border-color: var(--accent); outline: none; background-color: var(--surface); }
+.search input::placeholder { color: var(--muted); }
+.sugg {
+  position: absolute; z-index: 20; left: 0; right: 0; top: calc(100% + 6px); margin: 0; padding: 6px; list-style: none;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow);
+  max-height: min(60vh, 440px); overflow: auto;
+}
+.sugg li { padding: 9px 10px; border-radius: 8px; cursor: pointer; display: grid; gap: 1px; }
+.sugg li b { font-weight: 700; line-height: 1.25; overflow-wrap: anywhere; }
+.sugg li small { color: var(--muted); font-size: .84rem; line-height: 1.3; overflow-wrap: anywhere; }
+.sugg li[aria-selected="true"], .sugg li:hover { background: var(--accent-soft); }
+.sugg li.none { cursor: default; color: var(--muted); background: none; }
+.sugg mark { background: none; color: inherit; text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 2px; }
+.or { color: var(--muted); font-size: .88rem; display: flex; align-items: center; gap: 10px; }
+.or::before, .or::after { content: ""; height: 1px; background: var(--line); flex: 1; }
+.selects { display: grid; gap: 10px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 760px) { .selects { grid-template-columns: minmax(0, .8fr) minmax(0, 1fr) minmax(0, 1.4fr); } }
+.selects select:disabled { opacity: .55; }
+.where { display: grid; gap: 6px; font-size: .92rem; }
+.where:empty { display: none; }
+.where .zname { font-family: var(--f-display); font-weight: 800; font-size: 1.1rem; font-stretch: 110%; }
+.where .muted { color: var(--muted); }
+.where a { color: var(--accent); }
+.where details summary { cursor: pointer; font-weight: 700; color: var(--accent); }
+.where details ul { margin: 8px 0 0; padding-left: 18px; columns: 2 220px; column-gap: 24px; color: var(--muted); }
+.where details li { break-inside: avoid; }
+.intro p { margin: 0; color: var(--muted); }
+.intro p + p { margin-top: 8px; }
+.intro b { color: var(--fg); }
+#zoneView { display: grid; gap: 20px; min-width: 0; }
+.nodata h2 { font-size: 1.35rem; font-weight: 800; font-stretch: 112%; }
+.nodata p { margin: 8px 0 0; color: var(--muted); }
+footer ul { margin: 4px 0 0; padding-left: 18px; }
+footer details summary { cursor: pointer; }
+[hidden] { display: none !important; }
+.pick { display: grid; gap: 14px; }
+.pick-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.here { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 16px; }
+.here > div { min-width: 0; display: grid; gap: 2px; }
+.here .zname { font-family: var(--f-display); font-weight: 800; font-size: 1.35rem; font-stretch: 112%; letter-spacing: -.01em; line-height: 1.15; }
+.here .area { font-weight: 700; }
+.here .muted { color: var(--muted); font-size: .9rem; }
+.here details { margin-top: 6px; font-size: .9rem; }
+.here summary { cursor: pointer; font-weight: 700; color: var(--accent); }
+.here details ul { margin: 8px 0 0; padding-left: 18px; columns: 2 220px; column-gap: 24px; color: var(--muted); }
+.here details li { break-inside: avoid; }
+.here details p { margin: 8px 0 0; color: var(--muted); }
+.selects .field select { background: var(--sunk); }
+#zoneFoot { display: contents; }
+.cell .mini { flex-wrap: wrap; justify-content: center; max-width: 100%; }
+.hero-bin span:empty, .dlist small:empty { display: none; }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg class="bin" width="34" height="40" viewBox="0 0 40 48" aria-hidden="true" id="brandBin"></svg>
+      <div><h1>Odvoz otpada</h1><div class="tag">Raspored za gradove i općine u Hrvatskoj</div></div>
+    </div>
+    <div class="today-tag" id="todayTag"></div>
+  </header>
+
+  <section class="panel finder" id="finder" aria-label="Odabir mjesta">
+    <div class="here" id="here" hidden>
+      <div>
+        <div class="eyebrow">Odabrano mjesto</div>
+        <div class="zname" id="hereName"></div>
+        <div class="area" id="hereArea"></div>
+        <div class="muted" id="hereMeta"></div>
+        <details id="hereList" hidden><summary></summary><ul></ul><p></p></details>
+      </div>
+      <button class="btn" id="change" type="button">Promijeni mjesto</button>
+    </div>
+    <div class="pick" id="pick">
+      <div class="pick-head">
+        <h2 id="pickTitle">Gdje živiš?</h2>
+        <button class="link" id="cancelPick" type="button" hidden>Odustani</button>
+      </div>
+      <div class="search">
+        <label class="vh" for="q">Ulica, naselje, grad ili općina</label>
+        <input id="q" type="search" role="combobox" aria-controls="sugg" aria-expanded="false" aria-autocomplete="list"
+          autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"
+          placeholder="Upiši ulicu, naselje ili grad">
+        <ul class="sugg" id="sugg" role="listbox" aria-label="Prijedlozi" hidden></ul>
+      </div>
+      <div class="or">ili odaberi</div>
+      <div class="selects">
+        <div class="field"><label for="selC">Županija</label><select id="selC"></select></div>
+        <div class="field"><label for="selJ">Grad ili općina</label><select id="selJ" disabled></select></div>
+        <div class="field"><label for="selZ">Zona ili područje</label><select id="selZ" disabled></select></div>
+      </div>
+      <div class="where" id="hint" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="panel intro" id="intro"><p>Učitavam popis gradova i općina…</p></section>
+
+  <section class="panel nodata" id="noData" aria-live="polite" hidden></section>
+
+  <div id="zoneView" hidden>
+    <section class="hero" id="hero" aria-live="polite"></section>
+
+    <div class="main">
+      <div class="primary">
+        <section class="panel" aria-label="Kalendar">
+          <div class="cal-head">
+            <h2 id="calTitle"></h2>
+            <div class="nav">
+              <button class="btn icon" id="prev" aria-label="Prethodni mjesec">&#8249;</button>
+              <button class="btn" id="goToday">Danas</button>
+              <button class="btn icon" id="next" aria-label="Sljedeći mjesec">&#8250;</button>
+            </div>
+          </div>
+          <div class="grid7" id="dows"></div>
+          <div class="grid7" id="cal" role="grid"></div>
+          <div class="legend" id="legend"></div>
+        </section>
+        <section class="panel sub" aria-labelledby="subTitle">
+          <div class="sub-grid">
+            <div class="sub-col">
+              <h3 id="subTitle">Podsjetnik u kalendaru</h3>
+              <p>Pretplati se na kalendar odvoza za <b id="subZone"></b>. Svaki odvoz je događaj s obojenim kružićima spremnika, a promjene rasporeda se same povuku.</p>
+              <div class="field">
+                <label for="alarmSel">Kad želiš obavijest?</label>
+                <select id="alarmSel"></select>
+              </div>
+              <a class="btn primary" id="subLink" href="#">Dodaj u iPhone kalendar</a>
+              <a class="btn wide" id="gcalLink" href="#" target="_blank" rel="noopener">Dodaj u Google kalendar (Android)</a>
+            </div>
+            <div class="sub-col">
+              <div class="flag warn">
+                <b>iPhone:</b> pri pretplati isključi <b>Ukloni upozorenja</b> (Remove Alerts). Ako ostane uključeno, iPhone izbaci ovu obavijest i stavi svoju zadanu (dan prije u 9:00).
+              </div>
+              <details>
+                <summary>iPhone: već si pretplaćen ili želiš drugo vrijeme?</summary>
+                <p>Otvori bilo koji događaj odvoza u kalendaru i dodirni <b>Otkaži pretplatu na ovaj kalendar</b> (Unsubscribe from This Calendar). Zatim ovdje odaberi vrijeme i ponovno dodirni "Dodaj u iPhone kalendar", s isključenim Ukloni upozorenja.</p>
+                <p>Postojeću pretplatu možeš i popraviti: Postavke &gt; Aplikacije &gt; Kalendar &gt; Računi kalendara &gt; Pretplaćeni kalendari &gt; Odvoz otpada (Settings &gt; Apps &gt; Calendar &gt; Calendar Accounts &gt; Subscribed Calendars). Obavijesti se vrate kad iPhone sljedeći put osvježi kalendar.</p>
+              </details>
+              <details>
+                <summary>iPhone: vidiš i drugu obavijest u 9:00?</summary>
+                <p>To je zadana obavijest iPhonea za sve cjelodnevne događaje ("Default (1 day before (9 AM))") i ne dolazi iz ovog kalendara. Ako je ne želiš: Postavke &gt; Aplikacije &gt; Kalendar &gt; Zadana vremena upozorenja &gt; Cjelodnevni događaji &gt; <b>Ništa</b> (Settings &gt; Apps &gt; Calendar &gt; Default Alert Times &gt; All-Day Events &gt; None). To vrijedi za sve tvoje cjelodnevne događaje; rođendani imaju zasebnu postavku.</p>
+              </details>
+              <details>
+                <summary>Android: obavijesti i sinkronizacija</summary>
+                <p>Gumb otvara Google kalendar i nudi dodavanje kalendara odvoza na tvoj Google račun. Ako se na mobitelu ne pojavi ponuda za dodavanje, otvori stranicu na računalu i klikni gumb tamo; kalendar se zatim sam prenese na mobitel.</p>
+                <p>Google kalendar ne preuzima obavijesti iz pretplaćenih kalendara, pa odabrano vrijeme postavi jednom ručno na calendar.google.com: Postavke &gt; Odvoz otpada &gt; Obavijesti o cjelodnevnim događajima &gt; <b id="gcalWhen">1 dan prije u 18:00</b>.</p>
+                <p>Ako se događaji ne vide u aplikaciji, u postavkama aplikacije Google kalendar otvori Odvoz otpada i uključi <b>Sinkronizacija</b>. Google osvježava pretplaćene kalendare sporije od iPhonea, ponekad tek nakon dan-dva.</p>
+              </details>
+              <details>
+                <summary>Outlook ili drugi kalendar</summary>
+                <p>Dodaj kalendar putem URL-a (pretplata na internetski kalendar). Adresa prati odabrano vrijeme obavijesti:</p>
+                <div class="url"><code id="icsUrl"></code><button class="btn" id="copyUrl" type="button">Kopiraj</button></div>
+              </details>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="side">
+        <section class="panel detail" id="detail" aria-live="polite"></section>
+        <section class="panel next" id="nextByType"></section>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div id="zoneFoot" hidden>
+      <div id="zoneNotes" hidden></div>
+      <details id="provNotes" hidden><summary>Napomene uz raspored</summary><ul></ul></details>
+      <div id="range" hidden></div>
+      <div id="xlsxWrap" hidden><a id="xlsxLink" href="#"></a></div>
+      <div id="srcLine" hidden></div>
+    </div>
+    <div>Rasporedi su prepisani s javno objavljenih stranica komunalnih poduzeća i mogu sadržavati pogreške. Ako se nešto ne slaže s obavijesti tvog komunalnog poduzeća, vrijedi njihova obavijest.</div>
+    <div id="dataDate"></div>
+  </footer>
+</div>
+
+<script>
+(() => {
+  // Bin colours for the standard sorted-waste containers; a provider's own name for a type (nazivi) replaces the
+  // default name and drops the colour word, since containers are not the same colour everywhere.
+  const TYPES = {
+    M: { name: 'Miješani komunalni otpad', bin: '', color: 'var(--t-mix)' },
+    B: { name: 'Biootpad', bin: 'Smeđi spremnik', color: 'var(--t-bio)' },
+    P: { name: 'Plastika i metal', bin: 'Žuti spremnik', color: 'var(--t-plast)' },
+    K: { name: 'Papir i karton', bin: 'Plavi spremnik', color: 'var(--t-paper)' },
+    S: { name: 'Staklo', bin: 'Zeleni spremnik', color: 'var(--t-glass)' },
+    L: { name: 'Metal', bin: '', color: 'var(--t-metal)' },
+    Z: { name: 'Zeleni (vrtni) otpad', bin: '', color: 'var(--t-green)' },
+    G: { name: 'Glomazni otpad', bin: '', color: 'var(--t-bulky)' },
+    T: { name: 'Tekstil', bin: '', color: 'var(--t-textile)' },
+  };
+  const ORDER = Object.keys(TYPES);
+  // Calendar feeds are ics/<zone id>-<alarm>.ics; build.sh points this at the address the page is served from.
+  const FEED_BASE = 'klindic.github.io/garbage-collection/';
+  const ALARMS = [
+    { id: '1800', label: 'Dan prije u 18:00', gcal: '1 dan prije u 18:00' },
+    { id: 'jutro-0600', label: 'Isti dan u 06:00', gcal: 'na dan događaja u 06:00' },
+    { id: 'bez', label: 'Bez obavijesti', gcal: 'po želji' },
+  ];
+  const NO_DATA = {
+    b: 'Raspored je objavljen, ali ga zasad ne možemo automatski preuzeti.',
+    n: 'Komunalno poduzeće raspored ne objavljuje na internetu (ili ga nismo pronašli).',
+    p: 'Raspored je objavljen samo djelomično ili u obliku koji još nismo uključili.',
+  };
+  const LEGACY = 'sisak/';  // the first version of the page had only Sisak's zones: ?zona=N and the saved zone number
+
+  const DAYS = ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'];
+  const DAYS_ACC = ['nedjelju', 'ponedjeljak', 'utorak', 'srijedu', 'četvrtak', 'petak', 'subotu'];
+  const MONTHS = ['Siječanj', 'Veljača', 'Ožujak', 'Travanj', 'Svibanj', 'Lipanj', 'Srpanj', 'Kolovoz', 'Rujan', 'Listopad', 'Studeni', 'Prosinac'];
+  const MONTHS_GEN = ['siječnja', 'veljače', 'ožujka', 'travnja', 'svibnja', 'lipnja', 'srpnja', 'kolovoza', 'rujna', 'listopada', 'studenoga', 'prosinca'];
+  const DOW = ['Pon', 'Uto', 'Sri', 'Čet', 'Pet', 'Sub', 'Ned'];
+
+  const pad = n => String(n).padStart(2, '0');
+  const key = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  const fromKey = k => { const [y, m, d] = k.split('-').map(Number); return new Date(y, m - 1, d); };
+  const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+  const diff = (a, b) => Math.round((b - a) / 864e5);
+  const today = () => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); };
+  const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+  const danWord = n => (n % 10 === 1 && n % 100 !== 11) ? 'dan' : 'dana';
+  const rel = n => n === 0 ? 'danas' : n === 1 ? 'sutra' : n === 2 ? 'prekosutra' : n === -1 ? 'jučer' : n === -2 ? 'prekjučer'
+    : n > 0 ? `za ${n} ${danWord(n)}` : `prije ${-n} ${danWord(-n)}`;
+  const longDate = d => `${DAYS[d.getDay()]}, ${d.getDate()}. ${MONTHS_GEN[d.getMonth()]}`;
+  const shortDate = d => `${d.getDate()}.${d.getMonth() + 1}.`;
+  const fullDate = d => `${d.getDate()}. ${d.getMonth() + 1}. ${d.getFullYear()}.`;
+  const plural = (n, one, few, many) => { const a = n % 10, b = n % 100; return a === 1 && b !== 11 ? one : a >= 2 && a <= 4 && (b < 12 || b > 14) ? few : many; };
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  const monthNo = d => d.getFullYear() * 12 + d.getMonth();
+  const monthStart = m => new Date(Math.floor(m / 12), m % 12, 1);
+  const $ = id => document.getElementById(id);
+  const store = {
+    get: k => { try { return localStorage.getItem(k); } catch { return null; } },
+    set: (k, v) => { try { localStorage.setItem(k, v); } catch {} },
+  };
+  // GoatCounter events (build.sh adds the script to the live page; without it these do nothing).
+  const track = (path, title) => { try { window.goatcounter?.count?.({ path, title, event: true }); } catch {} };
+
+  const cache = new Map();
+  const fetchJson = url => {
+    if (!cache.has(url)) cache.set(url, fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .catch(e => { cache.delete(url); throw e; }));
+    return cache.get(url);
+  };
+
+  // HR: data/hr.json. p providers, c counties, j cities and municipalities, z zones (see gen_web.py).
+  let HR, ZID = new Map();
+  // Shown zone: index, its entry in HR.z, its file, provider and city, its schedule. Set by loadZone().
+  let cur = null, ZM, Z, PV, J, SCHED, KEYS, KINDS, REG, FIRST_MONTH, LAST_MONTH;
+  let T = today(), sel = T, view = monthStart(monthNo(T));
+  const clampMonth = m => Math.min(LAST_MONTH, Math.max(FIRST_MONTH, m));
+  const inRange = d => monthNo(d) >= FIRST_MONTH && monthNo(d) <= LAST_MONTH;
+  const tName = t => PV.nz[t] || TYPES[t].name;
+  const tBin = t => PV.nz[t] ? '' : TYPES[t].bin;
+  const countyName = c => HR.c[c] === 'Grad Zagreb' ? 'Grad Zagreb' : `${HR.c[c]} županija`;
+  const zoneKey = zi => HR.z[zi].id.split('/')[1];
+  const zoneLabel = zi => HR.z[zi].a || `Zona ${zoneKey(zi)}`;
+  const pilot = (d, e) => Z.po && e && e.types.includes('P') && key(d) >= Z.po;
+
+  function loadZone(zi, data) {
+    cur = zi; ZM = HR.z[zi]; Z = data; PV = HR.p[ZM.p]; J = HR.j[ZM.j]; SCHED = {}; REG = {};
+    for (const [year, months] of Object.entries(Z.raw)) {
+      const toks = months.join(' ').split(/\s+/).filter(Boolean);
+      const perDay = {};
+      for (let i = 0; i + 1 < toks.length; i += 2) {
+        const k = `${year}-${toks[i]}`, moved = toks[i + 1].includes('!');
+        const types = ORDER.filter(t => toks[i + 1].includes(t));
+        SCHED[k] = { types, moved };
+        if (!moved) for (const t of types) (perDay[t] ||= [0, 0, 0, 0, 0, 0, 0])[fromKey(k).getDay()]++;
+      }
+      // Usual weekday of each type, for "moved (usually Tuesday)".
+      REG[year] = {};
+      for (const [t, c] of Object.entries(perDay)) REG[year][t] = DAYS[c.indexOf(Math.max(...c))];
+    }
+    KEYS = Object.keys(SCHED).sort();
+    KINDS = ORDER.filter(t => KEYS.some(k => SCHED[k].types.includes(t)));
+    FIRST_MONTH = KEYS.length ? monthNo(fromKey(KEYS[0])) : monthNo(T);
+    LAST_MONTH = KEYS.length ? monthNo(fromKey(KEYS[KEYS.length - 1])) : monthNo(T);
+  }
+
+  const binSvg = (t, cls = '') => `<svg class="bin ${cls}" viewBox="0 0 40 48" aria-hidden="true" style="color:${TYPES[t].color}">
+      <rect class="handle" x="14" y="1.5" width="12" height="5" rx="1.5" fill="currentColor"/>
+      <rect class="lid" x="3" y="6" width="34" height="6" rx="2" fill="currentColor"/>
+      <rect class="shade" x="3" y="6" width="34" height="6" rx="2"/>
+      <path class="body" d="M6 12 H34 L31.5 42 H8.5 Z" fill="currentColor"/>
+      <path class="rib" d="M14 17 L14.6 37 M20 17 V37 M26 17 L25.4 37"/>
+      <circle class="wheel" cx="11.5" cy="43.5" r="3.6"/><circle class="wheel" cx="28.5" cy="43.5" r="3.6"/>
+    </svg>`;
+
+  const nextFrom = (from, type) => {
+    const fk = key(from);
+    const k = KEYS.find(k => k >= fk && (!type || SCHED[k].types.includes(type)));
+    return k ? fromKey(k) : null;
+  };
+  const usually = (d, e) => {
+    const r = REG[d.getFullYear()] || {}, days = [...new Set(e.types.map(t => r[t]).filter(Boolean))];
+    return days.length === 1 && days[0] !== DAYS[d.getDay()] ? ` (inače ${days[0]})` : '';
+  };
+
+  function select(d, { moveView = true } = {}) {
+    sel = d;
+    if (moveView && inRange(d)) view = new Date(d.getFullYear(), d.getMonth(), 1);
+    renderCal(); renderDetail();
+  }
+
+  function renderHeader() {
+    $('todayTag').innerHTML = `Danas je <strong>${longDate(T)} ${T.getFullYear()}.</strong>`;
+  }
+
+  function renderHero() {
+    const nd = nextFrom(T);
+    const h = $('hero');
+    if (!nd) {
+      const last = KEYS.length ? fromKey(KEYS[KEYS.length - 1]) : null;
+      h.innerHTML = `<div><div class="eyebrow">Sljedeći odvoz</div><div class="when">Nema podataka</div>
+        <div class="date">${last ? `Objavljeni raspored završava ${fullDate(last)}` : 'Raspored nije objavljen.'} Novi raspored još nije objavljen ili ga još nismo preuzeli.</div></div>`;
+      return;
+    }
+    const n = diff(T, nd), e = SCHED[key(nd)];
+    const big = n <= 2 ? cap(rel(n)) : cap(DAYS[nd.getDay()]);
+    const sub = n <= 2 ? `${longDate(nd)}` : `${nd.getDate()}. ${MONTHS_GEN[nd.getMonth()]}, ${rel(n)}`;
+    const todo = n === 0 ? ['Odvoz je danas', true]
+      : n === 1 ? ['Pripremi spremnike večeras', true]
+      : [`Spremnike pripremi ${n === 2 ? 'sutra navečer' : `u ${DAYS_ACC[addDays(nd, -1).getDay()]} navečer`}`, false];
+    h.innerHTML = `<div>
+        <div class="eyebrow">Sljedeći odvoz</div>
+        <div class="when">${big}</div>
+        <div class="date">${sub}</div>
+        <div class="todo ${todo[1] ? 'urgent' : ''}">${todo[0]}</div>
+        ${e.moved ? `<div class="note">Pomaknuto zbog blagdana${usually(nd, e)}.</div>` : ''}
+      </div>
+      <div class="hero-bins">${e.types.map(t => `<div class="hero-bin">${binSvg(t)}<b>${esc(tName(t))}</b><span>${tBin(t)}</span></div>`).join('')}</div>`;
+  }
+
+  function renderCal() {
+    const y = view.getFullYear(), m = view.getMonth();
+    $('calTitle').innerHTML = `${MONTHS[m]} <span class="num">${y}.</span>`;
+    $('prev').disabled = monthNo(view) <= FIRST_MONTH;
+    $('next').disabled = monthNo(view) >= LAST_MONTH;
+    // Excel for the year on screen, or the zone's latest year if it has none for it.
+    $('xlsxWrap').hidden = !ZM.x;
+    if (ZM.x) {
+      const xy = ZM.xy.includes(String(y)) ? String(y) : ZM.xy[ZM.xy.length - 1];
+      $('xlsxLink').href = `${ZM.x}${xy}.xlsx`;
+      $('xlsxLink').textContent = `Cijeli raspored za ${xy}. u Excelu`;
+    }
+    const first = new Date(y, m, 1), lead = (first.getDay() + 6) % 7, dim = new Date(y, m + 1, 0).getDate();
+    let html = '';
+    for (let i = 0; i < lead; i++) html += '<div class="cell blank"></div>';
+    for (let d = 1; d <= dim; d++) {
+      const dt = new Date(y, m, d), k = key(dt), e = SCHED[k];
+      const cls = ['cell', e && 'has', e && e.moved && 'moved', dt < T && 'past', k === key(T) && 'today', k === key(sel) && 'sel'].filter(Boolean).join(' ');
+      const label = `${longDate(dt)}: ${e ? e.types.map(tName).join(', ') : 'nema odvoza'}`;
+      html += `<button class="${cls}" data-k="${k}" role="gridcell" aria-label="${esc(label)}" aria-selected="${k === key(sel)}" tabindex="${k === key(sel) ? 0 : -1}">
+        <span class="n">${d}</span><span class="mini">${e ? e.types.map(t => binSvg(t)).join('') : ''}</span></button>`;
+    }
+    $('cal').innerHTML = html;
+  }
+
+  function renderDetail() {
+    const k = key(sel), e = SCHED[k], n = diff(T, sel);
+    let html = `<div class="eyebrow">Odabrani dan</div><h3>${cap(longDate(sel))} ${sel.getFullYear()}.</h3><div class="rel">${cap(rel(n))}</div>`;
+    if (e) {
+      html += `<ul class="dlist">${e.types.map(t => `<li>${binSvg(t)}<div><b>${esc(tName(t))}</b><small>${tBin(t)}</small></div></li>`).join('')}</ul>`;
+      if (e.moved) html += `<div class="flag warn">Odvoz je pomaknut na ${DAYS_ACC[sel.getDay()]} zbog blagdana${usually(sel, e)}.</div>`;
+      if (pilot(sel, e) && Z.n) html += `<div class="flag">${esc(Z.n)}</div>`;
+    } else {
+      const nx = nextFrom(addDays(sel, 1));
+      html += `<p class="empty">${KEYS.length && k > KEYS[KEYS.length - 1] ? 'Za ovaj dan raspored još nije objavljen.' : 'Nema odvoza ovaj dan.'}</p>`;
+      if (nx) html += `<p>Sljedeći odvoz: <button class="link" data-k="${key(nx)}">${longDate(nx)}</button> <span style="color:var(--muted)">(${SCHED[key(nx)].moved ? 'pomaknuto, ' : ''}${rel(diff(T, nx))})</span></p>`;
+    }
+    $('detail').innerHTML = html;
+  }
+
+  function renderNext() {
+    let html = '<h3>Sljedeći odvoz po vrsti</h3>';
+    for (const t of KINDS) {
+      const d = nextFrom(T, t);
+      html += `<div class="nrow">${binSvg(t)}<div><div class="nm">${esc(tName(t))}</div><small style="color:var(--muted)">${tBin(t)}</small></div>
+        <div class="when2">${d ? `<button class="link" style="text-decoration:none;color:var(--fg)" data-k="${key(d)}">${DAYS[d.getDay()].slice(0, 3)} ${shortDate(d)}</button><small>${rel(diff(T, d))}</small>` : '<small>nema više</small>'}</div></div>`;
+    }
+    $('nextByType').innerHTML = html;
+  }
+
+  function renderStatic() {
+    $('brandBin').outerHTML = binSvg('B').replace('class="bin "', 'class="bin" width="30" height="36"');
+    $('dows').innerHTML = DOW.map((d, i) => `<div class="dow ${i > 4 ? 'we' : ''}">${d}</div>`).join('');
+  }
+
+  // The chosen place at the top: city, zone, county and provider, and the zone's streets.
+  function renderHere() {
+    const many = J.z.length > 1;
+    $('hereName').textContent = J.n;
+    $('hereArea').textContent = many ? zoneLabel(cur) : '';
+    $('hereArea').hidden = !many;
+    $('hereMeta').textContent = [`${cap(J.t)}, ${countyName(J.c)}`, PV.d && `odvoz: ${PV.d}`].filter(Boolean).join(' · ');
+    const list = $('hereList'), streets = Z.u || [];
+    list.hidden = !streets.length && !(Z.o && Z.o !== ZM.a);
+    list.open = false;
+    list.querySelector('summary').textContent = streets.length ? `Ulice i naselja u ovoj zoni (${streets.length})` : 'Područje zone';
+    list.querySelector('ul').innerHTML = streets.map(s => `<li>${esc(s)}</li>`).join('');
+    list.querySelector('ul').hidden = !streets.length;
+    list.querySelector('p').textContent = streets.length ? '' : Z.o || '';
+  }
+
+  function renderZone() {
+    document.title = `Odvoz otpada ${J.n}`;
+    $('legend').innerHTML = KINDS.map(t => `<span>${binSvg(t)}${esc(tName(t))}</span>`).join('') +
+      (KEYS.some(k => SCHED[k].moved) ? '<span><i class="dot"></i>Pomaknuto zbog blagdana</span>' : '');
+    const notes = [KINDS.includes('B') && PV.bio, Z.bb && `Biootpad se ne odvozi u ${Z.bb}.`, Z.n].filter(Boolean);
+    $('zoneNotes').textContent = notes.join(' ');
+    $('zoneNotes').hidden = !notes.length;
+    const pn = $('provNotes');
+    pn.hidden = !PV.n.length;
+    pn.querySelector('ul').innerHTML = PV.n.map(s => `<li>${esc(s)}</li>`).join('');
+    $('range').hidden = !ZM.f;
+    $('range').textContent = ZM.f ? `Objavljeni raspored vrijedi od ${fullDate(fromKey(ZM.f))} do ${fullDate(fromKey(ZM.l))}` : '';
+    const src = PV.i || PV.w;
+    $('srcLine').hidden = !PV.d;
+    $('srcLine').innerHTML = PV.d ? `Izvor rasporeda: ${src ? `<a href="${esc(src)}" target="_blank" rel="noopener">${esc(PV.d)}</a>` : esc(PV.d)}.` : '';
+    $('subZone').textContent = J.z.length > 1 ? `${J.n} (odabrana zona)` : J.n;
+    renderHere();
+    applyAlarm(alarmEl.value);
+  }
+
+  function renderAll() { renderHeader(); renderHero(); renderCal(); renderDetail(); renderNext(); }
+
+  const alarmEl = $('alarmSel');
+  alarmEl.innerHTML = ALARMS.map(a => `<option value="${a.id}">${a.label}</option>`).join('');
+  // Feeds are per zone and per alarm time; gen_web.py writes the same file names.
+  function applyAlarm(id) {
+    const a = ALARMS.find(x => x.id === id) || ALARMS[0];
+    alarmEl.value = a.id;
+    if (cur === null) return;
+    const file = `ics/${ZM.id}-${a.id}.ics`;
+    $('subLink').href = `webcal://${FEED_BASE}${file}`;
+    $('icsUrl').textContent = `https://${FEED_BASE}${file}`;
+    // Google ignores alarms in subscribed calendars, so it gets the feed without them.
+    $('gcalLink').href = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(`webcal://${FEED_BASE}ics/${ZM.id}-bez.ics`)}`;
+    $('gcalWhen').textContent = a.gcal;
+  }
+  alarmEl.onchange = () => { applyAlarm(alarmEl.value); store.set('odvoz-alarm', alarmEl.value); };
+
+  // ---- Choosing a place: search, the three selects, or a saved or linked zone ----
+  const selC = $('selC'), selJ = $('selJ'), selZ = $('selZ'), hint = $('hint');
+  const opt = (v, text, selected) => `<option value="${v}"${selected ? ' selected' : ''}>${esc(text)}</option>`;
+  let counties = [];
+
+  function fillJ(c, ji = null) {
+    if (c === null) { selJ.innerHTML = opt('', 'Prvo odaberi županiju'); selJ.disabled = true; return; }
+    const list = HR.j.map((j, i) => [j, i]).filter(([j]) => j.c === c).sort(([a], [b]) => a.n.localeCompare(b.n, 'hr'));
+    selJ.innerHTML = opt('', `Odaberi (${list.length})`, ji === null) +
+      list.map(([j, i]) => opt(i, j.z.length ? j.n : `${j.n} (nema rasporeda)`, i === ji)).join('');
+    selJ.disabled = false;
+  }
+  function fillZ(ji, zi = null) {
+    const zs = ji === null ? [] : HR.j[ji].z;
+    if (zs.length < 2) {
+      selZ.innerHTML = zs.length ? opt(zs[0], 'Jedan raspored za cijelo područje', true) : opt('', ji === null ? 'Prvo odaberi grad ili općinu' : 'Nema rasporeda');
+      selZ.disabled = true;
+      return;
+    }
+    selZ.innerHTML = opt('', `Odaberi (${zs.length} ${plural(zs.length, 'zona', 'zone', 'zona')})`, zi === null) +
+      zs.map(i => opt(i, zoneLabel(i), i === zi)).join('');
+    selZ.disabled = false;
+  }
+  function setSelects(ji, zi = null) {
+    const c = ji === null ? null : HR.j[ji].c;
+    selC.value = c === null ? '' : String(c);
+    fillJ(c, ji);
+    fillZ(ji, zi);
+  }
+
+  function setPick(open) {
+    const has = cur !== null;
+    $('pick').hidden = has && !open;
+    $('here').hidden = !has || open;
+    $('cancelPick').hidden = !has;
+    $('pickTitle').textContent = has ? 'Promijeni mjesto' : 'Gdje živiš?';
+  }
+  function backToZone() {
+    hint.innerHTML = '';
+    if (cur === null) return;
+    setSelects(ZM.j, cur);
+    $('noData').hidden = true;
+    showZoneView(true);
+    document.title = `Odvoz otpada ${J.n}`;
+    setPick(false);
+  }
+
+  const showZoneView = on => { $('zoneView').hidden = !on; $('zoneFoot').hidden = !on; };
+
+  let ticket = 0;
+  async function showZone(zi, { save = true, how = '' } = {}) {
+    const z = HR.z[zi], mine = ++ticket;
+    setSelects(z.j, zi);
+    hint.innerHTML = '<span class="muted">Učitavam raspored…</span>';
+    let data;
+    try { data = await fetchJson(`data/z/${z.id}.json`); } catch {
+      if (mine === ticket) hint.innerHTML = '<span class="muted">Raspored se nije učitao. Provjeri vezu i pokušaj ponovno.</span>';
+      return;
+    }
+    if (mine !== ticket) return;
+    hint.innerHTML = '';
+    loadZone(zi, data);
+    T = today(); sel = T; view = monthStart(clampMonth(monthNo(T)));
+    renderZone(); renderAll();
+    $('intro').hidden = true; $('noData').hidden = true; showZoneView(true);
+    setPick(false);
+    if (save) {
+      store.set('odvoz-hr-zona', z.id);
+      try {
+        const rest = new URLSearchParams(location.search);
+        rest.delete('zona'); rest.delete('z');
+        const more = rest.toString();
+        history.replaceState(null, '', `${location.pathname}?z=${z.id}${more ? '&' + more : ''}${location.hash}`);
+      } catch {}
+    }
+    if (how) track(`zona-odabrana/${z.id}`, `Odabrana zona ${z.id} (${how})`);
+  }
+
+  function showNoData(ji) {
+    const j = HR.j[ji];
+    ticket++;
+    hint.innerHTML = '';
+    showZoneView(false); $('intro').hidden = true;
+    const nd = $('noData');
+    nd.innerHTML = `<div class="eyebrow">${esc(cap(j.t))}, ${esc(countyName(j.c))}</div>
+      <h2>${esc(j.n)}: raspored zasad nemamo</h2>
+      <p>${NO_DATA[j.x] || NO_DATA.n}</p>
+      ${j.d ? `<p>Odvoz otpada obavlja ${esc(j.d)}; raspored provjeri kod njih ili u ${j.t === 'grad' ? 'gradskoj upravi' : 'općini'}.</p>` : ''}`;
+    nd.hidden = false;
+    document.title = `Odvoz otpada ${j.n}`;
+    track(`bez-rasporeda/${j.n}`, `Bez rasporeda: ${j.n}`);
+  }
+
+  // A city or municipality was chosen (select or search): one zone opens, several ask for the zone.
+  function chooseJls(ji, how) {
+    const j = HR.j[ji];
+    setSelects(ji);
+    if (!j.z.length) return showNoData(ji);
+    if (j.z.length === 1) return showZone(j.z[0], { how });
+    ticket++;
+    $('noData').hidden = true;
+    hint.innerHTML = `<div><b>${esc(j.n)}</b> ima ${j.z.length} ${plural(j.z.length, 'zonu', 'zone', 'zona')} odvoza. Upiši ulicu ili naselje u tražilicu ili odaberi zonu.</div>`;
+    selZ.focus();
+  }
+
+  selC.onchange = () => { const c = selC.value === '' ? null : +selC.value; fillJ(c); fillZ(null); hint.innerHTML = ''; if (c !== null) selJ.focus(); };
+  selJ.onchange = () => { if (selJ.value === '') { fillZ(null); hint.innerHTML = ''; } else chooseJls(+selJ.value, 'izbornik'); };
+  selZ.onchange = () => { if (selZ.value !== '') showZone(+selZ.value, { how: 'izbornik' }); };
+  $('change').onclick = () => { setPick(true); $('q').focus(); };
+  $('cancelPick').onclick = backToZone;
+
+  // ---- Address search ----
+  // Text is compared folded: lower case, no diacritics (č→c, đ→d), anything but letters and digits a space. One
+  // UTF-16 unit stays one character, so positions in the folded text are positions in the original (for marking).
+  const foldMemo = new Map();
+  const foldCh = c => {
+    let f = foldMemo.get(c);
+    if (f === undefined) {
+      const m = c.toLowerCase().normalize('NFD').replace(/đ/g, 'd').match(/[a-z0-9]/);
+      foldMemo.set(c, f = m ? m[0] : ' ');
+    }
+    return f;
+  };
+  const fold = s => { let o = ''; for (let i = 0; i < s.length; i++) o += foldCh(s[i]); return o; };
+  const OPTIONAL = new Set(['ul', 'ulica', 'u', 'i', 'kbr', 'br', 'broj', 'grad', 'opcina']);
+
+  // House numbers a street entry covers ("7-9, 11, 20/1", "1 do 47 - neparni", "osim kućnih brojeva 8, 10"):
+  // null when it names none (the whole street), else a test. Numbers followed by a dot are dates and ordinals.
+  function numberTest(label) {
+    let s = label.toLowerCase(), except = [];
+    const oi = s.indexOf('osim');
+    if (oi >= 0) { except = nums(s.slice(oi)); s = s.slice(0, oi); }
+    const parity = /neparn/.test(s) ? 1 : /parn/.test(s) ? 0 : null;
+    const ranges = [];
+    s = s.replace(/(\d+)\s*[a-z]?\s*(?:-|–|do\s+(?:broja\s+)?)\s*(\d+)(?!\.)/g, (_, a, b) => { ranges.push([+a, +b]); return ' '; });
+    const singles = nums(s);
+    if (!ranges.length && !singles.length && parity === null && !except.length) return null;
+    return n => !except.includes(n) && (parity === null || n % 2 === parity) &&
+      (!ranges.length && !singles.length || ranges.some(([a, b]) => n >= a && n <= b) || singles.includes(n));
+  }
+  function nums(s) {
+    const out = [];
+    for (const m of s.matchAll(/(\/?)(\d+)(\.?)/g)) if (!m[1] && !m[3]) out.push(+m[2]);
+    return out;
+  }
+
+  let streets = null, streetsLoading = null, jlsItems = [], results = [], active = -1;
+  const qEl = $('q'), list = $('sugg');
+
+  function loadStreets() {
+    if (!streetsLoading) {
+      streetsLoading = fetchJson('data/ulice.json').then(arr => {
+        const jf = HR.j.map(j => ' ' + fold(j.n) + ' ');
+        streets = arr.map(([label, zi]) => {
+          const ji = HR.z[zi].j;
+          return { label, zi, ji, f: ' ' + fold(label) + ' ', g: jf[ji], pop: HR.j[ji].s };
+        });
+        if (document.activeElement === qEl && qEl.value.trim()) runSearch();
+      }).catch(() => { streetsLoading = null; });
+    }
+    return streetsLoading;
+  }
+
+  function search(q) {
+    const toks = fold(q).split(' ').filter(Boolean);
+    const isNum = t => /^\d+[a-z]?$/.test(t);
+    const words = toks.filter(t => !isNum(t)), num = toks.filter(isNum).map(t => parseInt(t, 10))[0];
+    if (!words.length) return [];
+    const need = words.filter(w => !OPTIONAL.has(w));
+    const req = need.length ? need : words;
+    const out = [];
+    const score = (it, isJls) => {
+      let s = 0;
+      for (const w of req) {
+        const inLabel = it.f.includes(' ' + w);
+        if (!inLabel && !(it.g && it.g.includes(' ' + w))) return null;
+        if (inLabel) s -= it.f.includes(' ' + w + ' ') ? 7 : 5;
+      }
+      if (it.f.startsWith(' ' + req[0])) s -= it.f.startsWith(' ' + req[0] + ' ') ? 17 : 12;
+      s += it.label.length / 40 - Math.log10(it.pop + 10) / 1.5;  // shorter names and bigger places first
+      if (isJls) s -= req.every(w => it.f.includes(' ' + w)) ? 40 : 0;
+      return s;
+    };
+    for (const it of jlsItems) { const s = score(it, true); if (s !== null) out.push([s, it]); }
+    let wrongNumber = [];
+    if (streets) for (const it of streets) {
+      let s = score(it, false);
+      if (s === null) continue;
+      if (num !== undefined) {
+        if (it.nt === undefined) it.nt = numberTest(it.label);
+        if (it.nt) { if (it.nt(num)) s -= 50; else { wrongNumber.push([s, it]); continue; } }
+      }
+      out.push([s, it]);
+    }
+    // A house number no entry covers: show the street anyway rather than nothing.
+    if (!out.some(([, it]) => it.zi !== undefined)) out.push(...wrongNumber);
+    out.sort((a, b) => a[0] - b[0]);
+    return out.slice(0, 12).map(([, it]) => it);
+  }
+
+  function mark(label, folded, words) {
+    const on = new Array(label.length).fill(false);
+    for (const w of words) {
+      let i = folded.indexOf(' ' + w);
+      while (i >= 0) { for (let k = 0; k < w.length; k++) on[i + k] = true; i = folded.indexOf(' ' + w, i + 1); }
+    }
+    let html = '', open = false;
+    for (let i = 0; i < label.length; i++) {
+      if (on[i] !== open) { html += on[i] ? '<mark>' : '</mark>'; open = on[i]; }
+      html += esc(label[i]);
+    }
+    return html + (open ? '</mark>' : '');
+  }
+
+  function renderList() {
+    const q = qEl.value.trim();
+    if (!q) return closeList();
+    const words = fold(q).split(' ').filter(w => w && !/^\d+[a-z]?$/.test(w));
+    let html = results.map((it, i) => {
+      let sub;
+      if (it.zi === undefined) {
+        const j = HR.j[it.ji];
+        sub = `${cap(j.t)}, ${countyName(j.c)} · ${j.z.length > 1 ? `${j.z.length} ${plural(j.z.length, 'zona', 'zone', 'zona')}` : j.z.length ? 'jedan raspored' : 'nema rasporeda'}`;
+      } else {
+        const j = HR.j[it.ji], area = j.z.length > 1 ? zoneLabel(it.zi) : '';
+        sub = j.n + (area && area !== it.label ? ` · ${area.length > 70 ? area.slice(0, 68) + '…' : area}` : '');
+      }
+      return `<li role="option" id="opt${i}" data-i="${i}" aria-selected="${i === active}"><b>${mark(it.label, it.f, words)}</b><small>${esc(sub)}</small></li>`;
+    }).join('');
+    if (!streets) html += '<li class="none" aria-disabled="true">Učitavam popis ulica i naselja…</li>';
+    else if (!results.length) html = '<li class="none" aria-disabled="true">Nema pogodaka. Pokušaj samo naziv ulice ili naselja, ili odaberi grad ili općinu ispod.</li>';
+    list.innerHTML = html;
+    list.hidden = false;
+    qEl.setAttribute('aria-expanded', 'true');
+    if (active >= 0) { qEl.setAttribute('aria-activedescendant', `opt${active}`); $(`opt${active}`)?.scrollIntoView({ block: 'nearest' }); }
+    else qEl.removeAttribute('aria-activedescendant');
+  }
+  function closeList() {
+    list.hidden = true; list.innerHTML = '';
+    qEl.setAttribute('aria-expanded', 'false'); qEl.removeAttribute('aria-activedescendant');
+  }
+  function runSearch() {
+    results = qEl.value.trim() ? search(qEl.value) : [];
+    active = results.length ? 0 : -1;
+    renderList();
+  }
+  function choose(it) {
+    closeList();
+    qEl.value = '';
+    qEl.blur();
+    if (it.zi !== undefined) showZone(it.zi, { how: 'pretraga' });
+    else chooseJls(it.ji, 'pretraga');
+  }
+
+  qEl.addEventListener('focus', loadStreets);
+  qEl.addEventListener('input', () => { loadStreets(); runSearch(); });
+  qEl.addEventListener('keydown', ev => {
+    if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp') {
+      if (!results.length) return;
+      ev.preventDefault();
+      active = (active + (ev.key === 'ArrowDown' ? 1 : -1) + results.length) % results.length;
+      renderList();
+    } else if (ev.key === 'Enter') {
+      ev.preventDefault();
+      if (results[active]) choose(results[active]);
+    } else if (ev.key === 'Escape') {
+      if (!list.hidden) { ev.preventDefault(); closeList(); } else if (qEl.value) qEl.value = '';
+    }
+  });
+  qEl.addEventListener('blur', () => setTimeout(() => { if (document.activeElement !== qEl) closeList(); }, 120));
+  list.addEventListener('mousedown', ev => ev.preventDefault());  // keep focus in the field while choosing
+  list.addEventListener('click', ev => { const li = ev.target.closest('li[data-i]'); if (li) choose(results[+li.dataset.i]); });
+
+  // ---- Calendar interaction ----
+  $('subLink').addEventListener('click', () => track(`kalendar-iphone/${ZM.id}`, `Dodaj u iPhone kalendar, ${ZM.id}`));
+  $('gcalLink').addEventListener('click', () => track(`kalendar-google/${ZM.id}`, `Dodaj u Google kalendar, ${ZM.id}`));
+  $('xlsxLink').addEventListener('click', () => track(`excel/${ZM.id}`, `Excel raspored, ${ZM.id}`));
+  $('copyUrl').onclick = () => {
+    track(`kalendar-url/${ZM.id}`, `Kopiran URL kalendara, ${ZM.id}`);
+    const btn = $('copyUrl'), text = $('icsUrl').textContent;
+    const done = () => { btn.textContent = 'Kopirano'; setTimeout(() => { btn.textContent = 'Kopiraj'; }, 2000); };
+    const selectText = () => { const r = document.createRange(); r.selectNodeContents($('icsUrl')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+    try { navigator.clipboard.writeText(text).then(done, selectText); } catch { selectText(); }
+  };
+  $('zoneView').addEventListener('click', ev => {
+    const b = ev.target.closest('[data-k]');
+    if (b) { select(fromKey(b.dataset.k)); if (b.classList.contains('cell')) b.focus(); }
+  });
+  $('prev').onclick = () => { view = monthStart(clampMonth(monthNo(view) - 1)); renderCal(); };
+  $('next').onclick = () => { view = monthStart(clampMonth(monthNo(view) + 1)); renderCal(); };
+  $('goToday').onclick = () => select(T);
+  $('cal').addEventListener('keydown', ev => {
+    const step = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -7, ArrowDown: 7 }[ev.key];
+    if (!step) return;
+    ev.preventDefault();
+    const d = addDays(sel, step);
+    if (!inRange(d)) return;
+    select(d);
+    document.querySelector(`#cal [data-k="${key(d)}"]`)?.focus();
+  });
+
+  // Roll over at midnight if the tab stays open.
+  setInterval(() => {
+    const t = today();
+    if (key(t) === key(T)) return;
+    const followToday = key(sel) === key(T);
+    T = t;
+    if (followToday) sel = t;
+    if (cur === null) renderHeader(); else renderAll();
+  }, 60000);
+
+  function init(data) {
+    HR = data;
+    HR.z.forEach((z, i) => ZID.set(z.id, i));
+    jlsItems = HR.j.map((j, ji) => ({ label: j.n, ji, f: ' ' + fold(j.n) + ' ', g: '', pop: j.s }));
+    counties = HR.c.map((c, i) => [c, i]).sort(([a], [b]) => (a !== 'Grad Zagreb') - (b !== 'Grad Zagreb') || a.localeCompare(b, 'hr'));
+    selC.innerHTML = opt('', 'Odaberi županiju', true) + counties.map(([c, i]) => opt(i, c, false)).join('');
+    fillJ(null); fillZ(null);
+    const covered = HR.j.filter(j => j.z.length), people = js => js.reduce((a, j) => a + j.s, 0);
+    $('intro').innerHTML = `<p>Upiši ulicu ili naselje u tražilicu, ili odaberi županiju, grad ili općinu i zonu. Odabir se pamti na ovom uređaju.</p>
+      <p>Raspored imamo za <b>${covered.length} od ${HR.j.length}</b> gradova i općina, gdje živi oko <b>${Math.round(100 * people(covered) / people(HR.j))} %</b> stanovnika. Komunalna poduzeća objavljuju rasporede svako na svoj način; ovdje su na jednom mjestu, s podsjetnikom u kalendaru.</p>`;
+    const v = fromKey(HR.v);
+    $('dataDate').textContent = `Podaci preuzeti ${fullDate(v)}`;
+
+    // Zone: ?z=<id> (calendar events link there), the old ?zona=N, else the last choice on this device.
+    let params; try { params = new URLSearchParams(location.search); } catch { params = new URLSearchParams(); }
+    const legacy = n => n && ZID.has(LEGACY + n) ? LEGACY + n : null;
+    const fromUrl = (ZID.has(params.get('z')) && params.get('z')) || legacy(params.get('zona'));
+    const saved = (ZID.has(store.get('odvoz-hr-zona')) && store.get('odvoz-hr-zona')) || legacy(store.get('odvoz-zona'));
+    const want = fromUrl || saved;
+    if (want) showZone(ZID.get(want));
+    else setPick(true);
+  }
+
+  renderStatic();
+  renderHeader();
+  alarmEl.value = ALARMS.some(a => a.id === store.get('odvoz-alarm')) ? store.get('odvoz-alarm') : ALARMS[0].id;
+  fetchJson('data/hr.json').then(init, () => {
+    $('intro').innerHTML = '<p>Popis gradova i općina se nije učitao. Provjeri vezu i osvježi stranicu.</p>';
+  });
+})();
+</script>
