@@ -1,34 +1,80 @@
-# Kako gradovi objavljuju raspored odvoza (stanje 7. 10. 2026.)
+# Rasporedi odvoza otpada u Hrvatskoj: istraživanje i stanje (8. 10. 2026.)
+
+## Stanje
+
+- **142 davatelja** imaju skriptu (`izvori/<davatelj>.py`) koja s njihove stranice preuzima raspored, pretvara ga
+  u zajednički oblik (`podaci/<slug>.json`) i provjerava ga. `gen_xlsx.py --podaci` iz toga radi Excel predložak
+  (`excel/<slug>/`).
+- Raspored ima **464 od 556** gradova i općina, oko **68 % stanovnika**. Zagreb (767 tisuća) još nije uključen:
+  skripta postoji, a puno preuzimanje preko javnog API-ja traje nekoliko sati. S njim pokrivenost prelazi 87 %.
+- Svaki je davatelj provjeren ponovnim pokretanjem skripte i usporedbom s izvorom: slikom kalendara, PDF-om ili
+  živim upitom.
+- `python3 pokrivenost.py [--popis]` u svakom trenutku računa pokrivenost iz `podaci/`.
 
 ## Datoteke
 
-- `jls_davatelj.csv`: svih 556 gradova i općina, njihov davatelj usluge odvoza (s OIB-om), broj stanovnika i kućanstava (Popis 2021.). Izvor je ministarska tablica godišnjih izvješća davatelja za 2024. (ISGO portal, „IRDJU 2024“, ožujak 2026.). Stupac `promjena_2026` navodi 23 jedinice kojima je davatelj promijenjen prema evidenciji javne usluge iz listopada 2026.
-- `jls_davatelj_crosscheck.csv`: ista usporedba, red po jedinici, s popisom iz 2022. i evidencijom iz 2026.
-- `izvori.csv`: za 33 najveća grada (i općine koje dijele istog davatelja). Sadrži stranicu s rasporedom, format, razinu detalja (zona, ulica, kućni broj), oblik rasporeda (pravila ili datumi), način objave pomaka zbog blagdana, vrste otpada, procjenu napora i status skripte.
+- `jls_davatelj.csv`: svih 556 gradova i općina, njihov davatelj (s OIB-om), broj stanovnika i kućanstava
+  (Popis 2021.).
+  - Izvor je ministarska tablica godišnjih izvješća davatelja za 2024. (ISGO portal).
+  - Stupac `promjena_2026` navodi jedinice kojima je davatelj promijenjen prema evidenciji iz listopada 2026.
+- `jls_davatelj_crosscheck.csv`: usporedba s popisom iz 2022. i evidencijom iz 2026.
+- `izvori.csv`: za svakog davatelja ili grad sadrži:
+  - stranicu s rasporedom, format i razinu detalja;
+  - oblik rasporeda (pravila ili datumi) i način objave pomaka zbog blagdana;
+  - vrste otpada i procjenu napora;
+  - status: `gotovo` (sve JLS imaju raspored), `djelomično` ili `istraženo`.
+- `val3_*.jsonl`: detalji istraživanja manjih davatelja po regijama (uzorak izvora, način čitanja).
+- `bez_rasporeda.csv`: 91 JLS bez rasporeda, s razlogom.
 
-## Ukratko
+## Kako davatelji objavljuju raspored
 
-U Hrvatskoj odvoz obavlja 195 davatelja u 556 jedinica lokalne samouprave. Najveći po broju općina su Eko-Flor Plus (48), Čistoća Zadar (19), Pre-Kom (14) i Čistoća Varaždin (13). Po broju ljudi prednjače Zagreb (767 tisuća) i Čistoća Split (205 tisuća). Mull-Trans je od 2026. preuzeo dio općina Eko-Flora.
-
-Kako se rasporedi objavljuju:
-
-| Način | Gradovi | Što to znači za skripte |
+| Način | Primjeri | Kako ga skripte čitaju |
 |---|---|---|
-| Javni API ili JSON | Zagreb, Osijek, Zadar, Varaždin, Slavonski Brod, Požega, Pula | Najpouzdanije, ali mnogo upita; Požega i Pula daju samo nekoliko mjeseci unaprijed |
-| PDF ili HTML s datumima | Karlovac, Koprivnica, Samobor, Kutina, Vukovar, Bjelovar, Sisak | Čita se iz teksta, uz provjeru stupaca |
-| Pravila („ponedjeljkom“, „2. i 4. utorak“) | Velika Gorica, Zaprešić, Šibenik, Split, Slavonski Brod, Vinkovci | Datumi se računaju (`pravila.py`); blagdane treba znati posebno |
-| Kalendar u boji (PDF) | Rijeka, Čakovec, Kaštela, Makarska, Dugo Selo, Đakovo, Mull-Trans | Boja polja = vrsta otpada (`kalendar_boje.py`) |
-| Slike ili sken | Trogir, Dubrovnik, Virovitica, Draganić | Ručni unos ili čitanje boja iz slike |
-| Nedostupno odavde | Rovinj (Cloudflare), Poreč (preuzimanje se prekida) | Ručno preuzimanje |
+| Javni API ili podaci u stranici | Zagreb, Osijek, Zadar, Varaždin, Pula, Požega, Ivakop, Petrinja, Metković | Upiti po adresi, istovjetni rasporedi spajaju se u zone; predmemorija, najviše 2–5 upita u sekundi |
+| PDF ili HTML s datumima | Karlovac, Koprivnica, Ivkom, Križevci, Lukom, Delnice, Pag | Tekst po položaju riječi (pdfplumber), provjera dana u tjednu |
+| Pravila („ponedjeljkom“, „2. i 4. utorak“) | Velika Gorica, Zaprešić, Šibenik, otoci, Zelina | Datumi iz `pravila.py`; sezone s točnim razdobljima iz izvora |
+| Kalendar u boji (vektorski PDF) | Rijeka, Mull-Trans (43 općine), Čakovec, Opatija, Pazin, Umag | Boja polja = vrsta otpada (`kalendar_boje.py`), legenda iz PDF-a |
+| Slike i skenovi | Pre-Kom, Trogir, Drniš, Kijevo, Konjščina, Vojnić | Boje očitane po mreži ili prepisano; sha256 izvora upisan je u skriptu, pa se skripta zaustavi kad se slika promijeni |
 
-Zapažanja:
+## Što treba znati o podacima
 
-- **Split nema raspored za 2026.** Na stranici su samo tekstualna pravila po blokovima, s pokvarenim slovima, a velik dio grada je na zajedničkim kontejnerima. Najbolje je zatražiti podatke od Čistoće Split.
-- **Centri Rijeke, Pule i Dubrovnika** većinom imaju zajedničke kontejnere, pa za ta kućanstva nema dana odvoza.
-- **Blagdani se rješavaju na četiri načina:**
-  - pomak je ugrađen u datume (Sisak, Karlovac, Koprivnica, Požega);
-  - objavljeno je pravilo (Velika Gorica, Kutina, Krapina, Sisak);
-  - pomak se objavljuje samo u vijestima (Osijek, Slavonski Brod, Zaprešić, Split);
-  - pomaka nema, odvoz je i na blagdane (Zagreb, Rijeka, Zadar, Varaždin).
-- **Neki izvori su zastarjeli ili ih postoji više:** Šibenik je iz 2024., Zaprešić iz 2025., a za Svetu Nedelju gradska i Mull-Transova kopija PDF-a se razlikuju.
-- **Ulice su često skraćene** („M. Krleže“) ili podijeljene po kućnim brojevima i parnosti. Za pretragu po ulici treba ih uskladiti sa službenim registrom (Zagreb ima otvoreni registar ulica).
+- **Blagdani** se rješavaju na četiri načina:
+  - pomak je ugrađen u datume i označen kao pomaknut (`!`);
+  - davatelj je objavio pravilo, pa se ono primjenjuje;
+  - pomak je objavljen u obavijesti, koju skripta pročita;
+  - ništa nije objavljeno, pa ostaju datumi prema pravilu, uz napomenu.
+- **Stara pravila:** za dio otoka i manjih mjesta postoje samo stariji dokumenti (npr. Brač 2019., Vis 2020./21.,
+  Vrgorac i Stari Grad 2022., Hvar 2024., Kom-Ilok 2025.). Datumi za 2026. izračunati su iz njih, a svaka takva
+  zona to navodi u napomeni.
+- **Djelomična godina:** neki davatelji objavljuju samo dio godine (Pula i Požega pomični prozor, Drava Kom i
+  Contrada polugodište, Flora VTC od 1.8.). Pri ponovnom pokretanju skripte čuvaju ranije mjesece. Te skripte
+  treba pokretati redovito.
+- **Promjena davatelja tijekom godine:**
+  - Viljevo, Magadenovac i Podravska Moslavina prelaze s Mull-Transa na Doroslov, a Koška na Urbanizam Valpovo.
+    Stari raspored završava kad počne novi.
+  - Gornji Mihaljevec ima Čakomov raspored tek od 10.7.
+  - Lasinja je od 2026. kod Vojnić komunalca.
+- **Isto ime, dvije jedinice:** Privlaka (Zadarska i Vukovarsko-srijemska) i Sveta Nedelja (Zagrebačka i Istarska)
+  razlikuju se po županiji davatelja.
+- **Evidencija i stvarnost:** gdje se davatelj iz službene evidencije razlikuje od onoga koji objavljuje raspored,
+  koristi se objavljeni raspored, a napomena navodi evidenciju. Primjeri su Mikleuš, Donji Andrijevci, Stankovci
+  i Polača.
+
+## Što nedostaje (detalji u `bez_rasporeda.csv`)
+
+- **Split, Solin, Podstrana, Klis i Dugopolje** (Čistoća Split): nema rasporeda s datumima, samo tekstualna pravila
+  s pokvarenim znakovima. U tijeku je pokušaj da se pravila pretvore u datume.
+- **Blokirano iz ovog okruženja (Cloudflare):** Rovinj, Bale, Kanfanar, Žminj, Novi Marof i Ljubešćica,
+  te Zelenjak (Klanjec i okolica). Ove rasporede treba ručno preuzeti.
+- **Poreč (grad):** PDF postoji, ali se preuzimanje prekida i kopija nije pronađena.
+- **Ništa objavljeno:** oko 40 manjih jedinica, npr. Benkovac, Otočac, Ozalj, Marija Bistrica, Muć, Ston, Lastovo,
+  Plitvička Jezera i Cres–Lošinj (spremnici s karticom).
+- **Nejasno:** Slatina (nije poznato koji je tjedan „A“) i Tučepi (nema datuma sezona).
+
+## Pitanja za davatelje (izbor)
+
+- Mull-Trans: popis naselja po terenu, za više od 10 općina.
+- Općine oko Bjelovara: dani miješanog otpada (dio je preuzet iz obavijesti iz 2025.).
+- Buzet: naselja po mjesnim odborima.
+- Novalja: raspored za studeni i prosinac.
+- Davatelji sa starijim pravilima: potvrda da ta pravila vrijede i u 2026.
