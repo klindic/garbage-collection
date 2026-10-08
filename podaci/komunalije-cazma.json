@@ -1,0 +1,138 @@
+{
+  "davatelj": "Komunalije d.o.o. Čazma",
+  "web": "https://www.komunalije.hr",
+  "izvor": "https://www.komunalije.hr/index.php/komunalni-otpad/raspored-odvoza-otpada",
+  "zupanija": "Bjelovarsko-bilogorska",
+  "jls": ["Čazma"],
+  "bioNapomena": "Biootpad: zona 1 strana Dereza ponedjeljkom, strana Grabovnica utorkom (ulice na popisu), zone 2–4 svaki tjedan na dan miješanog otpada.",
+  "napomene": ["Raspored je trajan (slike na komunalije.hr, ažurirane 3. 8. 2026.); datumi su izračunati iz pravila.", "Papir se odvozi 1. i 3., plastika 2. i 4. dan odvoza u mjesecu; peti tjedan u mjesecu nema odvoza papira i plastike.", "Pomaci zbog blagdana nisu objavljeni; datumi koji padaju na blagdan ostavljeni su kako jesu.", "Smeđe spremnike za biootpad iznesite najkasnije do 7:00 sati na dan odvoza."],
+  "zone": {
+    "1": {
+      "jls": "Čazma",
+      "podrucje": "Zona 1 (ponedjeljak, papir i plastika utorak, biootpad ponedjeljak): Ulica hrvatskih branitelja, Česmanska ulica, Omladinska ulica, Ulica Franje Vidovića, …",
+      "ulice": ["Ulica hrvatskih branitelja", "Česmanska ulica", "Omladinska ulica", "Ulica Franje Vidovića", "Ulica 26. lipnja", "Livadarska ulica", "Ulica Antuna Gustava Matoša", "Ulica Alojzija Vulinca", "Trg Čazmanskog kaptola", "Ulica braće Radić", "Ulica kralja Tomislava", "Dereza"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-06 K 01-12 MB 01-13 P 01-19 MB 01-20 K 01-26 MB 01-27 P",
+          "02-02 MB 02-03 K 02-09 MB 02-10 P 02-16 MB 02-17 K 02-23 MB 02-24 P",
+          "03-02 MB 03-03 K 03-09 MB 03-10 P 03-16 MB 03-17 K 03-23 MB 03-24 P 03-30 MB",
+          "04-06 MB 04-07 K 04-13 MB 04-14 P 04-20 MB 04-21 K 04-27 MB 04-28 P",
+          "05-04 MB 05-05 K 05-11 MB 05-12 P 05-18 MB 05-19 K 05-25 MB 05-26 P",
+          "06-01 MB 06-02 K 06-08 MB 06-09 P 06-15 MB 06-16 K 06-22 MB 06-23 P 06-29 MB",
+          "07-06 MB 07-07 K 07-13 MB 07-14 P 07-20 MB 07-21 K 07-27 MB 07-28 P",
+          "08-03 MB 08-04 K 08-10 MB 08-11 P 08-17 MB 08-18 K 08-24 MB 08-25 P 08-31 MB",
+          "09-01 K 09-07 MB 09-08 P 09-14 MB 09-15 K 09-21 MB 09-22 P 09-28 MB",
+          "10-05 MB 10-06 K 10-12 MB 10-13 P 10-19 MB 10-20 K 10-26 MB 10-27 P",
+          "11-02 MB 11-03 K 11-09 MB 11-10 P 11-16 MB 11-17 K 11-23 MB 11-24 P 11-30 MB",
+          "12-01 K 12-07 MB 12-08 P 12-14 MB 12-15 K 12-21 MB 12-22 P 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Čazma",
+      "podrucje": "Zona 1 (ponedjeljak, papir i plastika utorak, biootpad utorak): Ulica Milana Novačića, Ribarska ulica, Ulica bana Josipa Jelačića, Ulica kralja Zvonimira, …",
+      "ulice": ["Ulica Milana Novačića", "Ribarska ulica", "Ulica bana Josipa Jelačića", "Ulica kralja Zvonimira", "Ulica Gjure Jankesa", "Voćarska ulica", "Ulica svetog Andrije", "Moslavačka ulica", "Grabovnica"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-06 BK 01-12 M 01-13 BP 01-19 M 01-20 BK 01-26 M 01-27 BP",
+          "02-02 M 02-03 BK 02-09 M 02-10 BP 02-16 M 02-17 BK 02-23 M 02-24 BP",
+          "03-02 M 03-03 BK 03-09 M 03-10 BP 03-16 M 03-17 BK 03-23 M 03-24 BP 03-30 M 03-31 B",
+          "04-06 M 04-07 BK 04-13 M 04-14 BP 04-20 M 04-21 BK 04-27 M 04-28 BP",
+          "05-04 M 05-05 BK 05-11 M 05-12 BP 05-18 M 05-19 BK 05-25 M 05-26 BP",
+          "06-01 M 06-02 BK 06-08 M 06-09 BP 06-15 M 06-16 BK 06-22 M 06-23 BP 06-29 M 06-30 B",
+          "07-06 M 07-07 BK 07-13 M 07-14 BP 07-20 M 07-21 BK 07-27 M 07-28 BP",
+          "08-03 M 08-04 BK 08-10 M 08-11 BP 08-17 M 08-18 BK 08-24 M 08-25 BP 08-31 M",
+          "09-01 BK 09-07 M 09-08 BP 09-14 M 09-15 BK 09-21 M 09-22 BP 09-28 M 09-29 B",
+          "10-05 M 10-06 BK 10-12 M 10-13 BP 10-19 M 10-20 BK 10-26 M 10-27 BP",
+          "11-02 M 11-03 BK 11-09 M 11-10 BP 11-16 M 11-17 BK 11-23 M 11-24 BP 11-30 M",
+          "12-01 BK 12-07 M 12-08 BP 12-14 M 12-15 BK 12-21 M 12-22 BP 12-28 M 12-29 B"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Čazma",
+      "podrucje": "Zona 1 (ponedjeljak, papir i plastika utorak, ostale ulice Čazme): Čazma",
+      "ulice": ["Čazma"],
+      "napomena": "Ulice Čazme koje nisu na popisu odvoza biootpada (slika „Raspored odvoza biootpada”); za njih biootpad nije upisan.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-06 K 01-12 M 01-13 P 01-19 M 01-20 K 01-26 M 01-27 P",
+          "02-02 M 02-03 K 02-09 M 02-10 P 02-16 M 02-17 K 02-23 M 02-24 P",
+          "03-02 M 03-03 K 03-09 M 03-10 P 03-16 M 03-17 K 03-23 M 03-24 P 03-30 M",
+          "04-06 M 04-07 K 04-13 M 04-14 P 04-20 M 04-21 K 04-27 M 04-28 P",
+          "05-04 M 05-05 K 05-11 M 05-12 P 05-18 M 05-19 K 05-25 M 05-26 P",
+          "06-01 M 06-02 K 06-08 M 06-09 P 06-15 M 06-16 K 06-22 M 06-23 P 06-29 M",
+          "07-06 M 07-07 K 07-13 M 07-14 P 07-20 M 07-21 K 07-27 M 07-28 P",
+          "08-03 M 08-04 K 08-10 M 08-11 P 08-17 M 08-18 K 08-24 M 08-25 P 08-31 M",
+          "09-01 K 09-07 M 09-08 P 09-14 M 09-15 K 09-21 M 09-22 P 09-28 M",
+          "10-05 M 10-06 K 10-12 M 10-13 P 10-19 M 10-20 K 10-26 M 10-27 P",
+          "11-02 M 11-03 K 11-09 M 11-10 P 11-16 M 11-17 K 11-23 M 11-24 P 11-30 M",
+          "12-01 K 12-07 M 12-08 P 12-14 M 12-15 K 12-21 M 12-22 P 12-28 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Čazma",
+      "podrucje": "Zona 2 (srijeda): Suhaja, Pobjenik, Pobrđani, Pavličani, …",
+      "ulice": ["Suhaja", "Pobjenik", "Pobrđani", "Pavličani", "Vrtlinska", "Andigola", "Vučani", "Gornji Miklouš", "Donji Miklouš", "Novo selo", "Martinac", "Bojana"],
+      "raw": {
+        "2026": [
+          "01-07 MBK 01-14 MBP 01-21 MBK 01-28 MBP",
+          "02-04 MBK 02-11 MBP 02-18 MBK 02-25 MBP",
+          "03-04 MBK 03-11 MBP 03-18 MBK 03-25 MBP",
+          "04-01 MBK 04-08 MBP 04-15 MBK 04-22 MBP 04-29 MB",
+          "05-06 MBK 05-13 MBP 05-20 MBK 05-27 MBP",
+          "06-03 MBK 06-10 MBP 06-17 MBK 06-24 MBP",
+          "07-01 MBK 07-08 MBP 07-15 MBK 07-22 MBP 07-29 MB",
+          "08-05 MBK 08-12 MBP 08-19 MBK 08-26 MBP",
+          "09-02 MBK 09-09 MBP 09-16 MBK 09-23 MBP 09-30 MB",
+          "10-07 MBK 10-14 MBP 10-21 MBK 10-28 MBP",
+          "11-04 MBK 11-11 MBP 11-18 MBK 11-25 MBP",
+          "12-02 MBK 12-09 MBP 12-16 MBK 12-23 MBP 12-30 MB"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Čazma",
+      "podrucje": "Zona 3 (četvrtak): Bosiljevo, Opčevac, Palančani, Dapci, …",
+      "ulice": ["Bosiljevo", "Opčevac", "Palančani", "Dapci", "Sovari", "Marčani", "Prokljuvani", "Gornji Lipovčani", "Donji Lipovčani", "Prnjarovac", "Grabik", "Dragičevac", "Cerina"],
+      "raw": {
+        "2026": [
+          "01-01 MBK 01-08 MBP 01-15 MBK 01-22 MBP 01-29 MB",
+          "02-05 MBK 02-12 MBP 02-19 MBK 02-26 MBP",
+          "03-05 MBK 03-12 MBP 03-19 MBK 03-26 MBP",
+          "04-02 MBK 04-09 MBP 04-16 MBK 04-23 MBP 04-30 MB",
+          "05-07 MBK 05-14 MBP 05-21 MBK 05-28 MBP",
+          "06-04 MBK 06-11 MBP 06-18 MBK 06-25 MBP",
+          "07-02 MBK 07-09 MBP 07-16 MBK 07-23 MBP 07-30 MB",
+          "08-06 MBK 08-13 MBP 08-20 MBK 08-27 MBP",
+          "09-03 MBK 09-10 MBP 09-17 MBK 09-24 MBP",
+          "10-01 MBK 10-08 MBP 10-15 MBK 10-22 MBP 10-29 MB",
+          "11-05 MBK 11-12 MBP 11-19 MBK 11-26 MBP",
+          "12-03 MBK 12-10 MBP 12-17 MBK 12-24 MBP 12-31 MB"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Čazma",
+      "podrucje": "Zona 4 (petak): Gornji Draganec, Milaševac, Vagovina, Donji Draganec, …",
+      "ulice": ["Gornji Draganec", "Milaševac", "Vagovina", "Donji Draganec", "Komuševac", "Siščani", "Zdenčec"],
+      "raw": {
+        "2026": [
+          "01-02 MBK 01-09 MBP 01-16 MBK 01-23 MBP 01-30 MB",
+          "02-06 MBK 02-13 MBP 02-20 MBK 02-27 MBP",
+          "03-06 MBK 03-13 MBP 03-20 MBK 03-27 MBP",
+          "04-03 MBK 04-10 MBP 04-17 MBK 04-24 MBP",
+          "05-01 MBK 05-08 MBP 05-15 MBK 05-22 MBP 05-29 MB",
+          "06-05 MBK 06-12 MBP 06-19 MBK 06-26 MBP",
+          "07-03 MBK 07-10 MBP 07-17 MBK 07-24 MBP 07-31 MB",
+          "08-07 MBK 08-14 MBP 08-21 MBK 08-28 MBP",
+          "09-04 MBK 09-11 MBP 09-18 MBK 09-25 MBP",
+          "10-02 MBK 10-09 MBP 10-16 MBK 10-23 MBP 10-30 MB",
+          "11-06 MBK 11-13 MBP 11-20 MBK 11-27 MBP",
+          "12-04 MBK 12-11 MBP 12-18 MBK 12-25 MBP"
+        ]
+      }
+    }
+  }
+}

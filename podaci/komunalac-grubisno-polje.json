@@ -1,0 +1,119 @@
+{
+  "davatelj": "Komunalac d.o.o. Grubišno Polje",
+  "web": "https://www.komunalac-gp.hr",
+  "izvor": "https://www.komunalac-gp.hr/komunalac/raspored-odvoza-komunalnog-otpada/48/",
+  "zupanija": "Bjelovarsko-bilogorska",
+  "jls": ["Grubišno Polje"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)"},
+  "bioNapomena": "Biootpad (smeđe kante) odvozi se svaki petak, za korisnike sa smeđom kantom.",
+  "napomene": ["Raspored je trajan (objavljen 24. 4. 2025.); datumi su izračunati iz pravila.", "Ako odvoz miješanog otpada padne na državni praznik, taj se tjedan ne odvozi, nego idući tjedan po rasporedu (pravilo davatelja).", "Reciklažni otpad (žute i plave kante) odvozi se zajedno jednom mjesečno, n-ti ponedjeljak u mjesecu; ponedjeljak koji je praznik odvozi se idući ponedjeljak (obavijest za 22. 6. 2026.).", "Iste ulice javljaju se u više skupina (dijelovi ulica ili istoimene ulice u Velikim Zdencima i Grubišnom Polju); u nejasnim slučajevima provjerite kod davatelja (043 485 006)."],
+  "zone": {
+    "1": {
+      "jls": "Grubišno Polje",
+      "podrucje": "Utorak, reciklažni 1. ponedjeljak: Veliki Zdenci, Hercegovačka, Klokočevačka, Gradina, …",
+      "ulice": ["Veliki Zdenci", "Hercegovačka", "Klokočevačka", "Gradina", "Mate Lovraka", "Josipa Kozarca", "Trg kralja Tomislava", "Ilovska", "Zdenački Gaj", "Mali Zdenci", "Mihanovićeva", "30. svibnja 1990.", "Orlovac Zdenački"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-05 PK 01-09 B 01-13 M 01-16 B 01-20 M 01-23 B 01-27 M 01-30 B",
+          "02-02 PK 02-03 M 02-06 B 02-10 M 02-13 B 02-17 M 02-20 B 02-24 M 02-27 B",
+          "03-02 PK 03-03 M 03-06 B 03-10 M 03-13 B 03-17 M 03-20 B 03-24 M 03-27 B 03-31 M",
+          "04-03 B 04-07 M 04-10 B 04-13 PK! 04-14 M 04-17 B 04-21 M 04-24 B 04-28 M",
+          "05-01 B 05-04 PK 05-05 M 05-08 B 05-12 M 05-15 B 05-19 M 05-22 B 05-26 M 05-29 B",
+          "06-01 PK 06-02 M 06-05 B 06-09 M 06-12 B 06-16 M 06-19 B 06-23 M 06-26 B 06-30 M",
+          "07-03 B 07-06 PK 07-07 M 07-10 B 07-14 M 07-17 B 07-21 M 07-24 B 07-28 M 07-31 B",
+          "08-03 PK 08-04 M 08-07 B 08-11 M 08-14 B 08-18 M 08-21 B 08-25 M 08-28 B",
+          "09-01 M 09-04 B 09-07 PK 09-08 M 09-11 B 09-15 M 09-18 B 09-22 M 09-25 B 09-29 M",
+          "10-02 B 10-05 PK 10-06 M 10-09 B 10-13 M 10-16 B 10-20 M 10-23 B 10-27 M 10-30 B",
+          "11-02 PK 11-03 M 11-06 B 11-10 M 11-13 B 11-17 M 11-20 B 11-24 M 11-27 B",
+          "12-01 M 12-04 B 12-07 PK 12-08 M 12-11 B 12-15 M 12-18 B 12-22 M 12-25 B 12-29 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Grubišno Polje",
+      "podrucje": "Srijeda, reciklažni 3. ponedjeljak: Grubišno Polje – Braće Radića, 30.svibnja 1990., Andrije Hebranga, Tereze Bernadete Banje, …",
+      "ulice": ["Braće Radića", "30.svibnja 1990.", "Andrije Hebranga", "Tereze Bernadete Banje", "Josipa Kozarca", "Praškog proljeća", "Lipovac", "Ivana Nepomuka Jemeršića", "Ignjatička", "Ivana Zajca", "Poduzetnička cesta", "Kralja Zvonimira"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-07 M 01-09 B 01-14 M 01-16 B 01-19 PK 01-21 M 01-23 B 01-28 M 01-30 B",
+          "02-04 M 02-06 B 02-11 M 02-13 B 02-16 PK 02-18 M 02-20 B 02-25 M 02-27 B",
+          "03-04 M 03-06 B 03-11 M 03-13 B 03-16 PK 03-18 M 03-20 B 03-25 M 03-27 B",
+          "04-01 M 04-03 B 04-08 M 04-10 B 04-15 M 04-17 B 04-20 PK 04-22 M 04-24 B 04-29 M",
+          "05-01 B 05-06 M 05-08 B 05-13 M 05-15 B 05-18 PK 05-20 M 05-22 B 05-27 M 05-29 B",
+          "06-03 M 06-05 B 06-10 M 06-12 B 06-15 PK 06-17 M 06-19 B 06-24 M 06-26 B",
+          "07-01 M 07-03 B 07-08 M 07-10 B 07-15 M 07-17 B 07-20 PK 07-22 M 07-24 B 07-29 M 07-31 B",
+          "08-07 B 08-12 M 08-14 B 08-17 PK 08-19 M 08-21 B 08-26 M 08-28 B",
+          "09-02 M 09-04 B 09-09 M 09-11 B 09-16 M 09-18 B 09-21 PK 09-23 M 09-25 B 09-30 M",
+          "10-02 B 10-07 M 10-09 B 10-14 M 10-16 B 10-19 PK 10-21 M 10-23 B 10-28 M 10-30 B",
+          "11-04 M 11-06 B 11-11 M 11-13 B 11-16 PK 11-20 B 11-25 M 11-27 B",
+          "12-02 M 12-04 B 12-09 M 12-11 B 12-16 M 12-18 B 12-21 PK 12-23 M 12-25 B 12-30 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Grubišno Polje",
+      "podrucje": "Četvrtak, reciklažni 2. ponedjeljak: Grubišno Polje – Hrvatskih branitelja, Bartola Kašića, Petra Preradovića, Mate Lovraka, …",
+      "ulice": ["Hrvatskih branitelja", "Bartola Kašića", "Petra Preradovića", "Mate Lovraka", "Vjekoslava Klemena", "Ljudevita Gaja", "Kolodvarska", "Antuna Matije Reljkovićeva", "04. studenog 1991.", "Ilovska", "77. sam.bat. ZNG", "Trg bana Josipa Jelačića", "Vilka Ničea", "Antuna Gustava Matoša", "Julija Klovića", "Tina Ujevića", "Nikole Šubića Zrinskog", "Matije Gupca", "Huge Badalića", "Stalovica", "Poljani"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-08 M 01-09 B 01-12 PK 01-15 M 01-16 B 01-22 M 01-23 B 01-29 M 01-30 B",
+          "02-05 M 02-06 B 02-09 PK 02-12 M 02-13 B 02-19 M 02-20 B 02-26 M 02-27 B",
+          "03-05 M 03-06 B 03-09 PK 03-12 M 03-13 B 03-19 M 03-20 B 03-26 M 03-27 B",
+          "04-02 M 04-03 B 04-09 M 04-10 B 04-13 PK 04-16 M 04-17 B 04-23 M 04-24 B 04-30 M",
+          "05-01 B 05-07 M 05-08 B 05-11 PK 05-14 M 05-15 B 05-21 M 05-22 B 05-28 M 05-29 B",
+          "06-05 B 06-08 PK 06-11 M 06-12 B 06-18 M 06-19 B 06-25 M 06-26 B",
+          "07-02 M 07-03 B 07-09 M 07-10 B 07-13 PK 07-16 M 07-17 B 07-23 M 07-24 B 07-30 M 07-31 B",
+          "08-06 M 08-07 B 08-10 PK 08-13 M 08-14 B 08-20 M 08-21 B 08-27 M 08-28 B",
+          "09-03 M 09-04 B 09-10 M 09-11 B 09-14 PK 09-17 M 09-18 B 09-24 M 09-25 B",
+          "10-01 M 10-02 B 10-08 M 10-09 B 10-12 PK 10-15 M 10-16 B 10-22 M 10-23 B 10-29 M 10-30 B",
+          "11-05 M 11-06 B 11-09 PK 11-12 M 11-13 B 11-19 M 11-20 B 11-26 M 11-27 B",
+          "12-03 M 12-04 B 12-10 M 12-11 B 12-14 PK 12-17 M 12-18 B 12-24 M 12-25 B 12-31 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Grubišno Polje",
+      "podrucje": "Četvrtak, reciklažni 4. ponedjeljak: Velika Barna – samo Barnjaski vinogradi, Mala Barna, Mala Peratovica, Velika Peratovica, …",
+      "ulice": ["Velika Barna – samo Barnjaski vinogradi", "Mala Barna", "Mala Peratovica", "Velika Peratovica", "Munije", "Turčević Polje", "Djakovac", "Rastovac"],
+      "napomena": "Prema rasporedu odvoz žutih i plavih kanata 4. ponedjeljkom počinje kad se kante podijele po naseljima; obavijest davatelja od 17. 6. 2026. pomiče taj odvoz, pa je upisan – provjerite.",
+      "raw": {
+        "2026": [
+          "01-02 B 01-08 M 01-09 B 01-15 M 01-16 B 01-22 M 01-23 B 01-26 PK 01-29 M 01-30 B",
+          "02-05 M 02-06 B 02-12 M 02-13 B 02-19 M 02-20 B 02-23 PK 02-26 M 02-27 B",
+          "03-05 M 03-06 B 03-12 M 03-13 B 03-19 M 03-20 B 03-23 PK 03-26 M 03-27 B",
+          "04-02 M 04-03 B 04-09 M 04-10 B 04-16 M 04-17 B 04-23 M 04-24 B 04-27 PK 04-30 M",
+          "05-01 B 05-07 M 05-08 B 05-14 M 05-15 B 05-21 M 05-22 B 05-25 PK 05-28 M 05-29 B",
+          "06-05 B 06-11 M 06-12 B 06-18 M 06-19 B 06-25 M 06-26 B 06-29 PK!",
+          "07-02 M 07-03 B 07-09 M 07-10 B 07-16 M 07-17 B 07-23 M 07-24 B 07-27 PK 07-30 M 07-31 B",
+          "08-06 M 08-07 B 08-13 M 08-14 B 08-20 M 08-21 B 08-24 PK 08-27 M 08-28 B",
+          "09-03 M 09-04 B 09-10 M 09-11 B 09-17 M 09-18 B 09-24 M 09-25 B 09-28 PK",
+          "10-01 M 10-02 B 10-08 M 10-09 B 10-15 M 10-16 B 10-22 M 10-23 B 10-26 PK 10-29 M 10-30 B",
+          "11-05 M 11-06 B 11-12 M 11-13 B 11-19 M 11-20 B 11-23 PK 11-26 M 11-27 B",
+          "12-03 M 12-04 B 12-10 M 12-11 B 12-17 M 12-18 B 12-24 M 12-25 B 12-28 PK 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Grubišno Polje",
+      "podrucje": "Petak, reciklažni 4. ponedjeljak: Velika Barna, Velika Jasenovča, Grbavac, Gornja Rašenica, …",
+      "ulice": ["Velika Barna", "Velika Jasenovča", "Grbavac", "Gornja Rašenica", "Donja Rašenica", "Treglava", "Ivanovo Selo", "Dapčevački Brđani", "Velika Dapčevica", "Lončarica"],
+      "napomena": "Prema rasporedu odvoz žutih i plavih kanata 4. ponedjeljkom počinje kad se kante podijele po naseljima; obavijest davatelja od 17. 6. 2026. pomiče taj odvoz, pa je upisan – provjerite.",
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MB 01-16 MB 01-23 MB 01-26 PK 01-30 MB",
+          "02-06 MB 02-13 MB 02-20 MB 02-23 PK 02-27 MB",
+          "03-06 MB 03-13 MB 03-20 MB 03-23 PK 03-27 MB",
+          "04-03 MB 04-10 MB 04-17 MB 04-24 MB 04-27 PK",
+          "05-01 B 05-08 MB 05-15 MB 05-22 MB 05-25 PK 05-29 MB",
+          "06-05 MB 06-12 MB 06-19 MB 06-26 MB 06-29 PK!",
+          "07-03 MB 07-10 MB 07-17 MB 07-24 MB 07-27 PK 07-31 MB",
+          "08-07 MB 08-14 MB 08-21 MB 08-24 PK 08-28 MB",
+          "09-04 MB 09-11 MB 09-18 MB 09-25 MB 09-28 PK",
+          "10-02 MB 10-09 MB 10-16 MB 10-23 MB 10-26 PK 10-30 MB",
+          "11-06 MB 11-13 MB 11-20 MB 11-23 PK 11-27 MB",
+          "12-04 MB 12-11 MB 12-18 MB 12-25 B 12-28 PK"
+        ]
+      }
+    }
+  }
+}

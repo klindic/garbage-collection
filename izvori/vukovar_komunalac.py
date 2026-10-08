@@ -1,4 +1,4 @@
-"""Vukovar: Komunalac d.o.o. Vukovar (komunalac-vu.hr), one HTML page with a table per zone.
+"""Vukovar: Komunalac d.o.o. Vukovar (komunalac-vu.hr), city + Bogdanovci, Negoslavci, Tompojevci.
 
     python3 -m izvori.vukovar_komunalac [--year 2026]
 
@@ -9,6 +9,13 @@ Every street group becomes a zone. The parser reads days that wait for the next 
 refuses leftover text; each list must then be a regular 14- or 28-day series on one weekday (dates near
 a public holiday may be off), with a plausible number of dates. No holiday shifts are published:
 collection runs on holidays.
+
+The municipalities (concessions) have their own pages, linked from the concessions page
+("raspored-odvoza-otpada-<općina>"), each with one table in the same layout: settlements, headings,
+one row. The mixed waste cell is a weekday or (Tompojevci) a date list every second week. These pages carry no year, so the
+dates are read as the requested year and must all fall on working days (a wrong year moves Friday
+lists to Saturday). Obvious typos ("30,10.", "17 i") are fixed with a printed note, and a second line
+in a cell that only repeats months already listed (Bogdanovci biowaste: last year's Fridays) is dropped.
 """
 import argparse
 import html
@@ -25,24 +32,32 @@ from pravila import blagdani, tjedno
 
 SLUG = "vukovar-komunalac"
 SITE = "https://www.komunalac-vu.hr"
+KONCESIJE = SITE + "/nase-usluge/koncesije/"
 PAGE = SITE + "/nase-usluge/poslovni-centar-za-odrzivo-gospodarenje-otpadom/raspored-odvoza-otpada-za-{year}-godinu/"
 HEAD = ["Komunalni otpad", "Glomazni otpad", "Papir i karton", "Plastika i metal", "Biootpad", "Staklena ambalaža"]
 CODES = ["M", "G", "K", "P", "B", "S"]
 DAYS = {"Ponedjeljkom": "pon", "Utorkom": "uto", "Srijedom": "sri", "Četvrtkom": "čet", "Petkom": "pet"}
 # code: (min, max dates a year, days between collections or None)
 EXPECT = {"G": (3, 6, None), "K": (12, 14, 28), "P": (12, 14, 28), "B": (24, 28, 14), "S": (1, 4, None)}
+# municipalities: mixed waste may be a list every 14 days; bulky waste once and glass twice a year
+EXPECT_MUNI = {**EXPECT, "M": (24, 27, 14), "G": (1, 3, None)}
 TOKEN = re.compile(r"(\d{1,2})\.(\d{1,2})(?!\d)\.?|(\d{1,2})\.")
 PROVIDER = {
     "davatelj": "Komunalac d.o.o. Vukovar",
     "web": SITE,
     "zupanija": "Vukovarsko-srijemska",
-    "jls": ["Vukovar"],
+    "jls": ["Vukovar", "Bogdanovci", "Negoslavci", "Tompojevci"],
     "nazivi": {"P": "Plastika i metal", "S": "Staklena ambalaža"},
     "napomene": [
         "Ulice s istim imenom postoje u Vukovaru, Sotinu i Lipovači; pazite na naselje.",
         "Raspored ne navodi pomicanje odvoza zbog blagdana.",
     ],
 }
+MUNI = re.compile(r'href="(?:https?://[^"]*?/)?(nase-usluge/koncesije/raspored-odvoza-otpada-[a-z-]+)/?"')
+MUNI_NOTE = ("Raspored općine objavljen je bez godine; datumi su čitani kao {year}. "
+             "(svi padaju na radne dane).")
+TYPOS = [(re.compile(r"(?<![\d.])(\d{1,2}),(\d{1,2})\."), r"\1.\2."),  # "30,10." -> "30.10."
+         (re.compile(r"(?<![\d.])(\d{1,2})(?=\s+i\b)"), r"\1.")]  # "17 i 31.07." -> "17. i 31.07."
 
 _last = [0.0]
 
@@ -100,9 +115,52 @@ def dates(cell, year):
     return out, [f"{p} in {cell!r}" for p in problems]
 
 
-def series(code, ds, hol):
+def fix(cell, where):
+    """Obvious typos in a date list, each one printed."""
+    for rx, rep in TYPOS:
+        for m in rx.finditer(cell):
+            print(f"   {where}: ispravak {m.group(0)!r} -> {m.expand(rep)!r}")
+        cell = rx.sub(rep, cell)
+    return cell
+
+
+def lines(cell, year, where):
+    """A municipal cell split on line breaks; a later line whose months are all listed above is dropped."""
+    parts = [fix(text(p), where) for p in re.split(r"<br\s*/?>|\n", cell)]
+    parts = [p for p in parts if p]
+    keep, months = [], set()
+    for p in parts:
+        ds, _ = dates(p, year)
+        if keep and ds and {d.month for d in ds} <= months:
+            print(f"   {where}: zanemaren redak {p!r} (ponavlja mjesece {sorted({d.month for d in ds})})")
+            continue
+        keep.append(p)
+        months |= {d.month for d in ds}
+    return " ".join(keep)
+
+
+def muni_tables(page):
+    """[(općina, [[cell html, ...] per row])] for '<h2>Općina X</h2><table>' on a municipal page."""
+    out = []
+    for m in re.finditer(r"<h2>\s*Općina\s+([^<]+?)\s*</h2>\s*<table(.*?)</table>", page, re.S):
+        rows = [re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S)
+                for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", m.group(2), re.S)]
+        out.append((m.group(1), rows))
+    return out
+
+
+def settlements(cell, jls):
+    """'Naselja: Bogdanovci, Petrovci i Svinjarevci' -> list; an empty cell -> [the municipality]."""
+    t = re.sub(r"^Naselja:\s*", "", text(cell))
+    if not t:
+        print(f"   {jls}: popis naselja je prazan, uzima se naselje {jls}")
+        return [jls]
+    return [x.strip(" .") for x in re.split(r",|\si\s", t) if x.strip(" .")]
+
+
+def series(code, ds, hol, expect=EXPECT):
     """Count, one weekday, regular steps; a date within a week of a public holiday may be off."""
-    lo, hi, step = EXPECT[code]
+    lo, hi, step = expect[code]
     problems = [] if lo <= len(ds) <= hi else [f"{len(ds)} dates, expected {lo}-{hi}"]
     near = {d for d in ds if any(abs((d - h).days) <= 7 for h in hol)}
     days = Counter(d.weekday() for d in ds if d not in near)
@@ -180,6 +238,57 @@ def main(argv=None):
             cnt = Counter(c for _, codes, _ in out for c in codes)
             print(f"Zona {n} (Zona {zona}, {day}): " + ", ".join(f"{c} {cnt[c]}" for c in "MBKPSG")
                   + f", ulica {len(ulice)}" + (f"; izvan ritma uz blagdan: {', '.join(warn)}" if warn else ""))
+    # municipalities: pages linked from the concessions page, in the order of the menu
+    links = dict.fromkeys(MUNI.findall(get(KONCESIJE).decode("utf-8", "replace")))
+    if len(links) != len(PROVIDER["jls"]) - 1:
+        problems.append(f"{KONCESIJE}: {len(links)} rasporeda općina, očekivano {len(PROVIDER['jls']) - 1}")
+    for path_ in links:
+        murl = f"{SITE}/{path_}/"
+        try:
+            found_m = muni_tables(get(murl).decode("utf-8", "replace"))
+        except urllib.error.HTTPError as e:
+            problems.append(f"{murl}: HTTP {e.code}")
+            continue
+        if len(found_m) != 1:
+            problems.append(f"{murl}: {len(found_m)} tablica općine, očekivana 1")
+            continue
+        jls, rows = found_m[0]
+        if len(rows) != 3 or [text(c) for c in rows[1]] != HEAD or len(rows[0]) != 1 or len(rows[2]) != 6:
+            problems.append(f"Općina {jls}: unexpected table layout {[len(r) for r in rows]}")
+            continue
+        if jls not in PROVIDER["jls"]:
+            problems.append(f"Općina {jls}: nije u popisu JLS")
+            continue
+        n += 1
+        name = f"Općina {jls}"
+        row = [lines(c, year, name) for c in rows[2]]
+        rows_, warn = {}, []
+        weekly = DAYS.get(row[0])
+        if weekly:
+            rows_ = {d: "M" for d in tjedno(year, weekly)}
+        for code, cell in zip(CODES if not weekly else CODES[1:], row if not weekly else row[1:]):
+            ds, probs = dates(cell, year)
+            probs2, odd = series(code, ds, hol, EXPECT_MUNI)
+            problems += [f"{name} {p}" for p in probs + probs2]
+            problems += [f"{name} {code}: {d:%d.%m.%Y} nije radni dan" for d in ds if d.weekday() > 4]
+            warn += [f"{code} {d:%d.%m.}" for d in odd]
+            for d in ds:
+                rows_[d] = rows_.get(d, "") + code
+        out = sorted((d, c, False) for d, c in rows_.items())
+        ulice = settlements(rows[0][0], jls)
+        mdays = Counter(d.weekday() for d, c, _ in out if "M" in c)
+        day = podaci.DAYS[mdays.most_common(1)[0][0]] if mdays else "?"
+        often = "" if weekly else ", svaki drugi tjedan"
+        zone = {"jls": jls, "podrucje": f"Općina {jls} ({day}{often}): " + ", ".join(ulice),
+                "opis": text(rows[0][0]) or f"Općina {jls}", "ulice": ulice,
+                "napomena": MUNI_NOTE.format(year=year)}
+        old = data["zone"].get(str(n), {})
+        keep = old.get("raw", {}) if old.get("opis") == zone["opis"] else {}
+        zone["raw"] = {**keep, str(year): podaci.month_lines(out)}
+        zones[str(n)] = zone
+        cnt = Counter(c for _, codes, _ in out for c in codes)
+        print(f"Zona {n} ({name}, {day}): " + ", ".join(f"{c} {cnt[c]}" for c in "MBKPSG")
+              + f", naselja {len(ulice)}" + (f"; izvan ritma uz blagdan: {', '.join(warn)}" if warn else ""))
     if problems:
         for p in problems:
             print(f"PROBLEM {p}")

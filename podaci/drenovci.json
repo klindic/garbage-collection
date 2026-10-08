@@ -1,0 +1,96 @@
+{
+  "davatelj": "Drenovci d.o.o. za komunalne djelatnosti",
+  "web": "https://drenovci-komunalno.hr",
+  "zupanija": "Vukovarsko-srijemska",
+  "jls": ["Drenovci"],
+  "nazivi": {"P": "Plastika (žuti/smeđi spremnik)", "K": "Papir i karton (plavi spremnik)", "L": "Metal", "T": "Tekstil"},
+  "izvor": "https://drenovci-komunalno.hr/wp-content/uploads/2026/01/LETAK-2026.-DRENOVCI.pdf",
+  "napomene": ["Miješani komunalni otpad (zeleni čipirani spremnik): letak navodi dan u tjednu po naselju, ali ne i učestalost; upisan je odvoz svaki tjedan na taj dan. Pomaci zbog blagdana nisu objavljeni.", "Od 1. srpnja 2026. odvoz počinje u 06:00; spremnike iznesite večer prije ili do 06:00 na dan odvoza.", "Glomazni otpad odvozi se jednom godišnje po pozivu (do 3 m³) ili se predaje u reciklažnom dvorištu (Toljani 132, Drenovci, pon–pet 7–15).", "Mobilno reciklažno dvorište obilazi Posavske Podgajce, Rajevo Selo, Đuriće i Račinovce: 30.03.2026., 27.07.2026., 30.11.2026.", "Informacije: Drenovci d.o.o., Franje Hanamana 1, tel. 032/861-644."],
+  "zone": {
+    "1": {
+      "jls": "Drenovci",
+      "podrucje": "Srijeda: Posavski Podgajci, Rajevo Selo",
+      "ulice": ["Posavski Podgajci", "Rajevo Selo"],
+      "napomena": "Osim ulica s drugim danom odvoza miješanog otpada: Rajevo Selo – Padež, Gunjanska, Nova ulica.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-13 K 01-14 M 01-20 P 01-21 M 01-28 M",
+          "02-03 K 02-04 M 02-10 P 02-11 M 02-18 M 02-25 M",
+          "03-03 K 03-04 M 03-10 P 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-08 M 04-14 K 04-15 M 04-21 P 04-22 M 04-29 M",
+          "05-05 K 05-06 M 05-12 P 05-13 M 05-18 S 05-20 M 05-27 M",
+          "06-03 M 06-09 K 06-10 M 06-16 P 06-17 M 06-24 M",
+          "07-01 M 07-07 K 07-08 M 07-14 P 07-15 M 07-20 L 07-22 M 07-29 M",
+          "08-05 M 08-11 K 08-12 M 08-18 P 08-19 M 08-26 M",
+          "09-02 M 09-08 K 09-09 M 09-15 P 09-16 M 09-21 T 09-23 M 09-30 M",
+          "10-06 K 10-07 M 10-13 P 10-14 M 10-21 M 10-28 M",
+          "11-03 K 11-04 M 11-10 P 11-11 M 11-18 M 11-25 M",
+          "12-02 M 12-08 K 12-09 M 12-15 P 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Drenovci",
+      "podrucje": "Četvrtak: Račinovci, Đurići",
+      "ulice": ["Račinovci", "Đurići"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-12 K 01-15 M 01-19 P 01-22 M 01-29 M",
+          "02-02 K 02-05 M 02-09 P 02-12 M 02-19 M 02-26 M",
+          "03-02 K 03-05 M 03-09 P 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-13 K 04-16 M 04-20 P 04-23 M 04-30 M",
+          "05-04 K 05-07 M 05-11 P 05-14 M 05-18 S 05-21 M 05-28 M",
+          "06-04 M 06-08 K 06-11 M 06-15 P 06-18 M 06-25 M",
+          "07-02 M 07-06 K 07-09 M 07-13 P 07-16 M 07-20 L 07-23 M 07-30 M",
+          "08-06 M 08-10 K 08-13 M 08-17 P 08-20 M 08-27 M",
+          "09-03 M 09-07 K 09-10 M 09-14 P 09-17 M 09-21 T 09-24 M",
+          "10-01 M 10-05 K 10-08 M 10-12 P 10-15 M 10-22 M 10-29 M",
+          "11-02 K 11-05 M 11-09 P 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-07 K 12-10 M 12-14 P 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Drenovci",
+      "podrucje": "Četvrtak: Rajevo Selo: Padež, Gunjanska, Nova ulica",
+      "ulice": ["Padež (Rajevo Selo)", "Gunjanska (Rajevo Selo)", "Nova ulica (Rajevo Selo)"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-13 K 01-15 M 01-20 P 01-22 M 01-29 M",
+          "02-03 K 02-05 M 02-10 P 02-12 M 02-19 M 02-26 M",
+          "03-03 K 03-05 M 03-10 P 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-14 K 04-16 M 04-21 P 04-23 M 04-30 M",
+          "05-05 K 05-07 M 05-12 P 05-14 M 05-18 S 05-21 M 05-28 M",
+          "06-04 M 06-09 K 06-11 M 06-16 P 06-18 M 06-25 M",
+          "07-02 M 07-07 K 07-09 M 07-14 P 07-16 M 07-20 L 07-23 M 07-30 M",
+          "08-06 M 08-11 K 08-13 M 08-18 P 08-20 M 08-27 M",
+          "09-03 M 09-08 K 09-10 M 09-15 P 09-17 M 09-21 T 09-24 M",
+          "10-01 M 10-06 K 10-08 M 10-13 P 10-15 M 10-22 M 10-29 M",
+          "11-03 K 11-05 M 11-10 P 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-08 K 12-10 M 12-15 P 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Drenovci",
+      "podrucje": "Petak: Drenovci",
+      "ulice": ["Drenovci"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-12 K 01-16 M 01-19 P 01-23 M 01-30 M",
+          "02-02 K 02-06 M 02-09 P 02-13 M 02-20 M 02-27 M",
+          "03-02 K 03-06 M 03-09 P 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-10 M 04-13 K 04-17 M 04-20 P 04-24 M",
+          "05-01 M 05-04 K 05-08 M 05-11 P 05-15 M 05-18 S 05-22 M 05-29 M",
+          "06-05 M 06-08 K 06-12 M 06-15 P 06-19 M 06-26 M",
+          "07-03 M 07-06 K 07-10 M 07-13 P 07-17 M 07-20 L 07-24 M 07-31 M",
+          "08-07 M 08-10 K 08-14 M 08-17 P 08-21 M 08-28 M",
+          "09-04 M 09-07 K 09-11 M 09-14 P 09-18 M 09-21 T 09-25 M",
+          "10-02 M 10-05 K 10-09 M 10-12 P 10-16 M 10-23 M 10-30 M",
+          "11-02 K 11-06 M 11-09 P 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-07 K 12-11 M 12-14 P 12-18 M 12-25 M"
+        ]
+      }
+    }
+  }
+}

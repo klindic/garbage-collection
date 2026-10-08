@@ -2,7 +2,7 @@
   "davatelj": "Komunalac d.o.o. Vukovar",
   "web": "https://www.komunalac-vu.hr",
   "zupanija": "Vukovarsko-srijemska",
-  "jls": ["Vukovar"],
+  "jls": ["Vukovar", "Bogdanovci", "Negoslavci", "Tompojevci"],
   "nazivi": {"P": "Plastika i metal", "S": "Staklena ambalaža"},
   "napomene": ["Ulice s istim imenom postoje u Vukovaru, Sotinu i Lipovači; pazite na naselje.", "Raspored ne navodi pomicanje odvoza zbog blagdana."],
   "izvor": "https://www.komunalac-vu.hr/nase-usluge/poslovni-centar-za-odrzivo-gospodarenje-otpadom/raspored-odvoza-otpada-za-2026-godinu/",
@@ -290,6 +290,75 @@
           "10-02 MS 10-09 MB 10-13 K 10-16 M 10-21 P 10-23 MB 10-30 M",
           "11-06 MB 11-10 K 11-13 M 11-14 P 11-20 MB 11-27 M",
           "12-04 MB 12-08 K 12-11 M 12-16 P 12-18 MB 12-25 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Bogdanovci",
+      "podrucje": "Općina Bogdanovci (ponedjeljak): Bogdanovci, Petrovci, Svinjarevci",
+      "opis": "Naselja: Bogdanovci, Petrovci i Svinjarevci",
+      "ulice": ["Bogdanovci", "Petrovci", "Svinjarevci"],
+      "napomena": "Raspored općine objavljen je bez godine; datumi su čitani kao 2026. (svi padaju na radne dane).",
+      "raw": {
+        "2026": [
+          "01-02 BP 01-05 M 01-12 M 01-16 B 01-19 M 01-23 K 01-26 M 01-30 BP",
+          "02-02 M 02-09 M 02-13 B 02-16 M 02-20 K 02-23 M 02-27 BP",
+          "03-02 M 03-09 M 03-13 B 03-16 M 03-20 K 03-23 M 03-27 BP 03-30 M",
+          "04-06 M 04-10 B 04-13 M 04-17 K 04-20 M 04-24 BP 04-27 M",
+          "05-04 M 05-08 BS 05-11 M 05-15 K 05-18 M 05-22 BP 05-25 M",
+          "06-01 M 06-05 B 06-08 M 06-12 K 06-15 M 06-19 BP 06-22 M 06-29 M",
+          "07-03 B 07-06 M 07-10 K 07-13 M 07-17 BP 07-20 M 07-27 M 07-31 B",
+          "08-03 M 08-07 K 08-10 M 08-14 BP 08-17 M 08-24 M 08-28 B 08-31 M",
+          "09-04 K 09-07 M 09-09 G 09-11 BP 09-14 M 09-21 M 09-25 B 09-28 M",
+          "10-02 KS 10-05 M 10-09 BP 10-12 M 10-19 M 10-23 B 10-26 M 10-30 K",
+          "11-02 M 11-06 BP 11-09 M 11-16 M 11-20 B 11-23 M 11-27 K 11-30 M",
+          "12-04 BP 12-07 M 12-14 M 12-18 B 12-21 M 12-25 K 12-28 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Tompojevci",
+      "podrucje": "Općina Tompojevci (petak, svaki drugi tjedan): Berak, Čakovci, Bokšić, Tompojevci, Mikluševci",
+      "opis": "Naselja: Berak, Čakovci, Bokšić, Tompojevci, Mikluševci",
+      "ulice": ["Berak", "Čakovci", "Bokšić", "Tompojevci", "Mikluševci"],
+      "napomena": "Raspored općine objavljen je bez godine; datumi su čitani kao 2026. (svi padaju na radne dane).",
+      "raw": {
+        "2026": [
+          "01-01 P 01-02 B 01-09 M 01-16 B 01-22 K 01-23 M 01-29 P 01-30 B",
+          "02-06 M 02-13 B 02-19 K 02-20 M 02-26 P 02-27 B",
+          "03-06 M 03-13 B 03-19 K 03-20 M 03-26 P 03-27 B",
+          "04-03 M 04-10 B 04-16 K 04-17 M 04-23 P 04-24 B",
+          "05-01 M 05-08 BS 05-14 K 05-15 M 05-21 P 05-22 B 05-29 M",
+          "06-05 B 06-11 K 06-12 M 06-18 P 06-19 B 06-26 M",
+          "07-03 B 07-09 K 07-10 M 07-16 P 07-17 B 07-24 M 07-31 B",
+          "08-06 K 08-07 M 08-13 P 08-14 B 08-21 M 08-28 B",
+          "09-03 K 09-04 M 09-08 G 09-10 P 09-11 B 09-18 M 09-25 B",
+          "10-01 K 10-02 MS 10-08 P 10-09 B 10-16 M 10-23 B 10-29 K 10-30 M",
+          "11-05 P 11-06 B 11-13 M 11-20 B 11-26 K 11-27 M",
+          "12-03 P 12-04 B 12-11 M 12-18 B 12-24 K 12-25 M 12-31 P"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Negoslavci",
+      "podrucje": "Općina Negoslavci (srijeda): Negoslavci",
+      "opis": "Općina Negoslavci",
+      "ulice": ["Negoslavci"],
+      "napomena": "Raspored općine objavljen je bez godine; datumi su čitani kao 2026. (svi padaju na radne dane).",
+      "raw": {
+        "2026": [
+          "01-01 P 01-02 B 01-07 M 01-14 M 01-16 B 01-21 M 01-22 K 01-28 M 01-29 P 01-30 B",
+          "02-04 M 02-11 M 02-13 B 02-18 M 02-19 K 02-25 M 02-26 P 02-27 B",
+          "03-04 M 03-11 M 03-13 B 03-18 M 03-19 K 03-25 M 03-26 P 03-27 B",
+          "04-01 M 04-08 M 04-10 B 04-15 M 04-16 K 04-22 M 04-23 P 04-24 B 04-29 M",
+          "05-06 M 05-08 BS 05-13 M 05-14 K 05-20 M 05-21 P 05-22 B 05-27 M",
+          "06-03 M 06-05 B 06-10 M 06-11 K 06-17 M 06-18 P 06-19 B 06-24 M",
+          "07-01 M 07-03 B 07-08 M 07-09 K 07-15 M 07-16 P 07-17 B 07-22 M 07-29 M 07-31 B",
+          "08-05 M 08-06 K 08-12 M 08-13 P 08-14 B 08-19 M 08-26 M 08-28 B",
+          "09-02 M 09-03 K 09-07 G 09-09 M 09-10 P 09-11 B 09-16 M 09-23 M 09-25 B 09-30 M",
+          "10-01 K 10-02 S 10-07 M 10-08 P 10-09 B 10-14 M 10-21 M 10-23 B 10-28 M 10-29 K",
+          "11-04 M 11-05 P 11-06 B 11-11 M 11-18 M 11-20 B 11-25 M 11-26 K",
+          "12-02 M 12-03 P 12-04 B 12-09 M 12-16 M 12-18 B 12-23 M 12-24 K 12-30 M 12-31 P"
         ]
       }
     }

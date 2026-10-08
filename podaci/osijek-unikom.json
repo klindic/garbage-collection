@@ -1,0 +1,1567 @@
+{
+  "davatelj": "Unikom d.o.o.",
+  "web": "https://unikom.hr",
+  "izvor": "https://unikom.hr/raspored-odvoza",
+  "zupanija": "Osječko-baranjska",
+  "nazivi": {"P": "Plastika"},
+  "napomene": ["Raspored vrijedi za obiteljske kuće; stambene zgrade imaju vlastiti raspored na unikom.hr/raspored-odvoza.", "Odvoz 1.1.2026. (četvrtak) obavlja se u subotu 3.1., a odvoz 25.12.2026. (petak) u subotu 26.12.; ostali blagdani su radni dani za odvoz.", "Glomazni otpad: reciklažno dvorište Jug II, Osijek, ili jednom godišnje besplatno po pozivu (0800 200 025).", "Za naselja Brođanci, Cret Bizovački, Novaki Bizovački, Samatovci, Selci tražilica na unikom.hr nema rasporeda po kućnim brojevima; raspored je u tiskanom kalendaru općine na unikom.hr."],
+  "jls": ["Osijek", "Antunovac", "Bilje", "Bizovac", "Ernestinovo", "Petrijevci", "Vladislavci", "Vuka", "Čepin"],
+  "zone": {
+    "1": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: ponedjeljak; plastika i papir: 2. ponedjeljak u mjesecu",
+      "ulice": ["Alanska ulica (Osijek)", "Antuna Kanižlića (Osijek)", "Bilogorska (Osijek)", "Biokovska (Osijek)", "Bjelolasička Ul. (Osijek)", "Dalmatinska (Osijek)", "Diljska (Osijek)", "Fruškogorska (Osijek)", "J.j.strossmayera (Osijek) neparni 141-347", "Jahorinska (Osijek)", "Jankovačka ulica (Osijek)", "Kalnička (Osijek)", "Kaptolska ulica (Osijek)", "Kolodvorska (Osijek)", "Kordunska (Osijek)", "Kozjačka ulica (Osijek)", "Krndije (Osijek)", "Ljudevita Posavskog (Osijek)", "Maceljska (Osijek)", "Marjanska ulica (Osijek)", "Mlinska (Osijek) neparni od 59, parni od 50", "Moslavačka (Osijek)", "Mosorska (Osijek)", "Naselje Viševica (Osijek)", "Paklenička ulica (Osijek)", "Papuk Gore (Osijek)", "Platačka ulica (Osijek)", "Plješevička (Osijek)", "Poljski put (Osijek)", "Prominska ulica (Osijek)", "Psunjska (Osijek)", "Retfala nova (Osijek)", "Risnjačka ulica (Osijek)", "Sljemenska ulica (Osijek)", "Snježnička ulica (Osijek)", "Svilajska ulica (Osijek)", "Ul.i.b.mažuranić (Osijek)", "Ul.ivanščice (Osijek)", "Ul.zrinske Gore (Osijek)", "Učka (Osijek)", "Vidove Gore (Osijek)", "Vij.dinare (Osijek)", "Vij.petrove Gore (Osijek)", "Vijenac Medvednice (Osijek)", "Vlašićka (Osijek)", "Vratnička ulica (Osijek)", "Zvečevska (Osijek)", "Ćićarijska (Osijek)", "Čvrsnička ulica (Osijek)", "Šokačka (Osijek)", "Žumberačka ulica (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MBPK 01-19 MB 01-26 MB",
+          "02-02 MB 02-09 MBPK 02-16 MB 02-23 MB",
+          "03-02 MB 03-09 MBPK 03-16 MB 03-23 MB 03-30 MB",
+          "04-06 MB 04-13 MBPK 04-20 MB 04-27 MB",
+          "05-04 MB 05-11 MBPK 05-18 MB 05-25 MB",
+          "06-01 MB 06-08 MBPK 06-15 MB 06-22 MB 06-29 MB",
+          "07-06 MB 07-13 MBPK 07-20 MB 07-27 MB",
+          "08-03 MB 08-10 MBPK 08-17 MB 08-24 MB 08-31 MB",
+          "09-07 MB 09-14 MBPK 09-21 MB 09-28 MB",
+          "10-05 MB 10-12 MBPK 10-19 MB 10-26 MB",
+          "11-02 MB 11-09 MBPK 11-16 MB 11-23 MB 11-30 MB",
+          "12-07 MB 12-14 MBPK 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Osijek",
+      "podrucje": "Osijek, Podravlje – miješani i biootpad: ponedjeljak; plastika i papir: 1. ponedjeljak u mjesecu",
+      "ulice": ["Biljska cesta (Osijek)", "Dravska obala (Podravlje)", "Gornjodravska obala (Osijek)", "Grmić (Podravlje)", "J.j.strossmayera (Osijek) parni do 248", "Kopačevska Ul. (Osijek)", "Križevačka ulica (Osijek)", "Mlinska (Osijek) neparni do 57, parni do 48", "Nova (Podravlje)", "Palićka (Osijek)", "Pampas (Osijek)", "Peručka ulica (Osijek)", "Podravska (Osijek)", "Pr.e.savojskog (Podravlje)", "Slaz (Osijek)", "Solarski trg (Osijek)", "Splavarska (Osijek)", "Strma (Osijek)", "Tvrđavica (Osijek)", "Ul.bele Bartoka (Osijek)", "Ul.kneza Borne (Osijek)", "Ulica F.a.blažića (Osijek)", "Virska ulica (Osijek)", "Vranska ulica (Osijek)", "Šandora Petefija (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-05 MBPK 01-12 MB 01-19 MB 01-26 MB",
+          "02-02 MBPK 02-09 MB 02-16 MB 02-23 MB",
+          "03-02 MBPK 03-09 MB 03-16 MB 03-23 MB 03-30 MB",
+          "04-06 MBPK 04-13 MB 04-20 MB 04-27 MB",
+          "05-04 MBPK 05-11 MB 05-18 MB 05-25 MB",
+          "06-01 MBPK 06-08 MB 06-15 MB 06-22 MB 06-29 MB",
+          "07-06 MBPK 07-13 MB 07-20 MB 07-27 MB",
+          "08-03 MBPK 08-10 MB 08-17 MB 08-24 MB 08-31 MB",
+          "09-07 MBPK 09-14 MB 09-21 MB 09-28 MB",
+          "10-05 MBPK 10-12 MB 10-19 MB 10-26 MB",
+          "11-02 MBPK 11-09 MB 11-16 MB 11-23 MB 11-30 MB",
+          "12-07 MBPK 12-14 MB 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Osijek",
+      "podrucje": "Sarvaš, Osijek – miješani i biootpad: ponedjeljak; plastika i papir: 4. ponedjeljak u mjesecu",
+      "ulice": ["Borovska (Sarvaš)", "Dravska (Sarvaš)", "Dravska ulica (Sarvaš)", "Hrvatskih Junaka (Sarvaš)", "Iločka Ul. (Sarvaš)", "Ivana Mažuranića (Sarvaš)", "J.matka (Sarvaš)", "Kolodvorska (Sarvaš)", "Ljudevita Gaja (Sarvaš)", "Lovre Matačića (Sarvaš)", "M.križan (Sarvaš)", "Mihovila P.miškine (Sarvaš)", "N.tesle (Sarvaš)", "Nemetin (Osijek)", "Omiška (Sarvaš)", "Osječka (Sarvaš)", "Osječka nova (Sarvaš)", "Osječka ulica (Sarvaš)", "Pavleka Miškine (Sarvaš)", "Riječka (Sarvaš)", "Stadionska Ul. (Sarvaš)", "T.ujevića (Sarvaš)", "Trogirska Ul. (Sarvaš)", "Vjekoslava Celestina (Sarvaš)", "XII Proleterskerig. (Sarvaš)"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-19 MB 01-26 MBPK",
+          "02-02 MB 02-09 MB 02-16 MB 02-23 MBPK",
+          "03-02 MB 03-09 MB 03-16 MB 03-23 MBPK 03-30 MB",
+          "04-06 MB 04-13 MB 04-20 MB 04-27 MBPK",
+          "05-04 MB 05-11 MB 05-18 MB 05-25 MBPK",
+          "06-01 MB 06-08 MB 06-15 MB 06-22 MBPK 06-29 MB",
+          "07-06 MB 07-13 MB 07-20 MB 07-27 MBPK",
+          "08-03 MB 08-10 MB 08-17 MB 08-24 MBPK 08-31 MB",
+          "09-07 MB 09-14 MB 09-21 MB 09-28 MBPK",
+          "10-05 MB 10-12 MB 10-19 MB 10-26 MBPK",
+          "11-02 MB 11-09 MB 11-16 MB 11-23 MBPK 11-30 MB",
+          "12-07 MB 12-14 MB 12-21 MB 12-28 MBPK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: ponedjeljak; plastika i papir: 3. ponedjeljak u mjesecu",
+      "ulice": ["Adama Reisnera (Osijek) neparni od 151", "Andrije Hebranga (Osijek)", "Ante Paradžika (Osijek)", "Antuna Gustava Matoša (Osijek)", "Ilirska (Osijek)", "Ivana Gundulića (Osijek) neparni od 65, parni od 134", "Izidora Kršnjavog (Osijek)", "J.j.strossmayera (Osijek) neparni do 137", "Krajna (Osijek)", "Lička (Osijek)", "Naselje Vladimira Nazora (Osijek)", "Pavla Pejačevića (Osijek) neparni 37-43, parni 38-48", "Ružina (Osijek) neparni 57-151, parni 52-148", "Svetog Roka (Osijek)", "Tina Ujevića (Osijek)", "Ul.h.c.hotzendorfa (Osijek)", "Vij.augusta Cesarca (Osijek)", "Vij.gorana Zobundžije (Osijek)", "Vij.josipa Kozarca (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-19 MBPK 01-26 MB",
+          "02-02 MB 02-09 MB 02-16 MBPK 02-23 MB",
+          "03-02 MB 03-09 MB 03-16 MBPK 03-23 MB 03-30 MB",
+          "04-06 MB 04-13 MB 04-20 MBPK 04-27 MB",
+          "05-04 MB 05-11 MB 05-18 MBPK 05-25 MB",
+          "06-01 MB 06-08 MB 06-15 MBPK 06-22 MB 06-29 MB",
+          "07-06 MB 07-13 MB 07-20 MBPK 07-27 MB",
+          "08-03 MB 08-10 MB 08-17 MBPK 08-24 MB 08-31 MB",
+          "09-07 MB 09-14 MB 09-21 MBPK 09-28 MB",
+          "10-05 MB 10-12 MB 10-19 MBPK 10-26 MB",
+          "11-02 MB 11-09 MB 11-16 MBPK 11-23 MB 11-30 MB",
+          "12-07 MB 12-14 MB 12-21 MBPK 12-28 MB"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: ponedjeljak; plastika i papir: 2. ponedjeljak u mjesecu",
+      "ulice": ["Kapelska ulica (Osijek) neparni do 81, parni do 108", "Vilajska ulica (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 MPK 01-19 M 01-26 M",
+          "02-02 M 02-09 MPK 02-16 M 02-23 M",
+          "03-02 M 03-09 MPK 03-16 M 03-23 M 03-30 M",
+          "04-06 M 04-13 MPK 04-20 M 04-27 M",
+          "05-04 M 05-11 MPK 05-18 M 05-25 M",
+          "06-01 M 06-08 MPK 06-15 M 06-22 M 06-29 M",
+          "07-06 M 07-13 MPK 07-20 M 07-27 M",
+          "08-03 M 08-10 MPK 08-17 M 08-24 M 08-31 M",
+          "09-07 M 09-14 MPK 09-21 M 09-28 M",
+          "10-05 M 10-12 MPK 10-19 M 10-26 M",
+          "11-02 M 11-09 MPK 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-14 MPK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani, biootpad i papir: ponedjeljak; plastika: 2. ponedjeljak u mjesecu",
+      "ulice": ["Prenjska ulica (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-05 MBK 01-12 MBPK 01-19 MBK 01-26 MBK",
+          "02-02 MBK 02-09 MBPK 02-16 MBK 02-23 MBK",
+          "03-02 MBK 03-09 MBPK 03-16 MBK 03-23 MBK 03-30 MBK",
+          "04-06 MBK 04-13 MBPK 04-20 MBK 04-27 MBK",
+          "05-04 MBK 05-11 MBPK 05-18 MBK 05-25 MBK",
+          "06-01 MBK 06-08 MBPK 06-15 MBK 06-22 MBK 06-29 MBK",
+          "07-06 MBK 07-13 MBPK 07-20 MBK 07-27 MBK",
+          "08-03 MBK 08-10 MBPK 08-17 MBK 08-24 MBK 08-31 MBK",
+          "09-07 MBK 09-14 MBPK 09-21 MBK 09-28 MBK",
+          "10-05 MBK 10-12 MBPK 10-19 MBK 10-26 MBK",
+          "11-02 MBK 11-09 MBPK 11-16 MBK 11-23 MBK 11-30 MBK",
+          "12-07 MBK 12-14 MBPK 12-21 MBK 12-28 MBK"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: ponedjeljak; biootpad: ponedjeljak i utorak; plastika i papir: 3. ponedjeljak u mjesecu",
+      "ulice": ["Pavla Pejačevića (Osijek) neparni 27-35"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-06 B 01-12 MB 01-13 B 01-19 MBPK 01-20 B 01-26 MB 01-27 B",
+          "02-02 MB 02-03 B 02-09 MB 02-10 B 02-16 MBPK 02-17 B 02-23 MB 02-24 B",
+          "03-02 MB 03-03 B 03-09 MB 03-10 B 03-16 MBPK 03-17 B 03-23 MB 03-24 B 03-30 MB 03-31 B",
+          "04-06 MB 04-07 B 04-13 MB 04-14 B 04-20 MBPK 04-21 B 04-27 MB 04-28 B",
+          "05-04 MB 05-05 B 05-11 MB 05-12 B 05-18 MBPK 05-19 B 05-25 MB 05-26 B",
+          "06-01 MB 06-02 B 06-08 MB 06-09 B 06-15 MBPK 06-16 B 06-22 MB 06-23 B 06-29 MB 06-30 B",
+          "07-06 MB 07-07 B 07-13 MB 07-14 B 07-20 MBPK 07-21 B 07-27 MB 07-28 B",
+          "08-03 MB 08-04 B 08-10 MB 08-11 B 08-17 MBPK 08-18 B 08-24 MB 08-25 B 08-31 M",
+          "09-01 B 09-07 MB 09-08 B 09-14 MB 09-15 B 09-21 MBPK 09-22 B 09-28 MB 09-29 B",
+          "10-05 MB 10-06 B 10-12 MB 10-13 B 10-19 MBPK 10-20 B 10-26 MB 10-27 B",
+          "11-02 MB 11-03 B 11-09 MB 11-10 B 11-16 MBPK 11-17 B 11-23 MB 11-24 B 11-30 M",
+          "12-01 B 12-07 MB 12-08 B 12-14 MB 12-15 B 12-21 MBPK 12-22 B 12-28 MB 12-29 B"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: ponedjeljak",
+      "ulice": ["J.j.strossmayera (Osijek) neparni 139, neparni od 349, parni od 350"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-19 MB 01-26 MB",
+          "02-02 MB 02-09 MB 02-16 MB 02-23 MB",
+          "03-02 MB 03-09 MB 03-16 MB 03-23 MB 03-30 MB",
+          "04-06 MB 04-13 MB 04-20 MB 04-27 MB",
+          "05-04 MB 05-11 MB 05-18 MB 05-25 MB",
+          "06-01 MB 06-08 MB 06-15 MB 06-22 MB 06-29 MB",
+          "07-06 MB 07-13 MB 07-20 MB 07-27 MB",
+          "08-03 MB 08-10 MB 08-17 MB 08-24 MB 08-31 MB",
+          "09-07 MB 09-14 MB 09-21 MB 09-28 MB",
+          "10-05 MB 10-12 MB 10-19 MB 10-26 MB",
+          "11-02 MB 11-09 MB 11-16 MB 11-23 MB 11-30 MB",
+          "12-07 MB 12-14 MB 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: ponedjeljak; plastika: 1. ponedjeljak u mjesecu",
+      "ulice": ["J.j.strossmayera (Osijek) parni 250-348"],
+      "raw": {
+        "2026": [
+          "01-05 MBP 01-12 MB 01-19 MB 01-26 MB",
+          "02-02 MBP 02-09 MB 02-16 MB 02-23 MB",
+          "03-02 MBP 03-09 MB 03-16 MB 03-23 MB 03-30 MB",
+          "04-06 MBP 04-13 MB 04-20 MB 04-27 MB",
+          "05-04 MBP 05-11 MB 05-18 MB 05-25 MB",
+          "06-01 MBP 06-08 MB 06-15 MB 06-22 MB 06-29 MB",
+          "07-06 MBP 07-13 MB 07-20 MB 07-27 MB",
+          "08-03 MBP 08-10 MB 08-17 MB 08-24 MB 08-31 MB",
+          "09-07 MBP 09-14 MB 09-21 MB 09-28 MB",
+          "10-05 MBP 10-12 MB 10-19 MB 10-26 MB",
+          "11-02 MBP 11-09 MB 11-16 MB 11-23 MB 11-30 MB",
+          "12-07 MBP 12-14 MB 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Osijek",
+      "podrucje": "Tenja – miješani i biootpad: utorak; plastika i papir: 4. utorak u mjesecu",
+      "ulice": ["Ante Kovačića (Tenja)", "Antuna Barca (Tenja)", "Antuna Mandića (Tenja)", "Antunaarca (Tenja)", "Antunovačka (Tenja)", "Augusta Šenoe (Tenja)", "B.radića (Tenja)", "B.radičevića (Tenja)", "Beogradska (Tenja)", "Branka Radičevića (Tenja)", "Cetinska (Tenja)", "Dore Pejačević (Tenja)", "Dravska (Tenja)", "Drinska (Tenja)", "Dunavska (Tenja)", "Fra Grge Martića (Tenja)", "H.lucića (Tenja)", "I.g.kovačića (Tenja)", "I.mažuranića (Tenja)", "J.glembay (Tenja)", "J.kaštelana (Tenja)", "J.kozarca (Tenja)", "J.truhelke (Tenja)", "Jana Pannoniusa (Tenja)", "Josipa Kosora (Tenja)", "Josipa Kozarca (Tenja)", "Julija Klovića (Tenja)", "Jure Kaštelana (Tenja)", "Karlovačka (Tenja)", "Koranska (Tenja)", "Ljudevita Gaja (Tenja)", "Luke Botića (Tenja)", "M Pupina (Tenja)", "M.krleže (Tenja)", "M.oreškovića (Tenja)", "M.ružička Stroci (Tenja)", "M.tita (Tenja)", "Matije Vlačića (Tenja)", "Mirna (Tenja)", "Miroslava Krleže (Tenja)", "N.šopa (Tenja)", "Nikole Tesle (Tenja)", "Orljavska (Tenja)", "Osječka (Tenja)", "P.berislavića (Tenja)", "Petra Preradovića (Tenja)", "Petra Zoranića (Tenja)", "Petra Zrinskog (Tenja)", "R.boškovića (Tenja)", "R.končara (Tenja)", "Sareertić (Tenja)", "Savska (Tenja)", "Svete Ane (Tenja)", "T.brezovačkog (Tenja)", "Tome Matića (Tenja)", "Ul.a.g.matoša (Tenja)", "Unska (Tenja)", "V.bukovca (Tenja)", "V.nazora (Tenja)", "Vjekoslava Hengla (Tenja)", "Vjekoslava Majera (Tenja)", "Vlaheukovca (Tenja)", "Vlatka Mačeka (Tenja)", "Zagrebačka (Tenja)", "Zmaj Jovina (Tenja)"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 MB 01-20 MB 01-27 MBPK",
+          "02-03 MB 02-10 MB 02-17 MB 02-24 MBPK",
+          "03-03 MB 03-10 MB 03-17 MB 03-24 MBPK 03-31 MB",
+          "04-07 MB 04-14 MB 04-21 MB 04-28 MBPK",
+          "05-05 MB 05-12 MB 05-19 MB 05-26 MBPK",
+          "06-02 MB 06-09 MB 06-16 MB 06-23 MBPK 06-30 MB",
+          "07-07 MB 07-14 MB 07-21 MB 07-28 MBPK",
+          "08-04 MB 08-11 MB 08-18 MB 08-25 MBPK",
+          "09-01 MB 09-08 MB 09-15 MB 09-22 MBPK 09-29 MB",
+          "10-06 MB 10-13 MB 10-20 MB 10-27 MBPK",
+          "11-03 MB 11-10 MB 11-17 MB 11-24 MBPK",
+          "12-01 MB 12-08 MB 12-15 MB 12-22 MBPK 12-29 MB"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Osijek",
+      "podrucje": "Josipovac – miješani i biootpad: utorak; plastika i papir: 3. utorak u mjesecu",
+      "ulice": ["Ante Starčevića (Josipovac)", "B.radića (Josipovac)", "Bizovačka (Josipovac)", "Dalmatinska (Josipovac)", "Dravska (Josipovac)", "Eugena Kumičića (Josipovac)", "F.jungerta (Josipovac)", "Grgura Ninskog (Josipovac)", "Ivana Mažuranića (Josipovac)", "J.kozarca (Josipovac)", "K.s.držislava (Josipovac)", "Kneza Branimira (Josipovac)", "Kneza Domagoja (Josipovac)", "Kolodvorska (Josipovac)", "Kralj P.svačića (Josipovac)", "Kralja Krešimira (Josipovac)", "Kralja S.držislava (Josipovac)", "Ljudevita Posavskog (Josipovac)", "M.gupca (Josipovac)", "Marka Marulića (Josipovac)", "N.dalmacija (Josipovac)", "Naselje M. Gupca (Josipovac)", "Naselje M. Gupca II (Josipovac)", "Osječka (Josipovac)", "Osječka ulica (Josipovac)", "Poštanska (Josipovac)", "Ribarska (Josipovac)", "Slavonska (Josipovac)", "Stjepana Brodarića (Josipovac)", "Sunčana (Josipovac)", "V.nazora (Josipovac)", "Vladimira Nazora (Josipovac)", "Zagorska (Josipovac)", "Školska (Josipovac)"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 MB 01-20 MBPK 01-27 MB",
+          "02-03 MB 02-10 MB 02-17 MBPK 02-24 MB",
+          "03-03 MB 03-10 MB 03-17 MBPK 03-24 MB 03-31 MB",
+          "04-07 MB 04-14 MB 04-21 MBPK 04-28 MB",
+          "05-05 MB 05-12 MB 05-19 MBPK 05-26 MB",
+          "06-02 MB 06-09 MB 06-16 MBPK 06-23 MB 06-30 MB",
+          "07-07 MB 07-14 MB 07-21 MBPK 07-28 MB",
+          "08-04 MB 08-11 MB 08-18 MBPK 08-25 MB",
+          "09-01 MB 09-08 MB 09-15 MBPK 09-22 MB 09-29 MB",
+          "10-06 MB 10-13 MB 10-20 MBPK 10-27 MB",
+          "11-03 MB 11-10 MB 11-17 MBPK 11-24 MB",
+          "12-01 MB 12-08 MB 12-15 MBPK 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; plastika i papir: 1. utorak u mjesecu",
+      "ulice": ["Adama Reisnera (Osijek) neparni 43-113, parni 26-70", "Bartula Kašića (Osijek) neparni, parni od 60", "Dragutina Neumana (Osijek)", "Europske Avenije (Osijek)", "Grgura Čevapovića (Osijek)", "Hrvatske Republike (Osijek)", "Kapucinska (Osijek)", "Lj.gaja (Osijek)", "Lorenza Jagera (Osijek)", "Ribarska (Osijek)", "Sunčana (Osijek)", "Trg Ante Starčevića (Osijek)", "Trg L. Ružičke (Osijek)", "Trg Lava Mirskog (Osijek)", "Trg Slobode (Osijek)", "Ul.ivana Adamovića (Osijek)", "Ul.kard.a.stepinca (Osijek)", "Ulica Fra Andrije Kačića Miošića (Osijek)", "Ulica Josipa Andrića (Osijek)", "Vij.jakova Gotovca (Osijek)", "Vij.paje Kolarića (Osijek)", "Vrt Jagode Truhelke (Osijek)", "Vukovarska cesta (Osijek) parni do 10", "Zrinjevac (Osijek)", "Đakovština (Osijek)", "Šamačka (Osijek)", "Šetalište Kardinala F.šepera (Osijek)", "Šetalište Petra Preradovića (Osijek)", "Školska (Osijek)", "Županijska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 MBPK 01-13 MB 01-20 MB 01-27 MB",
+          "02-03 MBPK 02-10 MB 02-17 MB 02-24 MB",
+          "03-03 MBPK 03-10 MB 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MBPK 04-14 MB 04-21 MB 04-28 MB",
+          "05-05 MBPK 05-12 MB 05-19 MB 05-26 MB",
+          "06-02 MBPK 06-09 MB 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MBPK 07-14 MB 07-21 MB 07-28 MB",
+          "08-04 MBPK 08-11 MB 08-18 MB 08-25 MB",
+          "09-01 MBPK 09-08 MB 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MBPK 10-13 MB 10-20 MB 10-27 MB",
+          "11-03 MBPK 11-10 MB 11-17 MB 11-24 MB",
+          "12-01 MBPK 12-08 MB 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; plastika i papir: 2. utorak u mjesecu",
+      "ulice": ["Bistrička (Osijek) neparni do 31, parni do 28", "Biđska ulica (Osijek)", "Bosutska (Osijek)", "Bosutsko Nas. (Osijek)", "Dravska (Osijek)", "Jadranska (Osijek)", "Koranska (Osijek)", "Kupska (Osijek)", "Mirna (Osijek)", "Mrežnička (Osijek)", "Plivska (Osijek)", "Ramska (Osijek)", "Sutlanska (Osijek)", "Ukrinska ulica (Osijek)", "Ul.rijeke Dubrovačke (Osijek)", "Veličanska (Osijek)", "Vinkovačka cesta (Osijek) parni", "Vukanska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 MBPK 01-20 MB 01-27 MB",
+          "02-03 MB 02-10 MBPK 02-17 MB 02-24 MB",
+          "03-03 MB 03-10 MBPK 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MB 04-14 MBPK 04-21 MB 04-28 MB",
+          "05-05 MB 05-12 MBPK 05-19 MB 05-26 MB",
+          "06-02 MB 06-09 MBPK 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MB 07-14 MBPK 07-21 MB 07-28 MB",
+          "08-04 MB 08-11 MBPK 08-18 MB 08-25 MB",
+          "09-01 MB 09-08 MBPK 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MB 10-13 MBPK 10-20 MB 10-27 MB",
+          "11-03 MB 11-10 MBPK 11-17 MB 11-24 MB",
+          "12-01 MB 12-08 MBPK 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; plastika i papir: 4. četvrtak u mjesecu",
+      "ulice": ["Cetinska (Osijek)", "Drinska (Osijek)", "Dunavska (Osijek)", "Krbavska ulica (Osijek)", "Murska (Osijek)", "Neretvanska (Osijek)", "Orljavska (Osijek)", "Savska (Osijek)", "Ul.sv.josipa Radnika (Osijek)", "Unska (Osijek)", "Vij.kraljeve Sutjeske (Osijek)", "Vinkovačka cesta (Osijek) neparni", "Vrbaska (Osijek)", "Zrmanjska (Osijek)", "Čikolska ulica (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 MB 01-20 MB 01-22 PK 01-27 MB",
+          "02-03 MB 02-10 MB 02-17 MB 02-24 MB 02-26 PK",
+          "03-03 MB 03-10 MB 03-17 MB 03-24 MB 03-26 PK 03-31 MB",
+          "04-07 MB 04-14 MB 04-21 MB 04-23 PK 04-28 MB",
+          "05-05 MB 05-12 MB 05-19 MB 05-26 MB 05-28 PK",
+          "06-02 MB 06-09 MB 06-16 MB 06-23 MB 06-25 PK 06-30 MB",
+          "07-07 MB 07-14 MB 07-21 MB 07-23 PK 07-28 MB",
+          "08-04 MB 08-11 MB 08-18 MB 08-25 MB 08-27 PK",
+          "09-01 MB 09-08 MB 09-15 MB 09-22 MB 09-24 PK 09-29 MB",
+          "10-06 MB 10-13 MB 10-20 MB 10-22 PK 10-27 MB",
+          "11-03 MB 11-10 MB 11-17 MB 11-24 MB 11-26 PK",
+          "12-01 MB 12-08 MB 12-15 MB 12-22 MB 12-24 PK 12-29 MB"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; plastika i papir: 3. ponedjeljak u mjesecu",
+      "ulice": ["Adama Reisnera (Osijek) neparni 115-149, parni od 72", "Dubrovačka (Osijek)", "Ivana Gundulića (Osijek) neparni 37-63, parni 68-132", "Ljube Babića (Osijek)", "Naselje Stanka Vraza (Osijek)", "Pavla Pejačevića (Osijek) neparni do 25", "Prolaz Josipa Leovića (Osijek)", "Ružina (Osijek) neparni do 55, parni do 50", "Svete Ane (Osijek)", "Ul.a.waldingera (Osijek)", "Zadarska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 MB 01-19 PK 01-20 MB 01-27 MB",
+          "02-03 MB 02-10 MB 02-16 PK 02-17 MB 02-24 MB",
+          "03-03 MB 03-10 MB 03-16 PK 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MB 04-14 MB 04-20 PK 04-21 MB 04-28 MB",
+          "05-05 MB 05-12 MB 05-18 PK 05-19 MB 05-26 MB",
+          "06-02 MB 06-09 MB 06-15 PK 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MB 07-14 MB 07-20 PK 07-21 MB 07-28 MB",
+          "08-04 MB 08-11 MB 08-17 PK 08-18 MB 08-25 MB",
+          "09-01 MB 09-08 MB 09-15 MB 09-21 PK 09-22 MB 09-29 MB",
+          "10-06 MB 10-13 MB 10-19 PK 10-20 MB 10-27 MB",
+          "11-03 MB 11-10 MB 11-16 PK 11-17 MB 11-24 MB",
+          "12-01 MB 12-08 MB 12-15 MB 12-21 PK 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak i petak; plastika i papir: 1. utorak u mjesecu",
+      "ulice": ["Lučki prilaz (Osijek)", "Stjepana Radića (Osijek)", "Vjekoslava Hengla (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-06 MBPK 01-09 M 01-13 MB 01-16 MB 01-20 MB 01-23 MB 01-27 MB 01-30 MB",
+          "02-03 MBPK 02-06 MB 02-10 MB 02-13 MB 02-17 MB 02-20 MB 02-24 MB 02-27 MB",
+          "03-03 MBPK 03-06 MB 03-10 MB 03-13 MB 03-17 MB 03-20 MB 03-24 MB 03-27 MB 03-31 MB",
+          "04-03 MB 04-07 MBPK 04-10 M 04-14 MB 04-17 MB 04-21 MB 04-24 MB 04-28 MB",
+          "05-01 MB 05-05 MBPK 05-08 M 05-12 MB 05-15 MB 05-19 MB 05-22 MB 05-26 MB 05-29 MB",
+          "06-02 MBPK 06-05 MB 06-09 MB 06-12 MB 06-16 MB 06-19 MB 06-23 MB 06-26 MB 06-30 MB",
+          "07-03 MB 07-07 MBPK 07-10 M 07-14 MB 07-17 MB 07-21 MB 07-24 MB 07-28 MB 07-31 MB",
+          "08-04 MBPK 08-07 MB 08-11 MB 08-14 MB 08-18 MB 08-21 MB 08-25 MB 08-28 MB",
+          "09-01 MBPK 09-04 MB 09-08 MB 09-11 MB 09-15 MB 09-18 MB 09-22 MB 09-25 MB 09-29 MB",
+          "10-02 MB 10-06 MBPK 10-09 M 10-13 MB 10-16 MB 10-20 MB 10-23 MB 10-27 MB 10-30 MB",
+          "11-03 MBPK 11-06 MB 11-10 MB 11-13 MB 11-17 MB 11-20 MB 11-24 MB 11-27 MB",
+          "12-01 MBPK 12-04 MB 12-08 MB 12-11 MB 12-15 MB 12-18 MB 12-22 MB 12-26 MB! 12-29 MB"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak",
+      "ulice": ["Prolaz M.hrvatske (Osijek)", "Svetog L.b.mandića (Osijek) neparni do 13, parni do 12"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 MB 01-20 MB 01-27 MB",
+          "02-03 MB 02-10 MB 02-17 MB 02-24 MB",
+          "03-03 MB 03-10 MB 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MB 04-14 MB 04-21 MB 04-28 MB",
+          "05-05 MB 05-12 MB 05-19 MB 05-26 MB",
+          "06-02 MB 06-09 MB 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MB 07-14 MB 07-21 MB 07-28 MB",
+          "08-04 MB 08-11 MB 08-18 MB 08-25 MB",
+          "09-01 MB 09-08 MB 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MB 10-13 MB 10-20 MB 10-27 MB",
+          "11-03 MB 11-10 MB 11-17 MB 11-24 MB",
+          "12-01 MB 12-08 MB 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; papir: 1. utorak u mjesecu",
+      "ulice": ["Ivana Gundulića (Osijek) parni do 66"],
+      "raw": {
+        "2026": [
+          "01-06 MBK 01-13 MB 01-20 MB 01-27 MB",
+          "02-03 MBK 02-10 MB 02-17 MB 02-24 MB",
+          "03-03 MBK 03-10 MB 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MBK 04-14 MB 04-21 MB 04-28 MB",
+          "05-05 MBK 05-12 MB 05-19 MB 05-26 MB",
+          "06-02 MBK 06-09 MB 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MBK 07-14 MB 07-21 MB 07-28 MB",
+          "08-04 MBK 08-11 MB 08-18 MB 08-25 MB",
+          "09-01 MBK 09-08 MB 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MBK 10-13 MB 10-20 MB 10-27 MB",
+          "11-03 MBK 11-10 MB 11-17 MB 11-24 MB",
+          "12-01 MBK 12-08 MB 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani, biootpad, plastika i papir: utorak",
+      "ulice": ["Trg Ivana Pavla II (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 MBPK 01-13 MBPK 01-20 MBPK 01-27 MBPK",
+          "02-03 MBPK 02-10 MBPK 02-17 MBPK 02-24 MBPK",
+          "03-03 MBPK 03-10 MBPK 03-17 MBPK 03-24 MBPK 03-31 MBPK",
+          "04-07 MBPK 04-14 MBPK 04-21 MBPK 04-28 MBPK",
+          "05-05 MBPK 05-12 MBPK 05-19 MBPK 05-26 MBPK",
+          "06-02 MBPK 06-09 MBPK 06-16 MBPK 06-23 MBPK 06-30 MBPK",
+          "07-07 MBPK 07-14 MBPK 07-21 MBPK 07-28 MBPK",
+          "08-04 MBPK 08-11 MBPK 08-18 MBPK 08-25 MBPK",
+          "09-01 MBPK 09-08 MBPK 09-15 MBPK 09-22 MBPK 09-29 MBPK",
+          "10-06 MBPK 10-13 MBPK 10-20 MBPK 10-27 MBPK",
+          "11-03 MBPK 11-10 MBPK 11-17 MBPK 11-24 MBPK",
+          "12-01 MBPK 12-08 MBPK 12-15 MBPK 12-22 MBPK 12-29 MBPK"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: utorak i srijeda; biootpad: utorak; plastika i papir: 1. utorak u mjesecu",
+      "ulice": ["Bartula Kašića (Osijek) parni do 58"],
+      "raw": {
+        "2026": [
+          "01-06 MBPK 01-07 M 01-13 MB 01-14 M 01-20 MB 01-21 M 01-27 MB 01-28 M",
+          "02-03 MBPK 02-04 M 02-10 MB 02-11 M 02-17 MB 02-18 M 02-24 MB 02-25 M",
+          "03-03 MBPK 03-04 M 03-10 MB 03-11 M 03-17 MB 03-18 M 03-24 MB 03-25 M 03-31 MB",
+          "04-01 M 04-07 MBPK 04-08 M 04-14 MB 04-15 M 04-21 MB 04-22 M 04-28 MB 04-29 M",
+          "05-05 MBPK 05-06 M 05-12 MB 05-13 M 05-19 MB 05-20 M 05-26 MB 05-27 M",
+          "06-02 MBPK 06-03 M 06-09 MB 06-10 M 06-16 MB 06-17 M 06-23 MB 06-24 M 06-30 MB",
+          "07-01 M 07-07 MBPK 07-08 M 07-14 MB 07-15 M 07-21 MB 07-22 M 07-28 MB 07-29 M",
+          "08-04 MBPK 08-05 M 08-11 MB 08-12 M 08-18 MB 08-19 M 08-25 MB 08-26 M",
+          "09-01 MBPK 09-02 M 09-08 MB 09-09 M 09-15 MB 09-16 M 09-22 MB 09-23 M 09-29 MB 09-30 M",
+          "10-06 MBPK 10-07 M 10-13 MB 10-14 M 10-20 MB 10-21 M 10-27 MB 10-28 M",
+          "11-03 MBPK 11-04 M 11-10 MB 11-11 M 11-17 MB 11-18 M 11-24 MB 11-25 M",
+          "12-01 MBPK 12-02 M 12-08 MB 12-09 M 12-15 MB 12-16 M 12-22 MB 12-23 M 12-29 MB 12-30 M"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; plastika: 2. utorak u mjesecu; papir: 2. petak u mjesecu",
+      "ulice": ["Dragonjska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-09 K 01-13 MBP 01-20 MB 01-27 MB",
+          "02-03 MB 02-10 MBP 02-13 K 02-17 MB 02-24 MB",
+          "03-03 MB 03-10 MBP 03-13 K 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MB 04-10 K 04-14 MBP 04-21 MB 04-28 MB",
+          "05-05 MB 05-08 K 05-12 MBP 05-19 MB 05-26 MB",
+          "06-02 MB 06-09 MBP 06-12 K 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MB 07-10 K 07-14 MBP 07-21 MB 07-28 MB",
+          "08-04 MB 08-11 MBP 08-14 K 08-18 MB 08-25 MB",
+          "09-01 MB 09-08 MBP 09-11 K 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MB 10-09 K 10-13 MBP 10-20 MB 10-27 MB",
+          "11-03 MB 11-10 MBP 11-13 K 11-17 MB 11-24 MB",
+          "12-01 MB 12-08 MBP 12-11 K 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; plastika i papir: 1. srijeda u mjesecu",
+      "ulice": ["Vij.ivana Mažuranića (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-07 PK 01-13 MB 01-20 MB 01-27 MB",
+          "02-03 MB 02-04 PK 02-10 MB 02-17 MB 02-24 MB",
+          "03-03 MB 03-04 PK 03-10 MB 03-17 MB 03-24 MB 03-31 MB",
+          "04-01 PK 04-07 MB 04-14 MB 04-21 MB 04-28 MB",
+          "05-05 MB 05-06 PK 05-12 MB 05-19 MB 05-26 MB",
+          "06-02 MB 06-03 PK 06-09 MB 06-16 MB 06-23 MB 06-30 MB",
+          "07-01 PK 07-07 MB 07-14 MB 07-21 MB 07-28 MB",
+          "08-04 MB 08-05 PK 08-11 MB 08-18 MB 08-25 MB",
+          "09-01 MB 09-02 PK 09-08 MB 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MB 10-07 PK 10-13 MB 10-20 MB 10-27 MB",
+          "11-03 MB 11-04 PK 11-10 MB 11-17 MB 11-24 MB",
+          "12-01 MB 12-02 PK 12-08 MB 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: utorak; plastika: 1. utorak u mjesecu",
+      "ulice": ["Ivana Gundulića (Osijek) neparni do 35"],
+      "raw": {
+        "2026": [
+          "01-06 MBP 01-13 MB 01-20 MB 01-27 MB",
+          "02-03 MBP 02-10 MB 02-17 MB 02-24 MB",
+          "03-03 MBP 03-10 MB 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MBP 04-14 MB 04-21 MB 04-28 MB",
+          "05-05 MBP 05-12 MB 05-19 MB 05-26 MB",
+          "06-02 MBP 06-09 MB 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MBP 07-14 MB 07-21 MB 07-28 MB",
+          "08-04 MBP 08-11 MB 08-18 MB 08-25 MB",
+          "09-01 MBP 09-08 MB 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MBP 10-13 MB 10-20 MB 10-27 MB",
+          "11-03 MBP 11-10 MB 11-17 MB 11-24 MB",
+          "12-01 MBP 12-08 MB 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: utorak; plastika i papir: 3. ponedjeljak u mjesecu",
+      "ulice": ["Pavla Pejačevića (Osijek) parni do 36"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-19 PK 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-16 PK 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-16 PK 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-20 PK 04-21 M 04-28 M",
+          "05-05 M 05-12 M 05-18 PK 05-19 M 05-26 M",
+          "06-02 M 06-09 M 06-15 PK 06-16 M 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-20 PK 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-17 PK 08-18 M 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-21 PK 09-22 M 09-29 M",
+          "10-06 M 10-13 M 10-19 PK 10-20 M 10-27 M",
+          "11-03 M 11-10 M 11-16 PK 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-21 PK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: utorak; biootpad: srijeda; plastika i papir: 4. četvrtak u mjesecu",
+      "ulice": ["Krapinsko naselje (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 B 01-13 M 01-14 B 01-20 M 01-21 B 01-22 PK 01-27 M 01-28 B",
+          "02-03 M 02-04 B 02-10 M 02-11 B 02-17 M 02-18 B 02-24 M 02-25 B 02-26 PK",
+          "03-03 M 03-04 B 03-10 M 03-11 B 03-17 M 03-18 B 03-24 M 03-25 B 03-26 PK 03-31 M",
+          "04-01 B 04-07 M 04-08 B 04-14 M 04-15 B 04-21 M 04-22 B 04-23 PK 04-28 M 04-29 B",
+          "05-05 M 05-06 B 05-12 M 05-13 B 05-19 M 05-20 B 05-26 M 05-27 B 05-28 PK",
+          "06-02 M 06-03 B 06-09 M 06-10 B 06-16 M 06-17 B 06-23 M 06-24 B 06-25 PK 06-30 M",
+          "07-01 B 07-07 M 07-08 B 07-14 M 07-15 B 07-21 M 07-22 B 07-23 PK 07-28 M 07-29 B",
+          "08-04 M 08-05 B 08-11 M 08-12 B 08-18 M 08-19 B 08-25 M 08-26 B 08-27 PK",
+          "09-01 M 09-02 B 09-08 M 09-09 B 09-15 M 09-16 B 09-22 M 09-23 B 09-24 PK 09-29 M 09-30 B",
+          "10-06 M 10-07 B 10-13 M 10-14 B 10-20 M 10-21 B 10-22 PK 10-27 M 10-28 B",
+          "11-03 M 11-04 B 11-10 M 11-11 B 11-17 M 11-18 B 11-24 M 11-25 B 11-26 PK",
+          "12-01 M 12-02 B 12-08 M 12-09 B 12-15 M 12-16 B 12-22 M 12-23 B 12-24 PK 12-29 M 12-30 B"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Osijek",
+      "podrucje": "Višnjevac, Osijek – miješani i biootpad: srijeda; plastika i papir: 2. srijeda u mjesecu",
+      "ulice": ["A.cesarca (Višnjevac)", "A.g.matoša (Višnjevac)", "A.starčevića (Višnjevac)", "A.šenoe (Višnjevac)", "Ante Starčevića (Višnjevac)", "B.guštin (Višnjevac)", "Bana J. Jelačića (Višnjevac)", "Bana J.jelačića (Višnjevac)", "Bana Josipa Jelačića (Višnjevac)", "Bosanska (Višnjevac)", "Crni put (Višnjevac)", "Dravska (Višnjevac)", "Dubrovačka ulica (Višnjevac)", "Eugena Kvaternika (Višnjevac)", "Hercegovačka (Višnjevac)", "I.batrneka (Višnjevac)", "I.filipovića (Višnjevac)", "I.g.kovačića (Višnjevac)", "I.l.ribara (Višnjevac)", "J.b.jelačića (Višnjevac)", "J.j.strossmayera (Višnjevac)", "J.kozarca (Višnjevac)", "J.runjanina (Višnjevac)", "Josipa Kozarca (Višnjevac)", "K.tomislava (Višnjevac)", "Kralja Tomislava (Višnjevac)", "Kralja Zvonimira (Višnjevac)", "Lugarski put (Višnjevac)", "Lugarski put II. (Višnjevac)", "M. Pavlinovića (Višnjevac)", "M.a.reljkovića (Višnjevac)", "M.oreškovića (Višnjevac)", "M.pavlanovića (Višnjevac)", "Marina Držića (Višnjevac)", "N.š.zrinskog (Višnjevac)", "P. Zoranića (Višnjevac)", "P.svačića (Višnjevac)", "Petra Zrinjskog (Višnjevac)", "Pošt. naselje (Višnjevac)", "Poštansko naselje (Višnjevac)", "Proleterska (Višnjevac)", "S.markovića (Višnjevac)", "Stjepana Radića (Višnjevac)", "Tina Ujevića (Višnjevac)", "Ul.ante Starčevića (Višnjevac)", "Ul.d.šimunovića (Višnjevac)", "Ul.i.brlić Mažuranić (Višnjevac)", "Ul.ivana Mažuranića (Višnjevac)", "Ul.j.j.strossmayera (Višnjevac)", "Ul.josipa Runjanina (Višnjevac)", "Ul.kneza Braslava (Višnjevac)", "Ul.kneza Domagoja (Višnjevac)", "Ul.kneza Mislava (Višnjevac)", "Ul.kneza Trpimira (Višnjevac)", "Ul.kneza Višeslava (Višnjevac)", "Ul.kneza Zdeslava (Višnjevac)", "Ul.ljudevita Gaja (Višnjevac)", "Ul.m.p.katančića (Višnjevac)", "Ul.n.š.zrinskog (Višnjevac)", "Ul.p.preradovića (Višnjevac)", "Ul.petra Svačića (Višnjevac)", "Ul.stanka Vraza (Višnjevac)", "Ul.stjepana Radića (Višnjevac)", "Ul.v.lisinskog (Višnjevac)", "V.nazora (Višnjevac)", "Vij.ivana Meštrovića (Osijek)", "Zagrebačka ulica (Višnjevac)", "Školska (Višnjevac)"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 MBPK 01-21 MB 01-28 MB",
+          "02-04 MB 02-11 MBPK 02-18 MB 02-25 MB",
+          "03-04 MB 03-11 MBPK 03-18 MB 03-25 MB",
+          "04-01 MB 04-08 MBPK 04-15 MB 04-22 MB 04-29 MB",
+          "05-06 MB 05-13 MBPK 05-20 MB 05-27 MB",
+          "06-03 MB 06-10 MBPK 06-17 MB 06-24 MB",
+          "07-01 MB 07-08 MBPK 07-15 MB 07-22 MB 07-29 MB",
+          "08-05 MB 08-12 MBPK 08-19 MB 08-26 MB",
+          "09-02 MB 09-09 MBPK 09-16 MB 09-23 MB 09-30 MB",
+          "10-07 MB 10-14 MBPK 10-21 MB 10-28 MB",
+          "11-04 MB 11-11 MBPK 11-18 MB 11-25 MB",
+          "12-02 MB 12-09 MBPK 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda; plastika i papir: 3. srijeda u mjesecu",
+      "ulice": ["Aljmaška ulica (Osijek)", "Antunovačka (Osijek)", "Banjalučka (Osijek)", "Belišćanska (Osijek)", "Belomanastirska (Osijek)", "Bihaćka (Osijek)", "Bjelovarska (Osijek)", "Bogdanovačka (Osijek)", "Brodska (Osijek)", "Daljska (Osijek)", "Daruvarska (Osijek)", "Delnička ulica (Osijek)", "Drniška (Osijek)", "Erdutska ulica (Osijek)", "Gospićka (Osijek)", "Kninska (Osijek)", "Koprivnička (Osijek)", "Kutinska (Osijek)", "Laslovačka ulica (Osijek)", "Lipička (Osijek)", "Martina Divalta (Osijek) parni do 104", "Novogradiška (Osijek)", "Nuštarska ulica (Osijek)", "Orahovička (Osijek)", "Pakračka (Osijek)", "Pleternička (Osijek)", "Požeška (Osijek)", "Prijedorska (Osijek)", "Sarvaška ulica (Osijek)", "Sisačka (Osijek)", "Skopska (Osijek)", "Slatinska (Osijek)", "Stadionsko naselje (Osijek) neparni do 33, parni do 72", "Subotička (Osijek)", "Valpovačka (Osijek)", "Vatrogasna (Osijek)", "Virovitička (Osijek)", "Voćinska (Osijek)", "Woodrowa Wilsona (Osijek)", "Čelijska (Osijek)", "Đakovačka (Osijek)", "Šarengradska (Osijek)", "Širokobriješka (Osijek)", "Štitarska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 MB 01-21 MBPK 01-28 MB",
+          "02-04 MB 02-11 MB 02-18 MBPK 02-25 MB",
+          "03-04 MB 03-11 MB 03-18 MBPK 03-25 MB",
+          "04-01 MB 04-08 MB 04-15 MBPK 04-22 MB 04-29 MB",
+          "05-06 MB 05-13 MB 05-20 MBPK 05-27 MB",
+          "06-03 MB 06-10 MB 06-17 MBPK 06-24 MB",
+          "07-01 MB 07-08 MB 07-15 MBPK 07-22 MB 07-29 MB",
+          "08-05 MB 08-12 MB 08-19 MBPK 08-26 MB",
+          "09-02 MB 09-09 MB 09-16 MBPK 09-23 MB 09-30 MB",
+          "10-07 MB 10-14 MB 10-21 MBPK 10-28 MB",
+          "11-04 MB 11-11 MB 11-18 MBPK 11-25 MB",
+          "12-02 MB 12-09 MB 12-16 MBPK 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Osijek",
+      "podrucje": "Osijek, Briješće – miješani i biootpad: srijeda; plastika i papir: 4. srijeda u mjesecu",
+      "ulice": ["Bednjanska ulica (Osijek)", "Bistrička (Osijek) neparni od 33, parni od 32", "Duga ulica (Briješće)", "Grobljanska (Briješće)", "Ilovska (Osijek)", "Jablanička (Osijek)", "Jorgovana (Briješće)", "Karašička (Osijek)", "Kratka ulica (Briješće)", "Lonjska (Osijek)", "Omorika (Osijek)", "Tiha ulica (Briješće)", "Ul.sv.marka (Osijek)", "Ulica Bagremova (Osijek)", "Ulica Breza (Osijek)", "Ulica Brijestova (Osijek)", "Ulica Dudova (Osijek)", "Ulica Grabova (Osijek)", "Ulica Jasena (Osijek)", "Ulica Javora (Osijek)", "Ulica Jela (Osijek)", "Ulica Joha (Osijek)", "Ulica Kestenova (Osijek)", "Ulica Klenova (Osijek)", "Ulica Koščela (Osijek)", "Ulica Smreka (Osijek)", "Ulica Tisa (Osijek)", "Ulica Tuja (Osijek)", "Ulica Vrba (Osijek)", "Vijenac Lipa (Osijek)", "Vrtna ulica (Briješće)", "Zelena ulica (Briješće)"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 MB 01-21 MB 01-28 MBPK",
+          "02-04 MB 02-11 MB 02-18 MB 02-25 MBPK",
+          "03-04 MB 03-11 MB 03-18 MB 03-25 MBPK",
+          "04-01 MB 04-08 MB 04-15 MB 04-22 MBPK 04-29 MB",
+          "05-06 MB 05-13 MB 05-20 MB 05-27 MBPK",
+          "06-03 MB 06-10 MB 06-17 MB 06-24 MBPK",
+          "07-01 MB 07-08 MB 07-15 MB 07-22 MBPK 07-29 MB",
+          "08-05 MB 08-12 MB 08-19 MB 08-26 MBPK",
+          "09-02 MB 09-09 MB 09-16 MB 09-23 MBPK 09-30 MB",
+          "10-07 MB 10-14 MB 10-21 MB 10-28 MBPK",
+          "11-04 MB 11-11 MB 11-18 MB 11-25 MBPK",
+          "12-02 MB 12-09 MB 12-16 MB 12-23 MBPK 12-30 MB"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda; plastika i papir: 1. srijeda u mjesecu",
+      "ulice": ["A.mihanovića (Osijek)", "Adama Reisnera (Osijek) neparni do 41, parni do 24", "Dobriše Cesarića (Osijek)", "F.markovića (Osijek)", "Fakultetska (Osijek)", "Franje Krežme (Osijek)", "Franje Kuhača (Osijek)", "Franjevačka (Osijek)", "Istarska (Osijek)", "Josipa Bosendorfera (Osijek)", "Kamila Firingera (Osijek)", "Kneza Trpimira (Osijek)", "Kralja Zvonimira (Osijek)", "M.a.reljkovića (Osijek)", "M.p.katančića (Osijek)", "Otokara Keršovanija (Osijek)", "Park kneza Branimira (Osijek)", "Park kralja Petra Krešimira IV (Osijek)", "T. Smičiklasa (Osijek)", "Trg J. Križanića (Osijek)", "Trg V.lisinskog (Osijek)", "Trg svetog Trojstva (Osijek)", "Ul.danice Pinterović (Osijek)", "V. Klaića (Osijek)", "Vukovarska cesta (Osijek) neparni do 29, parni 12-60", "Zagrebačka (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-07 MBPK 01-14 MB 01-21 MB 01-28 MB",
+          "02-04 MBPK 02-11 MB 02-18 MB 02-25 MB",
+          "03-04 MBPK 03-11 MB 03-18 MB 03-25 MB",
+          "04-01 MBPK 04-08 MB 04-15 MB 04-22 MB 04-29 MB",
+          "05-06 MBPK 05-13 MB 05-20 MB 05-27 MB",
+          "06-03 MBPK 06-10 MB 06-17 MB 06-24 MB",
+          "07-01 MBPK 07-08 MB 07-15 MB 07-22 MB 07-29 MB",
+          "08-05 MBPK 08-12 MB 08-19 MB 08-26 MB",
+          "09-02 MBPK 09-09 MB 09-16 MB 09-23 MB 09-30 MB",
+          "10-07 PK 10-14 MB 10-21 MB 10-28 MB",
+          "11-04 MBPK 11-11 MB 11-18 MB 11-25 MB",
+          "12-02 MBPK 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda",
+      "ulice": ["Svetog L.b.mandića (Osijek) neparni od 15, parni od 14", "Vukovarska cesta (Osijek) parni 62-152"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 MB 01-21 MB 01-28 MB",
+          "02-04 MB 02-11 MB 02-18 MB 02-25 MB",
+          "03-04 MB 03-11 MB 03-18 MB 03-25 MB",
+          "04-01 MB 04-08 MB 04-15 MB 04-22 MB 04-29 MB",
+          "05-06 MB 05-13 MB 05-20 MB 05-27 MB",
+          "06-03 MB 06-10 MB 06-17 MB 06-24 MB",
+          "07-01 MB 07-08 MB 07-15 MB 07-22 MB 07-29 MB",
+          "08-05 MB 08-12 MB 08-19 MB 08-26 MB",
+          "09-02 MB 09-09 MB 09-16 MB 09-23 MB 09-30 MB",
+          "10-07 MB 10-14 MB 10-21 MB 10-28 MB",
+          "11-04 MB 11-11 MB 11-18 MB 11-25 MB",
+          "12-02 MB 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda; plastika: 1. srijeda u mjesecu; papir: utorak i srijeda, svaki drugi tjedan",
+      "ulice": ["Trg A.šenoe (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 K 01-07 MBPK 01-14 MB 01-21 MB 01-28 MB",
+          "02-03 K 02-04 MBPK 02-11 MB 02-18 MB 02-25 MB",
+          "03-03 K 03-04 MBPK 03-11 MB 03-18 MB 03-25 MB",
+          "04-01 MBPK 04-07 K 04-08 MB 04-15 MB 04-22 MB 04-29 MB",
+          "05-05 K 05-06 MBPK 05-13 MB 05-20 MB 05-27 MB",
+          "06-02 K 06-03 MBPK 06-10 MB 06-17 MB 06-24 MB",
+          "07-01 MBPK 07-07 K 07-08 MB 07-15 MB 07-22 MB 07-29 MB",
+          "08-04 K 08-05 MBPK 08-12 MB 08-19 MB 08-26 MB",
+          "09-01 K 09-02 MBPK 09-09 MB 09-16 MB 09-23 MB 09-30 MB",
+          "10-06 K 10-07 PK 10-14 MB 10-21 MB 10-28 MB",
+          "11-03 K 11-04 MBPK 11-11 MB 11-18 MB 11-25 MB",
+          "12-01 K 12-02 MBPK 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "32": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda; plastika i papir: 1. utorak u mjesecu",
+      "ulice": ["Trg F.b.trenka (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-06 PK 01-07 MB 01-14 MB 01-21 MB 01-28 MB",
+          "02-03 PK 02-04 MB 02-11 MB 02-18 MB 02-25 MB",
+          "03-03 PK 03-04 MB 03-11 MB 03-18 MB 03-25 MB",
+          "04-01 MB 04-07 PK 04-08 MB 04-15 MB 04-22 MB 04-29 MB",
+          "05-05 PK 05-06 MB 05-13 MB 05-20 MB 05-27 MB",
+          "06-02 PK 06-03 MB 06-10 MB 06-17 MB 06-24 MB",
+          "07-01 MB 07-07 PK 07-08 MB 07-15 MB 07-22 MB 07-29 MB",
+          "08-04 PK 08-05 MB 08-12 MB 08-19 MB 08-26 MB",
+          "09-01 PK 09-02 MB 09-09 MB 09-16 MB 09-23 MB 09-30 MB",
+          "10-06 PK 10-07 MB 10-14 MB 10-21 MB 10-28 MB",
+          "11-03 PK 11-04 MB 11-11 MB 11-18 MB 11-25 MB",
+          "12-01 PK 12-02 MB 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "33": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda; plastika i papir: 2. četvrtak u mjesecu",
+      "ulice": ["Kralja Petra Svačića (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-08 PK 01-14 MB 01-21 MB 01-28 MB",
+          "02-04 MB 02-11 MB 02-12 PK 02-18 MB 02-25 MB",
+          "03-04 MB 03-11 MB 03-12 PK 03-18 MB 03-25 MB",
+          "04-01 MB 04-08 MB 04-09 PK 04-15 MB 04-22 MB 04-29 MB",
+          "05-06 MB 05-13 MB 05-14 PK 05-20 MB 05-27 MB",
+          "06-03 MB 06-10 MB 06-11 PK 06-17 MB 06-24 MB",
+          "07-01 MB 07-08 MB 07-09 PK 07-15 MB 07-22 MB 07-29 MB",
+          "08-05 MB 08-12 MB 08-13 PK 08-19 MB 08-26 MB",
+          "09-02 MB 09-09 MB 09-10 PK 09-16 MB 09-23 MB 09-30 MB",
+          "10-07 MB 10-08 PK 10-14 MB 10-21 MB 10-28 MB",
+          "11-04 MB 11-11 MB 11-12 PK 11-18 MB 11-25 MB",
+          "12-02 MB 12-09 MB 12-10 PK 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "34": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: srijeda; biootpad: srijeda i četvrtak; plastika i papir: 3. srijeda u mjesecu",
+      "ulice": ["Ivanovačka ulica (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-07 MB 01-08 B 01-14 MBPK 01-15 B 01-21 MB 01-22 B 01-28 MB 01-29 B",
+          "02-04 MB 02-05 B 02-11 MB 02-12 B 02-18 MBPK 02-19 B 02-25 MB 02-26 B",
+          "03-04 MB 03-05 B 03-11 MB 03-12 B 03-18 MBPK 03-19 B 03-25 MB 03-26 B",
+          "04-01 MB 04-02 B 04-08 MB 04-09 B 04-15 MBPK 04-16 B 04-22 MB 04-23 B 04-29 MB 04-30 B",
+          "05-06 MB 05-07 B 05-13 MB 05-14 B 05-20 MBPK 05-21 B 05-27 MB 05-28 B",
+          "06-03 MB 06-04 B 06-10 MB 06-11 B 06-17 MBPK 06-18 B 06-24 MB 06-25 B",
+          "07-01 MB 07-02 B 07-08 MB 07-09 B 07-15 MBPK 07-16 B 07-22 MB 07-23 B 07-29 MB 07-30 B",
+          "08-05 MB 08-06 B 08-12 MB 08-13 B 08-19 MBPK 08-20 B 08-26 MB 08-27 B",
+          "09-02 MB 09-03 B 09-09 MB 09-10 B 09-16 MBPK 09-17 B 09-23 MB 09-24 B 09-30 MB",
+          "10-01 B 10-07 MB 10-08 B 10-14 MBPK 10-15 B 10-21 MB 10-22 B 10-28 MB 10-29 B",
+          "11-04 MB 11-05 B 11-11 MB 11-12 B 11-18 MBPK 11-19 B 11-25 MB 11-26 B",
+          "12-02 MB 12-03 B 12-09 MB 12-10 B 12-16 MBPK 12-17 B 12-23 MB 12-24 B 12-30 MB 12-31 B"
+        ]
+      }
+    },
+    "35": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda; plastika: 1. srijeda u mjesecu",
+      "ulice": ["Vukovarska cesta (Osijek) neparni 31"],
+      "raw": {
+        "2026": [
+          "01-07 MBP 01-14 MB 01-21 MB 01-28 MB",
+          "02-04 MBP 02-11 MB 02-18 MB 02-25 MB",
+          "03-04 MBP 03-11 MB 03-18 MB 03-25 MB",
+          "04-01 MBP 04-08 MB 04-15 MB 04-22 MB 04-29 MB",
+          "05-06 MBP 05-13 MB 05-20 MB 05-27 MB",
+          "06-03 MBP 06-10 MB 06-17 MB 06-24 MB",
+          "07-01 MBP 07-08 MB 07-15 MB 07-22 MB 07-29 MB",
+          "08-05 MBP 08-12 MB 08-19 MB 08-26 MB",
+          "09-02 MBP 09-09 MB 09-16 MB 09-23 MB 09-30 MB",
+          "10-07 P 10-14 MB 10-21 MB 10-28 MB",
+          "11-04 MBP 11-11 MB 11-18 MB 11-25 MB",
+          "12-02 MBP 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "36": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: srijeda; plastika: srijeda i petak, svaki drugi tjedan; papir: 1. petak u mjesecu",
+      "ulice": ["Vukovarska cesta (Osijek) neparni 33-43"],
+      "raw": {
+        "2026": [
+          "01-02 PK 01-07 MBP 01-14 MB 01-21 MB 01-28 MB",
+          "02-04 MBP 02-06 PK 02-11 MB 02-18 MB 02-25 MB",
+          "03-04 MBP 03-06 PK 03-11 MB 03-18 MB 03-25 MB",
+          "04-01 MBP 04-03 PK 04-08 MB 04-15 MB 04-22 MB 04-29 MB",
+          "05-01 PK 05-06 MBP 05-13 MB 05-20 MB 05-27 MB",
+          "06-03 MBP 06-05 PK 06-10 MB 06-17 MB 06-24 MB",
+          "07-01 MBP 07-03 PK 07-08 MB 07-15 MB 07-22 MB 07-29 MB",
+          "08-05 MBP 08-07 PK 08-12 MB 08-19 MB 08-26 MB",
+          "09-02 MBP 09-04 PK 09-09 MB 09-16 MB 09-23 MB 09-30 MB",
+          "10-02 PK 10-07 P 10-14 MB 10-21 MB 10-28 MB",
+          "11-04 MBP 11-06 PK 11-11 MB 11-18 MB 11-25 MB",
+          "12-02 MBP 12-04 PK 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "37": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: četvrtak; plastika i papir: 2. četvrtak u mjesecu",
+      "ulice": ["Bakarska (Osijek)", "Baranjska ulica (Osijek)", "Biševska (Osijek)", "Bokokotorska (Osijek)", "Bosanska (Osijek)", "Bračka (Osijek) neparni 149-181, parni 104-146", "Brijunska ulica (Osijek)", "Buzetska ulica (Osijek)", "Dugog Otoka (Osijek)", "Frana Krste Frankopana (Osijek) neparni do 51", "Gradačka (Osijek)", "Humska ulica (Osijek)", "Kornatska (Osijek)", "Korčulanska (Osijek)", "Krčka (Osijek)", "Kvarnerska (Osijek)", "Labinska (Osijek)", "Ljubljanska (Osijek)", "Lopudska (Osijek)", "Lovranska (Osijek)", "Martina Divalta (Osijek) parni 108-156", "Miholjačka (Osijek)", "Mljetska (Osijek)", "Motovunska (Osijek)", "Murterska (Osijek)", "Opatijska (Osijek)", "Orebička (Osijek)", "Pašmanska (Osijek)", "Pelješačka (Osijek)", "Piranska (Osijek)", "Porečka (Osijek)", "Pulska (Osijek)", "Rovinjska (Osijek)", "Starigradska (Osijek)", "Tovarnička ulica (Osijek)", "Ugljanska (Osijek)", "Ulica J.reihl-Kira (Osijek)", "Varaždinska (Osijek)", "Velaluška (Osijek)", "Vij.ivana Česmičkog (Osijek)", "Zagorska (Osijek)", "Zaostroška (Osijek)", "Zlarinska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MBPK 01-15 MB 01-22 MB 01-29 MB",
+          "02-05 MB 02-12 MBPK 02-19 MB 02-26 MB",
+          "03-05 MB 03-12 MBPK 03-19 MB 03-26 MB",
+          "04-02 MB 04-09 MBPK 04-16 MB 04-23 MB 04-30 MB",
+          "05-07 MB 05-14 MBPK 05-21 MB 05-28 MB",
+          "06-04 MB 06-11 MBPK 06-18 MB 06-25 MB",
+          "07-02 MB 07-09 MBPK 07-16 MB 07-23 MB 07-30 MB",
+          "08-06 MB 08-13 MBPK 08-20 MB 08-27 MB",
+          "09-03 MB 09-10 MBPK 09-17 MB 09-24 MB",
+          "10-01 MB 10-08 MBPK 10-15 MB 10-22 MB 10-29 MB",
+          "11-05 MB 11-12 MBPK 11-19 MB 11-26 MB",
+          "12-03 MB 12-10 MBPK 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "38": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: četvrtak; plastika i papir: 3. četvrtak u mjesecu",
+      "ulice": ["Bapska ulica (Osijek)", "Baščanska ulica (Osijek)", "Biogradska (Osijek)", "Bračka (Osijek) neparni do 147, parni do 102", "Creska (Osijek)", "Crikvenička (Osijek)", "Frana Krste Frankopana (Osijek) neparni od 53", "Hercegovačka (Osijek)", "Hvarska (Osijek)", "Josipa Huttlera (Osijek) parni od 26", "Južno Predgrađe (Osijek)", "Kaštelanska (Osijek)", "Lastovska (Osijek)", "Ledine (Osijek)", "Lokrumska (Osijek)", "Lošinjska (Osijek)", "Makarska (Osijek)", "Martina Divalta (Osijek) parni od 158", "Medulinska (Osijek)", "Naselje M.krleže (Osijek)", "Olibska (Osijek)", "Palagruška (Osijek)", "Pazinska (Osijek)", "Paška (Osijek)", "Plitvička (Osijek)", "Rapska (Osijek)", "Senjska (Osijek)", "Splitska (Osijek)", "Srijemska ulica (Osijek)", "Stonska (Osijek)", "Trogirska (Osijek)", "Trpanjska (Osijek)", "Tvornička (Osijek)", "Umaška (Osijek)", "Velebitska (Osijek)", "Viška (Osijek)", "Voćarska (Osijek)", "Šibenska (Osijek)", "Šoltanska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-15 MBPK 01-22 MB 01-29 MB",
+          "02-05 MB 02-12 MB 02-19 MBPK 02-26 MB",
+          "03-05 MB 03-12 MB 03-19 MBPK 03-26 MB",
+          "04-02 MB 04-09 MB 04-16 MBPK 04-23 MB 04-30 MB",
+          "05-07 MB 05-14 MB 05-21 MBPK 05-28 MB",
+          "06-04 MB 06-11 MB 06-18 MBPK 06-25 MB",
+          "07-02 MB 07-09 MB 07-16 MBPK 07-23 MB 07-30 MB",
+          "08-06 MB 08-13 MB 08-20 MBPK 08-27 MB",
+          "09-03 MB 09-10 MB 09-17 MBPK 09-24 MB",
+          "10-01 MB 10-08 MB 10-15 MBPK 10-22 MB 10-29 MB",
+          "11-05 MB 11-12 MB 11-19 MBPK 11-26 MB",
+          "12-03 MB 12-10 MB 12-17 MBPK 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "39": {
+      "jls": "Osijek",
+      "podrucje": "Osijek, Klisa – miješani i biootpad: četvrtak; plastika i papir: 1. četvrtak u mjesecu",
+      "ulice": ["Dalmatinska (Klisa)", "Ivana Gorana Kovačića (Osijek)", "N.š.zrinskog (Osijek)", "Radnička (Klisa)", "Sjenjak (Osijek)", "Ul.brune Bjelinskog (Osijek)", "Ul.ferde Livadića (Osijek)", "Ulica Ivana Zajca (Osijek)", "Vukovarska (Klisa)", "Đ.jakšića Osk.prnj. (Klisa)", "Đure Jakšića (Klisa)"],
+      "raw": {
+        "2026": [
+          "01-03 MBPK! 01-08 MB 01-15 MB 01-22 MB 01-29 MB",
+          "02-05 MBPK 02-12 MB 02-19 MB 02-26 MB",
+          "03-05 MBPK 03-12 MB 03-19 MB 03-26 MB",
+          "04-02 MBPK 04-09 MB 04-16 MB 04-23 MB 04-30 MB",
+          "05-07 MBPK 05-14 MB 05-21 MB 05-28 MB",
+          "06-04 MBPK 06-11 MB 06-18 MB 06-25 MB",
+          "07-02 MBPK 07-09 MB 07-16 MB 07-23 MB 07-30 MB",
+          "08-06 MBPK 08-13 MB 08-20 MB 08-27 MB",
+          "09-03 MBPK 09-10 MB 09-17 MB 09-24 MB",
+          "10-01 MBPK 10-08 MB 10-15 MB 10-22 MB 10-29 MB",
+          "11-05 MBPK 11-12 MB 11-19 MB 11-26 MB",
+          "12-03 MBPK 12-10 MB 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "40": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: četvrtak; plastika i papir: 4. četvrtak u mjesecu",
+      "ulice": ["Breznička (Osijek)", "Bunska ulica (Osijek)", "Jadrovska ulica (Osijek)", "Miljacka (Osijek)", "Raška (Osijek)", "Sanska (Osijek)", "Trebižatska ulica (Osijek)", "Ulica 3. gardijske brigade \"kune\" (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-15 MB 01-22 MBPK 01-29 MB",
+          "02-05 MB 02-12 MB 02-19 MB 02-26 MBPK",
+          "03-05 MB 03-12 MB 03-19 MB 03-26 MBPK",
+          "04-02 MB 04-09 MB 04-16 MB 04-23 MBPK 04-30 MB",
+          "05-07 MB 05-14 MB 05-21 MB 05-28 MBPK",
+          "06-04 MB 06-11 MB 06-18 MB 06-25 MBPK",
+          "07-02 MB 07-09 MB 07-16 MB 07-23 MBPK 07-30 MB",
+          "08-06 MB 08-13 MB 08-20 MB 08-27 MBPK",
+          "09-03 MB 09-10 MB 09-17 MB 09-24 MBPK",
+          "10-01 MB 10-08 MB 10-15 MB 10-22 MBPK 10-29 MB",
+          "11-05 MB 11-12 MB 11-19 MB 11-26 MBPK",
+          "12-03 MB 12-10 MB 12-17 MB 12-24 MBPK 12-31 MB"
+        ]
+      }
+    },
+    "41": {
+      "jls": "Osijek",
+      "podrucje": "Brijest – miješani i biootpad: četvrtak; plastika i papir: 2. utorak u mjesecu",
+      "ulice": ["Dobra (Brijest)", "Kaninska (Brijest)", "Sprečanska (Brijest)", "Tešanjska (Brijest)", "Usorska (Brijest)", "Vinkovačka (Brijest)", "Vojlovica (Brijest)"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-13 PK 01-15 MB 01-22 MB 01-29 MB",
+          "02-05 MB 02-10 PK 02-12 MB 02-19 MB 02-26 MB",
+          "03-05 MB 03-10 PK 03-12 MB 03-19 MB 03-26 MB",
+          "04-02 MB 04-09 MB 04-14 PK 04-16 MB 04-23 MB 04-30 MB",
+          "05-07 MB 05-12 PK 05-14 MB 05-21 MB 05-28 MB",
+          "06-04 MB 06-09 PK 06-11 MB 06-18 MB 06-25 MB",
+          "07-02 MB 07-09 MB 07-14 PK 07-16 MB 07-23 MB 07-30 MB",
+          "08-06 MB 08-11 PK 08-13 MB 08-20 MB 08-27 MB",
+          "09-03 MB 09-08 PK 09-10 MB 09-17 MB 09-24 MB",
+          "10-01 MB 10-08 MB 10-13 PK 10-15 MB 10-22 MB 10-29 MB",
+          "11-05 MB 11-10 PK 11-12 MB 11-19 MB 11-26 MB",
+          "12-03 MB 12-08 PK 12-10 MB 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "42": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: četvrtak; plastika i papir: 3. ponedjeljak u mjesecu",
+      "ulice": ["Našička (Osijek)", "Podgoračka (Osijek)", "Podvinje (Osijek)", "S.s.kranjčevića (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-15 MB 01-19 PK 01-22 MB 01-29 MB",
+          "02-05 MB 02-12 MB 02-16 PK 02-19 MB 02-26 MB",
+          "03-05 MB 03-12 MB 03-16 PK 03-19 MB 03-26 MB",
+          "04-02 MB 04-09 MB 04-16 MB 04-20 PK 04-23 MB 04-30 MB",
+          "05-07 MB 05-14 MB 05-18 PK 05-21 MB 05-28 MB",
+          "06-04 MB 06-11 MB 06-15 PK 06-18 MB 06-25 MB",
+          "07-02 MB 07-09 MB 07-16 MB 07-20 PK 07-23 MB 07-30 MB",
+          "08-06 MB 08-13 MB 08-17 PK 08-20 MB 08-27 MB",
+          "09-03 MB 09-10 MB 09-17 MB 09-21 PK 09-24 MB",
+          "10-01 MB 10-08 MB 10-15 MB 10-19 PK 10-22 MB 10-29 MB",
+          "11-05 MB 11-12 MB 11-16 PK 11-19 MB 11-26 MB",
+          "12-03 MB 12-10 MB 12-17 MB 12-21 PK 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "43": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: četvrtak; plastika i papir: 3. utorak u mjesecu",
+      "ulice": ["Našičko naselje (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-15 MB 01-20 PK 01-22 MB 01-29 MB",
+          "02-05 MB 02-12 MB 02-17 PK 02-19 MB 02-26 MB",
+          "03-05 MB 03-12 MB 03-17 PK 03-19 MB 03-26 MB",
+          "04-02 MB 04-09 MB 04-16 MB 04-21 PK 04-23 MB 04-30 MB",
+          "05-07 MB 05-14 MB 05-19 PK 05-21 MB 05-28 MB",
+          "06-04 MB 06-11 MB 06-16 PK 06-18 MB 06-25 MB",
+          "07-02 MB 07-09 MB 07-16 MB 07-21 PK 07-23 MB 07-30 MB",
+          "08-06 MB 08-13 MB 08-18 PK 08-20 MB 08-27 MB",
+          "09-03 MB 09-10 MB 09-15 PK 09-17 MB 09-24 MB",
+          "10-01 MB 10-08 MB 10-15 MB 10-20 PK 10-22 MB 10-29 MB",
+          "11-05 MB 11-12 MB 11-17 PK 11-19 MB 11-26 MB",
+          "12-03 MB 12-10 MB 12-15 PK 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "44": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: četvrtak; plastika i papir: 3. srijeda u mjesecu",
+      "ulice": ["Stadionsko naselje (Osijek) neparni 35-83, parni 74-176"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-15 MB 01-21 PK 01-22 MB 01-29 MB",
+          "02-05 MB 02-12 MB 02-18 PK 02-19 MB 02-26 MB",
+          "03-05 MB 03-12 MB 03-18 PK 03-19 MB 03-26 MB",
+          "04-02 MB 04-09 MB 04-15 PK 04-16 MB 04-23 MB 04-30 MB",
+          "05-07 MB 05-14 MB 05-20 PK 05-21 MB 05-28 MB",
+          "06-04 MB 06-11 MB 06-17 PK 06-18 MB 06-25 MB",
+          "07-02 MB 07-09 MB 07-15 PK 07-16 MB 07-23 MB 07-30 MB",
+          "08-06 MB 08-13 MB 08-19 PK 08-20 MB 08-27 MB",
+          "09-03 MB 09-10 MB 09-16 PK 09-17 MB 09-24 MB",
+          "10-01 MB 10-08 MB 10-15 MB 10-21 PK 10-22 MB 10-29 MB",
+          "11-05 MB 11-12 MB 11-18 PK 11-19 MB 11-26 MB",
+          "12-03 MB 12-10 MB 12-16 PK 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "45": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: četvrtak",
+      "ulice": ["Bračka (Osijek) neparni od 183, parni od 148"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-15 MB 01-22 MB 01-29 MB",
+          "02-05 MB 02-12 MB 02-19 MB 02-26 MB",
+          "03-05 MB 03-12 MB 03-19 MB 03-26 MB",
+          "04-02 MB 04-09 MB 04-16 MB 04-23 MB 04-30 MB",
+          "05-07 MB 05-14 MB 05-21 MB 05-28 MB",
+          "06-04 MB 06-11 MB 06-18 MB 06-25 MB",
+          "07-02 MB 07-09 MB 07-16 MB 07-23 MB 07-30 MB",
+          "08-06 MB 08-13 MB 08-20 MB 08-27 MB",
+          "09-03 MB 09-10 MB 09-17 MB 09-24 MB",
+          "10-01 MB 10-08 MB 10-15 MB 10-22 MB 10-29 MB",
+          "11-05 MB 11-12 MB 11-19 MB 11-26 MB",
+          "12-03 MB 12-10 MB 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "46": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; plastika i papir: 3. petak u mjesecu",
+      "ulice": ["A.b. Šimića (Osijek)", "Ciglarska ulica (Osijek)", "Cvjetna (Osijek)", "D. Šimunovića (Osijek)", "E. Kumičića (Osijek)", "Imotska ulica (Osijek)", "Krstova (Osijek) neparni 67-121, parni 62-152", "Livadska (Osijek)", "Lugovi (Osijek)", "Mostarska (Osijek)", "Sarajevska (Osijek)", "Slavonska (Osijek)", "Travna (Osijek)", "Ul.d.domjanića (Osijek)", "Ul.k.š.gjalskog (Osijek)", "Ulica Olimpije (Osijek)", "V. Novaka (Osijek)", "V.vidrića (Osijek)", "Vinogradska (Osijek)", "Vrbik (Osijek)", "Vrtna (Osijek)", "Zeleno Polje (Osijek)", "Šumska (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MB 01-16 MBPK 01-23 MB 01-30 MB",
+          "02-06 MB 02-13 MB 02-20 MBPK 02-27 MB",
+          "03-06 MB 03-13 MB 03-20 MBPK 03-27 MB",
+          "04-03 MB 04-10 MB 04-17 MBPK 04-24 MB",
+          "05-01 MB 05-08 MB 05-15 MBPK 05-22 MB 05-29 MB",
+          "06-05 MB 06-12 MB 06-19 MBPK 06-26 MB",
+          "07-03 MB 07-10 MB 07-17 MBPK 07-24 MB 07-31 MB",
+          "08-07 MB 08-14 MB 08-21 MBPK 08-28 MB",
+          "09-04 MB 09-11 MB 09-18 MBPK 09-25 MB",
+          "10-02 MB 10-09 MB 10-16 MBPK 10-23 MB 10-30 MB",
+          "11-06 MB 11-13 MB 11-20 MBPK 11-27 MB",
+          "12-04 MB 12-11 MB 12-18 MBPK 12-26 MB!"
+        ]
+      }
+    },
+    "47": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; plastika i papir: 2. petak u mjesecu",
+      "ulice": ["Banova ulica (Osijek)", "Cvjetkova (Osijek)", "Donjodravska obala (Osijek)", "Gluha ulica (Osijek)", "Josipa Huttlera (Osijek) neparni, parni do 24", "Krstova (Osijek) neparni do 65, parni do 60", "Lađarska (Osijek)", "Matije Gupca (Osijek) neparni do 39, parni do 56", "Park Kralj.k.kosača (Osijek)", "Primorska (Osijek)", "Svetog Petka (Osijek)", "Trg bana Josipa Jelačića (Osijek)", "Ul.chr.monspergera (Osijek)", "Ul.franje Muckea (Osijek)", "Ul.ive Tijardovića (Osijek)", "Ul.j.gojkovića (Osijek)", "Vij.slavka Kolara (Osijek)", "Vj.vlahe Bukovca (Osijek)", "Vodenička (Osijek)", "Zmaj J. Jovanovića (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MBPK 01-16 MB 01-23 MB 01-30 MB",
+          "02-06 MB 02-13 MBPK 02-20 MB 02-27 MB",
+          "03-06 MB 03-13 MBPK 03-20 MB 03-27 MB",
+          "04-03 MB 04-10 MBPK 04-17 MB 04-24 MB",
+          "05-01 MB 05-08 MBPK 05-15 MB 05-22 MB 05-29 MB",
+          "06-05 MB 06-12 MBPK 06-19 MB 06-26 MB",
+          "07-03 MB 07-10 MBPK 07-17 MB 07-24 MB 07-31 MB",
+          "08-07 MB 08-14 MBPK 08-21 MB 08-28 MB",
+          "09-04 MB 09-11 MBPK 09-18 MB 09-25 MB",
+          "10-02 MB 10-09 MBPK 10-16 MB 10-23 MB 10-30 MB",
+          "11-06 MB 11-13 MBPK 11-20 MB 11-27 MB",
+          "12-04 MB 12-11 MBPK 12-18 MB 12-26 MB!"
+        ]
+      }
+    },
+    "48": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; plastika i papir: 1. petak u mjesecu",
+      "ulice": ["Matije Gupca (Osijek) neparni 43-61", "Riječka ulica (Osijek)", "Trg.j.runjanina (Osijek)", "Ul.cara Hadrijana (Osijek)", "Ul.m.lanosovića (Osijek)", "Vukovarska cesta (Osijek) neparni od 61, parni 154-302"],
+      "raw": {
+        "2026": [
+          "01-02 MBPK 01-09 MB 01-16 MB 01-23 MB 01-30 MB",
+          "02-06 MBPK 02-13 MB 02-20 MB 02-27 MB",
+          "03-06 MBPK 03-13 MB 03-20 MB 03-27 MB",
+          "04-03 MBPK 04-10 MB 04-17 MB 04-24 MB",
+          "05-01 MBPK 05-08 MB 05-15 MB 05-22 MB 05-29 MB",
+          "06-05 MBPK 06-12 MB 06-19 MB 06-26 MB",
+          "07-03 MBPK 07-10 MB 07-17 MB 07-24 MB 07-31 MB",
+          "08-07 MBPK 08-14 MB 08-21 MB 08-28 MB",
+          "09-04 MBPK 09-11 MB 09-18 MB 09-25 MB",
+          "10-02 MBPK 10-09 MB 10-16 MB 10-23 MB 10-30 MB",
+          "11-06 MBPK 11-13 MB 11-20 MB 11-27 MB",
+          "12-04 MBPK 12-11 MB 12-18 MB 12-26 MB!"
+        ]
+      }
+    },
+    "49": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak",
+      "ulice": ["Crkvena (Osijek) neparni od 119, parni do 2, parni od 190", "Krstova (Osijek) neparni od 123, parni od 154", "Matije Gupca (Osijek) neparni 41, neparni od 63, parni od 108", "Mije Kišpatića (Osijek)", "Vukovarska cesta (Osijek) parni od 304"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MB 01-16 MB 01-23 MB 01-30 MB",
+          "02-06 MB 02-13 MB 02-20 MB 02-27 MB",
+          "03-06 MB 03-13 MB 03-20 MB 03-27 MB",
+          "04-03 MB 04-10 MB 04-17 MB 04-24 MB",
+          "05-01 MB 05-08 MB 05-15 MB 05-22 MB 05-29 MB",
+          "06-05 MB 06-12 MB 06-19 MB 06-26 MB",
+          "07-03 MB 07-10 MB 07-17 MB 07-24 MB 07-31 MB",
+          "08-07 MB 08-14 MB 08-21 MB 08-28 MB",
+          "09-04 MB 09-11 MB 09-18 MB 09-25 MB",
+          "10-02 MB 10-09 MB 10-16 MB 10-23 MB 10-30 MB",
+          "11-06 MB 11-13 MB 11-20 MB 11-27 MB",
+          "12-04 MB 12-11 MB 12-18 MB 12-26 MB!"
+        ]
+      }
+    },
+    "50": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: petak; plastika i papir: 1. petak u mjesecu",
+      "ulice": ["Gorička (Osijek)", "Vijenac Murse (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-02 MPK 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-06 MPK 02-13 M 02-20 M 02-27 M",
+          "03-06 MPK 03-13 M 03-20 M 03-27 M",
+          "04-03 MPK 04-10 M 04-17 M 04-24 M",
+          "05-01 MPK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-05 MPK 06-12 M 06-19 M 06-26 M",
+          "07-03 MPK 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-07 MPK 08-14 M 08-21 M 08-28 M",
+          "09-04 MPK 09-11 M 09-18 M 09-25 M",
+          "10-02 MPK 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-06 MPK 11-13 M 11-20 M 11-27 M",
+          "12-04 MPK 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "51": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; plastika: srijeda i petak, svaki drugi tjedan; papir: 1. petak u mjesecu",
+      "ulice": ["Vukovarska cesta (Osijek) neparni 49-59"],
+      "raw": {
+        "2026": [
+          "01-02 MBPK 01-07 P 01-09 MB 01-16 MB 01-23 MB 01-30 MB",
+          "02-04 P 02-06 MBPK 02-13 MB 02-20 MB 02-27 MB",
+          "03-04 P 03-06 MBPK 03-13 MB 03-20 MB 03-27 MB",
+          "04-01 P 04-03 MBPK 04-10 MB 04-17 MB 04-24 MB",
+          "05-01 MBPK 05-06 P 05-08 MB 05-15 MB 05-22 MB 05-29 MB",
+          "06-03 P 06-05 MBPK 06-12 MB 06-19 MB 06-26 MB",
+          "07-01 P 07-03 MBPK 07-10 MB 07-17 MB 07-24 MB 07-31 MB",
+          "08-05 P 08-07 MBPK 08-14 MB 08-21 MB 08-28 MB",
+          "09-02 P 09-04 MBPK 09-11 MB 09-18 MB 09-25 MB",
+          "10-02 MBPK 10-07 P 10-09 MB 10-16 MB 10-23 MB 10-30 MB",
+          "11-04 P 11-06 MBPK 11-13 MB 11-20 MB 11-27 MB",
+          "12-02 P 12-04 MBPK 12-11 MB 12-18 MB 12-26 MB!"
+        ]
+      }
+    },
+    "52": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; papir: 2. petak u mjesecu",
+      "ulice": ["Crkvena (Osijek) neparni do 67"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MBK 01-16 MB 01-23 MB 01-30 MB",
+          "02-06 MB 02-13 MBK 02-20 MB 02-27 MB",
+          "03-06 MB 03-13 MBK 03-20 MB 03-27 MB",
+          "04-03 MB 04-10 MBK 04-17 MB 04-24 MB",
+          "05-01 MB 05-08 MBK 05-15 MB 05-22 MB 05-29 MB",
+          "06-05 MB 06-12 MBK 06-19 MB 06-26 MB",
+          "07-03 MB 07-10 MBK 07-17 MB 07-24 MB 07-31 MB",
+          "08-07 MB 08-14 MBK 08-21 MB 08-28 MB",
+          "09-04 MB 09-11 MBK 09-18 MB 09-25 MB",
+          "10-02 MB 10-09 MBK 10-16 MB 10-23 MB 10-30 MB",
+          "11-06 MB 11-13 MBK 11-20 MB 11-27 MB",
+          "12-04 MB 12-11 MBK 12-18 MB 12-26 MB!"
+        ]
+      }
+    },
+    "53": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; papir: 3. petak u mjesecu",
+      "ulice": ["Crkvena (Osijek) parni 64-188"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MB 01-16 MBK 01-23 MB 01-30 MB",
+          "02-06 MB 02-13 MB 02-20 MBK 02-27 MB",
+          "03-06 MB 03-13 MB 03-20 MBK 03-27 MB",
+          "04-03 MB 04-10 MB 04-17 MBK 04-24 MB",
+          "05-01 MB 05-08 MB 05-15 MBK 05-22 MB 05-29 MB",
+          "06-05 MB 06-12 MB 06-19 MBK 06-26 MB",
+          "07-03 MB 07-10 MB 07-17 MBK 07-24 MB 07-31 MB",
+          "08-07 MB 08-14 MB 08-21 MBK 08-28 MB",
+          "09-04 MB 09-11 MB 09-18 MBK 09-25 MB",
+          "10-02 MB 10-09 MB 10-16 MBK 10-23 MB 10-30 MB",
+          "11-06 MB 11-13 MB 11-20 MBK 11-27 MB",
+          "12-04 MB 12-11 MB 12-18 MBK 12-26 MB!"
+        ]
+      }
+    },
+    "54": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; plastika: 3. petak u mjesecu",
+      "ulice": ["Crkvena (Osijek) neparni 69-117"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MB 01-16 MBP 01-23 MB 01-30 MB",
+          "02-06 MB 02-13 MB 02-20 MBP 02-27 MB",
+          "03-06 MB 03-13 MB 03-20 MBP 03-27 MB",
+          "04-03 MB 04-10 MB 04-17 MBP 04-24 MB",
+          "05-01 MB 05-08 MB 05-15 MBP 05-22 MB 05-29 MB",
+          "06-05 MB 06-12 MB 06-19 MBP 06-26 MB",
+          "07-03 MB 07-10 MB 07-17 MBP 07-24 MB 07-31 MB",
+          "08-07 MB 08-14 MB 08-21 MBP 08-28 MB",
+          "09-04 MB 09-11 MB 09-18 MBP 09-25 MB",
+          "10-02 MB 10-09 MB 10-16 MBP 10-23 MB 10-30 MB",
+          "11-06 MB 11-13 MB 11-20 MBP 11-27 MB",
+          "12-04 MB 12-11 MB 12-18 MBP 12-26 MB!"
+        ]
+      }
+    },
+    "55": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; plastika: 2. petak u mjesecu",
+      "ulice": ["Crkvena (Osijek) parni 4-62"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MBP 01-16 MB 01-23 MB 01-30 MB",
+          "02-06 MB 02-13 MBP 02-20 MB 02-27 MB",
+          "03-06 MB 03-13 MBP 03-20 MB 03-27 MB",
+          "04-03 MB 04-10 MBP 04-17 MB 04-24 MB",
+          "05-01 MB 05-08 MBP 05-15 MB 05-22 MB 05-29 MB",
+          "06-05 MB 06-12 MBP 06-19 MB 06-26 MB",
+          "07-03 MB 07-10 MBP 07-17 MB 07-24 MB 07-31 MB",
+          "08-07 MB 08-14 MBP 08-21 MB 08-28 MB",
+          "09-04 MB 09-11 MBP 09-18 MB 09-25 MB",
+          "10-02 MB 10-09 MBP 10-16 MB 10-23 MB 10-30 MB",
+          "11-06 MB 11-13 MBP 11-20 MB 11-27 MB",
+          "12-04 MB 12-11 MBP 12-18 MB 12-26 MB!"
+        ]
+      }
+    },
+    "56": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani i biootpad: petak; plastika: 1. petak u mjesecu",
+      "ulice": ["Matije Gupca (Osijek) parni 58-106"],
+      "raw": {
+        "2026": [
+          "01-02 MBP 01-09 MB 01-16 MB 01-23 MB 01-30 MB",
+          "02-06 MBP 02-13 MB 02-20 MB 02-27 MB",
+          "03-06 MBP 03-13 MB 03-20 MB 03-27 MB",
+          "04-03 MBP 04-10 MB 04-17 MB 04-24 MB",
+          "05-01 MBP 05-08 MB 05-15 MB 05-22 MB 05-29 MB",
+          "06-05 MBP 06-12 MB 06-19 MB 06-26 MB",
+          "07-03 MBP 07-10 MB 07-17 MB 07-24 MB 07-31 MB",
+          "08-07 MBP 08-14 MB 08-21 MB 08-28 MB",
+          "09-04 MBP 09-11 MB 09-18 MB 09-25 MB",
+          "10-02 MBP 10-09 MB 10-16 MB 10-23 MB 10-30 MB",
+          "11-06 MBP 11-13 MB 11-20 MB 11-27 MB",
+          "12-04 MBP 12-11 MB 12-18 MB 12-26 MB!"
+        ]
+      }
+    },
+    "57": {
+      "jls": "Osijek",
+      "podrucje": "Osijek – miješani: petak; plastika: 2. petak u mjesecu",
+      "ulice": ["B. Radičevića (Osijek)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MP 01-16 M 01-23 M 01-30 M",
+          "02-06 M 02-13 MP 02-20 M 02-27 M",
+          "03-06 M 03-13 MP 03-20 M 03-27 M",
+          "04-03 M 04-10 MP 04-17 M 04-24 M",
+          "05-01 M 05-08 MP 05-15 M 05-22 M 05-29 M",
+          "06-05 M 06-12 MP 06-19 M 06-26 M",
+          "07-03 M 07-10 MP 07-17 M 07-24 M 07-31 M",
+          "08-07 M 08-14 MP 08-21 M 08-28 M",
+          "09-04 M 09-11 MP 09-18 M 09-25 M",
+          "10-02 M 10-09 MP 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-13 MP 11-20 M 11-27 M",
+          "12-04 M 12-11 MP 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "58": {
+      "jls": "Antunovac",
+      "podrucje": "Antunovac, Ivanovac – miješani: ponedjeljak; plastika i papir: 4. petak u mjesecu",
+      "ulice": ["A.g.matoša (Antunovac)", "A.starčevića (Antunovac)", "B.j.jelačića (Antunovac)", "B.radića (Antunovac)", "Braće Radića (Antunovac)", "Crkvena Ul. (Ivanovac)", "Dr.franje Tuđmana (Ivanovac)", "Držanička (Ivanovac)", "Duga (Ivanovac)", "Duga Ul. (Ivanovac)", "Duga ulica (Ivanovac)", "Hrv. branitelja (Ivanovac)", "Hrvatske Republike (Antunovac)", "J.kozarca (Antunovac)", "Josipin Dvor (Antunovac)", "K.zvonimira (Antunovac)", "Kolodvorska (Antunovac)", "Kralja Zvonimira (Antunovac)", "Mala ulica (Ivanovac)", "Mirna (Antunovac)", "N.š.zrinskog (Antunovac)", "Nas.josipin Dvor (Antunovac)", "Nas.korođgrad (Ivanovac)", "Naselje Korođgrad (Ivanovac)", "Orlovnjak Seleš (Antunovac)", "P.svačića (Antunovac)", "T.ujevića (Antunovac)", "Ul. Hrv. branitelja (Ivanovac)", "Ulica hrvatske Republike (Antunovac)", "Čepinska (Ivanovac)", "Š.petefija (Antunovac)", "Školska (Antunovac)"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-23 PK 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 M 02-27 PK",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-27 PK 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-24 PK 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-22 PK 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-22 M 06-26 PK 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-24 PK 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-28 PK 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-25 PK 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-23 PK 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-27 PK 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-26 PK! 12-28 M"
+        ]
+      }
+    },
+    "59": {
+      "jls": "Bilje",
+      "podrucje": "Bilje – miješani: ponedjeljak, svaki drugi tjedan; plastika i papir: petak, jednom u 4 tjedna; staklo i metal: 4 puta godišnje",
+      "ulice": ["Beljska ulica (Bilje)", "Bijelog Lopoča (Bilje)", "Biljski sokak (Bilje)", "Blatna ulica (Bilje)", "Crkvena ulica (Bilje)", "Dravska ulica (Bilje)", "Dubrovačka ulica (Bilje)", "Hrvatskih branitelja (Bilje)", "Kralja Tomislava (Bilje)", "Kralja Zvonimira (Bilje)", "Matije Gupca (Bilje)", "Primoštenska ulica (Bilje)", "Ribarska ulica (Bilje)", "Savska ulica (Bilje)", "Trg bana Josipa Jelačića (Bilje)", "Vatrogasna ulica (Bilje)", "Vukovarska ulica (Bilje)"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-12 M 01-16 P 01-26 M 01-30 K",
+          "02-09 M 02-13 P 02-23 M 02-27 K",
+          "03-09 M 03-13 P 03-23 M 03-27 K 03-30 SL",
+          "04-06 M 04-10 P 04-20 M 04-24 K",
+          "05-04 M 05-08 P 05-18 M 05-22 K",
+          "06-01 M 06-05 P 06-15 M 06-19 K 06-29 MSL",
+          "07-03 P 07-13 M 07-17 K 07-27 M 07-31 P",
+          "08-10 M 08-14 K 08-24 M 08-28 P",
+          "09-07 M 09-11 K 09-21 M 09-25 P 09-29 SL",
+          "10-05 M 10-09 K 10-19 M 10-23 P",
+          "11-02 M 11-06 K 11-16 M 11-20 P 11-30 M",
+          "12-04 K 12-14 M 12-18 P 12-28 M 12-29 SL"
+        ]
+      }
+    },
+    "60": {
+      "jls": "Bilje",
+      "podrucje": "Bilje – miješani: utorak, svaki drugi tjedan; plastika i papir: petak, jednom u 4 tjedna; staklo: 4 puta godišnje; metal: 3 puta godišnje",
+      "ulice": ["1. svibnja (Bilje)", "3. rujna (Bilje)", "Biljske satnije Zng Rh (Bilje)", "Crne Rode ulica (Bilje)", "Eugena Savojskog (Bilje)", "Hrvatske vojske (Bilje)", "Ivana Gorana Kovačića (Bilje)", "Ivana Gundulića (Bilje)", "Ivana Mažuranića (Bilje)", "J.j.strossmayera (Bilje)", "Josipa Kozarca (Bilje)", "Kneza Branimira (Bilje)", "Konkološ (Bilje)", "Lajoša Košuta (Bilje)", "Nikole Tesle (Bilje)", "Nova ulica (Bilje)", "Ritska ulica (Bilje)", "Tina Ujevića (Bilje)", "Ulica Športova (Bilje)", "Vatroslava Lisinskog (Bilje)", "Vinogradska ulica (Bilje)", "Zagrebačka ulica (Bilje)", "Šandora Petefija (Bilje)", "Školska ulica (Bilje)", "Žrtava domovinskog rata (Bilje)"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-13 M 01-16 P 01-27 M 01-30 K",
+          "02-10 M 02-13 P 02-24 M 02-27 K",
+          "03-10 M 03-13 P 03-24 M 03-27 K 03-30 S",
+          "04-07 M 04-10 P 04-21 M 04-24 K",
+          "05-05 M 05-08 P 05-19 M 05-22 K",
+          "06-02 M 06-05 P 06-16 M 06-19 K 06-29 SL 06-30 M",
+          "07-03 P 07-14 M 07-17 K 07-28 M 07-31 P",
+          "08-11 M 08-14 K 08-25 M 08-28 P",
+          "09-08 M 09-11 K 09-22 M 09-25 P 09-29 SL",
+          "10-06 M 10-09 K 10-20 M 10-23 P",
+          "11-03 M 11-06 K 11-17 M 11-20 P",
+          "12-01 M 12-04 K 12-15 M 12-18 P 12-29 MSL"
+        ]
+      }
+    },
+    "61": {
+      "jls": "Bilje",
+      "podrucje": "Kopačevo, Vardarac, Lug i dr. – miješani: srijeda, svaki drugi tjedan; plastika i papir: petak, jednom u 4 tjedna; staklo i metal: 4 puta godišnje",
+      "ulice": ["Adi Endre (Vardarac)", "Baranjske Noći (Kopačevo)", "Crkvena ulica (Kopačevo)", "Crkvena ulica (Lug)", "Dekanj Peti (Kopačevo)", "Hrvatskih branitelja (Kopačevo)", "Hrvatskih branitelja (Lug)", "Hrvatskih branitelja (Vardarac)", "Jabučnjak (Vardarac)", "Kenderfeld (Vardarac)", "Kiš Ferenca (Kopačevo)", "Kozjak (Kozjak)", "Kozjačka ulica (Lug)", "Lajoša Košuta (Kopačevo)", "Lajoša Košuta (Vardarac)", "Livadska ulica (Lug)", "Perešfeld (Kopačevo)", "Podunavska (Kopačevo)", "Podunavska ulica (Kopačevo)", "Ribarska ulica (Kopačevo)", "Ritska ulica (Kopačevo)", "Ritska ulica (Lug)", "Ružina (Vardarac)", "Ulica Novi Red (Lug)", "Zlatna Greda (Zlatna Greda)", "Šandora Petefija (Kopačevo)", "Šandora Petefija (Lug)", "Šandora Petefija (Vardarac)", "Školska ulica (Vardarac)"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-14 M 01-16 P 01-28 M 01-30 K",
+          "02-11 M 02-13 P 02-25 M 02-27 K",
+          "03-11 M 03-13 P 03-25 M 03-27 K 03-30 SL",
+          "04-08 M 04-10 P 04-22 M 04-24 K",
+          "05-06 M 05-08 P 05-20 M 05-22 K",
+          "06-03 M 06-05 P 06-17 M 06-19 K 06-29 SL",
+          "07-01 M 07-03 P 07-15 M 07-17 K 07-29 M 07-31 P",
+          "08-12 M 08-14 K 08-26 M 08-28 P",
+          "09-09 M 09-11 K 09-23 M 09-25 P 09-29 SL",
+          "10-02 K 10-07 M 10-09 K 10-21 M 10-23 P",
+          "11-04 M 11-18 M 11-20 P",
+          "12-02 M 12-04 K 12-16 M 12-18 M 12-29 SL 12-30 M"
+        ]
+      }
+    },
+    "62": {
+      "jls": "Bizovac",
+      "podrucje": "Bizovac – miješani i biootpad: ponedjeljak, svaki drugi tjedan; plastika i papir: petak, jednom u 4 tjedna; staklo: 4 puta godišnje; metal: 5 puta godišnje",
+      "ulice": ["A. Starčevića (Bizovac)", "Alojzija Stepinca (Bizovac)", "Ante Starčevića (Bizovac)", "Augusta Šenoe (Bizovac)", "Braće Radić (Bizovac)", "Braće Radića (Bizovac)", "Cvjetna (Bizovac)", "Dr. Franje Tuđmana (Bizovac)", "Hrvatske Republike (Bizovac)", "Ivana Gundulića (Bizovac)", "Ivana Mažuranića (Bizovac)", "Ive Pavlića (Bizovac)", "Katančićeva (Bizovac)", "Kolodvorska (Bizovac)", "Kralja Tomislava (Bizovac)", "Petra Preradović (Bizovac)", "Sunčana (Bizovac)", "Valpovačka (Bizovac)", "Vladimira Nazora (Bizovac)"],
+      "napomena": "Tiskani kalendar za Bizovac (PDF na unikom.hr) za biootpad i staklo i metal navodi druge datume; ovdje su datumi iz tražilice na unikom.hr.",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-09 P 01-19 MB 01-23 K 01-29 SL",
+          "02-02 MB 02-06 P 02-16 MB 02-20 K",
+          "03-02 MB 03-06 P 03-16 MB 03-20 K 03-30 MB 03-31 SL",
+          "04-03 P 04-13 MB 04-17 K 04-27 MB",
+          "05-01 P 05-11 MB 05-15 K 05-25 MB 05-29 P",
+          "06-08 MB 06-12 K 06-22 MB 06-26 P 06-30 L",
+          "07-06 MB 07-10 K 07-20 MB 07-24 P",
+          "08-03 MB 08-07 K 08-17 MB 08-21 P 08-31 MB",
+          "09-04 K 09-14 MB 09-18 P 09-28 MB",
+          "10-02 K 10-12 MB 10-16 P 10-26 MB 10-29 SL",
+          "11-09 MB 11-13 P 11-23 MB 11-27 K",
+          "12-01 S 12-07 MB 12-11 P 12-21 MB 12-26 K 12-30 L"
+        ]
+      }
+    },
+    "63": {
+      "jls": "Bizovac",
+      "podrucje": "Cerovac – miješani i biootpad: utorak, svaki drugi tjedan; plastika i papir: petak, jednom u 4 tjedna; staklo i metal: 5 puta godišnje",
+      "ulice": ["Cerovac (Cerovac)"],
+      "raw": {
+        "2026": [
+          "01-03 S! 01-06 MB 01-09 P 01-20 MB 01-23 K 01-29 L",
+          "02-03 MB 02-06 P 02-17 MB 02-20 K",
+          "03-03 MB 03-06 P 03-17 MB 03-20 K 03-31 MBSL",
+          "04-03 P 04-14 MB 04-17 K 04-28 MB",
+          "05-01 P 05-12 MB 05-15 K 05-26 MB 05-29 P",
+          "06-09 MB 06-12 K 06-23 MB 06-26 P 06-30 SL",
+          "07-07 MB 07-10 K 07-21 MB 07-24 P",
+          "08-04 MB 08-07 K 08-18 MB 08-21 P",
+          "09-04 K 09-08 MB 09-18 P 09-22 MB",
+          "10-02 K 10-13 MB 10-16 P 10-27 MB 10-29 SL 10-30 K",
+          "11-10 MB 11-13 P 11-24 MB 11-27 K",
+          "12-01 K 12-08 MB 12-11 P 12-22 MB 12-30 SL"
+        ]
+      }
+    },
+    "64": {
+      "jls": "Ernestinovo",
+      "podrucje": "Laslovo, Ernestinovo, Divoš – miješani: ponedjeljak; plastika i papir: 1. petak u mjesecu",
+      "ulice": ["B.radića (Ernestinovo)", "Dr. F. Tuđmana (Laslovo)", "Frankopanska Ul. (Ernestinovo)", "I.g.kovačića (Ernestinovo)", "Josipa Kozarca (Laslovo)", "K.popovića (Divoš)", "Kolodvorska (Laslovo)", "Koče Popovića (Divoš)", "Matije Gupca (Ernestinovo)", "Mirna (Laslovo)", "Petra Smajića (Ernestinovo)", "Pobjede (Laslovo)", "Rudolfa Frančića (Laslovo)", "Stadionska (Ernestinovo)", "Stadionska Ul. (Ernestinovo)", "Sunčana (Ernestinovo)", "Trg Hrv.branitelja (Laslovo)", "Ul.b.j.jelačića (Ernestinovo)", "Ul.dr.franje Tuđmana (Laslovo)", "Ul.k.a.stepinca (Ernestinovo)", "Ul.n.š.zrinskog (Ernestinovo)", "Ul.pobjede (Laslovo)", "V.nazora (Ernestinovo)", "V.nazora (Laslovo)", "Vinogradska (Laslovo)", "Zadružna (Laslovo)", "Š.petefija (Laslovo)", "Školska (Ernestinovo)", "Školska (Laslovo)"],
+      "raw": {
+        "2026": [
+          "01-02 PK 01-05 M 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-06 PK 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-06 PK 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-03 PK 04-06 M 04-13 M 04-20 M 04-27 M",
+          "05-01 PK 05-04 M 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-05 PK 06-08 M 06-15 M 06-22 M 06-29 M",
+          "07-03 PK 07-06 M 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-07 PK 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-04 PK 09-07 M 09-14 M 09-21 M 09-28 M",
+          "10-02 PK 10-05 M 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-06 PK 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-04 PK 12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "65": {
+      "jls": "Petrijevci",
+      "podrucje": "Petrijevci, Satnica – miješani i biootpad: srijeda, svaki drugi tjedan; plastika i papir: petak, jednom u 4 tjedna; staklo i metal: 5 puta godišnje",
+      "ulice": ["A.m.reljkovića (Petrijevci)", "Bregovita (Petrijevci)", "Budžak (Petrijevci)", "D.pejačević (Petrijevci)", "Dr. Ivana Ribara (Petrijevci)", "Goričani (Petrijevci)", "Goričani (Satnica)", "Hrvatskih branitelja (Petrijevci)", "I.kapistrana (Petrijevci)", "J.j.strossmayera (Petrijevci)", "J.kozarca (Petrijevci)", "J.užarevića (Petrijevci)", "Kapelica (Petrijevci)", "Karašica (Petrijevci)", "Kolodvorska (Petrijevci)", "Kolodvorska (Satnica)", "Križevci (Petrijevci)", "M.gupca (Petrijevci)", "Mlinska (Petrijevci)", "Nova (Satnica)", "Osječka (Satnica)", "P.preradovića (Petrijevci)", "Republike (Petrijevci)", "S.radića (Petrijevci)", "S.radića (Satnica)", "Suševine (Petrijevci)", "Trg Sv.katarine (Satnica)", "V.nazora (Petrijevci)", "Vjetrovita (Petrijevci)", "Školska (Satnica)"],
+      "napomena": "Tiskani kalendar za Petrijevci (PDF na unikom.hr) za biootpad navodi druge datume; ovdje su datumi iz tražilice na unikom.hr.",
+      "raw": {
+        "2026": [
+          "01-07 MB 01-09 P 01-21 MB 01-23 K 01-29 SL",
+          "02-04 MB 02-06 P 02-18 MB 02-20 K",
+          "03-04 MB 03-06 P 03-18 MB 03-20 K 03-31 SL",
+          "04-01 MB 04-03 P 04-15 MB 04-17 K 04-29 MB",
+          "05-01 P 05-13 MB 05-15 K 05-27 MB 05-29 P",
+          "06-10 MB 06-12 K 06-24 MB 06-26 P 06-30 SL",
+          "07-08 MB 07-10 K 07-22 MB 07-24 P",
+          "08-05 MB 08-07 K 08-19 MB 08-21 P",
+          "09-02 MB 09-04 K 09-16 MB 09-18 P 09-30 MB",
+          "10-02 K 10-14 MB 10-16 P 10-28 MB 10-29 SL 10-30 K",
+          "11-11 MB 11-13 P 11-25 MB 11-27 K",
+          "12-09 MB 12-11 P 12-23 MB 12-26 K 12-30 SL"
+        ]
+      }
+    },
+    "66": {
+      "jls": "Vladislavci",
+      "podrucje": "Vladislavci, Hrastin, Dopsin – miješani: četvrtak; plastika: 1. petak u mjesecu; papir: 3. petak u mjesecu",
+      "ulice": ["Erne Kiš (Vladislavci)", "F.kiša (Hrastin)", "J.j. Strossmayera (Dopsin)", "Kr.p.krešimira IV (Vladislavci)", "Kralja Tomislava (Vladislavci)", "Kralja Zvonimira (Vladislavci)", "Kudeljara (Vladislavci)", "M. Križan (Vladislavci)", "M.križan (Vladislavci)", "Petefi Šandora (Hrastin)", "Petra Svačića (Vladislavci)", "Sv.ivana (Dopsin)", "Športska (Vladislavci)"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-03 M! 01-08 M 01-15 M 01-16 K 01-22 M 01-29 M",
+          "02-05 M 02-06 P 02-12 M 02-19 M 02-20 K 02-26 M",
+          "03-05 M 03-06 P 03-12 M 03-19 M 03-20 K 03-26 M",
+          "04-02 M 04-03 P 04-09 M 04-16 M 04-17 K 04-23 M 04-30 M",
+          "05-01 P 05-07 M 05-14 M 05-15 K 05-21 M 05-28 M",
+          "06-04 M 06-05 P 06-11 M 06-18 M 06-19 K 06-25 M",
+          "07-02 M 07-03 P 07-09 M 07-16 M 07-17 K 07-23 M 07-30 M",
+          "08-06 M 08-07 P 08-13 M 08-20 M 08-21 K 08-27 M",
+          "09-03 M 09-04 P 09-10 M 09-17 M 09-18 K 09-24 M",
+          "10-01 M 10-02 P 10-08 M 10-15 M 10-16 K 10-22 M 10-29 M",
+          "11-05 M 11-06 P 11-12 M 11-19 M 11-20 K 11-26 M",
+          "12-03 M 12-04 P 12-10 M 12-17 M 12-18 K 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "67": {
+      "jls": "Vuka",
+      "podrucje": "Vuka, Lipovac Hrastinski, Hrastovac – miješani: četvrtak; plastika, papir, staklo i metal: 4. četvrtak u mjesecu",
+      "ulice": ["Bijele Klade (Vuka)", "Dubrovački put (Vuka)", "Ključ (Vuka)", "Kolodvorska (Vuka)", "Lipovac Hrastinski (Lipovac Hrastinski)", "Mali Rastovčić (Vuka)", "Milka Cepelića (Vuka)", "Mirna (Vuka)", "N. Šubića Zrinskog (Vuka)", "Osječka (Vuka)", "Semeljačka (Vuka)", "Stjepana Radića (Vuka)", "Veliki Rastovac (Hrastovac)"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-15 M 01-22 MPKSL 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-26 MPKSL",
+          "03-05 M 03-12 M 03-19 M 03-26 MPKSL",
+          "04-02 M 04-09 M 04-16 M 04-23 MPKSL 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-28 MPKSL",
+          "06-04 M 06-11 M 06-18 M 06-25 MPKSL",
+          "07-02 M 07-09 M 07-16 M 07-23 MPKSL 07-30 M",
+          "08-06 M 08-13 M 08-20 M 08-27 MPKSL",
+          "09-03 M 09-10 M 09-17 M 09-24 MPKSL",
+          "10-01 M 10-08 M 10-15 M 10-22 MPKSL 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-26 MPKSL",
+          "12-03 M 12-10 M 12-17 M 12-24 MPKSL 12-31 M"
+        ]
+      }
+    },
+    "68": {
+      "jls": "Čepin",
+      "podrucje": "Livana – miješani: srijeda; plastika i papir: 4. četvrtak u mjesecu",
+      "ulice": ["Cvjetna (Livana)", "Mirna (Livana)", "Omladinska (Livana)", "Tiha (Livana)", "Travna (Livana)", "Vrtna (Livana)", "Željeznička (Livana)"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-22 PK 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-25 M 02-26 PK",
+          "03-04 M 03-11 M 03-18 M 03-25 M 03-26 PK",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-23 PK 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-27 M 05-28 PK",
+          "06-03 M 06-10 M 06-17 M 06-24 M 06-25 PK",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-23 PK 07-29 M",
+          "08-05 M 08-12 M 08-19 M 08-26 M 08-27 PK",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-24 PK 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-22 PK 10-28 M",
+          "11-04 M 11-11 M 11-18 M 11-25 M 11-26 PK",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-24 PK 12-30 M"
+        ]
+      }
+    },
+    "69": {
+      "jls": "Čepin",
+      "podrucje": "Čepinski Martinci, Beketinci, Čokadinci – miješani: četvrtak; plastika i papir: 4. četvrtak u mjesecu",
+      "ulice": ["Bizovačka (Čepinski Martinci)", "Crkvena (Beketinci)", "Grabik (Čepinski Martinci)", "Osječka (Čepinski Martinci)", "Osječka (Čokadinci)", "Ribarska (Beketinci)", "Stjepana Radića (Beketinci)", "Stjepana Radića (Čepinski Martinci)", "Trg Palih branitelja (Čepinski Martinci)", "Ulica Sječe (Beketinci)", "Vladimira Nazora (Čepinski Martinci)", "Vučka (Beketinci)", "Čepinska (Beketinci)"],
+      "raw": {
+        "2026": [
+          "01-03 M! 01-08 M 01-15 M 01-22 MPK 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-26 MPK",
+          "03-05 M 03-12 M 03-19 M 03-26 MPK",
+          "04-02 M 04-09 M 04-16 M 04-23 MPK 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-28 MPK",
+          "06-04 M 06-11 M 06-18 M 06-25 MPK",
+          "07-02 M 07-09 M 07-16 M 07-23 MPK 07-30 M",
+          "08-06 M 08-13 M 08-20 M 08-27 MPK",
+          "09-03 M 09-10 M 09-17 M 09-24 MPK",
+          "10-01 M 10-08 M 10-15 M 10-22 MPK 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-26 MPK",
+          "12-03 M 12-10 M 12-17 M 12-24 MPK 12-31 M"
+        ]
+      }
+    },
+    "70": {
+      "jls": "Čepin",
+      "podrucje": "Čepin, Čepin-Ovčara – miješani: petak; plastika i papir: 1. četvrtak u mjesecu",
+      "ulice": ["Ante Starčevića (Čepin)", "Augusta Cesarca (Čepin)", "B. Radića (Čepin)", "Bana J.jelačića (Čepin)", "Bosutska (Čepin-Ovčara)", "Dore Pejačević (Čepin)", "Dravska (Čepin-Ovčara)", "Dunavska (Čepin-Ovčara)", "Hrvatskih Obrambenih Snaga (Čepin)", "J.j.strossmayera (Čepin)", "Karašička (Čepin-Ovčara)", "Kneza Branimira (Čepin)", "Kneza Domagoja (Čepin)", "Kneza Trpimira (Čepin)", "Kolodvorska (Čepin)", "Kralja Tomislava (Čepin-Ovčara)", "Krapinska (Čepin-Ovčara)", "Kupska (Čepin-Ovčara)", "Lj. Gaja (Čepin)", "Lonjska (Čepin-Ovčara)", "M.gupca (Čepin)", "Mala Branjevina (Čepin)", "Neretvanska (Čepin-Ovčara)", "Ruđera Boškovića (Čepin)", "Savska (Čepin-Ovčara)", "Unska (Čepin-Ovčara)", "Vrbaska (Čepin-Ovčara)", "Željeznička (Čepin)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-03 PK! 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-05 PK 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-05 PK 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-02 PK 04-03 M 04-10 M 04-17 M 04-24 M",
+          "05-01 M 05-07 PK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-04 PK 06-05 M 06-12 M 06-19 M 06-26 M",
+          "07-02 PK 07-03 M 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-06 PK 08-07 M 08-14 M 08-21 M 08-28 M",
+          "09-03 PK 09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-01 PK 10-02 M 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-05 PK 11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-03 PK 12-04 M 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "71": {
+      "jls": "Čepin",
+      "podrucje": "Čepin – miješani: petak; plastika i papir: 1. utorak u mjesecu",
+      "ulice": ["Bilogorska (Čepin)", "Biokovska (Čepin)", "Bjelolasička ulica (Čepin)", "Diljska (Čepin)", "Dinarska (Čepin)", "Kalnička (Čepin)", "Kamešnice (Čepin)", "Krbavska ulica (Čepin)", "Krndije (Čepin)", "Medvednička ulica (Čepin)", "Mosorska ulica (Čepin)", "Plješevička (Čepin)", "Prenjska (Čepin)", "Psunjska (Čepin)", "Risnjačka ulica (Čepin)", "Svilajska (Čepin)", "Ulica Ivanščice (Čepin)", "Ulica Papuka (Čepin)", "Ulica Petrove Gore (Čepin)", "Ulica Požeške Gore (Čepin)", "Ulica Zrinske Gore (Čepin)", "Učka ulica (Čepin)", "Velebitska (Čepin)", "Vratnička ulica (Čepin)", "Žumberačka ulica (Čepin)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 PK 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-03 PK 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-03 PK 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-07 PK 04-10 M 04-17 M 04-24 M",
+          "05-01 M 05-05 PK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-02 PK 06-05 M 06-12 M 06-19 M 06-26 M",
+          "07-03 M 07-07 PK 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-04 PK 08-07 M 08-14 M 08-21 M 08-28 M",
+          "09-01 PK 09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-06 PK 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-03 PK 11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-01 PK 12-04 M 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "72": {
+      "jls": "Čepin",
+      "podrucje": "Čepin – miješani: petak; plastika i papir: 4. ponedjeljak u mjesecu",
+      "ulice": ["A.b.šimića (Čepin)", "A.kačića Miošića (Čepin)", "Antuna G.matoša (Čepin)", "Augusta Šenoe (Čepin)", "Bara (Čepin)", "Dinka Šimunovića (Čepin)", "Dr. Franje Tuđmana (Čepin)", "Eugena Kumičića (Čepin)", "Franje Račkog (Čepin)", "Grada Vukovara (Čepin)", "I. Mažuranića (Čepin)", "Ivana Adamovića (Čepin)", "Ivana Gundulića (Čepin)", "Ivane Brlić Mažuranić (Čepin)", "Josipa Kozarca (Čepin)", "Kardinala A.stepinca (Čepin)", "Kardinala F.šepera (Čepin)", "Marina Držića (Čepin)", "Petra Preradovića (Čepin)", "Tina Ujevića (Čepin)", "Vladimira Nazora (Čepin)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-26 PK 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-23 PK 02-27 M",
+          "03-06 M 03-13 M 03-20 M 03-23 PK 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-24 M 04-27 PK",
+          "05-01 M 05-08 M 05-15 M 05-22 M 05-25 PK 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-22 PK 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-24 M 07-27 PK 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-24 PK 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-25 M 09-28 PK",
+          "10-02 M 10-09 M 10-16 M 10-23 M 10-26 PK 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-23 PK 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-26 M! 12-28 PK"
+        ]
+      }
+    },
+    "73": {
+      "jls": "Čepin",
+      "podrucje": "Čepin – miješani: petak; plastika i papir: 1. srijeda u mjesecu",
+      "ulice": ["Grobljanska (Čepin)", "Ivanščice (Čepin)", "Kralja Tomislava (Čepin)", "Kralja Zvonimira (Čepin)", "Osječka (Čepin)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-07 PK 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-04 PK 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-04 PK 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-01 PK 04-03 M 04-10 M 04-17 M 04-24 M",
+          "05-01 M 05-06 PK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-03 PK 06-05 M 06-12 M 06-19 M 06-26 M",
+          "07-01 PK 07-03 M 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-05 PK 08-07 M 08-14 M 08-21 M 08-28 M",
+          "09-02 PK 09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-07 PK 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-04 PK 11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-02 PK 12-04 M 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "74": {
+      "jls": "Čepin",
+      "podrucje": "Čepin – miješani: petak; plastika: 4. ponedjeljak u mjesecu; papir: ponedjeljak",
+      "ulice": ["Eugena Kvaternika (Čepin)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 K 01-09 M 01-12 K 01-16 M 01-19 K 01-23 M 01-26 PK 01-30 M",
+          "02-02 K 02-06 M 02-09 K 02-13 M 02-16 K 02-20 M 02-23 PK 02-27 M",
+          "03-02 K 03-06 M 03-09 K 03-13 M 03-16 K 03-20 M 03-23 PK 03-27 M 03-30 K",
+          "04-03 M 04-06 K 04-10 M 04-13 K 04-17 M 04-20 K 04-24 M 04-27 K",
+          "05-01 M 05-04 K 05-08 M 05-11 K 05-15 M 05-18 K 05-22 M 05-25 PK 05-29 M",
+          "06-01 K 06-05 M 06-08 K 06-12 M 06-15 K 06-19 M 06-22 PK 06-26 M 06-29 K",
+          "07-03 M 07-06 K 07-10 M 07-13 K 07-17 M 07-20 K 07-24 M 07-27 PK 07-31 M",
+          "08-03 K 08-07 M 08-10 K 08-14 M 08-17 K 08-21 M 08-24 PK 08-28 M 08-31 K",
+          "09-04 M 09-07 K 09-11 M 09-14 K 09-18 M 09-21 K 09-25 M 09-28 K",
+          "10-02 M 10-05 K 10-09 M 10-12 K 10-16 M 10-19 K 10-23 M 10-26 PK 10-30 M",
+          "11-02 K 11-06 M 11-09 K 11-13 M 11-16 K 11-20 M 11-23 PK 11-27 M 11-30 K",
+          "12-04 M 12-07 K 12-11 M 12-14 K 12-18 M 12-21 K 12-26 M! 12-28 K"
+        ]
+      }
+    }
+  }
+}

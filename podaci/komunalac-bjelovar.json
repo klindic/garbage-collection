@@ -1,0 +1,757 @@
+{
+  "davatelj": "Komunalac d.o.o. Bjelovar",
+  "web": "https://komunalac-bj.hr",
+  "izvor": "https://komunalac-bj.hr/odvoz-otpada-ulice",
+  "zupanija": "Bjelovarsko-bilogorska",
+  "jls": ["Bjelovar", "Kapela", "Nova Rača", "Rovišće", "Severin", "Šandrovac", "Velika Pisanica", "Veliko Trojstvo", "Zrinski Topolovac"],
+  "bioNapomena": "Biootpad iz obiteljskih kuća sa smeđim spremnikom odvozi se svaka dva tjedna, istog dana kad i miješani otpad (u Gradu Bjelovaru). Stambene zgrade i korisnici vreća u općinama imaju poseban raspored (https://komunalac-bj.hr/obavijesti-komunalac-bjelovar/odvoz-otpada).",
+  "napomene": ["Raspored vrijedi za obiteljske kuće; stambene zgrade imaju vlastiti raspored (papir i plastika jednom tjedno, biootpad, glomazni otpad).", "Papir i plastika odvoze se istog dana (plavi i žuti spremnik).", "Glomazni otpad u Gradu Bjelovaru odvozi se subotom po skupinama ulica; raspored: https://komunalac-bj.hr/obavijesti-komunalac-bjelovar/odvoz-otpada.", "Općine: dan odvoza miješanog otpada otisnut je na računu; ovdje je upisan samo kad ga navodi neka obavijest davatelja o blagdanima. Prema tim obavijestima miješani se otpad u općinama na blagdan ne odvozi (sljedeći odvoz je u redovitom terminu), osim u Općini Severin (odvozi se redovito).", "Grad Bjelovar: za blagdane davatelj objavljuje posebne obavijesti; bez obavijesti je upisan redoviti dan.", "Reciklažna dvorišta: T. G. Masaryka 4b (043/332-112) i Prespa bb (043/242-450). Kompostana: Prespa bb."],
+  "zone": {
+    "1": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, ponedjeljak; papir i plastika ponedjeljak 2: Adalberta Opitza, Andrije Mohorovičića, Augustina Harambašića, …",
+      "ulice": ["Adalberta Opitza", "Andrije Mohorovičića", "Augustina Harambašića", "Branimira Markovića", "Don Frane Bulića", "Franje Kuhača", "Ivana Cankara", "Ivana Volodera", "Križevačka cesta", "Marina Getaldića", "Odvojak Đure Sudete", "Pavleka Miškine", "Silvija Strahimira Kranjčevića", "Sv. Ane prilaz", "Sv. Ane ulica", "Tina Ujevića", "Đure Sudete", "Željka Markovića"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MPK 01-19 MB 01-26 M",
+          "02-02 MB 02-09 MPK 02-16 MB 02-23 M",
+          "03-02 MB 03-09 MPK 03-16 MB 03-23 M 03-30 MB",
+          "04-06 M 04-13 MBPK 04-20 M 04-27 MB",
+          "05-04 M 05-11 MBPK 05-18 M 05-25 MB",
+          "06-01 M 06-08 MBPK 06-15 M 06-22 MB 06-29 M",
+          "07-06 MB 07-13 MPK 07-20 MB 07-27 M",
+          "08-03 MB 08-10 MPK 08-17 MB 08-24 M 08-31 MB",
+          "09-07 M 09-14 MBPK 09-21 M 09-28 MB",
+          "10-05 M 10-12 MBPK 10-19 M 10-26 MB",
+          "11-02 M 11-09 MBPK 11-16 M 11-23 MB 11-30 M",
+          "12-07 MB 12-14 MPK 12-21 MB 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, ponedjeljak; papir i plastika srijeda 1: Plavnička ulica",
+      "ulice": ["Plavnička ulica"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-07 PK 01-12 M 01-19 MB 01-26 M",
+          "02-02 MB 02-04 PK 02-09 M 02-16 MB 02-23 M",
+          "03-02 MB 03-04 PK 03-09 M 03-16 MB 03-23 M 03-30 MB",
+          "04-01 PK 04-06 M 04-13 MB 04-20 M 04-27 MB",
+          "05-04 M 05-06 PK 05-11 MB 05-18 M 05-25 MB",
+          "06-01 M 06-03 PK 06-08 MB 06-15 M 06-22 MB 06-29 M",
+          "07-01 PK 07-06 MB 07-13 M 07-20 MB 07-27 M",
+          "08-03 MB 08-05 PK 08-10 M 08-17 MB 08-24 M 08-31 MB",
+          "09-02 PK 09-07 M 09-14 MB 09-21 M 09-28 MB",
+          "10-05 M 10-07 PK 10-12 MB 10-19 M 10-26 MB",
+          "11-02 M 11-04 PK 11-09 MB 11-16 M 11-23 MB 11-30 M",
+          "12-02 PK 12-07 MB 12-14 M 12-21 MB 12-28 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, ponedjeljak; papir i plastika četvrtak 1: Ante Kovačića, Branka Ivankovića, Dimitrija Demetra, …",
+      "ulice": ["Ante Kovačića", "Branka Ivankovića", "Dimitrija Demetra", "Dragutina Grganića", "Frana Galovića", "Grgura Ninskog", "Ivana Gregurića", "Ivana Česmičkog", "Janka Draškovića", "Junija Palmotića", "Jurja Dalmatinca", "Livadska", "Male Sredice", "Marka Marulića", "Milana i Naste Rojc", "Moslavačka", "Prilaz Ante Kovačića", "Prilaz Jurja Dalmatinca", "Prilaz Marka Marulića", "Vladimira Vidrića", "Vlahe Bukovca"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-08 PK 01-12 M 01-19 MB 01-26 M",
+          "02-02 MB 02-05 PK 02-09 M 02-16 MB 02-23 M",
+          "03-02 MB 03-05 PK 03-09 M 03-16 MB 03-23 M 03-30 MB",
+          "04-02 PK 04-06 M 04-13 MB 04-20 M 04-27 MB",
+          "05-04 M 05-07 PK 05-11 MB 05-18 M 05-25 MB",
+          "06-01 M 06-04 PK 06-08 MB 06-15 M 06-22 MB 06-29 M",
+          "07-02 PK 07-06 MB 07-13 M 07-20 MB 07-27 M",
+          "08-03 MB 08-06 PK 08-10 M 08-17 MB 08-24 M 08-31 MB",
+          "09-03 PK 09-07 M 09-14 MB 09-21 M 09-28 MB",
+          "10-01 PK 10-05 M 10-12 MB 10-19 M 10-26 MB",
+          "11-02 M 11-05 PK 11-09 MB 11-16 M 11-23 MB 11-30 M",
+          "12-03 PK 12-07 MB 12-14 M 12-21 MB 12-28 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, ponedjeljak; papir i plastika četvrtak 2: Andrije Kačića Miošića (od Matice hrvatske do Ferde Rusana), Ante Starčevića (od Matice hrvatske do Ferde Rusana), Ante Trumbića, …",
+      "ulice": ["Andrije Kačića Miošića (od Matice hrvatske do Ferde Rusana)", "Ante Starčevića (od Matice hrvatske do Ferde Rusana)", "Ante Trumbića", "Augusta Šenoe (Nazorova-Matice hrvatske)", "Bosanska", "Dr. Ante Starčevića (od Matice hrvatske do Ferde Rusana)", "Franjevačka 11, 11a,11b,11c", "Ivana Gundulića", "Ive Tijardovića", "Jurja Haulika", "Krste Frankopana", "Ljudevita Gaja", "Matice hrvatske", "Mihanovićeva 8a,8b,8c,8d", "Petra Preradovića", "Prilaz Andrije Kačića Miošića", "Tomaše Garika Masaryka", "Trg Eugena Kvaternika", "Trg Stanka Vraza", "Trg Stjepana Radića (Nazorova - Kranjčevićeva)", "Trg Stjepana Radića (Nazorova- Matice hrvatske)", "Trg kralja Tomislava", "Vatroslava Lisinskog", "Velike Sredice"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 M 01-15 PK 01-19 MB 01-26 M",
+          "02-02 MB 02-09 M 02-12 PK 02-16 MB 02-23 M",
+          "03-02 MB 03-09 M 03-12 PK 03-16 MB 03-23 M 03-30 MB",
+          "04-06 M 04-13 MB 04-16 PK 04-20 M 04-27 MB",
+          "05-04 M 05-11 MB 05-14 PK 05-18 M 05-25 MB",
+          "06-01 M 06-08 MB 06-11 PK 06-15 M 06-22 MB 06-29 M",
+          "07-06 MB 07-13 M 07-16 PK 07-20 MB 07-27 M",
+          "08-03 MB 08-10 M 08-13 PK 08-17 MB 08-24 M 08-31 MB",
+          "09-07 M 09-14 MB 09-17 PK 09-21 M 09-28 MB",
+          "10-05 M 10-12 MB 10-15 PK 10-19 M 10-26 MB",
+          "11-02 M 11-09 MB 11-12 PK 11-16 M 11-23 MB 11-30 M",
+          "12-07 MB 12-10 PK 12-14 M 12-21 MB 12-28 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, ponedjeljak; bez rasporeda papira i plastike: Julija Makanca, Naselje kralja Zvonimira",
+      "ulice": ["Julija Makanca", "Naselje kralja Zvonimira"],
+      "napomena": "Ove ulice nisu na popisu rasporeda papira i plastike; provjerite kod davatelja.",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 M 01-19 MB 01-26 M",
+          "02-02 MB 02-09 M 02-16 MB 02-23 M",
+          "03-02 MB 03-09 M 03-16 MB 03-23 M 03-30 MB",
+          "04-06 M 04-13 MB 04-20 M 04-27 MB",
+          "05-04 M 05-11 MB 05-18 M 05-25 MB",
+          "06-01 M 06-08 MB 06-15 M 06-22 MB 06-29 M",
+          "07-06 MB 07-13 M 07-20 MB 07-27 M",
+          "08-03 MB 08-10 M 08-17 MB 08-24 M 08-31 MB",
+          "09-07 M 09-14 MB 09-21 M 09-28 MB",
+          "10-05 M 10-12 MB 10-19 M 10-26 MB",
+          "11-02 M 11-09 MB 11-16 M 11-23 MB 11-30 M",
+          "12-07 MB 12-14 M 12-21 MB 12-28 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, utorak; papir i plastika utorak 1: Alekse Benigara, Bilogorska, Brune Bušića, …",
+      "ulice": ["Alekse Benigara", "Bilogorska", "Brune Bušića", "Hlebinska", "Istarska", "Jezerska", "Patera Stanka Banića", "Podravska"],
+      "raw": {
+        "2026": [
+          "01-06 MBPK 01-13 M 01-20 MB 01-27 M",
+          "02-03 MBPK 02-10 M 02-17 MB 02-24 M",
+          "03-03 MBPK 03-10 M 03-17 MB 03-24 M 03-31 MB",
+          "04-07 MPK 04-14 MB 04-21 M 04-28 MB",
+          "05-05 MPK 05-12 MB 05-19 M 05-26 MB",
+          "06-02 MPK 06-09 MB 06-16 M 06-23 MB 06-30 M",
+          "07-07 MBPK 07-14 M 07-21 MB 07-28 M",
+          "08-04 MBPK 08-11 M 08-18 MB 08-25 M",
+          "09-01 MBPK 09-08 M 09-15 MB 09-22 M 09-29 MB",
+          "10-06 MPK 10-13 MB 10-20 M 10-27 MB",
+          "11-03 MPK 11-10 MB 11-17 M 11-24 MB",
+          "12-01 MPK 12-08 MB 12-15 M 12-22 MB 12-29 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, utorak; papir i plastika četvrtak 2: 108.puka, Andrije Kačića Miošića (od Ferde Rusana do Antuna Mihanovića), Andrije Medulića, …",
+      "ulice": ["108.puka", "Andrije Kačića Miošića (od Ferde Rusana do Antuna Mihanovića)", "Andrije Medulića", "Ante Starčevića (od Ferde Rusana do Šetališta dr. Ivše Lebovića)", "Antuna Branka Šimića", "Antuna Mihanovića", "Augusta Šenoe (Mihanovićeva -Nazorova)", "Dr. Ante Starčevića (od Ferde Rusana do Ivana Viteza Trnskog)", "Dr. Luke Starčevića", "Ferde Rusana", "Frana Supila", "Franjevačka", "Ivana Kozarčanina", "Ivana Mažuranića", "Ivana Viteza Trnskog", "Josipa Jelačića", "Josipa Jurja Strossmayera", "Krste Špoljara", "Nikole Jurišića", "Petra Zrinskog", "Svetog Antuna", "Trg hrvatskih branitelja", "Trg hrvatskog sokola", "Vladimira Nazora (Radićev t. - Trg E. Kvaternika)", "Vladimira Nazora (Radićev trg-Zagrebačka)", "Šetalište dr. I. Lebovića"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 M 01-15 PK 01-20 MB 01-27 M",
+          "02-03 MB 02-10 M 02-12 PK 02-17 MB 02-24 M",
+          "03-03 MB 03-10 M 03-12 PK 03-17 MB 03-24 M 03-31 MB",
+          "04-07 M 04-14 MB 04-16 PK 04-21 M 04-28 MB",
+          "05-05 M 05-12 MB 05-14 PK 05-19 M 05-26 MB",
+          "06-02 M 06-09 MB 06-11 PK 06-16 M 06-23 MB 06-30 M",
+          "07-07 MB 07-14 M 07-16 PK 07-21 MB 07-28 M",
+          "08-04 MB 08-11 M 08-13 PK 08-18 MB 08-25 M",
+          "09-01 MB 09-08 M 09-15 MB 09-17 PK 09-22 M 09-29 MB",
+          "10-06 M 10-13 MB 10-15 PK 10-20 M 10-27 MB",
+          "11-03 M 11-10 MB 11-12 PK 11-17 M 11-24 MB",
+          "12-01 M 12-08 MB 12-10 PK 12-15 M 12-22 MB 12-29 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, utorak; papir i plastika petak 1: Alojzija Stepinca, Anta Antića, Ante Gabrića, …",
+      "ulice": ["Alojzija Stepinca", "Anta Antića", "Ante Gabrića", "Antuna Radića", "Augusta Cesarca", "Augustina Kažotića", "Banovine Hrvatske", "Bedema ljubavi", "Bogoslava Šuleka", "Bokokotorska", "Dr. Rudolfa Miculinića", "Eugena Kumičića", "Florijana Andrašeca", "Graničarska", "Ilirska", "Ivana Granđe", "Ivanovčanska", "Jakova Zadranina", "Josipa Langa", "Jurja Šuteja", "Kokinačkih žrtava", "Leopolda Mandića", "Ljudevita Jonkea", "Marice Stanković", "Marka Križevčanina", "Mate Lovraka", "Matije Gupca", "Međimurska", "Milana Šufflaya (P.Biškupa - A.Hebranga)", "Milana Šufllaya (M.Gupca-P.Biškupa)", "Mirka Bogovića", "Nikole Tavelića", "Ozane Kotorske", "Pavla Radića", "Petra Barbarića", "Petra Biškupa Vene", "Petra Hektorovića", "Stanislave Šubić", "Svetog Jeronima", "Tome Stantića", "Trakošćanska", "Vendelina Vošnjaka", "Vladimira Frajtića", "Vlatka Mačeka", "Zagorska", "Zagrebačka", "Šiška Menčetića", "Željka Sabola"],
+      "raw": {
+        "2026": [
+          "01-02 PK 01-06 MB 01-13 M 01-20 MB 01-27 M",
+          "02-03 MB 02-06 PK 02-10 M 02-17 MB 02-24 M",
+          "03-03 MB 03-06 PK 03-10 M 03-17 MB 03-24 M 03-31 MB",
+          "04-03 PK 04-07 M 04-14 MB 04-21 M 04-28 MB",
+          "05-05 M 05-08 PK 05-12 MB 05-19 M 05-26 MB",
+          "06-02 M 06-05 PK 06-09 MB 06-16 M 06-23 MB 06-30 M",
+          "07-03 PK 07-07 MB 07-14 M 07-21 MB 07-28 M",
+          "08-04 MB 08-07 PK 08-11 M 08-18 MB 08-25 M",
+          "09-01 MB 09-04 PK 09-08 M 09-15 MB 09-22 M 09-29 MB",
+          "10-02 PK 10-06 M 10-13 MB 10-20 M 10-27 MB",
+          "11-03 M 11-06 PK 11-10 MB 11-17 M 11-24 MB",
+          "12-01 M 12-04 PK 12-08 MB 12-15 M 12-22 MB 12-29 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, utorak; papir i plastika petak 2: 105. brigade, Andrije Hebranga, Baranjska ( sa prilazima ), …",
+      "ulice": ["105. brigade", "Andrije Hebranga", "Baranjska ( sa prilazima )", "Cvjetna", "Ferde Livadića", "Iločka", "Ivana Supeka", "Josipa Jagodića", "Lavoslava Ružičke", "Lovre Matačića", "Naselje Kralja Petra Krešimira IV", "Osječka", "Prilaz Andrije Hebranga", "Srijemska", "Vinkovačka", "Vlahe Paljetka", "Zvijerci", "Zvonka Lovrenčevića", "Šarengradska"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 M 01-16 PK 01-20 MB 01-27 M",
+          "02-03 MB 02-10 M 02-13 PK 02-17 MB 02-24 M",
+          "03-03 MB 03-10 M 03-13 PK 03-17 MB 03-24 M 03-31 MB",
+          "04-07 M 04-14 MB 04-17 PK 04-21 M 04-28 MB",
+          "05-05 M 05-12 MB 05-15 PK 05-19 M 05-26 MB",
+          "06-02 M 06-09 MB 06-12 PK 06-16 M 06-23 MB 06-30 M",
+          "07-07 MB 07-14 M 07-17 PK 07-21 MB 07-28 M",
+          "08-04 MB 08-11 M 08-14 PK 08-18 MB 08-25 M",
+          "09-01 MB 09-08 M 09-15 MB 09-18 PK 09-22 M 09-29 MB",
+          "10-06 M 10-13 MB 10-16 PK 10-20 M 10-27 MB",
+          "11-03 M 11-10 MB 11-13 PK 11-17 M 11-24 MB",
+          "12-01 M 12-08 MB 12-11 PK 12-15 M 12-22 MB 12-29 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, utorak; bez rasporeda papira i plastike: Prolaz Pavla Radića, Stipe Javora",
+      "ulice": ["Prolaz Pavla Radića", "Stipe Javora"],
+      "napomena": "Ove ulice nisu na popisu rasporeda papira i plastike; provjerite kod davatelja.",
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 M 01-20 MB 01-27 M",
+          "02-03 MB 02-10 M 02-17 MB 02-24 M",
+          "03-03 MB 03-10 M 03-17 MB 03-24 M 03-31 MB",
+          "04-07 M 04-14 MB 04-21 M 04-28 MB",
+          "05-05 M 05-12 MB 05-19 M 05-26 MB",
+          "06-02 M 06-09 MB 06-16 M 06-23 MB 06-30 M",
+          "07-07 MB 07-14 M 07-21 MB 07-28 M",
+          "08-04 MB 08-11 M 08-18 MB 08-25 M",
+          "09-01 MB 09-08 M 09-15 MB 09-22 M 09-29 MB",
+          "10-06 M 10-13 MB 10-20 M 10-27 MB",
+          "11-03 M 11-10 MB 11-17 M 11-24 MB",
+          "12-01 M 12-08 MB 12-15 M 12-22 MB 12-29 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, utorak i petak; papir i plastika četvrtak 2: Braće Diviš",
+      "ulice": ["Braće Diviš"],
+      "napomena": "Dva dana odvoza miješanog otpada; dan odvoza biootpada nije jednoznačan pa nije upisan.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 M 01-09 M 01-13 M 01-15 PK 01-16 M 01-20 M 01-23 M 01-27 M 01-30 M",
+          "02-03 M 02-06 M 02-10 M 02-12 PK 02-13 M 02-17 M 02-20 M 02-24 M 02-27 M",
+          "03-03 M 03-06 M 03-10 M 03-12 PK 03-13 M 03-17 M 03-20 M 03-24 M 03-27 M 03-31 M",
+          "04-03 M 04-07 M 04-10 M 04-14 M 04-16 PK 04-17 M 04-21 M 04-24 M 04-28 M",
+          "05-01 M 05-05 M 05-08 M 05-12 M 05-14 PK 05-15 M 05-19 M 05-22 M 05-26 M 05-29 M",
+          "06-02 M 06-05 M 06-09 M 06-11 PK 06-12 M 06-16 M 06-19 M 06-23 M 06-26 M 06-30 M",
+          "07-03 M 07-07 M 07-10 M 07-14 M 07-16 PK 07-17 M 07-21 M 07-24 M 07-28 M 07-31 M",
+          "08-04 M 08-07 M 08-11 M 08-13 PK 08-14 M 08-18 M 08-21 M 08-25 M 08-28 M",
+          "09-01 M 09-04 M 09-08 M 09-11 M 09-15 M 09-17 PK 09-18 M 09-22 M 09-25 M 09-29 M",
+          "10-02 M 10-06 M 10-09 M 10-13 M 10-15 PK 10-16 M 10-20 M 10-23 M 10-27 M 10-30 M",
+          "11-03 M 11-06 M 11-10 M 11-12 PK 11-13 M 11-17 M 11-20 M 11-24 M 11-27 M",
+          "12-01 M 12-04 M 12-08 M 12-10 PK 12-11 M 12-15 M 12-18 M 12-22 M 12-25 M 12-29 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, srijeda; papir i plastika ponedjeljak 1: Gornje Plavnice, Klokočevac",
+      "ulice": ["Gornje Plavnice", "Klokočevac"],
+      "raw": {
+        "2026": [
+          "01-05 PK 01-07 MB 01-14 M 01-21 MB 01-28 M",
+          "02-02 PK 02-04 MB 02-11 M 02-18 MB 02-25 M",
+          "03-02 PK 03-04 MB 03-11 M 03-18 MB 03-25 M",
+          "04-01 MB 04-06 PK 04-08 M 04-15 MB 04-22 M 04-29 MB",
+          "05-04 PK 05-06 M 05-13 MB 05-20 M 05-27 MB",
+          "06-01 PK 06-03 M 06-10 MB 06-17 M 06-24 MB",
+          "07-01 M 07-06 PK 07-08 MB 07-15 M 07-22 MB 07-29 M",
+          "08-03 PK 08-05 MB 08-12 M 08-19 MB 08-26 M",
+          "09-02 MB 09-07 PK 09-09 M 09-16 MB 09-23 M 09-30 MB",
+          "10-05 PK 10-07 M 10-14 MB 10-21 M 10-28 MB",
+          "11-02 PK 11-04 M 11-11 MB 11-18 M 11-25 MB",
+          "12-02 M 12-07 PK 12-09 MB 12-16 M 12-23 MB 12-30 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, srijeda; papir i plastika utorak 1: Franje Klvanje, Karla Svobode, Katarine Kotromanić - Kosače, …",
+      "ulice": ["Franje Klvanje", "Karla Svobode", "Katarine Kotromanić - Kosače", "Kupinovac", "Letičani", "Puričani", "Put žrtvama u Lugu", "Trojstvena ulica", "Vijenac"],
+      "raw": {
+        "2026": [
+          "01-06 PK 01-07 MB 01-14 M 01-21 MB 01-28 M",
+          "02-03 PK 02-04 MB 02-11 M 02-18 MB 02-25 M",
+          "03-03 PK 03-04 MB 03-11 M 03-18 MB 03-25 M",
+          "04-01 MB 04-07 PK 04-08 M 04-15 MB 04-22 M 04-29 MB",
+          "05-05 PK 05-06 M 05-13 MB 05-20 M 05-27 MB",
+          "06-02 PK 06-03 M 06-10 MB 06-17 M 06-24 MB",
+          "07-01 M 07-07 PK 07-08 MB 07-15 M 07-22 MB 07-29 M",
+          "08-04 PK 08-05 MB 08-12 M 08-19 MB 08-26 M",
+          "09-01 PK 09-02 MB 09-09 M 09-16 MB 09-23 M 09-30 MB",
+          "10-06 PK 10-07 M 10-14 MB 10-21 M 10-28 MB",
+          "11-03 PK 11-04 M 11-11 MB 11-18 M 11-25 MB",
+          "12-01 PK 12-02 M 12-09 MB 12-16 M 12-23 MB 12-30 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, srijeda; papir i plastika srijeda 1: Breza, Gudovac (do Rašća, Rašće,Majcanov sokak), Gudovac (od doma prema Prgomelju, D.Gudovac), …",
+      "ulice": ["Breza", "Gudovac (do Rašća, Rašće,Majcanov sokak)", "Gudovac (od doma prema Prgomelju, D.Gudovac)", "Gudovačka cesta", "Prgomelje", "Rajić", "Stančić"],
+      "raw": {
+        "2026": [
+          "01-07 MBPK 01-14 M 01-21 MB 01-28 M",
+          "02-04 MBPK 02-11 M 02-18 MB 02-25 M",
+          "03-04 MBPK 03-11 M 03-18 MB 03-25 M",
+          "04-01 MBPK 04-08 M 04-15 MB 04-22 M 04-29 MB",
+          "05-06 MPK 05-13 MB 05-20 M 05-27 MB",
+          "06-03 MPK 06-10 MB 06-17 M 06-24 MB",
+          "07-01 MPK 07-08 MB 07-15 M 07-22 MB 07-29 M",
+          "08-05 MBPK 08-12 M 08-19 MB 08-26 M",
+          "09-02 MBPK 09-09 M 09-16 MB 09-23 M 09-30 MB",
+          "10-07 MPK 10-14 MB 10-21 M 10-28 MB",
+          "11-04 MPK 11-11 MB 11-18 M 11-25 MB",
+          "12-02 MPK 12-09 MB 12-16 M 12-23 MB 12-30 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, srijeda; papir i plastika srijeda 2: Brezovac - Brezovac glavna cesta, Brezovac - Garešnička, Brezovac - Mišinačka, …",
+      "ulice": ["Brezovac - Brezovac glavna cesta", "Brezovac - Garešnička", "Brezovac - Mišinačka", "Brezovac - Mlinska", "Brezovac - Prilaz Garešničkoj", "Brezovac – Ružinovačka", "Brezovac – Sportska", "Ciglena", "Galovac", "Gornji Tomaš", "Kokinac", "Mala Ciglena", "Malo Korenovo", "Novi Pavljani", "Obrovnica", "Patkovac", "Prespa", "Prokljuvani", "Stari Pavljani", "Tomaš", "Veliko Korenovo"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 MPK 01-21 MB 01-28 M",
+          "02-04 MB 02-11 MPK 02-18 MB 02-25 M",
+          "03-04 MB 03-11 MPK 03-18 MB 03-25 M",
+          "04-01 MB 04-08 M 04-15 MBPK 04-22 M 04-29 MB",
+          "05-06 M 05-13 MBPK 05-20 M 05-27 MB",
+          "06-03 M 06-10 MBPK 06-17 M 06-24 MB",
+          "07-01 M 07-08 MB 07-15 MPK 07-22 MB 07-29 M",
+          "08-05 MB 08-12 MPK 08-19 MB 08-26 M",
+          "09-02 MB 09-09 M 09-16 MBPK 09-23 M 09-30 MB",
+          "10-07 M 10-14 MBPK 10-21 M 10-28 MB",
+          "11-04 M 11-11 MBPK 11-18 M 11-25 MB",
+          "12-02 M 12-09 MBPK 12-16 M 12-23 MB 12-30 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, četvrtak; papir i plastika ponedjeljak 1: Hrgovljani",
+      "ulice": ["Hrgovljani"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-05 PK 01-08 MB 01-15 M 01-22 MB 01-29 M",
+          "02-02 PK 02-05 MB 02-12 M 02-19 MB 02-26 M",
+          "03-02 PK 03-05 MB 03-12 M 03-19 MB 03-26 M",
+          "04-02 MB 04-06 PK 04-09 M 04-16 MB 04-23 M 04-30 MB",
+          "05-04 PK 05-07 M 05-14 MB 05-21 M 05-28 MB",
+          "06-01 PK 06-04 M 06-11 MB 06-18 M 06-25 MB",
+          "07-02 M 07-06 PK 07-09 MB 07-16 M 07-23 MB 07-30 M",
+          "08-03 PK 08-06 MB 08-13 M 08-20 MB 08-27 M",
+          "09-03 MB 09-07 PK 09-10 M 09-17 MB 09-24 M",
+          "10-01 MB 10-05 PK 10-08 M 10-15 MB 10-22 M 10-29 MB",
+          "11-02 PK 11-05 M 11-12 MB 11-19 M 11-26 MB",
+          "12-03 M 12-07 PK 12-10 MB 12-17 M 12-24 MB 12-31 M"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, četvrtak; papir i plastika ponedjeljak 2: Fausta Vrančića, Nikole Tesle, Nove Plavnice, …",
+      "ulice": ["Fausta Vrančića", "Nikole Tesle", "Nove Plavnice", "Otona Kučere", "Prilaz Nove Plavnice", "Ruđera Boškovića", "Stanka Hondla", "Staroplavnička ulica", "Staroplavnički odvojak", "Staroplavnički prilaz", "Vinka Dvoržaka"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MB 01-12 PK 01-15 M 01-22 MB 01-29 M",
+          "02-05 MB 02-09 PK 02-12 M 02-19 MB 02-26 M",
+          "03-05 MB 03-09 PK 03-12 M 03-19 MB 03-26 M",
+          "04-02 MB 04-09 M 04-13 PK 04-16 MB 04-23 M 04-30 MB",
+          "05-07 M 05-11 PK 05-14 MB 05-21 M 05-28 MB",
+          "06-04 M 06-08 PK 06-11 MB 06-18 M 06-25 MB",
+          "07-02 M 07-09 MB 07-13 PK 07-16 M 07-23 MB 07-30 M",
+          "08-06 MB 08-10 PK 08-13 M 08-20 MB 08-27 M",
+          "09-03 MB 09-10 M 09-14 PK 09-17 MB 09-24 M",
+          "10-01 MB 10-08 M 10-12 PK 10-15 MB 10-22 M 10-29 MB",
+          "11-05 M 11-09 PK 11-12 MB 11-19 M 11-26 MB",
+          "12-03 M 12-10 MB 12-14 PK 12-17 M 12-24 MB 12-31 M"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, četvrtak; papir i plastika utorak 2: Vidikovac",
+      "ulice": ["Vidikovac"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MB 01-13 PK 01-15 M 01-22 MB 01-29 M",
+          "02-05 MB 02-10 PK 02-12 M 02-19 MB 02-26 M",
+          "03-05 MB 03-10 PK 03-12 M 03-19 MB 03-26 M",
+          "04-02 MB 04-09 M 04-14 PK 04-16 MB 04-23 M 04-30 MB",
+          "05-07 M 05-12 PK 05-14 MB 05-21 M 05-28 MB",
+          "06-04 M 06-09 PK 06-11 MB 06-18 M 06-25 MB",
+          "07-02 M 07-09 MB 07-14 PK 07-16 M 07-23 MB 07-30 M",
+          "08-06 MB 08-11 PK 08-13 M 08-20 MB 08-27 M",
+          "09-03 MB 09-10 M 09-15 PK 09-17 MB 09-24 M",
+          "10-01 MB 10-08 M 10-13 PK 10-15 MB 10-22 M 10-29 MB",
+          "11-05 M 11-10 PK 11-12 MB 11-19 M 11-26 MB",
+          "12-03 M 12-08 PK 12-10 MB 12-17 M 12-24 MB 12-31 M"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, četvrtak; papir i plastika četvrtak 1: 1. Svibnja, Celestina Medovića, Dragutina Domjanića, …",
+      "ulice": ["1. Svibnja", "Celestina Medovića", "Dragutina Domjanića", "Franca Prešerna", "Ivana Gorana Kovačića", "Ivana Meštrovića", "Josipa Pupačića", "Joze Kljakovića", "Julija Tomića", "Jure Kaštelana", "Ksavera Šandora Đalskog", "Ljube Babića", "Maka Dizdara", "Marina Držića", "Matka Laginje", "Nikole Šopa", "Vladana Desnice"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MBPK 01-15 M 01-22 MB 01-29 M",
+          "02-05 MBPK 02-12 M 02-19 MB 02-26 M",
+          "03-05 MBPK 03-12 M 03-19 MB 03-26 M",
+          "04-02 MBPK 04-09 M 04-16 MB 04-23 M 04-30 MB",
+          "05-07 MPK 05-14 MB 05-21 M 05-28 MB",
+          "06-04 MPK 06-11 MB 06-18 M 06-25 MB",
+          "07-02 MPK 07-09 MB 07-16 M 07-23 MB 07-30 M",
+          "08-06 MBPK 08-13 M 08-20 MB 08-27 M",
+          "09-03 MBPK 09-10 M 09-17 MB 09-24 M",
+          "10-01 MBPK 10-08 M 10-15 MB 10-22 M 10-29 MB",
+          "11-05 MPK 11-12 MB 11-19 M 11-26 MB",
+          "12-03 MPK 12-10 MB 12-17 M 12-24 MB 12-31 M"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, četvrtak; papir i plastika četvrtak 2: Niska ulica, Tome Bakača, Trg Antuna Gustava Matoša",
+      "ulice": ["Niska ulica", "Tome Bakača", "Trg Antuna Gustava Matoša"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MB 01-15 MPK 01-22 MB 01-29 M",
+          "02-05 MB 02-12 MPK 02-19 MB 02-26 M",
+          "03-05 MB 03-12 MPK 03-19 MB 03-26 M",
+          "04-02 MB 04-09 M 04-16 MBPK 04-23 M 04-30 MB",
+          "05-07 M 05-14 MBPK 05-21 M 05-28 MB",
+          "06-04 M 06-11 MBPK 06-18 M 06-25 MB",
+          "07-02 M 07-09 MB 07-16 MPK 07-23 MB 07-30 M",
+          "08-06 MB 08-13 MPK 08-20 MB 08-27 M",
+          "09-03 MB 09-10 M 09-17 MBPK 09-24 M",
+          "10-01 MB 10-08 M 10-15 MBPK 10-22 M 10-29 MB",
+          "11-05 M 11-12 MBPK 11-19 M 11-26 MB",
+          "12-03 M 12-10 MBPK 12-17 M 12-24 MB 12-31 M"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, petak; papir i plastika utorak 1: Blajburških žrtava, Eugena Kolonića, Ferde Gassmana, …",
+      "ulice": ["Blajburških žrtava", "Eugena Kolonića", "Ferde Gassmana", "Grgura Karlovčana", "Hrvatskog proljeća", "Ivana Pernara", "Rudolfa Vimera", "Vukovarska", "Đurđevačka"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 PK 01-09 MB 01-16 M 01-23 MB 01-30 M",
+          "02-03 PK 02-06 MB 02-13 M 02-20 MB 02-27 M",
+          "03-03 PK 03-06 MB 03-13 M 03-20 MB 03-27 M",
+          "04-03 MB 04-07 PK 04-10 M 04-17 MB 04-24 M",
+          "05-01 MB 05-05 PK 05-08 M 05-15 MB 05-22 M 05-29 MB",
+          "06-02 PK 06-05 M 06-12 MB 06-19 M 06-26 MB",
+          "07-03 M 07-07 PK 07-10 MB 07-17 M 07-24 MB 07-31 M",
+          "08-04 PK 08-07 MB 08-14 M 08-21 MB 08-28 M",
+          "09-01 PK 09-04 MB 09-11 M 09-18 MB 09-25 M",
+          "10-02 MB 10-06 PK 10-09 M 10-16 MB 10-23 M 10-30 MB",
+          "11-03 PK 11-06 M 11-13 MB 11-20 M 11-27 MB",
+          "12-01 PK 12-04 M 12-11 MB 12-18 M 12-25 M 12-26 B!"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, petak; papir i plastika utorak 2: Bjelovarska, Braće Vusić, Crkvena ulica, …",
+      "ulice": ["Bjelovarska", "Braće Vusić", "Crkvena ulica", "Dravska", "Drinska", "Glogovnička", "Ilovska", "Izvorska", "Josipa Matačića", "Lonjska", "Milke Trnine", "Mlinovac", "Novoseljanska", "Petra Zoranića", "Radničko naselje prilaz I", "Radničko naselje prilaz II", "Rudolfa Wagnera", "Savska", "Slavonska cesta", "Unska", "Ždralovi - Crkvena", "Ždralovi - Daruvarska", "Ždralovi - Ivana Dončevića", "Ždralovi - Kneza Višeslava", "Ždralovi - Kralja Tomislava", "Ždralovi - Mije Bobetka", "Ždralovi - Milke Trnine", "Ždralovi - Ždralovska"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MB 01-13 PK 01-16 M 01-23 MB 01-30 M",
+          "02-06 MB 02-10 PK 02-13 M 02-20 MB 02-27 M",
+          "03-06 MB 03-10 PK 03-13 M 03-20 MB 03-27 M",
+          "04-03 MB 04-10 M 04-14 PK 04-17 MB 04-24 M",
+          "05-01 MB 05-08 M 05-12 PK 05-15 MB 05-22 M 05-29 MB",
+          "06-05 M 06-09 PK 06-12 MB 06-19 M 06-26 MB",
+          "07-03 M 07-10 MB 07-14 PK 07-17 M 07-24 MB 07-31 M",
+          "08-07 MB 08-11 PK 08-14 M 08-21 MB 08-28 M",
+          "09-04 MB 09-11 M 09-15 PK 09-18 MB 09-25 M",
+          "10-02 MB 10-09 M 10-13 PK 10-16 MB 10-23 M 10-30 MB",
+          "11-06 M 11-10 PK 11-13 MB 11-20 M 11-27 MB",
+          "12-04 M 12-08 PK 12-11 MB 12-18 M 12-25 M 12-26 B!"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, petak; papir i plastika petak 2: Andrije Konca, Antuna Topića Mimare, Antuna Šoljana, …",
+      "ulice": ["Andrije Konca", "Antuna Topića Mimare", "Antuna Šoljana", "Anzelma Canjuge", "Blagoja Berse", "Blagoja Berse prilaz I", "Blagoja Berse prilaz II", "Blagoja Berse prilaz III", "Blaženog G. Kotorskog", "Borisa Papandopula", "Drinskih mučenica", "Egidija Bulešića", "Fortunata Pinatarića", "Ivana Merza", "Ivana Zajca", "J. S. Bacha", "Jakova Gotovca", "Jasmina", "Josipa Runjanina", "Kalnička", "Kamila Kolba", "Krste Odaka", "Marije Jurić Zagorke", "Marije Petković", "Osvalda Totha", "Viktora Bubnja", "Vinka Žganeca", "Vjenceslava Novaka", "Ćirila i Metoda", "Đure Basaričeka"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MB 01-16 MPK 01-23 MB 01-30 M",
+          "02-06 MB 02-13 MPK 02-20 MB 02-27 M",
+          "03-06 MB 03-13 MPK 03-20 MB 03-27 M",
+          "04-03 MB 04-10 M 04-17 MBPK 04-24 M",
+          "05-01 MB 05-08 M 05-15 MBPK 05-22 M 05-29 MB",
+          "06-05 M 06-12 MBPK 06-19 M 06-26 MB",
+          "07-03 M 07-10 MB 07-17 MPK 07-24 MB 07-31 M",
+          "08-07 MB 08-14 MPK 08-21 MB 08-28 M",
+          "09-04 MB 09-11 M 09-18 MBPK 09-25 M",
+          "10-02 MB 10-09 M 10-16 MBPK 10-23 M 10-30 MB",
+          "11-06 M 11-13 MBPK 11-20 M 11-27 MB",
+          "12-04 M 12-11 MBPK 12-18 M 12-25 M 12-26 B!"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Bjelovar",
+      "podrucje": "Bjelovar, petak; bez rasporeda papira i plastike: Vladimira Jurčića",
+      "ulice": ["Vladimira Jurčića"],
+      "napomena": "Ove ulice nisu na popisu rasporeda papira i plastike; provjerite kod davatelja.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MB 01-16 M 01-23 MB 01-30 M",
+          "02-06 MB 02-13 M 02-20 MB 02-27 M",
+          "03-06 MB 03-13 M 03-20 MB 03-27 M",
+          "04-03 MB 04-10 M 04-17 MB 04-24 M",
+          "05-01 MB 05-08 M 05-15 MB 05-22 M 05-29 MB",
+          "06-05 M 06-12 MB 06-19 M 06-26 MB",
+          "07-03 M 07-10 MB 07-17 M 07-24 MB 07-31 M",
+          "08-07 MB 08-14 M 08-21 MB 08-28 M",
+          "09-04 MB 09-11 M 09-18 MB 09-25 M",
+          "10-02 MB 10-09 M 10-16 MB 10-23 M 10-30 MB",
+          "11-06 M 11-13 MB 11-20 M 11-27 MB",
+          "12-04 M 12-11 MB 12-18 M 12-25 M 12-26 B!"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Kapela",
+      "podrucje": "Općina Kapela (miješani petak): Babotok, Botinac, Donji Mosti, Gornje Sredice, …",
+      "ulice": ["Babotok", "Botinac", "Donji Mosti", "Gornje Sredice", "Gornje Zdjelice", "Gornji Mosti", "Jabučeta", "Kapela", "Lipovo Brdo", "Poljančani", "Srednji Mosti"],
+      "napomena": "Dan odvoza miješanog otpada prema obavijesti davatelja iz 2025.; provjerite na računu.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 MPK 01-30 M",
+          "02-06 M 02-13 M 02-20 MPK 02-27 M",
+          "03-06 M 03-13 M 03-20 MPK 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-24 MPK",
+          "05-08 M 05-15 M 05-22 MPK 05-29 M",
+          "06-05 M 06-06 G 06-12 M 06-19 MPK 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-24 MPK 07-31 M",
+          "08-07 M 08-14 M 08-21 MPK 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-25 MPK",
+          "10-02 M 10-09 M 10-16 M 10-23 MPK 10-30 M",
+          "11-06 M 11-13 M 11-20 MPK 11-27 M",
+          "12-04 M 12-11 M 12-18 MPK"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Kapela",
+      "podrucje": "Općina Kapela (miješani petak): Visovi, Reškovci, Prnjavor, Lalići, …",
+      "ulice": ["Visovi", "Reškovci", "Prnjavor", "Lalići", "Tvrda Reka", "Pavlin Kloštar", "Kobasičari", "Stanići", "Novi Skucani", "Šiptari", "Stari Skucani", "Starčevljani", "Stara Diklenica", "Nova Diklenica", "Srednja Diklenica"],
+      "napomena": "Dan odvoza miješanog otpada prema obavijesti davatelja iz 2025.; provjerite na računu.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 MPK 01-30 M",
+          "02-06 M 02-13 M 02-20 MPK 02-27 M",
+          "03-06 M 03-13 M 03-20 MPK 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-24 MPK",
+          "05-08 M 05-15 M 05-22 MPK 05-29 M",
+          "06-05 M 06-12 M 06-19 MPK 06-20 G 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-24 MPK 07-31 M",
+          "08-07 M 08-14 M 08-21 MPK 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-25 MPK",
+          "10-02 M 10-09 M 10-16 M 10-23 MPK 10-30 M",
+          "11-06 M 11-13 M 11-20 MPK 11-27 M",
+          "12-04 M 12-11 M 12-18 MPK"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Nova Rača",
+      "podrucje": "Općina Nova Rača (miješani četvrtak): Bedenik, Bulinac, Dautan, Drljanovac, …",
+      "ulice": ["Bedenik", "Bulinac", "Dautan", "Drljanovac", "Kozarevac", "Međurača", "Nevinac"],
+      "napomena": "Dan odvoza miješanog otpada prema obavijesti davatelja iz 2025.; provjerite na računu.",
+      "raw": {
+        "2026": [
+          "01-08 M 01-15 M 01-22 MPK 01-29 M",
+          "02-05 M 02-12 M 02-19 MPK 02-26 M",
+          "03-05 M 03-12 M 03-19 MPK 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 MPK 04-30 M",
+          "05-07 M 05-14 M 05-21 MPK 05-28 M",
+          "06-11 M 06-18 MPK 06-25 M",
+          "07-02 M 07-04 G 07-09 M 07-16 M 07-23 MPK 07-30 M",
+          "08-06 M 08-13 M 08-20 MPK 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 MPK",
+          "10-01 M 10-08 M 10-15 M 10-22 MPK 10-29 M",
+          "11-05 M 11-12 M 11-19 MPK 11-26 M",
+          "12-03 M 12-10 M 12-17 MPK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Nova Rača",
+      "podrucje": "Općina Nova Rača (miješani četvrtak): Nova Rača, Orlovac, Sasovac, Slovinska Kovačica, …",
+      "ulice": ["Nova Rača", "Orlovac", "Sasovac", "Slovinska Kovačica", "Stara Rača", "Tociljevac"],
+      "napomena": "Dan odvoza miješanog otpada prema obavijesti davatelja iz 2025.; provjerite na računu.",
+      "raw": {
+        "2026": [
+          "01-08 M 01-15 M 01-22 MPK 01-29 M",
+          "02-05 M 02-12 M 02-19 MPK 02-26 M",
+          "03-05 M 03-12 M 03-19 MPK 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 MPK 04-30 M",
+          "05-07 M 05-14 M 05-21 MPK 05-28 M",
+          "06-11 M 06-18 MPK 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-18 G 07-23 MPK 07-30 M",
+          "08-06 M 08-13 M 08-20 MPK 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 MPK",
+          "10-01 M 10-08 M 10-15 M 10-22 MPK 10-29 M",
+          "11-05 M 11-12 M 11-19 MPK 11-26 M",
+          "12-03 M 12-10 M 12-17 MPK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Rovišće",
+      "podrucje": "Općina Rovišće (miješani ponedjeljak): Predavac, Rovišće",
+      "ulice": ["Predavac", "Rovišće"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 MPK 01-26 M",
+          "02-02 M 02-09 M 02-16 MPK 02-23 M",
+          "03-02 M 03-09 M 03-16 MPK 03-23 M 03-30 M",
+          "04-13 M 04-20 MPK 04-27 M",
+          "05-04 M 05-11 M 05-18 MPK 05-25 M",
+          "06-01 M 06-08 M 06-15 MPK 06-29 M",
+          "07-06 M 07-13 M 07-20 MPK 07-27 M",
+          "08-01 G 08-03 M 08-10 M 08-17 MPK 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-21 MPK 09-28 M",
+          "10-05 M 10-12 M 10-19 MPK 10-26 M",
+          "11-02 M 11-09 M 11-16 MPK 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 MPK 12-28 M"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Rovišće",
+      "podrucje": "Općina Rovišće (miješani ponedjeljak): Domankuš, Gornje Rovišće, Kakinac, Kovačevac, …",
+      "ulice": ["Domankuš", "Gornje Rovišće", "Kakinac", "Kovačevac", "Kraljevac", "Lipovčani", "Podgorci", "Prekobrdo", "Tuk", "Žabjak"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 MPK 01-26 M",
+          "02-02 M 02-09 M 02-16 MPK 02-23 M",
+          "03-02 M 03-09 M 03-16 MPK 03-23 M 03-30 M",
+          "04-13 M 04-20 MPK 04-27 M",
+          "05-04 M 05-11 M 05-18 MPK 05-25 M",
+          "06-01 M 06-08 M 06-15 MPK 06-29 M",
+          "07-06 M 07-13 M 07-20 MPK 07-27 M",
+          "08-03 M 08-10 M 08-17 MPK 08-22 G 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-21 MPK 09-28 M",
+          "10-05 M 10-12 M 10-19 MPK 10-26 M",
+          "11-02 M 11-09 M 11-16 MPK 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 MPK 12-28 M"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Severin",
+      "podrucje": "Općina Severin (miješani petak): Orovac, Severin",
+      "ulice": ["Orovac", "Severin"],
+      "napomena": "Dan odvoza miješanog otpada prema obavijesti davatelja iz 2025.; provjerite na računu.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-20 PK 01-23 M 01-30 M",
+          "02-06 M 02-13 M 02-17 PK 02-20 M 02-27 M",
+          "03-06 M 03-13 M 03-17 PK 03-20 M 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-21 PK 04-24 M",
+          "05-01 M 05-08 M 05-15 M 05-19 PK 05-22 M 05-29 M",
+          "06-05 M 06-12 M 06-16 PK 06-19 M 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-21 PK 07-24 M 07-31 M",
+          "08-07 M 08-14 M 08-18 PK 08-21 M 08-28 M 08-29 G",
+          "09-04 M 09-11 M 09-18 M 09-22 PK 09-25 M",
+          "10-02 M 10-09 M 10-16 M 10-20 PK 10-23 M 10-30 M",
+          "11-06 M 11-13 M 11-17 PK 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-15 PK 12-18 M 12-25 M"
+        ]
+      }
+    },
+    "32": {
+      "jls": "Šandrovac",
+      "podrucje": "Općina Šandrovac (miješani četvrtak): Jasenik, Kašljavac, Ravneš, Šandrovac, …",
+      "ulice": ["Jasenik", "Kašljavac", "Ravneš", "Šandrovac", "Lasovac", "Lasovac Brdo", "Pupelica"],
+      "napomena": "Dan odvoza miješanog otpada prema obavijesti davatelja iz 2025.; provjerite na računu.",
+      "raw": {
+        "2026": [
+          "01-08 M 01-15 M 01-22 MPK 01-29 M",
+          "02-05 M 02-12 M 02-19 MPK 02-26 M",
+          "03-05 M 03-12 M 03-19 MPK 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 MPK 04-30 M",
+          "05-07 M 05-14 M 05-21 MPK 05-28 M",
+          "06-11 M 06-18 MPK 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-23 MPK 07-30 M",
+          "08-06 M 08-13 M 08-20 MPK 08-27 M",
+          "09-03 M 09-10 M 09-12 G 09-17 M 09-24 MPK",
+          "10-01 M 10-08 M 10-15 M 10-22 MPK 10-29 M",
+          "11-05 M 11-12 M 11-19 MPK 11-26 M",
+          "12-03 M 12-10 M 12-17 MPK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "33": {
+      "jls": "Velika Pisanica",
+      "podrucje": "Općina Velika Pisanica (miješani utorak): Babinac, Bačkovica, Bedenička, Čađavac, …",
+      "ulice": ["Babinac", "Bačkovica", "Bedenička", "Čađavac", "Nova Pisanica", "Polum", "Ribnjačka", "Velika Pisanica"],
+      "napomena": "Dan odvoza miješanog otpada prema obavijesti davatelja iz 2025.; provjerite na računu.",
+      "raw": {
+        "2026": [
+          "01-13 M 01-20 MPK 01-27 M",
+          "02-03 M 02-10 M 02-17 MPK 02-24 M",
+          "03-03 M 03-10 M 03-17 MPK 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-21 MPK 04-28 M",
+          "05-05 M 05-12 M 05-19 MPK 05-26 M",
+          "06-02 M 06-09 M 06-16 MPK 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-21 MPK 07-28 M",
+          "08-04 M 08-11 M 08-18 MPK 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-22 MPK 09-26 G 09-29 M",
+          "10-06 M 10-13 M 10-20 MPK 10-27 M",
+          "11-03 M 11-10 M 11-17 MPK 11-24 M",
+          "12-01 M 12-08 M 12-15 MPK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "34": {
+      "jls": "Veliko Trojstvo",
+      "podrucje": "Općina Veliko Trojstvo (miješani srijeda): Ćurlovac, Dominkovica, Grginac, Kegljevac, …",
+      "ulice": ["Ćurlovac", "Dominkovica", "Grginac", "Kegljevac", "Maglenča", "Malo Trojstvo", "Martinac", "Paulovac", "Višnjevac", "Vrbica", "Veliko Trojstvo"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 MPK 01-28 M",
+          "02-04 M 02-11 M 02-18 MPK 02-25 M",
+          "03-04 M 03-11 M 03-18 MPK 03-25 M",
+          "04-01 M 04-08 M 04-15 M 04-22 MPK 04-29 M",
+          "05-06 M 05-13 M 05-20 MPK 05-27 M",
+          "06-03 M 06-10 M 06-17 MPK 06-24 M",
+          "07-01 M 07-08 M 07-15 M 07-22 MPK 07-29 M",
+          "08-12 M 08-19 MPK 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-23 MPK 09-30 M",
+          "10-07 M 10-10 G 10-14 M 10-21 MPK 10-28 M",
+          "11-04 M 11-11 M 11-25 MPK",
+          "12-02 M 12-09 M 12-16 MPK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "35": {
+      "jls": "Zrinski Topolovac",
+      "podrucje": "Općina Zrinski Topolovac (miješani ponedjeljak): Jakopovac, Križ Gornji, Zrinski Topolovac",
+      "ulice": ["Jakopovac", "Križ Gornji", "Zrinski Topolovac"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 MPK 01-26 M",
+          "02-02 M 02-09 M 02-16 MPK 02-23 M",
+          "03-02 M 03-09 M 03-16 MPK 03-23 M 03-30 M",
+          "04-13 M 04-20 MPK 04-27 M",
+          "05-04 M 05-11 M 05-18 MPK 05-25 M",
+          "06-01 M 06-08 M 06-15 MPK 06-29 M",
+          "07-06 M 07-13 M 07-20 MPK 07-27 M",
+          "08-03 M 08-10 M 08-17 MPK 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-21 MPK 09-28 M",
+          "10-05 M 10-12 M 10-17 G 10-19 MPK 10-26 M",
+          "11-02 M 11-09 M 11-16 MPK 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 MPK 12-28 M"
+        ]
+      }
+    }
+  }
+}

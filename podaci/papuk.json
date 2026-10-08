@@ -1,0 +1,168 @@
+{
+  "davatelj": "Papuk d.o.o. Orahovica",
+  "web": "https://www.papuk-doo.hr",
+  "zupanija": "Virovitičko-podravska",
+  "jls": ["Orahovica", "Čačinci", "Crnac", "Zdenci"],
+  "izvor": "https://www.orahovica.hr/wp-content/uploads/2025/12/PLAN-ODVOZA-OTPADA-ZA-2026.-GODINU.pdf",
+  "napomene": ["Plan odvoza objavljen je na stranicama Grada Orahovice; u slučaju nepredvidivih situacija podložan je promjenama.", "Blagdani su upisani u plan: odvoz s blagdana prebačen je na drugi dan (označeno kao pomaknuto).", "Oznaka „PiP” u planu ovdje je upisana kao papir i plastika (plan je ne objašnjava); na te dane plan za rutu ne navodi miješani otpad – provjerite kod davatelja.", "Za općine Čačinci, Zdenci i Crnac plan sadrži samo papir i plastiku; raspored miješanog otpada nije objavljen (pitajte Papuk d.o.o., tel. 033/673-103)."],
+  "zone": {
+    "1": {
+      "jls": "Orahovica",
+      "podrucje": "Orahovica 1 (utorak): Kralja Zvonimira, Odvojak Kralja Zvonimira I, Odvojak Kralja Zvonimira II, Trg Damira Hornunga, …",
+      "opis": "Grad Orahovica ulice: (Kralja Zvonimira, Odvojak Kralja Zvonimira I i II, Trg Damira Hornunga, Dalmatinska, Ante Starčevića, Mandićeva, Braće Ivšić, Ivana Zajca) te naselja Bijeljevina Orahovička, Dolci, Karlovac Feričanački i Duzluk (Jezero I i II, Jezerska, Ružicin odvojak, Omladinska, Brda, Jezerski odvojak, Manastirska, Toplička)",
+      "ulice": ["Kralja Zvonimira", "Odvojak Kralja Zvonimira I", "Odvojak Kralja Zvonimira II", "Trg Damira Hornunga", "Dalmatinska", "Ante Starčevića", "Mandićeva", "Braće Ivšić", "Ivana Zajca", "Bijeljevina Orahovička", "Dolci", "Karlovac Feričanački", "Duzluk", "Jezero I", "Jezero II", "Jezerska", "Ružicin odvojak", "Omladinska", "Brda", "Jezerski odvojak", "Manastirska", "Toplička"],
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 M 01-20 M 01-27 PK",
+          "02-03 M 02-10 M 02-17 M 02-24 PK",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-31 PK",
+          "04-07 M 04-14 M 04-21 M 04-28 PK",
+          "05-05 M 05-12 M 05-19 M 05-26 PK",
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 PK",
+          "07-07 M 07-14 M 07-21 M 07-28 PK",
+          "08-04 M 08-11 M 08-18 M 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-22 M 09-29 PK",
+          "10-06 M 10-13 M 10-20 M 10-27 PK",
+          "11-03 M 11-10 M 11-17 M 11-24 PK",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 PK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Orahovica",
+      "podrucje": "Orahovica 2 (srijeda): Trg Tina Ujevića, Stjepana Radića, Kneginje Ružice, Trg Svetog Križa, …",
+      "opis": "Grad Orahovica ulice: (Trg Tina Ujevića, Stjepana Radića, Kneginje Ružice, Trg Svetog Križa, Vij. Zrinskog Frankopana, Ivana Đanića, Franje Gavrančića, Trg pl. Mihalovića, Josipa Kozarca, Antuna Mihanovića, Riječani, Miroslava Krleže, Starac, Josipa Poljaka, Kneza Domagoja, Pave Vukelića-Paje, Bana Josipa Jelačića, Zeleni odvojak, Zelena, Matice hrvatske, Ivana Frana Gundulića, Riječna ulica, Trg Bana Ivana Mažuranića) te naselja Nova Jošava, Crkvari, Stara Jošava i Šumeđe",
+      "ulice": ["Trg Tina Ujevića", "Stjepana Radića", "Kneginje Ružice", "Trg Svetog Križa", "Vij. Zrinskog Frankopana", "Ivana Đanića", "Franje Gavrančića", "Trg pl. Mihalovića", "Josipa Kozarca", "Antuna Mihanovića", "Riječani", "Miroslava Krleže", "Starac", "Josipa Poljaka", "Kneza Domagoja", "Pave Vukelića-Paje", "Bana Josipa Jelačića", "Zeleni odvojak", "Zelena", "Matice hrvatske", "Ivana Frana Gundulića", "Riječna ulica", "Trg Bana Ivana Mažuranića", "Nova Jošava", "Crkvari", "Stara Jošava", "Šumeđe"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-07 M 01-14 M 01-21 M 01-28 PK",
+          "02-04 M 02-11 M 02-18 M 02-25 PK",
+          "03-04 M 03-11 M 03-18 M 03-25 PK",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-29 PK",
+          "05-06 M 05-13 M 05-20 M 05-27 PK",
+          "06-03 M 06-10 M 06-17 M 06-24 PK",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-29 PK",
+          "08-06 M! 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-30 PK",
+          "10-07 M 10-14 M 10-21 M 10-28 PK",
+          "11-04 M 11-11 M 11-19 M! 11-25 PK",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-30 PK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Orahovica",
+      "podrucje": "Orahovica 3 (četvrtak): Dore Pejačević, Frana Supila, Odvojak Frana Supila, Homerova, …",
+      "opis": "Grad Orahovica: Orahovica ulice: (Dore Pejačević, Frana Supila, Odvojak Frana Supila, Homerova, Vinogradska, Branka Jaklića, Stjepana Mlakara, Danice Poljak, Stošićevo šetalište, Kneza Branimira, Antuna Gustava Matoša, Vladimira Nazora, Augusta Šenoe, Matije Gupca, Josipa Runjanina, Karla Stojakovića, Ante Tomca, Zbora Narodne garde, Put hrvatskih branitelja, Merkur IV, Trg Svetog Florijana, Petra Preradovića) te naselja Donja Pištana i Gornja Pištana.",
+      "ulice": ["Dore Pejačević", "Frana Supila", "Odvojak Frana Supila", "Homerova", "Vinogradska", "Branka Jaklića", "Stjepana Mlakara", "Danice Poljak", "Stošićevo šetalište", "Kneza Branimira", "Antuna Gustava Matoša", "Vladimira Nazora", "Augusta Šenoe", "Matije Gupca", "Josipa Runjanina", "Karla Stojakovića", "Ante Tomca", "Zbora Narodne garde", "Put hrvatskih branitelja", "Merkur IV", "Trg Svetog Florijana", "Petra Preradovića", "Donja Pištana", "Gornja Pištana"],
+      "raw": {
+        "2026": [
+          "01-08 M 01-15 M 01-22 M 01-29 PK",
+          "02-05 M 02-12 M 02-19 M 02-26 PK",
+          "03-05 M 03-12 M 03-19 M 03-26 PK",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-30 PK",
+          "05-07 M 05-14 M 05-21 M 05-28 PK",
+          "06-05 M! 06-11 M 06-18 M 06-25 PK",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-30 PK",
+          "08-06 M 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 PK",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 PK",
+          "11-05 M 11-12 M 11-19 M 11-26 PK",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 PK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Čačinci",
+      "podrucje": "Čačinci 1 (papir i plastika: ponedjeljak): Glavna, Ivana Gorana Kovačića, Frankopanska, Vladimira Nazora, …",
+      "opis": "Glavna, Ivana Gorana Kovačića, Frankopanska, Vladimira Nazora, Trg kardinala F. Kuharića, Slavonska, Ravna, Mlinska, Augustina Dukovića, Kralja Zvonimira, Domovinske zahvalnosti, Radnička, Braće Radića, Željka Majora, Matije Gupca, Munjarska, Bana Josipa Jelačića, Kralja Tomislava, Trg dr. F. Tuđmana, Brezovljani Vojlovički, Rajino Polje, Paušinci",
+      "ulice": ["Glavna", "Ivana Gorana Kovačića", "Frankopanska", "Vladimira Nazora", "Trg kardinala F. Kuharića", "Slavonska", "Ravna", "Mlinska", "Augustina Dukovića", "Kralja Zvonimira", "Domovinske zahvalnosti", "Radnička", "Braće Radića", "Željka Majora", "Matije Gupca", "Munjarska", "Bana Josipa Jelačića", "Kralja Tomislava", "Trg dr. F. Tuđmana", "Brezovljani Vojlovički", "Rajino Polje", "Paušinci"],
+      "napomena": "Plan za ovo područje ne navodi miješani komunalni otpad, samo papir i plastiku.",
+      "raw": {
+        "2026": [
+          "01-05 K 01-19 P",
+          "02-02 K 02-16 P",
+          "03-02 K 03-16 P 03-30 K",
+          "04-13 P 04-27 K",
+          "05-11 P 05-25 K",
+          "06-08 P 06-23 K!",
+          "07-06 P 07-20 K",
+          "08-03 P 08-17 K 08-31 P",
+          "09-14 K 09-28 P",
+          "10-12 K 10-26 P",
+          "11-09 K 11-23 P",
+          "12-07 K 12-21 P"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Čačinci",
+      "podrucje": "Čačinci 2 (papir i plastika: petak): Bukvik, Lipovačka, Bukvička, Kolodvorska, …",
+      "opis": "Bukvik, Čačinci (Lipovačka, Bukvička, Kolodvorska, Petra Preradovića, Franje Jusupa, Petra Svačića, Zrinskih, Vinogradska, Augusta Cesarca, J.J.Strossmayera, Slavka Kolara), Vojlovica, Humljani, Pušina, Slatnski Drenovac, Jankovac",
+      "ulice": ["Bukvik", "Lipovačka", "Bukvička", "Kolodvorska", "Petra Preradovića", "Franje Jusupa", "Petra Svačića", "Zrinskih", "Vinogradska", "Augusta Cesarca", "J.J.Strossmayera", "Slavka Kolara", "Vojlovica", "Humljani", "Pušina", "Slatinski Drenovac", "Jankovac"],
+      "napomena": "Plan za ovo područje ne navodi miješani komunalni otpad, samo papir i plastiku.",
+      "raw": {
+        "2026": [
+          "01-09 K 01-23 P",
+          "02-06 K 02-20 P",
+          "03-06 K 03-20 P",
+          "04-03 K 04-17 P",
+          "05-04 K! 05-15 P 05-29 K",
+          "06-12 P 06-26 K",
+          "07-10 P 07-24 K",
+          "08-07 P 08-21 K",
+          "09-04 P 09-18 K",
+          "10-02 P 10-16 K 10-30 P",
+          "11-13 K 11-27 P",
+          "12-11 K 12-28 P!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Zdenci",
+      "podrucje": "Zdenci (papir i plastika: ponedjeljak)",
+      "opis": "Općina Zdenci",
+      "ulice": ["Zdenci"],
+      "napomena": "Plan za ovo područje ne navodi miješani komunalni otpad, samo papir i plastiku.",
+      "raw": {
+        "2026": [
+          "01-12 K 01-26 P",
+          "02-09 K 02-23 P",
+          "03-09 K 03-23 P",
+          "04-07 K! 04-20 P",
+          "05-04 K 05-18 P",
+          "06-01 K 06-15 P 06-29 K",
+          "07-13 P 07-27 K",
+          "08-10 P 08-24 K",
+          "09-07 P 09-21 K",
+          "10-05 P 10-19 K",
+          "11-02 P 11-16 K 11-30 P",
+          "12-14 K 12-28 P"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Crnac",
+      "podrucje": "Crnac (papir i plastika: petak)",
+      "opis": "Općina Crnac",
+      "ulice": ["Crnac"],
+      "napomena": "Plan za ovo područje ne navodi miješani komunalni otpad, samo papir i plastiku.",
+      "raw": {
+        "2026": [
+          "01-02 K 01-16 K 01-30 P",
+          "02-13 K 02-27 P",
+          "03-13 K 03-27 P",
+          "04-10 K 04-24 P",
+          "05-08 K 05-22 P",
+          "06-05 K 06-19 P",
+          "07-03 K 07-17 P 07-31 K",
+          "08-14 P 08-28 K",
+          "09-11 P 09-25 K",
+          "10-09 P 10-23 K",
+          "11-06 P 11-20 K",
+          "12-04 P 12-18 K"
+        ]
+      }
+    }
+  }
+}

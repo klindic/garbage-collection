@@ -1,0 +1,138 @@
+{
+  "davatelj": "Kombel d.o.o.",
+  "web": "https://www.kombel.hr",
+  "izvor": "https://www.kombel.hr/raspored-odvoza-komunalnog-otpada/",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Belišće"],
+  "nazivi": {"P": "Plastika (žuti spremnik)", "K": "Stari papir (plavi spremnik)"},
+  "bioNapomena": "Biootpad se odvozi srijedom u Belišću i četvrtkom u prigradskim naseljima.",
+  "napomene": ["Pravila odvoza su trajna (bez godišnjeg kalendara); datumi su izračunati iz njih.", "Blagdani prema obavijestima davatelja: miješani otpad odvozi se redovno, osim na Božić i Novu godinu (dan kasnije); biootpad se na blagdan ne odvozi; plastika i papir na blagdan se odvoze tjedan dana kasnije. Obavijesti za blagdane objavljuju se na kombel.hr (Novosti).", "Od 15. lipnja do 30. kolovoza odvoz počinje u 6 sati; spremnike pripremite večer prije.", "Krupni otpad: u prigradskim naseljima jednom godišnje po dogovoru s mjesnim odborom, u Belišću po dogovoru s korisnicima.", "Kombel d.o.o., Radnička 1/B, Belišće, tel. 031/662-243."],
+  "zone": {
+    "1": {
+      "jls": "Belišće",
+      "podrucje": "Ponedjeljak: Bistrinci",
+      "ulice": ["Bistrinci"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-05 M 01-08 B 01-12 M 01-13 P! 01-15 B 01-19 M 01-22 B 01-26 M 01-29 B",
+          "02-02 M 02-03 P 02-05 B 02-06 K 02-09 M 02-12 B 02-16 M 02-19 B 02-23 M 02-26 B",
+          "03-02 M 03-03 P 03-05 B 03-06 K 03-09 M 03-12 B 03-16 M 03-19 B 03-23 M 03-26 B 03-30 M",
+          "04-02 B 04-03 K 04-06 M 04-07 P 04-09 B 04-13 M 04-16 B 04-20 M 04-23 B 04-27 M 04-30 B",
+          "05-04 M 05-05 P 05-07 B 05-08 K! 05-11 M 05-14 B 05-18 M 05-21 B 05-25 M 05-28 B",
+          "06-01 M 06-02 P 06-05 K 06-08 M 06-11 B 06-15 M 06-18 B 06-22 M 06-25 B 06-29 M",
+          "07-02 B 07-03 K 07-06 M 07-07 P 07-09 B 07-13 M 07-16 B 07-20 M 07-23 B 07-27 M 07-30 B",
+          "08-03 M 08-06 B 08-07 K 08-10 M 08-11 P! 08-13 B 08-17 M 08-20 B 08-24 M 08-27 B 08-31 M",
+          "09-01 P 09-03 B 09-04 K 09-07 M 09-10 B 09-14 M 09-17 B 09-21 M 09-24 B 09-28 M",
+          "10-01 B 10-02 K 10-05 M 10-06 P 10-08 B 10-12 M 10-15 B 10-19 M 10-22 B 10-26 M 10-29 B",
+          "11-02 M 11-03 P 11-05 B 11-06 K 11-09 M 11-12 B 11-16 M 11-19 B 11-23 M 11-26 B 11-30 M",
+          "12-01 P 12-03 B 12-04 K 12-07 M 12-10 B 12-14 M 12-17 B 12-21 M 12-24 B 12-28 M 12-31 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Belišće",
+      "podrucje": "Ponedjeljak: Belišće (ulice uz Bistrince) – Ul. Borik, Nova ul, Kralja Dmitra Zvonimira, Braće Radić, …",
+      "ulice": ["Ul. Borik", "Nova ul", "Kralja Dmitra Zvonimira", "Braće Radić", "Bistrinačka ulica", "Petra Preradovića"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-05 M 01-07 B 01-12 M 01-13 P! 01-14 B 01-19 M 01-21 B 01-26 M 01-28 B",
+          "02-02 M 02-03 P 02-04 B 02-06 K 02-09 M 02-11 B 02-16 M 02-18 B 02-23 M 02-25 B",
+          "03-02 M 03-03 P 03-04 B 03-06 K 03-09 M 03-11 B 03-16 M 03-18 B 03-23 M 03-25 B 03-30 M",
+          "04-01 B 04-03 K 04-06 M 04-07 P 04-08 B 04-13 M 04-15 B 04-20 M 04-22 B 04-27 M 04-29 B",
+          "05-04 M 05-05 P 05-06 B 05-08 K! 05-11 M 05-13 B 05-18 M 05-20 B 05-25 M 05-27 B",
+          "06-01 M 06-02 P 06-03 B 06-05 K 06-08 M 06-10 B 06-15 M 06-17 B 06-22 M 06-24 B 06-29 M",
+          "07-01 B 07-03 K 07-06 M 07-07 P 07-08 B 07-13 M 07-15 B 07-20 M 07-22 B 07-27 M 07-29 B",
+          "08-03 M 08-07 K 08-10 M 08-11 P! 08-12 B 08-17 M 08-19 B 08-24 M 08-26 B 08-31 M",
+          "09-01 P 09-02 B 09-04 K 09-07 M 09-09 B 09-14 M 09-16 B 09-21 M 09-23 B 09-28 M 09-30 B",
+          "10-02 K 10-05 M 10-06 P 10-07 B 10-12 M 10-14 B 10-19 M 10-21 B 10-26 M 10-28 B",
+          "11-02 M 11-03 P 11-04 B 11-06 K 11-09 M 11-11 B 11-16 M 11-23 M 11-25 B 11-30 M",
+          "12-01 P 12-02 B 12-04 K 12-07 M 12-09 B 12-14 M 12-16 B 12-21 M 12-23 B 12-28 M 12-30 B"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Belišće",
+      "podrucje": "Utorak: prigradska naselja – Kitišanci, Tiborjanci, Veliškovci, Gat",
+      "ulice": ["Kitišanci", "Tiborjanci", "Veliškovci", "Gat"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-08 B 01-13 M 01-14 P! 01-15 B 01-20 M 01-22 B 01-27 M 01-29 B 01-30 K",
+          "02-03 M 02-04 P 02-05 B 02-10 M 02-12 B 02-17 M 02-19 B 02-24 M 02-26 B 02-27 K",
+          "03-03 M 03-04 P 03-05 B 03-10 M 03-12 B 03-17 M 03-19 B 03-24 M 03-26 B 03-27 K 03-31 M",
+          "04-02 B 04-07 M 04-08 P! 04-09 B 04-14 M 04-16 B 04-21 M 04-23 B 04-24 K 04-28 M 04-30 B",
+          "05-05 M 05-06 P 05-07 B 05-12 M 05-14 B 05-19 M 05-21 B 05-26 M 05-28 B 05-29 K",
+          "06-02 M 06-03 P 06-09 M 06-11 B 06-16 M 06-18 B 06-23 M 06-25 B 06-26 K 06-30 M",
+          "07-02 B 07-07 M 07-08 P! 07-09 B 07-14 M 07-16 B 07-21 M 07-23 B 07-28 M 07-30 B 07-31 K",
+          "08-04 M 08-06 B 08-11 M 08-12 P! 08-13 B 08-18 M 08-20 B 08-25 M 08-27 B 08-28 K",
+          "09-01 M 09-02 P 09-03 B 09-08 M 09-10 B 09-15 M 09-17 B 09-22 M 09-24 B 09-25 K 09-29 M",
+          "10-01 B 10-06 M 10-07 P 10-08 B 10-13 M 10-15 B 10-20 M 10-22 B 10-27 M 10-29 B 10-30 K",
+          "11-03 M 11-04 P 11-05 B 11-10 M 11-12 B 11-17 M 11-19 B 11-24 M 11-26 B 11-27 K",
+          "12-01 M 12-02 P 12-03 B 12-08 M 12-10 B 12-15 M 12-17 B 12-22 M 12-24 B 12-25 K 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Belišće",
+      "podrucje": "Srijeda: Belišće I zona – Zinke Kunc, A. Šenoe, P.Zrinskog, Reljkovićeva, …",
+      "ulice": ["Zinke Kunc", "A. Šenoe", "P.Zrinskog", "Reljkovićeva", "S. Vraza", "I.B. Mažuranić", "T. Ujevića", "LJ. Gaja", "E.Kvaternika", "Školska", "Raškaj Slave", "Željeznička", "Kneza Trpimira", "F. Račkog", "A.G. Matoša", "N. Tesle", "A. Hebranga", "M.P. Katančića", "J. Kozarca", "Starovalpovački put", "Dravska obala", "Lj. Posavskog", "J. Pintarića"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-07 MB 01-13 P! 01-14 MB 01-21 MB 01-28 MB",
+          "02-03 P 02-04 MB 02-06 K 02-11 MB 02-18 MB 02-25 MB",
+          "03-03 P 03-04 MB 03-06 K 03-11 MB 03-18 MB 03-25 MB",
+          "04-01 MB 04-03 K 04-07 P 04-08 MB 04-15 MB 04-22 MB 04-29 MB",
+          "05-05 P 05-06 MB 05-08 K! 05-13 MB 05-20 MB 05-27 MB",
+          "06-02 P 06-03 MB 06-05 K 06-10 MB 06-17 MB 06-24 MB",
+          "07-01 MB 07-03 K 07-07 P 07-08 MB 07-15 MB 07-22 MB 07-29 MB",
+          "08-05 M 08-07 K 08-11 P! 08-12 MB 08-19 MB 08-26 MB",
+          "09-01 P 09-02 MB 09-04 K 09-09 MB 09-16 MB 09-23 MB 09-30 MB",
+          "10-02 K 10-06 P 10-07 MB 10-14 MB 10-21 MB 10-28 MB",
+          "11-03 P 11-04 MB 11-06 K 11-11 MB 11-18 M 11-25 MB",
+          "12-01 P 12-02 MB 12-04 K 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Belišće",
+      "podrucje": "Četvrtak: Belišće II zona – Kralja Tomislava, I.G. Kovačića, J.Račića, V. Nazora, …",
+      "ulice": ["Kralja Tomislava", "I.G. Kovačića", "J.Račića", "V. Nazora", "A. Mihanovića", "M. Gupca", "D. Pejačević", "B. Jelačića", "P.Svačića", "Dolac", "Zona male privrede", "J.J. Strossmayera", "kardinala Stepinca"],
+      "raw": {
+        "2026": [
+          "01-02 MK! 01-07 B 01-08 M 01-13 P! 01-14 B 01-15 M 01-21 B 01-22 M 01-28 B 01-29 M",
+          "02-03 P 02-04 B 02-05 M 02-06 K 02-11 B 02-12 M 02-18 B 02-19 M 02-25 B 02-26 M",
+          "03-03 P 03-04 B 03-05 M 03-06 K 03-11 B 03-12 M 03-18 B 03-19 M 03-25 B 03-26 M",
+          "04-01 B 04-02 M 04-03 K 04-07 P 04-08 B 04-09 M 04-15 B 04-16 M 04-22 B 04-23 M 04-29 B 04-30 M",
+          "05-05 P 05-06 B 05-07 M 05-08 K! 05-13 B 05-14 M 05-20 B 05-21 M 05-27 B 05-28 M",
+          "06-02 P 06-03 B 06-04 M 06-05 K 06-10 B 06-11 M 06-17 B 06-18 M 06-24 B 06-25 M",
+          "07-01 B 07-02 M 07-03 K 07-07 P 07-08 B 07-09 M 07-15 B 07-16 M 07-22 B 07-23 M 07-29 B 07-30 M",
+          "08-06 M 08-07 K 08-11 P! 08-12 B 08-13 M 08-19 B 08-20 M 08-26 B 08-27 M",
+          "09-01 P 09-02 B 09-03 M 09-04 K 09-09 B 09-10 M 09-16 B 09-17 M 09-23 B 09-24 M 09-30 B",
+          "10-01 M 10-02 K 10-06 P 10-07 B 10-08 M 10-14 B 10-15 M 10-21 B 10-22 M 10-28 B 10-29 M",
+          "11-03 P 11-04 B 11-05 M 11-06 K 11-11 B 11-12 M 11-19 M 11-25 B 11-26 M",
+          "12-01 P 12-02 B 12-03 M 12-04 K 12-09 B 12-10 M 12-16 B 12-17 M 12-23 B 12-24 M 12-30 B 12-31 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Belišće",
+      "podrucje": "Petak: prigradska naselja – Gorica, Bocanjevci, Vinogradci",
+      "ulice": ["Gorica", "Bocanjevci", "Vinogradci"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-08 B 01-09 M 01-14 P! 01-15 B 01-16 M 01-22 B 01-23 M 01-29 B 01-30 MK",
+          "02-04 P 02-05 B 02-06 M 02-12 B 02-13 M 02-19 B 02-20 M 02-26 B 02-27 MK",
+          "03-04 P 03-05 B 03-06 M 03-12 B 03-13 M 03-19 B 03-20 M 03-26 B 03-27 MK",
+          "04-02 B 04-03 M 04-08 P! 04-09 B 04-10 M 04-16 B 04-17 M 04-23 B 04-24 MK 04-30 B",
+          "05-01 M 05-06 P 05-07 B 05-08 M 05-14 B 05-15 M 05-21 B 05-22 M 05-28 B 05-29 MK",
+          "06-03 P 06-05 M 06-11 B 06-12 M 06-18 B 06-19 M 06-25 B 06-26 MK",
+          "07-02 B 07-03 M 07-08 P! 07-09 B 07-10 M 07-16 B 07-17 M 07-23 B 07-24 M 07-30 B 07-31 MK",
+          "08-06 B 08-07 M 08-12 P! 08-13 B 08-14 M 08-20 B 08-21 M 08-27 B 08-28 MK",
+          "09-02 P 09-03 B 09-04 M 09-10 B 09-11 M 09-17 B 09-18 M 09-24 B 09-25 MK",
+          "10-01 B 10-02 M 10-07 P 10-08 B 10-09 M 10-15 B 10-16 M 10-22 B 10-23 M 10-29 B 10-30 MK",
+          "11-04 P 11-05 B 11-06 M 11-12 B 11-13 M 11-19 B 11-20 M 11-26 B 11-27 MK",
+          "12-02 P 12-03 B 12-04 M 12-10 B 12-11 M 12-17 B 12-18 M 12-24 B 12-25 K 12-26 M! 12-31 B"
+        ]
+      }
+    }
+  }
+}
