@@ -142,6 +142,8 @@ def signature(detail):
     """Schedule content of an address, independent of rule ids: ((type, ((day, repeat, from, to), ...)), ...)."""
     out = []
     for s in detail.get("schedules") or []:
+        if s["type"] == "ostalo":  # "other": one placeholder address (Gredice 9999), not a household bin
+            continue
         picks = tuple(sorted((p["dayOfWeek"], p["repeat"], p.get("timeFrom") or "", p.get("timeTo") or "")
                              for p in s["pickups"]))
         if picks:
