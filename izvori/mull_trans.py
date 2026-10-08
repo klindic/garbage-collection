@@ -57,6 +57,14 @@ JLS = ["Bedenica", "Jakovlje", "Klinča Sela", "Krašić", "Rugvica", "Stupnik",
        "Štefanje"]
 GRAD = {"Jastrebarsko", "Sveta Nedelja", "Donja Stubica", "Pregrada", "Oroslavje"}
 # istrazivanje/jls_davatelj.csv (Evidencija 5.10.2026.) names another provider for these
+# JLS another provider took over during the year: Mull-Trans dates stop where the new provider's own published
+# schedule starts (so there is neither a gap nor two schedules for the same day).
+HANDOVER = {
+    "Viljevo": (date(2026, 7, 7), "Doroslov d.o.o."),
+    "Magadenovac": (date(2026, 9, 3), "Doroslov d.o.o."),
+    "Podravska Moslavina": (date(2026, 9, 7), "Doroslov d.o.o."),
+    "Koška": (date(2026, 10, 8), "Urbanizam d.o.o. Valpovo"),
+}
 REGISTRY = {"Mikleuš": "Papuk d.o.o.", "Donji Andrijevci": "Runolist d.o.o.", "Stankovci": "Michieli-Tomić d.o.o."}
 # fill colours a calendar uses without a legend swatch: {jls: {cell colour: legend colour}}
 ALIASES = {
@@ -809,8 +817,12 @@ def zone_entries(jls, res, src):
         when = src.get("modified_pdf")
         when = f" (PDF izmijenjen {parsedate_to_datetime(when):%d.%m.%Y.})" if when else ""
         notes.append(f"Izvor: {src['url']}{when}")
-        zone = {"jls": jls, "podrucje": podrucje, "ulice": t["ulice"], "napomena": " ".join(notes)}
         rows = [(d, "".join(sorted(cs)), d in t["moved"]) for d, cs in r.items() if cs]
+        if jls in HANDOVER:
+            cut, who = HANDOVER[jls]
+            rows = [row for row in rows if row[0] < cut]
+            notes.insert(0, f"Od {cut.day}.{cut.month}.{cut.year}. odvoz obavlja {who}; ovdje je raspored do tada.")
+        zone = {"jls": jls, "podrucje": podrucje, "ulice": t["ulice"], "napomena": " ".join(notes)}
         zone["raw"] = {str(res["year"]): podaci.month_lines(rows)}
         out.append(zone)
     return out

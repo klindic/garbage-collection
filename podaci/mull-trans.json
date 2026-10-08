@@ -1250,7 +1250,7 @@
       "jls": "Koška",
       "podrucje": "Cijela općina",
       "ulice": [],
-      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-KOSKA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "napomena": "Od 8.10.2026. odvoz obavlja Urbanizam d.o.o. Valpovo; ovdje je raspored do tada. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-KOSKA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
       "raw": {
         "2026": [
           "01-13 M 01-27 M 01-28 PK",
@@ -1262,9 +1262,7 @@
           "07-14 M 07-28 M 07-29 PK",
           "08-11 M 08-25 M 08-26 PK",
           "09-08 M 09-22 M 09-30 PK",
-          "10-06 M 10-20 M 10-28 PK",
-          "11-03 M 11-17 M 11-25 PK",
-          "12-01 M 12-15 M 12-29 M 12-30 PK"
+          "10-06 M"
         ]
       }
     },
@@ -1272,7 +1270,7 @@
       "jls": "Magadenovac",
       "podrucje": "Cijela općina",
       "ulice": [],
-      "napomena": "Mobilno reciklažno dvorište: 9.2., 11.5., 10.8., 5.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-MAGADENOVAC-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "napomena": "Od 3.9.2026. odvoz obavlja Doroslov d.o.o.; ovdje je raspored do tada. Mobilno reciklažno dvorište: 9.2., 11.5., 10.8., 5.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-MAGADENOVAC-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
       "raw": {
         "2026": [
           "01-03 M! 01-08 M 01-15 M 01-22 M 01-29 PK",
@@ -1282,11 +1280,7 @@
           "05-07 M 05-14 M 05-21 M 05-28 PK",
           "06-06 M! 06-11 M 06-18 M 06-25 PK",
           "07-02 M 07-09 M 07-16 M 07-23 M 07-30 PK",
-          "08-06 M 08-13 M 08-20 M 08-27 PK",
-          "09-03 M 09-07 G 09-10 M 09-17 M 09-24 PK",
-          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 PK",
-          "11-05 M 11-12 M 11-19 M 11-26 PK",
-          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 PK"
+          "08-06 M 08-13 M 08-20 M 08-27 PK"
         ]
       }
     },
@@ -1294,7 +1288,7 @@
       "jls": "Podravska Moslavina",
       "podrucje": "Cijela općina",
       "ulice": [],
-      "napomena": "Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-PODRAVSKA-MOSLAVINA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "napomena": "Od 7.9.2026. odvoz obavlja Doroslov d.o.o.; ovdje je raspored do tada. Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-PODRAVSKA-MOSLAVINA-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
       "raw": {
         "2026": [
           "01-05 M 01-12 M 01-19 M 01-27 PK",
@@ -1304,11 +1298,7 @@
           "05-04 M 05-11 M 05-18 M 05-26 PK",
           "06-01 M 06-08 M 06-15 M 06-20 M! 06-30 PK",
           "07-06 M 07-13 M 07-20 M 07-28 PK",
-          "08-03 M 08-10 M 08-17 M 08-24 M 08-25 PK",
-          "09-07 M 09-14 M 09-21 MG 09-29 PK",
-          "10-05 M 10-12 M 10-19 M 10-27 PK",
-          "11-02 M 11-09 M 11-16 M 11-23 M 11-24 PK",
-          "12-07 M 12-14 M 12-21 M 12-29 PK"
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-25 PK"
         ]
       }
     },
@@ -1338,7 +1328,7 @@
       "jls": "Viljevo",
       "podrucje": "Cijela općina",
       "ulice": [],
-      "napomena": "Mobilno reciklažno dvorište: 10.2., 12.5., 11.8., 6.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-VILJEVO-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
+      "napomena": "Od 7.7.2026. odvoz obavlja Doroslov d.o.o.; ovdje je raspored do tada. Mobilno reciklažno dvorište: 10.2., 12.5., 11.8., 6.11. (lokacije i vrijeme u PDF-u). Izvor: https://mull-trans.hr/wp-content/uploads/2026/04/OPCINA-VILJEVO-raspored-odvoza-otpada-za-2026.pdf (PDF izmijenjen 20.04.2026.)",
       "raw": {
         "2026": [
           "01-03 M! 01-13 M 01-20 M 01-27 PK",
@@ -1346,13 +1336,7 @@
           "03-03 M 03-10 M 03-13 G 03-17 M 03-24 M 03-31 PK",
           "04-07 M 04-14 M 04-21 M 04-28 PK",
           "05-05 M 05-12 M 05-19 M 05-26 PK",
-          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 PK",
-          "07-07 M 07-14 M 07-21 M 07-28 PK",
-          "08-04 M 08-11 M 08-18 M 08-25 PK",
-          "09-01 M 09-08 M 09-15 M 09-22 M 09-29 PK",
-          "10-06 M 10-13 M 10-20 M 10-27 PK",
-          "11-03 M 11-10 M 11-17 M 11-24 PK",
-          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 PK"
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 PK"
         ]
       }
     },
