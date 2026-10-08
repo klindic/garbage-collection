@@ -1,0 +1,99 @@
+{
+  "davatelj": "Vrilo d.o.o.",
+  "web": "https://www.vrilo.hr",
+  "izvor": "https://www.vrilo.hr/prikupljanje-komunalnog-otpada.php",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Pirovac"],
+  "nazivi": {"P": "Korisni otpad (spremnici i vrećice)"},
+  "napomene": ["Spremnike i vrećice treba ostaviti na vidljivom i dostupnom mjestu; vozilo kreće zimi u 6 sati, ljeti u 5 sati.", "Glomazni otpad: informacije na tel. 022/466-155.", "Pomaci zbog blagdana nisu objavljeni kao pravilo; uključeni su pomaci iz obavijesti Vrila (pomaknuti odvozi su označeni, otkazani izostavljeni).", "Vozni redovi: Zimski vozni red 15.09.2025.–30.05.2026.; Ljetni vozni red 01.06.2026.–14.09.2026.; Zimski raspored prikupljanja otpada 14.09.2026.–30.05.2027."],
+  "zone": {
+    "1": {
+      "jls": "Pirovac",
+      "podrucje": "Pirovac (zimi zona 1, ljeti zona C (centar)) – Trg Domovinskog rata, Obala Hrvatske mornarice, Kralja Tomislava …",
+      "ulice": ["Trg Domovinskog rata", "Obala Hrvatske mornarice", "Kralja Tomislava", "Liveli", "Petra Draganiča Vrančića (od broja 1 do broja 17)", "Stara riva", "Vrata sela", "Sv. Jurja", "Donja ulica", "Rudina", "Dvorići", "Sridnja", "Gornja ulica", "Gospe Karmelske"],
+      "napomena": "15.09.2025.–30.05.2026.: miješani ponedjeljkom, korisni četvrtkom; 01.06.2026.–14.09.2026.: miješani svaki dan, korisni srijedom; 14.09.2026.–30.05.2027.: miješani ponedjeljkom, korisni četvrtkom.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-08 P 01-12 M 01-15 P 01-19 M 01-22 P 01-26 M 01-29 P",
+          "02-02 M 02-05 P 02-09 M 02-12 P 02-16 M 02-19 P 02-23 M 02-26 P",
+          "03-02 M 03-05 P 03-09 M 03-12 P 03-16 M 03-19 P 03-23 M 03-26 P 03-30 M",
+          "04-02 P 04-07 M! 04-09 P 04-13 M 04-16 P 04-20 M 04-24 P! 04-27 M 04-30 P",
+          "05-04 M 05-07 P 05-11 M 05-14 P 05-18 M 05-21 P 05-25 M 05-28 P",
+          "06-01 M 06-02 M 06-03 MP 06-04 M 06-05 M 06-06 M 06-07 M 06-08 M 06-09 M 06-10 MP 06-11 M 06-12 M 06-13 M 06-14 M 06-15 M 06-16 M 06-17 MP 06-18 M 06-19 M 06-20 M 06-21 M 06-22 M 06-23 M 06-24 MP 06-25 M 06-26 M 06-27 M 06-28 M 06-29 M 06-30 M",
+          "07-01 MP 07-02 M 07-03 M 07-04 M 07-05 M 07-06 M 07-07 M 07-08 MP 07-09 M 07-10 M 07-11 M 07-12 M 07-13 M 07-14 M 07-15 MP 07-16 M 07-17 M 07-18 M 07-19 M 07-20 M 07-21 M 07-22 MP 07-23 M 07-24 M 07-25 M 07-26 M 07-27 M 07-28 M 07-29 MP 07-30 M 07-31 M",
+          "08-01 M 08-02 M 08-03 M 08-04 M 08-05 MP 08-06 M 08-07 M 08-08 M 08-09 M 08-10 M 08-11 M 08-12 MP 08-13 M 08-14 M 08-15 M 08-16 M 08-17 M 08-18 M 08-19 MP 08-20 M 08-21 M 08-22 M 08-23 M 08-24 M 08-25 M 08-26 MP 08-27 M 08-28 M 08-29 M 08-30 M 08-31 M",
+          "09-01 M 09-02 MP 09-03 M 09-04 M 09-05 M 09-06 M 09-07 M 09-08 M 09-09 MP 09-10 M 09-11 M 09-12 M 09-13 M 09-14 M 09-17 P 09-21 M 09-24 P 09-28 M",
+          "10-01 P 10-05 M 10-08 P 10-12 M 10-15 P 10-19 M 10-22 P 10-26 M 10-29 P",
+          "11-02 M 11-05 P 11-09 M 11-12 P 11-16 M 11-19 P 11-23 M 11-26 P 11-30 M",
+          "12-03 P 12-07 M 12-10 P 12-14 M 12-17 P 12-21 M 12-24 P 12-28 M 12-31 P"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Pirovac",
+      "podrucje": "Pirovac (zimi zona 1, ljeti zona 1) – Punta, Sustipanac, Stinice …",
+      "ulice": ["Punta", "Sustipanac", "Stinice", "Stare Vrulje", "Zagrebačka", "Višnjarska", "Cvitna", "Vinogradska", "Maslinarska", "Ribarska", "Bakrine", "Kralja Zvonimira (od broja 1 do broja 79)", "Bezdan", "Stjepana Radića", "Bartola Kašića", "Katarine Zrinske", "Blajburških Žrtava", "Mecanovo", "Don Balda Vijalića", "Ante Starčevića", "Riječka", "Bravari", "Put Škole", "Pirovackih iseljenika", "Petra Zoranića", "Tina Ujevića", "Dalmatinska", "Jurja Dalmatinca", "Lolić", "Dublje", "Kralja Krešimira IV", "Put plaže", "Jurja Šižgorića", "Težačka", "Obala Rtine"],
+      "napomena": "15.09.2025.–30.05.2026.: miješani ponedjeljkom, korisni četvrtkom; 01.06.2026.–14.09.2026.: miješani ponedjeljkom i petkom, korisni srijedom; 14.09.2026.–30.05.2027.: miješani ponedjeljkom, korisni četvrtkom.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-08 P 01-12 M 01-15 P 01-19 M 01-22 P 01-26 M 01-29 P",
+          "02-02 M 02-05 P 02-09 M 02-12 P 02-16 M 02-19 P 02-23 M 02-26 P",
+          "03-02 M 03-05 P 03-09 M 03-12 P 03-16 M 03-19 P 03-23 M 03-26 P 03-30 M",
+          "04-02 P 04-07 M! 04-09 P 04-13 M 04-16 P 04-20 M 04-24 P! 04-27 M 04-30 P",
+          "05-04 M 05-07 P 05-11 M 05-14 P 05-18 M 05-21 P 05-25 M 05-28 P",
+          "06-01 M 06-03 P 06-05 M 06-08 M 06-10 P 06-12 M 06-15 M 06-17 P 06-19 M 06-22 M 06-24 P 06-26 M 06-29 M",
+          "07-01 P 07-03 M 07-06 M 07-08 P 07-10 M 07-13 M 07-15 P 07-17 M 07-20 M 07-22 P 07-24 M 07-27 M 07-29 P 07-31 M",
+          "08-03 M 08-05 P 08-07 M 08-10 M 08-12 P 08-14 M 08-17 M 08-19 P 08-21 M 08-24 M 08-26 P 08-28 M 08-31 M",
+          "09-02 P 09-04 M 09-07 M 09-09 P 09-11 M 09-14 M 09-17 P 09-21 M 09-24 P 09-28 M",
+          "10-01 P 10-05 M 10-08 P 10-12 M 10-15 P 10-19 M 10-22 P 10-26 M 10-29 P",
+          "11-02 M 11-05 P 11-09 M 11-12 P 11-16 M 11-19 P 11-23 M 11-26 P 11-30 M",
+          "12-03 P 12-07 M 12-10 P 12-14 M 12-17 P 12-21 M 12-24 P 12-28 M 12-31 P"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Pirovac",
+      "podrucje": "Pirovac (zimi zona 2, ljeti zona 2 i 3) – Kralja Zvonimira (od broja 79 do kraja), Pirovačka, Dr. Franje Tuđmana …",
+      "ulice": ["Kralja Zvonimira (od broja 79 do kraja)", "Pirovačka", "Dr. Franje Tuđmana", "Augusta Šenoe", "Mala Ulica", "Bribirskih knezova", "Starine", "Petra Draganića Vrančića (od broja 18 do kraja)", "Ružmarinska", "Augusta Cesarca", "Dobriše Cesarića", "Vladimira Nazora", "Marka Marulića", "Urem Kapetana", "Šibenska", "Ruđera Boškovića", "Vukovarska", "Hrvatske mladeži", "Miroslava Krleže", "Ivana Gorana Kovačića", "Podravska", "Jadranska", "Pod stražicom", "Primorska", "Kvarnerska", "Istarska", "Radnička", "Slavonska", "Grgura Ninskog", "Dubrava", "Put svetog Ante", "Splitska", "Matije Gupca", "Pirovačke satnije", "Zadarska", "Dubrovačka", "Uvala Vrilo"],
+      "napomena": "15.09.2025.–30.05.2026.: miješani utorkom, korisni petkom; 01.06.2026.–14.09.2026.: miješani utorkom i subotom, korisni četvrtkom; 14.09.2026.–30.05.2027.: miješani utorkom, korisni petkom.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-09 P 01-13 M 01-16 P 01-20 M 01-23 P 01-27 M 01-30 P",
+          "02-03 M 02-06 P 02-10 M 02-13 P 02-17 M 02-20 P 02-24 M 02-27 P",
+          "03-03 M 03-06 P 03-10 M 03-13 P 03-17 M 03-20 P 03-24 M 03-27 P 03-31 M",
+          "04-03 P 04-07 M 04-10 P 04-14 M 04-17 P 04-21 M 04-24 P 04-28 M 04-30 P!",
+          "05-05 M 05-08 P 05-12 M 05-15 P 05-19 M 05-22 P 05-26 M 05-29 P",
+          "06-02 M 06-04 P 06-06 M 06-09 M 06-11 P 06-13 M 06-16 M 06-18 P 06-20 M 06-23 M 06-25 P 06-27 M 06-30 M",
+          "07-02 P 07-04 M 07-07 M 07-09 P 07-11 M 07-14 M 07-16 P 07-18 M 07-21 M 07-23 P 07-25 M 07-28 M 07-30 P",
+          "08-01 M 08-04 M 08-06 P 08-08 M 08-11 M 08-13 P 08-15 M 08-18 M 08-20 P 08-22 M 08-25 M 08-27 P 08-29 M",
+          "09-01 M 09-03 P 09-05 M 09-08 M 09-10 P 09-12 M 09-15 M 09-18 P 09-22 M 09-25 P 09-29 M",
+          "10-02 P 10-06 M 10-09 P 10-13 M 10-16 P 10-20 M 10-23 P 10-27 M 10-30 P",
+          "11-03 M 11-06 P 11-10 M 11-13 P 11-17 M 11-20 P 11-24 M 11-27 P",
+          "12-01 M 12-04 P 12-08 M 12-11 P 12-15 M 12-18 P 12-22 M 12-25 P 12-29 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Pirovac",
+      "podrucje": "Kašić, Putičanje (zimi zona 3, ljeti zona 4) – Kašić, Putičanje",
+      "ulice": ["Kašić", "Putičanje"],
+      "napomena": "15.09.2025.–30.05.2026.: miješani srijedom, korisni srijedom; 01.06.2026.–14.09.2026.: miješani srijedom i subotom, korisni srijedom; 14.09.2026.–30.05.2027.: miješani srijedom, korisni srijedom.",
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 MP 01-21 MP 01-28 MP",
+          "02-04 MP 02-11 MP 02-18 MP 02-25 MP",
+          "03-04 MP 03-11 MP 03-18 MP 03-25 MP",
+          "04-01 MP 04-08 MP 04-15 MP 04-22 MP 04-29 MP",
+          "05-06 MP 05-13 MP 05-20 MP 05-27 MP",
+          "06-03 MP 06-06 M 06-10 MP 06-13 M 06-17 MP 06-20 M 06-24 MP 06-27 M",
+          "07-01 MP 07-04 M 07-08 MP 07-11 M 07-15 MP 07-18 M 07-22 MP 07-25 M 07-29 MP",
+          "08-01 M 08-05 MP 08-08 M 08-12 MP 08-15 M 08-19 MP 08-22 M 08-26 MP 08-29 M",
+          "09-02 MP 09-05 M 09-09 MP 09-12 M 09-16 MP 09-23 MP 09-30 MP",
+          "10-07 MP 10-14 MP 10-21 MP 10-28 MP",
+          "11-04 MP 11-11 MP 11-18 MP 11-25 MP",
+          "12-02 MP 12-09 MP 12-16 MP 12-23 MP 12-30 MP"
+        ]
+      }
+    }
+  }
+}

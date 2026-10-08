@@ -1,0 +1,77 @@
+{
+  "davatelj": "LOŠI d.o.o.",
+  "web": "https://www.losi.hr",
+  "izvor": "https://www.losi.hr/odvoz-i-prikupljanje-komunalnog-otpada",
+  "zupanija": "Zadarska",
+  "jls": ["Pakoštane"],
+  "nazivi": {"P": "Reciklabilni otpad"},
+  "napomene": ["Otok Vrgada (Općina Pakoštane) nije naveden u rasporedu.", "Grad Obrovac nije uključen: Loši na svojoj stranici navodi samo Općinu Pakoštane, a raspored za Obrovac postoji samo u starijem PDF-u iz rujna 2025. (raspored_odvoza_pak-obr.pdf) bez godine, koji više nije povezan sa stranice.", "Na blagdane 01.01., 01.11., 18.11., 25.12., 26.12. odvoz se ne obavlja; sljedeći odvoz je prema redovnom rasporedu (pravilo iz PDF-a rasporeda)."],
+  "zone": {
+    "1": {
+      "jls": "Pakoštane",
+      "podrucje": "Pakoštane – zimi (1.10.–31.5.) miješani srijedom i subotom, reciklabilni četvrtkom; ljeti (1.6.–30.9.) miješani ponedjeljkom, srijedom i subotom, reciklabilni četvrtkom",
+      "ulice": ["Pakoštane"],
+      "napomena": "Raspored po naselju (cijelo naselje).",
+      "raw": {
+        "2026": [
+          "01-03 M 01-07 M 01-08 P 01-10 M 01-14 M 01-15 P 01-17 M 01-21 M 01-22 P 01-24 M 01-28 M 01-29 P 01-31 M",
+          "02-04 M 02-05 P 02-07 M 02-11 M 02-12 P 02-14 M 02-18 M 02-19 P 02-21 M 02-25 M 02-26 P 02-28 M",
+          "03-04 M 03-05 P 03-07 M 03-11 M 03-12 P 03-14 M 03-18 M 03-19 P 03-21 M 03-25 M 03-26 P 03-28 M",
+          "04-01 M 04-02 P 04-04 M 04-08 M 04-09 P 04-11 M 04-15 M 04-16 P 04-18 M 04-22 M 04-23 P 04-25 M 04-29 M 04-30 P",
+          "05-02 M 05-06 M 05-07 P 05-09 M 05-13 M 05-14 P 05-16 M 05-20 M 05-21 P 05-23 M 05-27 M 05-28 P 05-30 M",
+          "06-01 M 06-03 M 06-04 P 06-06 M 06-08 M 06-10 M 06-11 P 06-13 M 06-15 M 06-17 M 06-18 P 06-20 M 06-22 M 06-24 M 06-25 P 06-27 M 06-29 M",
+          "07-01 M 07-02 P 07-04 M 07-06 M 07-08 M 07-09 P 07-11 M 07-13 M 07-15 M 07-16 P 07-18 M 07-20 M 07-22 M 07-23 P 07-25 M 07-27 M 07-29 M 07-30 P",
+          "08-01 M 08-03 M 08-05 M 08-06 P 08-08 M 08-10 M 08-12 M 08-13 P 08-15 M 08-17 M 08-19 M 08-20 P 08-22 M 08-24 M 08-26 M 08-27 P 08-29 M 08-31 M",
+          "09-02 M 09-03 P 09-05 M 09-07 M 09-09 M 09-10 P 09-12 M 09-14 M 09-16 M 09-17 P 09-19 M 09-21 M 09-23 M 09-24 P 09-26 M 09-28 M 09-30 M",
+          "10-01 P 10-03 M 10-07 M 10-08 P 10-10 M 10-14 M 10-15 P 10-17 M 10-21 M 10-22 P 10-24 M 10-28 M 10-29 P 10-31 M",
+          "11-04 M 11-05 P 11-07 M 11-11 M 11-12 P 11-14 M 11-19 P 11-21 M 11-25 M 11-26 P 11-28 M",
+          "12-02 M 12-03 P 12-05 M 12-09 M 12-10 P 12-12 M 12-16 M 12-17 P 12-19 M 12-23 M 12-24 P 12-30 M 12-31 P"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Pakoštane",
+      "podrucje": "Drage – zimi (1.10.–31.5.) miješani ponedjeljkom i četvrtkom, reciklabilni četvrtkom; ljeti (1.6.–30.9.) miješani utorkom i petkom, reciklabilni četvrtkom",
+      "ulice": ["Drage"],
+      "napomena": "Raspored po naselju (cijelo naselje).",
+      "raw": {
+        "2026": [
+          "01-05 M 01-08 MP 01-12 M 01-15 MP 01-19 M 01-22 MP 01-26 M 01-29 MP",
+          "02-02 M 02-05 MP 02-09 M 02-12 MP 02-16 M 02-19 MP 02-23 M 02-26 MP",
+          "03-02 M 03-05 MP 03-09 M 03-12 MP 03-16 M 03-19 MP 03-23 M 03-26 MP 03-30 M",
+          "04-02 MP 04-06 M 04-09 MP 04-13 M 04-16 MP 04-20 M 04-23 MP 04-27 M 04-30 MP",
+          "05-04 M 05-07 MP 05-11 M 05-14 MP 05-18 M 05-21 MP 05-25 M 05-28 MP",
+          "06-02 M 06-04 P 06-05 M 06-09 M 06-11 P 06-12 M 06-16 M 06-18 P 06-19 M 06-23 M 06-25 P 06-26 M 06-30 M",
+          "07-02 P 07-03 M 07-07 M 07-09 P 07-10 M 07-14 M 07-16 P 07-17 M 07-21 M 07-23 P 07-24 M 07-28 M 07-30 P 07-31 M",
+          "08-04 M 08-06 P 08-07 M 08-11 M 08-13 P 08-14 M 08-18 M 08-20 P 08-21 M 08-25 M 08-27 P 08-28 M",
+          "09-01 M 09-03 P 09-04 M 09-08 M 09-10 P 09-11 M 09-15 M 09-17 P 09-18 M 09-22 M 09-24 P 09-25 M 09-29 M",
+          "10-01 MP 10-05 M 10-08 MP 10-12 M 10-15 MP 10-19 M 10-22 MP 10-26 M 10-29 MP",
+          "11-02 M 11-05 MP 11-09 M 11-12 MP 11-16 M 11-19 MP 11-23 M 11-26 MP 11-30 M",
+          "12-03 MP 12-07 M 12-10 MP 12-14 M 12-17 MP 12-21 M 12-24 MP 12-28 M 12-31 MP"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Pakoštane",
+      "podrucje": "Vrana – zimi (1.10.–31.5.) miješani utorkom i petkom, reciklabilni četvrtkom; ljeti (1.6.–30.9.) miješani utorkom i petkom, reciklabilni četvrtkom",
+      "ulice": ["Vrana"],
+      "napomena": "Raspored po naselju (cijelo naselje).",
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 M 01-08 P 01-09 M 01-13 M 01-15 P 01-16 M 01-20 M 01-22 P 01-23 M 01-27 M 01-29 P 01-30 M",
+          "02-03 M 02-05 P 02-06 M 02-10 M 02-12 P 02-13 M 02-17 M 02-19 P 02-20 M 02-24 M 02-26 P 02-27 M",
+          "03-03 M 03-05 P 03-06 M 03-10 M 03-12 P 03-13 M 03-17 M 03-19 P 03-20 M 03-24 M 03-26 P 03-27 M 03-31 M",
+          "04-02 P 04-03 M 04-07 M 04-09 P 04-10 M 04-14 M 04-16 P 04-17 M 04-21 M 04-23 P 04-24 M 04-28 M 04-30 P",
+          "05-01 M 05-05 M 05-07 P 05-08 M 05-12 M 05-14 P 05-15 M 05-19 M 05-21 P 05-22 M 05-26 M 05-28 P 05-29 M",
+          "06-02 M 06-04 P 06-05 M 06-09 M 06-11 P 06-12 M 06-16 M 06-18 P 06-19 M 06-23 M 06-25 P 06-26 M 06-30 M",
+          "07-02 P 07-03 M 07-07 M 07-09 P 07-10 M 07-14 M 07-16 P 07-17 M 07-21 M 07-23 P 07-24 M 07-28 M 07-30 P 07-31 M",
+          "08-04 M 08-06 P 08-07 M 08-11 M 08-13 P 08-14 M 08-18 M 08-20 P 08-21 M 08-25 M 08-27 P 08-28 M",
+          "09-01 M 09-03 P 09-04 M 09-08 M 09-10 P 09-11 M 09-15 M 09-17 P 09-18 M 09-22 M 09-24 P 09-25 M 09-29 M",
+          "10-01 P 10-02 M 10-06 M 10-08 P 10-09 M 10-13 M 10-15 P 10-16 M 10-20 M 10-22 P 10-23 M 10-27 M 10-29 P 10-30 M",
+          "11-03 M 11-05 P 11-06 M 11-10 M 11-12 P 11-13 M 11-17 M 11-19 P 11-20 M 11-24 M 11-26 P 11-27 M",
+          "12-01 M 12-03 P 12-04 M 12-08 M 12-10 P 12-11 M 12-15 M 12-17 P 12-18 M 12-22 M 12-24 P 12-29 M 12-31 P"
+        ]
+      }
+    }
+  }
+}

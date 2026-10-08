@@ -1,0 +1,210 @@
+{
+  "davatelj": "Leć d.o.o.",
+  "web": "https://www.lec.hr",
+  "izvor": "https://www.lec.hr/cistoca/odvoz-komunalnog-otpada/raspored-odvoza",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Vodice", "Tribunj"],
+  "nazivi": {"P": "Reciklabilni otpad (papir, plastika, metal)"},
+  "bioNapomena": "Biootpad: kućno kompostiranje (kompostiranje u vlastitom komposteru).",
+  "napomene": ["Raspored za kućanstva; za pravne osobe Leć objavljuje poseban raspored (nije uključen).", "Staklo i tekstil: odvoz četvrtkom i petkom na poziv korisnika (tipizirane vrećice: Obala Juričev Ive Cota 9, Vodice).", "Glomazni otpad: besplatno jednom godišnje do 4 m³ na zahtjev, tel. 022/443-787 ili info@lec.hr.", "Do uspostave reciklažnog dvorišta otpad se može samostalno dovesti na adresu Put Gaćeleza 3/b, Vodice (pon–pet 7–14 h).", "Okvirno vrijeme odvoza: zimi 6–13 h, ljeti 5–12 h.", "Pomaci odvoza zbog blagdana nisu objavljeni kao pravilo; datumi su izračunati iz pravila, osim pomaka iz obavijesti tvrtke (označeni kao pomaknuti).", "Sezone: miješani otpad (Vodice, Srima, Tribunj) zimi siječanj–travanj i listopad–prosinac jednom tjedno, ljeti svibanj–rujan dvaput tjedno; reciklabilni otpad zimi siječanj–svibanj i listopad–prosinac jednom mjesečno, ljeti lipanj–rujan dvaput mjesečno."],
+  "zone": {
+    "1": {
+      "jls": "Vodice",
+      "podrucje": "Vodice, ponedjeljak – Andrije Kačića Miošića, Augusta Šenoe, Ante Kovačića …",
+      "ulice": ["Andrije Kačića Miošića", "Augusta Šenoe", "Ante Kovačića", "Antuna Mihanovića", "Bilan Šime Šijca", "Brodska", "Benjamina Udovičića", "Ćirila i Metoda", "Eugena Kumičića", "Eugena Kvaternika", "Fausta Vrančića", "Fran Galović", "Ivana Gundulića", "Ivana Ribara", "Josipa Šprljana Akabe", "Jurja Šižgorića", "Kraje", "Lasan Ante Kabalera", "Ljubljanska", "Ljudevita Gaja", "Magistrala", "Marka Marulića", "Neretvanska", "Ranka Marinkovića", "Račice I", "Račice II", "Ruđera Boškovića", "Sarajevska", "Skopska", "Splitska", "Stablinac I", "Stablinac II", "Stablinac III", "Stablinac IV", "Stablinac V", "Stablinac VI", "Stablinac VII", "Stablinac VIII", "Stablinac IX", "Stablinac X", "Stablinac XI", "Stablinac XII", "Stablinac XIII", "Stanine II", "Šibenska", "Tina Ujevića", "Udovičić Ante Kule", "Vladka Mačeka", "Zagrebačka"],
+      "napomena": "Miješani otpad – siječanj–travanj i listopad–prosinac: ponedjeljkom; svibanj–rujan: ponedjeljkom i četvrtkom. Reciklabilni otpad – siječanj–svibanj i listopad–prosinac: prvi ponedjeljak u mjesecu; lipanj–rujan: prvi i treći ponedjeljak u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 M 01-19 M 01-26 M",
+          "02-02 MP 02-09 M 02-16 M 02-23 M",
+          "03-02 MP 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-06 MP 04-13 M 04-20 M 04-27 M",
+          "05-04 MP 05-07 M 05-11 M 05-14 M 05-18 M 05-21 M 05-25 M 05-28 M",
+          "06-01 MP 06-04 M 06-08 M 06-11 M 06-15 MP 06-18 M 06-22 M 06-25 M 06-29 M",
+          "07-02 M 07-06 MP 07-09 M 07-13 M 07-16 M 07-20 MP 07-23 M 07-27 M 07-30 M",
+          "08-03 MP 08-06 M 08-10 M 08-13 M 08-17 MP 08-20 M 08-24 M 08-27 M 08-31 M",
+          "09-03 M 09-07 MP 09-10 M 09-14 M 09-17 M 09-21 MP 09-24 M 09-28 M",
+          "10-05 MP 10-12 M 10-19 M 10-26 M",
+          "11-02 MP 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-07 MP 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Vodice",
+      "podrucje": "Vodice, utorak – Ante Poljička, Artina, Braće Kaje …",
+      "ulice": ["Ante Poljička", "Artina", "Braće Kaje", "Bribirskih knezova", "Brunac", "Dočine", "Don Ante Juričev-Police", "Dulcin", "Grge Ivasa", "Grgurev Tonča", "Ivana Pelajića", "Lička", "Lovetovo", "Male vruje", "Matije Gupca", "Mićin Stanka", "Migalovica", "Miroslava Krleže", "Narodnjaka", "Nikole Tesle", "Obrove", "Pamuković Kamila", "Pavla Šubića", "Petra Berislavića", "Polovine", "Plimica", "Prve primorske čete dio", "Put Vatroslava Lisinskog", "Roca Pave", "Rupina", "Vlahov Venca"],
+      "napomena": "Miješani otpad – siječanj–travanj i listopad–prosinac: utorkom; svibanj–rujan: utorkom i petkom. Reciklabilni otpad – siječanj–svibanj i listopad–prosinac: prvi utorak u mjesecu; lipanj–rujan: prvi i treći utorak u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-06 MP 01-13 M 01-20 M 01-27 M",
+          "02-03 MP 02-10 M 02-17 M 02-24 M",
+          "03-03 MP 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 MP 04-14 M 04-21 M 04-28 M",
+          "05-01 M 05-05 MP 05-08 M 05-12 M 05-15 M 05-19 M 05-22 M 05-26 M 05-29 M",
+          "06-02 MP 06-05 M 06-09 M 06-12 M 06-16 MP 06-19 M 06-23 M 06-26 M 06-30 M",
+          "07-03 M 07-07 MP 07-10 M 07-14 M 07-17 M 07-21 MP 07-24 M 07-28 M 07-31 M",
+          "08-04 MP 08-07 M 08-11 M 08-14 M 08-18 MP 08-21 M 08-25 M 08-28 M",
+          "09-01 MP 09-04 M 09-08 M 09-11 M 09-15 MP 09-18 M 09-22 M 09-25 M 09-29 M",
+          "10-06 MP 10-13 M 10-20 M 10-27 M",
+          "11-03 MP 11-10 M 11-17 M 11-24 M",
+          "12-01 MP 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Vodice",
+      "podrucje": "Vodice, srijeda – Ante Starčevića, Blata, Bristak …",
+      "ulice": ["Ante Starčevića", "Blata", "Bristak", "Fra Pija Fržopa", "Grgura Ninskog", "Grgurev Ante Kukure", "Hrvatskih boraca", "Ivana Gorana Kovačića", "Ive Čaće", "Katarine Zrinski", "Mirka Zore", "Nikole Šubića Zrinskog", "Obala Juričev Ive Cota", "Obala Matice hrvatske", "Obala Vladimira Nazora", "Put Gaćeleza", "Trg Franje Tuđmana", "Trg kneza Branimira", "Prvomajska", "Prve primorske čete – dio", "Prvićka", "Pudarica", "Španja Ante", "Zadarska", "Zatonska", "Želino", "Žrtava fašizma"],
+      "napomena": "Miješani otpad – siječanj–travanj i listopad–prosinac: srijedom; svibanj–rujan: srijedom i subotom. Reciklabilni otpad – siječanj–svibanj i listopad–prosinac: prva srijeda u mjesecu; lipanj–rujan: prva i treća srijeda u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 M 01-21 M 01-28 M",
+          "02-04 MP 02-11 M 02-18 M 02-25 M",
+          "03-04 MP 03-11 M 03-18 M 03-25 M",
+          "04-01 MP 04-08 M 04-15 M 04-22 M 04-29 M",
+          "05-02 M 05-06 MP 05-09 M 05-13 M 05-16 M 05-20 M 05-23 M 05-27 M 05-30 M",
+          "06-03 MP 06-06 M 06-10 M 06-13 M 06-17 MP 06-20 M 06-24 M 06-27 M",
+          "07-01 MP 07-04 M 07-08 M 07-11 M 07-15 MP 07-18 M 07-22 M 07-25 M 07-29 M",
+          "08-01 M 08-05 MP 08-08 M 08-12 M 08-15 M 08-19 MP 08-22 M 08-26 M 08-29 M",
+          "09-02 MP 09-05 M 09-09 M 09-12 M 09-16 MP 09-19 M 09-23 M 09-26 M 09-30 M",
+          "10-07 MP 10-14 M 10-21 M 10-28 M",
+          "11-04 MP 11-11 M 11-18 M 11-25 M",
+          "12-02 MP 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Vodice",
+      "podrucje": "Srima, srijeda – Srima I, Srima III, Srima IV …",
+      "ulice": ["Srima I", "Srima III", "Srima IV", "Srima V", "Srima VI", "Srima VII", "Srima VIII", "Srima IX", "Srima X", "Srima XI", "Srima XII", "Srima XIII", "Srima XIV", "Srima XV", "Srima XVI", "Srima XVII", "Srima XVIII", "Srima XIX", "Srima XX", "Trg Srime"],
+      "napomena": "Miješani otpad – siječanj–travanj i listopad–prosinac: srijedom; svibanj–rujan: srijedom i subotom. Reciklabilni otpad – siječanj–svibanj i listopad–prosinac: druga srijeda u mjesecu; lipanj–rujan: druga i četvrta srijeda u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 MP 01-21 M 01-28 M",
+          "02-04 M 02-11 MP 02-18 M 02-25 M",
+          "03-04 M 03-11 MP 03-18 M 03-25 M",
+          "04-01 M 04-08 MP 04-15 M 04-22 M 04-29 M",
+          "05-02 M 05-06 M 05-09 M 05-13 MP 05-16 M 05-20 M 05-23 M 05-27 M 05-30 M",
+          "06-03 M 06-06 M 06-10 MP 06-13 M 06-17 M 06-20 M 06-24 MP 06-27 M",
+          "07-01 M 07-04 M 07-08 MP 07-11 M 07-15 M 07-18 M 07-22 MP 07-25 M 07-29 M",
+          "08-01 M 08-05 M 08-08 M 08-12 MP 08-15 M 08-19 M 08-22 M 08-26 MP 08-29 M",
+          "09-02 M 09-05 M 09-09 MP 09-12 M 09-16 M 09-19 M 09-23 MP 09-26 M 09-30 M",
+          "10-07 M 10-14 MP 10-21 M 10-28 M",
+          "11-04 M 11-11 MP 11-18 M 11-25 M",
+          "12-02 M 12-09 MP 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Vodice",
+      "podrucje": "Srima, utorak – Srima II, Srima XXI",
+      "ulice": ["Srima II", "Srima XXI"],
+      "napomena": "Miješani otpad – siječanj–travanj i listopad–prosinac: utorkom; svibanj–rujan: utorkom i petkom. Reciklabilni otpad – siječanj–svibanj i listopad–prosinac: prvi utorak u mjesecu; lipanj–rujan: prvi i treći utorak u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-06 MP 01-13 M 01-20 M 01-27 M",
+          "02-03 MP 02-10 M 02-17 M 02-24 M",
+          "03-03 MP 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 MP 04-14 M 04-21 M 04-28 M",
+          "05-01 M 05-05 MP 05-08 M 05-12 M 05-15 M 05-19 M 05-22 M 05-26 M 05-29 M",
+          "06-02 MP 06-05 M 06-09 M 06-12 M 06-16 MP 06-19 M 06-23 M 06-26 M 06-30 M",
+          "07-03 M 07-07 MP 07-10 M 07-14 M 07-17 M 07-21 MP 07-24 M 07-28 M 07-31 M",
+          "08-04 MP 08-07 M 08-11 M 08-14 M 08-18 MP 08-21 M 08-25 M 08-28 M",
+          "09-01 MP 09-04 M 09-08 M 09-11 M 09-15 MP 09-18 M 09-22 M 09-25 M 09-29 M",
+          "10-06 MP 10-13 M 10-20 M 10-27 M",
+          "11-03 MP 11-10 M 11-17 M 11-24 M",
+          "12-01 MP 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Vodice",
+      "podrucje": "Zaleđe – Gaćelezi, Čista Mala, Čista Velika, Grabovci",
+      "ulice": ["Gaćelezi", "Čista Mala", "Čista Velika", "Grabovci"],
+      "napomena": "Miješani otpad – siječanj–lipanj i rujan–prosinac četvrtkom; srpanj i kolovoz četvrtkom i nedjeljom. Reciklabilni otpad – prvi četvrtak u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-01 MP 01-08 M 01-15 M 01-22 M 01-29 M",
+          "02-05 MP 02-12 M 02-19 M 02-26 M",
+          "03-05 MP 03-12 M 03-19 M 03-26 M",
+          "04-02 MP 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-07 MP 05-14 M 05-21 M 05-28 M",
+          "06-04 MP 06-11 M 06-18 M 06-25 M",
+          "07-02 MP 07-05 M 07-09 M 07-12 M 07-16 M 07-19 M 07-23 M 07-26 M 07-30 M",
+          "08-02 M 08-06 MP 08-09 M 08-13 M 08-16 M 08-20 M 08-23 M 08-27 M 08-30 M",
+          "09-03 MP 09-10 M 09-17 M 09-24 M",
+          "10-01 MP 10-08 M 10-15 M 10-22 M 10-29 M",
+          "11-05 MP 11-12 M 11-19 M 11-26 M",
+          "12-03 MP 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Vodice",
+      "podrucje": "Otok Prvić – Prvić Luka, Prvić Šepurine",
+      "ulice": ["Prvić Luka", "Prvić Šepurine"],
+      "napomena": "Miješani otpad po razdobljima: 1.1.–27.4. i 3.11.–31.12. petkom; 28.4.–8.6. i 29.9.–2.11. ponedjeljkom i petkom; 9.6.–29.6. i 1.9.–28.9. ponedjeljkom, srijedom i petkom; 30.6.–31.8. ponedjeljkom, srijedom, petkom i subotom. Reciklabilni otpad se na otoku ne odvozi: može se samostalno dovesti u Vodice, Put Gaćeleza 3/b.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-24 M 04-30 M!",
+          "05-04 M 05-08 M 05-11 M 05-15 M 05-18 M 05-22 M 05-25 M 05-29 M",
+          "06-01 M 06-05 M 06-08 M 06-10 M 06-12 M 06-15 M 06-17 M 06-19 M 06-22 M 06-24 M 06-26 M 06-29 M",
+          "07-01 M 07-03 M 07-04 M 07-06 M 07-08 M 07-10 M 07-11 M 07-13 M 07-15 M 07-17 M 07-18 M 07-20 M 07-22 M 07-24 M 07-25 M 07-27 M 07-29 M 07-31 M",
+          "08-01 M 08-03 M 08-05 M 08-07 M 08-08 M 08-10 M 08-12 M 08-14 M 08-15 M 08-17 M 08-19 M 08-21 M 08-22 M 08-24 M 08-26 M 08-28 M 08-29 M 08-31 M",
+          "09-02 M 09-04 M 09-07 M 09-09 M 09-11 M 09-14 M 09-16 M 09-18 M 09-21 M 09-23 M 09-25 M 09-28 M",
+          "10-02 M 10-05 M 10-09 M 10-12 M 10-16 M 10-19 M 10-23 M 10-26 M 10-30 M",
+          "11-02 M 11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-25 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Tribunj",
+      "podrucje": "Tribunj, ponedjeljak – Badnje, Banićeva, Bunari …",
+      "ulice": ["Badnje", "Banićeva", "Bunari", "Brestovska", "Donja riva", "Gornja riva", "Jurjevgradska", "Križine (dio od Put Vodica do Uličina)", "Križine – Odvojak I", "Križine – Odvojak II", "Križine – Odvojak III", "Križine – Odvojak IV", "Križine – Odvojak VI", "Kornatska", "Luke", "Omladinska", "Podvornice", "Podvrh", "Prvinska", "Punta", "Put Bristaka", "Put Maslina", "Put Vodica", "Rupe", "Seline", "Srimarska", "Starine", "Svetog Nikole", "Šibenska", "Težačka", "Tresan", "Varoš", "Velike luke", "Vladimira Nazora", "Zagrebačka", "Zlarinska", "Žirjanska"],
+      "napomena": "Miješani otpad – siječanj–travanj i listopad–prosinac: ponedjeljkom; svibanj–rujan: ponedjeljkom i četvrtkom. Reciklabilni otpad – siječanj–svibanj i listopad–prosinac: drugi ponedjeljak u mjesecu; lipanj–rujan: drugi i četvrti ponedjeljak u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 MP 01-19 M 01-26 M",
+          "02-02 M 02-09 MP 02-16 M 02-23 M",
+          "03-02 M 03-09 MP 03-16 M 03-23 M 03-30 M",
+          "04-06 M 04-13 MP 04-20 M 04-27 M",
+          "05-04 M 05-07 M 05-11 MP 05-14 M 05-18 M 05-21 M 05-25 M 05-28 M",
+          "06-01 M 06-04 M 06-08 MP 06-11 M 06-15 M 06-18 M 06-22 MP 06-25 M 06-29 M",
+          "07-02 M 07-06 M 07-09 M 07-13 MP 07-16 M 07-20 M 07-23 M 07-27 MP 07-30 M",
+          "08-03 M 08-06 M 08-10 MP 08-13 M 08-17 M 08-20 M 08-24 MP 08-27 M 08-31 M",
+          "09-03 M 09-07 M 09-10 M 09-14 MP 09-17 M 09-21 M 09-24 M 09-28 MP",
+          "10-05 M 10-12 MP 10-19 M 10-26 M",
+          "11-02 M 11-09 MP 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-14 MP 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Tribunj",
+      "podrucje": "Tribunj, utorak – Dubravice, Garofula, Glavičine …",
+      "ulice": ["Dubravice", "Garofula", "Glavičine", "Jurjeva", "Kadulje", "Kamenska", "Križine (dio Uličina do raskrižja za Sovlju)", "Križine – Odvojak VIII", "Lavande", "Lokvica", "Mornarska", "Mrte", "Murtele", "Put Male Gospe", "Put slobode", "Put Sovlja", "Ribarska", "Ružmarina", "Šepurinska", "Trg Pijaca", "Uličine", "Vrtli", "Zamalin", "Živode"],
+      "napomena": "Miješani otpad – siječanj–travanj i listopad–prosinac: utorkom; svibanj–rujan: utorkom i petkom. Reciklabilni otpad – siječanj–svibanj i listopad–prosinac: drugi utorak u mjesecu; lipanj–rujan: drugi i četvrti utorak u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 MP 01-20 M 01-27 M",
+          "02-03 M 02-10 MP 02-17 M 02-24 M",
+          "03-03 M 03-10 MP 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 MP 04-21 M 04-28 M",
+          "05-01 M 05-05 M 05-08 M 05-12 MP 05-15 M 05-19 M 05-22 M 05-26 M 05-29 M",
+          "06-02 M 06-05 M 06-09 MP 06-12 M 06-16 M 06-19 M 06-23 MP 06-26 M 06-30 M",
+          "07-03 M 07-07 M 07-10 M 07-14 MP 07-17 M 07-21 M 07-24 M 07-28 MP 07-31 M",
+          "08-04 M 08-07 M 08-11 MP 08-14 M 08-18 M 08-21 M 08-25 MP 08-28 M",
+          "09-01 M 09-04 M 09-08 MP 09-11 M 09-15 M 09-18 M 09-22 MP 09-25 M 09-29 M",
+          "10-06 M 10-13 MP 10-20 M 10-27 M",
+          "11-03 M 11-10 MP 11-17 M 11-24 M",
+          "12-01 M 12-08 MP 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    }
+  }
+}
