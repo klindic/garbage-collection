@@ -1,0 +1,125 @@
+{
+  "davatelj": "RAD d.o.o. Đurđenovac",
+  "web": "https://www.djurdjenovac.hr/objave-drustva-rad-d-o-o-durdenovac",
+  "izvor": "https://www.djurdjenovac.hr/objave-drustva-rad-d-o-o-durdenovac",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Đurđenovac", "Feričanci"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)", "P": "Plastika i metalna ambalaža (vreće)", "K": "Papir (plava vreća)"},
+  "napomene": ["RAD nema raspored s datumima: datumi su izračunati iz trajnih pravila (Đurđenovac: letak iz 2020.; Feričanci: raspored u primjeni od 1.8.2022.). Pravila su stara; provjerite kod davatelja.", "Đurđenovac: miješani otpad u prvom i trećem punom tjednu u mjesecu, plastika i metal te papir u drugom punom tjednu (puni tjedan = ponedjeljak–petak unutar mjeseca); prema letku sav se otpad odvozi prema rasporedu i u slučaju praznika.", "Feričanci: miješani otpad prvi, treći i četvrti petak u mjesecu, papir drugi petak, plastika i metal četvrti četvrtak; pomaci zbog blagdana nisu objavljeni, pa su datumi ostavljeni prema pravilu.", "RAD d.o.o., Trg dr. Franje Tuđmana 6, Đurđenovac: 031/601-516, rad.d.o.o@os.t-com.hr."],
+  "zone": {
+    "1": {
+      "jls": "Đurđenovac",
+      "podrucje": "Klokočevci, Lipine, Pribiševci, Šaptinovci – miješani ponedjeljkom, plastika i metal ponedjeljkom, papir srijedom",
+      "opis": "Klokočevci, Lipine, Pribiševci, Šaptinovci",
+      "ulice": ["Klokočevci", "Lipine", "Pribiševci", "Šaptinovci"],
+      "napomena": "pravila iz 2020.; provjerite kod davatelja",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 P 01-14 K 01-19 M",
+          "02-02 M 02-09 P 02-11 K 02-16 M",
+          "03-02 M 03-09 P 03-11 K 03-16 M",
+          "04-06 M 04-13 P 04-15 K 04-20 M",
+          "05-04 M 05-11 P 05-13 K 05-18 M",
+          "06-01 M 06-08 P 06-10 K 06-15 M",
+          "07-06 M 07-13 P 07-15 K 07-20 M",
+          "08-03 M 08-10 P 08-12 K 08-17 M",
+          "09-07 M 09-14 P 09-16 K 09-21 M",
+          "10-05 M 10-12 P 10-14 K 10-19 M",
+          "11-02 M 11-09 P 11-11 K 11-16 M",
+          "12-07 M 12-14 P 12-16 K 12-21 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Đurđenovac",
+      "podrucje": "Đurđenovac 1, Sušine – miješani utorkom, plastika i metal utorkom, papir četvrtkom",
+      "opis": "Đurđenovac 1, Sušine",
+      "ulice": ["Đurđenovac 1", "Sušine"],
+      "napomena": "pravila iz 2020.; provjerite kod davatelja. Podjela naselja Đurđenovac na Đurđenovac 1 i 2 nije objavljena; provjerite kod RAD-a.",
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 P 01-15 K 01-20 M",
+          "02-03 M 02-10 P 02-12 K 02-17 M",
+          "03-03 M 03-10 P 03-12 K 03-17 M",
+          "04-07 M 04-14 P 04-16 K 04-21 M",
+          "05-05 M 05-12 P 05-14 K 05-19 M",
+          "06-02 M 06-09 P 06-11 K 06-16 M",
+          "07-07 M 07-14 P 07-16 K 07-21 M",
+          "08-04 M 08-11 P 08-13 K 08-18 M",
+          "09-08 M 09-15 P 09-17 K 09-22 M",
+          "10-06 M 10-13 P 10-15 K 10-20 M",
+          "11-03 M 11-10 P 11-12 K 11-17 M",
+          "12-08 M 12-15 P 12-17 K 12-22 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Đurđenovac",
+      "podrucje": "Đurđenovac 2, Gabrilovac, Ličko Novo Selo, Našičko Novo Selo – miješani srijedom, plastika i metal utorkom, papir četvrtkom",
+      "opis": "Đurđenovac 2, Gabrilovac, Ličko Novo Selo, N.N. Selo",
+      "ulice": ["Đurđenovac 2", "Gabrilovac", "Ličko Novo Selo", "Našičko Novo Selo"],
+      "napomena": "pravila iz 2020.; provjerite kod davatelja. Podjela naselja Đurđenovac na Đurđenovac 1 i 2 nije objavljena; provjerite kod RAD-a.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-13 P 01-15 K 01-21 M",
+          "02-04 M 02-10 P 02-12 K 02-18 M",
+          "03-04 M 03-10 P 03-12 K 03-18 M",
+          "04-08 M 04-14 P 04-16 K 04-22 M",
+          "05-06 M 05-12 P 05-14 K 05-20 M",
+          "06-03 M 06-09 P 06-11 K 06-17 M",
+          "07-08 M 07-14 P 07-16 K 07-22 M",
+          "08-05 M 08-11 P 08-13 K 08-19 M",
+          "09-09 M 09-15 P 09-17 K 09-23 M",
+          "10-07 M 10-13 P 10-15 K 10-21 M",
+          "11-04 M 11-10 P 11-12 K 11-18 M",
+          "12-09 M 12-15 P 12-17 K 12-23 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Đurđenovac",
+      "podrucje": "Beljevina, Bokšić, Bokšić Lug, Krčevina, Teodorovac – miješani četvrtkom, plastika i metal ponedjeljkom, papir srijedom",
+      "opis": "Beljevina, Bokšić, Bokšić Lug, Krčevina, Teodorovac",
+      "ulice": ["Beljevina", "Bokšić", "Bokšić Lug", "Krčevina", "Teodorovac"],
+      "napomena": "pravila iz 2020.; provjerite kod davatelja",
+      "raw": {
+        "2026": [
+          "01-08 M 01-12 P 01-14 K 01-22 M",
+          "02-05 M 02-09 P 02-11 K 02-19 M",
+          "03-05 M 03-09 P 03-11 K 03-19 M",
+          "04-09 M 04-13 P 04-15 K 04-23 M",
+          "05-07 M 05-11 P 05-13 K 05-21 M",
+          "06-04 M 06-08 P 06-10 K 06-18 M",
+          "07-09 M 07-13 P 07-15 K 07-23 M",
+          "08-06 M 08-10 P 08-12 K 08-20 M",
+          "09-10 M 09-14 P 09-16 K 09-24 M",
+          "10-08 M 10-12 P 10-14 K 10-22 M",
+          "11-05 M 11-09 P 11-11 K 11-19 M",
+          "12-10 M 12-14 P 12-16 K 12-24 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Feričanci",
+      "podrucje": "Cijela općina Feričanci – miješani i papir petkom, plastika i metal četvrtkom",
+      "ulice": ["Feričanci"],
+      "napomena": "pravila iz 2022. (u primjeni od 01.08.2022.); provjerite kod davatelja",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 K 01-16 M 01-22 P 01-23 M",
+          "02-06 M 02-13 K 02-20 M 02-26 P 02-27 M",
+          "03-06 M 03-13 K 03-20 M 03-26 P 03-27 M",
+          "04-03 M 04-10 K 04-17 M 04-23 P 04-24 M",
+          "05-01 M 05-08 K 05-15 M 05-22 M 05-28 P",
+          "06-05 M 06-12 K 06-19 M 06-25 P 06-26 M",
+          "07-03 M 07-10 K 07-17 M 07-23 P 07-24 M",
+          "08-07 M 08-14 K 08-21 M 08-27 P 08-28 M",
+          "09-04 M 09-11 K 09-18 M 09-24 P 09-25 M",
+          "10-02 M 10-09 K 10-16 M 10-22 P 10-23 M",
+          "11-06 M 11-13 K 11-20 M 11-26 P 11-27 M",
+          "12-04 M 12-11 K 12-18 M 12-24 P 12-25 M"
+        ]
+      }
+    }
+  }
+}

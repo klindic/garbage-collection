@@ -1,0 +1,240 @@
+{
+  "davatelj": "Flora VTC d.o.o.",
+  "web": "https://flora-vtc.hr",
+  "izvor": "https://flora-vtc.hr/djelatnost/zbrinjavanje-komunalnog-otpada/",
+  "zupanija": "Virovitičko-podravska",
+  "jls": ["Virovitica", "Lukač", "Suhopolje", "Špišić Bukovica", "Gradina"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena posuda)", "P": "Plastika i plastična ambalaža (žuta posuda)", "K": "Papir i papirna ambalaža (plava posuda)"},
+  "bioNapomena": "Biootpad (smeđa posuda) odvozi se u tjednima označenim na kalendaru biootpada, na dan iz rasporeda ulica.",
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno na dan iz rasporeda ulica; papir i biootpad u tjednima označenim plavo odnosno smeđe, plastika u tjednima označenim žuto na kalendaru, na isti dan u tjednu.", "Kalendari papira, plastike i biootpada objavljeni su za razdoblje od 01.08.2026. do 28.02.2027.; podaci obuhvaćaju samo to razdoblje (raniji mjeseci nisu objavljeni).", "Blagdani prema kalendaru: 5.8., 18.11., 6.1. redovan odvoz; neradni dani 25.12. → 26.12., 1.1. → 2.1. (odvoz u subotu, označeno kao premješteno).", "Ljeti (od početka lipnja do kraja rujna) otpad se odvozi od 5 do 13 sati; posude treba iznijeti večer prije, najkasnije do 5 sati.", "Glomazni otpad: jednom godišnje besplatno do 5 m³ uz dogovor s Florom VTC. Reciklažna dvorišta: Virovitica (Florin put 14, ponedjeljak–petak 8–18), Suhopolje (Pčelić 194, srijeda 9–17), Špišić Bukovica (Bukovački vinogradi 10, utorak 8–16, četvrtak 10–18 sati).", "Oznake „Papir/Plastika (EKO-otoci i pravne osobe)” u rasporedu odnose se na eko-otoke i pravne osobe.", "Info centar Flora VTC: 0800 444 110."],
+  "zone": {
+    "1": {
+      "jls": "Virovitica",
+      "podrucje": "Ponedjeljak – Zlatnog Polja, Vinkovačka cesta + „Vuča vlakova“, Poduzetnička zona II/III, Županjska ulica …",
+      "opis": "Zlatnog Polja, Vinkovačka cesta + „Vuča vlakova“, Poduzetnička zona II/III, Županjska ulica, Vukovarska cesta, M. Krleže do Trenkove, B. Trenka, N. Š. Zrinskog, P. Berislavića, A. G. Matoša, M. J. Zagorke, M. Feldmana, S. S. Kranjčevića, Z. Kunc, V. Lisinskoga, L. Matačića, I. Zajca, J. Gotovca, J. Vlašimskog, S. Redera, F. F. Pintarića, A. Stepinca, T. Bakača, O. Horvata, Pod. zona III, , ZNG - od Sv. Trojstva do Vukovarske ulice, Požari, M. Nikolića, I. Gundulića, A. Mihanovića, T. Ujevića, Bečka-od Rusanove do Mihanovićeve, Trg bana J. Jelačić 7 do 10, parking Lj. Gaja 3, Lj. Gaja 10-20, parking Trg F. B. Gerbera - ulaz F. Rusana, Milanovac:30. Svibnja, Vinogradski put, Sv. Trojstva, Sv. Križa, MO Jasenaš",
+      "ulice": ["Zlatnog Polja", "Vinkovačka cesta + „Vuča vlakova“", "Poduzetnička zona II/III", "Županjska ulica", "Vukovarska cesta", "M. Krleže do Trenkove", "B. Trenka", "N. Š. Zrinskog", "P. Berislavića", "A. G. Matoša", "M. J. Zagorke", "M. Feldmana", "S. S. Kranjčevića", "Z. Kunc", "V. Lisinskoga", "L. Matačića", "I. Zajca", "J. Gotovca", "J. Vlašimskog", "S. Redera", "F. F. Pintarića", "A. Stepinca", "T. Bakača", "O. Horvata", "Pod. zona III", "ZNG - od Sv. Trojstva do Vukovarske ulice", "Požari", "M. Nikolića", "I. Gundulića", "A. Mihanovića", "T. Ujevića", "Bečka-od Rusanove do Mihanovićeve", "Trg bana J. Jelačić 7 do 10", "parking Lj. Gaja 3", "Lj. Gaja 10-20", "parking Trg F. B. Gerbera - ulaz F. Rusana", "Milanovac:30. Svibnja", "Vinogradski put", "Sv. Trojstva", "Sv. Križa", "MO Jasenaš"],
+      "raw": {
+        "2026": [
+          "08-03 MBK 08-10 MP 08-17 MBK 08-24 MP 08-31 MBK",
+          "09-07 MP 09-14 MBK 09-21 MP 09-28 M",
+          "10-05 MBK 10-12 MP 10-19 MBK 10-26 MP",
+          "11-02 MBK 11-09 MP 11-16 MBK 11-23 MP 11-30 MBK",
+          "12-07 MP 12-14 MBK 12-21 MP 12-28 M"
+        ],
+        "2027": [
+          "01-04 MBK 01-11 MP 01-18 MBK 01-25 MP",
+          "02-01 MBK 02-08 MP 02-15 MBK 02-22 MP"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Virovitica",
+      "podrucje": "Utorak – Odvojci: Milanovac (30. Svibnja, Sv. Križa, Sv. Trojstva, Vinogradski put), Rezovački vinogradi, Rezovačke Krčevine, Kalnička ulica",
+      "opis": "Odvojci: Milanovac (30. Svibnja, Sv. Križa, Sv. Trojstva, Vinogradski put), Rezovački vinogradi , Rezovačke Krčevine, Kalnička ulica",
+      "ulice": ["Odvojci: Milanovac (30. Svibnja, Sv. Križa, Sv. Trojstva, Vinogradski put)", "Rezovački vinogradi", "Rezovačke Krčevine", "Kalnička ulica"],
+      "raw": {
+        "2026": [
+          "08-04 MBK 08-11 MP 08-18 MBK 08-25 MP",
+          "09-01 MBK 09-08 MP 09-15 MBK 09-22 MP 09-29 M",
+          "10-06 MBK 10-13 MP 10-20 MBK 10-27 MP",
+          "11-03 MBK 11-10 MP 11-17 MBK 11-24 MP",
+          "12-01 MBK 12-08 MP 12-15 MBK 12-22 MP 12-29 M"
+        ],
+        "2027": [
+          "01-05 MBK 01-12 MP 01-19 MBK 01-26 MP",
+          "02-02 MBK 02-09 MP 02-16 MBK 02-23 MP"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Virovitica",
+      "podrucje": "Srijeda – Bilogorska, I. G. Kovačića, Dr. M. Pupeka, F. Račkoga …",
+      "opis": "Bilogorska, I. G. Kovačića, Dr. M. Pupeka, F. Račkoga, T. Maretića, P. Radića, Pejačevićeva, Trg. kralja P. Svačića, Trg A. Starčevića, Lj. Gaja – S. Radića (do ulaza u bolnicu), A. Šenoe, Psunjska, F. Rusana, M. Kraljevića, V. Bukovca, V. Belobrka, Hrv. žrtava, I. Meštrovića, A. Augustinčića, M. Derežića, Istarska, Iločka, Antunovac, T. Masaryka, N. Tesle, ZNG (od pruge do Vukovarske), Hrv. branitelja, 127. brigade HV, 81. gardijske bojne, Trg bana J. Jelačića 7-10, parking Lj. Gaja 3, Lj. Gaja 10-20, Trg dr. Franje Tuđmana, Trg fra B. Gerbera (ulaz Rusanova), Trg fra B. Gerbera (ulaz M. Gupca), Čemernica, Korija, Rezovac, Rez. vinogradi (bez odv.) i Rez. Krčevine (bez odv.)",
+      "ulice": ["Bilogorska", "I. G. Kovačića", "Dr. M. Pupeka", "F. Račkoga", "T. Maretića", "P. Radića", "Pejačevićeva", "Trg. kralja P. Svačića", "Trg A. Starčevića", "Lj. Gaja – S. Radića (do ulaza u bolnicu)", "A. Šenoe", "Psunjska", "F. Rusana", "M. Kraljevića", "V. Bukovca", "V. Belobrka", "Hrv. žrtava", "I. Meštrovića", "A. Augustinčića", "M. Derežića", "Istarska", "Iločka", "Antunovac", "T. Masaryka", "N. Tesle", "ZNG (od pruge do Vukovarske)", "Hrv. branitelja", "127. brigade HV", "81. gardijske bojne", "Trg bana J. Jelačića 7-10", "parking Lj. Gaja 3", "Lj. Gaja 10-20", "Trg dr. Franje Tuđmana", "Trg fra B. Gerbera (ulaz Rusanova)", "Trg fra B. Gerbera (ulaz M. Gupca)", "Čemernica", "Korija", "Rezovac"],
+      "raw": {
+        "2026": [
+          "08-05 MBK 08-12 MP 08-19 MBK 08-26 MP",
+          "09-02 MBK 09-09 MP 09-16 MBK 09-23 MP 09-30 M",
+          "10-07 MBK 10-14 MP 10-21 MBK 10-28 MP",
+          "11-04 MBK 11-11 MP 11-18 MBK 11-25 MP",
+          "12-02 MBK 12-09 MP 12-16 MBK 12-23 MP 12-30 M"
+        ],
+        "2027": [
+          "01-06 MBK 01-13 MP 01-20 MBK 01-27 MP",
+          "02-03 MBK 02-10 MP 02-17 MBK 02-24 MP"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Virovitica",
+      "podrucje": "Četvrtak – V. Nazora, A. K. Miošića, I. Mažuranića, Jurišićeva …",
+      "opis": "V. Nazora, A. K. Miošića, I. Mažuranića, Jurišićeva, S. Ilića, E. Kumičića, D. Cesarića, Vinogradska, F. Fujsa, K. Š. Đalskog, P. Preradovića, Trg bana J. Jelačića, Trg fra B. Gerbera (iz M. Gupca), Trg kralja Tomislava, S. Vraza, Trg K. Frankopana, Zrinski vrt, I. Kapistrana, E. Šlomovića, N. Tricka, J. Runjanina, Đ. Basaričeka, A. Hebranga, M. Gupca, Bečka ulica, A. Štampara, Kralja P. Krešimira (dio), bivša „vojarna“",
+      "ulice": ["V. Nazora", "A. K. Miošića", "I. Mažuranića", "Jurišićeva", "S. Ilića", "E. Kumičića", "D. Cesarića", "Vinogradska", "F. Fujsa", "K. Š. Đalskog", "P. Preradovića", "Trg bana J. Jelačića", "Trg fra B. Gerbera (iz M. Gupca)", "Trg kralja Tomislava", "S. Vraza", "Trg K. Frankopana", "Zrinski vrt", "I. Kapistrana", "E. Šlomovića", "N. Tricka", "J. Runjanina", "Đ. Basaričeka", "A. Hebranga", "M. Gupca", "Bečka ulica", "A. Štampara", "Kralja P. Krešimira (dio)", "bivša „vojarna“"],
+      "raw": {
+        "2026": [
+          "08-06 MBK 08-13 MP 08-20 MBK 08-27 MP",
+          "09-03 MBK 09-10 MP 09-17 MBK 09-24 MP",
+          "10-01 M 10-08 MBK 10-15 MP 10-22 MBK 10-29 MP",
+          "11-05 MBK 11-12 MP 11-19 MBK 11-26 MP",
+          "12-03 MBK 12-10 MP 12-17 MBK 12-24 MP 12-31 M"
+        ],
+        "2027": [
+          "01-07 MBK 01-14 MP 01-21 MBK 01-28 MP",
+          "02-04 MBK 02-11 MP 02-18 MBK 02-25 MP"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Virovitica",
+      "podrucje": "Petak – J.J Strossmayera, A. Cesarca, T. Kolara, J. Palmotića …",
+      "opis": "J.J Strossmayera, A. Cesarca, T. Kolara, J. Palmotića, Prolaz J. Draškovića, Franjevačka, Kralja P. Krešimira (dio), L. Ružičke, Bogdanovićeva, R. Boškovića, Bajer, Dravska, Florin put, Trg kralja Zvonimira, Trg bana J. Jelačića 7-10, Trg fra B. Gerbera (ulaz M. Gupca), Trg fra B. Gerbera (ulaz Rusanova), Lj. Gaja 10-20, S. Radića, Lička, Osječka, Moslavačka, Zagorska, M. Krleže, M. Lovraka, M. Budaka, Slavonska, Podravska, naselja s klancima: Golo Brdo, Podgorje, Sv. Đurađ",
+      "ulice": ["J.J Strossmayera", "A. Cesarca", "T. Kolara", "J. Palmotića", "Prolaz J. Draškovića", "Franjevačka", "Kralja P. Krešimira (dio)", "L. Ružičke", "Bogdanovićeva", "R. Boškovića", "Bajer", "Dravska", "Florin put", "Trg kralja Zvonimira", "Trg bana J. Jelačića 7-10", "Trg fra B. Gerbera (ulaz M. Gupca)", "Trg fra B. Gerbera (ulaz Rusanova)", "Lj. Gaja 10-20", "S. Radića", "Lička", "Osječka", "Moslavačka", "Zagorska", "M. Krleže", "M. Lovraka", "M. Budaka", "Slavonska", "Podravska", "Golo Brdo", "Podgorje", "Sv. Đurađ"],
+      "raw": {
+        "2026": [
+          "08-07 MBK 08-14 MP 08-21 MBK 08-28 MP",
+          "09-04 MBK 09-11 MP 09-18 MBK 09-25 MP",
+          "10-02 M 10-09 MBK 10-16 MP 10-23 MBK 10-30 MP",
+          "11-06 MBK 11-13 MP 11-20 MBK 11-27 MP",
+          "12-04 MBK 12-11 MP 12-18 MBK 12-26 MP!"
+        ],
+        "2027": [
+          "01-02 M! 01-08 MBK 01-15 MP 01-22 MBK 01-29 MP",
+          "02-05 MBK 02-12 MP 02-19 MBK 02-26 MP"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Lukač",
+      "podrucje": "Ponedjeljak – Lukač, Brezik, Turanovac, Kapela Dvor",
+      "opis": "Lukač, Brezik, Turanovac, Kapela Dvor",
+      "ulice": ["Lukač", "Brezik", "Turanovac", "Kapela Dvor"],
+      "raw": {
+        "2026": [
+          "08-03 MBK 08-10 MP 08-17 MBK 08-24 MP 08-31 MBK",
+          "09-07 MP 09-14 MBK 09-21 MP 09-28 M",
+          "10-05 MBK 10-12 MP 10-19 MBK 10-26 MP",
+          "11-02 MBK 11-09 MP 11-16 MBK 11-23 MP 11-30 MBK",
+          "12-07 MP 12-14 MBK 12-21 MP 12-28 M"
+        ],
+        "2027": [
+          "01-04 MBK 01-11 MP 01-18 MBK 01-25 MP",
+          "02-01 MBK 02-08 MP 02-15 MBK 02-22 MP"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Lukač",
+      "podrucje": "Srijeda – Dugo Selo Lukačko, Veliko Polje, Budrovac, Gornje Bazje …",
+      "opis": "Dugo Selo Lukačko, Veliko Polje, Budrovac, Gornje Bazje, Rit, Katinka, Trezino Polje, Zrinj",
+      "ulice": ["Dugo Selo Lukačko", "Veliko Polje", "Budrovac", "Gornje Bazje", "Rit", "Katinka", "Trezino Polje", "Zrinj"],
+      "raw": {
+        "2026": [
+          "08-05 MBK 08-12 MP 08-19 MBK 08-26 MP",
+          "09-02 MBK 09-09 MP 09-16 MBK 09-23 MP 09-30 M",
+          "10-07 MBK 10-14 MP 10-21 MBK 10-28 MP",
+          "11-04 MBK 11-11 MP 11-18 MBK 11-25 MP",
+          "12-02 MBK 12-09 MP 12-16 MBK 12-23 MP 12-30 M"
+        ],
+        "2027": [
+          "01-06 MBK 01-13 MP 01-20 MBK 01-27 MP",
+          "02-03 MBK 02-10 MP 02-17 MBK 02-24 MP"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Suhopolje",
+      "podrucje": "Utorak – Kralja Zvonimira, Aleja grofa Jankovića, E. Kvaternika, Kralja Tomislava …",
+      "opis": "Kralja Zvonimira, Aleja grofa Jankovića, E. Kvaternika, Kralja Tomislava, P. Preradovića, Bana J. Jelečića, M. Gupca, S. Radića, Lj. Gaja, A. Hebranga, Dubrovačka, Vukovarska, V. Nazora, I. Gundulića, B. Radić, I. Mažuranića, Vinogradska, Z. Frankopana, I. Zajca, V. Lisinskog, Đ. Basaričeka, A. Stepinca, Osječka, Trg Sv. Terezeje, Kolodvorska, Kapan, Zvonimirovo, Gačište, Jasik, Orešac, Naudovac, Jugovo polje, Cabuna, Žiroslavlje",
+      "ulice": ["Kralja Zvonimira", "Aleja grofa Jankovića", "E. Kvaternika", "Kralja Tomislava", "P. Preradovića", "Bana J. Jelečića", "M. Gupca", "S. Radića", "Lj. Gaja", "A. Hebranga", "Dubrovačka", "Vukovarska", "V. Nazora", "I. Gundulića", "B. Radić", "I. Mažuranića", "Vinogradska", "Z. Frankopana", "I. Zajca", "V. Lisinskog", "Đ. Basaričeka", "A. Stepinca", "Osječka", "Trg Sv. Terezeje", "Kolodvorska", "Kapan", "Zvonimirovo", "Gačište", "Jasik", "Orešac", "Naudovac", "Jugovo polje", "Cabuna", "Žiroslavlje"],
+      "raw": {
+        "2026": [
+          "08-04 MBK 08-11 MP 08-18 MBK 08-25 MP",
+          "09-01 MBK 09-08 MP 09-15 MBK 09-22 MP 09-29 M",
+          "10-06 MBK 10-13 MP 10-20 MBK 10-27 MP",
+          "11-03 MBK 11-10 MP 11-17 MBK 11-24 MP",
+          "12-01 MBK 12-08 MP 12-15 MBK 12-22 MP 12-29 M"
+        ],
+        "2027": [
+          "01-05 MBK 01-12 MP 01-19 MBK 01-26 MP",
+          "02-02 MBK 02-09 MP 02-16 MBK 02-23 MP"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Suhopolje",
+      "podrucje": "Četvrtak – Levinovac, Pivnica Slavonska, Gvozdanska, Rodin Potok …",
+      "opis": "Levinovac, Pivnica Slavonska, Gvozdanska, Rodin Potok, Dvorska, Mandinac, V. Trapinska, M. Trapinska, Sovjak, Pepelana, Žubrica, Trnava, Budanica, Bukova, Borova, Pčelić, Eržabet, Lanište",
+      "ulice": ["Levinovac", "Pivnica Slavonska", "Gvozdanska", "Rodin Potok", "Dvorska", "Mandinac", "V. Trapinska", "M. Trapinska", "Sovjak", "Pepelana", "Žubrica", "Trnava", "Budanica", "Bukova", "Borova", "Pčelić", "Eržabet", "Lanište"],
+      "raw": {
+        "2026": [
+          "08-06 MBK 08-13 MP 08-20 MBK 08-27 MP",
+          "09-03 MBK 09-10 MP 09-17 MBK 09-24 MP",
+          "10-01 M 10-08 MBK 10-15 MP 10-22 MBK 10-29 MP",
+          "11-05 MBK 11-12 MP 11-19 MBK 11-26 MP",
+          "12-03 MBK 12-10 MP 12-17 MBK 12-24 MP 12-31 M"
+        ],
+        "2027": [
+          "01-07 MBK 01-14 MP 01-21 MBK 01-28 MP",
+          "02-04 MBK 02-11 MP 02-18 MBK 02-25 MP"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Špišić Bukovica",
+      "podrucje": "Utorak – Bukovački vinogradi, S. Radića, P. Miškine, Vinogradska …",
+      "opis": "Bukovački vinogradi, S. Radića, P. Miškine, Vinogradska, V. Nazora, Bukovička cesta, Novi Antunovac, Kolodvorska, Mali Zagreb, M. Gupca, P. Preradovića, Lozan, Vukosavljevica, Okrugljača, Bušetina, Rogovac",
+      "ulice": ["Bukovački vinogradi", "S. Radića", "P. Miškine", "Vinogradska", "V. Nazora", "Bukovička cesta", "Novi Antunovac", "Kolodvorska", "Mali Zagreb", "M. Gupca", "P. Preradovića", "Lozan", "Vukosavljevica", "Okrugljača", "Bušetina", "Rogovac"],
+      "raw": {
+        "2026": [
+          "08-04 MBK 08-11 MP 08-18 MBK 08-25 MP",
+          "09-01 MBK 09-08 MP 09-15 MBK 09-22 MP 09-29 M",
+          "10-06 MBK 10-13 MP 10-20 MBK 10-27 MP",
+          "11-03 MBK 11-10 MP 11-17 MBK 11-24 MP",
+          "12-01 MBK 12-08 MP 12-15 MBK 12-22 MP 12-29 M"
+        ],
+        "2027": [
+          "01-05 MBK 01-12 MP 01-19 MBK 01-26 MP",
+          "02-02 MBK 02-09 MP 02-16 MBK 02-23 MP"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Gradina",
+      "podrucje": "Četvrtak – Gradina, Rušani, Gradinski Lug, Lipovac …",
+      "opis": "Gradina, Rušani, Gradinski Lug, Lipovac, Bačevac",
+      "ulice": ["Gradina", "Rušani", "Gradinski Lug", "Lipovac", "Bačevac"],
+      "raw": {
+        "2026": [
+          "08-06 MBK 08-13 MP 08-20 MBK 08-27 MP",
+          "09-03 MBK 09-10 MP 09-17 MBK 09-24 MP",
+          "10-01 M 10-08 MBK 10-15 MP 10-22 MBK 10-29 MP",
+          "11-05 MBK 11-12 MP 11-19 MBK 11-26 MP",
+          "12-03 MBK 12-10 MP 12-17 MBK 12-24 MP 12-31 M"
+        ],
+        "2027": [
+          "01-07 MBK 01-14 MP 01-21 MBK 01-28 MP",
+          "02-04 MBK 02-11 MP 02-18 MBK 02-25 MP"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Gradina",
+      "podrucje": "Petak – Žlebine, Novi Gradac, Detkovac, Brezovica …",
+      "opis": "Žlebine, Novi Gradac, Detkovac, Brezovica, Vladimirovac, Budakovac",
+      "ulice": ["Žlebine", "Novi Gradac", "Detkovac", "Brezovica", "Vladimirovac", "Budakovac"],
+      "raw": {
+        "2026": [
+          "08-07 MBK 08-14 MP 08-21 MBK 08-28 MP",
+          "09-04 MBK 09-11 MP 09-18 MBK 09-25 MP",
+          "10-02 M 10-09 MBK 10-16 MP 10-23 MBK 10-30 MP",
+          "11-06 MBK 11-13 MP 11-20 MBK 11-27 MP",
+          "12-04 MBK 12-11 MP 12-18 MBK 12-26 MP!"
+        ],
+        "2027": [
+          "01-02 M! 01-08 MBK 01-15 MP 01-22 MBK 01-29 MP",
+          "02-05 MBK 02-12 MP 02-19 MBK 02-26 MP"
+        ]
+      }
+    }
+  }
+}

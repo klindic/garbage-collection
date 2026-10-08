@@ -1,0 +1,33 @@
+{
+  "davatelj": "Sloboština d.o.o.",
+  "web": "http://www.slobostina.com",
+  "zupanija": "Brodsko-posavska",
+  "jls": ["Okučani"],
+  "nazivi": {"P": "Plastika i plastična ambalaža (žuta kanta)", "K": "Papir i papirna ambalaža (plava kanta)"},
+  "napomene": ["Objavljen je samo kalendar odvoza papira i plastike (svaki drugi mjesec, ponedjeljkom); raspored odvoza miješanog komunalnog otpada nije objavljen – informacije: Sloboština d.o.o., 035/371-144, slobostina@sb.t-com.hr.", "Papir, plastiku i druge korisne sirovine moguće je besplatno predati u reciklažnom dvorištu Općine Okučani (Industrijska zona)."],
+  "izvor": "http://www.slobostina.com/index.php/30-raspored-odvoza-otpada-2026-godine",
+  "zone": {
+    "1": {
+      "jls": "Okučani",
+      "podrucje": "Cijela općina Okučani – papir i plastika ponedjeljkom (miješani otpad nije objavljen)",
+      "ulice": ["Okučani"],
+      "napomena": "Kalendar vrijedi za cijelo područje Općine Okučani; odvoz miješanog otpada nije u kalendaru.",
+      "raw": {
+        "2026": [
+          "01-12 K",
+          "02-02 P",
+          "03-02 K",
+          "04-13 P",
+          "05-04 K",
+          "06-01 P",
+          "07-06 K",
+          "08-03 P",
+          "09-07 K",
+          "10-05 P",
+          "11-02 K",
+          "12-07 P"
+        ]
+      }
+    }
+  }
+}
