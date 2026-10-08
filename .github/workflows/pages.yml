@@ -1,8 +1,15 @@
 name: Deploy to GitHub Pages
 
+# The live site is built from main. The hrvatska branch is built into /test/ of the same site
+# (https://klindic.github.io/garbage-collection/test/): a push to hrvatska runs "Test build" there, and when that
+# succeeds this workflow (always the copy on main, so the github-pages environment accepts it) redeploys both.
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: [Test build]
+    types: [completed]
+    branches: [hrvatska]
   workflow_dispatch:
 
 permissions:
@@ -16,13 +23,25 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - run: ./build.sh
+      # The test version must never stop the live site from deploying.
+      - uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: hrvatska
+          path: test-src
+      - name: Build hrvatska into /test/
+        continue-on-error: true
+        run: OUT="$GITHUB_WORKSPACE/_site/test" SITE_BASE="klindic.github.io/garbage-collection/test/" ./test-src/build.sh
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
