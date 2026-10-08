@@ -1,0 +1,353 @@
+{
+  "davatelj": "Pula Herculanea d.o.o.",
+  "web": "https://www.herculanea.hr",
+  "izvor": "https://www.herculanea.hr/hr/usluge/cistoca/kalendar-odvoza/",
+  "zupanija": "Istarska",
+  "jls": ["Pula – Pola", "Barban", "Fažana – Fasana", "Ližnjan – Lisignano", "Marčana", "Svetvinčenat"],
+  "nazivi": {"P": "Plastika i metal", "K": "Papir i karton"},
+  "bioNapomena": "Biootpad se odvozi samo u dijelu mjesnih odbora (prema tražilici).",
+  "napomene": ["Raspored po adresi (kućnom broju) na https://www.herculanea.hr/hr/usluge/cistoca/kalendar-odvoza/; objavljuju se samo tekući i sljedeći mjesec, pa se raspored nadopunjuje svakim pokretanjem skripte.", "U središtu Pule i na drugim adresama sa zajedničkim spremnicima nema rasporeda za kućanstva: otpad se odlaže u zajedničke spremnike (lokacije spremnika na herculanea.hr).", "Spremnike treba iznijeti večer prije odvoza.", "Pomaci zbog blagdana nisu posebno označeni; datumi su preuzeti kako su objavljeni.", "Za neke adrese tražilica daje raspored samo bez kućnog broja (npr. Šišan), a s kućnim brojem javlja da nema rasporeda; takve adrese su u zoni pod svojim imenom, a brojevi u popisu adresa bez rasporeda.", "Adrese sa zajedničkim spremnicima (354): Akvilejski prilaz, Aleja Maslina 1–3, Aleja Maslina 5–7, Amfiteatarska ulica, Anticova ulica, Arsenalska ulica, Augustov prolaz, Banovčeva ulica, Bečka ulica, Benčićeva ulica, Besenghijeva ulica, Boškovićev uspon, Brionska ulica 2, Brionska ulica 6–7, Budicinova ulica 1, Budicinova ulica 18, Budicinova ulica 20, Budicinova ulica 31–35, Budicinova ulica 9, Buonarrotijeva ulica, Cankarova ulica, Carrarina ulica, Ciscuttijeva ulica, Cvečićev uspon, Da Vincijeva ulica, Dalmatinova ulica, Danteov trg, De Villeov uspon, Divkovićeva ulica, Dobricheva ulica, Dobrilina ulica, Držićeva ulica, Duga Uvala (Krnica), Duga Uvala,ladonja (Krnica), Duga Uvala,mendula (Krnica), Duga Uvala,mirta 1 (Krnica), Duga Uvala,mirta 2 (Krnica), Duga Uvala-bašelak (Krnica), Duga Uvala-bršuda (Krnica), Duga Uvala-črešnja 1 i 2 (Krnica), Duga Uvala-dub (Krnica), Duga Uvala-javorika 1 i 2 (Krnica), Duga Uvala-roža-garoful (Krnica), Duga Uvala-smrika 1 i 2 (Krnica), Duga Uvala-ulika (Krnica), Emova ulica, Epulonova ulica, Faverijska ulica 19, Faverijska ulica 1–16, Faverijska ulica 21, Flaciusova ulica, Flanatička ulica, Flavijevska ulica, Forum, Gajeva ulica, Galijotska ulica, Giardini, Ginzkeyeva ulica, Gladijatorska ulica, Glavinićev uspon, Gočanska ulica, Greblova ulica, Gundulićeva ulica, Gupčeva ulica, Istarska ulica, Kandlerova ulica, Kapitolinski trg, Karlovačka ulica 1–2, Karlovačka ulica 4–5, Karlovačka ulica 7, Karlovačka ulica 9, Kašićeva ulica, Kavran (Krnica), Keršovanijeva ulica, Kochova ulica 11, Kochova ulica 13–22, Kochova ulica 1–3, Kochova ulica 5–9, Kolodvorska ulica, Koparska ulica, Kovačićeva ulica, Kranjčevićeva ulica, Krčka ulica, Krmpotićeva ulica, Krnica 26, Krnica 618, Kumičićeva ulica 10, Kumičićeva ulica 3–8, Laginjina ulica, Lindarski prilaz, Maksimijanova ulica, Marulićeva ulica, Mažuranićeva ulica, Mletačka ulica, Mornarički trg, Motikina ulica, Motovunski prolaz, Narodni trg, Nazorova ulica, Negrijeva ulica, Nezakcijska ulica, Nimfej, Omladinska ulica, Osječka ulica 12–16, Osječka ulica 1–10, Osječka ulica 29, Osječka ulica 31, Ozad Arene, Palazzine, Palladiova ulica, Pavićini (Krnica), Pavićini 114–115 (Krnica), Pavićini 121–123 (Krnica), Pavićini 128 (Krnica), Pavićini 130–133 (Krnica), Pavićini 138–142 (Krnica), Pavićini 146 (Krnica), Pavićini 148–160 (Krnica), Pavićini 15 (Krnica), Pavićini 166 (Krnica), Pavićini 170–179 (Krnica), Pavićini 181–183 (Krnica), Pavićini 186–193 (Krnica), Pavićini 19 (Krnica), Pavićini 197–200 (Krnica), Pavićini 215 (Krnica), Pavićini 239–240 (Krnica), Pavićini 246 (Krnica), Pavićini 248–253 (Krnica), Pavićini 258–262 (Krnica), Pavićini 268–270 (Krnica), Pavićini 273–274 (Krnica), Pavićini 276–321 (Krnica), Pavićini 30–32 (Krnica), Pavićini 325–330 (Krnica), Pavićini 335–350 (Krnica), Pavićini 365–367 (Krnica), Pavićini 37 (Krnica), Pavićini 370–379 (Krnica), Pavićini 382–384 (Krnica), Pavićini 387–404 (Krnica), Pavićini 40–43 (Krnica), Pavićini 417 (Krnica), Pavićini 468–470 (Krnica), Pavićini 485–500 (Krnica), Pavićini 518–536 (Krnica), Pavićini 540–546 (Krnica), Pavićini 551 (Krnica), Pavićini 555–590 (Krnica), Pavićini 601–651 (Krnica), Pavićini 63–73 (Krnica), Pavićini 655–668 (Krnica), Pavićini 670–675 (Krnica), Pavićini 681–687 (Krnica), Pavićini 695–701 (Krnica), Pavićini 703 (Krnica), Pavićini 705 (Krnica), Pavićini 716 (Krnica), Pavićini 720 (Krnica), Pavićini 722–724 (Krnica), Pavićini 752–764 (Krnica), Pavićini 76–77 (Krnica), Pavićini 8 (Krnica), Pavićini 806–821 (Krnica), Pavićini 82–85 (Krnica), Pavićini 850–902 (Krnica), Pavićini 938–961 (Krnica), Pavićini 98–112 (Krnica), Pazinska ulica 15, Pazinska ulica 17, Pazinska ulica 1–12, Pazinska ulica 31, Peruški (Krnica), Piazza Grande, Piazzetta Lacea, Pod Gruh 38–39, Poljana Sv. Martina, Prilaz Monte Cappelletta, Prolaz kod Kazališta, Prolaz kod Zdenca, Prolaz Sv. Nikole, Radićeva ulica, Rakovčeva ulica 11–13, Rakovčeva ulica 17, Rakovčeva ulica 19, Rakovčeva ulica 21, Rakovčeva ulica 23, Rakovčeva ulica 25, Rakovčeva ulica 27, Rakovčeva ulica 29, Rakovčeva ulica 3, Rakovčeva ulica 31, Rakovčeva ulica 33–35, Rakovčeva ulica 37, Rakovčeva ulica 39, Rakovčeva ulica 5, Rakovčeva ulica 50–56, Rasparaganov uspon, Ravenska ulica, Ribarska ulica, Riva, Rizzijeva ulica, Ročki prilaz, Rovinjska ulica, Santoriova ulica 14, Santoriova ulica 4, Santoriova ulica 6–9, Savudrijska ulica, Scalierova ulica, Serliov prilaz, Širolina ulica, Škaleta, Smareglina ulica, Spinčićeva ulica, Splitska ulica, Stiglicheva ulica 16, Stiglicheva ulica 18–20, Stiglicheva ulica 22, Stiglicheva ulica 24, Stiglicheva ulica 26, Stiglicheva ulica 30, Stiglicheva ulica 3–14, Stube Jurine i Franine, Supilova ulica, Švalbina ulica, Tartinijeva ulica, Tentorova ulica, Teslina ulica, Titova Riva, Tomasinijeva ulica, Trg Kralja Tomislava, Trg Portarata, Trg Prvog Svibnja, Trg Stara Tržnica, Trg Stare Škole 11–15, Trg Sv. Kuzme i Damjana, Trierska ulica, Trinajstićeva ulica 23, Trinajstićeva ulica 32, Trinajstićeva ulica 4–7, Tršćanska ulica 13, Tršćanska ulica 15, Tršćanska ulica 17, Tršćanska ulica 19, Tršćanska ulica 1–3, Tršćanska ulica 23, Tršćanska ulica 25–26, Tršćanska ulica 5–7, Tršćanska ulica 9, Ujevićeva ulica, Ulica 43. Istarske Divizije 3–16, Ulica Bartolomea Dei Vitrei, Ulica Benediktinske Opatije, Ulica Bokokotorskog Ustanka, Ulica Boraca, Ulica Cara Emina, Ulica Castropola 39, Ulica Castropola 41–42, Ulica Castropola 48–54, Ulica Ćirilometodske Družbe, Ulica Croazia, Ulica Don Valentina Cukarića, Ulica Dubrovačke Bratovštine, Ulica Fojbon 1, Ulica Grada Graza, Ulica Hermana Dalmatina, Ulica Horvata Kiša, Ulica Jurina i Franina, Ulica Jurja Žakna, Ulica Kačića Miošića, Ulica Kalpurnija Pizona, Ulica Kamenjak, Ulica Kaštanjer 0, Ulica Kaštanjer 115, Ulica Katalinića Jeretova, Ulica Ljudevita Posavskog 11–13, Ulica Ljudevita Posavskog 15–21, Ulica Ljudevita Posavskog 1–3, Ulica Ljudevita Posavskog 23, Ulica Ljudevita Posavskog 25, Ulica Ljudevita Posavskog 27, Ulica Ljudevita Posavskog 5, Ulica Ljudevita Posavskog 7, Ulica Ljudevita Posavskog 9, Ulica Mate Balote, Ulica Matetića Ronjgova 2, Ulica Matetića Ronjgova 4–5, Ulica Olge Ban, Ulica Porta Stovagnaga, Ulica Rimske Centurijacije 19, Ulica Rimske Centurijacije 1–15, Ulica Rimske Centurijacije 33, Ulica Rimske Centurijacije 51, Ulica Ruže Petrović 1, Ulica Sergijevaca, Ulica Sisplac 11, Ulica Sisplac 13, Ulica Sisplac 15, Ulica Sisplac 17, Ulica Sisplac 19, Ulica Sisplac 21, Ulica Sisplac 23, Ulica Sisplac 25, Ulica Sisplac 27, Ulica Sisplac 29, Ulica Sisplac 2–5, Ulica Sisplac 7–9, Ulica Starih Statuta, Ulica Sv. Ivana, Ulica Sv. Polikarpa, Ulica Velog Jože, Ulica Vergarola 6, Ulica Veruda 17, Ulica Veruda 19, Ulica Veruda 21–23, Ulica Veruda 25, Ulica Veruda 27, Ulica Veruda 29, Ulica Verudella 2, Ulica Viktor Car Emin, Ulica Vladimir Gortan, Ulica Zorzi Ventura, Ulica Žrtava Fašizma, Uskočka ulica 14–16, Uskočka ulica 20–26, Uspon Konzula Istranina, Uspon na Kaštel, Uspon Pavla Đakona, Uspon Sv. Franje Asiškog, Uspon Sv. Roka, Uspon Sv. Stjepana, Uspon Vinceta Iz Kastva, Valturska ulica 78–82, Varaždinska ulica 1–21, Varaždinska ulica 28, Vergerijeva ulica, Veronska ulica, Vicolo Della Bissa, Viška ulica, Vitezićeva ulica, Voltićeva ulica 12, Voltićeva ulica 14, Voltićeva ulica 16–19, Voltićeva ulica 1–10, Vrsarski prilaz, Vukovarska ulica 1–4, Vukovarska ulica 8, Zadarska ulica 1–27, Zadarska ulica 29, Zadarska ulica 32, Zadarska ulica 63, Zagrebačka ulica, Zoranićeva ulica, Župni trg.", "Adrese bez rasporeda u tražilici: Clerisseauova ulica, Duga Uvala 0–602 (Krnica), Prhati 10–14, Puntice, Rakalj 1–200 (Krnica), Raška ulica 13–27, Raška ulica 5, Šišan 1–317, Špadi 48–60, Ulica Orban 11, Ulica Orban 13, Ulica Orban 28, Ulica Orban 2–4, Ulica Orban 30–31, Ulica Orban 33, Ulica Orban 35–39, Ulica Orban 41–83, Ulica Orban 6, Vrh 2, Vrh 20, Vrh 27, Vrh 43, Vrh 52, Vrh 54–55, Vrh 61, Želiski 23–35."],
+  "zone": {
+    "1": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki četvrtak; plastika i papir svaki drugi utorak; biootpad svaki petak",
+      "ulice": ["Argonautska ulica", "Črnjina ulica", "Dvigradska ulica", "Kolhiđanska ulica", "Kraška ulica", "Liburnijska ulica", "Medejina ulica", "Milanovićeva ulica", "Rašporska ulica", "Santoriova ulica 28–36", "Ulica Gregovica", "Ulica Istarskog Razvoda", "Ulica Proštinske Bune", "Županska ulica"],
+      "raw": {
+        "2026": [
+          "10-01 M 10-02 B 10-08 M 10-09 B 10-13 PK 10-15 M 10-16 B 10-22 M 10-23 B 10-27 PK 10-29 M 10-30 B",
+          "11-05 M 11-06 B 11-10 PK 11-12 M 11-13 B 11-19 M 11-20 B 11-24 PK 11-26 M 11-27 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaka srijeda; plastika i papir svaki drugi utorak",
+      "ulice": ["Dukićeva ulica", "Krševanova Stancija", "Mandićeva ulica", "Šandaljska ulica", "Šijanska cesta 10", "Šijanska cesta 39", "Šijanska cesta 6", "Šijanska cesta 8", "Ulica Braće Čeh", "Ulica Komunal", "Ulica Monte Serpo", "Ulica Sv. Kancijana", "Ulica Valmade"],
+      "raw": {
+        "2026": [
+          "10-01 PK 10-06 PK 10-07 M 10-14 M 10-20 PK 10-21 M 10-28 M",
+          "11-03 PK 11-04 M 11-11 M 11-17 PK 11-18 M 11-25 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki ponedjeljak; plastika i papir svaki drugi četvrtak; biootpad svaki četvrtak",
+      "ulice": ["Fažanska cesta 2–57", "Paduljski put", "Paganorska ulica", "Prilaz Cerella", "Sponzina ulica", "Ulica Braće Leonardelli", "Ulica Brist", "Ulica Fojba", "Ulica Karšiole", "Ulica Samagher", "Ulica Valdenaga", "Varetonova Stancija"],
+      "raw": {
+        "2026": [
+          "10-01 MBPK 10-05 M 10-08 BPK 10-12 M 10-15 B 10-19 M 10-22 BPK 10-26 M 10-29 B",
+          "11-02 M 11-05 BPK 11-09 M 11-12 B 11-16 M 11-19 BPK 11-23 M 11-26 B 11-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki četvrtak; plastika i papir svaka druga srijeda",
+      "ulice": ["Voltićeva ulica 22"],
+      "raw": {
+        "2026": [
+          "10-01 M 10-07 PK 10-08 M 10-15 M 10-21 PK 10-22 M 10-29 M",
+          "11-04 PK 11-05 M 11-12 M 11-18 PK 11-19 M 11-26 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaka srijeda; plastika i papir svaki drugi petak; biootpad svaki petak",
+      "ulice": ["Brijunska ulica", "Budicinova ulica 19", "Budicinova ulica 6", "Coppova ulica", "Gortanova ulica", "Heiningerova ulica", "Kochova ulica 10", "Kochova ulica 12", "Kochova ulica 4", "Krležina ulica", "Kupelwieserova ulica", "Lettisova ulica", "Lussijeva ulica", "Marianijeva ulica", "Meštrovićeva ulica", "Musilska ulica", "Osječka ulica 11", "Osječka ulica 18–26", "Osječka ulica 30", "Osječka ulica 32–39", "Piranesijev prilaz", "Prilaz Barake", "Rabarova ulica", "Šibenska ulica", "Tommaseova ulica", "Ulica Agnana", "Ulica Fižela", "Ulica Jakova Puljanina", "Ulica Ljudevita Posavskog 10", "Ulica Ljudevita Posavskog 14", "Ulica Ljudevita Posavskog 22", "Ulica Ljudevita Posavskog 24", "Ulica Ljudevita Posavskog 26", "Ulica Ljudevita Posavskog 28–30", "Ulica Ljudevita Posavskog 4", "Ulica Ljudevita Posavskog 6", "Ulica Ljudevita Posavskog 8", "Ulica Menacija Priska", "Ulica Pradorlando", "Ulica Ruže Petrović 6–21", "Ulica Sisplac 10", "Ulica Sisplac 12", "Ulica Sisplac 14", "Ulica Sisplac 16", "Ulica Sisplac 18", "Ulica Sisplac 20", "Ulica Sisplac 22", "Ulica Sisplac 24", "Ulica Sisplac 26", "Ulica Sisplac 28", "Ulica Sisplac 30–34", "Ulica Sisplac 6", "Ulica Stoja", "Ulica Valdefora", "Ulica Valkane", "Ulica Valovine", "Ulica Valsaline", "Ulica Vergarola 2", "Ulica Veruda 18", "Ulica Veruda 1–16", "Ulica Veruda 20", "Ulica Veruda 24", "Ulica Veruda 26", "Ulica Veruda 28", "Ulica Veruda 30–60", "Ulica Verudella 6–21", "Uskočka ulica 18", "Uskočka ulica 4–12", "Voltićeva ulica 11", "Voltićeva ulica 13", "Voltićeva ulica 15", "Voltićeva ulica 20", "Voltićeva ulica 24"],
+      "raw": {
+        "2026": [
+          "10-02 B 10-07 M 10-09 BPK 10-14 M 10-16 B 10-21 M 10-23 BPK 10-28 M 10-30 B",
+          "11-04 M 11-06 BPK 11-11 M 11-13 B 11-18 M 11-20 BPK 11-25 M 11-27 B"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki utorak; plastika i papir svaki drugi četvrtak; biootpad svaki ponedjeljak",
+      "ulice": ["Baćićev prilaz", "Furlanski prilaz", "Ivančićeva ulica", "Katušićev prilaz", "Kavrerski put", "Medulinska cesta", "Mihovilovićeva ulica", "Modrušanov prilaz", "Peruškov prilaz", "Pod Murvon", "Premanturska cesta", "Prilaz Pjacal", "Putinjina ulica", "Templarski prilaz", "Ulica Antona Cilige-tonina", "Ulica Dolinka", "Ulica Drenovica", "Ulica Fojbon 2–58", "Ulica Jasne Crnobori", "Ulica Koleži", "Ulica Lovežica", "Ulica Monte Karoca", "Ulica Monte Magno", "Ulica Pulskih Evakuiraca", "Ulica Šantamarina", "Ulica Škokovica", "Ulica Špiljavac", "Ulica Sv. Felicite", "Ulica Valbruna", "Ulica Viovica", "Valdebečki put", "Wolffova ulica"],
+      "raw": {
+        "2026": [
+          "10-02 PK 10-05 B 10-06 M 10-12 B 10-13 M 10-15 PK 10-19 B 10-20 M 10-26 B 10-27 M 10-29 PK",
+          "11-02 B 11-03 M 11-09 B 11-10 M 11-12 PK 11-16 B 11-17 M 11-23 B 11-24 M 11-26 PK 11-30 B"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki ponedjeljak; plastika i papir svaki drugi petak; biootpad svaki petak",
+      "ulice": ["Antenska ulica", "Belasova ulica", "Brunjakova ulica", "Bunarska cesta", "Butkovićeva ulica", "Creska ulica", "Galižanski Odvojak", "Grubišina ulica", "Jeromelina ulica", "Partizanski put", "Petrovićeva ulica", "Prilaz Kanal", "Tivolski put", "Ulica Borik", "Ulica Capelleri", "Ulica Ližnjamoro", "Ulica Monte Bici", "Ulica Monte Lesso", "Ulica Ruban", "Ulica Veli Vrh", "Valmarinski put", "Vidrijanski put", "Vodnjanska cesta", "Zahtilina ulica"],
+      "raw": {
+        "2026": [
+          "10-02 B 10-03 M 10-05 M 10-09 BPK 10-12 M 10-16 B 10-19 M 10-23 BPK 10-26 M 10-30 B",
+          "11-02 M 11-06 BPK 11-09 M 11-13 B 11-16 M 11-20 BPK 11-23 M 11-27 B 11-30 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki petak; plastika i papir svaki drugi petak",
+      "ulice": ["Šijanska cesta 20", "Šijanska cesta 22", "Šijanska cesta 24", "Šijanska cesta 26–28", "Šijanska cesta 31–37", "Šijanska cesta 41–57"],
+      "raw": {
+        "2026": [
+          "10-02 M 10-09 M 10-16 MPK 10-23 M 10-30 MPK",
+          "11-06 M 11-13 MPK 11-20 M 11-27 MPK"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki petak; plastika i papir svaki drugi ponedjeljak",
+      "ulice": ["Gradinski uspon", "Ulica Castropola 1–37", "Ulica Castropola 40", "Ulica Castropola 43–45"],
+      "raw": {
+        "2026": [
+          "10-02 M 10-09 M 10-12 PK 10-16 M 10-23 M 10-26 PK 10-30 M",
+          "11-06 M 11-09 PK 11-13 M 11-20 M 11-23 PK 11-27 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki utorak; plastika i papir svaki drugi ponedjeljak; biootpad svaki petak",
+      "ulice": ["Lošinjska ulica", "Ulica Giuseppine Martinuzzi", "Ulica Marsovog Polja"],
+      "raw": {
+        "2026": [
+          "10-02 B 10-06 M 10-09 B 10-12 PK 10-13 M 10-16 B 10-20 M 10-23 B 10-26 PK 10-27 M 10-30 B",
+          "11-03 M 11-06 B 11-09 PK 11-10 M 11-13 B 11-17 M 11-20 B 11-23 PK 11-24 M 11-27 B"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki petak; plastika i papir svaka druga srijeda",
+      "ulice": ["Šišanska cesta 309–317"],
+      "raw": {
+        "2026": [
+          "10-02 M 10-09 M 10-14 PK 10-16 M 10-23 M 10-28 PK 10-30 M",
+          "11-06 M 11-11 PK 11-13 M 11-20 M 11-25 PK 11-27 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani i biootpad svaki utorak; plastika i papir svaki drugi petak",
+      "ulice": ["Kalčeva ulica", "Prilaz Plazina", "Prilaz Runci", "Put za Kanalić", "Štinjanska cesta", "Turulska ulica", "Ulica Baližerka", "Ulica Fortin", "Ulica Kašćuni", "Ulica Kozada", "Ulica Lungera", "Ulica Pelini", "Ulica Puntižela", "Ulica Pužar", "Ulica Selo", "Ulica Šurida", "Ulica Sv. Margarete", "Ulica Trsine", "Ulica Valcereš", "Ulica Valdemuška", "Ulica Vallelunga", "Ulica Varoš"],
+      "raw": {
+        "2026": [
+          "10-03 M 10-06 MB 10-13 MB 10-16 PK 10-20 MB 10-27 MB 10-30 PK",
+          "11-03 MB 11-10 MB 11-13 PK 11-17 MB 11-24 MB 11-27 PK"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaka srijeda; plastika i papir svaki drugi ponedjeljak; biootpad svaki ponedjeljak",
+      "ulice": ["Benčićeva ulica 1–80", "Buzetska ulica", "Industrijska ulica", "Kastavska ulica", "Kukuljevićeva ulica", "Labinska ulica", "Mutvoranska ulica", "Plominska ulica", "Put za Groblje", "Radnička ulica", "Šijanska cesta 11–19", "Šijanska cesta 21", "Šijanska cesta 23", "Šijanska cesta 25", "Šijanska cesta 29", "Šijanska cesta 5", "Šijanska cesta 7", "Šijanska cesta 9", "Trg na Mostu", "Trinajstićeva ulica 28", "Trinajstićeva ulica 34", "Trinajstićeva ulica 9–22", "Tršćanska ulica 10–12", "Tršćanska ulica 14", "Tršćanska ulica 16", "Tršćanska ulica 18", "Tršćanska ulica 20–22", "Tršćanska ulica 24", "Tršćanska ulica 28–41", "Tršćanska ulica 4", "Tršćanska ulica 8", "Ulica 43. Istarske Divizije", "Ulica Braće Levak", "Ulica Ilirija", "Ulica La Romana", "Ulica Sv. Jurja", "Vernalska ulica", "Vinogradska ulica", "Vitasovićeva ulica", "Vodovodna ulica"],
+      "raw": {
+        "2026": [
+          "10-05 BPK 10-07 M 10-12 B 10-14 M 10-19 BPK 10-21 M 10-26 B 10-28 M",
+          "11-02 BPK 11-04 M 11-09 B 11-11 M 11-16 BPK 11-18 M 11-23 B 11-25 M 11-30 BPK"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaka srijeda; plastika i papir svaki drugi ponedjeljak",
+      "ulice": ["Barbanski prolaz", "Podujeva ulica", "Porečka ulica", "Učki uspon"],
+      "raw": {
+        "2026": [
+          "10-05 PK 10-07 M 10-14 M 10-19 PK 10-21 M 10-28 M",
+          "11-02 PK 11-04 M 11-11 M 11-16 PK 11-18 M 11-25 M 11-30 PK"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaki utorak; plastika i papir svaki drugi ponedjeljak",
+      "ulice": ["Barbalićeva ulica", "Bastianova ulica", "Bujska ulica", "Cerneccina ulica", "Coattova ulica", "Faverijska ulica 18", "Faverijska ulica 20", "Faverijska ulica 22–37", "Flegova ulica", "Grožnjanska ulica", "Humska ulica", "Japodska ulica", "Karlovačka ulica 11–33", "Karlovačka ulica 3", "Karlovačka ulica 6", "Karlovačka ulica 8", "Kirčeva ulica", "Kosova ulica", "Kumičićeva ulica 13–27", "Kumičićeva ulica 9", "Kvarnerska ulica", "Limska ulica", "Ližnjanska ulica", "Mohorovičićeva ulica", "Monvidalska ulica", "Mutilska ulica", "Nobileova ulica", "Novigradska ulica", "Pazinska ulica 14", "Pazinska ulica 16", "Pazinska ulica 19–29", "Pazinska ulica 33–35", "Preradovićeva ulica", "Prilaz Kralja Salamona", "Prilaz Plovana Mikule", "Prilaz Sv. Germana", "Rakovčeva ulica 14–16", "Rakovčeva ulica 18", "Rakovčeva ulica 20", "Rakovčeva ulica 22", "Rakovčeva ulica 24", "Rakovčeva ulica 26", "Rakovčeva ulica 28", "Rakovčeva ulica 30", "Rakovčeva ulica 32", "Rakovčeva ulica 36", "Rakovčeva ulica 38", "Rakovčeva ulica 4", "Rakovčeva ulica 40–48", "Rakovčeva ulica 58–60", "Rakovčeva ulica 6–10", "Raška ulica 2–3", "Raška ulica 6–12", "Santoriova ulica 10–12", "Santoriova ulica 2", "Santoriova ulica 26", "Santoriova ulica 5", "Savičentska ulica", "Sisačka ulica", "Stankovićeva ulica", "Stiglicheva ulica 15", "Stiglicheva ulica 17", "Stiglicheva ulica 21", "Stiglicheva ulica 23", "Stiglicheva ulica 25", "Stiglicheva ulica 27", "Stiglicheva ulica 31–50", "Studenčeva ulica", "Ulica Bože Gumpca", "Ulica Dragonja", "Ulica Kaštanjer 1–113", "Ulica Matetića Ronjgova 3", "Ulica Matetića Ronjgova 7", "Ulica Mirna", "Ulica Rimske Centurijacije 16–18", "Ulica Rimske Centurijacije 20–32", "Ulica Rimske Centurijacije 34–50", "Ulica Rimske Centurijacije 52–95", "Ulica Rižanske Skupštine", "Ulica Sv. Mihovila", "Valturska ulica 1–70", "Valvazorova ulica", "Valvidalska ulica", "Varaždinska ulica 24–27", "Varaždinska ulica 29–39", "Vrtlarska ulica", "Vukovarska ulica 6–7", "Vukovarska ulica 9–53", "Zadarska ulica 28", "Zadarska ulica 30", "Zadarska ulica 34–61", "Zlatićev trg"],
+      "raw": {
+        "2026": [
+          "10-06 M 10-12 PK 10-13 M 10-20 M 10-26 PK 10-27 M",
+          "11-03 M 11-09 PK 11-10 M 11-17 M 11-23 PK 11-24 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani i biootpad svaka srijeda; plastika i papir svaki drugi utorak",
+      "ulice": ["Benussijeva ulica", "Bratulićev prilaz", "Caprinov prilaz", "Carlijeva ulica", "Cesta Prekom. Brigada", "Coceicheva Ul.", "De Franceschijeva ulica", "Facchinettijeva Ul.", "Gervaisova ulica", "Jelušićev prilaz", "Mardeganijeva ulica", "Palisina ulica", "Prilaz Puljskih Španjolskih Boraca", "Rapiciov prilaz", "Rohreggerova ulica", "Schiavuzzijev prilaz", "Šenoina ulica", "Ulica Monte Paradiso", "Ulica Vidikovac"],
+      "raw": {
+        "2026": [
+          "10-06 PK 10-07 MB 10-14 MB 10-20 PK 10-21 MB 10-28 MB",
+          "11-03 PK 11-04 MB 11-11 MB 11-17 PK 11-18 MB 11-25 MB"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaka srijeda; plastika i papir svaki drugi utorak",
+      "ulice": ["Busolerska ulica", "Put od Fortica", "Šikićanska ulica", "Šišanska cesta 1–306", "Škataranska ulica", "Turtijanska ulica", "Ulica Begovica", "Ulica Diferencija", "Ulica Lakvere", "Ulica Lokoduz", "Ulica Majoli", "Ulica Moncanor", "Ulica Monte Galuzzo", "Ulica Muniština", "Ulica Novaki", "Ulica Orban 12", "Ulica Orban 14–27", "Ulica Orban 29", "Ulica Orban 32", "Ulica Orban 34", "Ulica Orban 40", "Ulica Orban 5", "Ulica Orban 7–10", "Ulica Orban bez broja–1", "Ulica Orbanin", "Ulica Urati", "Ulica Videlanka", "Valdragonska ulica"],
+      "raw": {
+        "2026": [
+          "10-07 M 10-13 PK 10-14 M 10-21 M 10-27 PK 10-28 M",
+          "11-04 M 11-10 PK 11-11 M 11-18 M 11-24 PK 11-25 M"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Pula – Pola",
+      "podrucje": "Pula: miješani svaka srijeda; plastika i papir svaki drugi petak",
+      "ulice": ["Budicinova ulica 10–13", "Budicinova ulica 21–25", "Budicinova ulica 4", "Budicinova ulica 8"],
+      "raw": {
+        "2026": [
+          "10-07 M 10-09 PK 10-14 M 10-21 M 10-23 PK 10-28 M",
+          "11-04 M 11-06 PK 11-11 M 11-18 M 11-20 PK 11-25 M"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Barban",
+      "podrucje": "Barban: miješani svaki četvrtak; plastika i papir svaki drugi četvrtak",
+      "ulice": ["Barani", "Bateli kod Prhati", "Bičići", "Bulići", "Camlići", "Draguzeti", "Filini", "Glavani", "Gubavica", "Jurićev Kal", "Koromani", "Mavrići", "Orihi", "Petehi", "Poljaki", "Prhati 1–9", "Prnjani", "Rajki", "Regulići", "Rojnići", "Šajini", "Sankovići", "Škitača", "Špadi 15–19", "Šugari", "Sutivanac,bašići (Žminj)", "Sutivanac,cvitići (Žminj)", "Sutivanac,dolica (Žminj)", "Sutivanac,gorica (Žminj)", "Sutivanac,medančići (Žminj)", "Sutivanac,rapanji (Žminj)", "Sutivanac,risi (Žminj)", "Sutivanac,varož (Žminj)", "Trlji", "Trošti", "Vadreš", "Valići"],
+      "raw": {
+        "2026": [
+          "10-01 M 10-03 PK 10-08 M 10-15 MPK 10-22 M 10-29 MPK",
+          "11-05 M 11-12 MPK 11-19 M 11-26 MPK"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Barban",
+      "podrucje": "Barban: miješani svaki četvrtak; plastika i papir svaki drugi utorak",
+      "ulice": ["Barban", "Bateli kod Želiski", "Belavići", "Beloći", "Biletići", "Borinići", "Bratulići", "Celići", "Dminići", "Dobrani", "Frkeči", "Fumeti", "Goleševo", "Grabri", "Grandići", "Hrboki", "Hreljići", "Ivanošići", "Kožljani", "Kujići", "Kvarantija", "Manjadvorci", "Melnica", "Pavlići", "Plehuti", "Prdajci", "Puntera", "Rebići", "Špadići", "Stancija Palion", "Želiski 1–15"],
+      "raw": {
+        "2026": [
+          "10-01 MPK 10-08 M 10-13 PK 10-15 M 10-22 M 10-27 PK 10-29 M",
+          "11-05 M 11-10 PK 11-12 M 11-19 M 11-24 PK 11-26 M"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Barban",
+      "podrucje": "Barban: miješani svaki ponedjeljak; plastika i papir svaki drugi utorak",
+      "ulice": ["Pačići"],
+      "raw": {
+        "2026": [
+          "10-03 MPK 10-05 M 10-06 PK 10-12 M 10-19 M 10-20 PK 10-26 M",
+          "11-02 M 11-03 PK 11-09 M 11-16 M 11-17 PK 11-23 M 11-30 M"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Fažana – Fasana",
+      "podrucje": "Fažana: miješani svaki utorak; plastika i papir svaki drugi četvrtak; biootpad svaki četvrtak",
+      "ulice": ["Fažanska cesta", "Fažanska cesta 90", "Fondole", "Mala cesta", "Pineta 1. Ogranak-valb.", "Pineta 2. Ogran. Valban.", "Pineta 3. Ogr.-valband.", "Prilaz Marini", "Ulica Dragonja", "Ulica Kamelija", "Ulica Kuntrada", "Ulica Kvart Mimoza", "Ulica Lavanda", "Ulica Mala Vala", "Ulica Pineta 30", "Ulica Ulika", "Ulica Voćarska", "Valbandon,pineta"],
+      "raw": {
+        "2026": [
+          "10-01 BPK 10-06 M 10-08 BPK 10-13 M 10-15 B 10-20 M 10-22 BPK 10-27 M 10-29 B",
+          "11-03 M 11-05 BPK 11-10 M 11-12 B 11-17 M 11-19 BPK 11-24 M 11-26 B"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Fažana – Fasana",
+      "podrucje": "Fažana: miješani svaki utorak; plastika i papir svaki drugi četvrtak; biootpad svaki četvrtak",
+      "ulice": ["Aleja Maslina 4", "Aleja Maslina 9–27", "Brionska ulica 4", "Brionska ulica 8", "Galižanska cesta", "Istarska ulica", "Perojska cesta", "Puljska cesta", "Put Sv. Elizeja", "Trg Stare Škole 1–6", "Ulica 1. Maja", "Ulica 43. Istarske Divizije 1", "Ulica Antonio Smareglia", "Ulica Braće Ilić", "Ulica Brace Milin", "Ulica Matija Vlačić-flacius", "Ulica Pineta bez broja–14", "Ulica Pino Budicin", "Ulica Proštin", "Ulica Ruža Petrović", "Ulica Vladimir Nazor", "Vodnjanska cesta"],
+      "raw": {
+        "2026": [
+          "10-02 BPK 10-06 M 10-08 BPK 10-13 M 10-15 B 10-20 M 10-22 BPK 10-27 M 10-29 B",
+          "11-03 M 11-05 BPK 11-10 M 11-12 B 11-17 M 11-19 BPK 11-24 M 11-26 B"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Ližnjan – Lisignano",
+      "podrucje": "Ližnjan: miješani svaki petak; plastika i papir svaka druga srijeda",
+      "ulice": ["Brajdice", "Centar", "Dražice-zidine", "Jadreški", "Kazali", "Krasa", "Libora", "Ližnjan", "Marlera", "Montiron", "Munat", "Muntić", "Palera", "Pod Gruh 1–37", "Pod Vrh", "Put za Marleru", "Put za Paleru", "Put za Puntice", "Ribarska ulica", "Šaraja", "Selo", "Šišan", "Smiljevac", "Sveti Mihovil", "Ulica Franje Mošnja", "Ulica Giordana Dobrana", "Ulica Giuseppea Trombe", "Ulica Istarskog Egzodusa", "Ulica Plekuti", "Ušići Dvori", "Uvala Kuje", "Valtura", "Valtursko Polje", "Varda Cologne", "Vrčevan", "Vrh 1", "Vrh 21–26", "Vrh 28–42", "Vrh 3–19", "Vrh 44–51", "Vrh 53", "Vrh 56–58"],
+      "raw": {
+        "2026": [
+          "10-02 M 10-09 M 10-14 PK 10-16 M 10-23 M 10-28 PK 10-30 M",
+          "11-06 M 11-11 PK 11-13 M 11-20 M 11-25 PK 11-27 M"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Marčana",
+      "podrucje": "Marčana: miješani svaki četvrtak; plastika i papir svaka druga srijeda",
+      "ulice": ["Boduleri", "Cokuni (Krnica)", "Cveki (Krnica)", "Divšići", "Filipana", "Išići (Krnica)", "Jovići (Krnica)", "Krnica 27–309", "Krnica bez broja–25", "Krnički Porat (Krnica)", "Krvavići", "Kužinići", "Mali Vareški (Krnica)", "Marčana", "Mutvoran (Krnica)", "Negričani", "Pavićini 113 (Krnica)", "Pavićini 119–120 (Krnica)", "Pavićini 127 (Krnica)", "Pavićini 129 (Krnica)", "Pavićini 134–137 (Krnica)", "Pavićini 143–145 (Krnica)", "Pavićini 147 (Krnica)", "Pavićini 162–165 (Krnica)", "Pavićini 167 (Krnica)", "Pavićini 16–18 (Krnica)", "Pavićini 180 (Krnica)", "Pavićini 184–185 (Krnica)", "Pavićini 195 (Krnica)", "Pavićini 1–7 (Krnica)", "Pavićini 201–214 (Krnica)", "Pavićini 20–29 (Krnica)", "Pavićini 216–237 (Krnica)", "Pavićini 241–245 (Krnica)", "Pavićini 247 (Krnica)", "Pavićini 254–257 (Krnica)", "Pavićini 263–264 (Krnica)", "Pavićini 271–272 (Krnica)", "Pavićini 275 (Krnica)", "Pavićini 323–324 (Krnica)", "Pavićini 334 (Krnica)", "Pavićini 33–36 (Krnica)", "Pavićini 351 (Krnica)", "Pavićini 368 (Krnica)", "Pavićini 381 (Krnica)", "Pavićini 385 (Krnica)", "Pavićini 38–39 (Krnica)", "Pavićini 414–415 (Krnica)", "Pavićini 420 (Krnica)", "Pavićini 44–59 (Krnica)", "Pavićini 471–480 (Krnica)", "Pavićini 501 (Krnica)", "Pavićini 539 (Krnica)", "Pavićini 547 (Krnica)", "Pavićini 553 (Krnica)", "Pavićini 600 (Krnica)", "Pavićini 653 (Krnica)", "Pavićini 669 (Krnica)", "Pavićini 676 (Krnica)", "Pavićini 694 (Krnica)", "Pavićini 702 (Krnica)", "Pavićini 704 (Krnica)", "Pavićini 706–715 (Krnica)", "Pavićini 717 (Krnica)", "Pavićini 721 (Krnica)", "Pavićini 726–751 (Krnica)", "Pavićini 74–75 (Krnica)", "Pavićini 78–80 (Krnica)", "Pavićini 805 (Krnica)", "Pavićini 826 (Krnica)", "Pavićini 86–96 (Krnica)", "Pavićini 905 (Krnica)", "Pavićini 963 (Krnica)", "Pavićini 9–14 (Krnica)", "Percan Mije (Krnica)", "Pinezići", "Prodol (Krnica)", "Rakalj (Krnica)", "Rakalj, Dalmatinska (Krnica)", "Rakalj,mate Balote (Krnica)", "Šarići", "Šegotići (Krnica)", "Stancia Celija", "Stancija Elija (Krnica)", "Stancija Stara (Krnica)", "Vareški Veliki (Krnica)"],
+      "raw": {
+        "2026": [
+          "10-01 M 10-07 PK 10-08 M 10-15 M 10-21 PK 10-22 M 10-29 M",
+          "11-04 PK 11-05 M 11-12 M 11-18 PK 11-19 M 11-26 M"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Marčana",
+      "podrucje": "Marčana: miješani svaki četvrtak; plastika i papir svaki drugi četvrtak",
+      "ulice": ["Balići", "Kuftići", "Orbanići"],
+      "raw": {
+        "2026": [
+          "10-01 M 10-03 PK 10-08 M 10-15 MPK 10-22 M 10-29 MPK",
+          "11-05 M 11-12 MPK 11-19 M 11-26 MPK"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Marčana",
+      "podrucje": "Marčana: miješani svaki četvrtak; plastika i papir svaki drugi utorak",
+      "ulice": ["Cetinići", "Matelići"],
+      "raw": {
+        "2026": [
+          "10-01 MPK 10-08 M 10-13 PK 10-15 M 10-22 M 10-27 PK 10-29 M",
+          "11-05 M 11-10 PK 11-12 M 11-19 M 11-24 PK 11-26 M"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Marčana",
+      "podrucje": "Marčana: miješani svaki petak; plastika i papir svaki drugi petak",
+      "ulice": ["Loborika", "Radeki-glavica", "Radeki-polje", "Stancija Peličeti"],
+      "raw": {
+        "2026": [
+          "10-02 M 10-09 M 10-16 MPK 10-23 M 10-30 MPK",
+          "11-06 M 11-13 MPK 11-20 M 11-27 MPK"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Svetvinčenat",
+      "podrucje": "Svetvinčenat: miješani svaki ponedjeljak; plastika i papir svaki drugi ponedjeljak",
+      "ulice": ["Bankovići (Vodnjan)", "Bibići", "Bijažići", "Bokordići", "Bonašini", "Boškari", "Brhanići", "Bričanci", "Ferlini", "Foli", "Frlini", "Krančići", "Krase", "Kršani", "Pajkovići", "Pekici", "Peresiji", "Pusti", "Pustijanci", "Raponji", "Režanci", "Salambati", "Šikuti", "Smoljanci", "Stancija Čipuli (cukrići)", "Štokovci", "Svetvinčenat", "Vidulini"],
+      "raw": {
+        "2026": [
+          "10-02 PK 10-03 M 10-05 MPK 10-12 M 10-19 MPK 10-26 M",
+          "11-02 MPK 11-09 M 11-16 MPK 11-23 M 11-30 MPK"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Svetvinčenat",
+      "podrucje": "Svetvinčenat: miješani svaki ponedjeljak; plastika i papir svaki drugi utorak",
+      "ulice": ["Brščići (Vodnjan)", "Čabrunići 70–85", "Cirka", "Cukrići", "Juršići", "Klarići", "Muškovići", "Orlići", "Škicini", "Sveti Kirin"],
+      "raw": {
+        "2026": [
+          "10-02 PK 10-03 M 10-05 M 10-06 PK 10-12 M 10-19 M 10-20 PK 10-26 M",
+          "11-02 M 11-03 PK 11-09 M 11-16 M 11-17 PK 11-23 M 11-30 M"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Svetvinčenat",
+      "podrucje": "Svetvinčenat: miješani svaki ponedjeljak; plastika i papir svaki drugi utorak",
+      "ulice": ["Butkovići", "Čabrunići 88–139", "Čabrunići bez broja–69", "Dokići", "Gilešići", "Mandelići", "Stancija Grgur", "Stancija Mičini", "Stancija Paradiž", "Tići"],
+      "raw": {
+        "2026": [
+          "10-03 MPK 10-05 M 10-06 PK 10-12 M 10-19 M 10-20 PK 10-26 M",
+          "11-02 M 11-03 PK 11-09 M 11-16 M 11-17 PK 11-23 M 11-30 M"
+        ]
+      }
+    }
+  }
+}

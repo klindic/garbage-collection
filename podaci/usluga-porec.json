@@ -1,0 +1,224 @@
+{
+  "davatelj": "Usluga Poreč d.o.o.",
+  "web": "https://www.usluga.hr",
+  "izvor": "https://www.usluga.hr/djelatnosti/cistoca/odvoz",
+  "zupanija": "Istarska",
+  "jls": ["Funtana – Fontane", "Kaštelir-Labinci – Castelliere-S. Domenica", "Sveti Lovreč", "Tar-Vabriga – Torre-Abrega", "Višnjan – Visignano", "Vižinada – Visinada", "Vrsar – Orsera"],
+  "nazivi": {"P": "Plastična ambalaža", "K": "Papir i karton"},
+  "napomene": ["Miješani komunalni otpad odvozi se svaki tjedan, istog dana kad i papir odnosno plastika (napomena u planu); papir i karton te plastična ambalaža odvoze se naizmjence svaki drugi tjedan, staklo svaka četiri tjedna.", "Objavljeni plan ne sadrži odvoz biootpada.", "Usluga Poreč: 052 431 003, usluga@usluga.hr, Mlinska 1, Poreč.", "Blagdani su uračunati u objavljene datume (pomaknuti odvozi: 02.05., 26.12.); na 1.1. nema odvoza, a na ostale blagdane odvozi se prema rasporedu. Odvoz 02.01. nije u planu za 2026.", "Izvor: https://www.cms.usluga.hr/uploaded/1767347272909-USLUGA-plan-primopredaje-OPCINE-2026-web.pdf.", "Grad Poreč – Parenzo nije uključen: gradski plan (https://www.cms.usluga.hr/uploaded/1767346955103-USLUGA-plan-primopredaje-GRAD-2026-web.pdf) još se ne čita ovom skriptom."],
+  "zone": {
+    "1": {
+      "jls": "Funtana – Fontane",
+      "podrucje": "Četvrtak – Funtana, cijela općina",
+      "ulice": ["Funtana (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-08 MP 01-15 MK 01-22 MPS 01-29 MK",
+          "02-05 MP 02-12 MK 02-19 MPS 02-26 MK",
+          "03-05 MP 03-12 MK 03-19 MPS 03-26 MK",
+          "04-02 MP 04-09 MK 04-16 MPS 04-23 MK 04-30 MP",
+          "05-07 MK 05-14 MPS 05-21 MK 05-28 MP",
+          "06-04 MK 06-11 MPS 06-18 MK 06-25 MP",
+          "07-02 MK 07-09 MPS 07-16 MK 07-23 MP 07-30 MK",
+          "08-06 MPS 08-13 MK 08-20 MP 08-27 MK",
+          "09-03 MPS 09-10 MK 09-17 MP 09-24 MK",
+          "10-01 MPS 10-08 MK 10-15 MP 10-22 MK 10-29 MPS",
+          "11-05 MK 11-12 MP 11-19 MK 11-26 MPS",
+          "12-03 MK 12-10 MP 12-17 MK 12-24 MPS 12-31 MK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Kaštelir-Labinci – Castelliere-S. Domenica",
+      "podrucje": "Petak – Kaštelir-Labinci, cijela općina osim Rogovića",
+      "ulice": ["Kaštelir-Labinci (cijela općina osim Rogovića)"],
+      "raw": {
+        "2026": [
+          "01-09 MP 01-16 MK 01-23 MP 01-30 MKS",
+          "02-06 MP 02-13 MK 02-20 MP 02-27 MKS",
+          "03-06 MP 03-13 MK 03-20 MP 03-27 MKS",
+          "04-03 MP 04-10 MK 04-17 MP 04-24 MKS",
+          "05-02 MP! 05-08 MK 05-15 MP 05-22 MKS 05-29 MP",
+          "06-05 MK 06-12 MP 06-19 MKS 06-26 MP",
+          "07-03 MK 07-10 MP 07-17 MKS 07-24 MP 07-31 MK",
+          "08-07 MP 08-14 MKS 08-21 MP 08-28 MK",
+          "09-04 MP 09-11 MKS 09-18 MP 09-25 MK",
+          "10-02 MP 10-09 MKS 10-16 MP 10-23 MK 10-30 MP",
+          "11-06 MKS 11-13 MP 11-20 MK 11-27 MP",
+          "12-04 MKS 12-11 MP 12-18 MK 12-26 MP!"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Kaštelir-Labinci – Castelliere-S. Domenica",
+      "podrucje": "Utorak – Rogovići",
+      "ulice": ["Rogovići"],
+      "napomena": "Rogovići imaju odvoz s Općinom Tar-Vabriga.",
+      "raw": {
+        "2026": [
+          "01-06 MP 01-13 MK 01-20 MPS 01-27 MK",
+          "02-03 MP 02-10 MK 02-17 MPS 02-24 MK",
+          "03-03 MP 03-10 MK 03-17 MPS 03-24 MK 03-31 MP",
+          "04-07 MK 04-14 MPS 04-21 MK 04-28 MP",
+          "05-05 MK 05-12 MPS 05-19 MK 05-26 MP",
+          "06-02 MK 06-09 MPS 06-16 MK 06-23 MP 06-30 MK",
+          "07-07 MPS 07-14 MK 07-21 MP 07-28 MK",
+          "08-04 MPS 08-11 MK 08-18 MP 08-25 MK",
+          "09-01 MPS 09-08 MK 09-15 MP 09-22 MK 09-29 MPS",
+          "10-06 MK 10-13 MP 10-20 MK 10-27 MPS",
+          "11-03 MK 11-10 MP 11-17 MK 11-24 MPS",
+          "12-01 MK 12-08 MP 12-15 MK 12-22 MPS 12-29 MK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Sveti Lovreč",
+      "podrucje": "Srijeda – Sveti Lovreč, cijela općina",
+      "ulice": ["Sveti Lovreč (cijela općina)"],
+      "napomena": "Papir, plastiku i miješani otpad istog dana odvozi i naselje Jakići Gornji (Grad Poreč).",
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 MK 01-21 MP 01-28 MKS",
+          "02-04 MP 02-11 MK 02-18 MP 02-25 MKS",
+          "03-04 MP 03-11 MK 03-18 MP 03-25 MKS",
+          "04-01 MP 04-08 MK 04-15 MP 04-22 MKS 04-29 MP",
+          "05-06 MK 05-13 MP 05-20 MKS 05-27 MP",
+          "06-03 MK 06-10 MP 06-17 MKS 06-24 MP",
+          "07-01 MK 07-08 MP 07-15 MKS 07-22 MP 07-29 MK",
+          "08-05 MP 08-12 MKS 08-19 MP 08-26 MK",
+          "09-02 MP 09-09 MKS 09-16 MP 09-23 MK 09-30 MP",
+          "10-07 MKS 10-14 MP 10-21 MK 10-28 MP",
+          "11-04 MKS 11-11 MP 11-18 MK 11-25 MP",
+          "12-02 MKS 12-09 MP 12-16 MK 12-23 MP 12-30 MKS"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Tar-Vabriga – Torre-Abrega",
+      "podrucje": "Utorak – St. Blek, St. Špin, Tarska vala, Perci, St. Vergotini kod Tara, Tar…",
+      "ulice": ["St. Blek", "St. Špin", "Tarska vala", "Perci", "St. Vergotini kod Tara", "Tar", "Frata", "St. Markovica"],
+      "raw": {
+        "2026": [
+          "01-06 MP 01-13 MK 01-20 MPS 01-27 MK",
+          "02-03 MP 02-10 MK 02-17 MPS 02-24 MK",
+          "03-03 MP 03-10 MK 03-17 MPS 03-24 MK 03-31 MP",
+          "04-07 MK 04-14 MPS 04-21 MK 04-28 MP",
+          "05-05 MK 05-12 MPS 05-19 MK 05-26 MP",
+          "06-02 MK 06-09 MPS 06-16 MK 06-23 MP 06-30 MK",
+          "07-07 MPS 07-14 MK 07-21 MP 07-28 MK",
+          "08-04 MPS 08-11 MK 08-18 MP 08-25 MK",
+          "09-01 MPS 09-08 MK 09-15 MP 09-22 MK 09-29 MPS",
+          "10-06 MK 10-13 MP 10-20 MK 10-27 MPS",
+          "11-03 MK 11-10 MP 11-17 MK 11-24 MPS",
+          "12-01 MK 12-08 MP 12-15 MK 12-22 MPS 12-29 MK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Tar-Vabriga – Torre-Abrega",
+      "podrucje": "Utorak – Barbići, Gedići, Parencani, Rošini, Vabriga, Lanterna…",
+      "ulice": ["Barbići", "Gedići", "Parencani", "Rošini", "Vabriga", "Lanterna", "St. Valeta", "Santa Marina"],
+      "raw": {
+        "2026": [
+          "01-06 MP 01-13 MK 01-20 MP 01-27 MKS",
+          "02-03 MP 02-10 MK 02-17 MP 02-24 MKS",
+          "03-03 MP 03-10 MK 03-17 MP 03-24 MKS 03-31 MP",
+          "04-07 MK 04-14 MP 04-21 MKS 04-28 MP",
+          "05-05 MK 05-12 MP 05-19 MKS 05-26 MP",
+          "06-02 MK 06-09 MP 06-16 MKS 06-23 MP 06-30 MK",
+          "07-07 MP 07-14 MKS 07-21 MP 07-28 MK",
+          "08-04 MP 08-11 MKS 08-18 MP 08-25 MK",
+          "09-01 MP 09-08 MKS 09-15 MP 09-22 MK 09-29 MP",
+          "10-06 MKS 10-13 MP 10-20 MK 10-27 MP",
+          "11-03 MKS 11-10 MP 11-17 MK 11-24 MP",
+          "12-01 MKS 12-08 MP 12-15 MK 12-22 MP 12-29 MKS"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Višnjan – Visignano",
+      "podrucje": "Ponedjeljak – Anžići, Babudri, Bačva, Barat, Bucalovići, Legovići…",
+      "ulice": ["Anžići", "Babudri", "Bačva", "Barat", "Bucalovići", "Legovići", "Ženodraga", "Pršurići", "Kurjavići", "Mališi", "Prašćari", "Rapavel", "Smolici", "Košutići", "Zoričići", "Žužići", "Cvitani", "Fabci", "Gambetići", "Gornji Bratovići", "Majkusi", "Radovani", "Rafaeli", "Sinožići", "Strpačići", "Sv. Ivan", "Tripari", "Vrhjani", "Žikovići"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 MK 01-19 MPS 01-26 MK",
+          "02-02 MP 02-09 MK 02-16 MPS 02-23 MK",
+          "03-02 MP 03-09 MK 03-16 MPS 03-23 MK 03-30 MP",
+          "04-06 MK 04-13 MPS 04-20 MK 04-27 MP",
+          "05-04 MK 05-11 MPS 05-18 MK 05-25 MP",
+          "06-01 MK 06-08 MPS 06-15 MK 06-22 MP 06-29 MK",
+          "07-06 MPS 07-13 MK 07-20 MP 07-27 MK",
+          "08-03 MPS 08-10 MK 08-17 MP 08-24 MK 08-31 MPS",
+          "09-07 MK 09-14 MP 09-21 MK 09-28 MPS",
+          "10-05 MK 10-12 MP 10-19 MK 10-26 MPS",
+          "11-02 MK 11-09 MP 11-16 MK 11-23 MPS 11-30 MK",
+          "12-07 MP 12-14 MK 12-21 MPS 12-28 MK"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Višnjan – Visignano",
+      "podrucje": "Ponedjeljak – Baškoti, Bokići, Broskvari, Farini, Kolombera, Korlevići…",
+      "ulice": ["Baškoti", "Bokići", "Broskvari", "Farini", "Kolombera", "Korlevići", "Markovac", "Milanezi", "Radoši kod Višnjana", "Višnjan", "Barići", "Benčani", "Butori", "Cerion", "Deklevi", "Diklići", "Kočići", "Prhati", "Štuti", "Tićan", "Vejaki", "Vranići kod Višnjana", "Srebrnići"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 MK 01-19 MP 01-26 MKS",
+          "02-02 MP 02-09 MK 02-16 MP 02-23 MKS",
+          "03-02 MP 03-09 MK 03-16 MP 03-23 MKS 03-30 MP",
+          "04-06 MK 04-13 MP 04-20 MKS 04-27 MP",
+          "05-04 MK 05-11 MP 05-18 MKS 05-25 MP",
+          "06-01 MK 06-08 MP 06-15 MKS 06-22 MP 06-29 MK",
+          "07-06 MP 07-13 MKS 07-20 MP 07-27 MK",
+          "08-03 MP 08-10 MKS 08-17 MP 08-24 MK 08-31 MP",
+          "09-07 MKS 09-14 MP 09-21 MK 09-28 MP",
+          "10-05 MKS 10-12 MP 10-19 MK 10-26 MP",
+          "11-02 MKS 11-09 MP 11-16 MK 11-23 MP 11-30 MKS",
+          "12-07 MP 12-14 MK 12-21 MP 12-28 MKS"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Vižinada – Visinada",
+      "podrucje": "Četvrtak – Vižinada, cijela općina",
+      "ulice": ["Vižinada (cijela općina)"],
+      "napomena": "Papir, plastiku i miješani otpad odvozi se istog dana kao u Općini Funtana.",
+      "raw": {
+        "2026": [
+          "01-08 MP 01-15 MK 01-22 MP 01-29 MKS",
+          "02-05 MP 02-12 MK 02-19 MP 02-26 MKS",
+          "03-05 MP 03-12 MK 03-19 MP 03-26 MKS",
+          "04-02 MP 04-09 MK 04-16 MP 04-23 MKS 04-30 MP",
+          "05-07 MK 05-14 MP 05-21 MKS 05-28 MP",
+          "06-04 MK 06-11 MP 06-18 MKS 06-25 MP",
+          "07-02 MK 07-09 MP 07-16 MKS 07-23 MP 07-30 MK",
+          "08-06 MP 08-13 MKS 08-20 MP 08-27 MK",
+          "09-03 MP 09-10 MKS 09-17 MP 09-24 MK",
+          "10-01 MP 10-08 MKS 10-15 MP 10-22 MK 10-29 MP",
+          "11-05 MKS 11-12 MP 11-19 MK 11-26 MP",
+          "12-03 MKS 12-10 MP 12-17 MK 12-24 MP 12-31 MKS"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Vrsar – Orsera",
+      "podrucje": "Petak – Begi, Bralići, St. Crljenka, Delići, Flengi, Gradina…",
+      "ulice": ["Begi", "Bralići", "St. Crljenka", "Delići", "Flengi", "Gradina", "St. Kapetanova", "Kloštar", "Kontešići", "Marasi", "St. Valkanela", "St. Velika", "Vrsar"],
+      "raw": {
+        "2026": [
+          "01-09 MKS 01-16 MP 01-23 MK 01-30 MP",
+          "02-06 MKS 02-13 MP 02-20 MK 02-27 MP",
+          "03-06 MKS 03-13 MP 03-20 MK 03-27 MP",
+          "04-03 MKS 04-10 MP 04-17 MK 04-24 MP",
+          "05-02 MKS! 05-08 MP 05-15 MK 05-22 MP 05-29 MKS",
+          "06-05 MP 06-12 MK 06-19 MP 06-26 MKS",
+          "07-03 MP 07-10 MK 07-17 MP 07-24 MKS 07-31 MP",
+          "08-07 MK 08-14 MP 08-21 MKS 08-28 MP",
+          "09-04 MK 09-11 MP 09-18 MKS 09-25 MP",
+          "10-02 MK 10-09 MP 10-16 MKS 10-23 MP 10-30 MK",
+          "11-06 MP 11-13 MKS 11-20 MP 11-27 MK",
+          "12-04 MP 12-11 MKS 12-18 MP 12-26 MK!"
+        ]
+      }
+    }
+  }
+}

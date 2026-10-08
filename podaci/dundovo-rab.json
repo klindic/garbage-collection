@@ -1,0 +1,138 @@
+{
+  "davatelj": "Dundovo d.o.o.",
+  "web": "https://www.dundovo.hr",
+  "izvor": "https://www.dundovo.hr/raspored-odvoza-otpada",
+  "zupanija": "Primorsko-goranska",
+  "jls": ["Rab"],
+  "nazivi": {"P": "Plastika, metal i tetrapak", "K": "Papir i karton"},
+  "napomene": ["Spremnike pripremite za pražnjenje najkasnije do 06:00 sati, odnosno od 22:00 sata prethodne večeri.", "Ako spremnik iz objektivnih razloga ne bude ispražnjen prema rasporedu, usluga se u pravilu vrši sljedećeg dana.", "Od 16.6. do 14.9. miješani komunalni otpad odvozi se dvaput tjedno, a plastika i papir svaki tjedan (od 1.1. do 30.4. te od 5.10. do 31.12. svaka dva tjedna).", "Općina Lopar ima drugog davatelja (Lopar Vrutak d.o.o.).", "Blagdani (pravilo iz rasporeda): 01.01. → 31.12., 06.01. → 07.01., 06.04. → 07.04., 01.05. → 30.04., 18.11. → 19.11., 25.12. → 24.12.; na ostale blagdane odvozi se prema rasporedu. Zamjenski datumi u tablicama označeni su kao pomaknuti.", "Izvor: https://www.dundovo.hr/admin/documents/Odvoz_2026.pdf"],
+  "zone": {
+    "1": {
+      "jls": "Rab",
+      "podrucje": "Palit, Rab, PC Mali Palit",
+      "ulice": ["Palit", "Rab", "PC Mali Palit"],
+      "raw": {
+        "2026": [
+          "01-05 MBP 01-12 MBK 01-15 S 01-19 MBP 01-26 MBK",
+          "02-02 MBP 02-05 S 02-09 MBK 02-16 MBP 02-23 MBK",
+          "03-02 MBP 03-05 S 03-09 MBK 03-16 MBP 03-23 MBK 03-30 MBP",
+          "04-02 S 04-07 MBK! 04-13 MBP 04-20 MBK 04-27 MBP",
+          "05-04 MBK 05-07 S 05-11 MBP 05-18 MBK 05-25 MBP",
+          "06-01 MBPK 06-06 S! 06-08 MBPK 06-15 MBPK 06-17 S! 06-18 M 06-22 MBPK 06-25 M 06-29 MBPK",
+          "07-02 M 07-04 S 07-06 MBPK 07-09 M 07-13 MBPK 07-15 S 07-16 M 07-20 MBPK 07-23 M 07-27 MBPK 07-30 M",
+          "08-01 S! 08-03 MBPK 08-06 M 08-10 MBPK 08-13 M 08-17 MBPK 08-19 S! 08-20 M 08-24 MBPK 08-27 M 08-31 MBPK",
+          "09-03 M 09-05 S 09-07 MBPK 09-10 M 09-14 MBPK 09-21 MBPK 09-28 MBPK",
+          "10-01 S 10-05 MBK 10-12 MBP 10-19 MBK 10-26 MBP",
+          "11-02 MBK 11-05 S 11-09 MBP 11-16 MBK 11-23 MBP 11-30 MBK",
+          "12-03 S 12-07 MBP 12-14 MBK 12-21 MBP 12-28 MBK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Rab",
+      "podrucje": "Barbat",
+      "ulice": ["Barbat"],
+      "raw": {
+        "2026": [
+          "01-07 MBP! 01-13 MBK 01-14 S 01-20 MBP 01-27 MBK",
+          "02-03 MBP 02-04 S 02-10 MBK 02-17 MBP 02-24 MBK",
+          "03-03 MBP 03-04 S 03-10 MBK 03-17 MBP 03-24 MBK 03-31 MBP",
+          "04-01 S 04-07 MBK 04-14 MBP 04-21 MBK 04-28 MBP",
+          "05-05 MBK 05-06 S 05-12 MBP 05-19 MBK 05-26 MBP",
+          "06-02 MBPK 06-09 MBPK 06-10 S 06-16 MBPK 06-19 M 06-23 MBPK 06-26 M 06-27 S! 06-30 MBPK",
+          "07-03 M 07-07 MBPK 07-08 S 07-10 M 07-14 MBPK 07-17 M 07-21 MBPK 07-24 M 07-25 S 07-28 MBPK 07-31 M",
+          "08-04 MBPK 08-07 M 08-11 MBPK 08-12 S 08-14 M 08-18 MBPK 08-21 M 08-25 MBPK 08-28 M 08-29 S",
+          "09-01 MBPK 09-04 M 09-08 MBPK 09-11 M 09-15 MBPK 09-16 S 09-22 MBPK 09-29 MBPK",
+          "10-06 MBK 10-07 S 10-13 MBP 10-20 MBK 10-27 MBP",
+          "11-03 MBK 11-04 S 11-10 MBP 11-17 MBK 11-24 MBP",
+          "12-01 MBK 12-02 S 12-08 MBP 12-15 MBK 12-22 MBP 12-29 MBK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Rab",
+      "podrucje": "Mundanije",
+      "ulice": ["Mundanije"],
+      "raw": {
+        "2026": [
+          "01-07 MBP 01-14 MBKS 01-21 MBP 01-28 MBK",
+          "02-04 MBPS 02-11 MBK 02-18 MBP 02-25 MBK",
+          "03-04 MBPS 03-11 MBK 03-18 MBP 03-25 MBK",
+          "04-01 MBPS 04-08 MBK 04-15 MBP 04-22 MBK 04-29 MB 04-30 P!",
+          "05-06 MBKS 05-13 MBP 05-20 MBK 05-27 MBP",
+          "06-03 MBPK 06-10 MBPK 06-13 S 06-17 MBPK 06-20 M 06-24 MBPKS 06-27 M",
+          "07-01 MBPK 07-04 M 07-07 S 07-08 MBPK 07-11 M 07-15 MBPK 07-18 M 07-21 S 07-22 MBPK 07-25 M 07-29 MBPK",
+          "08-01 M 08-05 MBPK 08-08 MS! 08-12 MBPK 08-15 M 08-19 MBPK 08-22 MS! 08-26 MBPK 08-29 M",
+          "09-02 MBPK 09-05 M 09-09 MBPK 09-12 MS 09-16 MBPK 09-23 MBPK 09-30 MBPKS",
+          "10-07 MBKS 10-14 MBP 10-21 MBK 10-28 MBP",
+          "11-04 MBKS 11-11 MBP 11-19 MBK! 11-25 MBP",
+          "12-02 MBKS 12-09 MBP 12-16 MBK 12-22 P! 12-23 MB 12-30 MBK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Rab",
+      "podrucje": "Supetarska Draga",
+      "ulice": ["Supetarska Draga"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-08 P! 01-14 MBKS 01-21 MBP 01-28 MBK",
+          "02-04 MBPS 02-11 MBK 02-18 MBP 02-25 MBK",
+          "03-04 MBPS 03-11 MBK 03-18 MBP 03-25 MBK",
+          "04-01 MBPS 04-07 K! 04-08 MB 04-15 MBP 04-22 MBK 04-29 MBP",
+          "05-06 MBKS 05-13 MBP 05-20 MBK 05-27 MBP",
+          "06-03 MBPK 06-10 MBPK 06-13 S 06-17 MBPK 06-20 M 06-24 MBPKS 06-27 M",
+          "07-01 MBPK 07-04 M 07-07 S 07-08 MBPK 07-11 M 07-15 MBPK 07-18 M 07-21 S 07-22 MBPK 07-25 M 07-29 MBPK",
+          "08-01 M 08-05 MBPK 08-08 MS! 08-12 MBPK 08-15 M 08-19 MBPK 08-22 MS! 08-26 MBPK 08-29 M",
+          "09-02 MBPK 09-05 M 09-09 MBPK 09-12 MS 09-16 MBPK 09-23 MBPK 09-30 MBPKS",
+          "10-07 MBKS 10-14 MBP 10-21 MBK 10-28 MBP",
+          "11-04 MBKS 11-11 MBP 11-19 MBK! 11-25 MBP",
+          "12-02 MBKS 12-09 MBP 12-16 MBK 12-23 MBP 12-30 MBK"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Rab",
+      "podrucje": "Kampor",
+      "ulice": ["Kampor"],
+      "raw": {
+        "2026": [
+          "01-02 K! 01-08 MBP 01-15 MBKS 01-22 MBP 01-29 MBK",
+          "02-05 MBPS 02-12 MBK 02-19 MBP 02-26 MBK",
+          "03-05 MBPS 03-12 MBK 03-19 MBP 03-26 MBK",
+          "04-02 MBPS 04-09 MBK 04-16 MBP 04-23 MBK 04-29 P! 04-30 MB",
+          "05-07 MBKS 05-14 MBP 05-21 MBK 05-28 MBP",
+          "06-04 MBPK 06-06 S! 06-11 MBPK 06-17 S! 06-18 MBPK 06-22 M 06-25 MBPK 06-29 M",
+          "07-02 MBPK 07-04 S 07-06 M 07-09 MBPK 07-13 M 07-15 S 07-16 MBPK 07-20 M 07-23 MBPK 07-27 M 07-30 MBPK",
+          "08-01 S! 08-03 M 08-06 MBPK 08-10 M 08-13 MBPK 08-17 M 08-19 S! 08-20 MBPK 08-24 M 08-27 MBPK 08-31 M",
+          "09-03 MBPK 09-05 S 09-07 M 09-10 MBPK 09-14 M 09-17 MBPK 09-24 MBPK",
+          "10-01 MBPS 10-08 MBK 10-15 MBP 10-22 MBK 10-29 MBP",
+          "11-05 MBKS 11-12 MBP 11-19 MBK 11-26 MBP",
+          "12-03 MBKS 12-10 MBP 12-17 MBK 12-23 P! 12-24 MB 12-30 K! 12-31 MB"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Rab",
+      "podrucje": "Banjol",
+      "ulice": ["Banjol"],
+      "napomena": "Plastika 12.12. (subota) prepisana je kako je objavljena; vjerojatno je riječ o petku 11.12. – provjeriti kod davatelja.",
+      "raw": {
+        "2026": [
+          "01-02 MBK 01-09 MBP 01-14 S 01-16 MBK 01-23 MBP 01-30 MBK",
+          "02-04 S 02-06 MBP 02-13 MBK 02-20 MBP 02-27 MBK",
+          "03-04 S 03-06 MBP 03-13 MBK 03-20 MBP 03-27 MBK",
+          "04-01 S 04-03 MBP 04-10 MBK 04-17 MBP 04-24 MBK 04-30 MBP!",
+          "05-06 S 05-08 MBK 05-15 MBP 05-22 MBK 05-29 MBP",
+          "06-03 S 06-05 MBPK 06-12 MBPK 06-16 M 06-19 MBPK 06-23 MS! 06-26 MBPK 06-30 M",
+          "07-03 MBPK 07-07 M 07-10 MBPK 07-11 S 07-14 M 07-17 MBPK 07-21 M 07-24 MBPK 07-28 M 07-29 S 07-31 MBPK",
+          "08-04 M 08-07 MBPK 08-11 M 08-14 MBPK 08-15 S! 08-18 M 08-21 MBPK 08-25 M 08-28 MBPK 08-29 S",
+          "09-01 M 09-04 MBPK 09-08 M 09-09 S 09-11 MBPK 09-18 MBPK 09-25 MBPK",
+          "10-02 MBP 10-07 S 10-09 MBK 10-16 MBP 10-23 MBK 10-30 MBP",
+          "11-04 S 11-06 MBK 11-13 MBP 11-20 MBK 11-27 MBP",
+          "12-02 S 12-04 MBK 12-11 MB 12-12 P 12-18 MBK 12-24 MBP! 12-31 K!"
+        ]
+      }
+    }
+  }
+}

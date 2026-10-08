@@ -1,0 +1,232 @@
+{
+  "davatelj": "PARK d.o.o. za komunalne djelatnosti Buzet",
+  "web": "https://park.hr",
+  "zupanija": "Istarska",
+  "jls": ["Buzet", "Lanišće"],
+  "nazivi": {"P": "Plastična i metalna ambalaža, tetrapak (žuti spremnik)", "K": "Papir i karton (plavi spremnik)"},
+  "bioNapomena": "Biootpad (smeđi spremnik) samo u naseljima navedenima u planu.",
+  "izvor": "https://park.hr/wp-content/uploads/2026/01/PLAN-ODVOZA-OTPADA-ZA-2026.pdf",
+  "napomene": ["Spremnici za reciklabilni otpad prazne se jednom mjesečno; na dan odvoza moraju biti na javnoj površini do 7:00.", "Reciklažno dvorište Griža: ponedjeljak – petak 08:00 – 15:00, subota 08:00 – 13:00.", "Glomazni i zeleni otpad: akcije prema obavijestima (proljeće i jesen), planovi na park.hr.", "Miješani komunalni otpad u Gradu Buzetu (spremnici 60 – 360 l, samo za korisnike koji ne koriste otpadomjer), jednom tjedno: ponedjeljak: MO Buzet (osim naselja Srnegla, Šakori, Mandalenići te dijela naselja Verona koji imaju prilaz sa državne ceste), MO Sveti Martin, MO Sveti Ivan (osim naselja Brgad, Strana, Cunj, Selca, Praščari); utorak: MO Roč sa Humšćinom, naselja Brgad, Strana, Cunj, Selca, Praščari; srijeda: MO Krušvari, MO Vrh, naselja Valari, Valice, Žugani, Puhi, Švikarija, Černehov Brijeg, Šimeći, Bartolići, Krti; četvrtak: MO Štrped, MO Mali i Veli Mlun, naselja Srnegla, Šakori, Mandalenići te dio naselja Verona koji ima prilaz sa državne ceste; petak: MO Svi Sveti, MO Sovinjak. Plan ne navodi naselja mjesnih odbora pa ti dani nisu u kalendaru.", "Blagdani: prema planu odvoz se obavlja prvog sljedećeg radnog dana (ili prema obavijesti na oglasnim pločama, društvenim mrežama i park.hr); kao radni dani uzeti su ponedjeljak – petak (06.01. → 07.01., 06.04. → 07.04., 01.05. → 04.05., 22.06. → 23.06., 18.11. → 19.11., 25.12. → 28.12.)."],
+  "zone": {
+    "1": {
+      "jls": "Buzet",
+      "podrucje": "Goričica, Verona, Franečići … – papir prvi ponedjeljak, plastika drugi ponedjeljak, biootpad drugi i četvrti petak u mjesecu",
+      "ulice": ["Goričica", "Verona", "Franečići", "Korenika", "Baraka", "A. C. Tonića", "1. Maja", "Stjepana Konzula", "Frana Flega", "Ivana Sancina", "Riječka ulica", "Sv. Ivan", "Sv. Ivan-Dol", "Sv. Martin", "Mandaši", "Majcani", "Stupari", "Rumeni", "Krbavčići", "Finderli", "Počekaji", "Željeznička stanica Buzet"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-05 K 01-09 B 01-12 P 01-23 B",
+          "02-02 K 02-09 P 02-13 B 02-27 B",
+          "03-02 K 03-09 P 03-13 B 03-27 B",
+          "04-07 K! 04-10 B 04-13 P 04-24 B",
+          "05-04 K 05-08 B 05-11 P 05-22 B",
+          "06-01 K 06-08 P 06-12 B 06-26 B",
+          "07-06 K 07-10 B 07-13 P 07-24 B",
+          "08-03 K 08-10 P 08-14 B 08-28 B",
+          "09-07 K 09-11 B 09-14 P 09-25 B",
+          "10-05 K 10-09 B 10-12 P 10-23 B",
+          "11-02 K 11-09 P 11-13 B 11-27 B",
+          "12-07 K 12-11 B 12-14 P 12-28 B!"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Buzet",
+      "podrucje": "Selca, Strana, Brgad … – papir prvi utorak, plastika drugi utorak, biootpad drugi i četvrti četvrtak u mjesecu",
+      "ulice": ["Selca", "Strana", "Brgad", "Mavrići", "Cunj", "Roč", "Gornja Nugla", "Donja Nugla", "Nemarniki", "Jakomasi", "Krkuž", "Kompanj", "Čiritež", "Rim", "Bršćak", "Ročko Polje"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-07 K! 01-08 B 01-13 P 01-22 B",
+          "02-03 K 02-10 P 02-12 B 02-26 B",
+          "03-03 K 03-10 P 03-12 B 03-26 B",
+          "04-07 K 04-09 B 04-14 P 04-23 B",
+          "05-05 K 05-12 P 05-14 B 05-28 B",
+          "06-02 K 06-09 P 06-11 B 06-25 B",
+          "07-07 K 07-09 B 07-14 P 07-23 B",
+          "08-04 K 08-11 P 08-13 B 08-27 B",
+          "09-01 K 09-08 P 09-10 B 09-24 B",
+          "10-06 K 10-08 B 10-13 P 10-22 B",
+          "11-03 K 11-10 P 11-12 B 11-26 B",
+          "12-01 K 12-08 P 12-10 B 12-24 B"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Buzet",
+      "podrucje": "Kolinasi, Forčići, Brnobići … – papir prvi utorak, plastika drugi utorak u mjesecu",
+      "ulice": ["Kolinasi", "Forčići", "Brnobići", "Kotli", "Erkovčići"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-07 K! 01-13 P",
+          "02-03 K 02-10 P",
+          "03-03 K 03-10 P",
+          "04-07 K 04-14 P",
+          "05-05 K 05-12 P",
+          "06-02 K 06-09 P",
+          "07-07 K 07-14 P",
+          "08-04 K 08-11 P",
+          "09-01 K 09-08 P",
+          "10-06 K 10-13 P",
+          "11-03 K 11-10 P",
+          "12-01 K 12-08 P"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Buzet",
+      "podrucje": "Sovinjak, Sovinjska Brda, Sovinjsko Polje … – papir prvi petak, plastika prvi petak u mjesecu",
+      "ulice": ["Sovinjak", "Sovinjska Brda", "Sovinjsko Polje", "Srgobani", "Brnozi", "Sirotići", "Pračana", "Pigini", "Beneži", "Tuki", "Majeri", "Cunjci", "Jermanija", "Valice", "Bartolići", "Šimeći", "Černehov Brijeg", "Črneki", "Švikarija", "Klarići", "Sv. Kirin", "Krti", "Puhi", "Žugani", "Drobežija", "Dršćari"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-02 PK",
+          "02-06 PK",
+          "03-06 PK",
+          "04-03 PK",
+          "05-04 PK!",
+          "06-05 PK",
+          "07-03 PK",
+          "08-07 PK",
+          "09-04 PK",
+          "10-02 PK",
+          "11-06 PK",
+          "12-04 PK"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Buzet",
+      "podrucje": "Most, Maruškići, Jagodići … – papir drugi petak, plastika drugi petak u mjesecu",
+      "ulice": ["Most", "Maruškići", "Jagodići", "Podrebar", "Lokarija", "Juričići", "Komušćića", "Vidaci", "Pengari", "Marinci", "Prodani", "Kozari", "Peničići", "Sv. Donat", "Bržendi", "Jurcanija", "Čela"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-09 PK",
+          "02-13 PK",
+          "03-13 PK",
+          "04-10 PK",
+          "05-08 PK",
+          "06-12 PK",
+          "07-10 PK",
+          "08-14 PK",
+          "09-11 PK",
+          "10-09 PK",
+          "11-13 PK",
+          "12-11 PK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Buzet",
+      "podrucje": "Štrped, Kajini, Črnci … – papir treći ponedjeljak, plastika četvrti ponedjeljak, biootpad drugi i četvrti četvrtak u mjesecu",
+      "ulice": ["Štrped", "Kajini", "Črnci", "Mažinjica", "Sv. Duh", "Šantići", "Perci", "Črnica", "Podrečak", "Postaje", "Požane"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-08 B 01-19 K 01-22 B 01-26 P",
+          "02-12 B 02-16 K 02-23 P 02-26 B",
+          "03-12 B 03-16 K 03-23 P 03-26 B",
+          "04-09 B 04-20 K 04-23 B 04-27 P",
+          "05-14 B 05-18 K 05-25 P 05-28 B",
+          "06-11 B 06-15 K 06-23 P! 06-25 B",
+          "07-09 B 07-20 K 07-23 B 07-27 P",
+          "08-13 B 08-17 K 08-24 P 08-27 B",
+          "09-10 B 09-21 K 09-24 B 09-28 P",
+          "10-08 B 10-19 K 10-22 B 10-26 P",
+          "11-12 B 11-16 K 11-23 P 11-26 B",
+          "12-10 B 12-21 K 12-24 B 12-28 P"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Buzet",
+      "podrucje": "Mlini, Ugrini, Confi … – papir treći ponedjeljak, plastika četvrti ponedjeljak u mjesecu",
+      "ulice": ["Mlini", "Ugrini", "Confi", "Konti", "Jakci", "Abrami", "Baredine", "Salež", "Hrib", "Škujari", "Opatija", "Zonti", "Trkusi", "Seljaci", "Šakori", "Mandalenići", "Srnegla", "Rušnjak", "Mali i Veli Mlun", "Pruhari"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-19 K 01-26 P",
+          "02-16 K 02-23 P",
+          "03-16 K 03-23 P",
+          "04-20 K 04-27 P",
+          "05-18 K 05-25 P",
+          "06-15 K 06-23 P!",
+          "07-20 K 07-27 P",
+          "08-17 K 08-24 P",
+          "09-21 K 09-28 P",
+          "10-19 K 10-26 P",
+          "11-16 K 11-23 P",
+          "12-21 K 12-28 P"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Buzet",
+      "podrucje": "Krušvari, Juradi, Kortina … – papir treća srijeda, plastika treća srijeda u mjesecu",
+      "ulice": ["Krušvari", "Juradi", "Kortina", "Kosoriga", "Račice", "Račički Brijeg", "Urihi", "Racari", "Martinci", "Zabrda", "Pašutići", "Rimnjak", "Bakar", "Čuhrija", "Jezer", "Čabranija", "Kontići"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-21 PK",
+          "02-18 PK",
+          "03-18 PK",
+          "04-15 PK",
+          "05-20 PK",
+          "06-17 PK",
+          "07-15 PK",
+          "08-19 PK",
+          "09-16 PK",
+          "10-21 PK",
+          "11-19 PK!",
+          "12-16 PK"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Buzet",
+      "podrucje": "Dobrova, Luskići, Kjeka … – papir treći petak, plastika treći petak u mjesecu",
+      "ulice": ["Dobrova", "Luskići", "Kjeka", "Medveje", "Negnar", "Marčenegla", "Marčeneško Polje", "Paladini", "Šćulci", "Barušići", "Klarići", "Dol", "Matiško", "Gregorići", "Senj", "Valari"],
+      "napomena": "Miješani otpad (korisnici bez otpadomjera) odvozi se jednom tjedno prema mjesnom odboru – vidi napomene; korisnici otpadomjera odlažu ga u zajedničke spremnike.",
+      "raw": {
+        "2026": [
+          "01-16 PK",
+          "02-20 PK",
+          "03-20 PK",
+          "04-17 PK",
+          "05-15 PK",
+          "06-19 PK",
+          "07-17 PK",
+          "08-21 PK",
+          "09-18 PK",
+          "10-16 PK",
+          "11-20 PK",
+          "12-18 PK"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Lanišće",
+      "podrucje": "Općina Lanišće – miješani otpad svaki drugi četvrtak",
+      "ulice": ["Brest", "Brgudac", "Brljavci", "Černehi", "Dane", "Jelovice", "Klenovšćak", "Kropinjak", "Lanišće", "Podgaće", "Prapoće", "Račja Vas", "Rašpor", "Slum", "Trstenik", "Vodice"],
+      "napomena": "Za Lanišće plan ne predviđa odvoz reciklabilnog otpada ni biootpada.",
+      "raw": {
+        "2026": [
+          "01-08 M 01-22 M",
+          "02-05 M 02-19 M",
+          "03-05 M 03-19 M",
+          "04-02 M 04-16 M 04-30 M",
+          "05-14 M 05-28 M",
+          "06-11 M 06-25 M",
+          "07-09 M 07-23 M",
+          "08-06 M 08-20 M",
+          "09-03 M 09-17 M",
+          "10-01 M 10-15 M 10-29 M",
+          "11-12 M 11-26 M",
+          "12-10 M 12-24 M"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "davatelj": "Komunalac Glina d.o.o.",
+  "web": "https://komunalac-glina.hr/wp",
+  "izvor": "https://komunalac-glina.hr/wp/gospodarenje-otpadom/",
+  "zupanija": "Sisačko-moslavačka",
+  "jls": ["Glina"],
+  "nazivi": {"P": "Plastika (žuti spremnik)", "K": "Papir (plavi spremnik)"},
+  "bioNapomena": "Biootpad se ne odvozi (nije u planu jer nema kompostane i cjenika za uslugu).",
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno, a reciklabilni otpad (plavi i žuti spremnik) jednom mjesečno, okvirno od 07:00 do 15:30.", "Reciklažno dvorište: Glinište 3, Glina (ljeti 07:00 – 15:00, zimi 07:30 – 15:30); mobilno reciklažno dvorište obilazi naselja četiri puta godišnje prema rasporedu u obavijesti.", "Glomazni otpad na zahtjev: 099/211-1146 (do 10 sati), info@komunalac-glina.hr.", "Blagdani: prema planu se odvoz s blagdana nadoknađuje sljedeći radni dan ili drugog dana prema posebnoj obavijesti; uzet je sljedeći radni dan (pon – pet): 01.01. → 02.01., 06.01. → 07.01., 06.04. → 07.04., 01.05. → 04.05., 04.06. → 05.06., 22.06. → 23.06., 05.08. → 06.08., 18.11. → 19.11., 25.12. → 28.12.", "Izvor: https://komunalac-glina.hr/wp/wp-content/uploads/2026/01/2026-obavijest-odluka.xls"],
+  "zone": {
+    "1": {
+      "jls": "Glina",
+      "podrucje": "Ponedjeljak – N. Tesle, Plivska, Ciglanska, Ravnice …",
+      "ulice": ["N. Tesle", "Plivska", "Ciglanska", "Ravnice", "Zabašće", "Bajerska", "Svibovac", "Ivar", "Livadna", "Radnička", "Ljeskar", "K. Zvonimira", "Podlužje", "Salaška", "Poljari", "Petrinjska", "Sisačka", "6. Kolovoza", "Zatišje", "Trg Bana J. Jelačića", "S. i A. Radića", "Trg dr. F. Tuđmana", "Hrvatskog Plemića Vuka", "Trg Petra Krešimira", "Vrbik", "Dubac", "Hrašće", "Breznica", "Žirje", "Trstik", "Lokvanj", "Ribička", "Glinište", "Majske Poljane"],
+      "napomena": "Glomazni otpad na zahtjev: siječanj - ožujak.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 MPK 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 MPK",
+          "03-02 M 03-09 M 03-16 M 03-23 MPK 03-30 M",
+          "04-07 M! 04-13 M 04-20 MPK 04-27 M",
+          "05-04 M 05-11 M 05-18 MPK 05-25 M",
+          "06-01 M 06-08 M 06-15 MPK 06-23 M! 06-29 M",
+          "07-06 M 07-13 M 07-20 MPK 07-27 M",
+          "08-03 M 08-10 M 08-17 MPK 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-21 MPK 09-28 M",
+          "10-05 M 10-12 M 10-19 MPK 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-23 MPK 11-30 M",
+          "12-07 M 12-14 MPK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Glina",
+      "podrucje": "Utorak – Dvorska, V. Mačeka, Dolnjaki, Svračica …",
+      "ulice": ["Dvorska", "V. Mačeka", "Dolnjaki", "Svračica", "Maja (u dijelu prometnice D6)", "Prijeka", "Ravno Rašće (u dijelu prometnice D6)", "Roviška (u dijelu prometnice D6)", "Joševica", "G. Selište", "D. Selište (u dijelu prometnice L33086)", "Đ.Augustinovića", "J. Fratrovića", "Poljica", "Kninska", "Pčelarska", "Voćarska", "Željeznički Put", "Plitvička", "M. Gupca", "J. Šemerca", "J.Pogledića (kb 2 i 4 )", "Vrelska", "Šaš", "Zelenjak", "Kotari", "Lovačka", "Pružna", "Kozarica", "Padina", "Nuštarska", "Prominska", "Konavljanska", "Klobučari", "Tuk", "Tratina", "Srednjaci"],
+      "napomena": "Glomazni otpad na zahtjev: ožujak-svibanj.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 M 01-20 MPK 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-24 MPK",
+          "03-03 M 03-10 M 03-17 M 03-24 MPK 03-31 M",
+          "04-07 M 04-14 M 04-21 MPK 04-28 M",
+          "05-05 M 05-12 M 05-19 MPK 05-26 M",
+          "06-02 M 06-09 M 06-16 MPK 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-21 MPK 07-28 M",
+          "08-04 M 08-11 M 08-18 MPK 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-22 MPK 09-29 M",
+          "10-06 M 10-13 M 10-20 MPK 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-24 MPK",
+          "12-01 M 12-08 M 12-15 MPK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Glina",
+      "podrucje": "Srijeda – Marin Brod, Kihalac, Prekopa, Novo Selo Glinsko …",
+      "ulice": ["Marin Brod", "Kihalac", "Prekopa", "Novo Selo Glinsko", "Dvorišće", "Hađer", "Šatornja", "V. i M. Solina", "G. Viduševac", "D. Viduševac", "Viduševačka", "Pokupljanska", "Toplička", "Lom", "G. i D. Taborište", "G. i D. Bučica", "Desni Degoj", "Ilovačak", "Slatina Pokupska", "Zaloj", "Gračanica Šišinečka", "Stankovac"],
+      "napomena": "Glomazni otpad na zahtjev: svibanj - srpanj.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 MPK 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-25 MPK",
+          "03-04 M 03-11 M 03-18 M 03-25 MPK",
+          "04-01 M 04-08 M 04-15 M 04-22 MPK 04-29 M",
+          "05-06 M 05-13 M 05-20 MPK 05-27 M",
+          "06-03 M 06-10 M 06-17 MPK 06-24 M",
+          "07-01 M 07-08 M 07-15 M 07-22 MPK 07-29 M",
+          "08-06 M! 08-12 M 08-19 MPK 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-23 MPK 09-30 M",
+          "10-07 M 10-14 M 10-21 MPK 10-28 M",
+          "11-04 M 11-11 M 11-19 M! 11-25 MPK",
+          "12-02 M 12-09 M 12-16 MPK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Glina",
+      "podrucje": "Četvrtak – Majska, Runjaninova, Tomislava Roma, Hrvatska …",
+      "ulice": ["Majska", "Runjaninova", "Tomislava Roma", "Hrvatska", "A. Kovačića", "K. Branimira", "P. Lebera", "F. Žužeka", "Z. Šulentića", "20. Domobranske Pukovnije Glina", "2. Gardijske Brigade Gromovi", "Specijalne Jedinice Policije \"OSA\"", "Zagrebačka", "K. Tomislava", "Hrvatskog Proljeća", "Dragovoljaca Domovinskog Rata", "Matice Hrvatske", "Ogranak I", "Ogranak II", "Domobranska", "Hrvatske Bratske Zajednice", "Kanal", "Kriva", "Pilanska", "J. Mrgana"],
+      "napomena": "Glomazni otpad na zahtjev: srpanj - listopad.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 M 01-22 MPK 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-26 MPK",
+          "03-05 M 03-12 M 03-19 M 03-26 MPK",
+          "04-02 M 04-09 M 04-16 M 04-23 MPK 04-30 M",
+          "05-07 M 05-14 M 05-21 MPK 05-28 M",
+          "06-05 M! 06-11 M 06-18 MPK 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-23 MPK 07-30 M",
+          "08-06 M 08-13 M 08-20 MPK 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-24 MPK",
+          "10-01 M 10-08 M 10-15 M 10-22 MPK 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-26 MPK",
+          "12-03 M 12-10 M 12-17 MPK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Glina",
+      "podrucje": "Petak – Vukovarska, Hrv. Sokola, Vinogradska, Vatrogasna …",
+      "ulice": ["Vukovarska", "Hrv. Sokola", "Vinogradska", "Vatrogasna", "Sv. Florijana", "V. Nazora", "Frankopanska", "P. Preradovića", "A.Starčevića", "Cvjetni Trg", "Žrtava Domovinskog Rata", "Ružičnjak", "Ive Andrića", "Klanac", "J. Pogledića (osim kb 2 i kb 4)", "Potočnica", "A.Mihanovića", "I. G. Kovačića", "Mlinarska", "Lanišće", "Zukve", "Sveti Križ", "Poljski Put", "J.Crnkovića", "Jukinačka", "Obronak", "Podbrežje", "Kolodvorska", "Oranice", "Prečac", "Cret", "Ševar", "Iverje", "P.Križanića"],
+      "napomena": "Glomazni otpad na zahtjev: rujan-prosinac.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 MPK 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-27 MPK",
+          "03-06 M 03-13 M 03-20 M 03-27 MPK",
+          "04-03 M 04-10 M 04-17 M 04-24 MPK",
+          "05-04 M! 05-08 M 05-15 M 05-22 MPK 05-29 M",
+          "06-05 M 06-12 M 06-19 MPK 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-24 MPK 07-31 M",
+          "08-07 M 08-14 M 08-21 MPK 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-25 MPK",
+          "10-02 M 10-09 M 10-16 M 10-23 MPK 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-27 MPK",
+          "12-04 M 12-11 M 12-18 MPK 12-28 M!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Glina",
+      "podrucje": "Kontejneri stambenih zgrada – ponedjeljak: A. Kovačića",
+      "ulice": ["A. Kovačića (kontejneri stambenih zgrada)"],
+      "napomena": "Miješani otpad iz kontejnera stambenih zgrada; plan ne navodi odvoz reciklabilnog otpada za kontejnere.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-07 M! 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-23 M! 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Glina",
+      "podrucje": "Kontejneri stambenih zgrada – ponedjeljak i četvrtak: Trg Bana J. Jelačića, S. i A. Radića, Trg dr. F. Tuđmana",
+      "ulice": ["Trg Bana J. Jelačića (kontejneri stambenih zgrada)", "S. i A. Radića (kontejneri stambenih zgrada)", "Trg dr. F. Tuđmana (kontejneri stambenih zgrada)"],
+      "napomena": "Miješani otpad iz kontejnera stambenih zgrada; plan ne navodi odvoz reciklabilnog otpada za kontejnere.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-05 M 01-08 M 01-12 M 01-15 M 01-19 M 01-22 M 01-26 M 01-29 M",
+          "02-02 M 02-05 M 02-09 M 02-12 M 02-16 M 02-19 M 02-23 M 02-26 M",
+          "03-02 M 03-05 M 03-09 M 03-12 M 03-16 M 03-19 M 03-23 M 03-26 M 03-30 M",
+          "04-02 M 04-07 M! 04-09 M 04-13 M 04-16 M 04-20 M 04-23 M 04-27 M 04-30 M",
+          "05-04 M 05-07 M 05-11 M 05-14 M 05-18 M 05-21 M 05-25 M 05-28 M",
+          "06-01 M 06-05 M! 06-08 M 06-11 M 06-15 M 06-18 M 06-23 M! 06-25 M 06-29 M",
+          "07-02 M 07-06 M 07-09 M 07-13 M 07-16 M 07-20 M 07-23 M 07-27 M 07-30 M",
+          "08-03 M 08-06 M 08-10 M 08-13 M 08-17 M 08-20 M 08-24 M 08-27 M 08-31 M",
+          "09-03 M 09-07 M 09-10 M 09-14 M 09-17 M 09-21 M 09-24 M 09-28 M",
+          "10-01 M 10-05 M 10-08 M 10-12 M 10-15 M 10-19 M 10-22 M 10-26 M 10-29 M",
+          "11-02 M 11-05 M 11-09 M 11-12 M 11-16 M 11-19 M 11-23 M 11-26 M 11-30 M",
+          "12-03 M 12-07 M 12-10 M 12-14 M 12-17 M 12-21 M 12-24 M 12-28 M 12-31 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Glina",
+      "podrucje": "Kontejneri stambenih zgrada – utorak i četvrtak: K. Tomislava",
+      "ulice": ["K. Tomislava (kontejneri stambenih zgrada)"],
+      "napomena": "Miješani otpad iz kontejnera stambenih zgrada; plan ne navodi odvoz reciklabilnog otpada za kontejnere.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-07 M! 01-08 M 01-13 M 01-15 M 01-20 M 01-22 M 01-27 M 01-29 M",
+          "02-03 M 02-05 M 02-10 M 02-12 M 02-17 M 02-19 M 02-24 M 02-26 M",
+          "03-03 M 03-05 M 03-10 M 03-12 M 03-17 M 03-19 M 03-24 M 03-26 M 03-31 M",
+          "04-02 M 04-07 M 04-09 M 04-14 M 04-16 M 04-21 M 04-23 M 04-28 M 04-30 M",
+          "05-05 M 05-07 M 05-12 M 05-14 M 05-19 M 05-21 M 05-26 M 05-28 M",
+          "06-02 M 06-05 M! 06-09 M 06-11 M 06-16 M 06-18 M 06-23 M 06-25 M 06-30 M",
+          "07-02 M 07-07 M 07-09 M 07-14 M 07-16 M 07-21 M 07-23 M 07-28 M 07-30 M",
+          "08-04 M 08-06 M 08-11 M 08-13 M 08-18 M 08-20 M 08-25 M 08-27 M",
+          "09-01 M 09-03 M 09-08 M 09-10 M 09-15 M 09-17 M 09-22 M 09-24 M 09-29 M",
+          "10-01 M 10-06 M 10-08 M 10-13 M 10-15 M 10-20 M 10-22 M 10-27 M 10-29 M",
+          "11-03 M 11-05 M 11-10 M 11-12 M 11-17 M 11-19 M 11-24 M 11-26 M",
+          "12-01 M 12-03 M 12-08 M 12-10 M 12-15 M 12-17 M 12-22 M 12-24 M 12-29 M 12-31 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Glina",
+      "podrucje": "Kontejneri stambenih zgrada – utorak i petak: Vukovarska, Frankopanska",
+      "ulice": ["Vukovarska (kontejneri stambenih zgrada)", "Frankopanska (kontejneri stambenih zgrada)"],
+      "napomena": "Miješani otpad iz kontejnera stambenih zgrada; plan ne navodi odvoz reciklabilnog otpada za kontejnere.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-07 M! 01-09 M 01-13 M 01-16 M 01-20 M 01-23 M 01-27 M 01-30 M",
+          "02-03 M 02-06 M 02-10 M 02-13 M 02-17 M 02-20 M 02-24 M 02-27 M",
+          "03-03 M 03-06 M 03-10 M 03-13 M 03-17 M 03-20 M 03-24 M 03-27 M 03-31 M",
+          "04-03 M 04-07 M 04-10 M 04-14 M 04-17 M 04-21 M 04-24 M 04-28 M",
+          "05-04 M! 05-05 M 05-08 M 05-12 M 05-15 M 05-19 M 05-22 M 05-26 M 05-29 M",
+          "06-02 M 06-05 M 06-09 M 06-12 M 06-16 M 06-19 M 06-23 M 06-26 M 06-30 M",
+          "07-03 M 07-07 M 07-10 M 07-14 M 07-17 M 07-21 M 07-24 M 07-28 M 07-31 M",
+          "08-04 M 08-07 M 08-11 M 08-14 M 08-18 M 08-21 M 08-25 M 08-28 M",
+          "09-01 M 09-04 M 09-08 M 09-11 M 09-15 M 09-18 M 09-22 M 09-25 M 09-29 M",
+          "10-02 M 10-06 M 10-09 M 10-13 M 10-16 M 10-20 M 10-23 M 10-27 M 10-30 M",
+          "11-03 M 11-06 M 11-10 M 11-13 M 11-17 M 11-20 M 11-24 M 11-27 M",
+          "12-01 M 12-04 M 12-08 M 12-11 M 12-15 M 12-18 M 12-22 M 12-28 M! 12-29 M"
+        ]
+      }
+    }
+  }
+}
