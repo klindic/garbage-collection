@@ -1,0 +1,79 @@
+{
+  "davatelj": "MED EKO SERVIS d.o.o.",
+  "web": "https://www.medekoservis.hr",
+  "zupanija": "Istarska",
+  "jls": ["Medulin"],
+  "nazivi": {"L": "Metal (crne vreće)"},
+  "napomene": ["U srpnju i kolovozu odvoz je češći (miješani otpad dvaput tjedno, papir i plastika svaki tjedan).", "Spremnike iznijeti najranije večer prije, a najkasnije do 6 sati na dan odvoza.", "Otpadne pelene (bijele vreće) odvoze se svaki petak, a u srpnju i kolovozu svaki četvrtak; nisu uključene u ovaj raspored.", "Staklo se odlaže u zelena zvona na javnim površinama.", "Glomazni i zeleni otpad s adrese odvozi se na zahtjev (052/573-733, odvoz@medekoservis.hr), osim od 1.7. do 31.8.", "Moguća odstupanja u vrijeme blagdana; pomaci objavljeni u kalendaru su uključeni.", "Iznajmljivači imaju zaseban kalendar na stranici davatelja; nije uključen."],
+  "izvor": "https://www.medekoservis.hr/kalendar-odvoza-otpada",
+  "zone": {
+    "1": {
+      "jls": "Medulin",
+      "podrucje": "Medulin Gornji dio: Kapovica, Katikulić, Kazali, Krase, …",
+      "opis": "Kapovica, Katikulić, Kazali, Krase, Livadice, Ližnjanska cesta, Nova lokva, Regi, Rov, Smrikve, Šaraje, Ševe, Vrčevan, Fucane, Munida",
+      "ulice": ["Kapovica", "Katikulić", "Kazali", "Krase", "Livadice", "Ližnjanska cesta", "Nova lokva", "Regi", "Rov", "Smrikve", "Šaraje", "Ševe", "Vrčevan", "Fucane", "Munida"],
+      "napomena": "Biootpad: korisnici će biti pravovremeno obaviješteni.",
+      "raw": {
+        "2026": [
+          "01-02 K! 01-05 M 01-07 P 01-09 L 01-12 M 01-15 K 01-19 M 01-21 P 01-26 M 01-29 K",
+          "02-02 M 02-04 P 02-09 M 02-12 K 02-13 L 02-16 M 02-18 P 02-23 M 02-26 K",
+          "03-02 M 03-04 P 03-09 M 03-12 K 03-13 L 03-16 M 03-18 P 03-23 M 03-26 K 03-30 M",
+          "04-01 P 04-06 M 04-09 K 04-10 L 04-13 M 04-15 P 04-20 M 04-23 K 04-27 M 04-29 P",
+          "05-04 M 05-07 K 05-08 L 05-11 M 05-13 P 05-18 M 05-21 K 05-25 M 05-27 P",
+          "06-03 M 06-04 K 06-08 P 06-10 M 06-12 L 06-17 M 06-18 K 06-22 P 06-24 M",
+          "07-01 M 07-03 K 07-04 M 07-06 P 07-08 M 07-10 K 07-11 ML 07-13 P 07-15 M 07-17 K 07-18 M 07-20 P 07-22 M 07-24 K 07-25 M 07-27 P 07-29 M 07-31 K",
+          "08-01 M 08-03 P 08-05 M 08-07 K 08-08 ML 08-10 P 08-12 M 08-14 K 08-15 M 08-17 P 08-19 M 08-21 K 08-22 M 08-24 P 08-26 M 08-28 K 08-29 M 08-31 P",
+          "09-02 M 09-09 M 09-10 K 09-11 L 09-14 P 09-16 M 09-23 M 09-24 K 09-28 P 09-30 M",
+          "10-05 M 10-08 K 10-09 L 10-12 M 10-14 P 10-19 M 10-22 K 10-26 M 10-28 P",
+          "11-02 M 11-05 K 11-09 M 11-11 P 11-13 L 11-16 M 11-19 K 11-23 M 11-25 P 11-30 M",
+          "12-03 K 12-07 M 12-09 P 12-11 L 12-14 M 12-17 K 12-21 M 12-23 P 12-28 M 12-31 K"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Medulin",
+      "podrucje": "Medulin Donji dio: Biškupije, Brajdine, Burle, Centar, …",
+      "opis": "Biškupije, Brajdine, Burle, Centar, Mukalba, Osipovica, Pošesi, Ribarska, Sad",
+      "ulice": ["Biškupije", "Brajdine", "Burle", "Centar", "Mukalba", "Osipovica", "Pošesi", "Ribarska", "Sad"],
+      "napomena": "Biootpad: korisnici će biti pravovremeno obaviješteni.",
+      "raw": {
+        "2026": [
+          "01-02 K! 01-05 M 01-07 P 01-09 L 01-12 M 01-15 K 01-19 M 01-21 P 01-26 M 01-29 K",
+          "02-02 M 02-04 P 02-09 M 02-12 K 02-13 L 02-16 M 02-18 P 02-23 M 02-26 K",
+          "03-02 M 03-04 P 03-09 M 03-12 K 03-13 L 03-16 M 03-18 P 03-23 M 03-26 K 03-30 M",
+          "04-01 P 04-06 M 04-09 K 04-10 L 04-13 M 04-15 P 04-20 M 04-23 K 04-27 M 04-29 P",
+          "05-04 M 05-07 K 05-08 L 05-11 M 05-13 P 05-18 M 05-21 K 05-25 M 05-27 P",
+          "06-01 M 06-04 K 06-08 M 06-10 P 06-12 L 06-15 M 06-18 K 06-22 M 06-24 P 06-29 M",
+          "07-01 P 07-02 M 07-03 K 07-06 M 07-08 P 07-09 M 07-10 K 07-11 L 07-13 M 07-15 P 07-16 M 07-17 K 07-20 M 07-22 P 07-23 M 07-24 K 07-27 M 07-29 P 07-30 M 07-31 K",
+          "08-03 M 08-05 P 08-06 M 08-07 K 08-08 L 08-10 M 08-12 P 08-13 M 08-14 K 08-17 M 08-19 P 08-20 M 08-21 K 08-24 M 08-26 P 08-27 M 08-28 K 08-31 M",
+          "09-02 P 09-07 M 09-10 K 09-11 L 09-14 M 09-16 P 09-21 M 09-24 K 09-28 M 09-30 P",
+          "10-05 M 10-08 K 10-09 L 10-12 M 10-14 P 10-19 M 10-22 K 10-26 M 10-28 P",
+          "11-02 M 11-05 K 11-09 M 11-11 P 11-13 L 11-16 M 11-19 K 11-23 M 11-25 P 11-30 M",
+          "12-03 K 12-07 M 12-09 P 12-11 L 12-14 M 12-17 K 12-21 M 12-23 P 12-28 M 12-31 K"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Medulin",
+      "podrucje": "Ostala naselja općine Medulin: Banjole, Pješčana Uvala, Pomer, Premantura, …",
+      "opis": "BANJOLE, PJEŠČANA UVALA, POMER, PREMANUTRA, VALBONAŠA, VINKURAN, VINTIJAN, VOLME",
+      "ulice": ["Banjole", "Pješčana Uvala", "Pomer", "Premantura", "Valbonaša", "Vinkuran", "Vintijan", "Volme"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-06 M 01-08 K 01-09 L 01-12 B 01-13 M 01-14 P 01-19 B 01-20 M 01-22 K 01-26 B 01-27 M 01-28 P",
+          "02-02 B 02-03 M 02-05 K 02-09 B 02-10 M 02-11 P 02-13 L 02-16 B 02-17 M 02-19 K 02-23 B 02-24 M 02-25 P",
+          "03-02 B 03-03 M 03-05 K 03-09 B 03-10 M 03-11 P 03-13 L 03-16 B 03-17 M 03-19 K 03-23 B 03-24 M 03-25 P 03-30 B 03-31 M",
+          "04-02 K 04-06 B 04-07 M 04-08 P 04-10 L 04-13 B 04-14 M 04-16 K 04-20 B 04-21 M 04-22 P 04-27 B 04-28 M 04-30 K",
+          "05-04 B 05-05 M 05-06 P 05-08 L 05-11 B 05-12 M 05-14 K 05-18 B 05-19 M 05-20 P 05-25 B 05-26 M 05-28 K",
+          "06-01 B 06-02 M 06-03 P 06-08 B 06-09 M 06-11 K 06-12 L 06-15 B 06-16 M 06-17 P 06-22 B 06-23 M 06-25 K 06-29 B 06-30 M",
+          "07-01 P 07-02 K 07-03 M 07-06 B 07-07 M 07-08 P 07-09 K 07-10 M 07-11 L 07-13 B 07-14 M 07-15 P 07-16 K 07-17 M 07-20 B 07-21 M 07-22 P 07-23 K 07-24 M 07-27 B 07-28 M 07-29 P 07-30 K 07-31 M",
+          "08-03 B 08-04 M 08-05 P 08-06 K 08-07 M 08-08 L 08-10 B 08-11 M 08-12 P 08-13 K 08-14 M 08-17 B 08-18 M 08-19 P 08-20 K 08-21 M 08-24 B 08-25 M 08-26 P 08-27 K 08-28 M 08-31 B",
+          "09-01 M 09-03 K 09-07 B 09-08 M 09-09 P 09-11 L 09-14 B 09-15 M 09-17 K 09-21 B 09-22 M 09-23 P 09-28 B 09-29 M",
+          "10-01 K 10-05 B 10-06 M 10-07 P 10-09 L 10-12 B 10-13 M 10-15 K 10-19 B 10-20 M 10-21 P 10-26 B 10-27 M 10-29 K",
+          "11-02 B 11-03 M 11-04 P 11-09 B 11-10 M 11-12 K 11-13 L 11-16 B 11-17 M 11-20 P! 11-23 B 11-24 M 11-26 K 11-30 B",
+          "12-01 M 12-02 P 12-07 B 12-08 M 12-10 K 12-11 L 12-14 B 12-15 M 12-16 P 12-21 B 12-22 M 12-24 K 12-28 B 12-29 M 12-30 P"
+        ]
+      }
+    }
+  }
+}

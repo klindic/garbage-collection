@@ -1,0 +1,105 @@
+{
+  "davatelj": "CONTRADA d.o.o. za obavljanje komunalnih djelatnosti",
+  "web": "https://contrada.hr",
+  "zupanija": "Istarska",
+  "jls": ["Vodnjan – Dignano"],
+  "nazivi": {"L": "Metal (Al-metali)"},
+  "napomene": ["Kalendari se objavljuju za pola godine; za 2026. objavljen je raspored srpanj–prosinac, siječanj–lipanj više nije dostupan.", "Spremnike iznijeti do 6:15 (ljetni raspored, 1.6.–31.8.) odnosno do 7:15 (zimski raspored, 1.9.–31.12.).", "Sive ćelije u kalendaru (nedjelje i blagdani) znače da nema odvoza; pomaci su ugrađeni u kalendar.", "Reciklažno dvorište Vodnjan, A. Smareglia 67: pon i pet 9–15, uto i sri 9–17, čet i sub 7–13; tel. 052 647 096, reciklazno@contrada.hr.", "Informacije: Contrada d.o.o., Trg Slobode 2, Vodnjan, 052 382 009, contrada@contrada.hr."],
+  "izvor": "https://contrada.hr/djelatnosti/prikupljanje-odlaganje-i-zbrinjavanje-komunalnog-otpada/",
+  "zone": {
+    "1": {
+      "jls": "Vodnjan – Dignano",
+      "podrucje": "Vodnjan – ulice s odvozom biootpada: Fažanska, 1. Maja, Rudarska, Istarska, Gradina, Željeznička, A. Smareglia",
+      "ulice": ["Fažanska", "1. Maja", "Rudarska", "Istarska", "Gradina", "Željeznička", "A. Smareglia"],
+      "raw": {
+        "2026": [
+          "07-01 S 07-02 MK 07-03 P 07-06 MB 07-08 L 07-09 MK 07-10 P 07-13 MB 07-15 S 07-16 MK 07-17 P 07-20 MB 07-22 L 07-23 MK 07-24 P 07-27 MB 07-29 S 07-30 MK 07-31 P",
+          "08-03 MB 08-05 L 08-06 MK 08-07 P 08-10 MB 08-12 S 08-13 MK 08-14 P 08-17 MB 08-19 L 08-20 MK 08-21 P 08-24 MB 08-26 S 08-27 MK 08-28 P 08-31 MB",
+          "09-02 L 09-03 K 09-04 P 09-07 MB 09-09 S 09-10 K 09-11 P 09-14 MB 09-16 L 09-17 K 09-18 P 09-21 MB 09-23 S 09-24 K 09-25 P 09-28 MB 09-30 L",
+          "10-01 K 10-02 P 10-05 MB 10-07 S 10-08 K 10-09 P 10-12 MB 10-14 L 10-15 K 10-16 P 10-19 MB 10-21 S 10-22 K 10-23 P 10-26 MB 10-28 L 10-29 K 10-30 P",
+          "11-02 MB 11-04 S 11-05 K 11-06 P 11-09 MB 11-16 MB 11-19 K 11-20 P 11-23 MB 11-25 L 11-30 MB",
+          "12-02 S 12-03 K 12-04 P 12-07 MB 12-14 MB 12-16 L 12-17 K 12-18 P 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Vodnjan – Dignano",
+      "podrucje": "Vodnjan – ostale ulice (bez biootpada)",
+      "ulice": ["Vodnjan"],
+      "napomena": "Biootpad se odvozi samo u ulicama Fažanska, 1. Maja, Rudarska, Istarska, Gradina, Željeznička, A. Smareglia.",
+      "raw": {
+        "2026": [
+          "07-01 S 07-02 MK 07-03 P 07-06 M 07-08 L 07-09 MK 07-10 P 07-13 M 07-15 S 07-16 MK 07-17 P 07-20 M 07-22 L 07-23 MK 07-24 P 07-27 M 07-29 S 07-30 MK 07-31 P",
+          "08-03 M 08-05 L 08-06 MK 08-07 P 08-10 M 08-12 S 08-13 MK 08-14 P 08-17 M 08-19 L 08-20 MK 08-21 P 08-24 M 08-26 S 08-27 MK 08-28 P 08-31 M",
+          "09-02 L 09-03 K 09-04 P 09-07 M 09-09 S 09-10 K 09-11 P 09-14 M 09-16 L 09-17 K 09-18 P 09-21 M 09-23 S 09-24 K 09-25 P 09-28 M 09-30 L",
+          "10-01 K 10-02 P 10-05 M 10-07 S 10-08 K 10-09 P 10-12 M 10-14 L 10-15 K 10-16 P 10-19 M 10-21 S 10-22 K 10-23 P 10-26 M 10-28 L 10-29 K 10-30 P",
+          "11-02 M 11-04 S 11-05 K 11-06 P 11-09 M 11-16 M 11-19 K 11-20 P 11-23 M 11-25 L 11-30 M",
+          "12-02 S 12-03 K 12-04 P 12-07 M 12-14 M 12-16 L 12-17 K 12-18 P 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Vodnjan – Dignano",
+      "podrucje": "Galižana, Fondole",
+      "ulice": ["Galižana", "Fondole"],
+      "napomena": "Glomazni otpad: na označene dane odlaže se na lokaciji: nogometno igralište.",
+      "raw": {
+        "2026": [
+          "07-01 S 07-02 K 07-03 MP 07-07 M 07-08 L 07-09 K 07-10 MP 07-14 M 07-15 S 07-16 K 07-17 MP 07-21 M 07-22 L 07-23 K 07-24 MP 07-28 M 07-29 S 07-30 K 07-31 MP",
+          "08-04 M 08-05 L 08-06 K 08-07 MP 08-08 G 08-11 M 08-12 S 08-13 K 08-14 MP 08-18 M 08-19 L 08-20 K 08-21 MP 08-25 M 08-26 S 08-27 K 08-28 MP",
+          "09-01 M 09-02 L 09-03 K 09-04 P 09-08 M 09-09 S 09-10 K 09-11 P 09-15 M 09-16 L 09-17 K 09-18 P 09-22 M 09-23 S 09-24 K 09-25 P 09-29 M 09-30 L",
+          "10-01 K 10-02 P 10-06 M 10-07 S 10-08 K 10-09 P 10-13 M 10-14 L 10-15 K 10-16 P 10-20 M 10-21 S 10-22 K 10-23 P 10-27 M 10-28 L 10-29 K 10-30 P",
+          "11-03 M 11-07 G 11-10 M 11-11 S 11-12 K 11-13 P 11-17 M 11-24 M 11-25 L 11-26 K 11-27 P",
+          "12-01 M 12-08 M 12-09 S 12-10 K 12-11 P 12-15 M 12-17 K 12-18 P 12-22 M 12-23 L 12-29 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Vodnjan – Dignano",
+      "podrucje": "Peroj, Betiga, Stara Barbariga",
+      "ulice": ["Peroj", "Betiga", "Stara Barbariga"],
+      "napomena": "Glomazni otpad: na označene dane odlaže se na lokaciji: nogometno igralište.",
+      "raw": {
+        "2026": [
+          "07-01 MS 07-02 K 07-03 P 07-04 M 07-08 ML 07-09 K 07-10 P 07-11 M 07-15 MS 07-16 K 07-17 P 07-18 M 07-22 ML 07-23 K 07-24 P 07-25 M 07-29 MS 07-30 K 07-31 P",
+          "08-01 M 08-05 ML 08-06 K 08-07 P 08-08 M 08-12 MS 08-13 K 08-14 P 08-15 M 08-19 ML 08-20 K 08-21 P 08-22 M 08-26 MS 08-27 K 08-28 P 08-29 M",
+          "09-02 ML 09-03 K 09-04 P 09-09 MS 09-10 K 09-11 P 09-12 G 09-16 ML 09-17 K 09-18 P 09-23 MS 09-24 K 09-25 P 09-30 ML",
+          "10-01 K 10-02 P 10-07 MS 10-08 K 10-09 P 10-14 ML 10-15 K 10-16 P 10-21 MS 10-22 K 10-23 P 10-28 ML 10-29 K 10-30 P",
+          "11-04 M 11-11 MS 11-12 K 11-13 P 11-17 M! 11-25 ML 11-26 K 11-27 P",
+          "12-02 M 12-09 MS 12-10 K 12-11 P 12-12 G 12-16 M 12-17 K 12-18 P 12-23 ML 12-30 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Vodnjan – Dignano",
+      "podrucje": "Gajana, Tršičani, St. Cecilija, Guran, Kacana, Majmajola, Salvela",
+      "ulice": ["Gajana", "Tršičani", "St. Cecilija", "Guran", "Kacana", "Majmajola", "Salvela"],
+      "napomena": "Glomazni otpad: na označene dane odlaže se na lokaciji: dječje igralište.",
+      "raw": {
+        "2026": [
+          "07-01 S 07-02 MK 07-03 P 07-06 M 07-08 L 07-09 MK 07-10 P 07-11 G 07-13 M 07-15 S 07-16 MK 07-17 P 07-20 M 07-22 L 07-23 MK 07-24 P 07-27 M 07-29 S 07-30 MK 07-31 P",
+          "08-03 M 08-05 L 08-06 MK 08-07 P 08-10 M 08-12 S 08-13 MK 08-14 P 08-17 M 08-19 L 08-20 MK 08-21 P 08-24 M 08-26 S 08-27 MK 08-28 P 08-31 M",
+          "09-02 L 09-03 K 09-04 P 09-07 M 09-09 S 09-10 K 09-11 P 09-14 M 09-16 L 09-17 K 09-18 P 09-21 M 09-23 S 09-24 K 09-25 P 09-28 M 09-30 L",
+          "10-01 K 10-02 P 10-05 M 10-07 S 10-08 K 10-09 P 10-10 G 10-12 M 10-14 L 10-15 K 10-16 P 10-19 M 10-21 S 10-22 K 10-23 P 10-26 M 10-28 L 10-29 K 10-30 P",
+          "11-02 M 11-04 S 11-05 K 11-06 P 11-09 M 11-16 M 11-19 K 11-20 P 11-23 M 11-25 L 11-30 M",
+          "12-02 S 12-03 K 12-04 P 12-07 M 12-14 M 12-16 L 12-17 K 12-18 P 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Vodnjan – Dignano",
+      "podrucje": "Krnjaloža, St. Bagoci, Mednjan, Batvači, Golubovo, Mandriol, Murage",
+      "ulice": ["Krnjaloža", "St. Bagoci", "Mednjan", "Batvači", "Golubovo", "Mandriol", "Murage"],
+      "raw": {
+        "2026": [
+          "07-01 S 07-02 K 07-03 MP 07-07 M 07-08 L 07-09 K 07-10 MP 07-14 M 07-15 S 07-16 K 07-17 MP 07-21 M 07-22 L 07-23 K 07-24 MP 07-28 M 07-29 S 07-30 K 07-31 MP",
+          "08-04 M 08-05 L 08-06 K 08-07 MP 08-11 M 08-12 S 08-13 K 08-14 MP 08-18 M 08-19 L 08-20 K 08-21 MP 08-25 M 08-26 S 08-27 K 08-28 MP",
+          "09-01 M 09-02 L 09-03 K 09-04 P 09-08 M 09-09 S 09-10 K 09-11 P 09-15 M 09-16 L 09-17 K 09-18 P 09-22 M 09-23 S 09-24 K 09-25 P 09-29 M 09-30 L",
+          "10-01 K 10-02 P 10-06 M 10-07 S 10-08 K 10-09 P 10-13 M 10-14 L 10-15 K 10-16 P 10-20 M 10-21 S 10-22 K 10-23 P 10-27 M 10-28 L 10-29 K 10-30 P",
+          "11-03 M 11-04 S 11-05 K 11-06 P 11-10 M 11-17 M 11-19 K 11-20 P 11-24 M 11-25 L",
+          "12-01 M 12-02 S 12-03 K 12-04 P 12-08 M 12-15 M 12-16 L 12-17 K 12-18 P 12-22 M 12-29 M"
+        ]
+      }
+    }
+  }
+}

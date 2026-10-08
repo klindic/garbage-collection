@@ -1,0 +1,94 @@
+{
+  "davatelj": "Rakovica d.o.o. za obavljanje komunalnih djelatnosti",
+  "web": "https://www.komunalac-rakovica.hr",
+  "zupanija": "Karlovačka",
+  "jls": ["Rakovica"],
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno na dan rute; papir (plavo) otprilike jednom mjesečno, plastika (žuto) jednom mjesečno, od svibnja do rujna svaka dva tjedna. Kalendari nemaju legendu: boje su protumačene prema uobičajenim bojama spremnika.", "Ruta 5 (petak) je za ostale korisnike i nema objavljen kalendar.", "Blagdanski pomaci ugrađeni su u kalendar."],
+  "izvor": "https://www.komunalac-rakovica.hr/planodvozaotpada",
+  "zone": {
+    "1": {
+      "jls": "Rakovica",
+      "podrucje": "Ruta 1 (ponedjeljak): Drežnik Grad, Irinovac, Korita",
+      "ulice": ["Drežnik Grad", "Irinovac", "Korita"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 MK 01-19 M 01-26 M",
+          "02-02 MP 02-09 MK 02-16 M 02-23 M",
+          "03-02 MP 03-09 MK 03-16 M 03-23 M 03-30 MP",
+          "04-07 MK! 04-13 M 04-20 M 04-27 MP",
+          "05-04 MK 05-11 MP 05-18 M 05-25 MP",
+          "06-01 MK 06-08 MP 06-15 M 06-23 MP! 06-29 MK",
+          "07-06 MP 07-13 M 07-20 MP 07-27 MK",
+          "08-03 MP 08-10 M 08-17 MP 08-24 MK 08-31 MP",
+          "09-07 M 09-14 MP 09-21 MK 09-28 MP",
+          "10-05 M 10-12 M 10-19 MK 10-26 MP",
+          "11-02 M 11-09 M 11-16 MK 11-23 MP 11-30 M",
+          "12-07 M 12-14 MK 12-21 MP 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Rakovica",
+      "podrucje": "Ruta 2 (utorak): Čatrnja, Grabovac, Selište Drežničko, Korana",
+      "ulice": ["Čatrnja", "Grabovac", "Selište Drežničko", "Korana"],
+      "raw": {
+        "2026": [
+          "01-07 MP! 01-13 MK 01-20 M 01-27 M",
+          "02-03 MP 02-10 MK 02-17 M 02-24 M",
+          "03-03 MP 03-10 MK 03-17 M 03-24 M 03-31 MP",
+          "04-08 MK! 04-14 M 04-21 M 04-28 MP",
+          "05-05 MK 05-12 MP 05-19 M 05-26 MP",
+          "06-02 MK 06-09 MP 06-16 M 06-24 MP! 06-30 MK",
+          "07-07 MP 07-14 M 07-21 MP 07-28 MK",
+          "08-04 MP 08-11 M 08-18 MP 08-25 MK",
+          "09-01 MP 09-08 M 09-15 MP 09-22 MK 09-29 MP",
+          "10-06 M 10-13 M 10-20 MK 10-27 MP",
+          "11-03 M 11-10 M 11-17 MK 11-24 MP",
+          "12-01 M 12-08 M 12-15 MK 12-22 MP 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Rakovica",
+      "podrucje": "Ruta 3 (srijeda): Lipovac, Lipovača, Nova Kršlja, Oštarski Stanovi, Rakovičko Selište, Stara Kršlja, Grabovac",
+      "ulice": ["Lipovac", "Lipovača", "Nova Kršlja", "Oštarski Stanovi", "Rakovičko Selište", "Stara Kršlja", "Grabovac"],
+      "raw": {
+        "2026": [
+          "01-08 MP! 01-14 MK 01-21 M 01-28 M",
+          "02-04 MP 02-11 MK 02-18 M 02-25 M",
+          "03-04 MP 03-11 MK 03-18 M 03-25 M",
+          "04-01 MP 04-09 MK! 04-15 M 04-22 M 04-29 MP",
+          "05-06 MK 05-13 MP 05-20 M 05-27 MP",
+          "06-03 MK 06-10 MP 06-17 M 06-25 MP!",
+          "07-01 MK 07-08 MP 07-15 M 07-22 MP 07-29 MK",
+          "08-06 MP! 08-12 M 08-19 MP 08-26 MK",
+          "09-02 MP 09-09 M 09-16 MP 09-23 MK 09-30 MP",
+          "10-07 M 10-14 M 10-21 MK 10-28 MP",
+          "11-04 M 11-11 M 11-19 MK! 11-25 MP",
+          "12-02 M 12-09 M 12-16 MK 12-23 MP 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Rakovica",
+      "podrucje": "Ruta 4 (četvrtak): Brajdić Selo, Broćanac, Drage, Jelov Klanac, Rakovica",
+      "ulice": ["Brajdić Selo", "Broćanac", "Drage", "Jelov Klanac", "Rakovica"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 MP! 01-15 MK 01-22 M 01-29 M",
+          "02-05 MP 02-12 MK 02-19 M 02-26 M",
+          "03-05 MP 03-12 MK 03-19 M 03-26 M",
+          "04-02 MP 04-10 MK! 04-16 M 04-23 M 04-30 MP",
+          "05-07 MK 05-14 MP 05-21 M 05-28 MP",
+          "06-05 MK! 06-11 MP 06-18 M 06-26 MP!",
+          "07-02 MK 07-09 MP 07-16 M 07-23 MP 07-30 MK",
+          "08-07 MP! 08-13 M 08-20 MP 08-27 MK",
+          "09-03 MP 09-10 M 09-17 MP 09-24 MK",
+          "10-01 MP 10-08 M 10-15 M 10-22 MK 10-29 MP",
+          "11-05 M 11-12 M 11-20 MK! 11-26 MP",
+          "12-03 M 12-10 M 12-17 MK 12-24 MP 12-31 M"
+        ]
+      }
+    }
+  }
+}

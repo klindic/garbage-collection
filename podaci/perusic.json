@@ -1,0 +1,55 @@
+{
+  "davatelj": "Perušić d.o.o. za komunalne djelatnosti",
+  "web": "https://www.komunalac-perusic.hr",
+  "zupanija": "Ličko-senjska",
+  "jls": ["Perušić"],
+  "nazivi": {"K": "Papir i karton, metal, staklo", "G": "Glomazni otpad (obavezna najava)"},
+  "napomene": ["Miješani komunalni otpad odvozi se svaka dva tjedna; plastika te papir i karton, metal i staklo jednom mjesečno.", "Glomazni otpad odvozi se samo uz obaveznu najavu (053/679-269, perusicdoo@gmail.com).", "Blagdanski pomaci ugrađeni su u kalendar."],
+  "izvor": "https://www.komunalac-perusic.hr/usluga-prikupljanja-otpada/kalendar-odvoz-mijesanog-komunalnog-otpada",
+  "zone": {
+    "1": {
+      "jls": "Perušić",
+      "podrucje": "Područje Perušić: Perušić, Kaniža, Bukovac Perušićki, Prvan Selo, …",
+      "opis": "PERUŠIĆ, KANIŽA, BUKOVAC PERUŠIĆKI, PRVAN SELO, VAROŠ, KVARTE, KALUĐEROVAC, SVETI MARKO, MALO POLJE, MEZINOVAC, KONJSKO BRDO, KLENOVAC",
+      "ulice": ["Perušić", "Kaniža", "Bukovac Perušićki", "Prvan Selo", "Varoš", "Kvarte", "Kaluđerovac", "Sveti Marko", "Malo Polje", "Mezinovac", "Konjsko Brdo", "Klenovac"],
+      "raw": {
+        "2026": [
+          "01-14 P 01-16 M 01-28 K 01-30 M",
+          "02-11 P 02-13 M 02-25 K 02-27 M",
+          "03-11 P 03-13 M 03-25 K 03-27 M",
+          "04-08 P 04-10 M 04-22 K 04-24 M",
+          "05-06 P 05-08 M 05-20 K 05-22 M",
+          "06-02 P! 06-03 M! 06-15 G 06-17 K 06-19 M",
+          "07-01 P 07-03 M 07-15 K 07-17 M 07-31 M",
+          "08-12 P 08-14 M 08-26 K 08-28 M",
+          "09-09 P 09-11 M 09-23 K 09-25 M",
+          "10-07 P 10-09 M 10-21 K 10-23 M",
+          "11-04 P 11-06 M 11-17 K! 11-20 M",
+          "12-02 P 12-04 M 12-16 K 12-18 M 12-31 M!"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Perušić",
+      "podrucje": "Područje Kosinj: Donji Kosinj, Gornji Kosinj, Bakovac Kosinjski, Lipovo Polje, …",
+      "opis": "DONJI KOSINJ, GORNJI KOSINJ, BAKOVAC KOSINJSKI, LIPOVO POLJE, MLAKVA, STUDENCI, KRŠ",
+      "ulice": ["Donji Kosinj", "Gornji Kosinj", "Bakovac Kosinjski", "Lipovo Polje", "Mlakva", "Studenci", "Krš"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-09 P 01-21 M 01-23 K",
+          "02-04 M 02-06 P 02-18 M 02-20 K",
+          "03-04 M 03-06 P 03-18 M 03-20 K",
+          "04-01 M 04-03 P 04-15 M 04-17 K 04-29 M",
+          "05-13 M 05-15 P 05-27 M 05-29 K",
+          "06-08 G 06-10 M 06-12 P 06-24 M 06-26 K",
+          "07-08 M 07-10 P 07-22 M 07-24 K",
+          "08-04 M! 08-07 P 08-19 M 08-21 K",
+          "09-02 M 09-04 P 09-16 M 09-18 K 09-30 M",
+          "10-02 P 10-14 M 10-16 K 10-28 M",
+          "11-11 M 11-13 P 11-25 M 11-27 K",
+          "12-09 M 12-11 P 12-22 K! 12-23 M"
+        ]
+      }
+    }
+  }
+}

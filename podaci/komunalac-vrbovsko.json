@@ -1,0 +1,121 @@
+{
+  "davatelj": "Komunalac d.o.o. Vrbovsko",
+  "web": "https://www.komunalac-vrbovsko.hr",
+  "zupanija": "Primorsko-goranska",
+  "jls": ["Vrbovsko"],
+  "nazivi": {"P": "Reciklabilni otpad (papir, karton, plastika, metal)"},
+  "napomene": ["Miješani komunalni otpad odvozi se svaki drugi tjedan, a reciklabilni otpad (papir, karton, plastika, aluminijska i metalna ambalaža) svaki četvrti tjedan zajedno s miješanim, na dan skupine.", "Staklo se odvozi prvog utorka u mjesecu (zeleni okvir u kalendaru); u raspored je upisano svim skupinama.", "Blagdanski pomaci prema napomenama u kalendaru su uključeni.", "Poslovni subjekti imaju zaseban raspored odvoza miješanog otpada (narančasto u kalendaru); nije uključen.", "Informacije: Komunalac d.o.o. Vrbovsko, Željeznička 1A, tel. 051 875 278."],
+  "izvor": "https://www.komunalac-vrbovsko.hr/djelatnosti/gospodarenje-otpadom",
+  "zone": {
+    "1": {
+      "jls": "Vrbovsko",
+      "podrucje": "Ponedjeljak – MO Vrbovsko, Jablan",
+      "opis": "MO VRBOVSKO, JABLAN: Željeznička, Zagrebačka, Grozdane, Istarska, I. G. Kovačića, Dobra, Pilanska, Jarak, Vujnovići, Viktora Bubnja, Klajner Brdo, Jelovac, Jablan, Senjsko, Franje Račkog, Bakarska Draga, Tvornička, Brezova Poljana",
+      "ulice": ["Željeznička", "Zagrebačka", "Grozdane", "Istarska", "I. G. Kovačića", "Dobra", "Pilanska", "Jarak", "Vujnovići", "Viktora Bubnja", "Klajner Brdo", "Jelovac", "Jablan", "Senjsko", "Franje Račkog", "Bakarska Draga", "Tvornička", "Brezova Poljana"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-13 S 01-19 M",
+          "02-02 MP 02-03 S 02-16 M",
+          "03-02 MP 03-03 S 03-16 M 03-30 MP!",
+          "04-07 S 04-20 M",
+          "05-04 MP 05-05 S 05-18 M",
+          "06-01 MP 06-02 S 06-15 MP 06-29 M",
+          "07-06 MP 07-07 S 07-13 M 07-20 MP 07-27 M",
+          "08-03 MP 08-04 S 08-10 M 08-17 MP 08-24 M 08-31 MP",
+          "09-01 S 09-07 M 09-21 MP",
+          "10-05 MP 10-06 S 10-19 M",
+          "11-02 MP 11-03 S 11-16 M 11-30 MP",
+          "12-01 S 12-14 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Vrbovsko",
+      "podrucje": "Utorak – MO Vrbovsko, Gomirje, Ljubošina",
+      "opis": "MO VRBOVSKO, GOMIRJE, LJUBOŠINA: Tuk, Mrzle Drage, Rožman Brdo, Hambarište, Luke, Zelići, Kovačevići, Ribnjak, Musulini, Polovine, Kosanovići, Jove Mamule, Pozderska, Bogdana Jančića, Jove Stojanovića, Đurići, Majer, Ključ, Carevo Brdo, Palajse, Trnova Poljana, Gvozdeni, Tatalovići, Maravići, Ljubošina, Hrvatskih Branitelja, Kralja Tomislava, Radnička",
+      "ulice": ["Tuk", "Mrzle Drage", "Rožman Brdo", "Hambarište", "Luke", "Zelići", "Kovačevići", "Ribnjak", "Musulini", "Polovine", "Kosanovići", "Jove Mamule", "Pozderska", "Bogdana Jančića", "Jove Stojanovića", "Đurići", "Majer", "Ključ", "Carevo Brdo", "Palajse", "Trnova Poljana", "Gvozdeni", "Tatalovići", "Maravići", "Ljubošina", "Hrvatskih Branitelja", "Kralja Tomislava", "Radnička"],
+      "raw": {
+        "2026": [
+          "01-13 MPS! 01-20 M",
+          "02-03 MPS 02-17 M",
+          "03-03 MPS 03-17 M 03-31 M",
+          "04-07 MPS 04-21 M",
+          "05-05 MPS 05-19 M",
+          "06-02 MPS 06-16 MP 06-30 M",
+          "07-07 MPS 07-14 M 07-21 MP 07-28 M",
+          "08-04 MPS 08-11 M 08-18 MP 08-25 M",
+          "09-01 MPS 09-08 M 09-22 MP",
+          "10-06 MPS 10-20 M",
+          "11-03 MPS 11-17 M",
+          "12-01 MPS 12-15 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Vrbovsko",
+      "podrucje": "Srijeda – MO Vrbovsko, Moravice",
+      "opis": "MO VRBOVSKO, MORAVICE: Rade Jakšića, Borik, Nikole Bunjevca, Školska (Moravice), Goranska, Žrtava Fašizma, Marka Vučkovića, I. Petrovića, Donji Vukšići, Matići, Donji Vučkovići, Petrovići, Gornji Vučkovići, Carevići, Gornji Vukšići, Partizanski Put, Žakule, Tići, Komlenići, Mlinari, Radoševići",
+      "ulice": ["Rade Jakšića", "Borik", "Nikole Bunjevca", "Školska (Moravice)", "Goranska", "Žrtava Fašizma", "Marka Vučkovića", "I. Petrovića", "Donji Vukšići", "Matići", "Donji Vučkovići", "Petrovići", "Gornji Vučkovići", "Carevići", "Gornji Vukšići", "Partizanski Put", "Žakule", "Tići", "Komlenići", "Mlinari", "Radoševići"],
+      "raw": {
+        "2026": [
+          "01-07 MP 01-13 S 01-21 M",
+          "02-03 S 02-04 MP 02-18 M",
+          "03-03 S 03-04 MP 03-18 M",
+          "04-01 M 04-07 S 04-08 MP 04-22 M",
+          "05-05 S 05-06 MP 05-20 M",
+          "06-02 S 06-03 MP 06-17 MP",
+          "07-01 M 07-07 S 07-08 MP 07-15 M 07-22 MP 07-29 M",
+          "08-04 S 08-12 MP! 08-19 MP 08-26 M",
+          "09-01 S 09-02 MP 09-09 M 09-23 MP",
+          "10-06 S 10-07 MP 10-21 M",
+          "11-03 S 11-04 MP 11-25 M!",
+          "12-01 S 12-02 MP 12-16 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Vrbovsko",
+      "podrucje": "Četvrtak – MO Vrbovsko, Lukovdol, Plemenitaš, Severin, Jadrč-Osojnik",
+      "opis": "MO VRBOVSKO, LUKOVDOL, PLEMENITAŠ, SEVERIN, JADRČ- OSOJNIK: Stubica (od raskršća prema Nadvučniku), Nadvučnik, Lukovdol, Ertić, Zaumol, Plemenitaš, Zapeć, Blaževci, Štefanci, Gorenci, Dolenci, Podvučnik, Lukovdolska Draga, Močile, Severin na Kupi, Klanac, Rim, Zdihovo, Liplje, Osojnik, Veliki Jadrč, Mali Jadrč, Gorica, Damalj, Plešivica, Mali Klanac, Smišljak",
+      "ulice": ["Stubica (od raskršća prema Nadvučniku)", "Nadvučnik", "Lukovdol", "Ertić", "Zaumol", "Plemenitaš", "Zapeć", "Blaževci", "Štefanci", "Gorenci", "Dolenci", "Podvučnik", "Lukovdolska Draga", "Močile", "Severin na Kupi", "Klanac", "Rim", "Zdihovo", "Liplje", "Osojnik", "Veliki Jadrč", "Mali Jadrč", "Gorica", "Damalj", "Plešivica", "Mali Klanac", "Smišljak"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 MP 01-13 S 01-22 M",
+          "02-03 S 02-05 MP 02-19 M",
+          "03-03 S 03-05 MP 03-19 M",
+          "04-02 M 04-07 S 04-09 MP 04-23 M",
+          "05-05 S 05-07 MP 05-21 M",
+          "06-02 S 06-11 MP! 06-18 MP",
+          "07-02 M 07-07 S 07-09 MP 07-16 M 07-23 MP 07-30 M",
+          "08-04 S 08-06 MP 08-13 M 08-20 MP 08-27 M",
+          "09-01 S 09-03 MP 09-10 M 09-24 MP",
+          "10-06 S 10-08 MP 10-22 M",
+          "11-03 S 11-05 MP 11-19 M",
+          "12-01 S 12-03 MP 12-17 M 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Vrbovsko",
+      "podrucje": "Petak – MO Vrbovsko, MO Moravice",
+      "opis": "MO VRBOVSKO, MO MORAVICE: 1. Svibnja, Skakavac, Blažev Brijeg, Školska (Vrbovsko), Stubica (od raskršća prema Moravicama), Donje Hajdine, Gornje Hajdine, Presika, Vučinići, Jakšići, Dokmanovići, Nikšići, Dragovići, Vukelići, Bunjevci, Radigojna, Tomići",
+      "ulice": ["1. Svibnja", "Skakavac", "Blažev Brijeg", "Školska (Vrbovsko)", "Stubica (od raskršća prema Moravicama)", "Donje Hajdine", "Gornje Hajdine", "Presika", "Vučinići", "Jakšići", "Dokmanovići", "Nikšići", "Dragovići", "Vukelići", "Bunjevci", "Radigojna", "Tomići"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MP 01-13 S 01-23 M",
+          "02-03 S 02-06 MP 02-20 M",
+          "03-03 S 03-06 MP 03-20 M",
+          "04-03 M 04-07 S 04-10 MP 04-24 M",
+          "05-05 S 05-08 MP 05-22 M",
+          "06-02 S 06-05 MP 06-19 MP",
+          "07-03 M 07-07 S 07-10 MP 07-17 M 07-24 MP 07-31 M",
+          "08-04 S 08-07 MP 08-14 M 08-21 MP 08-28 M",
+          "09-01 S 09-04 MP 09-11 M 09-25 MP",
+          "10-06 S 10-09 MP 10-23 M",
+          "11-03 S 11-06 MP 11-20 M",
+          "12-01 S 12-04 MP 12-18 M"
+        ]
+      }
+    }
+  }
+}
