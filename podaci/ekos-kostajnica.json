@@ -1,0 +1,55 @@
+{
+  "davatelj": "Ekos Hrvatska Kostajnica d.o.o.",
+  "web": "https://ekos-hk.hr",
+  "izvor": "https://ekos-hk.hr/otpad/",
+  "zupanija": "Sisačko-moslavačka",
+  "jls": ["Hrvatska Kostajnica"],
+  "nazivi": {"P": "Plastika", "K": "Papir"},
+  "napomene": ["Miješani komunalni otpad: Gornji grad ponedjeljkom, Donji grad utorkom (svaki tjedan). Granica između Gornjeg i Donjeg grada nije objavljena uz kalendar; provjerite kod davatelja (044 851 700).", "Biootpad, papir i plastika odvoze se za cijeli grad na iste datume (biootpad srijedom, svaki drugi tjedan, ljeti češće).", "Papir i plastika: kalendar označava dva uzastopna dana na kraju mjeseca (oba dana i papir i plastika) i ne navodi koji dan vrijedi za koji dio grada, pa su upisana oba dana za obje zone.", "Blagdani: pomaci su ugrađeni u kalendar (npr. 6.4. Uskrsni ponedjeljak: odvozi tog tjedna dan kasnije) i označeni su kao pomaknuti.", "Ekos Hrvatska Kostajnica d.o.o., Ratka Djetelića 2, tel. 044 851 700, info@ekos-hk.hr."],
+  "zone": {
+    "1": {
+      "jls": "Hrvatska Kostajnica",
+      "podrucje": "Gornji grad – miješani otpad ponedjeljkom",
+      "ulice": ["Gornji grad"],
+      "napomena": "Popis ulica Gornjeg grada nije objavljen.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-14 B 01-19 M 01-26 M 01-28 B 01-29 PK 01-30 PK",
+          "02-02 M 02-09 M 02-11 B 02-16 M 02-23 M 02-25 B 02-26 PK 02-27 PK",
+          "03-02 M 03-09 M 03-11 B 03-16 M 03-23 M 03-25 B 03-26 PK 03-27 PK 03-30 M",
+          "04-07 M! 04-09 B! 04-13 M 04-20 M 04-22 B 04-23 PK 04-24 PK 04-27 M",
+          "05-04 M 05-06 B 05-11 M 05-18 M 05-20 B 05-25 M 05-28 PK 05-29 PK",
+          "06-01 M 06-03 B 06-08 M 06-10 B 06-15 M 06-17 B 06-23 M! 06-25 PK 06-26 PK 06-29 M",
+          "07-01 B 07-06 M 07-08 B 07-13 M 07-15 B 07-20 M 07-22 B 07-27 M 07-29 B 07-30 PK 07-31 PK",
+          "08-03 M 08-06 B! 08-10 M 08-12 B 08-17 M 08-19 B 08-24 M 08-26 B 08-27 PK 08-28 PK 08-31 M",
+          "09-07 M 09-09 B 09-14 M 09-21 M 09-23 B 09-24 PK 09-25 PK 09-28 M",
+          "10-05 M 10-07 B 10-12 M 10-19 M 10-21 B 10-26 M 10-29 PK 10-30 PK",
+          "11-02 M 11-04 B 11-09 M 11-16 M 11-19 B! 11-23 M 11-26 PK 11-27 PK 11-30 M",
+          "12-02 B 12-07 M 12-14 M 12-16 B 12-21 M 12-23 PK! 12-24 PK 12-28 M 12-30 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Hrvatska Kostajnica",
+      "podrucje": "Donji grad – miješani otpad utorkom",
+      "ulice": ["Donji grad"],
+      "napomena": "Popis ulica Donjeg grada nije objavljen.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 M 01-14 B 01-20 M 01-27 M 01-28 B 01-29 PK 01-30 PK",
+          "02-03 M 02-10 M 02-11 B 02-17 M 02-24 M 02-25 B 02-26 PK 02-27 PK",
+          "03-03 M 03-10 M 03-11 B 03-17 M 03-24 M 03-25 B 03-26 PK 03-27 PK 03-31 M",
+          "04-08 M! 04-09 B! 04-14 M 04-21 M 04-22 B 04-23 PK 04-24 PK 04-28 M",
+          "05-05 M 05-06 B 05-12 M 05-19 M 05-20 B 05-26 M 05-28 PK 05-29 PK",
+          "06-02 M 06-03 B 06-09 M 06-10 B 06-16 M 06-17 B 06-24 M! 06-25 PK 06-26 PK 06-30 M",
+          "07-01 B 07-07 M 07-08 B 07-14 M 07-15 B 07-21 M 07-22 B 07-28 M 07-29 B 07-30 PK 07-31 PK",
+          "08-04 M 08-06 B! 08-11 M 08-12 B 08-18 M 08-19 B 08-25 M 08-26 B 08-27 PK 08-28 PK",
+          "09-01 M 09-08 M 09-09 B 09-15 M 09-22 M 09-23 B 09-24 PK 09-25 PK 09-29 M",
+          "10-06 M 10-07 B 10-13 M 10-20 M 10-21 B 10-27 M 10-29 PK 10-30 PK",
+          "11-03 M 11-04 B 11-10 M 11-17 M 11-19 B! 11-24 M 11-26 PK 11-27 PK",
+          "12-01 M 12-02 B 12-08 M 12-15 M 12-16 B 12-22 M 12-23 PK! 12-24 PK 12-29 M 12-30 B"
+        ]
+      }
+    }
+  }
+}

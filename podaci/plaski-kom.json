@@ -1,0 +1,32 @@
+{
+  "davatelj": "Plaški KOM d.o.o.",
+  "web": "https://www.plaski-kom.hr",
+  "zupanija": "Karlovačka",
+  "jls": ["Plaški"],
+  "napomene": ["Papir se odvozi svaki zadnji ponedjeljak u mjesecu, plastika svaki zadnji utorak u mjesecu.", "Miješani komunalni otpad: od 1. srpnja 2026. za cijelo područje Plaškog jednom tjedno, srijedom (spremnike iznijeti do 7:00). Do 30. lipnja odvozilo se srijedom ili četvrtkom ovisno o ulici, a podjela ulica nije objavljena, pa ti datumi nisu upisani.", "Pomaci zbog blagdana nisu objavljeni; datumi su izračunati bez pomaka (npr. srijeda 5.8. i 18.11. su blagdani). Provjerite kod davatelja: 047 573 074.", "Ostale vrste otpada: mobilno reciklažno dvorište uz prethodnu najavu na 047 573 074."],
+  "izvor": "https://www.plaski-kom.hr/2026/01/20/raspored-odvoza-otpada-za-2026-godinu-sa-uputama-za-razvrstavanje/",
+  "zone": {
+    "1": {
+      "jls": "Plaški",
+      "podrucje": "Cijelo područje Općine Plaški",
+      "ulice": ["Plaški"],
+      "napomena": "Miješani otpad srijedom od 01.07.2026. (obavijest: https://www.plaski-kom.hr/2026/06/16/obavijest-o-novom-rasporedu-odvoza-mijesanog-komunalnog-otpada-stupa-na-snagu-01-07-2026/).",
+      "raw": {
+        "2026": [
+          "01-26 K 01-27 P",
+          "02-23 K 02-24 P",
+          "03-30 K 03-31 P",
+          "04-27 K 04-28 P",
+          "05-25 K 05-26 P",
+          "06-29 K 06-30 P",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-27 K 07-28 P 07-29 M",
+          "08-05 M 08-12 M 08-19 M 08-25 P 08-26 M 08-31 K",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-28 K 09-29 P 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-26 K 10-27 P 10-28 M",
+          "11-04 M 11-11 M 11-18 M 11-24 P 11-25 M 11-30 K",
+          "12-02 M 12-09 M 12-16 M 12-23 M 12-28 K 12-29 P 12-30 M"
+        ]
+      }
+    }
+  }
+}
