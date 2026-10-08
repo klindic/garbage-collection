@@ -2,11 +2,10 @@
 
 ## Stanje
 
-- **142 davatelja** imaju skriptu (`izvori/<davatelj>.py`) koja s njihove stranice preuzima raspored, pretvara ga
+- **144 davatelja** imaju skriptu (`izvori/<davatelj>.py`) koja s njihove stranice preuzima raspored, pretvara ga
   u zajednički oblik (`podaci/<slug>.json`) i provjerava ga. `gen_xlsx.py --podaci` iz toga radi Excel predložak
   (`excel/<slug>/`).
-- Raspored ima **464 od 556** gradova i općina, oko **68 % stanovnika**. Zagreb (767 tisuća) još nije uključen:
-  skripta postoji, a puno preuzimanje preko javnog API-ja traje nekoliko sati. S njim pokrivenost prelazi 87 %.
+- Raspored ima **470 od 556** gradova i općina, **93 % stanovnika** (2.071 zona).
 - Svaki je davatelj provjeren ponovnim pokretanjem skripte i usporedbom s izvorom: slikom kalendara, PDF-om ili
   živim upitom.
 - `python3 pokrivenost.py [--popis]` u svakom trenutku računa pokrivenost iz `podaci/`.
@@ -24,7 +23,7 @@
   - vrste otpada i procjenu napora;
   - status: `gotovo` (sve JLS imaju raspored), `djelomično` ili `istraženo`.
 - `val3_*.jsonl`: detalji istraživanja manjih davatelja po regijama (uzorak izvora, način čitanja).
-- `bez_rasporeda.csv`: 91 JLS bez rasporeda, s razlogom.
+- `bez_rasporeda.csv`: 85 JLS bez rasporeda (oko 254 tisuće stanovnika), s razlogom.
 
 ## Kako davatelji objavljuju raspored
 
@@ -62,8 +61,8 @@
 
 ## Što nedostaje (detalji u `bez_rasporeda.csv`)
 
-- **Split, Solin, Podstrana, Klis i Dugopolje** (Čistoća Split): nema rasporeda s datumima, samo tekstualna pravila
-  s pokvarenim znakovima. U tijeku je pokušaj da se pravila pretvore u datume.
+- **Split** je uključen samo djelomično. Čistoća Split nema kalendar s datumima, pa su datumi izračunati iz stalnih
+  pravila po blokovima. Centar se prazni svaki dan iz zajedničkih spremnika i zato nema dana odvoza.
 - **Blokirano iz ovog okruženja (Cloudflare):** Rovinj, Bale, Kanfanar, Žminj, Novi Marof i Ljubešćica,
   te Zelenjak (Klanjec i okolica). Ove rasporede treba ručno preuzeti.
 - **Poreč (grad):** PDF postoji, ali se preuzimanje prekida i kopija nije pronađena.
