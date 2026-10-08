@@ -1,0 +1,55 @@
+{
+  "davatelj": "Murtela d.o.o.",
+  "web": "https://murtela-murter.hr",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Murter-Kornati"],
+  "nazivi": {"P": "Plastika (žuti spremnik)", "K": "Papir (plavi spremnik)"},
+  "izvor": "https://murtela-murter.hr/2025/12/18/godisnji-raspored-odvoza-komunalnog-otpada-za-2026-godinu/",
+  "napomene": ["Miješani otpad: zimi (prema rasporedu npr. 01.01.-17.05. i 28.09.-31.12.) jednom tjedno, ljeti dvaput tjedno.", "Plastika (žuti spremnik) i papir (plavi spremnik) odvoze se za cijelu općinu prema godišnjem kalendaru.", "Za naselje Kornati termin odvoza uređen je posebno ugovorom s brodarom (nije objavljen).", "O glomaznom otpadu i izmjenama rasporeda Murtela obavještava na murtela-murter.hr.", "Za blagdane na dan odvoza miješanog otpada pomak nije objavljen (06.01., 04.06., 22.06.); upisani su datumi po rasporedu. Pratiti obavijesti na murtela-murter.hr.", "Obavijesti: 06.04. odvoz po rasporedu (obavijest)."],
+  "zone": {
+    "1": {
+      "jls": "Murter-Kornati",
+      "podrucje": "Murter (zimi ponedjeljak, ljeti ponedjeljak i četvrtak) – Gradina, Vukovarska, Obala Murterskih škoja, …",
+      "opis": "naselje Murter, područje: Gradina, Vukovarska, Obala Murterskih škoja, Butina, Luke, Lokvice, Put škole, Ulica Hrvatskih vladara, Podvrtaje, Zadvorje, Selo, Goričine, Žutska, Kornatska",
+      "ulice": ["Gradina", "Vukovarska", "Obala Murterskih škoja", "Butina", "Luke", "Lokvice", "Put škole", "Ulica Hrvatskih vladara", "Podvrtaje", "Zadvorje", "Selo", "Goričine", "Žutska", "Kornatska"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 K 01-12 M 01-14 P 01-19 M 01-21 K 01-26 M 01-28 P",
+          "02-02 M 02-04 K 02-09 M 02-11 P 02-16 M 02-18 K 02-23 M 02-25 P",
+          "03-02 M 03-04 K 03-09 M 03-11 P 03-16 M 03-18 K 03-23 M 03-25 P 03-30 M",
+          "04-01 K 04-06 M 04-08 P 04-13 M 04-15 K 04-20 M 04-22 P 04-27 M 04-29 K",
+          "05-04 M 05-06 P 05-11 M 05-13 K 05-18 M 05-20 P 05-21 M 05-25 M 05-27 K 05-28 M",
+          "06-01 M 06-03 P 06-04 M 06-08 M 06-10 K 06-11 M 06-15 M 06-17 P 06-18 M 06-22 M 06-24 K 06-25 M 06-29 M",
+          "07-01 P 07-02 M 07-06 M 07-08 K 07-09 M 07-13 M 07-15 P 07-16 M 07-20 M 07-22 K 07-23 M 07-27 M 07-29 P 07-30 M",
+          "08-03 M 08-05 K 08-06 M 08-10 M 08-12 P 08-13 M 08-17 M 08-19 K 08-20 M 08-24 M 08-26 P 08-27 M 08-31 M",
+          "09-02 K 09-03 M 09-07 M 09-09 P 09-10 M 09-14 M 09-16 K 09-17 M 09-21 M 09-23 P 09-24 M 09-28 M 09-30 K",
+          "10-05 M 10-07 P 10-12 M 10-14 K 10-19 M 10-21 P 10-26 M 10-28 K",
+          "11-02 M 11-04 P 11-09 M 11-11 K 11-16 M 11-18 P 11-23 M 11-25 K 11-30 M",
+          "12-02 P 12-07 M 12-09 K 12-14 M 12-16 P 12-21 M 12-23 K 12-28 M 12-30 P"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Murter-Kornati",
+      "podrucje": "Murter (zimi utorak, ljeti utorak i petak) – Sabuni, Jersni, Ulica Marka Marulića, …",
+      "opis": "naselje Murter, područje: Sabuni, Jersni, Ulica Marka Marulića, Jurja Dalmatinca, Murterskih brašćin, Put Slanice, Slanica, Podvrške, Pod Raduč, Nerezine",
+      "ulice": ["Sabuni", "Jersni", "Ulica Marka Marulića", "Jurja Dalmatinca", "Murterskih brašćin", "Put Slanice", "Slanica", "Podvrške", "Pod Raduč", "Nerezine"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-07 K 01-13 M 01-14 P 01-20 M 01-21 K 01-27 M 01-28 P",
+          "02-03 M 02-04 K 02-10 M 02-11 P 02-17 M 02-18 K 02-24 M 02-25 P",
+          "03-03 M 03-04 K 03-10 M 03-11 P 03-17 M 03-18 K 03-24 M 03-25 P 03-31 M",
+          "04-01 K 04-07 M 04-08 P 04-14 M 04-15 K 04-21 M 04-22 P 04-28 M 04-29 K",
+          "05-05 M 05-06 P 05-12 M 05-13 K 05-19 M 05-20 P 05-22 M 05-26 M 05-27 K 05-29 M",
+          "06-02 M 06-03 P 06-05 M 06-09 M 06-10 K 06-12 M 06-16 M 06-17 P 06-19 M 06-23 M 06-24 K 06-26 M 06-30 M",
+          "07-01 P 07-03 M 07-07 M 07-08 K 07-10 M 07-14 M 07-15 P 07-17 M 07-21 M 07-22 K 07-24 M 07-28 M 07-29 P 07-31 M",
+          "08-04 M 08-05 K 08-07 M 08-11 M 08-12 P 08-14 M 08-18 M 08-19 K 08-21 M 08-25 M 08-26 P 08-28 M",
+          "09-01 M 09-02 K 09-04 M 09-08 M 09-09 P 09-11 M 09-15 M 09-16 K 09-18 M 09-22 M 09-23 P 09-25 M 09-29 M 09-30 K",
+          "10-06 M 10-07 P 10-13 M 10-14 K 10-20 M 10-21 P 10-27 M 10-28 K",
+          "11-03 M 11-04 P 11-10 M 11-11 K 11-17 M 11-18 P 11-24 M 11-25 K",
+          "12-01 M 12-02 P 12-08 M 12-09 K 12-15 M 12-16 P 12-22 M 12-23 K 12-29 M 12-30 P"
+        ]
+      }
+    }
+  }
+}

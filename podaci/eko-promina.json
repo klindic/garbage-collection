@@ -1,0 +1,53 @@
+{
+  "davatelj": "EKO Promina d.o.o.",
+  "web": "https://www.eko-promina.hr",
+  "izvor": "https://www.eko-promina.hr/usluge/prikupljanje-otpada",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Promina"],
+  "bioNapomena": "Biootpad se kompostira u kućnim komposterima (besplatni komposter za korisnike).",
+  "napomene": ["Pomaci zbog blagdana ucrtani su u kalendar (označeni kao pomaknuti).", "Staklo: zeleni spremnik na javnoj površini u svakom od 11 naselja.", "Glomazni otpad jednom godišnje do 2 m³ na zahtjev; ostalo na mobilnom reciklažnom dvorištu.", "Kontakt: 022/881-046, kontakt@eko-promina.hr."],
+  "zone": {
+    "1": {
+      "jls": "Promina",
+      "podrucje": "Miješani ponedjeljak, plastika i papir utorak – Bobodol, Lukar, Oklaj, Razvođe, Suknovci",
+      "ulice": ["Bobodol", "Lukar", "Oklaj", "Razvođe", "Suknovci"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-20 P 01-26 M 01-27 K",
+          "02-02 M 02-09 M 02-16 M 02-17 P 02-23 M 02-24 K",
+          "03-02 M 03-09 M 03-16 M 03-17 P 03-23 M 03-24 K 03-30 M",
+          "04-07 M! 04-13 M 04-20 M 04-21 P 04-27 M 04-28 K",
+          "05-04 M 05-11 M 05-18 M 05-19 P 05-25 M 05-26 K",
+          "06-01 M 06-08 M 06-09 P 06-15 M 06-16 K 06-23 M! 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-21 P 07-27 M 07-28 K",
+          "08-03 M 08-10 M 08-17 M 08-18 P 08-24 M 08-25 K 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-22 P 09-28 M 09-29 K",
+          "10-05 M 10-12 M 10-19 M 10-20 P 10-26 M 10-27 K",
+          "11-02 M 11-09 M 11-10 P 11-16 M 11-23 M 11-24 K 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-22 P 12-28 M 12-29 K"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Promina",
+      "podrucje": "Miješani četvrtak, plastika i papir srijeda – Bogatić, Čitluk, Ljubotić, Matase, Mratovo, Puljane",
+      "ulice": ["Bogatić", "Čitluk", "Ljubotić", "Matase", "Mratovo", "Puljane"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 M 01-21 P 01-22 M 01-28 K 01-29 M",
+          "02-05 M 02-12 M 02-18 P 02-19 M 02-25 K 02-26 M",
+          "03-05 M 03-12 M 03-18 P 03-19 M 03-25 K 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-22 P 04-23 M 04-29 K 04-30 M",
+          "05-07 M 05-14 M 05-20 P 05-21 M 05-27 K 05-28 M",
+          "06-05 M! 06-10 P 06-11 M 06-17 K 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-22 P 07-23 M 07-29 K 07-30 M",
+          "08-06 M 08-13 M 08-19 P 08-20 M 08-26 K 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-23 P 09-24 M 09-30 K",
+          "10-01 M 10-08 M 10-15 M 10-21 P 10-22 M 10-28 K 10-29 M",
+          "11-05 M 11-11 P 11-12 M 11-19 M 11-25 K 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-23 P 12-24 M 12-30 K 12-31 M"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "davatelj": "Bibinjac d.o.o.",
+  "web": "https://www.bibinjac.hr",
+  "izvor": "https://www.bibinjac.hr/",
+  "zupanija": "Zadarska",
+  "jls": ["Bibinje"],
+  "nazivi": {"P": "Plastika"},
+  "napomene": ["Na webu je objavljen samo raspored od 30.09.2026. do 21.04.2027. (widget na naslovnici); raniji raspored za listopad 2025. - rujan 2026. više nije objavljen.", "Bibinjac ne objavljuje popis ulica iznad i ispod pruge.", "Papir i plastika odvoze se istoga dana (svaka druga srijeda prema datumima).", "Spremnike iznijeti večer prije odvoza ili najkasnije rano ujutro na dan odvoza.", "Općina navodi da se miješani otpad ljeti odvozi tri puta tjedno, ali ljetni raspored nije objavljen.", "Glomazni otpad: prema obavijesti od 07.10.2026. odvozi se utorkom i četvrtkom (na blagdan idući utvrđeni dan).", "Kontakt: 023/261-201, tdbibinjac@gmail.com.", "Pomaci odvoza miješanog otpada zbog blagdana nisu objavljeni; upisani su dani po rasporedu i za blagdane: 29.03.2027. (iznad pruge), 25.12.2026. (ispod pruge), 01.01.2027. (ispod pruge)."],
+  "zone": {
+    "1": {
+      "jls": "Bibinje",
+      "podrucje": "Iznad pruge – miješani svaki ponedjeljak i četvrtak, papir i plastika svaka druga srijeda",
+      "ulice": ["Bibinje – iznad pruge"],
+      "raw": {
+        "2026": [
+          "10-01 M 10-05 M 10-07 PK 10-08 M 10-12 M 10-15 M 10-19 M 10-21 PK 10-22 M 10-26 M 10-29 M",
+          "11-02 M 11-04 PK 11-05 M 11-09 M 11-12 M 11-16 M 11-19 M 11-23 M 11-25 PK 11-26 M 11-30 M",
+          "12-03 M 12-07 M 12-09 PK 12-10 M 12-14 M 12-17 M 12-21 M 12-23 PK 12-24 M 12-28 M 12-31 M"
+        ],
+        "2027": [
+          "01-04 M 01-07 M 01-11 M 01-13 PK 01-14 M 01-18 M 01-21 M 01-25 M 01-27 PK 01-28 M",
+          "02-01 M 02-04 M 02-08 M 02-10 PK 02-11 M 02-15 M 02-18 M 02-22 M 02-24 PK 02-25 M",
+          "03-01 M 03-04 M 03-08 M 03-10 PK 03-11 M 03-15 M 03-18 M 03-22 M 03-24 PK 03-25 M 03-29 M",
+          "04-01 M 04-05 M 04-07 PK 04-08 M 04-12 M 04-15 M 04-19 M 04-21 PK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Bibinje",
+      "podrucje": "Ispod pruge – miješani svaki utorak i petak, papir i plastika svaka druga srijeda",
+      "ulice": ["Bibinje – ispod pruge"],
+      "raw": {
+        "2026": [
+          "09-30 PK",
+          "10-02 M 10-06 M 10-09 M 10-13 M 10-14 PK 10-16 M 10-20 M 10-23 M 10-27 M 10-28 PK 10-30 M",
+          "11-03 M 11-06 M 11-10 M 11-11 PK 11-13 M 11-17 M 11-20 M 11-24 M 11-27 M",
+          "12-01 M 12-02 PK 12-04 M 12-08 M 12-11 M 12-15 M 12-16 PK 12-18 M 12-22 M 12-25 M 12-29 M 12-30 PK"
+        ],
+        "2027": [
+          "01-01 M 01-05 M 01-08 M 01-12 M 01-15 M 01-19 M 01-20 PK 01-22 M 01-26 M 01-29 M",
+          "02-02 M 02-03 PK 02-05 M 02-09 M 02-12 M 02-16 M 02-17 PK 02-19 M 02-23 M 02-26 M",
+          "03-02 M 03-03 PK 03-05 M 03-09 M 03-12 M 03-16 M 03-17 PK 03-19 M 03-23 M 03-26 M 03-30 M 03-31 PK",
+          "04-02 M 04-06 M 04-09 M 04-13 M 04-14 PK 04-16 M 04-20 M"
+        ]
+      }
+    }
+  }
+}
