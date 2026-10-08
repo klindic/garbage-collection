@@ -1,0 +1,77 @@
+{
+  "davatelj": "Komunalno Hvar d.o.o.",
+  "web": "https://komunalnohvar.com",
+  "izvor": "https://komunalnohvar.com/cistoca/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Hvar"],
+  "nazivi": {"P": "PET i metal", "S": "Staklo"},
+  "napomene": ["Raspored prema pravilima iz 2024.; davatelj nije objavio novi raspored – provjerite prije odlaganja.", "Raspored za kućanstva iz listopada 2024. (raspored-2024.pdf) i dalje je jedini objavljen; raspored za pravne subjekte objavljuje se zasebno.", "Grad Hvar: papir te PET/MET i staklo ne odvoze se praznikom (zamjenski dan nije naveden), pa ti datumi nisu upisani. Za miješani otpad pravilo za blagdane nije objavljeno; upisani su redovni dani.", "Prigradska naselja: dan odvoza PET/MET ambalaže i stakla nije naveden u rasporedu.", "Gradska jezgra koristi spremnike s otpadomjerima; Jagodna nije navedena u rasporedu.", "Krupni otpad: jednom godišnje besplatno po pozivu. Reciklažno dvorište, Ulica Antifašizma 33: pon – pet 7–14, sub 7–12 sati."],
+  "zone": {
+    "1": {
+      "jls": "Hvar",
+      "podrucje": "Grad Hvar – korisnici kanti",
+      "ulice": ["Hvar"],
+      "napomena": "Pravila iz 2024.: miješani otpad ponedjeljak, četvrtak; papir subota; PET/MET i staklo srijeda.",
+      "raw": {
+        "2026": [
+          "01-01 M 01-03 K 01-05 M 01-07 PS 01-08 M 01-10 K 01-12 M 01-14 PS 01-15 M 01-17 K 01-19 M 01-21 PS 01-22 M 01-24 K 01-26 M 01-28 PS 01-29 M 01-31 K",
+          "02-02 M 02-04 PS 02-05 M 02-07 K 02-09 M 02-11 PS 02-12 M 02-14 K 02-16 M 02-18 PS 02-19 M 02-21 K 02-23 M 02-25 PS 02-26 M 02-28 K",
+          "03-02 M 03-04 PS 03-05 M 03-07 K 03-09 M 03-11 PS 03-12 M 03-14 K 03-16 M 03-18 PS 03-19 M 03-21 K 03-23 M 03-25 PS 03-26 M 03-28 K 03-30 M",
+          "04-01 PS 04-02 M 04-04 K 04-06 M 04-08 PS 04-09 M 04-11 K 04-13 M 04-15 PS 04-16 M 04-18 K 04-20 M 04-22 PS 04-23 M 04-25 K 04-27 M 04-29 PS 04-30 M",
+          "05-02 K 05-04 M 05-06 PS 05-07 M 05-09 K 05-11 M 05-13 PS 05-14 M 05-16 K 05-18 M 05-20 PS 05-21 M 05-23 K 05-25 M 05-27 PS 05-28 M",
+          "06-01 M 06-03 PS 06-04 M 06-06 K 06-08 M 06-10 PS 06-11 M 06-13 K 06-15 M 06-17 PS 06-18 M 06-20 K 06-22 M 06-24 PS 06-25 M 06-27 K 06-29 M",
+          "07-01 PS 07-02 M 07-04 K 07-06 M 07-08 PS 07-09 M 07-11 K 07-13 M 07-15 PS 07-16 M 07-18 K 07-20 M 07-22 PS 07-23 M 07-25 K 07-27 M 07-29 PS 07-30 M",
+          "08-01 K 08-03 M 08-06 M 08-08 K 08-10 M 08-12 PS 08-13 M 08-17 M 08-19 PS 08-20 M 08-22 K 08-24 M 08-26 PS 08-27 M 08-29 K 08-31 M",
+          "09-02 PS 09-03 M 09-05 K 09-07 M 09-09 PS 09-10 M 09-12 K 09-14 M 09-16 PS 09-17 M 09-19 K 09-21 M 09-23 PS 09-24 M 09-26 K 09-28 M 09-30 PS",
+          "10-01 M 10-03 K 10-05 M 10-07 PS 10-08 M 10-10 K 10-12 M 10-14 PS 10-15 M 10-17 K 10-19 M 10-21 PS 10-22 M 10-24 K 10-26 M 10-28 PS 10-29 M 10-31 K",
+          "11-02 M 11-04 PS 11-05 M 11-07 K 11-09 M 11-11 PS 11-12 M 11-14 K 11-16 M 11-19 M 11-21 K 11-23 M 11-25 PS 11-26 M 11-28 K 11-30 M",
+          "12-02 PS 12-03 M 12-05 K 12-07 M 12-09 PS 12-10 M 12-12 K 12-14 M 12-16 PS 12-17 M 12-19 K 12-21 M 12-23 PS 12-24 M 12-28 M 12-30 PS 12-31 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Hvar",
+      "podrucje": "Brusje i bruške uvale, Velo Grablje, Milna",
+      "ulice": ["Brusje", "Bruške uvale", "Velo Grablje", "Milna"],
+      "napomena": "Pravila iz 2024.: miješani otpad utorak, petak; papir utorak.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 MK 01-09 M 01-13 MK 01-16 M 01-20 MK 01-23 M 01-27 MK 01-30 M",
+          "02-03 MK 02-06 M 02-10 MK 02-13 M 02-17 MK 02-20 M 02-24 MK 02-27 M",
+          "03-03 MK 03-06 M 03-10 MK 03-13 M 03-17 MK 03-20 M 03-24 MK 03-27 M 03-31 MK",
+          "04-03 M 04-07 MK 04-10 M 04-14 MK 04-17 M 04-21 MK 04-24 M 04-28 MK",
+          "05-01 M 05-05 MK 05-08 M 05-12 MK 05-15 M 05-19 MK 05-22 M 05-26 MK 05-29 M",
+          "06-02 MK 06-05 M 06-09 MK 06-12 M 06-16 MK 06-19 M 06-23 MK 06-26 M 06-30 MK",
+          "07-03 M 07-07 MK 07-10 M 07-14 MK 07-17 M 07-21 MK 07-24 M 07-28 MK 07-31 M",
+          "08-04 MK 08-07 M 08-11 MK 08-14 M 08-18 MK 08-21 M 08-25 MK 08-28 M",
+          "09-01 MK 09-04 M 09-08 MK 09-11 M 09-15 MK 09-18 M 09-22 MK 09-25 M 09-29 MK",
+          "10-02 M 10-06 MK 10-09 M 10-13 MK 10-16 M 10-20 MK 10-23 M 10-27 MK 10-30 M",
+          "11-03 MK 11-06 M 11-10 MK 11-13 M 11-17 MK 11-20 M 11-24 MK 11-27 M",
+          "12-01 MK 12-04 M 12-08 MK 12-11 M 12-15 MK 12-18 M 12-22 MK 12-25 M 12-29 MK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Hvar",
+      "podrucje": "Zaraće, Sveta Nedjelja",
+      "ulice": ["Zaraće", "Sveta Nedjelja"],
+      "napomena": "Pravila iz 2024.: miješani otpad utorak, petak; papir petak.",
+      "raw": {
+        "2026": [
+          "01-02 MK 01-06 M 01-09 MK 01-13 M 01-16 MK 01-20 M 01-23 MK 01-27 M 01-30 MK",
+          "02-03 M 02-06 MK 02-10 M 02-13 MK 02-17 M 02-20 MK 02-24 M 02-27 MK",
+          "03-03 M 03-06 MK 03-10 M 03-13 MK 03-17 M 03-20 MK 03-24 M 03-27 MK 03-31 M",
+          "04-03 MK 04-07 M 04-10 MK 04-14 M 04-17 MK 04-21 M 04-24 MK 04-28 M",
+          "05-01 MK 05-05 M 05-08 MK 05-12 M 05-15 MK 05-19 M 05-22 MK 05-26 M 05-29 MK",
+          "06-02 M 06-05 MK 06-09 M 06-12 MK 06-16 M 06-19 MK 06-23 M 06-26 MK 06-30 M",
+          "07-03 MK 07-07 M 07-10 MK 07-14 M 07-17 MK 07-21 M 07-24 MK 07-28 M 07-31 MK",
+          "08-04 M 08-07 MK 08-11 M 08-14 MK 08-18 M 08-21 MK 08-25 M 08-28 MK",
+          "09-01 M 09-04 MK 09-08 M 09-11 MK 09-15 M 09-18 MK 09-22 M 09-25 MK 09-29 M",
+          "10-02 MK 10-06 M 10-09 MK 10-13 M 10-16 MK 10-20 M 10-23 MK 10-27 M 10-30 MK",
+          "11-03 M 11-06 MK 11-10 M 11-13 MK 11-17 M 11-20 MK 11-24 M 11-27 MK",
+          "12-01 M 12-04 MK 12-08 M 12-11 MK 12-15 M 12-18 MK 12-22 M 12-25 MK 12-29 M"
+        ]
+      }
+    }
+  }
+}

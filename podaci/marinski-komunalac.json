@@ -1,0 +1,305 @@
+{
+  "davatelj": "Marinski komunalac d.o.o.",
+  "web": "https://marinskikomunalac.hr",
+  "izvor": "https://marinskikomunalac.hr/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Marina", "Primorski Dolac", "Prgomet", "Lećevica"],
+  "napomene": ["Općina Marina: plastika, papir i staklo odvoze se odvojeno prema datumima iz rasporeda; miješani otpad prema danima u tjednu.", "Općine Primorski Dolac, Prgomet i Lećevica: raspored navodi samo \"razvrstani reciklabilni otpad\" (jedan datum mjesečno ili svaka dva tjedna); u tablici je upisan kao plastika, papir i staklo istog dana.", "Pomaci zbog blagdana ugrađeni su u objavljene datume. Za tjedni odvoz miješanog otpada u Općini Marina pomaci zbog blagdana nisu objavljeni.", "Glomazni otpad: na poziv od 1. siječnja do 31. svibnja i od 1. listopada do 31. prosinca, jednom godišnje do 3 m³ besplatno (021/889-184, marinski.komunalac@gmail.com, Ante Rudana 47, Marina).", "Prijave problema pri odvozu: 091 621 3507."],
+  "zone": {
+    "1": {
+      "jls": "Marina",
+      "podrucje": "Marina, Poljica (miješani pon i čet)",
+      "ulice": ["Marina", "Poljica"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-05 MS 01-07 P 01-08 M 01-12 M 01-14 K 01-15 M 01-19 M 01-21 P 01-22 M 01-26 M 01-29 M",
+          "02-02 MS 02-04 P 02-05 M 02-09 M 02-11 K 02-12 M 02-16 M 02-18 P 02-19 M 02-23 M 02-26 M",
+          "03-02 MS 03-04 P 03-05 M 03-09 M 03-11 K 03-12 M 03-16 M 03-18 P 03-19 M 03-23 M 03-26 M 03-30 M",
+          "04-01 P 04-02 M 04-06 M 04-08 K 04-09 M 04-13 MS 04-15 P 04-16 M 04-20 M 04-23 M 04-27 M 04-30 M",
+          "05-04 MS 05-06 P 05-07 M 05-11 M 05-13 K 05-14 M 05-18 M 05-20 P 05-21 M 05-25 M 05-28 M",
+          "06-01 MS 06-03 P 06-04 M 06-08 M 06-10 K 06-11 M 06-15 M 06-17 P 06-18 M 06-22 M 06-24 K 06-25 M 06-29 M",
+          "07-01 P 07-02 M 07-06 MS 07-08 K 07-09 M 07-13 M 07-15 P 07-16 M 07-20 M 07-22 K 07-23 M 07-27 M 07-29 P 07-30 M",
+          "08-03 MS 08-04 K! 08-06 M 08-10 M 08-12 P 08-13 M 08-17 M 08-19 K 08-20 M 08-24 M 08-26 P 08-27 M 08-31 M",
+          "09-02 K 09-03 M 09-07 MS 09-09 P 09-10 M 09-14 M 09-16 K 09-17 M 09-21 M 09-23 P 09-24 M 09-28 M 09-30 K",
+          "10-01 M 10-05 MS 10-07 P 10-08 M 10-12 M 10-14 K 10-15 M 10-19 M 10-21 P 10-22 M 10-26 M 10-29 M",
+          "11-02 MS 11-04 P 11-05 M 11-09 M 11-11 K 11-12 M 11-16 M 11-17 P! 11-19 M 11-23 M 11-26 M 11-30 M",
+          "12-02 P 12-03 M 12-07 MS 12-09 K 12-10 M 12-14 M 12-16 P 12-17 M 12-21 M 12-24 M 12-28 M 12-31 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Marina",
+      "podrucje": "Vinišće, Ljubljeva (miješani uto i pet)",
+      "ulice": ["Vinišće", "Ljubljeva"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 M 01-08 P 01-09 M 01-12 S 01-13 M 01-15 K 01-16 M 01-20 M 01-22 P 01-23 M 01-27 M 01-30 M",
+          "02-03 M 02-05 P 02-06 M 02-09 S 02-10 M 02-12 K 02-13 M 02-17 M 02-19 P 02-20 M 02-24 M 02-27 M",
+          "03-03 M 03-05 P 03-06 M 03-09 S 03-10 M 03-12 K 03-13 M 03-17 M 03-19 P 03-20 M 03-24 M 03-27 M 03-31 M",
+          "04-02 P 04-03 M 04-07 M 04-09 K 04-10 M 04-14 M 04-16 P 04-17 M 04-20 S 04-21 M 04-24 M 04-28 M",
+          "05-01 M 05-05 M 05-07 P 05-08 M 05-11 S 05-12 M 05-14 K 05-15 M 05-19 M 05-21 P 05-22 M 05-26 M 05-29 M",
+          "06-02 M 06-05 MP! 06-08 S 06-09 M 06-11 K 06-12 M 06-16 M 06-18 P 06-19 M 06-23 M 06-25 K 06-26 M 06-30 M",
+          "07-02 P 07-03 M 07-07 M 07-09 K 07-10 M 07-13 S 07-14 M 07-16 P 07-17 M 07-21 M 07-23 K 07-24 M 07-28 M 07-30 P 07-31 M",
+          "08-04 M 08-06 K 08-07 M 08-10 S 08-11 M 08-13 P 08-14 M 08-18 M 08-20 K 08-21 M 08-25 M 08-27 P 08-28 M",
+          "09-01 M 09-03 K 09-04 M 09-08 M 09-10 P 09-11 M 09-14 S 09-15 M 09-17 K 09-18 M 09-22 M 09-24 P 09-25 M 09-29 M",
+          "10-02 M 10-06 M 10-08 P 10-09 M 10-12 S 10-13 M 10-15 K 10-16 M 10-20 M 10-22 P 10-23 M 10-27 M 10-30 M",
+          "11-03 M 11-05 P 11-06 M 11-09 S 11-10 M 11-12 K 11-13 M 11-17 M 11-19 P 11-20 M 11-24 M 11-27 M",
+          "12-01 M 12-03 P 12-04 M 12-08 M 12-10 K 12-11 M 12-14 S 12-15 M 12-17 P 12-18 M 12-22 M 12-25 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Marina",
+      "podrucje": "Sevid, Sevid na Moru (miješani sri, ljeti i sub)",
+      "ulice": ["Sevid", "Sevid na Moru"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-09 P 01-14 M 01-16 K 01-19 S 01-21 M 01-23 P 01-28 M",
+          "02-04 M 02-06 P 02-11 M 02-13 K 02-16 S 02-18 M 02-20 P 02-25 M",
+          "03-04 M 03-06 P 03-11 M 03-13 K 03-16 S 03-18 M 03-20 P 03-25 M",
+          "04-01 M 04-03 P 04-08 M 04-10 K 04-15 M 04-17 P 04-20 S 04-22 M 04-29 M",
+          "05-06 M 05-08 P 05-13 M 05-15 K 05-18 S 05-20 M 05-22 P 05-27 M",
+          "06-03 M 06-05 P 06-06 M 06-10 M 06-12 K 06-13 M 06-15 S 06-17 M 06-19 P 06-20 M 06-24 M 06-26 K 06-27 M",
+          "07-01 M 07-03 P 07-04 M 07-08 M 07-10 K 07-11 M 07-15 M 07-17 P 07-18 M 07-20 S 07-22 M 07-24 K 07-25 M 07-29 M 07-31 P",
+          "08-01 M 08-05 M 08-07 K 08-08 M 08-12 M 08-14 P 08-15 M 08-17 S 08-19 M 08-21 K 08-22 M 08-26 M 08-28 P 08-29 M",
+          "09-02 M 09-04 K 09-05 M 09-09 M 09-11 P 09-12 M 09-16 M 09-18 K 09-19 M 09-21 S 09-23 M 09-25 P 09-26 M 09-30 M",
+          "10-07 M 10-09 P 10-14 M 10-16 K 10-19 S 10-21 M 10-23 P 10-28 M",
+          "11-04 M 11-06 P 11-11 M 11-13 K 11-16 S 11-18 M 11-20 P 11-25 M",
+          "12-02 M 12-04 P 12-09 M 12-11 K 12-16 M 12-18 P 12-21 S 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Marina",
+      "podrucje": "Svinca (miješani uto i pet)",
+      "ulice": ["Svinca"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 M 01-09 MP 01-13 M 01-16 MK 01-19 S 01-20 M 01-23 MP 01-27 M 01-30 M",
+          "02-03 M 02-06 MP 02-10 M 02-13 MK 02-16 S 02-17 M 02-20 MP 02-24 M 02-27 M",
+          "03-03 M 03-06 MP 03-10 M 03-13 MK 03-16 S 03-17 M 03-20 MP 03-24 M 03-27 M 03-31 M",
+          "04-03 MP 04-07 M 04-10 MK 04-14 M 04-17 MP 04-20 S 04-21 M 04-24 M 04-28 M",
+          "05-01 M 05-05 M 05-08 MP 05-12 M 05-15 MK 05-18 S 05-19 M 05-22 MP 05-26 M 05-29 M",
+          "06-02 M 06-05 MP 06-09 M 06-12 MK 06-15 S 06-16 M 06-19 MP 06-23 M 06-26 MK 06-30 M",
+          "07-03 MP 07-07 M 07-10 MK 07-14 M 07-17 MP 07-20 S 07-21 M 07-24 MK 07-28 M 07-31 MP",
+          "08-04 M 08-07 MK 08-11 M 08-14 MP 08-17 S 08-18 M 08-21 MK 08-25 M 08-28 MP",
+          "09-01 M 09-04 MK 09-08 M 09-11 MP 09-15 M 09-18 MK 09-21 S 09-22 M 09-25 MP 09-29 M",
+          "10-02 M 10-06 M 10-09 MP 10-13 M 10-16 MK 10-19 S 10-20 M 10-23 MP 10-27 M 10-30 M",
+          "11-03 M 11-06 MP 11-10 M 11-13 MK 11-16 S 11-17 M 11-20 MP 11-24 M 11-27 M",
+          "12-01 M 12-04 MP 12-08 M 12-11 MK 12-15 M 12-18 MP 12-21 S 12-22 M 12-25 M 12-29 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Marina",
+      "podrucje": "Dolac (bez rasporeda miješanog otpada)",
+      "ulice": ["Dolac"],
+      "napomena": "Dan odvoza miješanog otpada za ovo naselje nije naveden u rasporedu.",
+      "raw": {
+        "2026": [
+          "01-09 P 01-16 K 01-19 S 01-23 P",
+          "02-06 P 02-13 K 02-16 S 02-20 P",
+          "03-06 P 03-13 K 03-16 S 03-20 P",
+          "04-03 P 04-10 K 04-17 P 04-20 S",
+          "05-08 P 05-15 K 05-18 S 05-22 P",
+          "06-05 P 06-12 K 06-15 S 06-19 P 06-26 K",
+          "07-03 P 07-10 K 07-17 P 07-20 S 07-24 K 07-31 P",
+          "08-07 K 08-14 P 08-17 S 08-21 K 08-28 P",
+          "09-04 K 09-11 P 09-18 K 09-21 S 09-25 P",
+          "10-09 P 10-16 K 10-19 S 10-23 P",
+          "11-06 P 11-13 K 11-16 S 11-20 P",
+          "12-04 P 12-11 K 12-18 P 12-21 S"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Marina",
+      "podrucje": "Vrsine, Najevi (miješani pon i čet)",
+      "ulice": ["Vrsine", "Najevi"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-05 MP! 01-08 M 01-12 M 01-13 K 01-15 M 01-19 M 01-20 P 01-22 M 01-26 MS 01-29 M",
+          "02-02 M 02-03 P 02-05 M 02-09 M 02-10 K 02-12 M 02-16 M 02-17 P 02-19 M 02-23 MS 02-26 M",
+          "03-02 M 03-03 P 03-05 M 03-09 M 03-10 K 03-12 M 03-16 M 03-17 P 03-19 M 03-23 MS 03-26 M 03-30 M 03-31 P",
+          "04-02 M 04-06 M 04-09 M 04-10 K! 04-13 M 04-14 P 04-16 M 04-20 M 04-23 M 04-27 MS 04-30 M",
+          "05-04 M 05-05 P 05-07 M 05-11 M 05-12 K 05-14 M 05-18 M 05-19 P 05-21 M 05-25 MS 05-28 M",
+          "06-01 M 06-02 P 06-04 M 06-08 M 06-09 K 06-11 M 06-15 M 06-16 P 06-18 M 06-22 M 06-23 K 06-25 M 06-29 MS 06-30 P",
+          "07-02 M 07-06 M 07-07 K 07-09 M 07-13 M 07-14 P 07-16 M 07-20 M 07-21 K 07-23 M 07-27 MS 07-28 P 07-30 M",
+          "08-03 M 08-04 K 08-06 M 08-10 M 08-11 P 08-13 M 08-17 M 08-18 K 08-20 M 08-24 MS 08-25 P 08-27 M 08-31 M",
+          "09-01 K 09-03 M 09-07 M 09-08 P 09-10 M 09-14 M 09-15 K 09-17 M 09-21 M 09-22 P 09-24 M 09-28 MS 09-29 K",
+          "10-01 M 10-05 M 10-06 P 10-08 M 10-12 M 10-13 K 10-15 M 10-19 M 10-20 P 10-22 M 10-26 MS 10-29 M",
+          "11-02 M 11-03 P 11-05 M 11-09 M 11-10 K 11-12 M 11-16 M 11-17 P 11-19 M 11-23 MS 11-26 M 11-30 M",
+          "12-01 P 12-03 M 12-07 M 12-08 K 12-10 M 12-14 M 12-15 P 12-17 M 12-21 M 12-24 M 12-28 MS 12-31 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Marina",
+      "podrucje": "Dograde, Gustirna, Pozorac (miješani uto i pet)",
+      "ulice": ["Dograde", "Gustirna", "Pozorac"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 P! 01-06 M 01-09 M 01-13 MK 01-16 M 01-20 MP 01-23 M 01-26 S 01-27 M 01-30 M",
+          "02-03 MP 02-06 M 02-10 MK 02-13 M 02-17 MP 02-20 M 02-23 S 02-24 M 02-27 M",
+          "03-03 MP 03-06 M 03-10 MK 03-13 M 03-17 MP 03-20 M 03-23 S 03-24 M 03-27 M 03-31 MP",
+          "04-03 M 04-07 M 04-10 MK! 04-14 MP 04-17 M 04-21 M 04-24 M 04-27 S 04-28 M",
+          "05-01 M 05-05 MP 05-08 M 05-12 MK 05-15 M 05-19 MP 05-22 M 05-25 S 05-26 M 05-29 M",
+          "06-02 MP 06-05 M 06-09 MK 06-12 M 06-16 MP 06-19 M 06-23 MK 06-26 M 06-29 S 06-30 MP",
+          "07-03 M 07-07 MK 07-10 M 07-14 MP 07-17 M 07-21 MK 07-24 M 07-27 S 07-28 MP 07-31 M",
+          "08-04 MK 08-07 M 08-11 MP 08-14 M 08-18 MK 08-21 M 08-24 S 08-25 MP 08-28 M",
+          "09-01 MK 09-04 M 09-08 MP 09-11 M 09-15 MK 09-18 M 09-22 MP 09-25 M 09-28 S 09-29 MK",
+          "10-02 M 10-06 MP 10-09 M 10-13 MK 10-16 M 10-20 MP 10-23 M 10-26 S 10-27 M 10-30 M",
+          "11-03 MP 11-06 M 11-10 MK 11-13 M 11-17 MP 11-20 M 11-23 S 11-24 M 11-27 M",
+          "12-01 MP 12-04 M 12-08 MK 12-11 M 12-15 MP 12-18 M 12-22 M 12-25 M 12-28 S 12-29 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Marina",
+      "podrucje": "Rastovac, Mitlo, Vinovac, Blizna Donja, Blizna Gornja (miješani pon)",
+      "ulice": ["Rastovac", "Mitlo", "Vinovac", "Blizna Donja", "Blizna Gornja"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 MPKS",
+          "02-02 M 02-09 M 02-16 M 02-23 MPKS",
+          "03-02 M 03-09 M 03-16 M 03-23 MPKS 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-27 MPKS",
+          "05-04 M 05-11 M 05-18 M 05-25 MPKS",
+          "06-01 M 06-08 M 06-15 M 06-22 M 06-29 MPKS",
+          "07-06 M 07-13 M 07-20 M 07-27 MPKS",
+          "08-03 M 08-10 M 08-17 M 08-24 MPKS 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-28 MPKS",
+          "10-05 M 10-12 M 10-19 M 10-26 MPKS",
+          "11-02 M 11-09 M 11-16 M 11-23 MPKS 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-28 MPKS"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Primorski Dolac",
+      "podrucje": "Šustići, Bakovići, Vržine, Žunići (miješani svaki drugi čet)",
+      "ulice": ["Šustići", "Bakovići", "Vržine", "Žunići"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 PKS 01-15 M 01-22 PKS 01-29 M",
+          "02-05 PKS 02-12 M 02-19 PKS 02-26 M",
+          "03-05 PKS 03-12 M 03-19 PKS 03-26 M",
+          "04-02 PKS 04-09 M 04-16 PKS 04-23 M",
+          "05-07 M 05-14 PKS 05-21 M 05-28 PKS",
+          "06-04 M 06-11 PKS 06-18 M 06-25 PKS",
+          "07-02 M 07-09 PKS 07-16 M 07-23 PKS 07-30 M",
+          "08-06 PKS 08-13 M 08-20 PKS 08-27 M",
+          "09-03 PKS 09-10 M 09-17 PKS 09-24 M",
+          "10-01 PKS 10-08 M 10-15 PKS 10-22 M 10-29 PKS",
+          "11-05 M 11-12 PKS 11-19 M 11-26 PKS",
+          "12-03 M 12-10 PKS 12-17 M 12-24 PKS 12-31 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Primorski Dolac",
+      "podrucje": "Sučevići, Dračari, Plejići, Šećeri, Franići, Zekići, Kalpići, Podari, Taslaci, Balovi, Ukići, Komadine, Škokići, Brigovi (miješani svaki drugi pet)",
+      "ulice": ["Sučevići", "Dračari", "Plejići", "Šećeri", "Franići", "Zekići", "Kalpići", "Podari", "Taslaci", "Balovi", "Ukići", "Komadine", "Škokići", "Brigovi"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-08 PKS 01-16 M 01-22 PKS 01-30 M",
+          "02-05 PKS 02-13 M 02-19 PKS 02-27 M",
+          "03-05 PKS 03-13 M 03-19 PKS 03-27 M",
+          "04-02 PKS 04-10 M 04-16 PKS 04-24 M",
+          "05-08 M 05-14 PKS 05-22 M 05-28 PKS",
+          "06-05 M 06-11 PKS 06-19 M 06-25 PKS",
+          "07-03 M 07-09 PKS 07-17 M 07-23 PKS 07-31 M",
+          "08-06 PKS 08-14 M 08-20 PKS 08-28 M",
+          "09-03 PKS 09-11 M 09-17 PKS 09-25 M",
+          "10-01 PKS 10-09 M 10-15 PKS 10-23 M 10-29 PKS",
+          "11-06 M 11-12 PKS 11-20 M 11-26 PKS",
+          "12-04 M 12-10 PKS 12-18 M 12-24 PKS 12-31 M!"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Prgomet",
+      "podrucje": "Labin, Prgomet, Trolokve (miješani svaki drugi uto)",
+      "ulice": ["Labin", "Prgomet", "Trolokve"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-09 PKS 01-20 M",
+          "02-03 M 02-06 PKS 02-17 M",
+          "03-03 M 03-06 PKS 03-17 M 03-31 M",
+          "04-03 PKS 04-14 M 04-28 M",
+          "05-12 M 05-15 PKS 05-26 M",
+          "06-09 M 06-12 PKS 06-23 M",
+          "07-07 M 07-10 PKS 07-21 M",
+          "08-04 M 08-07 PKS 08-18 M",
+          "09-01 M 09-04 PKS 09-15 M 09-29 M",
+          "10-02 PKS 10-13 M 10-27 M",
+          "11-10 M 11-13 PKS 11-24 M",
+          "12-08 M 12-11 PKS 12-22 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Prgomet",
+      "podrucje": "Sitno, Bogdanovići, Nožine (miješani svaki drugi sri)",
+      "ulice": ["Sitno", "Bogdanovići", "Nožine"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-09 PKS 01-21 M",
+          "02-04 M 02-06 PKS 02-18 M",
+          "03-04 M 03-06 PKS 03-18 M",
+          "04-01 M 04-03 PKS 04-15 M 04-29 M",
+          "05-13 M 05-15 PKS 05-27 M",
+          "06-10 M 06-12 PKS 06-24 M",
+          "07-08 M 07-10 PKS 07-22 M",
+          "08-05 M 08-07 PKS 08-19 M",
+          "09-02 M 09-04 PKS 09-16 M 09-30 M",
+          "10-02 PKS 10-14 M 10-28 M",
+          "11-11 M 11-13 PKS 11-25 M",
+          "12-09 M 12-11 PKS 12-23 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Lećevica",
+      "podrucje": "Lećevica, Kladnjice, Divojevići (miješani svaki drugi uto)",
+      "ulice": ["Lećevica", "Kladnjice", "Divojevići"],
+      "raw": {
+        "2026": [
+          "01-13 M 01-23 PKS 01-27 M",
+          "02-10 M 02-20 PKS 02-24 M",
+          "03-10 M 03-20 PKS 03-24 M",
+          "04-07 M 04-17 PKS 04-21 M",
+          "05-05 M 05-19 M 05-29 PKS",
+          "06-02 M 06-16 M 06-26 PKS 06-30 M",
+          "07-14 M 07-24 PKS 07-28 M",
+          "08-11 M 08-21 PKS 08-25 M",
+          "09-08 M 09-18 PKS 09-22 M",
+          "10-06 M 10-20 M 10-30 PKS",
+          "11-03 M 11-17 M 11-27 PKS",
+          "12-01 M 12-15 M 12-18 PKS 12-29 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Lećevica",
+      "podrucje": "Radošić (miješani svaki drugi sri)",
+      "ulice": ["Radošić"],
+      "raw": {
+        "2026": [
+          "01-14 M 01-23 PKS 01-28 M",
+          "02-11 M 02-20 PKS 02-25 M",
+          "03-11 M 03-20 PKS 03-25 M",
+          "04-08 M 04-17 PKS 04-22 M",
+          "05-06 M 05-20 M 05-29 PKS",
+          "06-03 M 06-17 M 06-26 PKS",
+          "07-01 M 07-15 M 07-24 PKS 07-29 M",
+          "08-12 M 08-21 PKS 08-26 M",
+          "09-09 M 09-18 PKS 09-23 M",
+          "10-07 M 10-21 M 10-30 PKS",
+          "11-04 M 11-18 M 11-27 PKS",
+          "12-02 M 12-16 M 12-18 PKS 12-30 M"
+        ]
+      }
+    }
+  }
+}

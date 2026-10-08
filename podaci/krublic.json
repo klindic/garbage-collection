@@ -1,0 +1,42 @@
+{
+  "davatelj": "Krublić d.o.o.",
+  "web": "https://krublic.hr",
+  "izvor": "https://krublic.hr/kalendar-odvoza/",
+  "zupanija": "Dubrovačko-neretvanska",
+  "jls": ["Smokvica"],
+  "nazivi": {"M": "Miješani otpad (zelena kanta)", "P": "Plastika (žuta kanta)", "K": "Papir (plava kanta)"},
+  "napomene": ["Krublić na webu objavljuje samo raspored za tekući mjesec; ovdje su upisani mjeseci koji su bili objavljeni kad je skripta pokrenuta.", "Pomaci zbog blagdana uključeni su u mjesečni raspored.", "Ljeti se otpad odvozi od 6 sati ujutro.", "Zeleni otoci prazne se srijedom (Smokvica i Brna)."],
+  "zone": {
+    "1": {
+      "jls": "Smokvica",
+      "podrucje": "Smokvica, Blaca",
+      "ulice": ["Smokvica", "Blaca"],
+      "raw": {
+        "2026": [
+          "09-02 P 09-03 M 09-07 M 09-09 K 09-10 M 09-14 M 09-16 P 09-17 M 09-21 M 09-23 K 09-24 M 09-28 M 09-30 P"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Smokvica",
+      "podrucje": "Brna, Vinačac",
+      "ulice": ["Brna", "Vinačac"],
+      "raw": {
+        "2026": [
+          "09-01 M 09-02 P 09-04 M 09-08 M 09-09 K 09-11 M 09-15 M 09-16 P 09-18 M 09-22 M 09-23 K 09-25 M 09-29 M 09-30 P"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Smokvica",
+      "podrucje": "Restorani i hotel",
+      "ulice": ["Restorani", "Hotel"],
+      "napomena": "Raspored za restorane i hotel na području općine.",
+      "raw": {
+        "2026": [
+          "09-02 P 09-05 M 09-06 M 09-09 K 09-12 M 09-13 M 09-16 P 09-19 M 09-20 M 09-23 K 09-26 M 09-27 M 09-30 P"
+        ]
+      }
+    }
+  }
+}
