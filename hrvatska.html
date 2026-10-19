@@ -985,7 +985,7 @@ footer details summary { cursor: pointer; }
     $('intro').innerHTML = `<p>Upiši ulicu ili naselje u tražilicu, ili odaberi županiju, grad ili općinu i zonu. Odabir se pamti na ovom uređaju.</p>
       <p>Raspored imamo za <b>${covered.length} od ${HR.j.length}</b> gradova i općina, gdje živi oko <b>${Math.round(100 * people(covered) / people(HR.j))} %</b> stanovnika. Komunalna poduzeća objavljuju rasporede svako na svoj način; ovdje su na jednom mjestu, s podsjetnikom u kalendaru.</p>`;
     const v = fromKey(HR.v);
-    $('dataDate').textContent = `Podaci preuzeti ${fullDate(v)}`;
+    $('dataDate').textContent = `Stranica ažurirana ${fullDate(v)}`;
 
     // Zone: ?z=<id> (calendar events link there), the old ?zona=N, else the last choice on this device.
     let params; try { params = new URLSearchParams(location.search); } catch { params = new URLSearchParams(); }
