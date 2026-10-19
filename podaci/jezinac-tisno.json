@@ -1,0 +1,254 @@
+{
+  "davatelj": "Ježinac d.o.o.",
+  "web": "https://jezinac.hr",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Tisno"],
+  "nazivi": {"K": "Papir i karton (žuti spremnik)", "P": "Plastika, staklo i metal (zeleni spremnik s narančastim poklopcem)"},
+  "bioNapomena": "Biootpad: kućno kompostiranje (upute na jezinac.hr).",
+  "izvor": "https://jezinac.hr/wp-content/uploads/2026/01/Raspored2026.pdf",
+  "napomene": ["Raspored za kućanstva (fizičke osobe); pravne osobe u Tisnom, Jezerima i Betini imaju odvoz zimi od ponedjeljka do petka, ljeti svaki dan.", "Radno vrijeme odvoza: zimski termin 6–13 h, ljetni termin 5–12 h.", "Mobilno reciklažno dvorište i glomazni otpad (spremnici na javnim površinama u svibnju) prema rasporedu u PDF-u; preuzimanje glomaznog otpada na adresi jednom godišnje do 3 m³ na zahtjev (022/439-257, kontakt@jezinac.hr).", "Pomaci zbog blagdana nisu objavljeni kao pravilo; uključeni su pomaci iz obavijesti Ježinca (pomaknuti odvozi su označeni, otkazani izostavljeni). Odvoz miješanog otpada 1.5.2026. nije obavljen; na trgovima, glavnim ulicama i kod poslovnih prostora obavljen je u subotu 2.5.2026."],
+  "zone": {
+    "1": {
+      "jls": "Tisno",
+      "podrucje": "Tisno – Istočna Gomilica, Obala D. Rajića, Obala Sv. Martina …",
+      "ulice": ["Istočna Gomilica", "Obala D. Rajića", "Obala Sv. Martina", "Put Brošćice", "Put Jazine", "Stjepana Radića", "Zapadna Gomilica", "Put Oštrice"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom, srijedom i petkom; papir i karton te plastika, staklo i metal utorkom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K! 01-09 M 01-12 M 01-13 P 01-16 M 01-19 M 01-20 K 01-23 M 01-26 M 01-27 P 01-30 M",
+          "02-02 M 02-03 K 02-06 M 02-09 M 02-10 P 02-13 M 02-16 M 02-17 K 02-20 M 02-23 M 02-24 P 02-27 M",
+          "03-02 M 03-03 K 03-06 M 03-09 M 03-10 P 03-13 M 03-16 M 03-17 K 03-20 M 03-23 M 03-24 P 03-27 M 03-30 M 03-31 K",
+          "04-03 M 04-07 MP! 04-10 M 04-13 M 04-14 K 04-17 M 04-20 M 04-21 P 04-24 M 04-27 M 04-28 K",
+          "05-04 M 05-05 P 05-08 M 05-11 M 05-12 K 05-15 M 05-18 M 05-19 P 05-22 M 05-25 M 05-26 K 05-29 M",
+          "06-01 M 06-02 P 06-03 M 06-05 M 06-08 M 06-09 K 06-10 M 06-12 M 06-15 M 06-16 P 06-17 M 06-19 M 06-22 M 06-23 K 06-24 M 06-26 M 06-29 M 06-30 P",
+          "07-01 M 07-03 M 07-06 M 07-07 K 07-08 M 07-10 M 07-13 M 07-14 P 07-15 M 07-17 M 07-20 M 07-21 K 07-22 M 07-24 M 07-27 M 07-28 P 07-29 M 07-31 M",
+          "08-03 M 08-04 K 08-05 M 08-07 M 08-10 M 08-11 P 08-12 M 08-14 M 08-17 M 08-18 K 08-19 M 08-21 M 08-24 M 08-25 P 08-26 M 08-28 M 08-31 M",
+          "09-01 K 09-02 M 09-04 M 09-07 M 09-08 P 09-09 M 09-11 M 09-14 M 09-15 K 09-16 M 09-18 M 09-21 M 09-22 P 09-23 M 09-25 M 09-28 M 09-29 K 09-30 M",
+          "10-02 M 10-05 M 10-06 P 10-09 M 10-12 M 10-13 K 10-16 M 10-19 M 10-20 P 10-23 M 10-26 M 10-27 K 10-30 M",
+          "11-02 M 11-03 P 11-06 M 11-09 M 11-10 K 11-13 M 11-16 M 11-17 P 11-20 M 11-23 M 11-24 K 11-27 M 11-30 M",
+          "12-01 P 12-04 M 12-07 M 12-08 K 12-11 M 12-14 M 12-15 P 12-18 M 12-21 M 12-22 K 12-25 M 12-28 M 12-29 P"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Tisno",
+      "podrucje": "Tisno – Ante Starčevića, Park Kralja Tomislava, Petrića glava …",
+      "ulice": ["Ante Starčevića", "Park Kralja Tomislava", "Petrića glava", "Pod Garmom", "Put Luke", "Roka Čorkala", "Stjepana Radića (sporedna ulica od kuć. br. 79- 93)", "Put Oštrice (sporedna ulica od kuć. br. 17-23)"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal utorkom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K! 01-09 M 01-12 M 01-13 P 01-16 M 01-19 M 01-20 K 01-23 M 01-26 M 01-27 P 01-30 M",
+          "02-02 M 02-03 K 02-06 M 02-09 M 02-10 P 02-13 M 02-16 M 02-17 K 02-20 M 02-23 M 02-24 P 02-27 M",
+          "03-02 M 03-03 K 03-06 M 03-09 M 03-10 P 03-13 M 03-16 M 03-17 K 03-20 M 03-23 M 03-24 P 03-27 M 03-30 M 03-31 K",
+          "04-03 M 04-07 MP! 04-10 M 04-13 M 04-14 K 04-17 M 04-20 M 04-21 P 04-24 M 04-27 M 04-28 K",
+          "05-04 M 05-05 P 05-08 M 05-11 M 05-12 K 05-15 M 05-18 M 05-19 P 05-22 M 05-25 M 05-26 K 05-29 M",
+          "06-01 M 06-02 P 06-05 M 06-08 M 06-09 K 06-12 M 06-15 M 06-16 P 06-19 M 06-22 M 06-23 K 06-26 M 06-29 M 06-30 P",
+          "07-03 M 07-06 M 07-07 K 07-10 M 07-13 M 07-14 P 07-17 M 07-20 M 07-21 K 07-24 M 07-27 M 07-28 P 07-31 M",
+          "08-03 M 08-04 K 08-07 M 08-10 M 08-11 P 08-14 M 08-17 M 08-18 K 08-21 M 08-24 M 08-25 P 08-28 M 08-31 M",
+          "09-01 K 09-04 M 09-07 M 09-08 P 09-11 M 09-14 M 09-15 K 09-18 M 09-21 M 09-22 P 09-25 M 09-28 M 09-29 K",
+          "10-02 M 10-05 M 10-06 P 10-09 M 10-12 M 10-13 K 10-16 M 10-19 M 10-20 P 10-23 M 10-26 M 10-27 K 10-30 M",
+          "11-02 M 11-03 P 11-06 M 11-09 M 11-10 K 11-13 M 11-16 M 11-17 P 11-20 M 11-23 M 11-24 K 11-27 M 11-30 M",
+          "12-01 P 12-04 M 12-07 M 12-08 K 12-11 M 12-14 M 12-15 P 12-18 M 12-21 M 12-22 K 12-25 M 12-28 M 12-29 P"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Tisno",
+      "podrucje": "Tisno – Crkvena, Istočna Gomilica (Vila), Marka Burića …",
+      "ulice": ["Crkvena", "Istočna Gomilica (Vila)", "Marka Burića", "Marka Marova", "Mala Rudina", "Pod Garmom (sporedne ulice)", "Prolaz A. Obratova", "Put Dvorin", "Put Hartića", "Put Oštrice (sporedna ulica od kuć. br. 30 do kraja)", "Splitska ulica", "Šibenska ulica", "Vukovarska ulica", "Zagrebačka ulica", "Groblje Tisno"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal utorkom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K! 01-09 M 01-12 M 01-13 P 01-16 M 01-19 M 01-20 K 01-23 M 01-26 M 01-27 P 01-30 M",
+          "02-02 M 02-03 K 02-06 M 02-09 M 02-10 P 02-13 M 02-16 M 02-17 K 02-20 M 02-23 M 02-24 P 02-27 M",
+          "03-02 M 03-03 K 03-06 M 03-09 M 03-10 P 03-13 M 03-16 M 03-17 K 03-20 M 03-23 M 03-24 P 03-27 M 03-30 M 03-31 K",
+          "04-03 M 04-07 MP! 04-10 M 04-13 M 04-14 K 04-17 M 04-20 M 04-21 P 04-24 M 04-27 M 04-28 K",
+          "05-04 M 05-05 P 05-08 M 05-11 M 05-12 K 05-15 M 05-18 M 05-19 P 05-22 M 05-25 M 05-26 K 05-29 M",
+          "06-01 M 06-02 P 06-05 M 06-08 M 06-09 K 06-12 M 06-15 M 06-16 P 06-19 M 06-22 M 06-23 K 06-26 M 06-29 M 06-30 P",
+          "07-03 M 07-06 M 07-07 K 07-10 M 07-13 M 07-14 P 07-17 M 07-20 M 07-21 K 07-24 M 07-27 M 07-28 P 07-31 M",
+          "08-03 M 08-04 K 08-07 M 08-10 M 08-11 P 08-14 M 08-17 M 08-18 K 08-21 M 08-24 M 08-25 P 08-28 M 08-31 M",
+          "09-01 K 09-04 M 09-07 M 09-08 P 09-11 M 09-14 M 09-15 K 09-18 M 09-21 M 09-22 P 09-25 M 09-28 M 09-29 K",
+          "10-02 M 10-05 M 10-06 P 10-09 M 10-12 M 10-13 K 10-16 M 10-19 M 10-20 P 10-23 M 10-26 M 10-27 K 10-30 M",
+          "11-02 M 11-03 P 11-06 M 11-09 M 11-10 K 11-13 M 11-16 M 11-17 P 11-20 M 11-23 M 11-24 K 11-27 M 11-30 M",
+          "12-01 P 12-04 M 12-07 M 12-08 K 12-11 M 12-14 M 12-15 P 12-18 M 12-21 M 12-22 K 12-25 M 12-28 M 12-29 P"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Tisno",
+      "podrucje": "Dazlina, Dubrava, Ivinj – Dazlina, Dubrava, Groblje Dubrava …",
+      "ulice": ["Dazlina", "Dubrava", "Groblje Dubrava", "Ivinj"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal srijedom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K 01-09 M 01-12 M 01-14 P 01-16 M 01-19 M 01-21 K 01-23 M 01-26 M 01-28 P 01-30 M",
+          "02-02 M 02-04 K 02-06 M 02-09 M 02-11 P 02-13 M 02-16 M 02-18 K 02-20 M 02-23 M 02-25 P 02-27 M",
+          "03-02 M 03-04 K 03-06 M 03-09 M 03-11 P 03-13 M 03-16 M 03-18 K 03-20 M 03-23 M 03-25 P 03-27 M 03-30 M",
+          "04-01 K 04-03 M 04-07 M! 04-08 P 04-10 M 04-13 M 04-15 K 04-17 M 04-20 M 04-22 P 04-24 M 04-27 M 04-29 K",
+          "05-04 M 05-06 P 05-08 M 05-11 M 05-13 K 05-15 M 05-18 M 05-20 P 05-22 M 05-25 M 05-27 K 05-29 M",
+          "06-01 M 06-03 P 06-05 M 06-08 M 06-10 K 06-12 M 06-15 M 06-17 P 06-19 M 06-22 M 06-24 K 06-26 M 06-29 M",
+          "07-01 P 07-03 M 07-06 M 07-08 K 07-10 M 07-13 M 07-15 P 07-17 M 07-20 M 07-22 K 07-24 M 07-27 M 07-29 P 07-31 M",
+          "08-03 M 08-05 K 08-07 M 08-10 M 08-12 P 08-14 M 08-17 M 08-19 K 08-21 M 08-24 M 08-26 P 08-28 M 08-31 M",
+          "09-02 K 09-04 M 09-07 M 09-09 P 09-11 M 09-14 M 09-16 K 09-18 M 09-21 M 09-23 P 09-25 M 09-28 M 09-30 K",
+          "10-02 M 10-05 M 10-07 P 10-09 M 10-12 M 10-14 K 10-16 M 10-19 M 10-21 P 10-23 M 10-26 M 10-28 K 10-30 M",
+          "11-02 M 11-04 P 11-06 M 11-09 M 11-11 K 11-13 M 11-16 M 11-18 P 11-20 M 11-23 M 11-25 K 11-27 M 11-30 M",
+          "12-02 P 12-04 M 12-07 M 12-09 K 12-11 M 12-14 M 12-16 P 12-18 M 12-21 M 12-23 K 12-25 M 12-28 M 12-30 P"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Tisno",
+      "podrucje": "Jezera – Donji put, Domagojeva, Obala Sv. Ivana …",
+      "ulice": ["Donji put", "Domagojeva", "Obala Sv. Ivana", "Trg Rudina"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom, srijedom i petkom; papir i karton te plastika, staklo i metal četvrtkom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 MP! 01-05 M 01-08 K 01-09 M 01-12 M 01-15 P 01-16 M 01-19 M 01-22 K 01-23 M 01-26 M 01-29 P 01-30 M",
+          "02-02 M 02-05 K 02-06 M 02-09 M 02-12 P 02-13 M 02-16 M 02-19 K 02-20 M 02-23 M 02-26 P 02-27 M",
+          "03-02 M 03-05 K 03-06 M 03-09 M 03-12 P 03-13 M 03-16 M 03-19 K 03-20 M 03-23 M 03-26 P 03-27 M 03-30 M",
+          "04-02 K 04-03 M 04-07 M! 04-09 P 04-10 M 04-13 M 04-16 K 04-17 M 04-20 M 04-23 P 04-24 M 04-27 M 04-30 K",
+          "05-04 M 05-07 P 05-08 M 05-11 M 05-14 K 05-15 M 05-18 M 05-21 P 05-22 M 05-25 M 05-28 K 05-29 M",
+          "06-01 M 06-03 M 06-05 MP! 06-08 M 06-10 M 06-11 K 06-12 M 06-15 M 06-17 M 06-18 P 06-19 M 06-22 M 06-24 M 06-25 K 06-26 M 06-29 M",
+          "07-01 M 07-02 P 07-03 M 07-06 M 07-08 M 07-09 K 07-10 M 07-13 M 07-15 M 07-16 P 07-17 M 07-20 M 07-22 M 07-23 K 07-24 M 07-27 M 07-29 M 07-30 P 07-31 M",
+          "08-03 M 08-05 M 08-06 K 08-07 M 08-10 M 08-12 M 08-13 P 08-14 M 08-17 M 08-19 M 08-20 K 08-21 M 08-24 M 08-26 M 08-27 P 08-28 M 08-31 M",
+          "09-02 M 09-03 K 09-04 M 09-07 M 09-09 M 09-10 P 09-11 M 09-14 M 09-16 M 09-17 K 09-18 M 09-21 M 09-23 M 09-24 P 09-25 M 09-28 M 09-30 M",
+          "10-01 K 10-02 M 10-05 M 10-08 P 10-09 M 10-12 M 10-15 K 10-16 M 10-19 M 10-22 P 10-23 M 10-26 M 10-29 K 10-30 M",
+          "11-02 M 11-05 P 11-06 M 11-09 M 11-12 K 11-13 M 11-16 M 11-19 P 11-20 M 11-23 M 11-26 K 11-27 M 11-30 M",
+          "12-03 P 12-04 M 12-07 M 12-10 K 12-11 M 12-14 M 12-17 P 12-18 M 12-21 M 12-24 K 12-25 M 12-28 M 12-31 P"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Tisno",
+      "podrucje": "Jezera – A. B. Kapitanovića, Brošćica, Don Antuna Božića …",
+      "ulice": ["A. B. Kapitanovića", "Brošćica", "Don Antuna Božića", "Drakovci", "Gornji put", "Jezerskih pomoraca", "Jure Foretića", "Put Gušća", "Put Jamin", "Put Kruška", "Put Kučine", "Put Murtara", "Pod Njivice", "Put Sv. Roka", "Put Vrška", "Put Zaratića", "Groblje Jezera"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal četvrtkom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 MP! 01-05 M 01-08 K 01-09 M 01-12 M 01-15 P 01-16 M 01-19 M 01-22 K 01-23 M 01-26 M 01-29 P 01-30 M",
+          "02-02 M 02-05 K 02-06 M 02-09 M 02-12 P 02-13 M 02-16 M 02-19 K 02-20 M 02-23 M 02-26 P 02-27 M",
+          "03-02 M 03-05 K 03-06 M 03-09 M 03-12 P 03-13 M 03-16 M 03-19 K 03-20 M 03-23 M 03-26 P 03-27 M 03-30 M",
+          "04-02 K 04-03 M 04-07 M! 04-09 P 04-10 M 04-13 M 04-16 K 04-17 M 04-20 M 04-23 P 04-24 M 04-27 M 04-30 K",
+          "05-04 M 05-07 P 05-08 M 05-11 M 05-14 K 05-15 M 05-18 M 05-21 P 05-22 M 05-25 M 05-28 K 05-29 M",
+          "06-01 M 06-05 MP! 06-08 M 06-11 K 06-12 M 06-15 M 06-18 P 06-19 M 06-22 M 06-25 K 06-26 M 06-29 M",
+          "07-02 P 07-03 M 07-06 M 07-09 K 07-10 M 07-13 M 07-16 P 07-17 M 07-20 M 07-23 K 07-24 M 07-27 M 07-30 P 07-31 M",
+          "08-03 M 08-06 K 08-07 M 08-10 M 08-13 P 08-14 M 08-17 M 08-20 K 08-21 M 08-24 M 08-27 P 08-28 M 08-31 M",
+          "09-03 K 09-04 M 09-07 M 09-10 P 09-11 M 09-14 M 09-17 K 09-18 M 09-21 M 09-24 P 09-25 M 09-28 M",
+          "10-01 K 10-02 M 10-05 M 10-08 P 10-09 M 10-12 M 10-15 K 10-16 M 10-19 M 10-22 P 10-23 M 10-26 M 10-29 K 10-30 M",
+          "11-02 M 11-05 P 11-06 M 11-09 M 11-12 K 11-13 M 11-16 M 11-19 P 11-20 M 11-23 M 11-26 K 11-27 M 11-30 M",
+          "12-03 P 12-04 M 12-07 M 12-10 K 12-11 M 12-14 M 12-17 P 12-18 M 12-21 M 12-24 K 12-25 M 12-28 M 12-31 P"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Tisno",
+      "podrucje": "Jezera – Betinska ulica, Donji kraj, Gornji put (od križanja Betinske ulice do Spomenika) …",
+      "ulice": ["Betinska ulica", "Donji kraj", "Gornji put (od križanja Betinske ulice do Spomenika)", "Murterska ulica", "Ungarova", "Pirjakova ulica", "Plaža Zaratić", "Put Dražic", "Put Kučine (apartmani)", "Put Mrčavrha", "Put Palila", "Lučica", "Put Poljan", "Put Vrška (apartmani)", "Uvala Lovišća", "Zatoka"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal četvrtkom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 MP! 01-05 M 01-08 K 01-09 M 01-12 M 01-15 P 01-16 M 01-19 M 01-22 K 01-23 M 01-26 M 01-29 P 01-30 M",
+          "02-02 M 02-05 K 02-06 M 02-09 M 02-12 P 02-13 M 02-16 M 02-19 K 02-20 M 02-23 M 02-26 P 02-27 M",
+          "03-02 M 03-05 K 03-06 M 03-09 M 03-12 P 03-13 M 03-16 M 03-19 K 03-20 M 03-23 M 03-26 P 03-27 M 03-30 M",
+          "04-02 K 04-03 M 04-07 M! 04-09 P 04-10 M 04-13 M 04-16 K 04-17 M 04-20 M 04-23 P 04-24 M 04-27 M 04-30 K",
+          "05-04 M 05-07 P 05-08 M 05-11 M 05-14 K 05-15 M 05-18 M 05-21 P 05-22 M 05-25 M 05-28 K 05-29 M",
+          "06-01 M 06-05 MP! 06-08 M 06-11 K 06-12 M 06-15 M 06-18 P 06-19 M 06-22 M 06-25 K 06-26 M 06-29 M",
+          "07-02 P 07-03 M 07-06 M 07-09 K 07-10 M 07-13 M 07-16 P 07-17 M 07-20 M 07-23 K 07-24 M 07-27 M 07-30 P 07-31 M",
+          "08-03 M 08-06 K 08-07 M 08-10 M 08-13 P 08-14 M 08-17 M 08-20 K 08-21 M 08-24 M 08-27 P 08-28 M 08-31 M",
+          "09-03 K 09-04 M 09-07 M 09-10 P 09-11 M 09-14 M 09-17 K 09-18 M 09-21 M 09-24 P 09-25 M 09-28 M",
+          "10-01 K 10-02 M 10-05 M 10-08 P 10-09 M 10-12 M 10-15 K 10-16 M 10-19 M 10-22 P 10-23 M 10-26 M 10-29 K 10-30 M",
+          "11-02 M 11-05 P 11-06 M 11-09 M 11-12 K 11-13 M 11-16 M 11-19 P 11-20 M 11-23 M 11-26 K 11-27 M 11-30 M",
+          "12-03 P 12-04 M 12-07 M 12-10 K 12-11 M 12-14 M 12-17 P 12-18 M 12-21 M 12-24 K 12-25 M 12-28 M 12-31 P"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Tisno",
+      "podrucje": "Betina – Dolac, Nikole Škevina, Obala Kralja Petra Krešimira IV. …",
+      "ulice": ["Dolac", "Nikole Škevina", "Obala Kralja Petra Krešimira IV.", "Stjepana Radića", "Trg na moru", "Zdrače", "Zrinskih i Frankopana"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom, srijedom i petkom; papir i karton te plastika, staklo i metal srijedom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K 01-09 M 01-12 M 01-14 P 01-16 M 01-19 M 01-21 K 01-23 M 01-26 M 01-28 P 01-30 M",
+          "02-02 M 02-04 K 02-06 M 02-09 M 02-11 P 02-13 M 02-16 M 02-18 K 02-20 M 02-23 M 02-25 P 02-27 M",
+          "03-02 M 03-04 K 03-06 M 03-09 M 03-11 P 03-13 M 03-16 M 03-18 K 03-20 M 03-23 M 03-25 P 03-27 M 03-30 M",
+          "04-01 K 04-03 M 04-07 M! 04-08 P 04-10 M 04-13 M 04-15 K 04-17 M 04-20 M 04-22 P 04-24 M 04-27 M 04-29 K",
+          "05-04 M 05-06 P 05-08 M 05-11 M 05-13 K 05-15 M 05-18 M 05-20 P 05-22 M 05-25 M 05-27 K 05-29 M",
+          "06-01 M 06-03 MP 06-05 M 06-08 M 06-10 MK 06-12 M 06-15 M 06-17 MP 06-19 M 06-22 M 06-24 MK 06-26 M 06-29 M",
+          "07-01 MP 07-03 M 07-06 M 07-08 MK 07-10 M 07-13 M 07-15 MP 07-17 M 07-20 M 07-22 MK 07-24 M 07-27 M 07-29 MP 07-31 M",
+          "08-03 M 08-05 MK 08-07 M 08-10 M 08-12 MP 08-14 M 08-17 M 08-19 MK 08-21 M 08-24 M 08-26 MP 08-28 M 08-31 M",
+          "09-02 MK 09-04 M 09-07 M 09-09 MP 09-11 M 09-14 M 09-16 MK 09-18 M 09-21 M 09-23 MP 09-25 M 09-28 M 09-30 MK",
+          "10-02 M 10-05 M 10-07 P 10-09 M 10-12 M 10-14 K 10-16 M 10-19 M 10-21 P 10-23 M 10-26 M 10-28 K 10-30 M",
+          "11-02 M 11-04 P 11-06 M 11-09 M 11-11 K 11-13 M 11-16 M 11-18 P 11-20 M 11-23 M 11-25 K 11-27 M 11-30 M",
+          "12-02 P 12-04 M 12-07 M 12-09 K 12-11 M 12-14 M 12-16 P 12-18 M 12-21 M 12-23 K 12-25 M 12-28 M 12-30 P"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Tisno",
+      "podrucje": "Betina – Branimirova ulica, Matije Gupca, Vukovarska ulica",
+      "ulice": ["Branimirova ulica", "Matije Gupca", "Vukovarska ulica"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal srijedom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K 01-09 M 01-12 M 01-14 P 01-16 M 01-19 M 01-21 K 01-23 M 01-26 M 01-28 P 01-30 M",
+          "02-02 M 02-04 K 02-06 M 02-09 M 02-11 P 02-13 M 02-16 M 02-18 K 02-20 M 02-23 M 02-25 P 02-27 M",
+          "03-02 M 03-04 K 03-06 M 03-09 M 03-11 P 03-13 M 03-16 M 03-18 K 03-20 M 03-23 M 03-25 P 03-27 M 03-30 M",
+          "04-01 K 04-03 M 04-07 M! 04-08 P 04-10 M 04-13 M 04-15 K 04-17 M 04-20 M 04-22 P 04-24 M 04-27 M 04-29 K",
+          "05-04 M 05-06 P 05-08 M 05-11 M 05-13 K 05-15 M 05-18 M 05-20 P 05-22 M 05-25 M 05-27 K 05-29 M",
+          "06-01 M 06-03 P 06-05 M 06-08 M 06-10 K 06-12 M 06-15 M 06-17 P 06-19 M 06-22 M 06-24 K 06-26 M 06-29 M",
+          "07-01 P 07-03 M 07-06 M 07-08 K 07-10 M 07-13 M 07-15 P 07-17 M 07-20 M 07-22 K 07-24 M 07-27 M 07-29 P 07-31 M",
+          "08-03 M 08-05 K 08-07 M 08-10 M 08-12 P 08-14 M 08-17 M 08-19 K 08-21 M 08-24 M 08-26 P 08-28 M 08-31 M",
+          "09-02 K 09-04 M 09-07 M 09-09 P 09-11 M 09-14 M 09-16 K 09-18 M 09-21 M 09-23 P 09-25 M 09-28 M 09-30 K",
+          "10-02 M 10-05 M 10-07 P 10-09 M 10-12 M 10-14 K 10-16 M 10-19 M 10-21 P 10-23 M 10-26 M 10-28 K 10-30 M",
+          "11-02 M 11-04 P 11-06 M 11-09 M 11-11 K 11-13 M 11-16 M 11-18 P 11-20 M 11-23 M 11-25 K 11-27 M 11-30 M",
+          "12-02 P 12-04 M 12-07 M 12-09 K 12-11 M 12-14 M 12-16 P 12-18 M 12-21 M 12-23 K 12-25 M 12-28 M 12-30 P"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Tisno",
+      "podrucje": "Betina – Bajilovica, Jartić, Matije Gupca (stambene zgrade) …",
+      "ulice": ["Bajilovica", "Jartić", "Matije Gupca (stambene zgrade)", "Palih Boraca (ulaz od strane ulice S. Radića)", "Petra Preradovića", "Učenička", "Varoš", "V. Nazora (dio ulice ispred muzeja)", "Žal"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal srijedom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K 01-09 M 01-12 M 01-14 P 01-16 M 01-19 M 01-21 K 01-23 M 01-26 M 01-28 P 01-30 M",
+          "02-02 M 02-04 K 02-06 M 02-09 M 02-11 P 02-13 M 02-16 M 02-18 K 02-20 M 02-23 M 02-25 P 02-27 M",
+          "03-02 M 03-04 K 03-06 M 03-09 M 03-11 P 03-13 M 03-16 M 03-18 K 03-20 M 03-23 M 03-25 P 03-27 M 03-30 M",
+          "04-01 K 04-03 M 04-07 M! 04-08 P 04-10 M 04-13 M 04-15 K 04-17 M 04-20 M 04-22 P 04-24 M 04-27 M 04-29 K",
+          "05-04 M 05-06 P 05-08 M 05-11 M 05-13 K 05-15 M 05-18 M 05-20 P 05-22 M 05-25 M 05-27 K 05-29 M",
+          "06-01 M 06-03 P 06-05 M 06-08 M 06-10 K 06-12 M 06-15 M 06-17 P 06-19 M 06-22 M 06-24 K 06-26 M 06-29 M",
+          "07-01 P 07-03 M 07-06 M 07-08 K 07-10 M 07-13 M 07-15 P 07-17 M 07-20 M 07-22 K 07-24 M 07-27 M 07-29 P 07-31 M",
+          "08-03 M 08-05 K 08-07 M 08-10 M 08-12 P 08-14 M 08-17 M 08-19 K 08-21 M 08-24 M 08-26 P 08-28 M 08-31 M",
+          "09-02 K 09-04 M 09-07 M 09-09 P 09-11 M 09-14 M 09-16 K 09-18 M 09-21 M 09-23 P 09-25 M 09-28 M 09-30 K",
+          "10-02 M 10-05 M 10-07 P 10-09 M 10-12 M 10-14 K 10-16 M 10-19 M 10-21 P 10-23 M 10-26 M 10-28 K 10-30 M",
+          "11-02 M 11-04 P 11-06 M 11-09 M 11-11 K 11-13 M 11-16 M 11-18 P 11-20 M 11-23 M 11-25 K 11-27 M 11-30 M",
+          "12-02 P 12-04 M 12-07 M 12-09 K 12-11 M 12-14 M 12-16 P 12-18 M 12-21 M 12-23 K 12-25 M 12-28 M 12-30 P"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Tisno",
+      "podrucje": "Prosika – Prosika",
+      "ulice": ["Prosika"],
+      "napomena": "Miješani otpad zimi (01.01.–31.05., 01.10.–31.12.) ponedjeljkom i petkom, ljeti (01.06.–30.09.) ponedjeljkom i petkom; papir i karton te plastika, staklo i metal srijedom, naizmjence svaki drugi tjedan prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 K 01-09 M 01-12 M 01-14 P 01-16 M 01-19 M 01-21 K 01-23 M 01-26 M 01-28 P 01-30 M",
+          "02-02 M 02-04 K 02-06 M 02-09 M 02-11 P 02-13 M 02-16 M 02-18 K 02-20 M 02-23 M 02-25 P 02-27 M",
+          "03-02 M 03-04 K 03-06 M 03-09 M 03-11 P 03-13 M 03-16 M 03-18 K 03-20 M 03-23 M 03-25 P 03-27 M 03-30 M",
+          "04-01 K 04-03 M 04-07 M! 04-08 P 04-10 M 04-13 M 04-15 K 04-17 M 04-20 M 04-22 P 04-24 M 04-27 M 04-29 K",
+          "05-04 M 05-06 P 05-08 M 05-11 M 05-13 K 05-15 M 05-18 M 05-20 P 05-22 M 05-25 M 05-27 K 05-29 M",
+          "06-01 M 06-03 P 06-05 M 06-08 M 06-10 K 06-12 M 06-15 M 06-17 P 06-19 M 06-22 M 06-24 K 06-26 M 06-29 M",
+          "07-01 P 07-03 M 07-06 M 07-08 K 07-10 M 07-13 M 07-15 P 07-17 M 07-20 M 07-22 K 07-24 M 07-27 M 07-29 P 07-31 M",
+          "08-03 M 08-05 K 08-07 M 08-10 M 08-12 P 08-14 M 08-17 M 08-19 K 08-21 M 08-24 M 08-26 P 08-28 M 08-31 M",
+          "09-02 K 09-04 M 09-07 M 09-09 P 09-11 M 09-14 M 09-16 K 09-18 M 09-21 M 09-23 P 09-25 M 09-28 M 09-30 K",
+          "10-02 M 10-05 M 10-07 P 10-09 M 10-12 M 10-14 K 10-16 M 10-19 M 10-21 P 10-23 M 10-26 M 10-28 K 10-30 M",
+          "11-02 M 11-04 P 11-06 M 11-09 M 11-11 K 11-13 M 11-16 M 11-18 P 11-20 M 11-23 M 11-25 K 11-27 M 11-30 M",
+          "12-02 P 12-04 M 12-07 M 12-09 K 12-11 M 12-14 M 12-16 P 12-18 M 12-21 M 12-23 K 12-25 M 12-28 M 12-30 P"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "davatelj": "Čistoća Županja d.o.o.",
+  "web": "https://cistoca-zu.hr",
+  "zupanija": "Vukovarsko-srijemska",
+  "jls": ["Županja", "Štitar", "Cerna", "Bošnjaci", "Gradište", "Vrbanja", "Babina Greda"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)", "K": "Papir i karton (plava kanta)", "P": "Plastika (žuta kanta)", "B": "Biootpad (smeđa kanta)", "G": "Glomazni otpad (uz prijavu)"},
+  "izvor": "https://cistoca-zu.hr/raspored-odvoza/",
+  "napomene": ["Komunalni otpad odvozi se od 6:00 do 20:00; spremnici se iznose najranije večer uoči dana odvoza.", "Na blagdane se otpad odvozi redovno (obavijesti Čistoće Županja za 1.1., 1.5., 4.6. i 5.8.2026.), osim gdje je u kalendaru napisano drukčije (Županja i Bošnjaci: umjesto 25.12. miješani otpad 26.12.).", "Glomazni otpad: jednom godišnje besplatno na datum označen narančasto u kalendaru, uz prijavu najkasnije dan ranije (032/827-995, ivana@cistoca-zu.hr).", "Metal i staklo prikupljaju se po pozivu korisnika; ostalo u reciklažna i mobilna reciklažna dvorišta."],
+  "zone": {
+    "1": {
+      "jls": "Županja",
+      "podrucje": "Županja – ponedjeljak: Bosutska, Dubovo, M. Ćatića …",
+      "ulice": ["Bosutska", "Dubovo", "M. Ćatića", "M. Gupca", "Veliki kraj (od centra prema Crkvi)", "Solarski prolaz", "Šlajs", "Štitarska"],
+      "napomena": "Miješani otpad ponedjeljkom. Biootpad petkom (prema obavijesti, u kalendaru nije označen). Papir (plava kanta) i plastika (žuta kanta) odvoze se na dan odvoza miješanog otpada u tjednu označenom plavom odnosno žutom bojom. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije. Napomena na kalendaru: „UMJESTO 25.12. MKO ĆE SE VOZITI 26.12.”",
+      "raw": {
+        "2026": [
+          "01-02 B 01-05 MK 01-09 B 01-12 MP 01-16 B 01-19 M 01-23 B 01-26 M 01-30 B",
+          "02-02 MK 02-06 B 02-09 MP 02-13 B 02-16 M 02-20 B 02-23 M 02-27 B",
+          "03-02 MK 03-06 B 03-09 MP 03-13 B 03-16 M 03-20 B 03-23 MG 03-27 B 03-30 M",
+          "04-03 B 04-06 MK 04-10 B 04-13 MP 04-17 B 04-20 M 04-24 B 04-27 M",
+          "05-01 B 05-04 MK 05-08 B 05-11 MP 05-15 B 05-18 M 05-22 B 05-25 M 05-29 B",
+          "06-01 MK 06-05 B 06-08 MP 06-12 B 06-15 M 06-19 B 06-22 M 06-26 B 06-29 M",
+          "07-03 B 07-06 MK 07-10 B 07-13 MP 07-17 B 07-20 M 07-24 B 07-27 M 07-31 B",
+          "08-03 MK 08-07 B 08-10 MP 08-14 B 08-17 M 08-21 B 08-24 M 08-28 B 08-31 M",
+          "09-04 B 09-07 MK 09-11 B 09-14 MP 09-18 B 09-21 MG 09-25 B 09-28 M",
+          "10-02 B 10-05 MK 10-09 B 10-12 MP 10-16 B 10-19 M 10-23 B 10-26 M 10-30 B",
+          "11-02 MK 11-06 B 11-09 MP 11-13 B 11-16 M 11-20 B 11-23 M 11-27 B 11-30 M",
+          "12-04 B 12-07 MK 12-11 B 12-14 MP 12-18 B 12-21 M 12-25 B 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Županja",
+      "podrucje": "Županja – utorak: Antuna Mihanovića, Alojzija Stepinca, Bana J. Jelačića …",
+      "ulice": ["Antuna Mihanovića", "Alojzija Stepinca", "Bana J. Jelačića", "Cvjetka Romića", "I. Balentovića", "Ilirskog Preporoda", "I. Pl. Zajca", "J. Kozarca", "K. Tkalca", "M. A. Reljkovića", "M. Pozajića", "Naselje Šećerana", "Petra Preradovića", "Prof. I. Baotića", "Savska", "Stanovi Ciglana", "Stjepana Grubera", "Vinkovačka", "Vojne krajine", "Veliki kraj (od Crkve do Save)", "Zr. i Frankopana"],
+      "napomena": "Miješani otpad utorkom. Biootpad petkom (prema obavijesti, u kalendaru nije označen). Papir (plava kanta) i plastika (žuta kanta) odvoze se na dan odvoza miješanog otpada u tjednu označenom plavom odnosno žutom bojom. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije. Napomena na kalendaru: „UMJESTO 25.12. MKO ĆE SE VOZITI 26.12.”",
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 MK 01-09 B 01-13 MP 01-16 B 01-20 M 01-23 B 01-27 M 01-30 B",
+          "02-03 MK 02-06 B 02-10 MP 02-13 B 02-17 M 02-20 B 02-24 M 02-27 B",
+          "03-03 MK 03-06 B 03-10 MP 03-13 B 03-17 M 03-20 B 03-23 G 03-24 M 03-27 B 03-31 M",
+          "04-03 B 04-07 MK 04-10 B 04-14 MP 04-17 B 04-21 M 04-24 B 04-28 M",
+          "05-01 B 05-05 MK 05-08 B 05-12 MP 05-15 B 05-19 M 05-22 B 05-26 M 05-29 B",
+          "06-02 MK 06-05 B 06-09 MP 06-12 B 06-16 M 06-19 B 06-23 M 06-26 B 06-30 M",
+          "07-03 B 07-07 MK 07-10 B 07-14 MP 07-17 B 07-21 M 07-24 B 07-28 M 07-31 B",
+          "08-04 MK 08-07 B 08-11 MP 08-14 B 08-18 M 08-21 B 08-25 M 08-28 B",
+          "09-01 MK 09-04 B 09-08 MP 09-11 B 09-15 M 09-18 B 09-21 G 09-22 M 09-25 B 09-29 M",
+          "10-02 B 10-06 MK 10-09 B 10-13 MP 10-16 B 10-20 M 10-23 B 10-27 M 10-30 B",
+          "11-03 MK 11-06 B 11-10 MP 11-13 B 11-17 M 11-20 B 11-24 M 11-27 B",
+          "12-01 MK 12-04 B 12-08 MP 12-11 B 12-15 M 12-18 B 12-22 M 12-25 B 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Županja",
+      "podrucje": "Županja – srijeda: Bošnjačka, Br. Radića, B. Trenka …",
+      "ulice": ["Bošnjačka", "Br. Radića", "B. Trenka", "F. Galovića", "Graničarska", "I. L. Bartolova", "I. Mažuranića", "I. Gundulića", "Kratka", "Lj. Gaja", "Mala kućišta", "M. Oršolića", "M.P. Katančića", "Obla", "Obla Odvojak 1 – 4", "Posavska", "Stanovi pod O. mostom", "Topolovac", "Velike livade", "V. Brunšmida", "V. Nazora"],
+      "napomena": "Miješani otpad srijedom. Biootpad petkom (prema obavijesti, u kalendaru nije označen). Papir (plava kanta) i plastika (žuta kanta) odvoze se na dan odvoza miješanog otpada u tjednu označenom plavom odnosno žutom bojom. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije. Napomena na kalendaru: „UMJESTO 25.12. MKO ĆE SE VOZITI 26.12.”",
+      "raw": {
+        "2026": [
+          "01-02 B 01-07 MK 01-09 B 01-14 MP 01-16 B 01-21 M 01-23 B 01-28 M 01-30 B",
+          "02-04 MK 02-06 B 02-11 MP 02-13 B 02-18 M 02-20 B 02-25 M 02-27 B",
+          "03-04 MK 03-06 B 03-11 MP 03-13 B 03-18 M 03-20 B 03-23 G 03-25 M 03-27 B",
+          "04-01 MK 04-03 B 04-08 MP 04-10 B 04-15 M 04-17 B 04-22 M 04-24 B 04-29 M",
+          "05-01 B 05-06 MK 05-08 B 05-13 MP 05-15 B 05-20 M 05-22 B 05-27 M 05-29 B",
+          "06-03 MK 06-05 B 06-10 MP 06-12 B 06-17 M 06-19 B 06-24 M 06-26 B",
+          "07-01 MK 07-03 B 07-08 MP 07-10 B 07-15 M 07-17 B 07-22 M 07-24 B 07-29 M 07-31 B",
+          "08-05 MK 08-07 B 08-12 MP 08-14 B 08-19 M 08-21 B 08-26 M 08-28 B",
+          "09-02 MK 09-04 B 09-09 MP 09-11 B 09-16 M 09-18 B 09-21 G 09-23 M 09-25 B 09-30 M",
+          "10-02 B 10-07 MK 10-09 B 10-14 MP 10-16 B 10-21 M 10-23 B 10-28 M 10-30 B",
+          "11-04 MK 11-06 B 11-11 MP 11-13 B 11-18 M 11-20 B 11-25 M 11-27 B",
+          "12-02 MK 12-04 B 12-09 MP 12-11 B 12-16 M 12-18 B 12-23 M 12-25 B 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Županja",
+      "podrucje": "Županja – četvrtak: A. Starčevića, D. Pejačević, Dubrovačka …",
+      "ulice": ["A. Starčevića", "D. Pejačević", "Dubrovačka", "F. Kuhača", "F. Juzbašića", "Gredice", "H. Lucića", "I. G. Kovačića", "J. J. Strossmayera", "L. Ružičke", "M. Lorković", "M. Marulića", "M. Držića", "O. Ivekovića", "Panje", "P. Hektorovića", "P. Krešimira IV", "P. Svačića", "Prolaz Rastoka", "Š. Menčetića", "Trg k. Zvonimira", "V. Bukovca", "V. Sedelija"],
+      "napomena": "Miješani otpad četvrtkom. Biootpad petkom (prema obavijesti, u kalendaru nije označen). Papir (plava kanta) i plastika (žuta kanta) odvoze se na dan odvoza miješanog otpada u tjednu označenom plavom odnosno žutom bojom. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije. Napomena na kalendaru: „UMJESTO 25.12. MKO ĆE SE VOZITI 26.12.”",
+      "raw": {
+        "2026": [
+          "01-01 M 01-02 B 01-08 MK 01-09 B 01-15 MP 01-16 B 01-22 M 01-23 B 01-29 M 01-30 B",
+          "02-05 MK 02-06 B 02-12 MP 02-13 B 02-19 M 02-20 B 02-26 M 02-27 B",
+          "03-05 MK 03-06 B 03-12 MP 03-13 B 03-19 M 03-20 B 03-23 G 03-26 M 03-27 B",
+          "04-02 MK 04-03 B 04-09 MP 04-10 B 04-16 M 04-17 B 04-23 M 04-24 B 04-30 M",
+          "05-01 B 05-07 MK 05-08 B 05-14 MP 05-15 B 05-21 M 05-22 B 05-28 M 05-29 B",
+          "06-04 MK 06-05 B 06-11 MP 06-12 B 06-18 M 06-19 B 06-25 M 06-26 B",
+          "07-02 MK 07-03 B 07-09 MP 07-10 B 07-16 M 07-17 B 07-23 M 07-24 B 07-30 M 07-31 B",
+          "08-06 MK 08-07 B 08-13 MP 08-14 B 08-20 M 08-21 B 08-27 M 08-28 B",
+          "09-03 MK 09-04 B 09-10 MP 09-11 B 09-17 M 09-18 B 09-21 G 09-24 M 09-25 B",
+          "10-01 MK 10-02 B 10-08 MP 10-09 B 10-15 M 10-16 B 10-22 M 10-23 B 10-29 M 10-30 B",
+          "11-05 MK 11-06 B 11-12 MP 11-13 B 11-19 M 11-20 B 11-26 M 11-27 B",
+          "12-03 MK 12-04 B 12-10 MP 12-11 B 12-17 M 12-18 B 12-24 M 12-25 B 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Županja",
+      "podrucje": "Županja – petak: A. Hebranga, A. Šenoe, B. Kašića …",
+      "ulice": ["A. Hebranga", "A. Šenoe", "B. Kašića", "Dr. F. Račkog", "F. Bačića", "F. Hanamana", "J. B. Šokčevića", "J. Lovretića", "M. Krleže", "Osječka", "R. Boškovića", "S. Albinija", "S. S. Kranjčevića", "Veliki kraj (od centra prema Čistoći Županja d.o.o.)", "V. Lisinskog", "Zagrebačka", "Zlatodolska"],
+      "napomena": "Miješani otpad petkom. Biootpad petkom (prema obavijesti, u kalendaru nije označen). Papir (plava kanta) i plastika (žuta kanta) odvoze se na dan odvoza miješanog otpada u tjednu označenom plavom odnosno žutom bojom. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije. Napomena na kalendaru: „UMJESTO 25.12. MKO ĆE SE VOZITI 26.12.”",
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MBK 01-16 MBP 01-23 MB 01-30 MB",
+          "02-06 MBK 02-13 MBP 02-20 MB 02-27 MB",
+          "03-06 MBK 03-13 MBP 03-20 MB 03-23 G 03-27 MB",
+          "04-03 MBK 04-10 MBP 04-17 MB 04-24 MB",
+          "05-01 MB 05-08 MBK 05-15 MBP 05-22 MB 05-29 MB",
+          "06-05 MBK 06-12 MBP 06-19 MB 06-26 MB",
+          "07-03 MBK 07-10 MBP 07-17 MB 07-24 MB 07-31 MB",
+          "08-07 MBK 08-14 MBP 08-21 MB 08-28 MB",
+          "09-04 MBK 09-11 MBP 09-18 MB 09-21 G 09-25 MB",
+          "10-02 MBK 10-09 MBP 10-16 MB 10-23 MB 10-30 MB",
+          "11-06 MBK 11-13 MBP 11-20 MB 11-27 MB",
+          "12-04 MBK 12-11 MBP 12-18 MB 12-25 B 12-26 M!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Štitar",
+      "podrucje": "Štitar – ponedjeljak",
+      "ulice": ["Štitar"],
+      "napomena": "Miješani otpad ponedjeljkom (prema obavijesti, u kalendaru nije označen). Biootpad petkom (prema obavijesti, u kalendaru nije označen). Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-02 B 01-05 MK 01-09 B 01-12 MP 01-16 B 01-19 M 01-23 B 01-26 M 01-30 B",
+          "02-02 MK 02-06 B 02-09 MP 02-13 B 02-16 M 02-20 B 02-23 M 02-27 B",
+          "03-02 MK 03-06 B 03-09 MP 03-13 B 03-16 M 03-20 B 03-23 M 03-27 B 03-30 M",
+          "04-03 B 04-06 MK 04-10 B 04-13 MP 04-15 G 04-17 B 04-20 M 04-24 B 04-27 M",
+          "05-01 B 05-04 MK 05-08 B 05-11 MP 05-15 B 05-18 M 05-22 B 05-25 M 05-29 B",
+          "06-01 MK 06-05 B 06-08 MP 06-12 B 06-15 M 06-19 B 06-22 M 06-26 B 06-29 M",
+          "07-03 B 07-06 MK 07-10 B 07-13 MP 07-17 B 07-20 M 07-24 B 07-27 M 07-31 B",
+          "08-03 MK 08-07 B 08-10 MP 08-14 B 08-17 M 08-21 B 08-24 M 08-28 B 08-31 M",
+          "09-04 B 09-07 MK 09-11 B 09-14 MP 09-18 B 09-21 M 09-25 B 09-28 M",
+          "10-02 B 10-05 MK 10-09 B 10-12 MP 10-16 B 10-19 M 10-23 B 10-26 M 10-30 B",
+          "11-02 MK 11-06 B 11-09 MP 11-13 B 11-16 M 11-20 B 11-23 M 11-27 B 11-30 M",
+          "12-04 B 12-07 MK 12-11 B 12-14 MP 12-18 B 12-21 M 12-25 B 12-28 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Cerna",
+      "podrucje": "Cerna – ponedjeljak: Ante Starčevića, B. Radića, J. J. Strossmayera …",
+      "ulice": ["Ante Starčevića", "B. Radića", "J. J. Strossmayera", "Kneza LJ. Posavskog", "Kolodvorska", "Kralja Zvonimira", "Lj. Gaja", "Maria Juračića", "Milana Matkovića", "Mire Boričića", "Miroslava Tišljara", "Velika Cerna"],
+      "napomena": "Miješani otpad svaki drugi ponedjeljak. Biootpad svaki drugi ponedjeljak. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 B 01-19 MK 01-20 P 01-26 B",
+          "02-02 M 02-09 B 02-16 MK 02-17 P 02-23 B",
+          "03-02 M 03-09 B 03-16 MK 03-17 P 03-23 B 03-30 MG 03-31 G",
+          "04-06 B 04-13 M 04-20 BK 04-21 P 04-27 M",
+          "05-04 B 05-11 M 05-18 BK 05-19 P 05-25 M",
+          "06-01 B 06-08 M 06-15 BK 06-16 P 06-22 M 06-29 B",
+          "07-06 M 07-13 B 07-20 MK 07-21 P 07-27 B",
+          "08-03 M 08-10 B 08-17 MK 08-18 P 08-24 B 08-31 M",
+          "09-07 B 09-14 M 09-15 G 09-16 G 09-21 B 09-28 MK 09-29 P",
+          "10-05 B 10-12 M 10-19 BK 10-20 P 10-26 M",
+          "11-02 B 11-09 M 11-16 BK 11-17 P 11-23 M 11-30 B",
+          "12-07 M 12-14 B 12-21 MK 12-22 P 12-28 B"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Cerna",
+      "podrucje": "Cerna – utorak: Antuna Mihanovića, Ivana Meštrovića, Josipa Kozarca …",
+      "ulice": ["Antuna Mihanovića", "Ivana Meštrovića", "Josipa Kozarca", "Jurišićeva", "N. Jurišić", "Kneza Domagoja", "Kralja Tomislava", "Mala Cerna", "Matije Gupca", "Šetalište dr. F. Tuđmana"],
+      "napomena": "Miješani otpad svaki drugi utorak. Biootpad svaki drugi ponedjeljak. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-06 M 01-12 B 01-19 K 01-20 MP 01-26 B",
+          "02-03 M 02-09 B 02-16 K 02-17 MP 02-23 B",
+          "03-03 M 03-09 B 03-16 K 03-17 MP 03-23 B 03-30 G 03-31 MG",
+          "04-06 B 04-14 M 04-20 BK 04-21 P 04-28 M",
+          "05-04 B 05-12 M 05-18 BK 05-19 P 05-26 M",
+          "06-01 B 06-09 M 06-15 BK 06-16 P 06-23 M 06-29 B",
+          "07-07 M 07-13 B 07-20 K 07-21 MP 07-27 B",
+          "08-04 M 08-10 B 08-17 K 08-18 MP 08-24 B",
+          "09-01 M 09-07 B 09-15 MG 09-16 G 09-21 B 09-28 K 09-29 MP",
+          "10-05 B 10-13 M 10-19 BK 10-20 P 10-27 M",
+          "11-02 B 11-10 M 11-16 BK 11-17 P 11-24 M 11-30 B",
+          "12-08 M 12-14 B 12-21 K 12-22 MP 12-28 B"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Bošnjaci",
+      "podrucje": "Bošnjaci – četvrtak: A.G. Matoša, A. Mihanovića, A. M. Reljkovića …",
+      "ulice": ["A.G. Matoša", "A. Mihanovića", "A. M. Reljkovića", "B. Radić", "J. Babogredca", "J. J. Strossmayera", "Morganj", "Savska", "Topola", "Trg fra B.T.Leakovića"],
+      "napomena": "Miješani otpad svaki drugi četvrtak. Biootpad svaki drugi petak. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije. Napomena na kalendaru: „UMJESTO 25.12. MKO ĆE SE VOZITI 26.12.”",
+      "raw": {
+        "2026": [
+          "01-02 B 01-08 M 01-16 B 01-22 MK 01-23 P 01-30 B",
+          "02-05 M 02-13 B 02-19 MK 02-20 P 02-27 B",
+          "03-05 M 03-13 B 03-19 MK 03-20 P 03-27 B",
+          "04-02 M 04-10 B 04-16 MK 04-17 P 04-24 B 04-30 M",
+          "05-08 B 05-14 M 05-21 K 05-22 BP 05-28 M",
+          "06-05 B 06-11 M 06-18 K 06-19 BP 06-25 M",
+          "07-03 B 07-09 M 07-16 K 07-17 BP 07-23 M 07-31 B",
+          "08-06 M 08-14 B 08-20 MK 08-21 P 08-28 B",
+          "09-03 M 09-11 B 09-17 MK 09-18 P 09-25 B",
+          "10-01 M 10-09 B 10-15 MK 10-16 P 10-22 G 10-23 BG 10-29 M",
+          "11-06 B 11-12 M 11-19 K 11-20 BP 11-26 M",
+          "12-04 B 12-10 M 12-17 K 12-18 BP 12-24 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Bošnjaci",
+      "podrucje": "Bošnjaci – petak: J. Ivakića, J. Kozarca, Lj. Gaja …",
+      "ulice": ["J. Ivakića", "J. Kozarca", "Lj. Gaja", "M. Gupca", "M. Tereze", "M. Pavličića", "Vjerovi", "V. Nazora"],
+      "napomena": "Miješani otpad svaki drugi petak. Biootpad svaki drugi petak. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije. Napomena na kalendaru: „UMJESTO 25.12. MKO ĆE SE VOZITI 26.12.”",
+      "raw": {
+        "2026": [
+          "01-02 B 01-09 M 01-16 B 01-22 K 01-23 MP 01-30 B",
+          "02-06 M 02-13 B 02-19 K 02-20 MP 02-27 B",
+          "03-06 M 03-13 B 03-19 K 03-20 MP 03-27 B",
+          "04-03 M 04-10 B 04-16 K 04-17 MP 04-24 B",
+          "05-01 M 05-08 B 05-15 M 05-21 K 05-22 BP 05-29 M",
+          "06-05 B 06-12 M 06-18 K 06-19 BP 06-26 M",
+          "07-03 B 07-10 M 07-16 K 07-17 BP 07-24 M 07-31 B",
+          "08-07 M 08-14 B 08-20 K 08-21 MP 08-28 B",
+          "09-04 M 09-11 B 09-17 K 09-18 MP 09-25 B",
+          "10-02 M 10-09 B 10-15 K 10-16 MP 10-22 G 10-23 BG 10-30 M",
+          "11-06 B 11-13 M 11-19 K 11-20 BP 11-27 M",
+          "12-04 B 12-11 M 12-17 K 12-18 BP 12-26 M!"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Gradište",
+      "podrucje": "Gradište – srijeda: B. Radića, Dr. M. Kadića, J. Lovretića …",
+      "ulice": ["B. Radića", "Dr. M. Kadića", "J. Lovretića", "K. Tomislava", "K. Zvonimira", "Malo brdo", "Nova", "Trg hrv. Velikana"],
+      "napomena": "Miješani otpad svaku drugu srijedu. Biootpad svaku drugu srijedu. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-02 K 01-07 M 01-09 P 01-14 B 01-21 M 01-28 B",
+          "02-04 M 02-06 K 02-11 B 02-13 P 02-18 M 02-25 B",
+          "03-04 M 03-06 K 03-11 B 03-13 P 03-18 M 03-25 B",
+          "04-01 M 04-03 K 04-08 B 04-10 P 04-15 M 04-22 B 04-29 M",
+          "05-01 K 05-06 B 05-08 P 05-13 M 05-20 B 05-27 M",
+          "06-03 B 06-05 K 06-10 M 06-12 P 06-17 B 06-23 G 06-24 M",
+          "07-01 B 07-03 K 07-08 M 07-10 P 07-15 B 07-22 M 07-29 B",
+          "08-05 M 08-07 K 08-12 B 08-14 P 08-19 M 08-26 B",
+          "09-02 M 09-04 K 09-09 B 09-11 P 09-16 M 09-23 B 09-30 M",
+          "10-02 K 10-07 B 10-09 P 10-14 M 10-21 B 10-28 M",
+          "11-04 B 11-06 K 11-11 M 11-13 P 11-18 B 11-25 M",
+          "12-02 B 12-04 K 12-09 M 12-11 P 12-16 B 12-23 M 12-30 B"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Gradište",
+      "podrucje": "Gradište – četvrtak: Bosutska, Grbavica, Kolodvorska …",
+      "ulice": ["Bosutska", "Grbavica", "Kolodvorska", "M. Gupca", "V. Nazora"],
+      "napomena": "Miješani otpad svaki drugi četvrtak. Biootpad svaku drugu srijedu. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-02 K 01-08 M 01-09 P 01-14 B 01-22 M 01-28 B",
+          "02-05 M 02-06 K 02-11 B 02-13 P 02-19 M 02-25 B",
+          "03-05 M 03-06 K 03-11 B 03-13 P 03-19 M 03-25 B",
+          "04-02 M 04-03 K 04-08 B 04-10 P 04-16 M 04-22 B 04-30 M",
+          "05-01 K 05-06 B 05-08 P 05-14 M 05-20 B 05-28 M",
+          "06-03 B 06-05 K 06-11 M 06-12 P 06-17 B 06-23 G 06-25 M",
+          "07-01 B 07-03 K 07-09 M 07-10 P 07-15 B 07-23 M 07-29 B",
+          "08-06 M 08-07 K 08-12 B 08-14 P 08-20 M 08-26 B",
+          "09-03 M 09-04 K 09-09 B 09-11 P 09-17 M 09-23 B",
+          "10-01 M 10-02 K 10-07 B 10-09 P 10-15 M 10-21 B 10-29 M",
+          "11-04 B 11-06 K 11-12 M 11-13 P 11-18 B 11-26 M",
+          "12-02 B 12-04 K 12-10 M 12-11 P 12-16 B 12-24 M 12-30 B"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Vrbanja",
+      "podrucje": "Vrbanja – četvrtak",
+      "ulice": ["Vrbanja"],
+      "napomena": "Miješani otpad četvrtkom. Biootpad četvrtkom (prema obavijesti, u kalendaru nije označen). Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-01 MB 01-08 MB 01-15 MB 01-22 MB 01-28 K 01-29 MB 01-30 P",
+          "02-05 MB 02-12 MB 02-19 MB 02-25 K 02-26 MB 02-27 P",
+          "03-05 MB 03-12 MB 03-19 MB 03-25 K 03-26 MB 03-27 P",
+          "04-02 MB 04-09 MB 04-16 MB 04-23 MB 04-24 P 04-27 G 04-29 K 04-30 MB",
+          "05-07 MB 05-14 MB 05-21 MB 05-27 K 05-28 MB 05-29 P",
+          "06-04 MB 06-11 MB 06-18 MB 06-24 K 06-25 MB 06-26 P",
+          "07-02 MB 07-09 MB 07-16 MB 07-23 MB 07-29 K 07-30 MB 07-31 P",
+          "08-06 MB 08-13 MB 08-20 MB 08-26 K 08-27 MB 08-28 P",
+          "09-03 MB 09-10 MB 09-17 MB 09-23 K 09-24 MB 09-25 P",
+          "10-01 MB 10-08 MB 10-15 MB 10-22 MB 10-28 K 10-29 MB 10-30 P",
+          "11-05 MB 11-12 MB 11-19 MB 11-25 K 11-26 MB 11-27 P",
+          "12-03 MB 12-10 MB 12-17 MB 12-24 MB 12-29 K! 12-30 M! 12-31 BP!"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Vrbanja",
+      "podrucje": "Soljani, Strošinci – srijeda",
+      "ulice": ["Soljani", "Strošinci"],
+      "napomena": "Miješani otpad srijedom. Biootpad četvrtkom (prema obavijesti, u kalendaru nije označen). Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-01 B 01-07 M 01-08 B 01-14 M 01-15 B 01-21 M 01-22 B 01-27 K 01-28 M 01-29 BP",
+          "02-04 M 02-05 B 02-11 M 02-12 B 02-18 M 02-19 B 02-24 K 02-25 M 02-26 BP",
+          "03-04 M 03-05 B 03-11 M 03-12 B 03-18 M 03-19 B 03-24 K 03-25 M 03-26 BP",
+          "04-01 M 04-02 B 04-08 M 04-09 B 04-15 M 04-16 B 04-22 M 04-23 BP 04-28 K 04-29 M 04-30 BG",
+          "05-06 M 05-07 B 05-13 M 05-14 B 05-20 M 05-21 B 05-26 K 05-27 M 05-28 BP",
+          "06-03 M 06-04 B 06-10 M 06-11 B 06-17 M 06-18 B 06-23 K 06-24 M 06-25 BP",
+          "07-01 M 07-02 B 07-08 M 07-09 B 07-15 M 07-16 B 07-22 M 07-23 B 07-28 K 07-29 M 07-30 BP",
+          "08-05 M 08-06 B 08-12 M 08-13 B 08-19 M 08-20 B 08-25 K 08-26 M 08-27 BP",
+          "09-02 M 09-03 B 09-09 M 09-10 B 09-16 M 09-17 B 09-22 K 09-23 M 09-24 BP 09-30 M",
+          "10-01 B 10-07 M 10-08 B 10-14 M 10-15 B 10-21 M 10-22 B 10-27 K 10-28 M 10-29 BP",
+          "11-04 M 11-05 B 11-11 M 11-12 B 11-18 M 11-19 B 11-24 K 11-25 M 11-26 BP",
+          "12-02 M 12-03 B 12-09 M 12-10 B 12-16 M 12-17 B 12-23 M 12-24 B 12-28 K! 12-29 M! 12-30 P! 12-31 B"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Babina Greda",
+      "podrucje": "Babina Greda – ponedjeljak: Štitarska, J. Kozarca Savska, K. Tomislava …",
+      "ulice": ["Štitarska", "J. Kozarca Savska", "K. Tomislava", "J. Blažekovića", "V. Nazora", "Nožice", "Novo Naselje", "Rastovica", "Sajmište", "B. I. Mažuranića", "Čevatovo", "J.J. Strossmayera", "J. B. Jelačića", "I. Preporoda", "Babogredske Kompanije", "Klasno", "Laze i Loža"],
+      "napomena": "Miješani otpad svaki drugi ponedjeljak. Biootpad svaki drugi ponedjeljak. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 B 01-19 M 01-26 B 01-27 K 01-30 P",
+          "02-02 M 02-09 B 02-16 M 02-23 B 02-24 K 02-27 P",
+          "03-02 M 03-09 B 03-16 M 03-23 B 03-24 K 03-27 P 03-30 M",
+          "04-06 B 04-13 M 04-20 B 04-21 K 04-24 P 04-27 M",
+          "05-04 B 05-11 M 05-18 B 05-19 K 05-22 P 05-25 M 05-27 G",
+          "06-01 B 06-08 M 06-15 B 06-16 K 06-19 P 06-22 M 06-29 B",
+          "07-06 M 07-13 B 07-20 M 07-27 B 07-28 K 07-31 P",
+          "08-03 M 08-10 B 08-17 M 08-24 B 08-25 K 08-28 P 08-31 M",
+          "09-07 B 09-14 M 09-21 B 09-22 K 09-25 P 09-28 M",
+          "10-05 B 10-12 M 10-19 B 10-20 K 10-23 P 10-26 M",
+          "11-02 B 11-09 M 11-16 B 11-17 K 11-20 P 11-23 M 11-30 B",
+          "12-07 M 12-14 B 12-15 K 12-18 P 12-21 M 12-28 B"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Babina Greda",
+      "podrucje": "Babina Greda – utorak: B. Radića, M. Gupca, M. A. Reljkovića …",
+      "ulice": ["B. Radića", "M. Gupca", "M. A. Reljkovića", "M. Stojanovića", "Petrov sokak", "Ulica Hrvatskih Dragovoljaca", "Savska (kod klesara"],
+      "napomena": "Miješani otpad svaki drugi utorak. Biootpad svaki drugi ponedjeljak. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-06 M 01-12 B 01-20 M 01-26 B 01-27 K 01-30 P",
+          "02-03 M 02-09 B 02-17 M 02-23 B 02-24 K 02-27 P",
+          "03-03 M 03-09 B 03-17 M 03-23 B 03-24 K 03-27 P 03-31 M",
+          "04-06 B 04-14 M 04-20 B 04-21 K 04-24 P 04-28 M",
+          "05-04 B 05-12 M 05-18 B 05-19 K 05-22 P 05-26 M 05-27 G",
+          "06-01 B 06-09 M 06-15 B 06-16 K 06-19 P 06-23 M 06-29 B",
+          "07-07 M 07-13 B 07-21 M 07-27 B 07-28 K 07-31 P",
+          "08-04 M 08-10 B 08-18 M 08-24 B 08-25 K 08-28 P",
+          "09-01 M 09-07 B 09-15 M 09-21 B 09-22 K 09-25 P 09-29 M",
+          "10-05 B 10-13 M 10-19 B 10-20 K 10-23 P 10-27 M",
+          "11-02 B 11-10 M 11-16 B 11-17 K 11-20 P 11-24 M 11-30 B",
+          "12-08 M 12-14 B 12-15 K 12-18 P 12-22 M 12-28 B"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Cerna",
+      "podrucje": "Šiškovci – srijeda",
+      "ulice": ["Šiškovci"],
+      "napomena": "Miješani otpad svaku drugu srijedu. Biootpad svaku drugu srijedu. Glomazni otpad na označeni datum uz prijavu najkasnije dan ranije.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 B 01-19 K 01-21 MP 01-28 B",
+          "02-04 M 02-11 B 02-16 K 02-18 MP 02-25 B",
+          "03-04 M 03-11 B 03-16 K 03-18 MP 03-25 B 03-31 G",
+          "04-01 M 04-08 B 04-15 M 04-20 K 04-22 BP 04-29 M",
+          "05-06 B 05-13 M 05-18 K 05-20 BP 05-27 M",
+          "06-03 B 06-10 M 06-15 K 06-17 BP 06-24 M",
+          "07-01 B 07-08 M 07-15 B 07-20 K 07-22 MP 07-29 B",
+          "08-05 M 08-12 B 08-17 K 08-19 MP 08-26 B",
+          "09-02 M 09-09 B 09-16 MG 09-23 B 09-28 K 09-30 MP",
+          "10-07 B 10-14 M 10-19 K 10-21 BP 10-28 M",
+          "11-04 B 11-11 M 11-16 K 11-18 BP 11-25 M",
+          "12-02 B 12-09 M 12-16 B 12-21 K 12-23 MP 12-30 B"
+        ]
+      }
+    }
+  }
+}

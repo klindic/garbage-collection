@@ -1,0 +1,121 @@
+{
+  "davatelj": "Komunalni servisi Popovača d.o.o.",
+  "web": "https://www.ksp.hr",
+  "izvor": "https://www.ksp.hr/informacije/raspored-odvoza-komunalnog-otpada",
+  "zupanija": "Sisačko-moslavačka",
+  "jls": ["Popovača"],
+  "nazivi": {"P": "Plastika (žuta kanta)", "K": "Papir i karton (plava kanta)", "M": "Miješani komunalni otpad (zelena kanta)"},
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno na dan ulice; plastika i papir jednom mjesečno na dan ulice u tjednu obojenom žuto (plastika) ili plavo (papir) u kalendaru.", "Kante treba iznijeti najkasnije do 7:00 sati na dan odvoza.", "Blagdani: kalendar ne pomiče odvoze; prema obavijestima tvrtke (6.4., 1.5., 4.6. i 22.6.2026.) odvoz na blagdan obavlja se po redovnom rasporedu. Za ostale blagdane pratite obavijesti na ksp.hr.", "Glomazni otpad: u rujnu, u tjednima 14.–18.9. i 21.–25.9. (narančasto u kalendaru). Kalendar ne navodi koji od ta dva tjedna vrijedi za koju ulicu, pa ti datumi nisu upisani.", "Biootpad se spominje u obavijestima, ali njegov raspored nije objavljen u kalendaru.", "Komunalni servisi Popovača, Kutinska ulica 12, tel. 044 353 592, info@ksp.hr."],
+  "zone": {
+    "1": {
+      "jls": "Popovača",
+      "podrucje": "Ponedjeljak – Donja Vlahinička, Popovača (Zagrebačka, Ul. Hrv. preporoda, …)",
+      "opis": "D. VLAHINIČKA - cijelo područje, POPOVAČA - Zagrebačka, Ul. Hrv. preporoda, Ul. Mije Stuparića, Ul. Josipa Badalića, Ul. J.Banderiera, Ul. Milke Trnine, Ul. Braće Weiss, Ul. Alojzija Stepinca, Ul. Nikole Tesle, Ul. Mate Lovraka, Sisačka (iz smjera centra do pruge), Moslavačka, Kolodvorska, Industrijska, Radnička, Ul. Hrv. branitelja, Ul. bana J. Jelačića, Ravnik, Ul. Stjepana Šajnovića",
+      "ulice": ["Donja Vlahinička", "Popovača", "Zagrebačka", "Ul. Hrv. preporoda", "Ul. Mije Stuparića", "Ul. Josipa Badalića", "Ul. J.Banderiera", "Ul. Milke Trnine", "Ul. Braće Weiss", "Ul. Alojzija Stepinca", "Ul. Nikole Tesle", "Ul. Mate Lovraka", "Sisačka (iz smjera centra do pruge)", "Moslavačka", "Kolodvorska", "Industrijska", "Radnička", "Ul. Hrv. branitelja", "Ul. bana J. Jelačića", "Ravnik", "Ul. Stjepana Šajnovića"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 MK 01-19 M 01-26 M",
+          "02-02 MP 02-09 MK 02-16 M 02-23 M",
+          "03-02 MP 03-09 MK 03-16 M 03-23 M 03-30 M",
+          "04-06 MP 04-13 MK 04-20 M 04-27 M",
+          "05-04 MP 05-11 MK 05-18 M 05-25 M",
+          "06-01 MP 06-08 MK 06-15 M 06-22 M 06-29 M",
+          "07-06 MP 07-13 MK 07-20 M 07-27 M",
+          "08-03 MP 08-10 MK 08-17 M 08-24 M 08-31 MP",
+          "09-07 MK 09-14 M 09-21 M 09-28 M",
+          "10-05 MP 10-12 MK 10-19 M 10-26 M",
+          "11-02 MP 11-09 MK 11-16 M 11-23 M 11-30 M",
+          "12-07 MP 12-14 MK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Popovača",
+      "podrucje": "Utorak – Moslavačka Slatina, Popovača (Ribnjača, Ul. sv.Huberta, …)",
+      "opis": "M. SLATINA - cijelo područje, POPOVAČA - Ribnjača, Ul. sv.Huberta, Ul. LJ. Vukotinovića, Slatinska, Ul. Čupora Moslavačkih, Ul. Tome Bakača, Mikulanica, Vinogradska Mikulanica, Ul. Ivana Pergošića, Ul. dr. Slavka Polaka i odvojci, Vinogradska ulica, Ul. Zorke Sever, Raičevac, Nemčićeva ulica, Trg g. Erdödyja, Kutinska ulica, Ul. Ruža, Ul. Jorgovana, Ul. Jaglaca, Ul. Garićkih Pavlina, Ul. Trnovka, Mučnjakova ulica, Gaborčina, Ul. kraljice Vinograda",
+      "ulice": ["Moslavačka Slatina", "Popovača", "Ribnjača", "Ul. sv.Huberta", "Ul. LJ. Vukotinovića", "Slatinska", "Ul. Čupora Moslavačkih", "Ul. Tome Bakača", "Mikulanica", "Vinogradska Mikulanica", "Ul. Ivana Pergošića", "Ul. dr. Slavka Polaka i odvojci", "Vinogradska ulica", "Ul. Zorke Sever", "Raičevac", "Nemčićeva ulica", "Trg g. Erdödyja", "Kutinska ulica", "Ul. Ruža", "Ul. Jorgovana", "Ul. Jaglaca", "Ul. Garićkih Pavlina", "Ul. Trnovka", "Mučnjakova ulica", "Gaborčina", "Ul. kraljice Vinograda"],
+      "raw": {
+        "2026": [
+          "01-06 MP 01-13 MK 01-20 M 01-27 M",
+          "02-03 MP 02-10 MK 02-17 M 02-24 M",
+          "03-03 MP 03-10 MK 03-17 M 03-24 M 03-31 M",
+          "04-07 MP 04-14 MK 04-21 M 04-28 M",
+          "05-05 MP 05-12 MK 05-19 M 05-26 M",
+          "06-02 MP 06-09 MK 06-16 M 06-23 M 06-30 M",
+          "07-07 MP 07-14 MK 07-21 M 07-28 M",
+          "08-04 MP 08-11 MK 08-18 M 08-25 M",
+          "09-01 MP 09-08 MK 09-15 M 09-22 M 09-29 M",
+          "10-06 MP 10-13 MK 10-20 M 10-27 M",
+          "11-03 MP 11-10 MK 11-17 M 11-24 M",
+          "12-01 M 12-08 MP 12-15 MK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Popovača",
+      "podrucje": "Srijeda – Gornja Jelenska, Podbrđe, Popovača (Ul. Trnajec, Ul. Krmelovac, …), Voloder (Zagrebačka, Ul. Graševina, …)",
+      "opis": "G. JELENSKA - cijelo područje, PODBRĐE - cijelo područje, POPOVAČA - Ul. Trnajec, Ul. Krmelovac, Voćarska ulica, Jelengradska ulica, Veliko brdo, VOLODER - Zagrebačka, Ul. Graševina, Ul. Frankovke, Ul. Lešćak, Ul. Moslavca, Ul.Gospođica, Ul.Muškata, Ul. Škrleta, Ul. Maksimilijana Juranića, Kolodvorska, Ul. Donji Krivaj, Ul. Mate Vezmara, Ul. sv. Barbare, Trg sv. Antuna",
+      "ulice": ["Gornja Jelenska", "Podbrđe", "Popovača", "Ul. Trnajec", "Ul. Krmelovac", "Voćarska ulica", "Jelengradska ulica", "Veliko brdo", "Voloder", "Zagrebačka", "Ul. Graševina", "Ul. Frankovke", "Ul. Lešćak", "Ul. Moslavca", "Ul.Gospođica", "Ul.Muškata", "Ul. Škrleta", "Ul. Maksimilijana Juranića", "Kolodvorska", "Ul. Donji Krivaj", "Ul. Mate Vezmara", "Ul. sv. Barbare", "Trg sv. Antuna"],
+      "raw": {
+        "2026": [
+          "01-07 MP 01-14 MK 01-21 M 01-28 M",
+          "02-04 MP 02-11 MK 02-18 M 02-25 M",
+          "03-04 MP 03-11 MK 03-18 M 03-25 M",
+          "04-01 M 04-08 MP 04-15 MK 04-22 M 04-29 M",
+          "05-06 MP 05-13 MK 05-20 M 05-27 M",
+          "06-03 MP 06-10 MK 06-17 M 06-24 M",
+          "07-01 M 07-08 MP 07-15 MK 07-22 M 07-29 M",
+          "08-05 MP 08-12 MK 08-19 M 08-26 M",
+          "09-02 MP 09-09 MK 09-16 M 09-23 M 09-30 M",
+          "10-07 MP 10-14 MK 10-21 M 10-28 M",
+          "11-04 MP 11-11 MK 11-18 M 11-25 M",
+          "12-02 M 12-09 MP 12-16 MK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Popovača",
+      "podrucje": "Četvrtak – Voloder (Moslavačka ulica, Manceova ulica, …), Gornja Gračenica, Donja Gračenica, Ciglenica",
+      "opis": "VOLODER - Moslavačka ulica, Manceova ulica, Ul. Vjekoslava Kocha, Ul. Veliki Borik, Mali Borik, Gornji Krivaj, Hrušovljani, Raskrižje, Ul. sv. Josipa, G. GRAČENICA - cijelo područje, D. GRAČENICA - cijelo područje, CIGLENICA - cijelo područje",
+      "ulice": ["Voloder", "Moslavačka ulica", "Manceova ulica", "Ul. Vjekoslava Kocha", "Ul. Veliki Borik", "Mali Borik", "Gornji Krivaj", "Hrušovljani", "Raskrižje", "Ul. sv. Josipa", "Gornja Gračenica", "Donja Gračenica", "Ciglenica"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MP 01-15 MK 01-22 M 01-29 M",
+          "02-05 MP 02-12 MK 02-19 M 02-26 M",
+          "03-05 MP 03-12 MK 03-19 M 03-26 M",
+          "04-02 M 04-09 MP 04-16 MK 04-23 M 04-30 M",
+          "05-07 MP 05-14 MK 05-21 M 05-28 M",
+          "06-04 MP 06-11 MK 06-18 M 06-25 M",
+          "07-02 M 07-09 MP 07-16 MK 07-23 M 07-30 M",
+          "08-06 MP 08-13 MK 08-20 M 08-27 M",
+          "09-03 MP 09-10 MK 09-17 M 09-24 M",
+          "10-01 M 10-08 MP 10-15 MK 10-22 M 10-29 M",
+          "11-05 MP 11-12 MK 11-19 M 11-26 M",
+          "12-03 M 12-10 MP 12-17 MK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Popovača",
+      "podrucje": "Petak – Popovača (Sisačka (od pruge prema Potoku)), Potok, Donja Jelenska, Stružec, Osekovo",
+      "opis": "POPOVAČA - Sisačka (od pruge prema Potoku), POTOK - cijelo područje, DONJA JELENSKA - cijelo područje, STRUŽEC - cijelo područje, OSEKOVO - cijelo područje",
+      "ulice": ["Popovača", "Sisačka (od pruge prema Potoku)", "Potok", "Donja Jelenska", "Stružec", "Osekovo"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MP 01-16 MK 01-23 M 01-30 M",
+          "02-06 MP 02-13 MK 02-20 M 02-27 M",
+          "03-06 MP 03-13 MK 03-20 M 03-27 M",
+          "04-03 M 04-10 MP 04-17 MK 04-24 M",
+          "05-01 M 05-08 MP 05-15 MK 05-22 M 05-29 M",
+          "06-05 MP 06-12 MK 06-19 M 06-26 M",
+          "07-03 M 07-10 MP 07-17 MK 07-24 M 07-31 M",
+          "08-07 MP 08-14 MK 08-21 M 08-28 M",
+          "09-04 MP 09-11 MK 09-18 M 09-25 M",
+          "10-02 M 10-09 MP 10-16 MK 10-23 M 10-30 M",
+          "11-06 MP 11-13 MK 11-20 M 11-27 M",
+          "12-04 M 12-11 MP 12-18 MK 12-25 M"
+        ]
+      }
+    }
+  }
+}

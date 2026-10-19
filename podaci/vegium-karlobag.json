@@ -1,0 +1,94 @@
+{
+  "davatelj": "Vegium d.o.o. Karlobag",
+  "web": "https://www.vegium.hr",
+  "izvor": "https://www.vegium.hr/odvoz_komunalnog_otpada_karlobag.php",
+  "zupanija": "Ličko-senjska",
+  "jls": ["Karlobag"],
+  "napomene": ["Objavljen je samo raspored odvoza miješanog komunalnog otpada (zimski od 1.10. do 31.5., ljetni od 1.6. do 30.9.); raspored nema godinu pa vrijedi dok se ne promijeni.", "Pomaci zbog blagdana nisu objavljeni; datumi su izračunati po danima u tjednu.", "Krupni (glomazni) otpad: vidi stranicu \"Odvoz krupnog otpada\" na vegium.hr. Vegium: 053 694 017, vegium.karlobag@gmail.com."],
+  "zone": {
+    "1": {
+      "jls": "Karlobag",
+      "podrucje": "Karlobag (centar) – zimi ponedjeljak, utorak i petak, ljeti ponedjeljak, četvrtak i subota",
+      "ulice": ["Karlobag (centar)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-06 M 01-09 M 01-12 M 01-13 M 01-16 M 01-19 M 01-20 M 01-23 M 01-26 M 01-27 M 01-30 M",
+          "02-02 M 02-03 M 02-06 M 02-09 M 02-10 M 02-13 M 02-16 M 02-17 M 02-20 M 02-23 M 02-24 M 02-27 M",
+          "03-02 M 03-03 M 03-06 M 03-09 M 03-10 M 03-13 M 03-16 M 03-17 M 03-20 M 03-23 M 03-24 M 03-27 M 03-30 M 03-31 M",
+          "04-03 M 04-06 M 04-07 M 04-10 M 04-13 M 04-14 M 04-17 M 04-20 M 04-21 M 04-24 M 04-27 M 04-28 M",
+          "05-01 M 05-04 M 05-05 M 05-08 M 05-11 M 05-12 M 05-15 M 05-18 M 05-19 M 05-22 M 05-25 M 05-26 M 05-29 M",
+          "06-01 M 06-04 M 06-06 M 06-08 M 06-11 M 06-13 M 06-15 M 06-18 M 06-20 M 06-22 M 06-25 M 06-27 M 06-29 M",
+          "07-02 M 07-04 M 07-06 M 07-09 M 07-11 M 07-13 M 07-16 M 07-18 M 07-20 M 07-23 M 07-25 M 07-27 M 07-30 M",
+          "08-01 M 08-03 M 08-06 M 08-08 M 08-10 M 08-13 M 08-15 M 08-17 M 08-20 M 08-22 M 08-24 M 08-27 M 08-29 M 08-31 M",
+          "09-03 M 09-05 M 09-07 M 09-10 M 09-12 M 09-14 M 09-17 M 09-19 M 09-21 M 09-24 M 09-26 M 09-28 M",
+          "10-02 M 10-05 M 10-06 M 10-09 M 10-12 M 10-13 M 10-16 M 10-19 M 10-20 M 10-23 M 10-26 M 10-27 M 10-30 M",
+          "11-02 M 11-03 M 11-06 M 11-09 M 11-10 M 11-13 M 11-16 M 11-17 M 11-20 M 11-23 M 11-24 M 11-27 M 11-30 M",
+          "12-01 M 12-04 M 12-07 M 12-08 M 12-11 M 12-14 M 12-15 M 12-18 M 12-21 M 12-22 M 12-25 M 12-28 M 12-29 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Karlobag",
+      "podrucje": "Karlobag (izvan centra), Vidovac – zimi ponedjeljak, ljeti ponedjeljak i četvrtak",
+      "ulice": ["Karlobag (izvan centra)", "Vidovac"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-04 M 06-08 M 06-11 M 06-15 M 06-18 M 06-22 M 06-25 M 06-29 M",
+          "07-02 M 07-06 M 07-09 M 07-13 M 07-16 M 07-20 M 07-23 M 07-27 M 07-30 M",
+          "08-03 M 08-06 M 08-10 M 08-13 M 08-17 M 08-20 M 08-24 M 08-27 M 08-31 M",
+          "09-03 M 09-07 M 09-10 M 09-14 M 09-17 M 09-21 M 09-24 M 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Karlobag",
+      "podrucje": "Ribarica, Cesarica – zimi utorak, ljeti utorak i petak",
+      "ulice": ["Ribarica", "Cesarica"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-28 M",
+          "05-05 M 05-12 M 05-19 M 05-26 M",
+          "06-02 M 06-05 M 06-09 M 06-12 M 06-16 M 06-19 M 06-23 M 06-26 M 06-30 M",
+          "07-03 M 07-07 M 07-10 M 07-14 M 07-17 M 07-21 M 07-24 M 07-28 M 07-31 M",
+          "08-04 M 08-07 M 08-11 M 08-14 M 08-18 M 08-21 M 08-25 M 08-28 M",
+          "09-01 M 09-04 M 09-08 M 09-11 M 09-15 M 09-18 M 09-22 M 09-25 M 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Karlobag",
+      "podrucje": "Lukovo Šugarje, Barić Draga, Sv. Marija Magdalena, Sušanj, Ledenik, Kućišta, Baške Oštarije – zimi petak, ljeti srijeda i subota",
+      "ulice": ["Lukovo Šugarje", "Barić Draga", "Sv. Marija Magdalena", "Sušanj", "Ledenik", "Kućišta", "Baške Oštarije"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-24 M",
+          "05-01 M 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-03 M 06-06 M 06-10 M 06-13 M 06-17 M 06-20 M 06-24 M 06-27 M",
+          "07-01 M 07-04 M 07-08 M 07-11 M 07-15 M 07-18 M 07-22 M 07-25 M 07-29 M",
+          "08-01 M 08-05 M 08-08 M 08-12 M 08-15 M 08-19 M 08-22 M 08-26 M 08-29 M",
+          "09-02 M 09-05 M 09-09 M 09-12 M 09-16 M 09-19 M 09-23 M 09-26 M 09-30 M",
+          "10-02 M 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-25 M"
+        ]
+      }
+    }
+  }
+}

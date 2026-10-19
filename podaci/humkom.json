@@ -1,0 +1,58 @@
+{
+  "davatelj": "Humkom d.o.o.",
+  "web": "https://humkom.hr",
+  "izvor": "https://humkom.hr/gospodarenje-otpadom/",
+  "zupanija": "Krapinsko-zagorska",
+  "jls": ["Hum na Sutli"],
+  "nazivi": {"M": "Miješani komunalni otpad (zeleni spremnik)", "P": "Plastika (žuti spremnik)", "K": "Papir i karton (plavi spremnik)", "L": "Metalna ambalaža (PVC vreće)"},
+  "bioNapomena": "Biootpad (smeđi spremnik) nije u kalendaru odvoza; informacije 049/340-097.",
+  "napomene": ["Miješani komunalni otpad odvozi se svaki drugi tjedan: utorkom na trasi UTORAK, četvrtkom na trasi ČETVRTAK. Plastika, papir i metalna ambalaža odvoze se ponedjeljkom za cijelu općinu prema kalendaru.", "Prema kalendaru razmak između dva odvoza miješanog otpada ponegdje je tri tjedna (17.3. → 7.4., 19.3. → 9.4.), a posljednji odvoz u godini je 15.12. odnosno 17.12.; u nedoumici provjerite kod Humkoma.", "Blagdani su u kalendaru označeni crveno, a zamjenski dan odvoza obojen; takvi su datumi označeni kao premješteni.", "Staklo: kontejneri u Lupinjaku (kod Debeljaka), Klenovcu (nasuprot Cantine), Humu gornjem (raskrižje za Vrbišnicu) i Malom Taboru (poslovna zgrada Humkoma).", "Reciklažno dvorište: svake srijede od 9 do 17 sati i svake prve subote u mjesecu od 8 do 16 sati.", "Informacije: 049/340-097, humkom@humkom.hr."],
+  "zone": {
+    "1": {
+      "jls": "Hum na Sutli",
+      "podrucje": "Trasa utorak – Lupinjak, Strmec, Klenovec, Hum na Sutli …",
+      "opis": "Lupinjak – Strmec – Klenovec - Hum na Sutli - Vrbišnica - Orešje - Rusnica - Druškovec",
+      "ulice": ["Lupinjak", "Strmec", "Klenovec", "Hum na Sutli", "Vrbišnica", "Orešje", "Rusnica", "Druškovec"],
+      "napomena": "Druškovec i Hum na Sutli nalaze se na obje trase; trasu svoje kuće provjerite kod Humkoma.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-12 P 01-20 M 01-26 K",
+          "02-03 M 02-09 P 02-16 L 02-17 M 02-23 K",
+          "03-03 M 03-09 P 03-17 M 03-23 K",
+          "04-07 M 04-13 P 04-21 M 04-27 K",
+          "05-05 M 05-11 P 05-18 L 05-19 M 05-25 K",
+          "06-02 M 06-08 P 06-16 M 06-23 K! 06-30 M",
+          "07-06 P 07-14 M 07-20 K 07-28 M",
+          "08-03 P 08-11 M 08-17 K 08-25 M 08-31 L",
+          "09-08 M 09-14 P 09-22 M 09-28 K",
+          "10-06 M 10-12 P 10-20 M 10-26 K",
+          "11-03 M 11-09 P 11-17 M 11-23 K 11-30 L",
+          "12-01 M 12-07 P 12-15 M 12-21 K"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Hum na Sutli",
+      "podrucje": "Trasa četvrtak – Druškovec, Druškovec Gora, Grletinec, Lastine …",
+      "opis": "Druškovec- Druškovec Gora – Grletinec – Lastine - Hum na Sutli (Drajža) - Prišlin - Mal Poredje – Zalug -Brezno Gora -Gornje Brezno - Donje Brezno",
+      "ulice": ["Druškovec", "Druškovec Gora", "Grletinec", "Lastine", "Hum na Sutli (Drajža)", "Prišlin", "Mal Poredje", "Zalug", "Brezno Gora", "Gornje Brezno", "Donje Brezno"],
+      "napomena": "Druškovec i Hum na Sutli nalaze se na obje trase; trasu svoje kuće provjerite kod Humkoma. U rasporedu piše „Mal Poredje” (vjerojatno Mali Tabor i Poredje).",
+      "raw": {
+        "2026": [
+          "01-08 M 01-12 P 01-22 M 01-26 K",
+          "02-05 M 02-09 P 02-16 L 02-19 M 02-23 K",
+          "03-05 M 03-09 P 03-19 M 03-23 K",
+          "04-09 M 04-13 P 04-23 M 04-27 K",
+          "05-07 M 05-11 P 05-18 L 05-21 M 05-25 K",
+          "06-05 M! 06-08 P 06-18 M 06-23 K!",
+          "07-02 M 07-06 P 07-16 M 07-20 K 07-30 M",
+          "08-03 P 08-13 M 08-17 K 08-27 M 08-31 L",
+          "09-10 M 09-14 P 09-24 M 09-28 K",
+          "10-08 M 10-12 P 10-22 M 10-26 K",
+          "11-05 M 11-09 P 11-19 M 11-23 K 11-30 L",
+          "12-03 M 12-07 P 12-17 M 12-21 K"
+        ]
+      }
+    }
+  }
+}

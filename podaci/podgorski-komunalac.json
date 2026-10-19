@@ -1,0 +1,116 @@
+{
+  "davatelj": "Podgorski komunalac d.o.o.",
+  "web": "https://podgorski-komunalac.hr",
+  "izvor": "https://podgorski-komunalac.hr/kalendar-odvoza-otpada",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Podgora"],
+  "nazivi": {"P": "Reciklabilni otpad"},
+  "napomene": ["Kalendar miješanog otpada objavljuje se na webu od tekućeg dana unaprijed (popunjen obično do kraja mjeseca); upisani su dani koji su bili objavljeni kad je skripta pokrenuta.", "Veliki kamion: raspored vrijedi za Podgoru, a u Igranima, Drašnicama i Živogošću miješani otpad preuzima se dan poslije. Mali kamion skuplja u užim ulicama svih naselja.", "Od 15.06. kućanstva se prazne svaki drugi dan, gospodarstva svaki dan.", "Reciklabilni otpad: dva puta mjesečno zimi (sva naselja zajedno), ljeti svaki tjedan.", "Kontakt: 099 6047771, podgorski.komunalac@podgora.hr."],
+  "zone": {
+    "1": {
+      "jls": "Podgora",
+      "podrucje": "Podgora – veliki kamion",
+      "ulice": ["Podgora"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-21 P",
+          "02-04 P 02-18 P",
+          "03-04 P 03-18 P",
+          "04-01 P 04-15 P 04-29 P",
+          "05-13 P 05-27 P",
+          "06-03 P 06-10 P 06-17 P 06-24 P",
+          "07-01 P 07-08 P 07-15 P 07-22 P 07-29 P",
+          "08-05 P 08-12 P 08-19 P 08-26 P",
+          "09-02 P 09-09 P 09-16 P 09-23 P 09-30 P",
+          "10-07 P 10-09 M 10-11 M 10-13 M 10-14 P 10-15 M 10-17 M 10-19 M 10-21 MP 10-23 M 10-26 M 10-28 MP 10-30 M",
+          "11-04 P 11-19 P!",
+          "12-02 P 12-16 P"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Podgora",
+      "podrucje": "Drašnice – veliki kamion (dan poslije Podgore)",
+      "ulice": ["Drašnice"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-21 P",
+          "02-04 P 02-18 P",
+          "03-04 P 03-18 P",
+          "04-01 P 04-15 P 04-29 P",
+          "05-13 P 05-27 P",
+          "06-03 P 06-10 P 06-17 P 06-24 P",
+          "07-01 P 07-08 P 07-15 P 07-22 P 07-29 P",
+          "08-05 P 08-12 P 08-19 P 08-26 P",
+          "09-02 P 09-09 P 09-16 P 09-23 P 09-30 P",
+          "10-07 P 10-10 M 10-12 M 10-14 MP 10-16 M 10-20 M 10-21 P 10-22 M 10-24 M 10-27 M 10-28 P 10-29 M 10-31 M",
+          "11-04 P 11-19 P!",
+          "12-02 P 12-16 P"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Podgora",
+      "podrucje": "Igrane, Živogošće – veliki kamion (dan poslije Podgore)",
+      "ulice": ["Igrane", "Živogošće"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-21 P",
+          "02-04 P 02-18 P",
+          "03-05 P 03-19 P",
+          "04-02 P 04-16 P 04-30 P",
+          "05-14 P 05-28 P",
+          "06-05 P! 06-11 P 06-18 P 06-25 P",
+          "07-02 P 07-09 P 07-16 P 07-23 P 07-30 P",
+          "08-06 P 08-13 P 08-20 P 08-27 P",
+          "09-03 P 09-10 P 09-17 P 09-24 P",
+          "10-01 P 10-08 P 10-10 M 10-12 M 10-14 M 10-15 P 10-16 M 10-20 M 10-22 MP 10-24 M 10-27 M 10-29 MP 10-31 M",
+          "11-04 P 11-19 P!",
+          "12-02 P 12-16 P"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Podgora",
+      "podrucje": "Podgora, Drašnice – uže ulice (mali kamion)",
+      "ulice": ["Podgora", "Drašnice"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-21 P",
+          "02-04 P 02-18 P",
+          "03-04 P 03-18 P",
+          "04-01 P 04-15 P 04-29 P",
+          "05-13 P 05-27 P",
+          "06-03 P 06-10 P 06-17 P 06-24 P",
+          "07-01 P 07-08 P 07-15 P 07-22 P 07-29 P",
+          "08-05 P 08-12 P 08-19 P 08-26 P",
+          "09-02 P 09-09 P 09-16 P 09-23 P 09-30 P",
+          "10-07 P 10-08 M 10-10 M 10-12 M 10-14 MP 10-16 M 10-20 M 10-21 P 10-22 M 10-24 M 10-27 M 10-28 P 10-29 M 10-31 M",
+          "11-04 P 11-19 P!",
+          "12-02 P 12-16 P"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Podgora",
+      "podrucje": "Igrane, Živogošće – uže ulice (mali kamion)",
+      "ulice": ["Igrane", "Živogošće"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-21 P",
+          "02-04 P 02-18 P",
+          "03-05 P 03-19 P",
+          "04-02 P 04-16 P 04-30 P",
+          "05-14 P 05-28 P",
+          "06-05 P! 06-11 P 06-18 P 06-25 P",
+          "07-02 P 07-09 P 07-16 P 07-23 P 07-30 P",
+          "08-06 P 08-13 P 08-20 P 08-27 P",
+          "09-03 P 09-10 P 09-17 P 09-24 P",
+          "10-01 P 10-08 MP 10-10 M 10-12 M 10-14 M 10-15 P 10-16 M 10-20 M 10-22 MP 10-24 M 10-27 M 10-29 MP 10-31 M",
+          "11-04 P 11-19 P!",
+          "12-02 P 12-16 P"
+        ]
+      }
+    }
+  }
+}

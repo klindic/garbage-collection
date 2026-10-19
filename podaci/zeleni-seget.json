@@ -1,0 +1,77 @@
+{
+  "davatelj": "Zeleni Seget d.o.o.",
+  "web": "https://zeleniseget.hr",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Seget"],
+  "nazivi": {"K": "Papir (plavi spremnik)", "P": "Plastika (žuti spremnik)"},
+  "izvor": "https://zeleniseget.hr/wp/?page_id=8952",
+  "napomene": ["Datumi su iz godišnjeg kalendara odvoza (PDF); papir i plastika od svibnja do listopada odvoze se svaki tjedan, a ostatak godine svaki drugi tjedan (naizmjence Donji/Vranjica i Zagora).", "Na stranici piše da je aktualni (ljetni) raspored privremeno produžen; ako vrijedi i nakon listopada, papir i plastika mogli bi se i dalje odvoziti tjedno – provjerite obavijesti na zeleniseget.hr.", "Sezonski subotnji odvoz miješanog otpada (ljubičasto u kalendaru) obavlja se po dogovoru za hotele i restorane, ne za kućanstva i iznajmljivače, pa nije upisan.", "Prema kalendaru otpad se odvozi i blagdanima; pomaknutih datuma nema.", "Mobilno reciklažno dvorište za Zagoru srijedom 9–13 sati: Seget Gornji (kod Doma) 1., Bristivica (kod groblja) 2., Prapatnica (kod groblja) 3., Ljubitovica (kod škole) 4. srijeda u mjesecu.", "Zeleni otok, Ulica kralja Zvonimira 60: utorak 8–13, četvrtak 11–17 sati.", "Zeleni Seget d.o.o., Trg hrvatskog viteza Špire Ševe Frzelina 1, Seget Donji; 021/880-037, info@zeleniseget.hr.", "Kalendar: https://zeleniseget.hr/wp/wp-content/uploads/2025/12/ZS_odvoz_kalendar_2026.pdf"],
+  "zone": {
+    "1": {
+      "jls": "Seget",
+      "podrucje": "Seget Vranjica",
+      "ulice": ["Seget Vranjica"],
+      "napomena": "Miješani otpad: ponedjeljak, četvrtak; papir: utorak, plastika: petak (prema kalendaru tjedno ili svaki drugi tjedan).",
+      "raw": {
+        "2026": [
+          "01-01 M 01-05 M 01-06 K 01-08 M 01-09 P 01-12 M 01-15 M 01-19 M 01-20 K 01-22 M 01-23 P 01-26 M 01-29 M",
+          "02-02 M 02-03 K 02-05 M 02-06 P 02-09 M 02-12 M 02-16 M 02-17 K 02-19 M 02-20 P 02-23 M 02-26 M",
+          "03-02 M 03-03 K 03-05 M 03-06 P 03-09 M 03-12 M 03-16 M 03-17 K 03-19 M 03-20 P 03-23 M 03-26 M 03-30 M 03-31 K",
+          "04-02 M 04-03 P 04-06 M 04-09 M 04-13 M 04-14 K 04-16 M 04-17 P 04-20 M 04-23 M 04-27 M 04-28 K 04-30 M",
+          "05-01 P 05-04 M 05-05 K 05-07 M 05-08 P 05-11 M 05-12 K 05-14 M 05-15 P 05-18 M 05-19 K 05-21 M 05-22 P 05-25 M 05-26 K 05-28 M 05-29 P",
+          "06-01 M 06-02 K 06-04 M 06-05 P 06-08 M 06-09 K 06-11 M 06-12 P 06-15 M 06-16 K 06-18 M 06-19 P 06-22 M 06-23 K 06-25 M 06-26 P 06-29 M 06-30 K",
+          "07-02 M 07-03 P 07-06 M 07-07 K 07-09 M 07-10 P 07-13 M 07-14 K 07-16 M 07-17 P 07-20 M 07-21 K 07-23 M 07-24 P 07-27 M 07-28 K 07-30 M 07-31 P",
+          "08-03 M 08-04 K 08-06 M 08-07 P 08-10 M 08-11 K 08-13 M 08-14 P 08-17 M 08-18 K 08-20 M 08-21 P 08-24 M 08-25 K 08-27 M 08-28 P 08-31 M",
+          "09-01 K 09-03 M 09-04 P 09-07 M 09-08 K 09-10 M 09-11 P 09-14 M 09-15 K 09-17 M 09-18 P 09-21 M 09-22 K 09-24 M 09-25 P 09-28 M 09-29 K",
+          "10-01 M 10-02 P 10-05 M 10-06 K 10-08 M 10-09 P 10-12 M 10-13 K 10-15 M 10-16 P 10-19 M 10-20 K 10-22 M 10-23 P 10-26 M 10-27 K 10-29 M 10-30 P",
+          "11-02 M 11-05 M 11-09 M 11-10 K 11-12 M 11-13 P 11-16 M 11-19 M 11-23 M 11-24 K 11-26 M 11-27 P 11-30 M",
+          "12-03 M 12-07 M 12-08 K 12-10 M 12-11 P 12-14 M 12-17 M 12-21 M 12-22 K 12-24 M 12-25 P 12-28 M 12-31 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Seget",
+      "podrucje": "Seget Donji",
+      "ulice": ["Seget Donji"],
+      "napomena": "Miješani otpad: utorak, petak; papir: ponedjeljak, plastika: četvrtak (prema kalendaru tjedno ili svaki drugi tjedan).",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 K 01-06 M 01-08 P 01-09 M 01-13 M 01-16 M 01-19 K 01-20 M 01-22 P 01-23 M 01-27 M 01-30 M",
+          "02-02 K 02-03 M 02-05 P 02-06 M 02-10 M 02-13 M 02-16 K 02-17 M 02-19 P 02-20 M 02-24 M 02-27 M",
+          "03-02 K 03-03 M 03-05 P 03-06 M 03-10 M 03-13 M 03-16 K 03-17 M 03-19 P 03-20 M 03-24 M 03-27 M 03-30 K 03-31 M",
+          "04-02 P 04-03 M 04-07 M 04-10 M 04-13 K 04-14 M 04-16 P 04-17 M 04-21 M 04-24 M 04-27 K 04-28 M 04-30 P",
+          "05-01 M 05-04 K 05-05 M 05-07 P 05-08 M 05-11 K 05-12 M 05-14 P 05-15 M 05-18 K 05-19 M 05-21 P 05-22 M 05-25 K 05-26 M 05-28 P 05-29 M",
+          "06-01 K 06-02 M 06-04 P 06-05 M 06-08 K 06-09 M 06-11 P 06-12 M 06-15 K 06-16 M 06-18 P 06-19 M 06-22 K 06-23 M 06-25 P 06-26 M 06-29 K 06-30 M",
+          "07-02 P 07-03 M 07-06 K 07-07 M 07-09 P 07-10 M 07-13 K 07-14 M 07-16 P 07-17 M 07-20 K 07-21 M 07-23 P 07-24 M 07-27 K 07-28 M 07-30 P 07-31 M",
+          "08-03 K 08-04 M 08-06 P 08-07 M 08-10 K 08-11 M 08-13 P 08-14 M 08-17 K 08-18 M 08-20 P 08-21 M 08-24 K 08-25 M 08-27 P 08-28 M 08-31 K",
+          "09-01 M 09-03 P 09-04 M 09-07 K 09-08 M 09-10 P 09-11 M 09-14 K 09-15 M 09-17 P 09-18 M 09-21 K 09-22 M 09-24 P 09-25 M 09-28 K 09-29 M",
+          "10-01 P 10-02 M 10-05 K 10-06 M 10-08 P 10-09 M 10-12 K 10-13 M 10-15 P 10-16 M 10-19 K 10-20 M 10-22 P 10-23 M 10-26 K 10-27 M 10-29 P 10-30 M",
+          "11-03 M 11-06 M 11-09 K 11-10 M 11-12 P 11-13 M 11-17 M 11-20 M 11-23 K 11-24 M 11-26 P 11-27 M",
+          "12-01 M 12-04 M 12-07 K 12-08 M 12-10 P 12-11 M 12-15 M 12-18 M 12-21 K 12-22 M 12-24 P 12-25 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Seget",
+      "podrucje": "Zagora (Bristivica, Prapatnica, Ljubitovica, Seget Gornji)",
+      "ulice": ["Bristivica", "Prapatnica", "Ljubitovica", "Seget Gornji"],
+      "napomena": "Miješani otpad: srijeda; papir: ponedjeljak, plastika: četvrtak (prema kalendaru tjedno ili svaki drugi tjedan).",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-09 K 02-11 M 02-12 P 02-18 M 02-23 K 02-25 M 02-26 P",
+          "03-04 M 03-09 K 03-11 M 03-12 P 03-18 M 03-23 K 03-25 M 03-26 P",
+          "04-01 M 04-06 K 04-08 M 04-09 P 04-15 M 04-20 K 04-22 M 04-23 P 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-24 M",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-05 M 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-28 M",
+          "11-02 K 11-04 M 11-05 P 11-11 M 11-16 K 11-18 M 11-19 P 11-25 M 11-30 K",
+          "12-02 M 12-03 P 12-09 M 12-14 K 12-16 M 12-17 P 12-23 M 12-28 K 12-30 M 12-31 P"
+        ]
+      }
+    }
+  }
+}

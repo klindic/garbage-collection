@@ -1,0 +1,143 @@
+{
+  "davatelj": "Komunalno Stari Grad d.o.o.",
+  "web": "https://komunalno-stari-grad.hr",
+  "izvor": "https://komunalno-stari-grad.hr/servisne-informacije/odvoz-otpada",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Stari Grad"],
+  "nazivi": {"K": "Papir i karton (plavi spremnik)", "P": "Plastika (žuti spremnik)", "S": "Staklo (vreća za staklo)"},
+  "napomene": ["Raspored prema pravilima iz 2022.; davatelj nije objavio novi raspored – provjerite prije odlaganja.", "Svako područje ima dva odvoza tjedno: miješani otpad s papirom i kartonom te miješani otpad s plastikom i staklom.", "Stari Grad – centar i poslovni subjekti: u sezoni i nedjeljom (razdoblje sezone nije navedeno, pa nije upisano).", "Pomaci zbog blagdana nisu objavljeni; upisani su redovni dani odvoza.", "Glomazni otpad samo po prethodnoj narudžbi srijedom i petkom (do 2 m³ godišnje po kućanstvu).", "Komunalno Stari Grad d.o.o., Trg Ploča 7, Stari Grad; 021/765-299, info@komunalno-stari-grad.hr."],
+  "zone": {
+    "1": {
+      "jls": "Stari Grad",
+      "podrucje": "Stari Grad – sjeverni dio",
+      "ulice": ["Stari Grad (sjeverni dio)"],
+      "napomena": "Pravila iz 2022. – utorak: miješani otpad i papir/karton; petak: miješani otpad i plastika/staklo.",
+      "raw": {
+        "2026": [
+          "01-02 MPS 01-06 MK 01-09 MPS 01-13 MK 01-16 MPS 01-20 MK 01-23 MPS 01-27 MK 01-30 MPS",
+          "02-03 MK 02-06 MPS 02-10 MK 02-13 MPS 02-17 MK 02-20 MPS 02-24 MK 02-27 MPS",
+          "03-03 MK 03-06 MPS 03-10 MK 03-13 MPS 03-17 MK 03-20 MPS 03-24 MK 03-27 MPS 03-31 MK",
+          "04-03 MPS 04-07 MK 04-10 MPS 04-14 MK 04-17 MPS 04-21 MK 04-24 MPS 04-28 MK",
+          "05-01 MPS 05-05 MK 05-08 MPS 05-12 MK 05-15 MPS 05-19 MK 05-22 MPS 05-26 MK 05-29 MPS",
+          "06-02 MK 06-05 MPS 06-09 MK 06-12 MPS 06-16 MK 06-19 MPS 06-23 MK 06-26 MPS 06-30 MK",
+          "07-03 MPS 07-07 MK 07-10 MPS 07-14 MK 07-17 MPS 07-21 MK 07-24 MPS 07-28 MK 07-31 MPS",
+          "08-04 MK 08-07 MPS 08-11 MK 08-14 MPS 08-18 MK 08-21 MPS 08-25 MK 08-28 MPS",
+          "09-01 MK 09-04 MPS 09-08 MK 09-11 MPS 09-15 MK 09-18 MPS 09-22 MK 09-25 MPS 09-29 MK",
+          "10-02 MPS 10-06 MK 10-09 MPS 10-13 MK 10-16 MPS 10-20 MK 10-23 MPS 10-27 MK 10-30 MPS",
+          "11-03 MK 11-06 MPS 11-10 MK 11-13 MPS 11-17 MK 11-20 MPS 11-24 MK 11-27 MPS",
+          "12-01 MK 12-04 MPS 12-08 MK 12-11 MPS 12-15 MK 12-18 MPS 12-22 MK 12-25 MPS 12-29 MK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Stari Grad",
+      "podrucje": "Stari Grad – južni dio i Selca",
+      "ulice": ["Stari Grad (južni dio)", "Selca"],
+      "napomena": "Pravila iz 2022. – ponedjeljak: miješani otpad i papir/karton; četvrtak: miješani otpad i plastika/staklo.",
+      "raw": {
+        "2026": [
+          "01-01 MPS 01-05 MK 01-08 MPS 01-12 MK 01-15 MPS 01-19 MK 01-22 MPS 01-26 MK 01-29 MPS",
+          "02-02 MK 02-05 MPS 02-09 MK 02-12 MPS 02-16 MK 02-19 MPS 02-23 MK 02-26 MPS",
+          "03-02 MK 03-05 MPS 03-09 MK 03-12 MPS 03-16 MK 03-19 MPS 03-23 MK 03-26 MPS 03-30 MK",
+          "04-02 MPS 04-06 MK 04-09 MPS 04-13 MK 04-16 MPS 04-20 MK 04-23 MPS 04-27 MK 04-30 MPS",
+          "05-04 MK 05-07 MPS 05-11 MK 05-14 MPS 05-18 MK 05-21 MPS 05-25 MK 05-28 MPS",
+          "06-01 MK 06-04 MPS 06-08 MK 06-11 MPS 06-15 MK 06-18 MPS 06-22 MK 06-25 MPS 06-29 MK",
+          "07-02 MPS 07-06 MK 07-09 MPS 07-13 MK 07-16 MPS 07-20 MK 07-23 MPS 07-27 MK 07-30 MPS",
+          "08-03 MK 08-06 MPS 08-10 MK 08-13 MPS 08-17 MK 08-20 MPS 08-24 MK 08-27 MPS 08-31 MK",
+          "09-03 MPS 09-07 MK 09-10 MPS 09-14 MK 09-17 MPS 09-21 MK 09-24 MPS 09-28 MK",
+          "10-01 MPS 10-05 MK 10-08 MPS 10-12 MK 10-15 MPS 10-19 MK 10-22 MPS 10-26 MK 10-29 MPS",
+          "11-02 MK 11-05 MPS 11-09 MK 11-12 MPS 11-16 MK 11-19 MPS 11-23 MK 11-26 MPS 11-30 MK",
+          "12-03 MPS 12-07 MK 12-10 MPS 12-14 MK 12-17 MPS 12-21 MK 12-24 MPS 12-28 MK 12-31 MPS"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Stari Grad",
+      "podrucje": "Basina i Mudri Dolac",
+      "ulice": ["Basina", "Mudri Dolac"],
+      "napomena": "Pravila iz 2022. – ponedjeljak: miješani otpad i papir/karton; četvrtak: miješani otpad i plastika/staklo.",
+      "raw": {
+        "2026": [
+          "01-01 MPS 01-05 MK 01-08 MPS 01-12 MK 01-15 MPS 01-19 MK 01-22 MPS 01-26 MK 01-29 MPS",
+          "02-02 MK 02-05 MPS 02-09 MK 02-12 MPS 02-16 MK 02-19 MPS 02-23 MK 02-26 MPS",
+          "03-02 MK 03-05 MPS 03-09 MK 03-12 MPS 03-16 MK 03-19 MPS 03-23 MK 03-26 MPS 03-30 MK",
+          "04-02 MPS 04-06 MK 04-09 MPS 04-13 MK 04-16 MPS 04-20 MK 04-23 MPS 04-27 MK 04-30 MPS",
+          "05-04 MK 05-07 MPS 05-11 MK 05-14 MPS 05-18 MK 05-21 MPS 05-25 MK 05-28 MPS",
+          "06-01 MK 06-04 MPS 06-08 MK 06-11 MPS 06-15 MK 06-18 MPS 06-22 MK 06-25 MPS 06-29 MK",
+          "07-02 MPS 07-06 MK 07-09 MPS 07-13 MK 07-16 MPS 07-20 MK 07-23 MPS 07-27 MK 07-30 MPS",
+          "08-03 MK 08-06 MPS 08-10 MK 08-13 MPS 08-17 MK 08-20 MPS 08-24 MK 08-27 MPS 08-31 MK",
+          "09-03 MPS 09-07 MK 09-10 MPS 09-14 MK 09-17 MPS 09-21 MK 09-24 MPS 09-28 MK",
+          "10-01 MPS 10-05 MK 10-08 MPS 10-12 MK 10-15 MPS 10-19 MK 10-22 MPS 10-26 MK 10-29 MPS",
+          "11-02 MK 11-05 MPS 11-09 MK 11-12 MPS 11-16 MK 11-19 MPS 11-23 MK 11-26 MPS 11-30 MK",
+          "12-03 MPS 12-07 MK 12-10 MPS 12-14 MK 12-17 MPS 12-21 MK 12-24 MPS 12-28 MK 12-31 MPS"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Stari Grad",
+      "podrucje": "Vrbanj",
+      "ulice": ["Vrbanj"],
+      "napomena": "Pravila iz 2022. – srijeda: miješani otpad i papir/karton; subota: miješani otpad i plastika/staklo.",
+      "raw": {
+        "2026": [
+          "01-03 MPS 01-07 MK 01-10 MPS 01-14 MK 01-17 MPS 01-21 MK 01-24 MPS 01-28 MK 01-31 MPS",
+          "02-04 MK 02-07 MPS 02-11 MK 02-14 MPS 02-18 MK 02-21 MPS 02-25 MK 02-28 MPS",
+          "03-04 MK 03-07 MPS 03-11 MK 03-14 MPS 03-18 MK 03-21 MPS 03-25 MK 03-28 MPS",
+          "04-01 MK 04-04 MPS 04-08 MK 04-11 MPS 04-15 MK 04-18 MPS 04-22 MK 04-25 MPS 04-29 MK",
+          "05-02 MPS 05-06 MK 05-09 MPS 05-13 MK 05-16 MPS 05-20 MK 05-23 MPS 05-27 MK 05-30 MPS",
+          "06-03 MK 06-06 MPS 06-10 MK 06-13 MPS 06-17 MK 06-20 MPS 06-24 MK 06-27 MPS",
+          "07-01 MK 07-04 MPS 07-08 MK 07-11 MPS 07-15 MK 07-18 MPS 07-22 MK 07-25 MPS 07-29 MK",
+          "08-01 MPS 08-05 MK 08-08 MPS 08-12 MK 08-15 MPS 08-19 MK 08-22 MPS 08-26 MK 08-29 MPS",
+          "09-02 MK 09-05 MPS 09-09 MK 09-12 MPS 09-16 MK 09-19 MPS 09-23 MK 09-26 MPS 09-30 MK",
+          "10-03 MPS 10-07 MK 10-10 MPS 10-14 MK 10-17 MPS 10-21 MK 10-24 MPS 10-28 MK 10-31 MPS",
+          "11-04 MK 11-07 MPS 11-11 MK 11-14 MPS 11-18 MK 11-21 MPS 11-25 MK 11-28 MPS",
+          "12-02 MK 12-05 MPS 12-09 MK 12-12 MPS 12-16 MK 12-19 MPS 12-23 MK 12-26 MPS 12-30 MK"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Stari Grad",
+      "podrucje": "Dol",
+      "ulice": ["Dol"],
+      "napomena": "Pravila iz 2022. – srijeda: miješani otpad i papir/karton; subota: miješani otpad i plastika/staklo.",
+      "raw": {
+        "2026": [
+          "01-03 MPS 01-07 MK 01-10 MPS 01-14 MK 01-17 MPS 01-21 MK 01-24 MPS 01-28 MK 01-31 MPS",
+          "02-04 MK 02-07 MPS 02-11 MK 02-14 MPS 02-18 MK 02-21 MPS 02-25 MK 02-28 MPS",
+          "03-04 MK 03-07 MPS 03-11 MK 03-14 MPS 03-18 MK 03-21 MPS 03-25 MK 03-28 MPS",
+          "04-01 MK 04-04 MPS 04-08 MK 04-11 MPS 04-15 MK 04-18 MPS 04-22 MK 04-25 MPS 04-29 MK",
+          "05-02 MPS 05-06 MK 05-09 MPS 05-13 MK 05-16 MPS 05-20 MK 05-23 MPS 05-27 MK 05-30 MPS",
+          "06-03 MK 06-06 MPS 06-10 MK 06-13 MPS 06-17 MK 06-20 MPS 06-24 MK 06-27 MPS",
+          "07-01 MK 07-04 MPS 07-08 MK 07-11 MPS 07-15 MK 07-18 MPS 07-22 MK 07-25 MPS 07-29 MK",
+          "08-01 MPS 08-05 MK 08-08 MPS 08-12 MK 08-15 MPS 08-19 MK 08-22 MPS 08-26 MK 08-29 MPS",
+          "09-02 MK 09-05 MPS 09-09 MK 09-12 MPS 09-16 MK 09-19 MPS 09-23 MK 09-26 MPS 09-30 MK",
+          "10-03 MPS 10-07 MK 10-10 MPS 10-14 MK 10-17 MPS 10-21 MK 10-24 MPS 10-28 MK 10-31 MPS",
+          "11-04 MK 11-07 MPS 11-11 MK 11-14 MPS 11-18 MK 11-21 MPS 11-25 MK 11-28 MPS",
+          "12-02 MK 12-05 MPS 12-09 MK 12-12 MPS 12-16 MK 12-19 MPS 12-23 MK 12-26 MPS 12-30 MK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Stari Grad",
+      "podrucje": "Rudina",
+      "ulice": ["Rudina"],
+      "napomena": "Pravila iz 2022. – utorak: miješani otpad i papir/karton; petak: miješani otpad i plastika/staklo.",
+      "raw": {
+        "2026": [
+          "01-02 MPS 01-06 MK 01-09 MPS 01-13 MK 01-16 MPS 01-20 MK 01-23 MPS 01-27 MK 01-30 MPS",
+          "02-03 MK 02-06 MPS 02-10 MK 02-13 MPS 02-17 MK 02-20 MPS 02-24 MK 02-27 MPS",
+          "03-03 MK 03-06 MPS 03-10 MK 03-13 MPS 03-17 MK 03-20 MPS 03-24 MK 03-27 MPS 03-31 MK",
+          "04-03 MPS 04-07 MK 04-10 MPS 04-14 MK 04-17 MPS 04-21 MK 04-24 MPS 04-28 MK",
+          "05-01 MPS 05-05 MK 05-08 MPS 05-12 MK 05-15 MPS 05-19 MK 05-22 MPS 05-26 MK 05-29 MPS",
+          "06-02 MK 06-05 MPS 06-09 MK 06-12 MPS 06-16 MK 06-19 MPS 06-23 MK 06-26 MPS 06-30 MK",
+          "07-03 MPS 07-07 MK 07-10 MPS 07-14 MK 07-17 MPS 07-21 MK 07-24 MPS 07-28 MK 07-31 MPS",
+          "08-04 MK 08-07 MPS 08-11 MK 08-14 MPS 08-18 MK 08-21 MPS 08-25 MK 08-28 MPS",
+          "09-01 MK 09-04 MPS 09-08 MK 09-11 MPS 09-15 MK 09-18 MPS 09-22 MK 09-25 MPS 09-29 MK",
+          "10-02 MPS 10-06 MK 10-09 MPS 10-13 MK 10-16 MPS 10-20 MK 10-23 MPS 10-27 MK 10-30 MPS",
+          "11-03 MK 11-06 MPS 11-10 MK 11-13 MPS 11-17 MK 11-20 MPS 11-24 MK 11-27 MPS",
+          "12-01 MK 12-04 MPS 12-08 MK 12-11 MPS 12-15 MK 12-18 MPS 12-22 MK 12-25 MPS 12-29 MK"
+        ]
+      }
+    }
+  }
+}

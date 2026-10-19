@@ -1,0 +1,193 @@
+{
+  "davatelj": "Čistoća Opuzen d.o.o.",
+  "web": "https://cistoca-opuzen.hr",
+  "izvor": "https://cistoca-opuzen.hr/skupljanje-odvoz-otpada/",
+  "zupanija": "Dubrovačko-neretvanska",
+  "jls": ["Opuzen"],
+  "nazivi": {"M": "Miješani komunalni otpad (zeleni spremnik)", "P": "Plastična ambalaža (žuti spremnik)", "K": "Papir i karton (plavi spremnik)", "B": "Biootpad (smeđi spremnik)"},
+  "bioNapomena": "Biootpad (smeđi spremnik) odvozi se četvrtkom ili petkom prema popisu ulica.",
+  "napomene": ["Plan primopredaje otpada vrijedi od 1.6.2026. do 28.2.2027.; raniji plan (do 1.6.2026.) nije upisan.", "Spremnici se iznose na javnu površinu do prolaska vozila.", "Pomaci odvoza miješanog otpada zbog blagdana nisu objavljeni u planu (objavljuju se kao obavijesti).", "Glomazni otpad kupi se petkom, uz najavu na 097 747 75 05.", "Općina Zažablje nije obuhvaćena ovim rasporedom (zajednički kontejneri po naseljima)."],
+  "zone": {
+    "1": {
+      "jls": "Opuzen",
+      "podrucje": "Stanke Parmača, Zagrebačka (do vrtića), Stjepana Radića … (miješani pon, sri, pet; plastika i papir pon; bio pet)",
+      "ulice": ["Stanke Parmača", "Zagrebačka do vrtića", "Stjepana Radića", "Pivčeva kala", "Trg kralja Tomislava", "Trg Opuzenske bojne", "Nikole Nonkovića", "Fort Opus", "Kraj križa", "Žrtava Domovinskog rata", "Silvija S. Kranjčevića"],
+      "raw": {
+        "2026": [
+          "06-01 MP 06-03 M 06-05 MB 06-08 MK 06-10 M 06-12 MB 06-15 MP 06-17 M 06-19 MB 06-22 MK 06-24 M 06-26 MB 06-29 MP",
+          "07-01 M 07-03 MB 07-06 MP 07-08 M 07-10 MB 07-13 MK 07-15 M 07-17 MB 07-20 MP 07-22 M 07-24 MB 07-27 MK 07-29 M 07-31 MB",
+          "08-03 MP 08-05 M 08-07 MB 08-10 MK 08-12 M 08-14 MB 08-17 MP 08-19 M 08-21 MB 08-24 MK 08-26 M 08-28 MB 08-31 MP",
+          "09-02 M 09-04 MB 09-07 MK 09-09 M 09-11 MB 09-14 MP 09-16 M 09-18 MB 09-21 MK 09-23 M 09-25 MB 09-28 MP 09-30 M",
+          "10-02 MB 10-05 MP 10-07 M 10-09 MB 10-12 MK 10-14 M 10-16 MB 10-19 MP 10-21 M 10-23 MB 10-26 MK 10-28 M 10-30 MB",
+          "11-02 MP 11-04 M 11-06 MB 11-09 MK 11-11 M 11-13 MB 11-16 MP 11-18 M 11-20 MB 11-23 MK 11-25 M 11-27 MB 11-30 MP",
+          "12-02 M 12-04 MB 12-07 MK 12-09 M 12-11 MB 12-14 MP 12-16 M 12-18 MB 12-21 MK 12-23 M 12-25 MB 12-28 MP 12-30 M"
+        ],
+        "2027": [
+          "01-01 MB 01-04 MP 01-06 M 01-08 MB 01-11 MK 01-13 M 01-15 MB 01-18 MP 01-20 M 01-22 MB 01-25 MK 01-27 M 01-29 MB",
+          "02-01 MP 02-03 M 02-05 MB 02-08 MK 02-10 M 02-12 MB 02-15 MP 02-17 M 02-19 MB 02-22 MK 02-24 M 02-26 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Opuzen",
+      "podrucje": "Prašnica, Jasenska, Jadranska … (miješani pon, čet; plastika i papir pon; bio čet)",
+      "ulice": ["Prašnica", "Jasenska", "Jadranska", "Pinovac", "Strimen", "Ušće", "Trn", "Josipa bana Jelačića", "Pržinovac"],
+      "raw": {
+        "2026": [
+          "06-01 MP 06-04 MB 06-08 MK 06-11 MB 06-15 MP 06-18 MB 06-22 MK 06-25 MB 06-29 MP",
+          "07-02 MB 07-06 MP 07-09 MB 07-13 MK 07-16 MB 07-20 MP 07-23 MB 07-27 MK 07-30 MB",
+          "08-03 MP 08-06 MB 08-10 MK 08-13 MB 08-17 MP 08-20 MB 08-24 MK 08-27 MB 08-31 MP",
+          "09-03 MB 09-07 MK 09-10 MB 09-14 MP 09-17 MB 09-21 MK 09-24 MB 09-28 MP",
+          "10-01 MB 10-05 MP 10-08 MB 10-12 MK 10-15 MB 10-19 MP 10-22 MB 10-26 MK 10-29 MB",
+          "11-02 MP 11-05 MB 11-09 MK 11-12 MB 11-16 MP 11-19 MB 11-23 MK 11-26 MB 11-30 MP",
+          "12-03 MB 12-07 MK 12-10 MB 12-14 MP 12-17 MB 12-21 MK 12-24 MB 12-28 MP 12-31 MB"
+        ],
+        "2027": [
+          "01-04 MP 01-07 MB 01-11 MK 01-14 MB 01-18 MP 01-21 MB 01-25 MK 01-28 MB",
+          "02-01 MP 02-04 MB 02-08 MK 02-11 MB 02-15 MP 02-18 MB 02-22 MK 02-25 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Opuzen",
+      "podrucje": "Crepina 1, Crepina 2, Poslovna zona (miješani pon, čet; plastika i papir uto; bio čet)",
+      "ulice": ["Crepina 1", "Crepina 2", "Poslovna zona"],
+      "raw": {
+        "2026": [
+          "06-01 M 06-02 P 06-04 MB 06-08 M 06-09 K 06-11 MB 06-15 M 06-16 P 06-18 MB 06-22 M 06-23 K 06-25 MB 06-29 M 06-30 P",
+          "07-02 MB 07-06 M 07-07 P 07-09 MB 07-13 M 07-14 K 07-16 MB 07-20 M 07-21 P 07-23 MB 07-27 M 07-28 K 07-30 MB",
+          "08-03 M 08-04 P 08-06 MB 08-10 M 08-11 K 08-13 MB 08-17 M 08-18 P 08-20 MB 08-24 M 08-25 K 08-27 MB 08-31 M",
+          "09-01 P 09-03 MB 09-07 M 09-08 K 09-10 MB 09-14 M 09-15 P 09-17 MB 09-21 M 09-22 K 09-24 MB 09-28 M 09-29 P",
+          "10-01 MB 10-05 M 10-06 P 10-08 MB 10-12 M 10-13 K 10-15 MB 10-19 M 10-20 P 10-22 MB 10-26 M 10-27 K 10-29 MB",
+          "11-02 M 11-03 P 11-05 MB 11-09 M 11-10 K 11-12 MB 11-16 M 11-17 P 11-19 MB 11-23 M 11-24 K 11-26 MB 11-30 M",
+          "12-01 P 12-03 MB 12-07 M 12-08 K 12-10 MB 12-14 M 12-15 P 12-17 MB 12-21 M 12-22 K 12-24 MB 12-28 M 12-29 P 12-31 MB"
+        ],
+        "2027": [
+          "01-04 M 01-05 P 01-07 MB 01-11 M 01-12 K 01-14 MB 01-18 M 01-19 P 01-21 MB 01-25 M 01-26 K 01-28 MB",
+          "02-01 M 02-02 P 02-04 MB 02-08 M 02-09 K 02-11 MB 02-15 M 02-16 P 02-18 MB 02-22 M 02-23 K 02-25 MB"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Opuzen",
+      "podrucje": "Trnovska (miješani uto, pet; plastika i papir pon, uto; bio pet)",
+      "ulice": ["Trnovska"],
+      "napomena": "Ulica je na planu navedena i za ponedjeljak i za utorak (plastika i papir).",
+      "raw": {
+        "2026": [
+          "06-01 P 06-02 MP 06-05 MB 06-08 K 06-09 MK 06-12 MB 06-15 P 06-16 MP 06-19 MB 06-22 K 06-23 MK 06-26 MB 06-29 P 06-30 MP",
+          "07-03 MB 07-06 P 07-07 MP 07-10 MB 07-13 K 07-14 MK 07-17 MB 07-20 P 07-21 MP 07-24 MB 07-27 K 07-28 MK 07-31 MB",
+          "08-03 P 08-04 MP 08-07 MB 08-10 K 08-11 MK 08-14 MB 08-17 P 08-18 MP 08-21 MB 08-24 K 08-25 MK 08-28 MB 08-31 P",
+          "09-01 MP 09-04 MB 09-07 K 09-08 MK 09-11 MB 09-14 P 09-15 MP 09-18 MB 09-21 K 09-22 MK 09-25 MB 09-28 P 09-29 MP",
+          "10-02 MB 10-05 P 10-06 MP 10-09 MB 10-12 K 10-13 MK 10-16 MB 10-19 P 10-20 MP 10-23 MB 10-26 K 10-27 MK 10-30 MB",
+          "11-02 P 11-03 MP 11-06 MB 11-09 K 11-10 MK 11-13 MB 11-16 P 11-17 MP 11-20 MB 11-23 K 11-24 MK 11-27 MB 11-30 P",
+          "12-01 MP 12-04 MB 12-07 K 12-08 MK 12-11 MB 12-14 P 12-15 MP 12-18 MB 12-21 K 12-22 MK 12-25 MB 12-28 P 12-29 MP"
+        ],
+        "2027": [
+          "01-01 MB 01-04 P 01-05 MP 01-08 MB 01-11 K 01-12 MK 01-15 MB 01-18 P 01-19 MP 01-22 MB 01-25 K 01-26 MK 01-29 MB",
+          "02-01 P 02-02 MP 02-05 MB 02-08 K 02-09 MK 02-12 MB 02-15 P 02-16 MP 02-19 MB 02-22 K 02-23 MK 02-26 MB"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Opuzen",
+      "podrucje": "Zrinsko-Frankopanska, Ivana Meštrovića, Celestina Medovića … (miješani uto, pet; plastika i papir pon; bio pet)",
+      "ulice": ["Zrinsko-Frankopanska", "Ivana Meštrovića", "Celestina Medovića", "Poljanica Mate Pečića", "Poljanica Ner. Gusara", "Ivana Gundulića", "Kneza Domagoja", "Naronska"],
+      "raw": {
+        "2026": [
+          "06-01 P 06-02 M 06-05 MB 06-08 K 06-09 M 06-12 MB 06-15 P 06-16 M 06-19 MB 06-22 K 06-23 M 06-26 MB 06-29 P 06-30 M",
+          "07-03 MB 07-06 P 07-07 M 07-10 MB 07-13 K 07-14 M 07-17 MB 07-20 P 07-21 M 07-24 MB 07-27 K 07-28 M 07-31 MB",
+          "08-03 P 08-04 M 08-07 MB 08-10 K 08-11 M 08-14 MB 08-17 P 08-18 M 08-21 MB 08-24 K 08-25 M 08-28 MB 08-31 P",
+          "09-01 M 09-04 MB 09-07 K 09-08 M 09-11 MB 09-14 P 09-15 M 09-18 MB 09-21 K 09-22 M 09-25 MB 09-28 P 09-29 M",
+          "10-02 MB 10-05 P 10-06 M 10-09 MB 10-12 K 10-13 M 10-16 MB 10-19 P 10-20 M 10-23 MB 10-26 K 10-27 M 10-30 MB",
+          "11-02 P 11-03 M 11-06 MB 11-09 K 11-10 M 11-13 MB 11-16 P 11-17 M 11-20 MB 11-23 K 11-24 M 11-27 MB 11-30 P",
+          "12-01 M 12-04 MB 12-07 K 12-08 M 12-11 MB 12-14 P 12-15 M 12-18 MB 12-21 K 12-22 M 12-25 MB 12-28 P 12-29 M"
+        ],
+        "2027": [
+          "01-01 MB 01-04 P 01-05 M 01-08 MB 01-11 K 01-12 M 01-15 MB 01-18 P 01-19 M 01-22 MB 01-25 K 01-26 M 01-29 MB",
+          "02-01 P 02-02 M 02-05 MB 02-08 K 02-09 M 02-12 MB 02-15 P 02-16 M 02-19 MB 02-22 K 02-23 M 02-26 MB"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Opuzen",
+      "podrucje": "Mandarinska, Zagrebačka (od vrtića), Zadarska … (miješani uto, pet; plastika i papir uto; bio pet)",
+      "ulice": ["Mandarinska", "Zagrebačka od vrtića", "Zadarska", "Vukovarska", "Ante Starčevića", "Smokovo", "Foša", "Matice hrvatske", "Tisno", "Tina Ujevića"],
+      "raw": {
+        "2026": [
+          "06-02 MP 06-05 MB 06-09 MK 06-12 MB 06-16 MP 06-19 MB 06-23 MK 06-26 MB 06-30 MP",
+          "07-03 MB 07-07 MP 07-10 MB 07-14 MK 07-17 MB 07-21 MP 07-24 MB 07-28 MK 07-31 MB",
+          "08-04 MP 08-07 MB 08-11 MK 08-14 MB 08-18 MP 08-21 MB 08-25 MK 08-28 MB",
+          "09-01 MP 09-04 MB 09-08 MK 09-11 MB 09-15 MP 09-18 MB 09-22 MK 09-25 MB 09-29 MP",
+          "10-02 MB 10-06 MP 10-09 MB 10-13 MK 10-16 MB 10-20 MP 10-23 MB 10-27 MK 10-30 MB",
+          "11-03 MP 11-06 MB 11-10 MK 11-13 MB 11-17 MP 11-20 MB 11-24 MK 11-27 MB",
+          "12-01 MP 12-04 MB 12-08 MK 12-11 MB 12-15 MP 12-18 MB 12-22 MK 12-25 MB 12-29 MP"
+        ],
+        "2027": [
+          "01-01 MB 01-05 MP 01-08 MB 01-12 MK 01-15 MB 01-19 MP 01-22 MB 01-26 MK 01-29 MB",
+          "02-02 MP 02-05 MB 02-09 MK 02-12 MB 02-16 MP 02-19 MB 02-23 MK 02-26 MB"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Opuzen",
+      "podrucje": "Barake (miješani uto, pet; plastika i papir uto; bio čet)",
+      "ulice": ["Barake"],
+      "raw": {
+        "2026": [
+          "06-02 MP 06-04 B 06-05 M 06-09 MK 06-11 B 06-12 M 06-16 MP 06-18 B 06-19 M 06-23 MK 06-25 B 06-26 M 06-30 MP",
+          "07-02 B 07-03 M 07-07 MP 07-09 B 07-10 M 07-14 MK 07-16 B 07-17 M 07-21 MP 07-23 B 07-24 M 07-28 MK 07-30 B 07-31 M",
+          "08-04 MP 08-06 B 08-07 M 08-11 MK 08-13 B 08-14 M 08-18 MP 08-20 B 08-21 M 08-25 MK 08-27 B 08-28 M",
+          "09-01 MP 09-03 B 09-04 M 09-08 MK 09-10 B 09-11 M 09-15 MP 09-17 B 09-18 M 09-22 MK 09-24 B 09-25 M 09-29 MP",
+          "10-01 B 10-02 M 10-06 MP 10-08 B 10-09 M 10-13 MK 10-15 B 10-16 M 10-20 MP 10-22 B 10-23 M 10-27 MK 10-29 B 10-30 M",
+          "11-03 MP 11-05 B 11-06 M 11-10 MK 11-12 B 11-13 M 11-17 MP 11-19 B 11-20 M 11-24 MK 11-26 B 11-27 M",
+          "12-01 MP 12-03 B 12-04 M 12-08 MK 12-10 B 12-11 M 12-15 MP 12-17 B 12-18 M 12-22 MK 12-24 B 12-25 M 12-29 MP 12-31 B"
+        ],
+        "2027": [
+          "01-01 M 01-05 MP 01-07 B 01-08 M 01-12 MK 01-14 B 01-15 M 01-19 MP 01-21 B 01-22 M 01-26 MK 01-28 B 01-29 M",
+          "02-02 MP 02-04 B 02-05 M 02-09 MK 02-11 B 02-12 M 02-16 MP 02-18 B 02-19 M 02-23 MK 02-25 B 02-26 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Opuzen",
+      "podrucje": "Jakova Gotovca (miješani sri, pet; plastika i papir uto; bio pet)",
+      "ulice": ["Jakova Gotovca"],
+      "raw": {
+        "2026": [
+          "06-02 P 06-03 M 06-05 MB 06-09 K 06-10 M 06-12 MB 06-16 P 06-17 M 06-19 MB 06-23 K 06-24 M 06-26 MB 06-30 P",
+          "07-01 M 07-03 MB 07-07 P 07-08 M 07-10 MB 07-14 K 07-15 M 07-17 MB 07-21 P 07-22 M 07-24 MB 07-28 K 07-29 M 07-31 MB",
+          "08-04 P 08-05 M 08-07 MB 08-11 K 08-12 M 08-14 MB 08-18 P 08-19 M 08-21 MB 08-25 K 08-26 M 08-28 MB",
+          "09-01 P 09-02 M 09-04 MB 09-08 K 09-09 M 09-11 MB 09-15 P 09-16 M 09-18 MB 09-22 K 09-23 M 09-25 MB 09-29 P 09-30 M",
+          "10-02 MB 10-06 P 10-07 M 10-09 MB 10-13 K 10-14 M 10-16 MB 10-20 P 10-21 M 10-23 MB 10-27 K 10-28 M 10-30 MB",
+          "11-03 P 11-04 M 11-06 MB 11-10 K 11-11 M 11-13 MB 11-17 P 11-18 M 11-20 MB 11-24 K 11-25 M 11-27 MB",
+          "12-01 P 12-02 M 12-04 MB 12-08 K 12-09 M 12-11 MB 12-15 P 12-16 M 12-18 MB 12-22 K 12-23 M 12-25 MB 12-29 P 12-30 M"
+        ],
+        "2027": [
+          "01-01 MB 01-05 P 01-06 M 01-08 MB 01-12 K 01-13 M 01-15 MB 01-19 P 01-20 M 01-22 MB 01-26 K 01-27 M 01-29 MB",
+          "02-02 P 02-03 M 02-05 MB 02-09 K 02-10 M 02-12 MB 02-16 P 02-17 M 02-19 MB 02-23 K 02-24 M 02-26 MB"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Opuzen",
+      "podrucje": "Prantrnovo (miješani pet; plastika i papir uto; bio čet)",
+      "ulice": ["Prantrnovo"],
+      "raw": {
+        "2026": [
+          "06-02 P 06-04 B 06-05 M 06-09 K 06-11 B 06-12 M 06-16 P 06-18 B 06-19 M 06-23 K 06-25 B 06-26 M 06-30 P",
+          "07-02 B 07-03 M 07-07 P 07-09 B 07-10 M 07-14 K 07-16 B 07-17 M 07-21 P 07-23 B 07-24 M 07-28 K 07-30 B 07-31 M",
+          "08-04 P 08-06 B 08-07 M 08-11 K 08-13 B 08-14 M 08-18 P 08-20 B 08-21 M 08-25 K 08-27 B 08-28 M",
+          "09-01 P 09-03 B 09-04 M 09-08 K 09-10 B 09-11 M 09-15 P 09-17 B 09-18 M 09-22 K 09-24 B 09-25 M 09-29 P",
+          "10-01 B 10-02 M 10-06 P 10-08 B 10-09 M 10-13 K 10-15 B 10-16 M 10-20 P 10-22 B 10-23 M 10-27 K 10-29 B 10-30 M",
+          "11-03 P 11-05 B 11-06 M 11-10 K 11-12 B 11-13 M 11-17 P 11-19 B 11-20 M 11-24 K 11-26 B 11-27 M",
+          "12-01 P 12-03 B 12-04 M 12-08 K 12-10 B 12-11 M 12-15 P 12-17 B 12-18 M 12-22 K 12-24 B 12-25 M 12-29 P 12-31 B"
+        ],
+        "2027": [
+          "01-01 M 01-05 P 01-07 B 01-08 M 01-12 K 01-14 B 01-15 M 01-19 P 01-21 B 01-22 M 01-26 K 01-28 B 01-29 M",
+          "02-02 P 02-04 B 02-05 M 02-09 K 02-11 B 02-12 M 02-16 P 02-18 B 02-19 M 02-23 K 02-25 B 02-26 M"
+        ]
+      }
+    }
+  }
+}

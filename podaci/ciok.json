@@ -1,0 +1,69 @@
+{
+  "davatelj": "Čistoća i održavanje Kolan d.o.o.",
+  "web": "https://www.ciok.hr",
+  "izvor": "https://www.ciok.hr/index.php/cistoca/raspored-odvoza-otpada",
+  "zupanija": "Zadarska",
+  "jls": ["Kolan"],
+  "nazivi": {"L": "Metal (zajedno sa staklom)", "S": "Staklo", "G": "Glomazni i EE otpad (na zahtjev)"},
+  "napomene": ["Za 2026. objavljeni su mjeseci: 1., 2., 3., 4., 5., 6., 7., 8., 9., 10. (raspored izlazi mjesec po mjesec).", "Raspored se objavljuje mjesečno ili za dva mjeseca; ljeti (lipanj-kolovoz) zaseban raspored za Kolan, Mandre i Kolanjski Gajac, inače zajednički.", "Metal i staklo odvoze se zajedno (\"METAL / STAKLO\").", "Glomazni otpad i EE otpad odvoze se na označene dane samo uz zahtjev (obrazac na ciok.hr).", "Na blagdane označene u rasporedu nema odvoza; pomaci su već upisani u datume.", "Kontakt: 023/698-017, info@ciok.hr (radnim danom 07:00-15:00)."],
+  "zone": {
+    "1": {
+      "jls": "Kolan",
+      "podrucje": "Kolan",
+      "ulice": ["Kolan"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 M 01-13 P 01-14 K 01-16 SL 01-19 MB 01-23 G 01-26 M",
+          "02-02 MB 02-09 M 02-10 P 02-11 K 02-13 SL 02-16 MB 02-23 M",
+          "03-02 MB 03-09 M 03-10 P 03-11 K 03-13 SL 03-16 MB 03-23 M 03-30 MB",
+          "04-07 MB 04-10 M 04-13 M 04-14 P 04-15 K 04-17 SL 04-20 MB 04-23 M 04-27 MG 04-28 G 04-29 G 04-30 G",
+          "05-04 MG 05-05 G 05-06 G 05-07 MG 05-08 G 05-11 M 05-12 P 05-13 K 05-14 MB 05-15 SL 05-18 M 05-21 M 05-25 M 05-26 P 05-27 K 05-28 MB 05-29 SL",
+          "06-02 M 06-06 M 06-09 M 06-10 PK 06-12 SL 06-13 M 06-16 M 06-17 PK 06-18 B 06-19 SL 06-20 M 06-23 M 06-24 PK 06-25 B 06-26 SL 06-27 M 06-30 M",
+          "07-01 PK 07-02 B 07-03 SL 07-04 M 07-07 M 07-08 PK 07-09 B 07-10 SL 07-11 M 07-14 M 07-15 PK 07-16 B 07-17 SL 07-18 M 07-21 M 07-22 PK 07-23 B 07-24 SL 07-25 M 07-28 M 07-29 PK 07-30 B 07-31 SL",
+          "08-01 M 08-04 M 08-05 PK 08-06 B 08-07 SL 08-08 M 08-11 M 08-12 PK 08-13 B 08-14 SL 08-15 M 08-18 M 08-19 PK 08-20 B 08-21 SL 08-22 M 08-25 M 08-26 PK 08-27 B 08-28 SL 08-29 M",
+          "09-01 M 09-02 PK 09-03 B 09-04 SL 09-05 M 09-08 M 09-09 PK 09-10 B 09-11 SL 09-12 M 09-14 M 09-15 P 09-16 K 09-17 MB 09-18 SL 09-21 M 09-22 P 09-23 K 09-24 MB 09-25 SL 09-28 M 09-29 G 09-30 G",
+          "10-01 MB 10-05 M 10-06 P 10-07 K 10-08 MB 10-09 SL 10-12 M 10-15 MB 10-19 M 10-20 P 10-21 K 10-22 MB 10-23 SL 10-26 M 10-29 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Kolan",
+      "podrucje": "Mandre",
+      "ulice": ["Mandre"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 M 01-13 P 01-14 K 01-16 SL 01-19 MB 01-23 G 01-26 M",
+          "02-02 MB 02-09 M 02-10 P 02-11 K 02-13 SL 02-16 MB 02-23 M",
+          "03-02 MB 03-09 M 03-10 P 03-11 K 03-13 SL 03-16 MB 03-23 M 03-30 MB",
+          "04-07 MB 04-10 M 04-13 M 04-14 P 04-15 K 04-17 SL 04-20 MB 04-23 M 04-27 MG 04-28 G 04-29 G 04-30 G",
+          "05-04 MG 05-05 G 05-06 G 05-07 MG 05-08 G 05-11 M 05-12 P 05-13 K 05-14 MB 05-15 SL 05-18 M 05-21 M 05-25 M 05-26 P 05-27 K 05-28 MB 05-29 SL",
+          "06-01 M 06-03 M 06-05 M 06-08 M 06-09 P 06-10 MK 06-11 B 06-12 M 06-13 SL 06-15 M 06-16 P 06-17 MK 06-18 B 06-19 M 06-20 SL 06-22 M 06-23 P 06-24 MK 06-25 B 06-26 M 06-27 SL 06-29 M 06-30 P",
+          "07-01 M 07-02 B 07-03 M 07-06 M 07-07 P 07-08 MK 07-09 B 07-10 M 07-11 SL 07-13 M 07-14 P 07-15 MK 07-16 B 07-17 M 07-18 SL 07-20 M 07-21 P 07-22 MK 07-23 B 07-24 M 07-25 SL 07-27 M 07-28 P 07-29 MK 07-30 B 07-31 M",
+          "08-01 SL 08-03 M 08-04 P 08-05 MK 08-06 B 08-07 M 08-08 SL 08-10 M 08-11 P 08-12 MK 08-13 B 08-14 M 08-15 SL 08-17 M 08-18 P 08-19 MK 08-20 B 08-21 M 08-22 SL 08-24 M 08-25 P 08-26 MK 08-27 B 08-28 M 08-29 SL 08-31 M",
+          "09-01 P 09-02 MK 09-03 B 09-04 M 09-05 SL 09-07 M 09-08 P 09-09 MK 09-10 B 09-11 M 09-12 SL 09-14 M 09-15 P 09-16 K 09-17 MB 09-18 SL 09-21 M 09-22 P 09-23 K 09-24 MB 09-25 SL 09-28 M 09-29 G 09-30 G",
+          "10-01 MB 10-05 M 10-06 P 10-07 K 10-08 MB 10-09 SL 10-12 M 10-15 MB 10-19 M 10-20 P 10-21 K 10-22 MB 10-23 SL 10-26 M 10-29 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Kolan",
+      "podrucje": "Kolanjski Gajac",
+      "ulice": ["Kolanjski Gajac"],
+      "napomena": "Staklo, plastika, papir i metal: EKO otok, pražnjenje po potrebi (kad je tako navedeno u rasporedu); nisu upisani kao odvoz.",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 M 01-13 P 01-14 K 01-16 SL 01-19 MB 01-23 G 01-26 M",
+          "02-02 MB 02-09 M 02-10 P 02-11 K 02-13 SL 02-16 MB 02-23 M",
+          "03-02 MB 03-09 M 03-10 P 03-11 K 03-13 SL 03-16 MB 03-23 M 03-30 MB",
+          "04-07 MB 04-10 M 04-13 M 04-14 P 04-15 K 04-17 SL 04-20 MB 04-23 M 04-27 MG 04-28 G 04-29 G 04-30 G",
+          "05-04 MG 05-05 G 05-06 G 05-07 MG 05-08 G 05-11 M 05-12 P 05-13 K 05-14 MB 05-15 SL 05-18 M 05-21 M 05-25 M 05-26 P 05-27 K 05-28 MB 05-29 SL",
+          "06-02 M 06-06 M 06-09 M 06-11 M 06-13 M 06-16 M 06-18 M 06-20 M 06-23 M 06-25 M 06-27 M 06-30 M",
+          "07-02 M 07-04 M 07-07 M 07-09 M 07-11 M 07-14 M 07-16 M 07-18 M 07-21 M 07-23 M 07-25 M 07-28 M 07-30 M",
+          "08-01 M 08-04 M 08-06 M 08-08 M 08-11 M 08-13 M 08-15 M 08-18 M 08-20 M 08-22 M 08-25 M 08-27 M 08-29 M",
+          "09-01 M 09-03 M 09-05 M 09-08 M 09-10 M 09-12 M 09-14 M 09-17 M 09-21 M 09-24 M 09-28 M 09-29 G 09-30 G",
+          "10-01 M 10-05 M 10-08 M 10-12 M 10-15 M 10-19 M 10-22 M 10-26 M 10-29 M"
+        ]
+      }
+    }
+  }
+}

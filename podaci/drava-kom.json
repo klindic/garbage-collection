@@ -1,0 +1,241 @@
+{
+  "davatelj": "Drava Kom d.o.o.",
+  "web": "https://drava-kom.hr",
+  "izvor": "https://drava-kom.hr/defaultcont.asp?id=2&n=8",
+  "zupanija": "Koprivničko-križevačka",
+  "jls": ["Ferdinandovac", "Gola", "Hlebine", "Kalinovac", "Kloštar Podravski", "Molve", "Novo Virje", "Podravske Sesvete", "Rasinja", "Virje"],
+  "nazivi": {"B": "Biorazgradivi otpad"},
+  "napomene": ["Otpad treba staviti ispred kuće do 7 sati.", "Drava Kom objavljuje raspored po pola godine (isti nazivi datoteka); upisani su objavljeni mjeseci, a mjeseci iz ranijih objava zadržani su iz prijašnjih preuzimanja.", "Pomaknuti datumi su odvozi premješteni zbog blagdana, kako su upisani u rasporedu.", "Glomazni otpad upisan je za termine označene \"ne treba najaviti\"; agro-folije se odvoze samo uz najavu (datumi u napomeni zone), a mobilno reciklažno dvorište po datumima u napomeni zone."],
+  "zone": {
+    "1": {
+      "jls": "Ferdinandovac",
+      "podrucje": "Općina Ferdinandovac – miješani i biootpad svaki drugi petak, papir i plastika jednom mjesečno",
+      "ulice": ["Ferdinandovac (cijela općina)"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 28.8., 26.11.; Mobilno reciklažno dvorište: 27.8. (13-16 h), 22.10. (13-16 h).",
+      "raw": {
+        "2026": [
+          "07-03 MB 07-17 MBK 07-31 MBP",
+          "08-14 MBK 08-28 MBP",
+          "09-11 MBK 09-25 MBP",
+          "10-09 MBK 10-23 MBP",
+          "11-06 MBK 11-20 MBP",
+          "12-04 MBKG 12-18 MBP"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Gola",
+      "podrucje": "Općina Gola – miješani i biootpad svaki drugi ponedjeljak, papir i plastika jednom mjesečno",
+      "ulice": ["Gola (cijela općina)"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 24.8., 30.11.; Mobilno reciklažno dvorište: 19.8., 28.10. Radno vrijeme mobilnog reciklažnog dvorišta: Gotalovo 8:00-9:00, Otočka 9:30-10:30, Novačka 11:00-12:00, Ždala 12:30-13:30, Gola 14:00-16:00.",
+      "raw": {
+        "2026": [
+          "07-13 MBK 07-27 MBP",
+          "08-10 MBK 08-24 MBP",
+          "09-07 MBK 09-21 MBP",
+          "10-05 MBK 10-19 MBP",
+          "11-02 MBG 11-16 MBK 11-30 MBP",
+          "12-14 MBK 12-28 MBP"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Hlebine",
+      "podrucje": "Općina Hlebine – miješani i biootpad svaki drugi utorak, papir i plastika jednom mjesečno",
+      "ulice": ["Hlebine (cijela općina)"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Mobilno reciklažno dvorište: 25.8. (13-16 h), 20.10. (13-16 h).",
+      "raw": {
+        "2026": [
+          "07-07 K 07-14 MB 07-21 P 07-28 MB",
+          "08-04 K 08-11 MB 08-18 P 08-25 MB",
+          "09-08 MB 09-15 K 09-22 MB 09-29 P",
+          "10-06 MB 10-13 K 10-20 MB 10-27 P",
+          "11-03 MB 11-10 K 11-17 MB 11-23 G 11-24 P",
+          "12-01 MB 12-08 K 12-15 MB 12-22 P 12-29 MB"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Kalinovac",
+      "podrucje": "Općina Kalinovac – miješani i biootpad svaki drugi utorak, papir i plastika jednom mjesečno",
+      "ulice": ["Kalinovac (cijela općina)"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026.",
+      "raw": {
+        "2026": [
+          "07-07 MB 07-08 K 07-21 MB 07-22 P",
+          "08-03 K! 08-04 MB 08-18 MB 08-19 P",
+          "09-01 MB 09-15 MB 09-16 K 09-29 MB 09-30 P",
+          "10-12 G 10-13 MB 10-14 K 10-27 MB 10-28 P",
+          "11-10 MB 11-11 K 11-24 MB 11-25 P",
+          "12-08 MB 12-09 K 12-22 MB 12-23 P"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Kloštar Podravski",
+      "podrucje": "Kloštar Podravski 1 – miješani i biootpad svaku drugu srijedu, papir i plastika jednom mjesečno",
+      "opis": "U naselju Kloštar Podravski ulice: Matije Gupca, Pridvorje, Ulička i ulica 1. Svibnja. Naselja: Budančevica i Prugovac.",
+      "ulice": ["Matije Gupca", "Pridvorje", "Ulička", "1. svibnja", "Budančevica", "Prugovac"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 28.8., 26.11.",
+      "raw": {
+        "2026": [
+          "07-08 MBK 07-22 MBP",
+          "08-03 K! 08-06 MB! 08-19 MBP",
+          "09-02 MBG 09-16 MBK 09-30 MBP",
+          "10-14 MBK 10-28 MBP",
+          "11-11 MBK 11-25 MBP",
+          "12-09 MBK 12-23 MBP"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Kloštar Podravski",
+      "podrucje": "Kloštar Podravski 2 – miješani i biootpad svaki drugi četvrtak, papir i plastika jednom mjesečno",
+      "opis": "U naselju Kloštar Podravski ulice: Ljudevita Gaja, Mirogojska, Oderjan, Petra Preradovića, Trg Svete Obitelji, Kralja Tomislava, Veseli Breg. Naselja: Kozarevac.",
+      "ulice": ["Ljudevita Gaja", "Mirogojska", "Oderjan", "Petra Preradovića", "Trg Svete Obitelji", "Kralja Tomislava", "Veseli Breg", "Kozarevac"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 28.8., 26.11.",
+      "raw": {
+        "2026": [
+          "07-09 MBK 07-23 MBP",
+          "08-06 MBK 08-20 MBP",
+          "09-03 MBK 09-17 MBP",
+          "10-01 MBG 10-15 MBK 10-29 MBP",
+          "11-12 MBK 11-26 MBP",
+          "12-10 MBK 12-24 MBP"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Molve",
+      "podrucje": "Općina Molve (osim naselja Čingi-Lingi) – miješani i biootpad svaki drugi utorak, papir i plastika jednom mjesečno",
+      "ulice": ["Molve (općina, osim Čingi-Lingi)"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 24.8., 30.11.",
+      "raw": {
+        "2026": [
+          "07-14 MBK 07-28 MBP",
+          "08-11 MBK 08-25 MBP",
+          "09-08 MBK 09-22 MBP",
+          "10-06 MBK 10-20 MBP",
+          "11-03 MBK 11-09 G 11-17 MBP",
+          "12-01 MB 12-15 MBK 12-29 MBP"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Molve",
+      "podrucje": "Molve – naselje Čingi-Lingi – miješani i biootpad svaki drugi ponedjeljak, papir i plastika jednom mjesečno",
+      "ulice": ["Čingi-Lingi"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026.",
+      "raw": {
+        "2026": [
+          "07-13 MBK 07-27 MBP",
+          "08-10 MBK 08-24 MBP",
+          "09-07 MBK 09-21 MBP",
+          "10-05 MBK 10-19 MBP",
+          "11-02 MB 11-09 G 11-16 MBK 11-30 MBP",
+          "12-14 MBK 12-28 MBP"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Novo Virje",
+      "podrucje": "Općina Novo Virje – miješani i biootpad svaki drugi petak, papir i plastika jednom mjesečno",
+      "ulice": ["Novo Virje (cijela općina)"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 24.8., 30.11.; Mobilno reciklažno dvorište: 18.8. (13-16 h), 27.10. (13-16 h).",
+      "raw": {
+        "2026": [
+          "07-03 MB 07-09 K 07-17 MB 07-23 P 07-31 MB",
+          "08-06 K 08-14 MB 08-20 P 08-28 MB",
+          "09-03 K 09-11 MB 09-17 P 09-25 MBG",
+          "10-09 MB 10-15 K 10-23 MB 10-29 P",
+          "11-06 MB 11-12 K 11-20 MB 11-26 P",
+          "12-04 MB 12-10 K 12-18 MB 12-24 P"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Podravske Sesvete",
+      "podrucje": "Općina Podravske Sesvete – miješani i biootpad svaki drugi petak, papir i plastika jednom mjesečno",
+      "ulice": ["Podravske Sesvete (cijela općina)"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 28.8., 26.11.",
+      "raw": {
+        "2026": [
+          "07-10 MBK 07-24 MBP",
+          "08-07 MBK 08-21 MBP",
+          "09-04 MBK 09-18 MBP",
+          "10-02 MBG 10-16 MBK 10-30 MBP",
+          "11-13 MBK 11-27 MBP",
+          "12-11 MBK 12-21 P! 12-24 MB!"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Rasinja",
+      "podrucje": "Rasinja 1 – miješani i biootpad svaki drugi ponedjeljak, papir i plastika jednom mjesečno",
+      "opis": "Naselja: Rasinja, Prkos, Veliki Grabičani, Veliki Poganac, Ludbreški Ivanac, Mala Rijeka, Duga Rijeka, Radeljevo Selo, Ribnjak, Velika Rasinjica, Mala Rasinjica, Ivančec, Belanovo Selo i Lukovec.",
+      "ulice": ["Rasinja", "Prkos", "Veliki Grabičani", "Veliki Poganac", "Ludbreški Ivanac", "Mala Rijeka", "Duga Rijeka", "Radeljevo Selo", "Ribnjak", "Velika Rasinjica", "Mala Rasinjica", "Ivančec", "Belanovo Selo", "Lukovec"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026.",
+      "raw": {
+        "2026": [
+          "07-06 MBK 07-20 MBP",
+          "08-03 MB 08-17 MBK 08-31 MBP",
+          "09-14 MBK 09-28 MBPG",
+          "10-12 MBK 10-26 MBP",
+          "11-09 MBK 11-23 MBP",
+          "12-07 MBK 12-21 MBP"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Rasinja",
+      "podrucje": "Rasinja 2 – miješani i biootpad svaki drugi utorak, papir i plastika jednom mjesečno",
+      "opis": "Naselja: Subotica Podravska, Kuzminec, Cvetkovec, Grbaševec, Vojvodinec, Koledinec i Gorica.",
+      "ulice": ["Subotica Podravska", "Kuzminec", "Cvetkovec", "Grbaševec", "Vojvodinec", "Koledinec", "Gorica"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026.",
+      "raw": {
+        "2026": [
+          "07-07 MBK 07-21 MBP",
+          "08-04 MBK 08-18 MBP",
+          "09-01 MBG 09-15 MBK 09-29 MBP",
+          "10-13 MBK 10-27 MBP",
+          "11-10 MBK 11-24 MBP",
+          "12-08 MBK 12-22 MBP"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Virje",
+      "podrucje": "Virje 1 – miješani i biootpad svaku drugu srijedu, papir i plastika jednom mjesečno",
+      "opis": "U naselju Virje ulice: Andrije Hebranga, Franje Viktora Šignjara, Gorička, Josipa Kucela, Kralja Tomislava, Kostanjić, Miholjanska, Novigradska, Trg bana Josipa Jelačića, Trg Matije Gupca, Vinogradska i Vrbas. Naselja: Donje Zdjelice, Hampovica, Jabučeta, Miholjanec, Rakitnica i Šemovci.",
+      "ulice": ["Andrije Hebranga", "Franje Viktora Šignjara", "Gorička", "Josipa Kucela", "Kralja Tomislava", "Kostanjić", "Miholjanska", "Novigradska", "Trg bana Josipa Jelačića", "Trg Matije Gupca", "Vinogradska", "Vrbas", "Donje Zdjelice", "Hampovica", "Jabučeta", "Miholjanec", "Rakitnica", "Šemovci"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 28.8., 26.11.",
+      "raw": {
+        "2026": [
+          "07-01 MB 07-15 MBK 07-29 MBP",
+          "08-12 MBK 08-26 MBP",
+          "09-09 MBKG 09-23 MBP",
+          "10-07 MBK 10-21 MBP",
+          "11-04 MBK 11-21 MBP!",
+          "12-02 MB 12-16 MBK 12-30 MBP"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Virje",
+      "podrucje": "Virje 2 – miješani i biootpad svaki drugi četvrtak, papir i plastika jednom mjesečno",
+      "opis": "U naselju Virje ulice: Ante Starčevića, Augusta Cesarca, Augusta Šenoe, Braće Radića, Brestova, Ciglenska, Đure Sudete, Eugena Kvaternika, Ferde Rusana, Franje Fanceva, Gajeva, Gradišće, Hrvatskih domobrana, Istarska, Ivana Gundulića, Kolodvorska, M.P. Miškine, Mitrovica, Paromlinska, P.Preradovića, Šemovačka, Trg Matije Gupca, Trg Prodavić, Trg Stjepana Radića, Trnovac, Vladimira Nazora, Trg dr. Franje Tuđmana, Frana Lugarića.",
+      "ulice": ["Ante Starčevića", "Augusta Cesarca", "Augusta Šenoe", "Braće Radića", "Brestova", "Ciglenska", "Đure Sudete", "Eugena Kvaternika", "Ferde Rusana", "Franje Fanceva", "Gajeva", "Gradišće", "Hrvatskih domobrana", "Istarska", "Ivana Gundulića", "Kolodvorska", "M.P. Miškine", "Mitrovica", "Paromlinska", "P. Preradovića", "Šemovačka", "Trg Matije Gupca", "Trg Prodavić", "Trg Stjepana Radića", "Trnovac", "Vladimira Nazora", "Trg dr. Franje Tuđmana", "Frana Lugarića"],
+      "napomena": "Objavljeni raspored: 1.7.2026. – 31.12.2026. Agro-folije (treba najaviti): 28.8., 26.11.",
+      "raw": {
+        "2026": [
+          "07-02 MB 07-16 MBK 07-30 MBP",
+          "08-13 MBK 08-27 MBP",
+          "09-10 MBK 09-24 MBP",
+          "10-08 MBKG 10-22 MBP",
+          "11-05 MBK 11-19 MBP",
+          "12-03 MB 12-17 MBK 12-31 MBP"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+name: Test build
+
+# Checks that the hrvatska branch builds. When it does, "Deploy to GitHub Pages" on main publishes it to
+# https://klindic.github.io/garbage-collection/test/.
+on:
+  push:
+    branches: [hrvatska]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: SITE_BASE="klindic.github.io/garbage-collection/test/" ./build.sh

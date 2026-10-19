@@ -1,0 +1,219 @@
+{
+  "davatelj": "1. MAJ LABIN d.o.o.",
+  "web": "https://prvimaj.hr",
+  "izvor": "https://prvimaj.hr/?page_id=277",
+  "zupanija": "Istarska",
+  "jls": ["Labin", "Raša", "Sveta Nedelja", "Kršan", "Pićan"],
+  "nazivi": {"P": "Plastična i metalna ambalaža (žuti spremnik)", "K": "Papir i karton (plavi spremnik)"},
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno; žuti (plastična i metalna ambalaža) i plavi spremnik (papir i karton) prazne se naizmjence svaki drugi tjedan, isti dan kad i miješani otpad (moguć je vremenski odmak jer dolaze različita vozila). Vrijedi za korisnike s individualnim spremnicima (od vrata do vrata).", "Objavljeni raspored ne sadrži odvoz biootpada ni stakla (staklo: zeleni spremnici na javnim površinama).", "Mobilno reciklažno dvorište po naseljima: rasporedi (slike) na https://prvimaj.hr/?page_id=277.", "Raspored vrijedi od 14.09.2026. (terminski plan miješanog otpada od 14.09.2026., raspored odvojenog otpada do 02.01.2027.); raniji mjeseci nisu objavljeni.", "Pomaci zbog blagdana nisu objavljeni, osim što je tjedan odvojenog otpada produljen do subote (25.12. → 26.12.); na ostale blagdane računa se redovan dan odvoza.", "Plan miješanog otpada: https://prvimaj.hr/wp-content/uploads/2026/09/Terminski-plan-MKO_14.9.2026..pdf; odvojeni otpad: https://prvimaj.hr/wp-content/uploads/2026/06/Raspored-selektivno-2026-2.pdf."],
+  "zone": {
+    "1": {
+      "jls": "Labin",
+      "podrucje": "Ponedjeljak – Labin (ulice M.Vlačića…), Labin (Vilete…), Labin (Stare Katuri), Marcilnica (ulice V.C.Emina…) …",
+      "opis": "LABIN (ulice M.Vlačića, M.Laginje, V.Spinčića, B.Lupetine i Senari) | LABIN (Vilete, Ulica Slobode) | LABIN (Stare Katuri) | MARCILNICA (ulice V.C.Emina i Istarskih narodnjaka) | PRINCIPI, MONTOZI, SMOLIĆI | LOVRONCI, GONDOLIĆI, RUKLJI, DONJI KRANJCI , JUNAC",
+      "ulice": ["Labin (ulice M.Vlačića, M.Laginje, V.Spinčića, B.Lupetine i Senari)", "Labin (Vilete, Ulica Slobode)", "Labin (Stare Katuri)", "Marcilnica (ulice V.C.Emina i Istarskih narodnjaka)", "Principi", "Montozi", "Smolići", "Lovronci", "Gondolići", "Ruklji", "Donji Kranjci", "Junac"],
+      "raw": {
+        "2026": [
+          "09-14 MK 09-21 MP 09-28 MK",
+          "10-05 MP 10-12 MK 10-19 MP 10-26 MK",
+          "11-02 MP 11-09 MK 11-16 MP 11-23 MK 11-30 MP",
+          "12-07 MK 12-14 MP 12-21 MK 12-28 MP"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Labin",
+      "podrucje": "Utorak – Salakovci, Breg, Breg Ivanovci, Kapelica …",
+      "opis": "SALAKOVCI, BREG, BREG IVANOVCI, KAPELICA, GORA GLUŠIĆI",
+      "ulice": ["Salakovci", "Breg", "Breg Ivanovci", "Kapelica", "Gora Glušići"],
+      "raw": {
+        "2026": [
+          "09-15 MK 09-22 MP 09-29 MK",
+          "10-06 MP 10-13 MK 10-20 MP 10-27 MK",
+          "11-03 MP 11-10 MK 11-17 MP 11-24 MK",
+          "12-01 MP 12-08 MK 12-15 MP 12-22 MK 12-29 MP"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Labin",
+      "podrucje": "Četvrtak – Labin (A.Selana brojevi 1 do 6), Labin (Škrilice), Marcilnica – ulica Marcilnica, Ripenda Breg …",
+      "opis": "LABIN (A.Selana brojevi 1 do 6) | LABIN (Škrilice) | MARCILNICA – ulica Marcilnica | RIPENDA BREG, DUŠMANI, STRELJANA, ČEKADI | PRESIKA, KANFARELIĆI, BRDO | VINEŽ | MARCILJANI (Bohki, Markolini)",
+      "ulice": ["Labin (A.Selana brojevi 1 do 6)", "Labin (Škrilice)", "Marcilnica – ulica Marcilnica", "Ripenda Breg", "Dušmani", "Streljana", "Čekadi", "Presika", "Kanfarelići", "Brdo", "Vinež", "Marciljani (Bohki, Markolini)"],
+      "raw": {
+        "2026": [
+          "09-17 MK 09-24 MP",
+          "10-01 MK 10-08 MP 10-15 MK 10-22 MP 10-29 MK",
+          "11-05 MP 11-12 MK 11-19 MP 11-26 MK",
+          "12-03 MP 12-10 MK 12-17 MP 12-24 MK 12-31 MP"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Labin",
+      "podrucje": "Petak – Starci, Rogočana, Kranjci, Bartići",
+      "opis": "STARCI | ROGOČANA, KRANJCI, BARTIĆI",
+      "ulice": ["Starci", "Rogočana", "Kranjci", "Bartići"],
+      "raw": {
+        "2026": [
+          "09-18 MK 09-25 MP",
+          "10-02 MK 10-09 MP 10-16 MK 10-23 MP 10-30 MK",
+          "11-06 MP 11-13 MK 11-20 MP 11-27 MK",
+          "12-04 MP 12-11 MK 12-18 MP 12-26 MK!"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Labin",
+      "podrucje": "Subota – Labin (ulice Rudarska…), Rabac (sve ulice), Ripenda (Kras…), Ripenda Kosi …",
+      "opis": "LABIN (ulice Rudarska, K.Kranjca i A.Selana osim A.Selana brojeva 1 do 6) individualni spremnici od 80, 120, 240 litara | RABAC (sve ulice) | RIPENDA (Kras, Verbanci, Vicani, šoht) | RIPENDA KOSI | MARCILJANI (Tomažići, Draga, Faraguni, Blaškovići)",
+      "ulice": ["Labin (ulice Rudarska, K.Kranjca i A.Selana osim A.Selana brojeva 1 do 6)", "Rabac (sve ulice)", "Ripenda (Kras, Verbanci, Vicani, šoht)", "Ripenda Kosi", "Marciljani (Tomažići, Draga, Faraguni, Blaškovići)"],
+      "napomena": "Sezonski odvoz subotom (od 30.3.2026.); raspored odvojenog otpada uključuje subotu do 31.10.2026., a za razdoblje nakon toga raspored za ovo područje nije objavljen. Posljednja izmjena 14.9.2026. odnosi se na ukidanje privremenog uvođenja odvoza miješanog komunalnog otpada dva puta tjedno u Rapcu (utorkom i subotom). Od 14.9.2026. odvoz se vrši samo subotom u Rapcu. Ulice Rudarska, K. Kranjca i A. Selana: individualni spremnici od 80, 120 i 240 litara.",
+      "raw": {
+        "2026": [
+          "09-19 MK 09-26 MP",
+          "10-03 MK 10-10 MP 10-17 MK 10-24 MP 10-31 MK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Raša",
+      "podrucje": "Utorak – Sveta Marina, Ravni, Crni, Drenje …",
+      "opis": "SVETA MARINA, RAVNI | CRNI, DRENJE, ŠKVARANSKA, CEROVICA, SKITAČA, BROVINJE, TUNARICA, ŠPANJOLI, VLAKOVO, KNAPIĆI, STANIŠOVI, POLJE, ROVINJEŽI, REBURIĆI, BRGOD, MACARINI, MIKULEZIĆI, KUMINI, VLAŠKA, BRGOD, LONČARI, STONJE | DIMINIĆI, SV. LOVREČ LABINSKI, VIŠKOVIĆI, TRGETARI",
+      "ulice": ["Sveta Marina", "Ravni", "Crni", "Drenje", "Škvaranska", "Cerovica", "Skitača", "Brovinje", "Tunarica", "Španjoli", "Vlakovo", "Knapići", "Stanišovi", "Polje", "Rovinježi", "Reburići", "Brgod", "Macarini", "Mikulezići", "Kumini", "Vlaška", "Lončari", "Stonje", "Diminići", "Sv. Lovreč Labinski", "Viškovići", "Trgetari"],
+      "raw": {
+        "2026": [
+          "09-15 MK 09-22 MP 09-29 MK",
+          "10-06 MP 10-13 MK 10-20 MP 10-27 MK",
+          "11-03 MP 11-10 MK 11-17 MP 11-24 MK",
+          "12-01 MP 12-08 MK 12-15 MP 12-22 MK 12-29 MP"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Raša",
+      "podrucje": "Četvrtak – Vicani, Sv. Bortul, Zartinj, Topid …",
+      "opis": "VICANI, SV.BORTUL, ZARTINJ, TOPID, LETAJAC, PUSTIĆ, BARBIĆI, KUNJ | BEČIĆI",
+      "ulice": ["Vicani", "Sv. Bortul", "Zartinj", "Topid", "Letajac", "Pustić", "Barbići", "Kunj", "Bečići"],
+      "raw": {
+        "2026": [
+          "09-17 MK 09-24 MP",
+          "10-01 MK 10-08 MP 10-15 MK 10-22 MP 10-29 MK",
+          "11-05 MP 11-12 MK 11-19 MP 11-26 MK",
+          "12-03 MP 12-10 MK 12-17 MP 12-24 MK 12-31 MP"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Raša",
+      "podrucje": "Petak – Trget naselje, Štalije, Most Raša, Fonte Gaja …",
+      "opis": "TRGET naselje | ŠTALIJE, MOST RAŠA, FONTE GAJA, KOKOTI | RAŠA (ulice N.Tesle, M.V.Ilirika, Liburnijska, M.Balote, Istarska, V.Gortana, maršala Tita, 1.Maja, Kovarska i Lipa) | KRAPAN | KOROMAČNO",
+      "ulice": ["Trget naselje", "Štalije", "Most Raša", "Fonte Gaja", "Kokoti", "Raša (ulice N.Tesle, M.V.Ilirika, Liburnijska, M.Balote, Istarska, V.Gortana, maršala Tita, 1.Maja, Kovarska i Lipa)", "Krapan", "Koromačno"],
+      "raw": {
+        "2026": [
+          "09-18 MK 09-25 MP",
+          "10-02 MK 10-09 MP 10-16 MK 10-23 MP 10-30 MK",
+          "11-06 MP 11-13 MK 11-20 MP 11-27 MK",
+          "12-04 MP 12-11 MK 12-18 MP 12-26 MK!"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Ponedjeljak – Štrmac (Crkveno), Dubrova, Vrećari, Nedešćina …",
+      "opis": "ŠTRMAC (Crkveno) | DUBROVA, VREĆARI, NEDEŠĆINA | ŠUMBER, KRAJ DRAGE, ERŽIŠĆE, JURAZINI, KLAPČIĆI, BENECI",
+      "ulice": ["Štrmac (Crkveno)", "Dubrova", "Vrećari", "Nedešćina", "Šumber", "Kraj Drage", "Eržišće", "Jurazini", "Klapčići", "Beneci"],
+      "raw": {
+        "2026": [
+          "09-14 MK 09-21 MP 09-28 MK",
+          "10-05 MP 10-12 MK 10-19 MP 10-26 MK",
+          "11-02 MP 11-09 MK 11-16 MP 11-23 MK 11-30 MP",
+          "12-07 MK 12-14 MP 12-21 MK 12-28 MP"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Srijeda – Štrmac",
+      "opis": "ŠTRMAC",
+      "ulice": ["Štrmac"],
+      "raw": {
+        "2026": [
+          "09-16 MK 09-23 MP 09-30 MK",
+          "10-07 MP 10-14 MK 10-21 MP 10-28 MK",
+          "11-04 MP 11-11 MK 11-18 MP 11-25 MK",
+          "12-02 MP 12-09 MK 12-16 MP 12-23 MK 12-30 MP"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Četvrtak – Snašići, Marići, Frančići, Zagorčići …",
+      "opis": "SNAŠIĆI, MARIĆI, FRANČIĆI, ZAGORČIĆI, VELI TURINI, MALI TURINI, TOMOVI | MARETIĆI, BRNJCI | PARADIŽ, MERLINI, ČEKUTI, VELA ČEMPAROVICA, MALA ČEMPAROVICA, MARTINSKI, FRKALONCI, RUŽIĆI, RAŠANI, BALOTI",
+      "ulice": ["Snašići", "Marići", "Frančići", "Zagorčići", "Veli Turini", "Mali Turini", "Tomovi", "Maretići", "Brnjci", "Paradiž", "Merlini", "Čekuti", "Vela Čemparovica", "Mala Čemparovica", "Martinski", "Frkalonci", "Ružići", "Rašani", "Baloti"],
+      "raw": {
+        "2026": [
+          "09-17 MK 09-24 MP",
+          "10-01 MK 10-08 MP 10-15 MK 10-22 MP 10-29 MK",
+          "11-05 MP 11-12 MK 11-19 MP 11-26 MK",
+          "12-03 MP 12-10 MK 12-17 MP 12-24 MK 12-31 MP"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Sveta Nedelja",
+      "podrucje": "Subota – Veli Golji, Mali Golji, Markoči, Cere …",
+      "opis": "VELI GOLJI, MALI GOLJI, MARKOČI, CERE | SANTALEZI, STEPANČIĆI | ŽUPANIĆI, ŽNJIDARI, ZULIJANI",
+      "ulice": ["Veli Golji", "Mali Golji", "Markoči", "Cere", "Santalezi", "Stepančići", "Županići", "Žnjidari", "Zulijani"],
+      "napomena": "Sezonski odvoz subotom (od 30.3.2026.); raspored odvojenog otpada uključuje subotu do 31.10.2026., a za razdoblje nakon toga raspored za ovo područje nije objavljen.",
+      "raw": {
+        "2026": [
+          "09-19 MK 09-26 MP",
+          "10-03 MK 10-10 MP 10-17 MK 10-24 MP 10-31 MK"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Kršan",
+      "podrucje": "Srijeda – Stepčići, Veljaki, Čambarelići, Lazarići …",
+      "opis": "STEPČIĆI, VELJAKI, ČAMBARELIĆI,LAZARIĆI, BOLJEVIĆI | POTPIĆAN, KRŠAN, BLAŠKOVIĆI | VOZILIĆI, PLOMIN LUKA, LUKARIĆI, ZUSTOVIĆI, PLOMIN, MALINI, SOŠIĆI, PRISTAV, STARE STAZE, KOSTADINI",
+      "ulice": ["Stepčići", "Veljaki", "Čambarelići", "Lazarići", "Boljevići", "Potpićan", "Kršan", "Blaškovići", "Vozilići", "Plomin Luka", "Lukarići", "Zustovići", "Plomin", "Malini", "Sošići", "Pristav", "Stare Staze", "Kostadini"],
+      "raw": {
+        "2026": [
+          "09-16 MK 09-23 MP 09-30 MK",
+          "10-07 MP 10-14 MK 10-21 MP 10-28 MK",
+          "11-04 MP 11-11 MK 11-18 MP 11-25 MK",
+          "12-02 MP 12-09 MK 12-16 MP 12-23 MK 12-30 MP"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Kršan",
+      "podrucje": "Petak – Šimuni, Načinovići, Jurasi, Fonovići …",
+      "opis": "ŠIMUNI, NAČINOVIĆI, JURASI, FONOVIĆI, DONADIĆI, BAĆI, STIPANI, BRESTOVA, PARONI, KUŠARI, KAMENJARI, ZAGORJE | KOŽLJAK, KATUN, JASENOVIK, NOVA VAS, ŠUŠNJEVICA, LETAJ, KOSTRČANI, GRADINA, FALDOVIJA, ŽUKNICA, FILIPAŠI, ČEPIĆ, ZATKA ČEPIĆ, LANIŠĆE, ČEPIĆ KLOŠTAR, PURGARIJAČEPIĆ, ZANKOVCI, DOLIŠĆINA, BRDO",
+      "ulice": ["Šimuni", "Načinovići", "Jurasi", "Fonovići", "Donadići", "Baći", "Stipani", "Brestova", "Paroni", "Kušari", "Kamenjari", "Zagorje", "Kožljak", "Katun", "Jasenovik", "Nova Vas", "Šušnjevica", "Letaj", "Kostrčani", "Gradina", "Faldovija", "Žuknica", "Filipaši", "Čepić", "Zatka Čepić", "Lanišće", "Čepić Kloštar", "Purgarija Čepić", "Zankovci", "Dolišćina", "Brdo"],
+      "raw": {
+        "2026": [
+          "09-18 MK 09-25 MP",
+          "10-02 MK 10-09 MP 10-16 MK 10-23 MP 10-30 MK",
+          "11-06 MP 11-13 MK 11-20 MP 11-27 MK",
+          "12-04 MP 12-11 MK 12-18 MP 12-26 MK!"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Pićan",
+      "podrucje": "Srijeda – Pićan (cijela općina)",
+      "opis": "SVA NASELJA",
+      "ulice": ["Pićan (cijela općina)"],
+      "raw": {
+        "2026": [
+          "09-16 MK 09-23 MP 09-30 MK",
+          "10-07 MP 10-14 MK 10-21 MP 10-28 MK",
+          "11-04 MP 11-11 MK 11-18 MP 11-25 MK",
+          "12-02 MP 12-09 MK 12-16 MP 12-23 MK 12-30 MP"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "davatelj": "Greben Brela d.o.o.",
+  "web": "https://greben-brela.hr",
+  "izvor": "https://greben-brela.hr/raspored-odvoza-otpada/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Brela"],
+  "nazivi": {"K": "Papir i karton (plava kanta)", "P": "PET i metalna ambalaža (PET/MET)"},
+  "napomene": ["Greben Brela objavljuje raspored za tekuće razdoblje i mijenja ga promjenom sezone; raniji (ljetni) raspored nije sačuvan na stranici.", "Pomaci zbog blagdana nisu objavljeni; upisani su redovni dani odvoza.", "Od 1.5. do 1.11. zabranjeno je odlaganje krupnog otpada.", "Upisani su datumi od 01.10.2026. do 31.12.2026.; raspored od 01.10.2026. nema objavljen datum završetka."],
+  "zone": {
+    "1": {
+      "jls": "Brela",
+      "podrucje": "Ponedjeljak, srijeda, petak – Frankopanska, B. Biankovića, A. G. Matoša …",
+      "ulice": ["Frankopanska", "B. Biankovića", "A. G. Matoša", "Obala-lučica Soline", "Gornji Kričak (Sokoli)", "Sv. Jurja (Medići)", "Banje", "Podraće", "Šćit", "Stjepana Radića (Šošići – Sv. Stjepan)", "Put Luke – Jakiruša", "Boričak"],
+      "napomena": "Od 01.10.2026.: miješani otpad ponedjeljak, srijeda, petak; papir i karton četvrtak; PET/MET utorak, subota.",
+      "raw": {
+        "2026": [
+          "10-01 K 10-02 M 10-03 P 10-05 M 10-06 P 10-07 M 10-08 K 10-09 M 10-10 P 10-12 M 10-13 P 10-14 M 10-15 K 10-16 M 10-17 P 10-19 M 10-20 P 10-21 M 10-22 K 10-23 M 10-24 P 10-26 M 10-27 P 10-28 M 10-29 K 10-30 M 10-31 P",
+          "11-02 M 11-03 P 11-04 M 11-05 K 11-06 M 11-07 P 11-09 M 11-10 P 11-11 M 11-12 K 11-13 M 11-14 P 11-16 M 11-17 P 11-18 M 11-19 K 11-20 M 11-21 P 11-23 M 11-24 P 11-25 M 11-26 K 11-27 M 11-28 P 11-30 M",
+          "12-01 P 12-02 M 12-03 K 12-04 M 12-05 P 12-07 M 12-08 P 12-09 M 12-10 K 12-11 M 12-12 P 12-14 M 12-15 P 12-16 M 12-17 K 12-18 M 12-19 P 12-21 M 12-22 P 12-23 M 12-24 K 12-25 M 12-26 P 12-28 M 12-29 P 12-30 M 12-31 K"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Brela",
+      "podrucje": "Utorak, četvrtak, subota – Bartola Kašića, Biokovska, Gundulićeva …",
+      "ulice": ["Bartola Kašića", "Biokovska", "Gundulićeva", "Jardula", "Podcrkavlje", "šetnica Jakiruša – kamen Brela", "Stomarica", "Breljanska cesta"],
+      "napomena": "Od 01.10.2026.: miješani otpad utorak, četvrtak, subota; papir i karton četvrtak; PET/MET utorak, subota.",
+      "raw": {
+        "2026": [
+          "10-01 MK 10-03 MP 10-06 MP 10-08 MK 10-10 MP 10-13 MP 10-15 MK 10-17 MP 10-20 MP 10-22 MK 10-24 MP 10-27 MP 10-29 MK 10-31 MP",
+          "11-03 MP 11-05 MK 11-07 MP 11-10 MP 11-12 MK 11-14 MP 11-17 MP 11-19 MK 11-21 MP 11-24 MP 11-26 MK 11-28 MP",
+          "12-01 MP 12-03 MK 12-05 MP 12-08 MP 12-10 MK 12-12 MP 12-15 MP 12-17 MK 12-19 MP 12-22 MP 12-24 MK 12-26 MP 12-29 MP 12-31 MK"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "davatelj": "Gradina Vis d.o.o.",
+  "web": "https://gradinavis.hr",
+  "izvor": "https://gradinavis.hr/djelatnosti/gospodarenje-otpadom/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Vis"],
+  "nazivi": {"K": "Papir (vreća)", "P": "Plastika (vreća)", "S": "Staklo (vreća)"},
+  "napomene": ["Raspored prema pravilima iz 2020. (plan za studeni 2020. – travanj 2021.); davatelj nije objavio novi raspored – provjerite prije odlaganja.", "Miješani otpad upisan je samo za mjesece iz plana (siječanj – travanj i studeni – prosinac); ljetni raspored nije objavljen.", "Miješani otpad: u vrijeme blagdana ili neradnih dana odvoz se odgađa za sljedeći radni dan (upisano kao pomaknuto).", "Plastika, staklo i papir u vrećicama odlažu se na sabirnim mjestima pored kontejnera, jednom mjesečno u zadnjem tjednu mjeseca; datumi se objavljuju mjesečno – upisani su objavljeni datumi (1., 2., 4. mjesec 2026.).", "Glomazni otpad: u svibnju i listopadu (posebna obavijest) i/ili po pozivu.", "Obavijesti: https://gradinavis.hr/wp-content/uploads/2026/04/Preuzimanje-reciklabilnog-otpada-travanj.pdf, https://gradinavis.hr/wp-content/uploads/2026/02/Preuzimanje-reciklabilnog-otpada-za-veljacu.pdf, https://gradinavis.hr/wp-content/uploads/2026/01/Preuzimanje-reciklabilnog-otpada-sijecanj-1.pdf."],
+  "zone": {
+    "1": {
+      "jls": "Vis",
+      "podrucje": "Grad Vis",
+      "ulice": ["Grad Vis"],
+      "napomena": "Miješani otpad prema planu iz 2020. za studeni – travanj: ponedjeljak, srijeda, petak; za svibanj – listopad raspored nije objavljen.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 M 01-07 M 01-09 M 01-12 M 01-14 M 01-16 M 01-19 M 01-21 M 01-23 M 01-26 M 01-27 K 01-28 M 01-29 P 01-30 MS",
+          "02-02 M 02-04 M 02-06 M 02-09 M 02-11 M 02-13 M 02-16 M 02-18 M 02-20 M 02-23 M 02-24 K 02-25 M 02-26 P 02-27 MS",
+          "03-02 M 03-04 M 03-06 M 03-09 M 03-11 M 03-13 M 03-16 M 03-18 M 03-20 M 03-23 M 03-25 M 03-27 M 03-30 M",
+          "04-01 M 04-03 M 04-07 M! 04-08 M 04-10 M 04-13 M 04-15 M 04-17 M 04-20 M 04-22 M 04-24 M 04-27 M 04-28 K 04-29 M 04-30 PS!",
+          "11-02 M 11-04 M 11-06 M 11-09 M 11-11 M 11-13 M 11-16 M 11-19 M! 11-20 M 11-23 M 11-25 M 11-27 M 11-30 M",
+          "12-02 M 12-04 M 12-07 M 12-09 M 12-11 M 12-14 M 12-16 M 12-18 M 12-21 M 12-23 M 12-28 M! 12-30 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Vis",
+      "podrucje": "Podselje – Plisko polje – Marinje zemlje – Dračevo polje",
+      "ulice": ["Podselje", "Plisko polje", "Marinje zemlje", "Dračevo polje"],
+      "napomena": "Miješani otpad prema planu iz 2020. za studeni – travanj: utorak; za svibanj – listopad raspored nije objavljen.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 M 01-20 M 01-27 MK 01-29 P 01-30 S",
+          "02-03 M 02-10 M 02-17 M 02-24 MK 02-26 P 02-27 S",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-28 MK 04-30 PS!",
+          "11-03 M 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Vis",
+      "podrucje": "Stončica – Milna – Podstražje – Rukavac",
+      "ulice": ["Stončica", "Milna", "Podstražje", "Rukavac"],
+      "napomena": "Miješani otpad prema planu iz 2020. za studeni – travanj: utorak; za svibanj – listopad raspored nije objavljen.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-13 M 01-20 M 01-27 MK 01-29 P 01-30 S",
+          "02-03 M 02-10 M 02-17 M 02-24 MK 02-26 P 02-27 S",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-28 MK 04-30 PS!",
+          "11-03 M 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Vis",
+      "podrucje": "Rogačić – Dol – Kostirna",
+      "ulice": ["Rogačić", "Dol", "Kostirna"],
+      "napomena": "Miješani otpad prema planu iz 2020. za studeni – travanj: četvrtak; za svibanj – listopad raspored nije objavljen.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 M 01-22 M 01-27 K 01-29 MP 01-30 S",
+          "02-05 M 02-12 M 02-19 M 02-24 K 02-26 MP 02-27 S",
+          "03-05 M 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-28 K 04-30 MPS!",
+          "11-05 M 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    }
+  }
+}

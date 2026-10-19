@@ -1,0 +1,166 @@
+{
+  "davatelj": "Gradska čistoća Drniš d.o.o.",
+  "web": "https://www.gradskacistoca-drnis.hr",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Drniš", "Ružić"],
+  "nazivi": {"M": "Miješani komunalni otpad (zeleni spremnik)", "P": "Plastika i tetrapak (žuti spremnik)", "K": "Papir i karton (plavi spremnik)", "L": "Metal i staklo (vrećice)"},
+  "bioNapomena": "Biootpad se do uvođenja smeđih kanti odlaže u zeleni spremnik zajedno s miješanim otpadom; zeleni otpad do 4 m³ godišnje besplatno u reciklažnom dvorištu.",
+  "izvor": "https://www.gradskacistoca-drnis.hr/aktualno/obavijesti/288-plan-odvoza-komunalnog-otpada-biootpada-i-reciklabilnog-otpada-na-podrucju-grada-drnisa-te-opcine-ruzic-od-01-01-2026-do-31-12-2026-godine",
+  "napomene": ["Odvoz ljeti (01.06.–15.09.) od 6 sati, u ostalom razdoblju od 7 sati.", "Plastika i papir: sve zone u navedenom tjednu na svoj dan odvoza; metal i staklo u vrećicama tri puta godišnje po zoni.", "Iznajmljivači i sezonski korisnici koji se prijave do 15.05. imaju dodatni odvoz subotom od 01.06. do 30.09. (nije uključen; u kalendaru tamnozelene subote).", "Glomazni otpad: na zahtjev (obrazac na gradskacistoca-drnis.hr), 4 m³ godišnje besplatno; reciklažno dvorište Prva Obrtnička ulica 1A, pon–pet 7–15 h.", "Pomaci odvoza miješanog otpada zbog blagdana preuzeti su iz brošure (označeni kao pomaknuti)."],
+  "zone": {
+    "1": {
+      "jls": "Drniš",
+      "podrucje": "Zona I – ponedjeljkom: Drniš (cijeli grad)",
+      "ulice": ["Drniš"],
+      "napomena": "Miješani otpad ponedjeljkom (zbog blagdana: 06.04. → 04.04., 22.06. → 20.06.); plastika i papir ponedjeljkom u tjednima iz rasporeda; metal i staklo 12.01., 08.06., 28.09..",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 MPL 01-19 MK 01-26 M",
+          "02-02 M 02-09 MP 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-16 MP 03-23 MK 03-30 M",
+          "04-04 M! 04-13 MP 04-20 M 04-27 M",
+          "05-04 M 05-11 MP 05-18 MK 05-25 M",
+          "06-01 M 06-08 ML 06-15 MP 06-20 M! 06-29 M",
+          "07-06 MK 07-13 MP 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 MP 08-24 MK 08-31 M",
+          "09-07 M 09-14 MP 09-21 M 09-28 ML",
+          "10-05 M 10-12 MP 10-19 MK 10-26 M",
+          "11-02 M 11-09 MP 11-16 M 11-23 M 11-30 M",
+          "12-07 MK 12-14 MP 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Drniš",
+      "podrucje": "Zona II – utorkom: Badanj, Varoš, Parčić, Miočić, Biočić, Štikovo, Lišnjak, Velušić, Trbounje, Kričke",
+      "ulice": ["Badanj", "Varoš", "Parčić", "Miočić", "Biočić", "Štikovo", "Lišnjak", "Velušić", "Trbounje", "Kričke"],
+      "napomena": "Miješani otpad utorkom (zbog blagdana: 06.01. → 05.01.); plastika i papir utorkom u tjednima iz rasporeda; metal i staklo 20.01., 16.06., 06.10..",
+      "raw": {
+        "2026": [
+          "01-05 M! 01-13 MP 01-20 MKL 01-27 M",
+          "02-03 M 02-10 MP 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-17 MP 03-24 MK 03-31 M",
+          "04-07 M 04-14 MP 04-21 M 04-28 M",
+          "05-05 M 05-12 MP 05-19 MK 05-26 M",
+          "06-02 M 06-09 M 06-16 MPL 06-23 M 06-30 M",
+          "07-07 MK 07-14 MP 07-21 M 07-28 M",
+          "08-04 M 08-11 M 08-18 MP 08-25 MK",
+          "09-01 M 09-08 M 09-15 MP 09-22 M 09-29 M",
+          "10-06 ML 10-13 MP 10-20 MK 10-27 M",
+          "11-03 M 11-10 MP 11-17 M 11-24 M",
+          "12-01 M 12-08 MK 12-15 MP 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Drniš",
+      "podrucje": "Zona III – srijedom: Žitnić, Sedramić, Pakovo Selo, Pokrovnik, Radonić",
+      "ulice": ["Žitnić", "Sedramić", "Pakovo Selo", "Pokrovnik", "Radonić"],
+      "napomena": "Miješani otpad srijedom (zbog blagdana: 05.08. → 04.08., 18.11. → 21.11.); plastika i papir srijedom u tjednima iz rasporeda; metal i staklo 18.02., 24.06., 14.10..",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 MP 01-21 MK 01-28 M",
+          "02-04 M 02-11 MP 02-18 ML 02-25 M",
+          "03-04 M 03-11 M 03-18 MP 03-25 MK",
+          "04-01 M 04-08 M 04-15 MP 04-22 M 04-29 M",
+          "05-06 M 05-13 MP 05-20 MK 05-27 M",
+          "06-03 M 06-10 M 06-17 MP 06-24 ML",
+          "07-01 M 07-08 MK 07-15 MP 07-22 M 07-29 M",
+          "08-04 M! 08-12 M 08-19 MP 08-26 MK",
+          "09-02 M 09-09 M 09-16 MP 09-23 M 09-30 M",
+          "10-07 M 10-14 MPL 10-21 MK 10-28 M",
+          "11-04 M 11-11 MP 11-21 M! 11-25 M",
+          "12-02 M 12-09 MK 12-16 MP 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Drniš",
+      "podrucje": "Zona IV – četvrtkom: Širitovci, Karalić, Bogatić Miljevački, Brištane Gornje",
+      "ulice": ["Širitovci", "Karalić", "Bogatić Miljevački", "Brištane Gornje"],
+      "napomena": "Miješani otpad četvrtkom (zbog blagdana: 01.01. → 02.01., 04.06. → 05.06.); plastika i papir četvrtkom u tjednima iz rasporeda; metal i staklo 26.02., 02.07., 29.10..",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 MP 01-22 MK 01-29 M",
+          "02-05 M 02-12 MP 02-19 M 02-26 ML",
+          "03-05 M 03-12 M 03-19 MP 03-26 MK",
+          "04-02 M 04-09 M 04-16 MP 04-23 M 04-30 M",
+          "05-07 M 05-14 MP 05-21 MK 05-28 M",
+          "06-05 M! 06-11 M 06-18 MP 06-25 M",
+          "07-02 ML 07-09 MK 07-16 MP 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-20 MP 08-27 MK",
+          "09-03 M 09-10 M 09-17 MP 09-24 M",
+          "10-01 M 10-08 M 10-15 MP 10-22 MK 10-29 ML",
+          "11-05 M 11-12 MP 11-19 M 11-26 M",
+          "12-03 M 12-10 MK 12-17 MP 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Drniš",
+      "podrucje": "Zona V – petkom: Kaočine, Ključ, Drinovci Nos Kalik, Brištane Donje, Siverić, Kadina Glavica, Tepljuh",
+      "ulice": ["Kaočine", "Ključ", "Drinovci Nos Kalik", "Brištane Donje", "Siverić", "Kadina Glavica", "Tepljuh"],
+      "napomena": "Miješani otpad petkom (zbog blagdana: 01.05. → 30.04., 25.12. → 24.12.); plastika i papir petkom u tjednima iz rasporeda; metal i staklo 20.03., 17.07., 06.11..",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 MP 01-23 MK 01-30 M",
+          "02-06 M 02-13 MP 02-20 M 02-27 M",
+          "03-06 M 03-13 M 03-20 MPL 03-27 MK",
+          "04-03 M 04-10 M 04-17 MP 04-24 M 04-30 M!",
+          "05-08 M 05-15 MP 05-22 MK 05-29 M",
+          "06-05 M 06-12 M 06-19 MP 06-26 M",
+          "07-03 M 07-10 MK 07-17 MPL 07-24 M 07-31 M",
+          "08-07 M 08-14 M 08-21 MP 08-28 MK",
+          "09-04 M 09-11 M 09-18 MP 09-25 M",
+          "10-02 M 10-09 M 10-16 MP 10-23 MK 10-30 M",
+          "11-06 ML 11-13 MP 11-20 M 11-27 M",
+          "12-04 M 12-11 MK 12-18 MP 12-24 M!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Ružić",
+      "podrucje": "Zona III – srijedom: Otavice, Gradac, Baljci, Ružić, Moseć",
+      "ulice": ["Otavice", "Gradac", "Baljci", "Ružić", "Moseć"],
+      "napomena": "Miješani otpad srijedom (zbog blagdana: 05.08. → 04.08., 18.11. → 21.11.); plastika i papir srijedom u tjednima iz rasporeda; metal i staklo 18.02., 24.06., 14.10..",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 MP 01-21 MK 01-28 M",
+          "02-04 M 02-11 MP 02-18 ML 02-25 M",
+          "03-04 M 03-11 M 03-18 MP 03-25 MK",
+          "04-01 M 04-08 M 04-15 MP 04-22 M 04-29 M",
+          "05-06 M 05-13 MP 05-20 MK 05-27 M",
+          "06-03 M 06-10 M 06-17 MP 06-24 ML",
+          "07-01 M 07-08 MK 07-15 MP 07-22 M 07-29 M",
+          "08-04 M! 08-12 M 08-19 MP 08-26 MK",
+          "09-02 M 09-09 M 09-16 MP 09-23 M 09-30 M",
+          "10-07 M 10-14 MPL 10-21 MK 10-28 M",
+          "11-04 M 11-11 MP 11-21 M! 11-25 M",
+          "12-02 M 12-09 MK 12-16 MP 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Ružić",
+      "podrucje": "Zona IV – četvrtkom: Umljanovići, Kljake, Čavoglave, Mirlović Polje",
+      "ulice": ["Umljanovići", "Kljake", "Čavoglave", "Mirlović Polje"],
+      "napomena": "Miješani otpad četvrtkom (zbog blagdana: 01.01. → 02.01., 04.06. → 05.06.); plastika i papir četvrtkom u tjednima iz rasporeda; metal i staklo 26.02., 02.07., 29.10..",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-15 MP 01-22 MK 01-29 M",
+          "02-05 M 02-12 MP 02-19 M 02-26 ML",
+          "03-05 M 03-12 M 03-19 MP 03-26 MK",
+          "04-02 M 04-09 M 04-16 MP 04-23 M 04-30 M",
+          "05-07 M 05-14 MP 05-21 MK 05-28 M",
+          "06-05 M! 06-11 M 06-18 MP 06-25 M",
+          "07-02 ML 07-09 MK 07-16 MP 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-20 MP 08-27 MK",
+          "09-03 M 09-10 M 09-17 MP 09-24 M",
+          "10-01 M 10-08 M 10-15 MP 10-22 MK 10-29 ML",
+          "11-05 M 11-12 MP 11-19 M 11-26 M",
+          "12-03 M 12-10 MK 12-17 MP 12-24 M 12-31 M"
+        ]
+      }
+    }
+  }
+}

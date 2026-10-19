@@ -1,0 +1,144 @@
+{
+  "davatelj": "Našički park d.o.o.",
+  "web": "https://nasicki-park.hr",
+  "izvor": "https://nasicki-park.hr/djelatnosti/gospodarenje-otpadom-i-cistoca/cjenik-i-raspored-odvoza-komunalnog-otpada/",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Našice", "Donja Motičina"],
+  "nazivi": {"P": "Plastična ambalaža"},
+  "bioNapomena": "Biootpad (smeđa posuda ili vrećica) odvozi se svaki tjedan na isti dan kad i miješani otpad.",
+  "napomene": ["Miješani komunalni otpad i biootpad odvoze se svaki tjedan na dan iz rasporeda; plastika (žuti tjedan) i papir (plavi tjedan) jednom mjesečno, na isti dan u tjednu označenom na kalendaru.", "Raspored po ulicama i naseljima je iz siječnja 2024. (i dalje objavljen kao važeći).", "Glomazni otpad: jedan odvoz godišnje (do 3 m³) na prijavu, ili bez naknade u reciklažno dvorište.", "Reciklažno dvorište Našice, Krndijska ulica bb: ponedjeljak–petak 7–19, subota 8–13 sati; tel. 091 261 3291.", "Općina Podgorač od 2023. ima drugog davatelja usluge, pa njezina naselja nisu uključena.", "Odvoz na blagdane prema obavijestima Našičkog parka: 1.1. premješten na 3.1., 1.5. redovito, 4.6. redovito, 5.8. redovito.", "Za blagdane 6.1., 6.4., 22.6., 18.11., 25.12. obavijest o odvozu nije objavljena; datumi su ostavljeni prema rasporedu (obavijesti se objavljuju na nasicki-park.hr)."],
+  "zone": {
+    "1": {
+      "jls": "Našice",
+      "podrucje": "Ponedjeljak – Urbarija I, II, III, OŠ Kralja Tomislava, Trg Franje Tuđmana …",
+      "opis": "kamion 1 (grad): Urbarija I, II, III, OŠ Kralja Tomislava, Trg Franje Tuđmana, I.G. Kovačića, M. Špicera, Ž. Fašizma, Tavanačka cesta, A.Cesarca, SŠ Isidora Kršnjavog, OŠ Dore Pejačević, OBŽ Našice, B. Kašića, SPAR, NAC, Franjevačka ulica, A. Šenoe, Sestara Klarisa, M. Gupca, A.M. Reljkovića, I.B. Mažuranić, D. Pejačević, Z. Hermana, 21. rujna, Hotel Park, S. Bilinskog, 132. Našičke brigade HV, K. Tomislava - zgrade, Ul. B. T. Pejačević, Školska; kamion 2 (prigradska naselja): Mala Londžica, Velika Londžica, Makloševac - Dom za starije i nemoćne",
+      "ulice": ["Urbarija I, II, III", "OŠ Kralja Tomislava", "Trg Franje Tuđmana", "I.G. Kovačića", "M. Špicera", "Ž. Fašizma", "Tavanačka cesta", "A.Cesarca", "SŠ Isidora Kršnjavog", "OŠ Dore Pejačević", "OBŽ Našice", "B. Kašića", "SPAR, NAC", "Franjevačka ulica", "A. Šenoe", "Sestara Klarisa", "M. Gupca", "A.M. Reljkovića", "I.B. Mažuranić", "D. Pejačević", "Z. Hermana", "21. rujna", "Hotel Park", "S. Bilinskog", "132. Našičke brigade HV", "K. Tomislava - zgrade", "Ul. B. T. Pejačević", "Školska", "Mala Londžica", "Velika Londžica", "Makloševac - Dom za starije i nemoćne"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-19 MBP 01-26 MBK",
+          "02-02 MB 02-09 MB 02-16 MBP 02-23 MBK",
+          "03-02 MB 03-09 MB 03-16 MBP 03-23 MBK 03-30 MB",
+          "04-06 MB 04-13 MBP 04-20 MBK 04-27 MB",
+          "05-04 MB 05-11 MB 05-18 MBP 05-25 MBK",
+          "06-01 MB 06-08 MB 06-15 MBP 06-22 MBK 06-29 MB",
+          "07-06 MB 07-13 MB 07-20 MBP 07-27 MBK",
+          "08-03 MB 08-10 MB 08-17 MBP 08-24 MBK 08-31 MB",
+          "09-07 MB 09-14 MBP 09-21 MBK 09-28 MB",
+          "10-05 MB 10-12 MB 10-19 MBP 10-26 MBK",
+          "11-02 MB 11-09 MB 11-16 MBP 11-23 MBK 11-30 MB",
+          "12-07 MB 12-14 MBP 12-21 MBK 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Našice",
+      "podrucje": "Utorak – Sokolska ulica, Uprava šuma, FINA …",
+      "opis": "kamion 1 (grad): Sokolska ulica, Uprava šuma, FINA, HEP, JYSK i Prima, Plodine, HEP skladište, Pekara Papuk, I. Gundulića, I. Meštrovića, Trg I. Kršnjavoga, P.Preradovića, Športska ulica, Lj. Gaja, T. Ujevića, M. Krleže, A.G. Matoša, Gajić, Vojarna, U.G. Vukovara - Konzum, Šipovac; kamion 2 (prigradska naselja): Vukojevci",
+      "ulice": ["Sokolska ulica", "Uprava šuma", "FINA", "HEP", "JYSK i Prima", "Plodine", "HEP skladište", "Pekara Papuk", "I. Gundulića", "I. Meštrovića", "Trg I. Kršnjavoga", "P.Preradovića", "Športska ulica", "Lj. Gaja", "T. Ujevića", "M. Krleže", "A.G. Matoša", "Gajić", "Vojarna", "U.G. Vukovara - Konzum", "Šipovac", "Vukojevci"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-13 MB 01-20 MBP 01-27 MBK",
+          "02-03 MB 02-10 MB 02-17 MBP 02-24 MBK",
+          "03-03 MB 03-10 MB 03-17 MBP 03-24 MBK 03-31 MB",
+          "04-07 MB 04-14 MBP 04-21 MBK 04-28 MB",
+          "05-05 MB 05-12 MB 05-19 MBP 05-26 MBK",
+          "06-02 MB 06-09 MB 06-16 MBP 06-23 MBK 06-30 MB",
+          "07-07 MB 07-14 MB 07-21 MBP 07-28 MBK",
+          "08-04 MB 08-11 MB 08-18 MBP 08-25 MBK",
+          "09-01 MB 09-08 MB 09-15 MBP 09-22 MBK 09-29 MB",
+          "10-06 MB 10-13 MB 10-20 MBP 10-27 MBK",
+          "11-03 MB 11-10 MB 11-17 MBP 11-24 MBK",
+          "12-01 MB 12-08 MB 12-15 MBP 12-22 MBK 12-29 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Našice",
+      "podrucje": "Srijeda – J.J. Strossmayera, Autobusni kolodvor, LIDL …",
+      "opis": "kamion 1 (grad): J.J. Strossmayera, Autobusni kolodvor, LIDL, Tifon, R. Boškovića, B. Radića, OBŽ Našice, I. Mažuranića; kamion 2 (prigradska naselja): Velimirovac, Markovac Našički",
+      "ulice": ["J.J. Strossmayera", "Autobusni kolodvor", "LIDL", "Tifon", "R. Boškovića", "B. Radića", "OBŽ Našice", "I. Mažuranića", "Velimirovac", "Markovac Našički"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 MB 01-21 MBP 01-28 MBK",
+          "02-04 MB 02-11 MB 02-18 MBP 02-25 MBK",
+          "03-04 MB 03-11 MB 03-18 MBP 03-25 MBK",
+          "04-01 MB 04-08 MB 04-15 MBP 04-22 MBK 04-29 MB",
+          "05-06 MB 05-13 MB 05-20 MBP 05-27 MBK",
+          "06-03 MB 06-10 MB 06-17 MBP 06-24 MBK",
+          "07-01 MB 07-08 MB 07-15 MB 07-22 MBP 07-29 MBK",
+          "08-05 MB 08-12 MB 08-19 MBP 08-26 MBK",
+          "09-02 MB 09-09 MB 09-16 MBP 09-23 MBK 09-30 MB",
+          "10-07 MB 10-14 MB 10-21 MBP 10-28 MBK",
+          "11-04 MB 11-11 MB 11-18 MBP 11-25 MBK",
+          "12-02 MB 12-09 MB 12-16 MBP 12-23 MBK 12-30 MB"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Našice",
+      "podrucje": "Četvrtak – V. Nazora, Čimen, Sunčana …",
+      "opis": "kamion 1 (grad): V. Nazora, Čimen, Sunčana, J. Kozarca, V. Novaka, E. Kumičića, K. Tomislava, K. Zvonimira, B. J. Jelačića, Zagrebačka ulica, Đ. Đakovića, Đ.Đakovića - zgrade, Vinogradska, BOSO - K.Tomislava, B. Kašića, Drayden, Plodine, I.Zona -Krndijska, Zagrebačka pivovara, Farma Šipovac, V. Lisinskog do zaobilaznice, L. Matačića; kamion 2 (prigradska naselja): V. Lisinskog od zaobilaznice, Lila, Ribnjak, Lađanska, Jelisavac, Ceremošnjak, Makloševac, Makloševac - Dom za starije i nemoćne",
+      "ulice": ["V. Nazora", "Čimen", "Sunčana", "J. Kozarca", "V. Novaka", "E. Kumičića", "K. Tomislava", "K. Zvonimira", "B. J. Jelačića", "Zagrebačka ulica", "Đ. Đakovića", "Đ.Đakovića - zgrade", "Vinogradska", "BOSO - K.Tomislava", "B. Kašića", "Drayden", "Plodine", "I.Zona -Krndijska", "Zagrebačka pivovara", "Farma Šipovac", "V. Lisinskog do zaobilaznice", "L. Matačića", "V. Lisinskog od zaobilaznice", "Lila", "Ribnjak", "Lađanska", "Jelisavac", "Ceremošnjak", "Makloševac", "Makloševac - Dom za starije i nemoćne"],
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-15 MB 01-22 MBP 01-29 MBK",
+          "02-05 MB 02-12 MB 02-19 MBP 02-26 MBK",
+          "03-05 MB 03-12 MB 03-19 MBP 03-26 MBK",
+          "04-02 MB 04-09 MB 04-16 MBP 04-23 MBK 04-30 MB",
+          "05-07 MB 05-14 MB 05-21 MBP 05-28 MBK",
+          "06-04 MB 06-11 MB 06-18 MBP 06-25 MBK",
+          "07-02 MB 07-09 MB 07-16 MB 07-23 MBP 07-30 MBK",
+          "08-06 MB 08-13 MB 08-20 MBP 08-27 MBK",
+          "09-03 MB 09-10 MB 09-17 MBP 09-24 MBK",
+          "10-01 MB 10-08 MB 10-15 MB 10-22 MBP 10-29 MBK",
+          "11-05 MB 11-12 MB 11-19 MBP 11-26 MBK",
+          "12-03 MB 12-10 MB 12-17 MBP 12-24 MBK 12-31 MB"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Našice",
+      "podrucje": "Petak – OBŽ Našice, K.P. Krešimira 4, Martin …",
+      "opis": "kamion 1 (grad): OBŽ Našice, K.P. Krešimira 4, Martin, Zoljan, Štukino Brdo, Našicecement, Aquaestil, Gradac, Kamenolom Gradac, Vojarna, Hotel Park, Dudić, J. Pančića, Mojmir, Mate Lovraka, Đ.Đakovića produžetak, Ul. Hrvatskih branitelja; kamion 2 (prigradska naselja): Martin, Brezik",
+      "ulice": ["OBŽ Našice", "K.P. Krešimira 4", "Martin", "Zoljan", "Štukino Brdo", "Našicecement", "Aquaestil", "Gradac", "Kamenolom Gradac", "Vojarna", "Hotel Park", "Dudić", "J. Pančića", "Mojmir", "Mate Lovraka", "Đ.Đakovića produžetak", "Ul. Hrvatskih branitelja", "Brezik"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MB 01-16 MB 01-23 MBP 01-30 MBK",
+          "02-06 MB 02-13 MB 02-20 MBP 02-27 MBK",
+          "03-06 MB 03-13 MB 03-20 MBP 03-27 MBK",
+          "04-03 MB 04-10 MB 04-17 MBP 04-24 MBK",
+          "05-01 MB 05-08 MB 05-15 MB 05-22 MBP 05-29 MBK",
+          "06-05 MB 06-12 MB 06-19 MBP 06-26 MBK",
+          "07-03 MB 07-10 MB 07-17 MB 07-24 MBP 07-31 MBK",
+          "08-07 MB 08-14 MB 08-21 MBP 08-28 MBK",
+          "09-04 MB 09-11 MB 09-18 MBP 09-25 MBK",
+          "10-02 MB 10-09 MB 10-16 MB 10-23 MBP 10-30 MBK",
+          "11-06 MB 11-13 MB 11-20 MBP 11-27 MBK",
+          "12-04 MB 12-11 MB 12-18 MBP 12-25 MBK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Donja Motičina",
+      "podrucje": "Petak – Donja Motičina, Gornja Motičina, Seona",
+      "opis": "kamion 2 (prigradska naselja): Donja Motičina, Gornja Motičina, Seona",
+      "ulice": ["Donja Motičina", "Gornja Motičina", "Seona"],
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MB 01-16 MB 01-23 MBP 01-30 MBK",
+          "02-06 MB 02-13 MB 02-20 MBP 02-27 MBK",
+          "03-06 MB 03-13 MB 03-20 MBP 03-27 MBK",
+          "04-03 MB 04-10 MB 04-17 MBP 04-24 MBK",
+          "05-01 MB 05-08 MB 05-15 MB 05-22 MBP 05-29 MBK",
+          "06-05 MB 06-12 MB 06-19 MBP 06-26 MBK",
+          "07-03 MB 07-10 MB 07-17 MB 07-24 MBP 07-31 MBK",
+          "08-07 MB 08-14 MB 08-21 MBP 08-28 MBK",
+          "09-04 MB 09-11 MB 09-18 MBP 09-25 MBK",
+          "10-02 MB 10-09 MB 10-16 MB 10-23 MBP 10-30 MBK",
+          "11-06 MB 11-13 MB 11-20 MBP 11-27 MBK",
+          "12-04 MB 12-11 MB 12-18 MBP 12-25 MBK"
+        ]
+      }
+    }
+  }
+}

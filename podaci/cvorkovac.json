@@ -1,0 +1,137 @@
+{
+  "davatelj": "Čvorkovac d.o.o.",
+  "web": "https://www.cvorkovac.hr",
+  "izvor": "https://www.cvorkovac.hr/index.php/usluge/odvoz-otpada",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Erdut"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)", "P": "Plastika (žuta kanta)", "K": "Papir i karton (plava kanta)"},
+  "napomene": ["Miješani komunalni otpad (zelena kanta) odvozi se svaka dva tjedna, a u lipnju, srpnju i kolovozu još jednom dodatno; biootpad (smeđa kanta) svaka dva tjedna; papir (plava kanta) i plastika (žuta kanta) jednom mjesečno. Spremnike treba pripremiti do 6 sati.", "Nema odvoza 6.1., 7.1., 6.4., 13.4., 18.11.; zamjenski odvozi (2.1., 9.1., 3.4., 9.4., 13.11.) označeni su kao premješteni. Na blagdane 22.6., 5.8. odvoz je prema rasporedu.", "Elektronički otpad odvozi se s kućnog praga 17.9. (Dalj, Aljmaš) i 18.9. (Bijelo Brdo, Erdut, Planina).", "Podjela Dalja na Dalj I. i Dalj II. nije objavljena u rasporedu; provjerite kod Čvorkovca (031/590-272).", "Reciklažno dvorište Studenac, Pašnjak livadica bb, Dalj: od 1.11. do 31.3. utorak–subota 8–16 sati; od 1.4. do 31.10. utorak, četvrtak, petak i subota 8–16, srijeda 10–18 sati; ponedjeljkom zatvoreno.", "Mobilno reciklažno dvorište: drugi petak u mjesecu Bijelo Brdo (kod Doma kulture), treći petak Aljmaš, četvrti petak Erdut (kod Doma kulture).", "Čvorkovac d.o.o., Bana Josipa Jelačića 12, Dalj: 031/590-272, blagajna 031/591-556."],
+  "zone": {
+    "1": {
+      "jls": "Erdut",
+      "podrucje": "Dalj I. – miješani i biootpad ponedjeljkom, papir četvrtkom, plastika petkom",
+      "ulice": ["Dalj", "Dalj I."],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 B 01-19 M 01-26 B 01-29 K 01-30 P",
+          "02-02 M 02-09 B 02-16 M 02-23 B 02-26 K 02-27 P",
+          "03-02 M 03-05 S 03-09 B 03-16 M 03-23 B 03-26 K 03-27 P 03-30 M",
+          "04-03 B! 04-09 M! 04-20 B 04-23 K 04-24 P 04-27 M",
+          "05-04 B 05-11 M 05-15 G 05-18 B 05-21 K 05-22 P 05-25 M",
+          "06-01 B 06-08 M 06-15 B 06-18 K 06-19 P 06-22 M 06-29 MB",
+          "07-06 M 07-13 B 07-16 M 07-20 M 07-27 B 07-30 K 07-31 P",
+          "08-03 M 08-10 B 08-11 M 08-17 M 08-20 T 08-24 B 08-27 K 08-28 P 08-31 M",
+          "09-07 B 09-14 M 09-21 B 09-24 K 09-25 P 09-28 M",
+          "10-05 B 10-12 M 10-19 B 10-22 K 10-23 P 10-26 M",
+          "11-02 B 11-09 M 11-16 B 11-19 K 11-20 P 11-23 M 11-30 B",
+          "12-07 M 12-14 B 12-17 K 12-18 P 12-21 M 12-28 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Erdut",
+      "podrucje": "Dalj II. – miješani i biootpad utorkom, papir četvrtkom, plastika petkom",
+      "ulice": ["Dalj", "Dalj II."],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-13 B 01-20 M 01-27 B 01-29 K 01-30 P",
+          "02-03 M 02-10 B 02-17 M 02-24 B 02-26 K 02-27 P",
+          "03-03 M 03-05 S 03-10 B 03-17 M 03-24 B 03-26 K 03-27 P 03-31 M",
+          "04-07 B 04-14 M 04-21 B 04-23 K 04-24 P 04-28 M",
+          "05-05 B 05-12 M 05-15 G 05-19 B 05-21 K 05-22 P 05-26 M",
+          "06-02 B 06-09 M 06-16 B 06-18 K 06-19 P 06-23 M 06-29 M 06-30 B",
+          "07-07 M 07-14 B 07-16 M 07-21 M 07-28 B 07-30 K 07-31 P",
+          "08-04 M 08-11 MB 08-18 M 08-20 T 08-25 B 08-27 K 08-28 P",
+          "09-01 M 09-08 B 09-15 M 09-22 B 09-24 K 09-25 P 09-29 M",
+          "10-06 B 10-13 M 10-20 B 10-22 K 10-23 P 10-27 M",
+          "11-03 B 11-10 M 11-17 B 11-19 K 11-20 P 11-24 M",
+          "12-01 B 12-08 M 12-15 B 12-17 K 12-18 P 12-22 M 12-29 B"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Erdut",
+      "podrucje": "Planina – miješani i biootpad ponedjeljkom, papir četvrtkom, plastika petkom",
+      "ulice": ["Planina"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 B 01-19 M 01-26 B 01-29 K 01-30 P",
+          "02-02 M 02-09 B 02-16 M 02-23 B 02-26 K 02-27 P",
+          "03-02 M 03-06 S 03-09 B 03-16 M 03-23 B 03-26 K 03-27 P 03-30 M",
+          "04-03 B! 04-09 M! 04-20 B 04-23 K 04-24 P 04-27 M",
+          "05-04 B 05-11 M 05-18 B 05-21 K 05-22 P 05-25 M 05-29 G",
+          "06-01 B 06-08 M 06-15 B 06-18 K 06-19 P 06-22 M 06-29 B 06-30 M",
+          "07-06 M 07-13 B 07-17 M 07-20 M 07-27 B 07-30 K 07-31 P",
+          "08-03 M 08-10 MB 08-17 M 08-21 T 08-24 B 08-27 K 08-28 P 08-31 M",
+          "09-07 B 09-14 M 09-21 B 09-24 K 09-25 P 09-28 M",
+          "10-05 B 10-12 M 10-19 B 10-22 K 10-23 P 10-26 M",
+          "11-02 B 11-09 M 11-16 B 11-19 K 11-20 P 11-23 M 11-30 B",
+          "12-07 M 12-14 B 12-17 K 12-18 P 12-21 M 12-28 B"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Erdut",
+      "podrucje": "Bijelo Brdo – miješani, biootpad i papir srijedom, plastika petkom",
+      "ulice": ["Bijelo Brdo"],
+      "raw": {
+        "2026": [
+          "01-09 M! 01-14 BK 01-16 P 01-21 M 01-28 B",
+          "02-04 M 02-11 BK 02-13 P 02-18 M 02-25 B",
+          "03-04 M 03-06 S 03-11 BK 03-13 P 03-18 M 03-25 B",
+          "04-01 M 04-08 BK 04-10 P 04-15 M 04-22 B 04-29 M",
+          "05-06 BK 05-08 P 05-13 M 05-20 B 05-27 M 05-29 G",
+          "06-03 BK 06-05 P 06-10 M 06-17 B 06-24 M 06-30 M",
+          "07-01 BK 07-03 P 07-08 M 07-15 B 07-17 M 07-22 M 07-29 B",
+          "08-05 M 08-10 M 08-12 BK 08-14 P 08-19 M 08-21 T 08-26 B",
+          "09-02 M 09-09 BK 09-11 P 09-16 M 09-23 B 09-30 M",
+          "10-07 BK 10-09 P 10-14 M 10-21 B 10-28 M",
+          "11-04 BK 11-06 P 11-11 M 11-13 B! 11-25 M",
+          "12-02 BK 12-04 P 12-09 M 12-16 B 12-23 M 12-30 B"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Erdut",
+      "podrucje": "Aljmaš – miješani četvrtkom, biootpad i papir srijedom, plastika petkom",
+      "ulice": ["Aljmaš"],
+      "raw": {
+        "2026": [
+          "01-08 M 01-14 BK 01-16 P 01-22 M 01-28 B",
+          "02-05 M 02-11 BK 02-13 P 02-19 M 02-25 B",
+          "03-05 MS 03-11 BK 03-13 P 03-19 M 03-25 B",
+          "04-02 M 04-08 BK 04-10 P 04-16 M 04-22 B 04-30 M",
+          "05-06 BK 05-08 P 05-14 M 05-15 G 05-20 B 05-28 M",
+          "06-03 BK 06-05 P 06-11 M 06-17 B 06-25 M 06-29 M",
+          "07-01 BK 07-03 P 07-09 M 07-15 B 07-16 M 07-23 M 07-29 B",
+          "08-06 M 08-11 M 08-12 BK 08-14 P 08-20 MT 08-26 B",
+          "09-03 M 09-09 BK 09-11 P 09-17 M 09-23 B",
+          "10-01 M 10-07 BK 10-09 P 10-15 M 10-21 B 10-29 M",
+          "11-04 BK 11-06 P 11-12 M 11-13 B! 11-26 M",
+          "12-02 BK 12-04 P 12-10 M 12-16 B 12-24 M 12-30 B"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Erdut",
+      "podrucje": "Erdut – miješani i papir četvrtkom, biootpad utorkom, plastika petkom",
+      "ulice": ["Erdut"],
+      "raw": {
+        "2026": [
+          "01-08 M 01-13 B 01-22 M 01-27 B 01-29 K 01-30 P",
+          "02-05 M 02-10 B 02-19 M 02-24 B 02-26 K 02-27 P",
+          "03-05 M 03-06 S 03-10 B 03-19 M 03-24 B 03-26 K 03-27 P",
+          "04-02 M 04-07 B 04-16 M 04-21 B 04-23 K 04-24 P 04-30 M",
+          "05-05 B 05-14 M 05-19 B 05-21 K 05-22 P 05-28 M 05-29 G",
+          "06-02 B 06-11 M 06-16 B 06-18 K 06-19 P 06-25 M 06-30 MB",
+          "07-09 M 07-14 B 07-17 M 07-23 M 07-28 B 07-30 K 07-31 P",
+          "08-06 M 08-10 M 08-11 B 08-20 M 08-21 T 08-25 B 08-27 K 08-28 P",
+          "09-03 M 09-08 B 09-17 M 09-22 B 09-24 K 09-25 P",
+          "10-01 M 10-06 B 10-15 M 10-20 B 10-22 K 10-23 P 10-29 M",
+          "11-03 B 11-12 M 11-17 B 11-19 K 11-20 P 11-26 M",
+          "12-01 B 12-10 M 12-15 B 12-17 K 12-18 P 12-24 M 12-29 B"
+        ]
+      }
+    }
+  }
+}

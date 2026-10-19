@@ -1,0 +1,449 @@
+{
+  "davatelj": "Komunalac d.o.o. Jurdani",
+  "web": "https://www.komunalac-opatija.hr",
+  "zupanija": "Primorsko-goranska",
+  "jls": ["Opatija", "Matulji", "Lovran", "Mošćenička Draga"],
+  "nazivi": {"P": "Reciklabilni otpad (papir, karton, plastika, metal)", "S": "Staklena ambalaža (prozirne vrećice pored spremnika)"},
+  "bioNapomena": "Biootpad se od 1.10. do 30.4. odvozi jednom, a od 1.5. do 30.9. dvaput tjedno.",
+  "izvor": "https://www.komunalac-opatija.hr/komunalni-otpad/",
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno na dan područja; reciklabilni otpad (papir, karton, plastika i metalna ambalaža u istom spremniku) jednom u dva tjedna – u Opatiji i Lovranu u neparnim, u Matuljima i Mošćeničkoj Dragi u parnim tjednima.", "U Lovranu, Matuljima i Mošćeničkoj Dragi staklena ambalaža odvozi se prvi tjedan u mjesecu, uz odvoz reciklabilnog otpada, u prozirnim vrećicama pored spremnika.", "Blagdani su ucrtani u kalendare: crveno polje je neradni dan bez odvoza, a odvoz se obavlja dan na koji pokazuje strelica (u ovim podacima označen kao pomaknut). Na ostale blagdane otpad se odvozi redovno.", "Otpad se odlaže na dan prikupljanja najkasnije do 5:00 sati u naseljima Opatija, Ičići i Ika, a drugdje do 7:00 sati, isključivo u spremnike ili vrećice davatelja usluge.", "Upiti: info@komunalac-opatija.hr, 051 505 201 (interno 2).", "Na dijelu Grada Opatije reciklabilni otpad odvozi se svaki tjedan (Kalendar izvanrednog odvoza reciklabilnog otpada: https://www.komunalac-opatija.hr/wp-content/uploads/2025/12/Kalendar-odvoza-izvanrednog-reciklabilnog-Opatija-2026.pdf); te ulice imaju zasebne zone.", "U Lovranu (područje „ispod groblja”) od srpnja do listopada reciklabilni otpad odvozi se i izvanredno utorkom: https://www.komunalac-opatija.hr/wp-content/uploads/2026/07/Kalendar-odvoza-izvanrednog-reciklabilnog-otpada-Lovran-2026.pdf", "Mobilno reciklažno dvorište Grada Opatije obilazi naselja po tjednima: https://www.komunalac-opatija.hr/wp-content/uploads/2025/12/Raspored-postave-MRD-Opatija-2026.pdf"],
+  "zone": {
+    "1": {
+      "jls": "Opatija",
+      "podrucje": "Ponedjeljak – Opatija - područje od Punta Kolove, Ičići i Poljane",
+      "opis": "Opatija - područje od Punta Kolove, Ičići i Poljane",
+      "ulice": ["Opatija - područje od Punta Kolove", "Ičići", "Poljane"],
+      "napomena": "Miješani i reciklabilni otpad ponedjeljkom. Biootpad: od 1.10. do 30.4. ponedjeljkom, od 1.5. do 30.9. ponedjeljkom i četvrtkom. Dio ulica ovog područja ima i izvanredni odvoz reciklabilnog otpada (zasebna zona).",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MBP 01-19 MB 01-26 MBP",
+          "02-02 MB 02-09 MBP 02-16 MB 02-23 MBP",
+          "03-02 MB 03-09 MBP 03-16 MB 03-23 MBP 03-30 MB",
+          "04-06 MBP 04-13 MB 04-20 MBP 04-27 MB",
+          "05-04 MBP 05-07 B 05-11 MB 05-14 B 05-18 MBP 05-21 B 05-25 MB 05-28 B",
+          "06-01 MBP 06-04 B 06-08 MB 06-11 B 06-15 MBP 06-18 B 06-22 MB 06-25 B 06-29 MBP",
+          "07-02 B 07-06 MB 07-09 B 07-13 MBP 07-16 B 07-20 MB 07-23 B 07-27 MBP 07-30 B",
+          "08-03 MB 08-06 B 08-10 MBP 08-13 B 08-17 MB 08-20 B 08-24 MBP 08-27 B 08-31 MB",
+          "09-03 B 09-07 MBP 09-10 B 09-14 MB 09-17 B 09-21 MBP 09-24 B 09-28 MB",
+          "10-05 MBP 10-12 MB 10-19 MBP 10-26 MB",
+          "11-02 MBP 11-09 MB 11-16 MBP 11-23 MB 11-30 MBP",
+          "12-07 MB 12-14 MBP 12-21 MB 12-28 MBP"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Opatija",
+      "podrucje": "Utorak – Opatija - područje od Slatine do Punta Kolove, Nova cesta od Punta Kolove do V. Jože, Ičići - Liburnijska ulica, naselja Ika, Oprič, Dobreć",
+      "opis": "Opatija - područje od Slatine do Punta Kolove, Nova cesta od Punta Kolove do V. Jože, Ičići - Liburnijska ulica, naselja Ika, Oprič, Dobreć",
+      "ulice": ["Opatija - područje od Slatine do Punta Kolove", "Nova cesta od Punta Kolove do V. Jože", "Ičići - Liburnijska ulica", "naselja Ika", "Oprič", "Dobreć"],
+      "napomena": "Miješani i reciklabilni otpad utorkom. Biootpad: od 1.10. do 30.4. petkom, od 1.5. do 30.9. utorkom i petkom. Dio ulica ovog područja ima i izvanredni odvoz reciklabilnog otpada (zasebna zona).",
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 M 01-09 B 01-13 MP 01-16 B 01-20 M 01-23 B 01-27 MP 01-30 B",
+          "02-03 M 02-06 B 02-10 MP 02-13 B 02-17 M 02-20 B 02-24 MP 02-27 B",
+          "03-03 M 03-06 B 03-10 MP 03-13 B 03-17 M 03-20 B 03-24 MP 03-27 B 03-31 M",
+          "04-03 B 04-07 MP 04-10 B 04-14 M 04-17 B 04-21 MP 04-24 B 04-28 M",
+          "05-01 B 05-05 MBP 05-08 B 05-12 MB 05-15 B 05-19 MBP 05-22 B 05-26 MB 05-29 B",
+          "06-02 MBP 06-05 B 06-09 MB 06-12 B 06-16 MBP 06-19 B 06-23 MB 06-26 B 06-30 MBP",
+          "07-03 B 07-07 MB 07-10 B 07-14 MBP 07-17 B 07-21 MB 07-24 B 07-28 MBP 07-31 B",
+          "08-04 MB 08-07 B 08-11 MBP 08-14 B 08-18 MB 08-21 B 08-25 MBP 08-28 B",
+          "09-01 MB 09-04 B 09-08 MBP 09-11 B 09-15 MB 09-18 B 09-22 MBP 09-25 B 09-29 MB",
+          "10-02 B 10-06 MP 10-09 B 10-13 M 10-16 B 10-20 MP 10-23 B 10-27 M 10-30 B",
+          "11-03 MP 11-06 B 11-10 M 11-13 B 11-17 MP 11-20 B 11-24 M 11-27 B",
+          "12-01 MP 12-04 B 12-08 M 12-11 B 12-15 MP 12-18 B 12-22 M 12-26 B! 12-29 MP"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Opatija",
+      "podrucje": "Srijeda – Volosko (bez Tošine), Opatija centar do Slatine",
+      "opis": "Volosko (bez Tošine), Opatija centar do Slatine",
+      "ulice": ["Volosko (bez Tošine)", "Opatija centar do Slatine"],
+      "napomena": "Miješani i reciklabilni otpad srijedom. Biootpad: od 1.10. do 30.4. srijedom, od 1.5. do 30.9. srijedom i subotom. Dio ulica ovog područja ima i izvanredni odvoz reciklabilnog otpada (zasebna zona).",
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 MBP 01-21 MB 01-28 MBP",
+          "02-04 MB 02-11 MBP 02-18 MB 02-25 MBP",
+          "03-04 MB 03-11 MBP 03-18 MB 03-25 MBP",
+          "04-01 MB 04-08 MBP 04-15 MB 04-22 MBP 04-29 MB",
+          "05-02 B 05-06 MBP 05-09 B 05-13 MB 05-16 B 05-20 MBP 05-23 B 05-27 MB 05-30 B",
+          "06-03 MBP 06-06 B 06-10 MB 06-13 B 06-17 MBP 06-20 B 06-24 MB 06-27 B",
+          "07-01 MBP 07-04 B 07-08 MB 07-11 B 07-15 MBP 07-18 B 07-22 MB 07-25 B 07-29 MBP",
+          "08-01 B 08-05 MB 08-08 B 08-12 MBP 08-15 B 08-19 MB 08-22 B 08-26 MBP 08-29 B",
+          "09-02 MB 09-05 B 09-09 MBP 09-12 B 09-16 MB 09-19 B 09-23 MBP 09-26 B 09-30 MB",
+          "10-07 MBP 10-14 MB 10-21 MBP 10-28 MB",
+          "11-04 MBP 11-11 MB 11-18 MBP 11-25 MB",
+          "12-02 MBP 12-09 MB 12-16 MBP 12-23 MB 12-30 MBP"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Opatija",
+      "podrucje": "Četvrtak – Kosovo, Castel S.P.Terme, Nova cesta (od semafora do raskrsnice s ulicom Velog Jože), ulice iznad Nove ceste, Veprinac",
+      "opis": "Kosovo, Castel S.P.Terme, Nova cesta (od semafora do raskrsnice s ulicom Velog Jože), ulice iznad Nove ceste, Veprinac",
+      "ulice": ["Kosovo", "Castel S.P.Terme", "Nova cesta (od semafora do raskrsnice s ulicom Velog Jože)", "ulice iznad Nove ceste", "Veprinac"],
+      "napomena": "Miješani i reciklabilni otpad četvrtkom. Biootpad: od 1.10. do 30.4. ponedjeljkom, od 1.5. do 30.9. ponedjeljkom i četvrtkom. Dio ulica ovog područja ima i izvanredni odvoz reciklabilnog otpada (zasebna zona).",
+      "raw": {
+        "2026": [
+          "01-03 MP! 01-05 B 01-08 M 01-12 B 01-15 MP 01-19 B 01-22 M 01-26 B 01-29 MP",
+          "02-02 B 02-05 M 02-09 B 02-12 MP 02-16 B 02-19 M 02-23 B 02-26 MP",
+          "03-02 B 03-05 M 03-09 B 03-12 MP 03-16 B 03-19 M 03-23 B 03-26 MP 03-30 B",
+          "04-02 M 04-06 B 04-09 MP 04-13 B 04-16 M 04-20 B 04-23 MP 04-27 B 04-30 M",
+          "05-04 B 05-07 MBP 05-11 B 05-14 MB 05-18 B 05-21 MBP 05-25 B 05-28 MB",
+          "06-01 B 06-04 MBP 06-08 B 06-11 MB 06-15 B 06-18 MBP 06-22 B 06-25 MB 06-29 B",
+          "07-02 MBP 07-06 B 07-09 MB 07-13 B 07-16 MBP 07-20 B 07-23 MB 07-27 B 07-30 MBP",
+          "08-03 B 08-06 MB 08-10 B 08-13 MBP 08-17 B 08-20 MB 08-24 B 08-27 MBP 08-31 B",
+          "09-03 MB 09-07 B 09-10 MBP 09-14 B 09-17 MB 09-21 B 09-24 MBP 09-28 B",
+          "10-01 M 10-05 B 10-08 MP 10-12 B 10-15 M 10-19 B 10-22 MP 10-26 B 10-29 M",
+          "11-02 B 11-05 MP 11-09 B 11-12 M 11-16 B 11-19 MP 11-23 B 11-26 M 11-30 B",
+          "12-03 MP 12-07 B 12-10 M 12-14 B 12-17 MP 12-21 B 12-24 M 12-28 B 12-31 MP"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Opatija",
+      "podrucje": "Petak – Pobri, Tošina, Nova cesta od semafora kod groblja do Kuka",
+      "opis": "Pobri, Tošina, Nova cesta od semafora kod groblja do Kuka",
+      "ulice": ["Pobri", "Tošina", "Nova cesta od semafora kod groblja do Kuka"],
+      "napomena": "Miješani i reciklabilni otpad petkom. Biootpad: od 1.10. do 30.4. petkom, od 1.5. do 30.9. utorkom i petkom. Dio ulica ovog područja ima i izvanredni odvoz reciklabilnog otpada (zasebna zona).",
+      "raw": {
+        "2026": [
+          "01-02 MBP 01-09 MB 01-16 MBP 01-23 MB 01-30 MBP",
+          "02-06 MB 02-13 MBP 02-20 MB 02-27 MBP",
+          "03-06 MB 03-13 MBP 03-20 MB 03-27 MBP",
+          "04-03 MB 04-10 MBP 04-17 MB 04-24 MBP",
+          "05-01 MB 05-05 B 05-08 MBP 05-12 B 05-15 MB 05-19 B 05-22 MBP 05-26 B 05-29 MB",
+          "06-02 B 06-05 MBP 06-09 B 06-12 MB 06-16 B 06-19 MBP 06-23 B 06-26 MB 06-30 B",
+          "07-03 MBP 07-07 B 07-10 MB 07-14 B 07-17 MBP 07-21 B 07-24 MB 07-28 B 07-31 MBP",
+          "08-04 B 08-07 MB 08-11 B 08-14 MBP 08-18 B 08-21 MB 08-25 B 08-28 MBP",
+          "09-01 B 09-04 MB 09-08 B 09-11 MBP 09-15 B 09-18 MB 09-22 B 09-25 MBP 09-29 B",
+          "10-02 MB 10-09 MBP 10-16 MB 10-23 MBP 10-30 MB",
+          "11-06 MBP 11-13 MB 11-20 MBP 11-27 MB",
+          "12-04 MBP 12-11 MB 12-18 MBP 12-26 MB!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Opatija",
+      "podrucje": "Ponedjeljak, reciklabilni svaki tjedan – Liburnijska ul. Od Punta Kolove, Liburnijska ul. 1 a,b,c,d, A. Dminaka …",
+      "opis": "Liburnijska ul. Od Punta Kolove, Liburnijska ul. 1 a,b,c,d, A. Dminaka, Fantovo, Brdo do kapelice, Bana I. Mažuranića, Put Brdo do k.br. 13, Poljanska cesta do crkve Poljane, 1.Maja do k.br.17",
+      "ulice": ["Liburnijska ul. Od Punta Kolove", "Liburnijska ul. 1 a,b,c,d", "A. Dminaka", "Fantovo", "Brdo do kapelice", "Bana I. Mažuranića", "Put Brdo do k.br. 13", "Poljanska cesta do crkve Poljane", "1.Maja do k.br.17"],
+      "napomena": "Miješani i reciklabilni otpad ponedjeljkom. Biootpad: od 1.10. do 30.4. ponedjeljkom, od 1.5. do 30.9. ponedjeljkom i četvrtkom. Uz redovni odvoz reciklabilnog otpada u neparnim tjednima i izvanredni odvoz u parnim tjednima (Kalendar izvanrednog odvoza reciklabilnog otpada).",
+      "raw": {
+        "2026": [
+          "01-05 MBP 01-12 MBP 01-19 MBP 01-26 MBP",
+          "02-02 MBP 02-09 MBP 02-16 MBP 02-23 MBP",
+          "03-02 MBP 03-09 MBP 03-16 MBP 03-23 MBP 03-30 MBP",
+          "04-06 MBP 04-13 MBP 04-20 MBP 04-27 MBP",
+          "05-04 MBP 05-07 B 05-11 MBP 05-14 B 05-18 MBP 05-21 B 05-25 MBP 05-28 B",
+          "06-01 MBP 06-04 B 06-08 MBP 06-11 B 06-15 MBP 06-18 B 06-22 MBP 06-25 B 06-29 MBP",
+          "07-02 B 07-06 MBP 07-09 B 07-13 MBP 07-16 B 07-20 MBP 07-23 B 07-27 MBP 07-30 B",
+          "08-03 MBP 08-06 B 08-10 MBP 08-13 B 08-17 MBP 08-20 B 08-24 MBP 08-27 B 08-31 MBP",
+          "09-03 B 09-07 MBP 09-10 B 09-14 MBP 09-17 B 09-21 MBP 09-24 B 09-28 MBP",
+          "10-05 MBP 10-12 MBP 10-19 MBP 10-26 MBP",
+          "11-02 MBP 11-09 MBP 11-16 MBP 11-23 MBP 11-30 MBP",
+          "12-07 MBP 12-14 MBP 12-21 MBP 12-28 MBP"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Opatija",
+      "podrucje": "Utorak, reciklabilni svaki tjedan – M. Tita od hotela Palace do Liburnijske ul, Nova cesta od ulaza na Slatinu do Liburnijske ul, Velog Jože …",
+      "opis": "M. Tita od hotela Palace do Liburnijske ul., Nova cesta od ulaza na Slatinu do Liburnijske ul., Velog Jože, J. Rakovca (bez sporednih odvojaka), A. Mihića, A. Raspora do križanja s A. Mihića, Primorska do fakulteta",
+      "ulice": ["M. Tita od hotela Palace do Liburnijske ul", "Nova cesta od ulaza na Slatinu do Liburnijske ul", "Velog Jože", "J. Rakovca (bez sporednih odvojaka)", "A. Mihića", "A. Raspora do križanja s A. Mihića", "Primorska do fakulteta"],
+      "napomena": "Miješani i reciklabilni otpad utorkom. Biootpad: od 1.10. do 30.4. petkom, od 1.5. do 30.9. utorkom i petkom. Uz redovni odvoz reciklabilnog otpada u neparnim tjednima i izvanredni odvoz u parnim tjednima (Kalendar izvanrednog odvoza reciklabilnog otpada).",
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 MP 01-09 B 01-13 MP 01-16 B 01-20 MP 01-23 B 01-27 MP 01-30 B",
+          "02-03 MP 02-06 B 02-10 MP 02-13 B 02-17 MP 02-20 B 02-24 MP 02-27 B",
+          "03-03 MP 03-06 B 03-10 MP 03-13 B 03-17 MP 03-20 B 03-24 MP 03-27 B 03-31 MP",
+          "04-03 B 04-07 MP 04-10 B 04-14 MP 04-17 B 04-21 MP 04-24 B 04-28 MP",
+          "05-01 B 05-05 MBP 05-08 B 05-12 MBP 05-15 B 05-19 MBP 05-22 B 05-26 MBP 05-29 B",
+          "06-02 MBP 06-05 B 06-09 MBP 06-12 B 06-16 MBP 06-19 B 06-23 MBP 06-26 B 06-30 MBP",
+          "07-03 B 07-07 MBP 07-10 B 07-14 MBP 07-17 B 07-21 MBP 07-24 B 07-28 MBP 07-31 B",
+          "08-04 MBP 08-07 B 08-11 MBP 08-14 B 08-18 MBP 08-21 B 08-25 MBP 08-28 B",
+          "09-01 MBP 09-04 B 09-08 MBP 09-11 B 09-15 MBP 09-18 B 09-22 MBP 09-25 B 09-29 MBP",
+          "10-02 B 10-06 MP 10-09 B 10-13 MP 10-16 B 10-20 MP 10-23 B 10-27 MP 10-30 B",
+          "11-03 MP 11-06 B 11-10 MP 11-13 B 11-17 MP 11-20 B 11-24 MP 11-27 B",
+          "12-01 MP 12-04 B 12-08 MP 12-11 B 12-15 MP 12-18 B 12-22 MP 12-26 B! 12-29 MP"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Opatija",
+      "podrucje": "Srijeda, reciklabilni svaki tjedan – Volosko (bez Tošine), Opatija centar do Slatine (sve osim hotela i restorana, te svih pravnih subjekata kojima je reciklabilni otpad nastao iz proizvodne djelatnosti)",
+      "opis": "Volosko (bez Tošine), Opatija centar do Slatine (sve osim hotela i restorana, te svih pravnih subjekata kojima je reciklabilni otpad nastao iz proizvodne djelatnosti)",
+      "ulice": ["Volosko (bez Tošine)", "Opatija centar do Slatine (sve osim hotela i restorana, te svih pravnih subjekata kojima je reciklabilni otpad nastao iz proizvodne djelatnosti)"],
+      "napomena": "Miješani i reciklabilni otpad srijedom. Biootpad: od 1.10. do 30.4. srijedom, od 1.5. do 30.9. srijedom i subotom. Uz redovni odvoz reciklabilnog otpada u neparnim tjednima i izvanredni odvoz u parnim tjednima (Kalendar izvanrednog odvoza reciklabilnog otpada).",
+      "raw": {
+        "2026": [
+          "01-07 MBP 01-14 MBP 01-21 MBP 01-28 MBP",
+          "02-04 MBP 02-11 MBP 02-18 MBP 02-25 MBP",
+          "03-04 MBP 03-11 MBP 03-18 MBP 03-25 MBP",
+          "04-01 MBP 04-08 MBP 04-15 MBP 04-22 MBP 04-29 MBP",
+          "05-02 B 05-06 MBP 05-09 B 05-13 MBP 05-16 B 05-20 MBP 05-23 B 05-27 MBP 05-30 B",
+          "06-03 MBP 06-06 B 06-10 MBP 06-13 B 06-17 MBP 06-20 B 06-24 MBP 06-27 B",
+          "07-01 MBP 07-04 B 07-08 MBP 07-11 B 07-15 MBP 07-18 B 07-22 MBP 07-25 B 07-29 MBP",
+          "08-01 B 08-05 MBP 08-08 B 08-12 MBP 08-15 B 08-19 MBP 08-22 B 08-26 MBP 08-29 B",
+          "09-02 MBP 09-05 B 09-09 MBP 09-12 B 09-16 MBP 09-19 B 09-23 MBP 09-26 B 09-30 MBP",
+          "10-07 MBP 10-14 MBP 10-21 MBP 10-28 MBP",
+          "11-04 MBP 11-11 MBP 11-18 MBP 11-25 MBP",
+          "12-02 MBP 12-09 MBP 12-16 MBP 12-23 MBP 12-30 MBP"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Opatija",
+      "podrucje": "Četvrtak, reciklabilni svaki tjedan – Nova cesta od Spara do ulaza na Slatinu, od tabele Pobri do Nove ceste, Vrutki …",
+      "opis": "Nova cesta od Spara do ulaza na Slatinu, od tabele Pobri do Nove ceste, Vrutki, Šetalište Carmen Sylve, Veprinačkog statuta",
+      "ulice": ["Nova cesta od Spara do ulaza na Slatinu", "od tabele Pobri do Nove ceste", "Vrutki", "Šetalište Carmen Sylve", "Veprinačkog statuta"],
+      "napomena": "Miješani i reciklabilni otpad četvrtkom. Biootpad: od 1.10. do 30.4. ponedjeljkom, od 1.5. do 30.9. ponedjeljkom i četvrtkom. Uz redovni odvoz reciklabilnog otpada u neparnim tjednima i izvanredni odvoz u parnim tjednima (Kalendar izvanrednog odvoza reciklabilnog otpada).",
+      "raw": {
+        "2026": [
+          "01-03 MP! 01-05 B 01-08 MP 01-12 B 01-15 MP 01-19 B 01-22 MP 01-26 B 01-29 MP",
+          "02-02 B 02-05 MP 02-09 B 02-12 MP 02-16 B 02-19 MP 02-23 B 02-26 MP",
+          "03-02 B 03-05 MP 03-09 B 03-12 MP 03-16 B 03-19 MP 03-23 B 03-26 MP 03-30 B",
+          "04-02 MP 04-06 B 04-09 MP 04-13 B 04-16 MP 04-20 B 04-23 MP 04-27 B 04-30 MP",
+          "05-04 B 05-07 MBP 05-11 B 05-14 MBP 05-18 B 05-21 MBP 05-25 B 05-28 MBP",
+          "06-01 B 06-04 MBP 06-08 B 06-11 MBP 06-15 B 06-18 MBP 06-22 B 06-25 MBP 06-29 B",
+          "07-02 MBP 07-06 B 07-09 MBP 07-13 B 07-16 MBP 07-20 B 07-23 MBP 07-27 B 07-30 MBP",
+          "08-03 B 08-06 MBP 08-10 B 08-13 MBP 08-17 B 08-20 MBP 08-24 B 08-27 MBP 08-31 B",
+          "09-03 MBP 09-07 B 09-10 MBP 09-14 B 09-17 MBP 09-21 B 09-24 MBP 09-28 B",
+          "10-01 MP 10-05 B 10-08 MP 10-12 B 10-15 MP 10-19 B 10-22 MP 10-26 B 10-29 MP",
+          "11-02 B 11-05 MP 11-09 B 11-12 MP 11-16 B 11-19 MP 11-23 B 11-26 MP 11-30 B",
+          "12-03 MP 12-07 B 12-10 MP 12-14 B 12-17 MP 12-21 B 12-24 MP 12-28 B 12-31 MP"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Opatija",
+      "podrucje": "Petak, reciklabilni svaki tjedan – Pobarska cesta, Varljenska cesta, D. Trinajstića …",
+      "opis": "Pobarska cesta, Varljenska cesta, D. Trinajstića, 1. Istarske čete, Kosićevo, Giuseppe Verdia do k.br.23, Dr. Ivana Pošćića do Rikarda Katalinića Jeretova, Matuljska cesta, POS-ovi stanovi 2 a,b,c",
+      "ulice": ["Pobarska cesta", "Varljenska cesta", "D. Trinajstića", "1. Istarske čete", "Kosićevo", "Giuseppe Verdia do k.br.23", "Dr. Ivana Pošćića do Rikarda Katalinića Jeretova", "Matuljska cesta", "POS-ovi stanovi 2 a,b,c"],
+      "napomena": "Miješani i reciklabilni otpad petkom. Biootpad: od 1.10. do 30.4. petkom, od 1.5. do 30.9. utorkom i petkom. Uz redovni odvoz reciklabilnog otpada u neparnim tjednima i izvanredni odvoz u parnim tjednima (Kalendar izvanrednog odvoza reciklabilnog otpada).",
+      "raw": {
+        "2026": [
+          "01-02 MBP 01-09 MBP 01-16 MBP 01-23 MBP 01-30 MBP",
+          "02-06 MBP 02-13 MBP 02-20 MBP 02-27 MBP",
+          "03-06 MBP 03-13 MBP 03-20 MBP 03-27 MBP",
+          "04-03 MBP 04-10 MBP 04-17 MBP 04-24 MBP",
+          "05-01 MBP 05-05 B 05-08 MBP 05-12 B 05-15 MBP 05-19 B 05-22 MBP 05-26 B 05-29 MBP",
+          "06-02 B 06-05 MBP 06-09 B 06-12 MBP 06-16 B 06-19 MBP 06-23 B 06-26 MBP 06-30 B",
+          "07-03 MBP 07-07 B 07-10 MBP 07-14 B 07-17 MBP 07-21 B 07-24 MBP 07-28 B 07-31 MBP",
+          "08-04 B 08-07 MBP 08-11 B 08-14 MBP 08-18 B 08-21 MBP 08-25 B 08-28 MBP",
+          "09-01 B 09-04 MBP 09-08 B 09-11 MBP 09-15 B 09-18 MBP 09-22 B 09-25 MBP 09-29 B",
+          "10-02 MBP 10-09 MBP 10-16 MBP 10-23 MBP 10-30 MBP",
+          "11-06 MBP 11-13 MBP 11-20 MBP 11-27 MBP",
+          "12-04 MBP 12-11 MBP 12-18 MBP 12-26 MBP!"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Matulji",
+      "podrucje": "Ponedjeljak – Centar Matulja, Kvarnerska cesta, Frlanija, Popovići, Šmogorska cesta, Osojnaki, Trtni",
+      "opis": "Centar Matulja, Kvarnerska cesta, Frlanija, Popovići, Šmogorska cesta, Osojnaki, Trtni",
+      "ulice": ["Centar Matulja", "Kvarnerska cesta", "Frlanija", "Popovići", "Šmogorska cesta", "Osojnaki", "Trtni"],
+      "napomena": "Miješani i reciklabilni otpad ponedjeljkom. Biootpad: od 1.10. do 30.4. ponedjeljkom, od 1.5. do 30.9. ponedjeljkom i četvrtkom.",
+      "raw": {
+        "2026": [
+          "01-05 MBPS 01-12 MB 01-19 MBP 01-26 MB",
+          "02-02 MBPS 02-09 MB 02-16 MBP 02-23 MB",
+          "03-02 MBPS 03-09 MB 03-16 MBP 03-23 MB 03-30 MBP",
+          "04-06 MB 04-13 MBPS 04-20 MB 04-27 MBP",
+          "05-04 MB 05-07 B 05-11 MBPS 05-14 B 05-18 MB 05-21 B 05-25 MBP 05-28 B",
+          "06-01 MB 06-04 B 06-08 MBPS 06-11 B 06-15 MB 06-18 B 06-22 MBP 06-25 B 06-29 MB",
+          "07-02 B 07-06 MBPS 07-09 B 07-13 MB 07-16 B 07-20 MBP 07-23 B 07-27 MB 07-30 B",
+          "08-03 MBPS 08-06 B 08-10 MB 08-13 B 08-17 MBP 08-20 B 08-24 MB 08-27 B 08-31 MBP",
+          "09-03 B 09-07 MB 09-10 B 09-14 MBPS 09-17 B 09-21 MB 09-24 B 09-28 MBP",
+          "10-05 MB 10-12 MBPS 10-19 MB 10-26 MBP",
+          "11-02 MB 11-09 MBPS 11-16 MB 11-23 MBP 11-30 MB",
+          "12-07 MBPS 12-14 MB 12-21 MBP 12-28 MB"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Matulji",
+      "podrucje": "Utorak – M. Frlana, 43. Ist. Div., Branka Laginje, Jankovićeva cesta, Put Brdo, Put Pubovo, Kučići, Dalmatinskih brigada do Veletržnice, Mihotići, Bregi",
+      "opis": "M. Frlana, 43. Ist. Div., Branka Laginje, Jankovićeva cesta, Put Brdo, Put Pubovo, Kučići, Dalmatinskih brigada do Veletržnice, Mihotići, Bregi",
+      "ulice": ["M. Frlana", "43. Ist. Div", "Branka Laginje", "Jankovićeva cesta", "Put Brdo", "Put Pubovo", "Kučići", "Dalmatinskih brigada do Veletržnice", "Mihotići", "Bregi"],
+      "napomena": "Miješani i reciklabilni otpad utorkom. Biootpad: od 1.10. do 30.4. petkom, od 1.5. do 30.9. utorkom i petkom.",
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 MPS 01-09 B 01-13 M 01-16 B 01-20 MP 01-23 B 01-27 M 01-30 B",
+          "02-03 MPS 02-06 B 02-10 M 02-13 B 02-17 MP 02-20 B 02-24 M 02-27 B",
+          "03-03 MPS 03-06 B 03-10 M 03-13 B 03-17 MP 03-20 B 03-24 M 03-27 B 03-31 MP",
+          "04-03 B 04-07 M 04-10 B 04-14 MPS 04-17 B 04-21 M 04-24 B 04-28 MP",
+          "05-01 B 05-05 MB 05-08 B 05-12 MBPS 05-15 B 05-19 MB 05-22 B 05-26 MBP 05-29 B",
+          "06-02 MB 06-05 B 06-09 MBPS 06-12 B 06-16 MB 06-19 B 06-23 MBP 06-26 B 06-30 MB",
+          "07-03 B 07-07 MBPS 07-10 B 07-14 MB 07-17 B 07-21 MBP 07-24 B 07-28 MB 07-31 B",
+          "08-04 MBPS 08-07 B 08-11 MB 08-14 B 08-18 MBP 08-21 B 08-25 MB 08-28 B",
+          "09-01 MBPS 09-04 B 09-08 MB 09-11 B 09-15 MBP 09-18 B 09-22 MB 09-25 B 09-29 MBP",
+          "10-02 B 10-06 M 10-09 B 10-13 MPS 10-16 B 10-20 M 10-23 B 10-27 MP 10-30 B",
+          "11-03 M 11-06 B 11-10 MPS 11-13 B 11-17 M 11-20 B 11-24 MP 11-27 B",
+          "12-01 M 12-04 B 12-08 MPS 12-11 B 12-15 M 12-18 B 12-22 MP 12-26 B! 12-29 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Matulji",
+      "podrucje": "Srijeda – Jušići, Korensko, Jurdanići, Vlahov breg, Pešćenica, Žnjidari, Rukavac, Kućeli, Biškupi, Mihelići, Luskino, Mohorići, Rošići",
+      "opis": "Jušići, Korensko, Jurdanići, Vlahov breg, Pešćenica, Žnjidari, Rukavac, Kućeli, Biškupi, Mihelići, Luskino, Mohorići, Rošići",
+      "ulice": ["Jušići", "Korensko", "Jurdanići", "Vlahov breg", "Pešćenica", "Žnjidari", "Rukavac", "Kućeli", "Biškupi", "Mihelići", "Luskino", "Mohorići", "Rošići"],
+      "napomena": "Miješani i reciklabilni otpad srijedom. Biootpad: od 1.10. do 30.4. srijedom, od 1.5. do 30.9. srijedom i subotom.",
+      "raw": {
+        "2026": [
+          "01-07 MBPS 01-14 MB 01-21 MBP 01-28 MB",
+          "02-04 MBPS 02-11 MB 02-18 MBP 02-25 MB",
+          "03-04 MBPS 03-11 MB 03-18 MBP 03-25 MB",
+          "04-01 MBPS 04-08 MB 04-15 MBP 04-22 MB 04-29 MBP",
+          "05-02 B 05-06 MB 05-09 B 05-13 MBPS 05-16 B 05-20 MB 05-23 B 05-27 MBP 05-30 B",
+          "06-03 MB 06-06 B 06-10 MBPS 06-13 B 06-17 MB 06-20 B 06-24 MBP 06-27 B",
+          "07-01 MB 07-04 B 07-08 MBPS 07-11 B 07-15 MB 07-18 B 07-22 MBP 07-25 B 07-29 MB",
+          "08-01 B 08-05 MBPS 08-08 B 08-12 MB 08-15 B 08-19 MBP 08-22 B 08-26 MB 08-29 B",
+          "09-02 MBPS 09-05 B 09-09 MB 09-12 B 09-16 MBP 09-19 B 09-23 MB 09-26 B 09-30 MBP",
+          "10-07 MB 10-14 MBPS 10-21 MB 10-28 MBP",
+          "11-04 MB 11-11 MBPS 11-18 MB 11-25 MBP",
+          "12-02 MB 12-09 MBPS 12-16 MB 12-23 MBP 12-30 MB"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Matulji",
+      "podrucje": "Četvrtak – Brajani, Mavrići, Obadi, Principi, Jurdani, Mučići, Rupa, Lipa, Pasjak, Šapjane, Brdce",
+      "opis": "Brajani, Mavrići, Obadi, Principi, Jurdani, Mučići, Rupa, Lipa, Pasjak, Šapjane, Brdce",
+      "ulice": ["Brajani", "Mavrići", "Obadi", "Principi", "Jurdani", "Mučići", "Rupa", "Lipa", "Pasjak", "Šapjane", "Brdce"],
+      "napomena": "Miješani i reciklabilni otpad četvrtkom. Biootpad: od 1.10. do 30.4. ponedjeljkom, od 1.5. do 30.9. ponedjeljkom i četvrtkom.",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-05 B 01-08 MPS 01-12 B 01-15 M 01-19 B 01-22 MP 01-26 B 01-29 M",
+          "02-02 B 02-05 MPS 02-09 B 02-12 M 02-16 B 02-19 MP 02-23 B 02-26 M",
+          "03-02 B 03-05 MPS 03-09 B 03-12 M 03-16 B 03-19 MP 03-23 B 03-26 M 03-30 B",
+          "04-02 MPS 04-06 B 04-09 M 04-13 B 04-16 MP 04-20 B 04-23 M 04-27 B 04-30 MP",
+          "05-04 B 05-07 MB 05-11 B 05-14 MBPS 05-18 B 05-21 MB 05-25 B 05-28 MBP",
+          "06-01 B 06-04 MB 06-08 B 06-11 MBPS 06-15 B 06-18 MB 06-22 B 06-25 MBP 06-29 B",
+          "07-02 MB 07-06 B 07-09 MBPS 07-13 B 07-16 MB 07-20 B 07-23 MBP 07-27 B 07-30 MB",
+          "08-03 B 08-06 MBPS 08-10 B 08-13 MB 08-17 B 08-20 MBP 08-24 B 08-27 MB 08-31 B",
+          "09-03 MBPS 09-07 B 09-10 MB 09-14 B 09-17 MBP 09-21 B 09-24 MB 09-28 B",
+          "10-01 MPS 10-05 B 10-08 M 10-12 B 10-15 MP 10-19 B 10-22 M 10-26 B 10-29 MP",
+          "11-02 B 11-05 M 11-09 B 11-12 MPS 11-16 B 11-19 M 11-23 B 11-26 MP 11-30 B",
+          "12-03 M 12-07 B 12-10 MPS 12-14 B 12-17 M 12-21 B 12-24 MP 12-28 B 12-31 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Matulji",
+      "podrucje": "Petak – Cesta Šime Jurčića, Permani, Ružići, Poljane, Mali Brgud, Veli Brgud, Brešca, Puži, Zaluki, Zvoneća, Škrapna, Kriva, Mune, Žejane",
+      "opis": "Cesta Šime Jurčića, Permani, Ružići, Poljane, Mali Brgud, Veli Brgud, Brešca, Puži, Zaluki, Zvoneća, Škrapna, Kriva, Mune, Žejane",
+      "ulice": ["Cesta Šime Jurčića", "Permani", "Ružići", "Poljane", "Mali Brgud", "Veli Brgud", "Brešca", "Puži", "Zaluki", "Zvoneća", "Škrapna", "Kriva", "Mune", "Žejane"],
+      "napomena": "Miješani i reciklabilni otpad petkom. Biootpad: od 1.10. do 30.4. petkom, od 1.5. do 30.9. utorkom i petkom.",
+      "raw": {
+        "2026": [
+          "01-02 MB 01-09 MBPS 01-16 MB 01-23 MBP 01-30 MB",
+          "02-06 MBPS 02-13 MB 02-20 MBP 02-27 MB",
+          "03-06 MBPS 03-13 MB 03-20 MBP 03-27 MB",
+          "04-03 MBPS 04-10 MB 04-17 MBP 04-24 MB",
+          "05-01 MBPS 05-05 B 05-08 MB 05-12 B 05-15 MBP 05-19 B 05-22 MB 05-26 B 05-29 MBP",
+          "06-02 B 06-05 MB 06-09 B 06-12 MBPS 06-16 B 06-19 MB 06-23 B 06-26 MBP 06-30 B",
+          "07-03 MB 07-07 B 07-10 MBPS 07-14 B 07-17 MB 07-21 B 07-24 MBP 07-28 B 07-31 MB",
+          "08-04 B 08-07 MBPS 08-11 B 08-14 MB 08-18 B 08-21 MBP 08-25 B 08-28 MB",
+          "09-01 B 09-04 MBPS 09-08 B 09-11 MB 09-15 B 09-18 MBP 09-22 B 09-25 MB 09-29 B",
+          "10-02 MBPS 10-09 MB 10-16 MBP 10-23 MB 10-30 MBP",
+          "11-06 MB 11-13 MBPS 11-20 MB 11-27 MBP",
+          "12-04 MB 12-11 MBPS 12-18 MB 12-26 MBP!"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Lovran",
+      "podrucje": "Utorak – Lovran (do lovranskog groblja)",
+      "opis": "Lovran (sve ulice do zaključno lovranskog groblja), Medveja",
+      "ulice": ["Lovran (sve ulice do zaključno lovranskog groblja)", "od Ike do Peharova", "od Peharova do Cesare (glavna cesta)", "Šetalište Maršala tita", "Viktora cara Emina", "Jakova Jurčića", "Put Školarevo", "43. istarske Divizije", "Dr. Nilo Cara", "Omladinska ulica", "Ulica Lovora", "Bahova", "ulica Lokva", "Trg slobode", "Brajdice", "26. divizije", "Žrtava Fašizma", "9. rujna", "Rezine"],
+      "napomena": "Miješani i reciklabilni otpad utorkom, biootpad četvrtkom (od 1.5. do 30.9. i ponedjeljkom). Staklena ambalaža uz prvi odvoz reciklabilnog otpada u mjesecu. Od srpnja do listopada i izvanredni odvoz reciklabilnog otpada utorkom (Kalendar izvanrednog prikupljanja reciklabilnog otpada, područje „ispod groblja”). Medveja, Kali, Zaheji i 43. Istarske divizije kod Kasarne: vidi zasebnu zonu.",
+      "raw": {
+        "2026": [
+          "01-03 B! 01-06 M 01-08 B 01-13 MPS 01-15 B 01-20 M 01-22 B 01-27 MP 01-29 B",
+          "02-03 M 02-05 B 02-10 MPS 02-12 B 02-17 M 02-19 B 02-24 MP 02-26 B",
+          "03-03 M 03-05 B 03-10 MPS 03-12 B 03-17 M 03-19 B 03-24 MP 03-26 B 03-31 M",
+          "04-02 B 04-07 MPS 04-09 B 04-14 M 04-16 B 04-21 MP 04-23 B 04-28 M 04-30 B",
+          "05-04 B 05-05 MPS 05-07 B 05-11 B 05-12 M 05-14 B 05-18 B 05-19 MP 05-21 B 05-25 B 05-26 M 05-28 B",
+          "06-01 B 06-02 MPS 06-04 B 06-08 B 06-09 M 06-11 B 06-15 B 06-16 MP 06-18 B 06-22 B 06-23 M 06-25 B 06-29 B 06-30 MP",
+          "07-02 B 07-06 B 07-07 MP 07-09 B 07-13 B 07-14 MPS 07-16 B 07-20 B 07-21 MP 07-23 B 07-27 B 07-28 MP 07-30 B",
+          "08-03 B 08-04 MP 08-06 B 08-10 B 08-11 MPS 08-13 B 08-17 B 08-18 MP 08-20 B 08-24 B 08-25 MP 08-27 B 08-31 B",
+          "09-01 MP 09-03 B 09-07 B 09-08 MPS 09-10 B 09-14 B 09-15 MP 09-17 B 09-21 B 09-22 MP 09-24 B 09-28 B 09-29 MP",
+          "10-01 B 10-06 MPS 10-08 B 10-13 MP 10-15 B 10-20 MP 10-22 B 10-27 M 10-29 B",
+          "11-03 MPS 11-05 B 11-10 M 11-12 B 11-17 MP 11-19 B 11-24 M 11-26 B",
+          "12-01 MPS 12-03 B 12-08 M 12-10 B 12-15 MP 12-17 B 12-22 M 12-24 B 12-29 MP 12-31 B"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Lovran",
+      "podrucje": "Petak – Liganj, Tuliševica, Lovranska Draga (iznad groblja)",
+      "opis": "Liganj, Tuliševica, Lovranska Draga, Cesta za Lovransku Dragu (sve lokacije iznad lovranskog groblja)",
+      "ulice": ["Liganj", "Tuliševica", "Lovranska Draga", "Cesta za Lovransku Dragu (sve lokacije iznad lovranskog groblja)"],
+      "napomena": "Miješani i reciklabilni otpad petkom, biootpad četvrtkom (od 1.5. do 30.9. i ponedjeljkom). Staklena ambalaža uz prvi odvoz reciklabilnog otpada u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-02 MPS 01-03 B! 01-08 B 01-09 M 01-15 B 01-16 MP 01-22 B 01-23 M 01-29 B 01-30 MP",
+          "02-05 B 02-06 M 02-12 B 02-13 MPS 02-19 B 02-20 M 02-26 B 02-27 MP",
+          "03-05 B 03-06 M 03-12 B 03-13 MPS 03-19 B 03-20 M 03-26 B 03-27 MP",
+          "04-02 B 04-03 M 04-09 B 04-10 MPS 04-16 B 04-17 M 04-23 B 04-24 MP 04-30 B",
+          "05-01 M 05-04 B 05-07 B 05-08 MPS 05-11 B 05-14 B 05-15 M 05-18 B 05-21 B 05-22 MP 05-25 B 05-28 B 05-29 M",
+          "06-01 B 06-04 B 06-05 MPS 06-08 B 06-11 B 06-12 M 06-15 B 06-18 B 06-19 MP 06-22 B 06-25 B 06-26 M 06-29 B",
+          "07-02 B 07-03 MPS 07-06 B 07-09 B 07-10 M 07-13 B 07-16 B 07-17 MP 07-20 B 07-23 B 07-24 M 07-27 B 07-30 B 07-31 MP",
+          "08-03 B 08-06 B 08-07 M 08-10 B 08-13 B 08-14 MPS 08-17 B 08-20 B 08-21 M 08-24 B 08-27 B 08-28 MP 08-31 B",
+          "09-03 B 09-04 M 09-07 B 09-10 B 09-11 MPS 09-14 B 09-17 B 09-18 M 09-21 B 09-24 B 09-25 MP 09-28 B",
+          "10-01 B 10-02 M 10-08 B 10-09 MPS 10-15 B 10-16 M 10-22 B 10-23 MP 10-29 B 10-30 M",
+          "11-05 B 11-06 MPS 11-12 B 11-13 M 11-19 B 11-20 MP 11-26 B 11-27 M",
+          "12-03 B 12-04 MPS 12-10 B 12-11 M 12-17 B 12-18 MP 12-24 B 12-26 M! 12-31 B"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Lovran",
+      "podrucje": "Četvrtak – Kali, Medveja, Zaheji, 43. Ist. Div. kod Kasarne",
+      "opis": "Odvoz biootpada za cijelo područje Općine Lovran + MIJEŠANI OTPAD Kali, Medveja, Zaheji i 43. Ist. Div. kod Kasarne",
+      "ulice": ["Kali", "Medveja", "Zaheji", "43. Ist. Div. kod Kasarne"],
+      "napomena": "Miješani otpad i biootpad četvrtkom (biootpad od 1.5. do 30.9. i ponedjeljkom); reciklabilni otpad utorkom kao područje Lovran (do groblja) i Medveja. Staklena ambalaža uz prvi odvoz reciklabilnog otpada u mjesecu. Od srpnja do listopada i izvanredni odvoz reciklabilnog otpada utorkom (Kalendar izvanrednog prikupljanja reciklabilnog otpada, područje „ispod groblja”).",
+      "raw": {
+        "2026": [
+          "01-03 MB! 01-08 MB 01-13 PS 01-15 MB 01-22 MB 01-27 P 01-29 MB",
+          "02-05 MB 02-10 PS 02-12 MB 02-19 MB 02-24 P 02-26 MB",
+          "03-05 MB 03-10 PS 03-12 MB 03-19 MB 03-24 P 03-26 MB",
+          "04-02 MB 04-07 PS 04-09 MB 04-16 MB 04-21 P 04-23 MB 04-30 MB",
+          "05-04 B 05-05 PS 05-07 MB 05-11 B 05-14 MB 05-18 B 05-19 P 05-21 MB 05-25 B 05-28 MB",
+          "06-01 B 06-02 PS 06-04 MB 06-08 B 06-11 MB 06-15 B 06-16 P 06-18 MB 06-22 B 06-25 MB 06-29 B 06-30 P",
+          "07-02 MB 07-06 B 07-07 P 07-09 MB 07-13 B 07-14 PS 07-16 MB 07-20 B 07-21 P 07-23 MB 07-27 B 07-28 P 07-30 MB",
+          "08-03 B 08-04 P 08-06 MB 08-10 B 08-11 PS 08-13 MB 08-17 B 08-18 P 08-20 MB 08-24 B 08-25 P 08-27 MB 08-31 B",
+          "09-01 P 09-03 MB 09-07 B 09-08 PS 09-10 MB 09-14 B 09-15 P 09-17 MB 09-21 B 09-22 P 09-24 MB 09-28 B 09-29 P",
+          "10-01 MB 10-06 PS 10-08 MB 10-13 P 10-15 MB 10-20 P 10-22 MB 10-29 MB",
+          "11-03 PS 11-05 MB 11-12 MB 11-17 P 11-19 MB 11-26 MB",
+          "12-01 PS 12-03 MB 12-10 MB 12-15 P 12-17 MB 12-24 MB 12-29 P 12-31 MB"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Mošćenička Draga",
+      "podrucje": "Srijeda – cijelo područje Općine Mošćenička Draga",
+      "opis": "Dan redovnog prikupljanja otpada za sve frakcije otpada na čitavom području Općine Mošćenička Draga",
+      "ulice": ["Mošćenička Draga"],
+      "napomena": "Svi otpadi srijedom; biootpad od 1.5. do 30.9. i subotom. Staklena ambalaža uz prvi odvoz reciklabilnog otpada u mjesecu.",
+      "raw": {
+        "2026": [
+          "01-07 MBPS 01-14 MB 01-21 MBP 01-28 MB",
+          "02-04 MBPS 02-11 MB 02-18 MBP 02-25 MB",
+          "03-04 MBPS 03-11 MB 03-18 MBP 03-25 MB",
+          "04-01 MBPS 04-08 MB 04-15 MBP 04-22 MB 04-29 MBP",
+          "05-02 B 05-06 MB 05-09 B 05-13 MBPS 05-16 B 05-20 MB 05-23 B 05-27 MBP 05-30 B",
+          "06-03 MB 06-06 B 06-10 MBPS 06-13 B 06-17 MB 06-20 B 06-24 MBP 06-27 B",
+          "07-01 MB 07-04 B 07-08 MBPS 07-11 B 07-15 MB 07-18 B 07-22 MBP 07-25 B 07-29 MB",
+          "08-01 B 08-05 MBPS 08-08 B 08-12 MB 08-15 B 08-19 MBP 08-22 B 08-26 MB 08-29 B",
+          "09-02 MBPS 09-05 B 09-09 MB 09-12 B 09-16 MBP 09-19 B 09-23 MB 09-26 B 09-30 MBP",
+          "10-07 MB 10-14 MBPS 10-21 MB 10-28 MBP",
+          "11-04 MB 11-11 MBPS 11-18 MB 11-25 MBP",
+          "12-02 MB 12-09 MBPS 12-16 MB 12-23 MBP 12-30 MB"
+        ]
+      }
+    }
+  }
+}

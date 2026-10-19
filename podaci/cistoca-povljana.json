@@ -1,0 +1,33 @@
+{
+  "davatelj": "Čistoća Povljana d.o.o.",
+  "web": "https://www.cistoca-povljana.hr",
+  "izvor": "https://www.cistoca-povljana.hr/index.php/cistoca/raspored-odvoza",
+  "zupanija": "Zadarska",
+  "jls": ["Povljana"],
+  "nazivi": {"P": "Plastika", "L": "Metal", "B": "Biootpad (vrećice)"},
+  "napomene": ["Razvrstani otpad odlaže se u vrećice (preuzimaju se u uredu, Trg bana Josipa Jelačića 13 A) ili se donosi na mobilno reciklažno dvorište (Ante Starčevića, iza sportske dvorane), prema rasporedu u PDF-u.", "Glomazni otpad: na zahtjev korisnika u zadane dane (vidi obavijesti na cistoca-povljana.hr).", "Od lipnja do rujna veliki zeleni otpad koji ne stane u vrećice za biootpad ne preuzima se.", "Miješani otpad prema mjesečnoj tablici i obavijestima Čistoće Povljana; za razdoblja 01.09.–06.09., 01.11.–31.12. raspored miješanog otpada nije objavljen.", "Iznimke zbog blagdana za miješani otpad objavljene su u tablici (stupac IZNIMKE); za reciklabilni otpad objavljeni su točni datumi, a biootpad se odvozi svakog ponedjeljka (pomaci zbog blagdana nisu objavljeni)."],
+  "zone": {
+    "1": {
+      "jls": "Povljana",
+      "podrucje": "Općina Povljana (cijela općina)",
+      "ulice": ["Povljana"],
+      "napomena": "Miješani otpad – siječanj: ponedjeljak; veljača: ponedjeljak; ožujak: ponedjeljak, petak; travanj: ponedjeljak, petak; svibanj: ponedjeljak, srijeda, petak (ne vozi se 1.5.); lipanj: ponedjeljak, srijeda, petak; srpanj: ponedjeljak, srijeda, petak; kolovoz: ponedjeljak, srijeda, petak; od 7.9. do 31.10.: ponedjeljkom i četvrtkom. Papir, plastika, staklo i metal jednom mjesečno (u srpnju, kolovozu i rujnu dvaput) prema datumima iz rasporeda; biootpad svakog ponedjeljka.",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-19 MB 01-26 MB 01-28 P 01-29 KSL",
+          "02-02 MB 02-09 MB 02-16 MB 02-23 MB 02-25 P 02-26 KSL",
+          "03-02 MB 03-06 M 03-09 MB 03-13 M 03-16 MB 03-20 M 03-23 MB 03-25 P 03-26 KSL 03-27 M 03-30 MB",
+          "04-03 M 04-06 MB 04-10 M 04-13 MB 04-17 M 04-20 MB 04-24 M 04-27 MB 04-29 P 04-30 KSL",
+          "05-04 MB 05-06 M 05-08 M 05-11 MB 05-13 M 05-15 M 05-18 MB 05-20 M 05-22 M 05-25 MB 05-27 MP 05-28 KSL 05-29 M",
+          "06-01 MB 06-03 M 06-05 M 06-08 MB 06-10 M 06-12 M 06-15 MB 06-17 M 06-19 M 06-22 MB 06-24 MP 06-25 KSL 06-26 M 06-29 MB",
+          "07-01 M 07-03 M 07-06 MB 07-08 MP 07-09 KSL 07-10 M 07-13 MB 07-15 M 07-17 M 07-20 MB 07-22 M 07-24 M 07-27 MB 07-29 MP 07-30 KSL 07-31 M",
+          "08-03 MB 08-05 M 08-07 M 08-10 MB 08-12 MP 08-13 KSL 08-14 M 08-17 MB 08-19 M 08-21 M 08-24 MB 08-26 MP 08-27 KSL 08-28 M 08-31 MB",
+          "09-07 MB 09-09 P 09-10 MKSL 09-14 MB 09-17 M 09-21 MB 09-24 M 09-28 MB 09-29 P 09-30 KSL",
+          "10-01 M 10-05 MB 10-08 M 10-12 MB 10-15 M 10-19 MB 10-22 M 10-26 MB 10-28 P 10-29 MKSL",
+          "11-02 B 11-09 B 11-16 B 11-23 B 11-25 P 11-26 KSL 11-30 B",
+          "12-07 B 12-14 B 12-16 P 12-17 KSL 12-21 B 12-28 B"
+        ]
+      }
+    }
+  }
+}

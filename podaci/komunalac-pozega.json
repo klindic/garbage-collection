@@ -1,0 +1,935 @@
+{
+  "davatelj": "Komunalac Požega d.o.o.",
+  "web": "https://www.komunalac-pozega.hr",
+  "izvor": "https://komunalac-pozega.com.hr/",
+  "zupanija": "Požeško-slavonska",
+  "jls": ["Požega", "Pleternica", "Kutjevo", "Brestovac", "Čaglin", "Jakšić", "Kaptol", "Velika"],
+  "napomene": ["Kalendar na komunalac-pozega.com.hr prikazuje odvoze od sutrašnjeg dana do kraja godine; raniji mjeseci u ovom rasporedu potječu iz ranijih preuzimanja (od 08.10.2026.).", "Pomaci zbog blagdana već su upisani u datume (odvoz se seli na subotu prije ili poslije blagdana).", "Papir i plastika odvoze se zajedno (plavo-žuti spremnik), jednom mjesečno.", "Glomazni otpad: datumi iz kalendara; izvan Grada Požege potrebu odvoza prijavite na (034) 440 997 najkasnije dan uoči odvoza do 13 sati.", "Reciklažna dvorišta: Požega (Industrijska 25c), Pleternica (Ante Starčevića 29), Jakšić (Kolodvorska 215a), Velika (Strossmayerova 20D), Kaptol (Novi Bešinci 2B), Kutjevo (Kamenjača 15)."],
+  "zone": {
+    "1": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: 123. brigade, Dr. Ante Šercera, Eugena Kvaternika, Kvaternikova, …",
+      "ulice": ["123. brigade (Požega)", "Dr. Ante Šercera (Požega)", "Eugena Kvaternika (Požega)", "Kvaternikova (Požega)", "Viktora Ivičića (Požega)"],
+      "raw": {
+        "2026": [
+          "10-12 MB 10-19 MB 10-22 PK 10-23 S 10-26 MB",
+          "11-02 MB 11-09 MB 11-16 MB 11-20 S 11-23 MB 11-26 PK 11-30 MB",
+          "12-07 MB 12-14 MB 12-18 S 12-21 MB 12-24 PK 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: Andrije Štampara, Bernarda Vukoje, Bore Pavlovića, Borisa Hanžekovića, …",
+      "ulice": ["Andrije Štampara (Požega)", "Bernarda Vukoje (Požega)", "Bore Pavlovića (Požega)", "Borisa Hanžekovića (Požega)", "Cernička (Požega)", "Dr. Andrije Štampara (Požega)", "Dr. Antuna Schwartza (Požega)", "Dr. Antuna Švarca (Požega)", "Dr. Matije Kožića (Požega)", "Ervine Dragman (Požega)", "Frankopanska (Požega)", "Hanžekovićeva (Požega)", "Josipa Buturca (Požega)", "Lovre Matačića (Požega)", "Luka (Požega)", "Makse Kuntarića (Požega)", "Pakračka (Požega)", "Sv. Vinka Paulskog (Požega)", "Svetog Vinka Paulskog (Požega)", "Varelovac (Požega)", "Vilima Korajca (Požega)", "Šijačka cesta (Požega)", "Štamparova (Požega)"],
+      "raw": {
+        "2026": [
+          "10-12 MB 10-19 MB 10-23 PKS 10-26 MB",
+          "11-02 MB 11-09 MB 11-16 MB 11-20 PKS 11-23 MB 11-30 MB",
+          "12-07 MB 12-14 MB 12-18 PKS 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: Ante Starčevića, Dr. Ivana Pernara, Eugena Podubskog, Fra Grge Martića, …",
+      "ulice": ["Ante Starčevića (Požega)", "Dr. Ivana Pernara (Požega)", "Eugena Podubskog (Požega)", "Fra Grge Martića (Požega)", "Fra Grgura Čevapovića (Požega)", "Fra Kaje Adžića (Požega)", "Hermine Tomić (Požega)", "Ive Čakalića (Požega)", "Josipa Andrića (Požega)", "Josipa Paviševića (Požega)", "Martićeva (Požega)", "Milke Trnine (Požega)", "Pavla Radića (Požega)", "Rudinska (Požega)", "Starčevićeva (Požega)", "Sv. Leopolda Mandića (Požega)", "Svetog Leopolda Mandića (Požega)", "Vilima Justa (Požega)", "Vilme Nožinić (Požega)", "Zelena (Požega)", "Zinke Kunc (Požega)", "Zrinska - kućni brojevi 1-53 i 2-30 (Požega)", "Đure Basaričeka - osim kućnih brojeva 8, 10 (Požega)"],
+      "raw": {
+        "2026": [
+          "10-09 B 10-12 M 10-16 B 10-19 M 10-23 BS 10-26 M 10-30 BPK",
+          "11-02 M 11-06 B 11-09 M 11-13 B 11-16 M 11-20 BS 11-23 M 11-27 BPK 11-30 M",
+          "12-04 B 12-07 M 12-11 B 12-14 M 12-18 BS 12-21 M 12-28 M 12-31 PK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: Bankovci, Donji Emovci, Emovački Lug, Gornji Emovci, …",
+      "ulice": ["Bankovci", "Donji Emovci", "Emovački Lug", "Gornji Emovci", "Krivaj", "Kunovci", "Marindvor", "Nova Lipa", "Novi Bankovci", "Novi Štitnjak", "Stara Lipa", "Ugarci", "Štitnjak"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 M 10-19 M 10-22 PK 10-23 S 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-20 S 11-23 M 11-26 PK 11-30 M",
+          "12-07 M 12-14 M 12-18 S 12-21 M 12-24 PK 12-28 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: Cimermanova, Josipa Muževića, Kralja Krešimira, Marka Marića, …",
+      "ulice": ["Cimermanova (Vidovci)", "Josipa Muževića (Vidovci)", "Kralja Krešimira (Dervišaga)", "Marka Marića (Dervišaga)", "Matije Gupca - osim kućnih brojeva 25, 27 (Dervišaga)", "Milana Valkovića (Vidovci)", "Obrtnička (Vidovci)", "Omladinska (Vidovci)", "Orljavska (Dervišaga)", "Orljavska (Vidovci)", "P. Milakovića (Dervišaga)", "Pavla Radića (Dervišaga)", "Radnička (Dervišaga)", "Radnička (Vidovci)", "Rujanska (Dervišaga)", "Stjepana Ferića (Vidovci)", "Stjepana Radića (Dervišaga)", "Stjepana Radića (Vidovci)", "Sv. Ane (Vidovci)", "Sv. Ivana Krstitelja (Vidovci)", "Sv. Valentina (Vidovci)", "Svete Ane (Vidovci)", "Svetog Ivana Krstitelja (Vidovci)", "Svetog Valentina (Vidovci)", "Svibanjska (Vidovci)", "Vilima Korajca (Vidovci)", "Zrinska (Dervišaga)", "Školska (Dervišaga)", "Školska (Vidovci)", "Željeznička (Vidovci)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 M 10-19 M 10-26 M",
+          "11-02 MPKS 11-09 M 11-16 M 11-23 M 11-30 MS",
+          "12-07 MPK 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: Dragana Vukovića",
+      "ulice": ["Dragana Vukovića (Požega)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, staklo.",
+      "raw": {
+        "2026": [
+          "10-12 M 10-19 M 10-23 PK 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-20 PK 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-18 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: Golobrdci",
+      "ulice": ["Golobrdci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 PK 10-09 S 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-12 PK 11-13 S 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-10 PK 12-11 S 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Požega",
+      "podrucje": "Požega, ponedjeljak: Joze Jande",
+      "ulice": ["Joze Jande (Požega)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 M 10-19 M 10-23 PKS 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-20 PKS 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-18 PKS 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Požega",
+      "podrucje": "Požega, utorak: A.G.Matoša, Antuna Gustava Matoša, I.Mažuranića, Ivana Mažuranića, …",
+      "ulice": ["A.G.Matoša (Požega)", "Antuna Gustava Matoša (Požega)", "I.Mažuranića (Požega)", "Ivana Mažuranića (Požega)", "M. Krleže (Požega)", "Miroslava Krleže (Požega)", "O. Kučere (Požega)", "Otona Kučere (Požega)", "R. Boškovića (Požega)", "Ruđera Boškovića (Požega)", "Slavka Kolara (Požega)", "Tina Ujevića (Požega)", "Vanje Radauša (Požega)", "Vladimira Nazora (Požega)", "Vodovodna (Požega)"],
+      "raw": {
+        "2026": [
+          "10-12 B 10-13 M 10-19 BS 10-20 M 10-26 BPK 10-27 M",
+          "11-02 B 11-03 M 11-09 B 11-10 M 11-16 BS 11-17 M 11-23 BPK 11-24 M 11-30 B",
+          "12-01 M 12-07 B 12-08 M 12-14 BS 12-15 M 12-21 B 12-22 M 12-28 BPK 12-29 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Požega",
+      "podrucje": "Požega, utorak: Antuna Mihanovića, Babukićeva, osim kućnih brojeva 28 i 29, Cesarićeva, Cvjetna, …",
+      "ulice": ["Antuna Mihanovića (Požega)", "Babukićeva, osim kućnih brojeva 28 i 29 (Požega)", "Cesarićeva (Požega)", "Cvjetna (Požega)", "Dalmatinska (Požega)", "Dobriše Cesarića (Požega)", "Domobranska (Požega)", "Dr. Filipa Potrebice (Požega)", "I.G. Kovačića (Požega)", "Ivana Gorana Kovačića (Požega)", "J.E. Tomića (Požega)", "Josipa Eugena Tomića (Požega)", "Josipa Pavičića (Požega)", "Josipa Runjanina (Požega)", "Julija Kempfa (Požega)", "Matije Gupca (Požega)", "Orljavska (Požega)", "Primorska (Požega)", "Slavonska (Požega)", "Tomićeva (Požega)", "Vjekoslava Babukića - osim kućnih brojeva 28 i 29 (Požega)", "Županijska (Požega)"],
+      "raw": {
+        "2026": [
+          "10-12 B 10-13 M 10-19 B 10-20 M 10-23 S 10-26 BPK 10-27 M",
+          "11-02 B 11-03 M 11-09 B 11-10 M 11-16 B 11-17 M 11-20 S 11-23 BPK 11-24 M 11-30 B",
+          "12-01 M 12-07 B 12-08 M 12-14 B 12-15 M 12-18 S 12-21 B 12-22 M 12-28 BPK 12-29 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Požega",
+      "podrucje": "Požega, utorak: Priorljavska",
+      "ulice": ["Priorljavska (Požega)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-13 M 10-20 M 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Alojzija Stepinca, Antuna Kanižlića, Cehovska, Cirakijeva, …",
+      "ulice": ["Alojzija Stepinca (Požega)", "Antuna Kanižlića (Požega)", "Cehovska (Požega)", "Cirakijeva (Požega)", "Dr. Franje Tuđmana (Požega)", "Dr. Vladka Mačeka (Požega)", "Dragutina Lermana (Požega)", "Florijanova (Požega)", "Franje Cirakija (Požega)", "Franje Thauzija (Požega)", "Franje Thauzyja (Požega)", "Franje Tuđmana (Požega)", "Grgin dol (Požega)", "Industrijska (Požega)", "Kanižlićeva (Požega)", "Lermanova (Požega)", "Mačekova (Požega)", "Mesnička (Požega)", "Miroslava Kraljevića (Požega)", "Njemačka (Požega)", "Pape Ivana Pavla II. (Požega)", "Pavla Thallera (Požega)", "Pod gradom (Požega)", "Stjepana Radića - k.br. 16, 22, 24, 26, 28, 30, 32 (Požega)", "Sv. Florijana (Požega)", "Sv. Vida (Požega)", "Svetog Florijana (Požega)", "Svetog Vida (Požega)", "Trg Matka Peića (Požega)", "Trg sv. Terezije (Požega)", "Trg svete Terezije (Požega)", "Trg Svetog Trojstva (Požega)", "Tuđmanova (Požega)", "Vukovarska (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 B 10-10 G 10-14 M 10-15 B 10-16 PK 10-21 M 10-22 B 10-28 M 10-29 B",
+          "11-02 S 11-04 M 11-05 B 11-11 M 11-12 B 11-13 PK 11-19 B 11-21 M! 11-25 M 11-26 B 11-30 S",
+          "12-02 M 12-03 B 12-09 M 12-10 B 12-11 PK 12-16 M 12-17 B 12-23 M 12-24 B 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Armina Pavića, Arslanovci, Augusta Cesarca, Augusta Šenoe - osim kućnih brojeva 2 i 4, …",
+      "ulice": ["Armina Pavića (Požega)", "Arslanovci (Požega)", "Augusta Cesarca (Požega)", "Augusta Šenoe - osim kućnih brojeva 2 i 4 (Požega)", "Baruna Trenka (Požega)", "Brune Bušića (Požega)", "Dubrovačka (Požega)", "Filipovićeva (Požega)", "Ivana Filipovića (Požega)", "Ivana Matkovića (Požega)", "Ivana Muljevića (Požega)", "Kneza Branimira (Požega)", "Komušanac (Požega)", "Kralja Tomislava (Požega)", "Majurska (Požega)", "Nikole Tesle (Požega)", "Pilanski put (Požega)", "Snježne Gospe (Požega)", "Sv. Ilije (Požega)", "Svetog Ilije (Požega)", "Teslina (Požega)", "Tome Matića (Požega)", "Trenkova (Požega)", "Vranduk - kućni brojevi 74a, 126, 128, 128a (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 B 10-14 M 10-15 B 10-21 M 10-22 B 10-28 M 10-29 B",
+          "11-02 S 11-04 M 11-05 BPK 11-11 M 11-12 B 11-19 B 11-21 M! 11-25 M 11-26 B 11-30 S",
+          "12-02 M 12-03 BPK 12-09 M 12-10 B 12-16 M 12-17 B 12-23 M 12-24 B 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Crkveni Vrhovci, Gradski Vrhovci, Seoci, Škrabutnik",
+      "ulice": ["Crkveni Vrhovci", "Gradski Vrhovci", "Seoci", "Škrabutnik"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-10 G 10-14 M 10-19 S 10-21 M 10-22 PK 10-28 M",
+          "11-04 M 11-11 M 11-16 S 11-21 M! 11-25 M 11-26 PK",
+          "12-02 M 12-09 M 12-14 S 12-16 M 12-23 M 12-24 PK 12-30 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Fratrovica, Ivana Messnera, Jagodnjak, Janka Jurkovića, …",
+      "ulice": ["Fratrovica (Požega)", "Ivana Messnera (Požega)", "Jagodnjak (Požega)", "Janka Jurkovića (Požega)", "Luke Ibrišimovića (Požega)", "Messnerova (Požega)", "Požeški vinogradarski put (Požega)", "Seovački put (Požega)", "Sokolova (Požega)", "Stjepana Koydla (Požega)", "Sv. Duha (Požega)", "Svetog Duha (Požega)", "Vučjak (Požega)", "Zdenka Turkovića (Požega)"],
+      "raw": {
+        "2026": [
+          "10-10 G 10-14 MB 10-16 PK 10-19 S 10-21 MB 10-28 MB",
+          "11-04 MB 11-11 MB 11-13 PK 11-16 S 11-21 M! 11-25 MB",
+          "12-02 MB 12-09 MB 12-11 PK 12-14 S 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Matice hrvatske - kućni brojevi 11 i 13",
+      "ulice": ["Matice hrvatske - kućni brojevi 11 i 13 (Požega)"],
+      "raw": {
+        "2026": [
+          "10-14 MB 10-17 G 10-19 PKS 10-21 MB 10-28 MB",
+          "11-04 MB 11-11 MB 11-16 PKS 11-21 M! 11-25 MB",
+          "12-02 MB 12-09 MB 12-14 S 12-16 MB 12-21 PK 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Republike Hrvatske",
+      "ulice": ["Republike Hrvatske (Požega)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-14 M 10-16 PK 10-21 M 10-23 S 10-28 M",
+          "11-04 M 11-11 M 11-13 PK 11-20 S 11-21 M! 11-25 M",
+          "12-02 M 12-09 M 12-11 PK 12-16 M 12-18 S 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Sokolova II, Vinogradska",
+      "ulice": ["Sokolova II (Vidovci)", "Vinogradska (Vidovci)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-14 M 10-21 M 10-28 M",
+          "11-02 PKS 11-04 M 11-11 M 11-21 M! 11-25 M 11-30 S",
+          "12-02 M 12-07 PK 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Požega",
+      "podrucje": "Požega, srijeda: Voćarski put",
+      "ulice": ["Voćarski put (Požega)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-10 G 10-14 MB 10-21 MB 10-28 MB",
+          "11-04 MB 11-11 MB 11-21 M! 11-25 MB",
+          "12-02 MB 12-09 MB 12-16 MB 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Augusta Šenoe - kućni brojevi 2 i 4, Gajeva, Komušanski put, Ljudevita Gaja, …",
+      "ulice": ["Augusta Šenoe - kućni brojevi 2 i 4 (Požega)", "Gajeva (Požega)", "Komušanski put (Požega)", "Ljudevita Gaja (Požega)", "Točak (Požega)", "Vranduk - osim kućnih brojeva 74a, 126, 128, 128a (Požega)", "Vranovačka (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 MB 10-15 MB 10-22 MB 10-29 MB",
+          "11-02 S 11-05 MBPK 11-12 MB 11-19 MB 11-26 MB 11-30 S",
+          "12-03 MBPK 12-10 MB 12-17 MB 12-24 MB 12-31 MB"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Bagdala, Matije Gupca, Matije Gupca - kućni brojevi 25, 27",
+      "ulice": ["Bagdala (Dervišaga)", "Matije Gupca (Vidovci)", "Matije Gupca - kućni brojevi 25, 27 (Dervišaga)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-22 M 10-29 M",
+          "11-02 PKS 11-05 M 11-12 M 11-19 M 11-26 M 11-30 S",
+          "12-03 M 12-07 PK 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Bakačeva, Bana Borića, Bana Derenčina, Bana Emerika Derenčina, …",
+      "ulice": ["Bakačeva (Požega)", "Bana Borića (Požega)", "Bana Derenčina (Požega)", "Bana Emerika Derenčina (Požega)", "Bana Jelačića (Požega)", "Bana Josipa Jelačića (Požega)", "Bana Pavla Šubića (Požega)", "Bana Petra Berislavića (Požega)", "Bana Tome Erdodyja Bakača (Požega)", "Grgura Ninskog (Požega)", "Jelačićeva (Požega)", "Kneza Domagoja (Požega)", "Kneza Ljudevita Posavskog (Požega)", "Kneza Mislava (Požega)", "Kneza Trpimira (Požega)", "Kneza Višeslava (Požega)", "Kralja Držislava (Požega)", "Kralja Krešimira (Požega)", "Kralja Petra Svačića (Požega)", "Kralja Tvrtka (Požega)", "Kralja Zvonimira (Požega)", "Krešimirova (Požega)", "Zrinska - kućni brojevi 55-93 i 32-70 (Požega)", "Zvonimirova (Požega)", "Šubićeva (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 M 10-09 BS 10-12 PK 10-15 M 10-16 B 10-22 M 10-23 B 10-29 M 10-30 B",
+          "11-05 M 11-06 B 11-09 PK 11-12 M 11-13 BS 11-19 M 11-20 B 11-26 M 11-27 B",
+          "12-03 M 12-04 B 12-10 M 12-11 BS 12-14 PK 12-17 M 12-18 B 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Braće Radić - kućni brojevi 74a, 76, 76a, 78, 78a, 91, Dolska, Novljanska, Sv. Jurja, …",
+      "ulice": ["Braće Radić - kućni brojevi 74a, 76, 76a, 78, 78a, 91 (Drškovci)", "Dolska (Novo Selo)", "Novljanska (Novo Selo)", "Sv. Jurja (Novo Selo)", "Svetog Jurja (Novo Selo)", "Vinorodna (Novo Selo)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-17 G 10-19 S 10-22 MPK 10-29 M",
+          "11-05 M 11-12 M 11-16 S 11-19 M 11-26 MPK",
+          "12-03 M 12-10 M 12-14 S 12-17 M 12-24 MPK 12-31 M"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Ivana Šveara, Josipa Jurja Strossmayera - kućni brojevi 61, 61a, 61b, 61c, 61d, 75, 77, Kalvarija, Marina Držića - kućni brojevi 20, 20a, 22, …",
+      "ulice": ["Ivana Šveara (Požega)", "Josipa Jurja Strossmayera - kućni brojevi 61, 61a, 61b, 61c, 61d, 75, 77 (Požega)", "Kalvarija (Požega)", "Marina Držića - kućni brojevi 20, 20a, 22 (Požega)", "Strossmayerva - kućni brojevi 61, 61a, 61b, 61c, 61d, 75, 77 (Požega)", "Sv. Josipa - kućni brojevi 54, 54a, 54b, 54c (Požega)", "Svetog Josipa - kućni brojevi 54, 54a, 54b, 54c (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 M 10-14 B 10-15 M 10-17 G 10-19 PKS 10-21 B 10-22 M 10-28 B 10-29 M",
+          "11-04 B 11-05 M 11-11 B 11-12 M 11-16 PKS 11-19 M 11-25 B 11-26 M",
+          "12-02 B 12-03 M 12-09 B 12-10 M 12-14 S 12-16 B 12-17 M 12-21 PK 12-23 B 12-24 M 12-30 B 12-31 M"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Komušina, Laze Prnjavor, Vasine Laze, Ćosine Laze",
+      "ulice": ["Komušina", "Laze Prnjavor", "Vasine Laze", "Ćosine Laze"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-22 MPK 10-29 M",
+          "11-02 S 11-05 M 11-12 M 11-19 M 11-26 MPK 11-30 S",
+          "12-03 M 12-10 M 12-17 M 12-24 MPK 12-31 M"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Mihaljevci, Novi Mihaljevci",
+      "ulice": ["Mihaljevci", "Novi Mihaljevci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 MPK 10-09 S 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-12 MPK 11-13 S 11-19 M 11-26 M",
+          "12-03 M 12-10 MPK 12-11 S 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Vinogradska",
+      "ulice": ["Vinogradska (Dervišaga)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-12 M 10-15 M 10-19 M 10-22 M 10-26 M 10-29 M",
+          "11-02 MPKS 11-05 M 11-09 M 11-12 M 11-16 M 11-19 M 11-23 M 11-26 M 11-30 MS",
+          "12-03 M 12-07 MPK 12-10 M 12-14 M 12-17 M 12-21 M 12-24 M 12-28 M 12-31 M"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Požega",
+      "podrucje": "Požega, četvrtak: Đure Basaričeka - kućni brojevi 8, 10",
+      "ulice": ["Đure Basaričeka - kućni brojevi 8, 10 (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 M 10-09 B 10-15 M 10-16 B 10-22 M 10-23 BS 10-29 M 10-30 BPK",
+          "11-05 M 11-06 B 11-12 M 11-13 B 11-19 M 11-20 BS 11-26 M 11-27 BPK",
+          "12-03 M 12-04 B 12-10 M 12-11 B 12-17 M 12-18 BS 12-24 M 12-31 MPK"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Požega",
+      "podrucje": "Požega, petak: A.B. Šimića, Anin put, Antuna Branka Šimića, Dore Pejačević, …",
+      "ulice": ["A.B. Šimića (Požega)", "Anin put (Požega)", "Antuna Branka Šimića (Požega)", "Dore Pejačević (Požega)", "Dragutina Tadijanovića (Požega)", "Frana Supila (Požega)", "Grgurevski put (Požega)", "Gundulićeva (Požega)", "I.B. Mažuranić (Požega)", "Ivana Gundulića (Požega)", "Ivane Brlić Mažuranić (Požega)", "Jakova Gotovca (Požega)", "Janka Matka (Požega)", "Josipa Jurja Strossmayera - osim kućnih brojeva 61, 61a, 61b, 61c, 61d, 75, 77 (Požega)", "Josipa Kozarca (Požega)", "M.A. Reljkovića (Požega)", "Marije Jurić Zagorke (Požega)", "Marina Držića - osim kućnih brojeva 20, 20a, 22 (Požega)", "Marka Marulića (Požega)", "Matice hrvatske - osim kućnih brojeva 11 i 13 (Požega)", "Matije Antuna Reljkovića (Požega)", "Petra Preradovića (Požega)", "Radnička (Požega)", "Reljkovićeva (Požega)", "S.S. Kranjčevića (Požega)", "Silvija Strahimira Kranjčevića (Požega)", "Strossmayerova - osim kućnih brojeva 61, 61a, 61b, 61c, 61d, 75, 77 (Požega)", "Sv. Josipa - osim kućnih brojeva 54, 54a, 54b, 54c (Požega)", "Sv. Roka (Požega)", "Svetog Josipa - osim kućnih brojeva 54, 54a, 54b, 54c (Požega)", "Svetog Roka (Požega)", "Tekija (Požega)", "Vatroslava Lisinskog (Požega)", "Vinogradska (Požega)", "Zagrebačka (Požega)", "Zdenke Marković (Požega)", "Zlate Kolarić Kišur (Požega)", "Zlate Kolarić-Kišur (Požega)"],
+      "raw": {
+        "2026": [
+          "10-09 M 10-14 B 10-16 M 10-17 G 10-19 PKS 10-21 B 10-23 M 10-28 B 10-30 M",
+          "11-04 B 11-06 M 11-11 B 11-13 M 11-16 PKS 11-20 M 11-25 B 11-27 M",
+          "12-02 B 12-04 M 12-09 B 12-11 M 12-14 S 12-16 B 12-18 M 12-21 PK 12-23 B 12-30 B"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Požega",
+      "podrucje": "Požega, petak: Alaginci, Turnić, Šeovci",
+      "ulice": ["Alaginci", "Turnić", "Šeovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-09 MS 10-12 PK 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-09 PK 11-13 MS 11-20 M 11-27 M",
+          "12-04 M 12-11 MS 12-14 PK 12-18 M"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Požega",
+      "podrucje": "Požega, petak: Andrije Hebranga, Hebrangova, Hrvatskih branitelja, Iločka, …",
+      "ulice": ["Andrije Hebranga (Požega)", "Hebrangova (Požega)", "Hrvatskih branitelja (Požega)", "Iločka (Požega)", "Mlinska (Požega)", "Osječka (Požega)", "Ratarnička (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 PK 10-09 MS 10-14 B 10-16 M 10-21 B 10-23 M 10-28 B 10-30 M",
+          "11-04 B 11-06 M 11-11 B 11-12 PK 11-13 MS 11-20 M 11-25 B 11-27 M",
+          "12-02 B 12-04 M 12-09 B 12-10 PK 12-11 MS 12-16 B 12-18 M 12-23 B 12-30 B"
+        ]
+      }
+    },
+    "32": {
+      "jls": "Požega",
+      "podrucje": "Požega, petak: Braće Radić - osim kućnih brojeva 74a, 76, 76a, 78, 78a, 91, Dravogradska, Hrvatske bratske zajednice, Hrvatskih dragovoljaca, …",
+      "ulice": ["Braće Radić - osim kućnih brojeva 74a, 76, 76a, 78, 78a, 91 (Drškovci)", "Dravogradska (Drškovci)", "Hrvatske bratske zajednice (Drškovci)", "Hrvatskih dragovoljaca (Novo Selo)", "Požeška (Drškovci)", "Velebitska (Drškovci)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-09 M 10-16 M 10-17 G 10-19 S 10-22 PK 10-23 M 10-30 M",
+          "11-06 M 11-13 M 11-16 S 11-20 M 11-26 PK 11-27 M",
+          "12-04 M 12-11 M 12-14 S 12-18 M 12-24 PK"
+        ]
+      }
+    },
+    "33": {
+      "jls": "Požega",
+      "podrucje": "Požega, petak: Kamenita vrata, Stjepana Radića - osim k.br. 16, 22, 24, 26, 28, 30, 32",
+      "ulice": ["Kamenita vrata (Požega)", "Stjepana Radića - osim k.br. 16, 22, 24, 26, 28, 30, 32 (Požega)"],
+      "raw": {
+        "2026": [
+          "10-08 B 10-09 M 10-10 G 10-15 B 10-16 MPK 10-22 B 10-23 M 10-29 B 10-30 M",
+          "11-02 S 11-05 B 11-06 M 11-12 B 11-13 MPK 11-19 B 11-20 M 11-26 B 11-27 M 11-30 S",
+          "12-03 B 12-04 M 12-10 B 12-11 MPK 12-17 B 12-18 M 12-24 B 12-31 B"
+        ]
+      }
+    },
+    "34": {
+      "jls": "Požega",
+      "podrucje": "Požega, petak: Skorupov put",
+      "ulice": ["Skorupov put (Požega)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-09 M 10-16 M 10-19 PKS 10-23 M 10-30 M",
+          "11-06 M 11-13 M 11-16 PKS 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-14 S 12-18 M 12-21 PK"
+        ]
+      }
+    },
+    "35": {
+      "jls": "Požega",
+      "podrucje": "Požega, petak: Vjekoslava Babukića - kućni brojevi 28 i 29",
+      "ulice": ["Vjekoslava Babukića - kućni brojevi 28 i 29 (Požega)"],
+      "raw": {
+        "2026": [
+          "10-09 M 10-12 B 10-16 M 10-19 B 10-23 MS 10-26 BPK 10-30 M",
+          "11-02 B 11-06 M 11-09 B 11-13 M 11-16 B 11-20 MS 11-23 BPK 11-27 M 11-30 B",
+          "12-04 M 12-07 B 12-11 M 12-14 B 12-18 MS 12-21 B 12-28 BPK"
+        ]
+      }
+    },
+    "36": {
+      "jls": "Požega",
+      "podrucje": "Požega, bez miješanog: Kralja Tomislava, Sokolova, Srpanjska, Vodovodna",
+      "ulice": ["Kralja Tomislava (Vidovci)", "Sokolova (Vidovci)", "Srpanjska (Dervišaga)", "Vodovodna (Vidovci)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: miješani otpad, biootpad.",
+      "raw": {
+        "2026": [
+          "11-02 PKS 11-30 S",
+          "12-07 PK"
+        ]
+      }
+    },
+    "37": {
+      "jls": "Požega",
+      "podrucje": "Požega, bez miješanog: Vinogradska",
+      "ulice": ["Vinogradska (Drškovci)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: miješani otpad, biootpad.",
+      "raw": {
+        "2026": [
+          "10-17 G 10-19 S 10-22 PK",
+          "11-16 S 11-26 PK",
+          "12-14 S 12-24 PK"
+        ]
+      }
+    },
+    "38": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, utorak: Andrije Štampara, Augusta Šenoe, Bana Josipa Jelačića, Dolač, …",
+      "ulice": ["Andrije Štampara (Pleternica)", "Augusta Šenoe (Pleternica)", "Bana Josipa Jelačića (Pleternica)", "Dolač (Pleternica)", "Dr. Andrije Štampara (Pleternica)", "Fra Kaje Adžića (Pleternica)", "Gajeva (Pleternica)", "Grgin dol (Pleternica)", "Ivana Tomića Baje (Pleternica)", "Ivana Šveara (Pleternica)", "Ive Andrića (Pleternica)", "Jelačićeva (Pleternica)", "Josipa Kozarca (Pleternica)", "Krležina (Pleternica)", "Ljudevita Gaja (Pleternica)", "Matije Gupca (Pleternica)", "Mile Budaka (Pleternica)", "Miroslava Krleže (Pleternica)", "Mlinska (Pleternica)", "Prilaz (Pleternica)", "Smrik (Pleternica)", "Stjepana Radića (Pleternica)", "Tihomira Čuline (Pleternica)", "Trg Zrinskog i Frankopana (Pleternica)", "Vinogradska (Pleternica)"],
+      "raw": {
+        "2026": [
+          "10-08 B 10-13 M 10-15 BPK 10-20 M 10-22 B 10-24 G 10-26 S 10-27 M 10-29 B",
+          "11-03 M 11-05 B 11-10 M 11-12 B 11-17 M 11-19 BPK 11-23 S 11-24 M 11-26 B",
+          "12-01 M 12-03 B 12-08 M 12-10 B 12-15 M 12-17 BPK 12-21 S 12-22 M 12-24 B 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "39": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, utorak: Ante Starčevića, Baruna Trenka, Industrijska, Kralja Tomislava, …",
+      "ulice": ["Ante Starčevića (Pleternica)", "Baruna Trenka (Pleternica)", "Industrijska (Pleternica)", "Kralja Tomislava (Pleternica)", "Matije Antuna Reljkovića (Pleternica)", "Orljavska (Pleternica)", "Reljkovića (Pleternica)", "Trenkova (Pleternica)", "Vladimira Nazora (Pleternica)"],
+      "raw": {
+        "2026": [
+          "10-08 B 10-13 M 10-15 B 10-20 MPK 10-22 B 10-24 G 10-26 S 10-27 M 10-29 B",
+          "11-03 M 11-05 B 11-10 M 11-12 B 11-17 MPK 11-19 B 11-23 S 11-24 M 11-26 B",
+          "12-01 M 12-03 B 12-08 M 12-10 B 12-15 MPK 12-17 B 12-21 S 12-22 M 12-24 B 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "40": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, utorak: Blacko, Vesela, Viškovci - osim kućnih brojeva 61, 63, 65, 67, 69, 71, 75, 77, 79, 85",
+      "ulice": ["Blacko", "Vesela", "Viškovci - osim kućnih brojeva 61, 63, 65, 67, 69, 71, 75, 77, 79, 85 (Viškovci)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-13 M 10-14 PK 10-20 M 10-24 G 10-26 S 10-27 M",
+          "11-03 M 11-10 M 11-11 PK 11-17 M 11-23 S 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-16 PK 12-21 S 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "41": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, utorak: Josipa Andrića, Školska",
+      "ulice": ["Josipa Andrića (Pleternica)", "Školska (Pleternica)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-13 M 10-20 M 10-24 G 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "42": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, srijeda: Ašikovci, Gradac, Kuzmica, Lakušija, …",
+      "ulice": ["Ašikovci", "Gradac", "Kuzmica", "Lakušija", "Novoselci", "Sesvete", "Srednje Selo", "Trapari", "Viškovci - kućni brojevi 61, 63, 65, 67, 69, 71, 75, 77, 79, 85 (Viškovci)", "Zarilac", "Ćosinac"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-14 MPK 10-21 M 10-24 G 10-26 S 10-28 M",
+          "11-04 M 11-11 MPK 11-21 M! 11-23 S 11-25 M",
+          "12-02 M 12-09 M 12-16 MPK 12-21 S 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "43": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, srijeda: Eugena Podubskog, Ivana Gorana Kovačića, Ivanindvorska, Kralja Petra Krešimira IV., …",
+      "ulice": ["Eugena Podubskog (Pleternica)", "Ivana Gorana Kovačića (Pleternica)", "Ivanindvorska (Pleternica)", "Kralja Petra Krešimira IV. (Pleternica)", "Krešimirova (Pleternica)", "Pavla Radića (Pleternica)", "Petra Krešimira IV. (Pleternica)"],
+      "raw": {
+        "2026": [
+          "10-08 B 10-14 M 10-15 B 10-21 M 10-22 B 10-24 G 10-26 S 10-27 PK 10-28 M 10-29 B",
+          "11-04 M 11-05 B 11-11 M 11-12 B 11-19 B 11-21 M! 11-23 S 11-24 PK 11-25 M 11-26 B",
+          "12-02 M 12-03 B 12-09 M 12-10 B 12-16 M 12-17 B 12-21 S 12-22 PK 12-23 M 12-24 B 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "44": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, srijeda: Kralja Zvonimira, Zvonimirova",
+      "ulice": ["Kralja Zvonimira (Pleternica)", "Zvonimirova (Pleternica)"],
+      "raw": {
+        "2026": [
+          "10-08 B 10-14 M 10-15 B 10-20 PK 10-21 M 10-22 B 10-24 G 10-26 S 10-28 M 10-29 B",
+          "11-04 M 11-05 B 11-11 M 11-12 B 11-17 PK 11-19 B 11-21 M! 11-23 S 11-25 M 11-26 B",
+          "12-02 M 12-03 B 12-09 M 12-10 B 12-15 PK 12-16 M 12-17 B 12-21 S 12-23 M 12-24 B 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "45": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, četvrtak: Bilice, Bresnica, Bučje, Bzenica, …",
+      "ulice": ["Bilice", "Bresnica", "Bučje", "Bzenica", "Frkljevci", "Kadanovci", "Komorica", "Koprivnica", "Poloje", "Ratkovica", "Sulkovci", "Zagrađe"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-20 PK 10-22 M 10-24 G 10-26 S 10-29 M",
+          "11-05 M 11-12 M 11-17 PK 11-19 M 11-23 S 11-26 M",
+          "12-03 M 12-10 M 12-15 PK 12-17 M 12-21 S 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "46": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, četvrtak: Brodski Drenovac",
+      "ulice": ["Brodski Drenovac"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-22 M 10-24 G 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "47": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, četvrtak: Buk, Kalinić, Resnik, Svilna",
+      "ulice": ["Buk", "Kalinić", "Resnik", "Svilna"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-22 M 10-24 G 10-26 S 10-27 PK 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-23 S 11-24 PK 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-21 S 12-22 PK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "48": {
+      "jls": "Pleternica",
+      "podrucje": "Pleternica, bez miješanog: Drenovac",
+      "ulice": ["Drenovac"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: miješani otpad, biootpad.",
+      "raw": {
+        "2026": [
+          "10-20 PK 10-26 S",
+          "11-17 PK 11-23 S",
+          "12-15 PK 12-21 S"
+        ]
+      }
+    },
+    "49": {
+      "jls": "Kutjevo",
+      "podrucje": "Kutjevo, utorak: Bektež, Bjeliševac, Ciglenik, Ferovac, …",
+      "ulice": ["Bektež", "Bjeliševac", "Ciglenik", "Ferovac", "Grabarje", "Kula", "Ovčare", "Tominovac", "Vetovo", "Šumanovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-09 PK 10-13 M 10-20 M 10-24 G 10-27 M",
+          "11-03 M 11-06 S 11-07 PK 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-04 S 12-05 PK 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "50": {
+      "jls": "Kutjevo",
+      "podrucje": "Kutjevo, četvrtak: Gradište, Poreč",
+      "ulice": ["Gradište", "Poreč"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-09 PK 10-15 M 10-22 M 10-24 G 10-29 M",
+          "11-05 M 11-06 S 11-07 PK 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-04 S 12-05 PK 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "51": {
+      "jls": "Kutjevo",
+      "podrucje": "Kutjevo, petak: Andrije Hebranga, Ante Starčevića, Antuna Gustava Matoša, Augusta Šenoe, …",
+      "ulice": ["Andrije Hebranga (Kutjevo)", "Ante Starčevića (Kutjevo)", "Antuna Gustava Matoša (Kutjevo)", "Augusta Šenoe (Kutjevo)", "Bana Josipa Jelačića (Kutjevo)", "Cvjetna (Kutjevo)", "Eugena Kvaternika (Kutjevo)", "Hrnjevac", "Hrvatskih branitelja (Kutjevo)", "Hrvoja V. Hrvatinića (Kutjevo)", "Ivana Mažuranića (Kutjevo)", "Ivane Brlić Mažuranić (Kutjevo)", "Ive Jambrovića (Kutjevo)", "Janotovac (Kutjevo)", "Jelačićeva (Kutjevo)", "Josipa Kozarca (Kutjevo)", "Julija Kempfa (Kutjevo)", "Kamenjača (Kutjevo)", "Kestenik (Kutjevo)", "Kneza Trpimira (Kutjevo)", "Kralja Petra Svačića (Kutjevo)", "Kralja Tomislava (Kutjevo)", "Kralja Zvonimira (Kutjevo)", "Ljudevita Gaja (Kutjevo)", "Lukač", "Luke Ibrišimovića (Kutjevo)", "Matije Gupca (Kutjevo)", "Miroslava Kraljevića (Kutjevo)", "Mitrovac", "Novi Mitrovac (Kutjevo)", "Otok (Kutjevo)", "Požeška (Kutjevo)", "Republike Hrvatske (Kutjevo)", "Slavonska (Kutjevo)", "Sokak (Kutjevo)", "Stjepana Radića (Kutjevo)", "Tihomira Badovinca (Kutjevo)", "Tomislava Tomića (Kutjevo)", "Trg Graševine (Kutjevo)", "Venje", "Vidim (Kutjevo)", "Vilima Korajca (Kutjevo)", "Vinkomir (Kutjevo)", "Vinogradska (Kutjevo)", "Vodenička (Kutjevo)", "Zagrebačka (Kutjevo)", "Zdenka Turkovića (Kutjevo)", "Župnika Mirka Messnera (Kutjevo)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-09 M 10-16 M 10-23 M 10-24 G 10-30 M",
+          "11-06 MPKS 11-13 M 11-20 M 11-27 M",
+          "12-04 MPKS 12-11 M 12-18 M"
+        ]
+      }
+    },
+    "52": {
+      "jls": "Brestovac",
+      "podrucje": "Brestovac, utorak: Brđani, Jaguplije, Perenci, Skenderovci - osim na glavnoj cesti Brestovac-Kamenska, …",
+      "ulice": ["Brđani", "Jaguplije", "Perenci", "Skenderovci - osim na glavnoj cesti Brestovac-Kamenska", "Skenderovci - osim na glavnoj cesti Brestovac-Kamenska (Skenderovci)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 S 10-13 M 10-20 M 10-27 M 10-28 PK",
+          "11-03 M 11-07 G 11-09 S 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-02 PK 12-07 S 12-08 M 12-15 M 12-22 M 12-29 M 12-30 PK"
+        ]
+      }
+    },
+    "53": {
+      "jls": "Brestovac",
+      "podrucje": "Brestovac, utorak: Jeminovac, Koprivna, Oblakovac, Čečavac, …",
+      "ulice": ["Jeminovac", "Koprivna", "Oblakovac", "Čečavac", "Čečavački Vučjak", "Šnjegavić"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-20 M",
+          "11-03 M 11-17 M",
+          "12-01 M 12-15 M"
+        ]
+      }
+    },
+    "54": {
+      "jls": "Brestovac",
+      "podrucje": "Brestovac, utorak: Kamenska, Kamenski Vučjak, Mijači, Novo Zvečevo, …",
+      "ulice": ["Kamenska", "Kamenski Vučjak", "Mijači", "Novo Zvečevo", "Rasna", "Sažije", "Striježevica"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 PK 10-12 S 10-20 M",
+          "11-03 M 11-07 G 11-09 S 11-12 PK 11-17 M",
+          "12-01 M 12-07 S 12-10 PK 12-15 M"
+        ]
+      }
+    },
+    "55": {
+      "jls": "Brestovac",
+      "podrucje": "Brestovac, srijeda: Baruna Trenka, Bolomače, Boričevci, Busnovi, …",
+      "ulice": ["Baruna Trenka (Brestovac)", "Bolomače", "Boričevci", "Busnovi", "Daranovci", "Deževci", "Dolac", "Dolački put (Brestovac)", "Donji Gučani", "Gornji Gučani", "Ivandol", "Mlinska (Brestovac)", "Nurkovac", "Pavlovci", "Požeška (Brestovac)", "Skenderovci - na glavnoj cesti Brestovac-Kamenska", "Skenderovci - na glavnoj cesti Brestovac-Kamenska (Skenderovci)", "Stari Brestovac (Brestovac)", "Trenkova (Brestovac)", "Vilić Selo", "Zakorenje", "Završje"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 S 10-14 M 10-21 M 10-28 MPK",
+          "11-04 M 11-07 G 11-09 S 11-11 M 11-21 M! 11-25 M",
+          "12-02 MPK 12-07 S 12-09 M 12-16 M 12-23 M 12-30 MPK"
+        ]
+      }
+    },
+    "56": {
+      "jls": "Brestovac",
+      "podrucje": "Brestovac, srijeda: Kujnik, Orljavac, Pasikovci",
+      "ulice": ["Kujnik", "Orljavac", "Pasikovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 PK 10-12 S 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-07 G 11-09 S 11-11 M 11-12 PK 11-21 M! 11-25 M",
+          "12-02 M 12-07 S 12-09 M 12-10 PK 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "57": {
+      "jls": "Brestovac",
+      "podrucje": "Brestovac, srijeda: Sloboština",
+      "ulice": ["Sloboština"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 PK 10-12 S 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-09 S 11-11 M 11-12 PK 11-21 M! 11-25 M",
+          "12-02 M 12-07 S 12-09 M 12-10 PK 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "58": {
+      "jls": "Čaglin",
+      "podrucje": "Čaglin, četvrtak: Alojzija Stepinca, Braće Radić, Djedina Rijeka, Duboka, …",
+      "ulice": ["Alojzija Stepinca (Čaglin)", "Braće Radić (Čaglin)", "Djedina Rijeka", "Duboka", "Gaj (Čaglin)", "Gajeva (Čaglin)", "Kneževac", "Kolodvorska (Čaglin)", "Kralja Tomislava (Čaglin)", "Latinovac", "Ljudevita Gaja (Čaglin)", "Matije Gupca (Čaglin)", "Migalovci", "Milanlug", "Nova Lipovica", "Nova Ljeskovica", "Ruševo", "Sapna", "Stara Ljeskovica", "Stari Zdenkovac", "Vladimira Nazora (Čaglin)", "Vlatkovac", "Vukojevica", "Žukovac (Čaglin)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-22 M 10-24 G 10-27 PK 10-29 M",
+          "11-05 M 11-06 S 11-12 M 11-19 M 11-24 PK 11-26 M",
+          "12-03 M 12-04 S 12-10 M 12-17 M 12-22 PK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "59": {
+      "jls": "Čaglin",
+      "podrucje": "Čaglin, četvrtak: Mokreš, Novi Zdenkovac, Sovski dol",
+      "ulice": ["Mokreš", "Novi Zdenkovac", "Sovski dol"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-22 M 10-24 G 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "60": {
+      "jls": "Čaglin",
+      "podrucje": "Čaglin, bez miješanog: Ivanovci",
+      "ulice": ["Ivanovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: miješani otpad, biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-24 G"
+        ]
+      }
+    },
+    "61": {
+      "jls": "Jakšić",
+      "podrucje": "Jakšić, četvrtak: Alojzija Stepinca, Bana Josipa Jelačića, Baruna Trenka, Bertelovci, …",
+      "ulice": ["Alojzija Stepinca (Jakšić)", "Bana Josipa Jelačića (Jakšić)", "Baruna Trenka (Jakšić)", "Bertelovci", "Cerovac", "Granje", "Hrvatskih branitelja (Jakšić)", "Jelačićeva (Jakšić)", "Kolodvorska (Jakšić)", "Kralja Tomislava (Jakšić)", "Kralja Zvonimira (Jakšić)", "Luke Ibrišimovića (Jakšić)", "Matije Gupca (Jakšić)", "Mlinska (Jakšić)", "Osječka (Jakšić)", "Pavla Radića (Jakšić)", "Radnovac", "Rajsavac", "Stepinčeva (Jakšić)", "Stjepana Radića (Jakšić)", "Tekić", "Trenkova (Jakšić)", "Vilima Korajca (Jakšić)", "Vladimira Nazora (Jakšić)", "Vukovarska (Jakšić)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 M 10-22 M 10-29 M 10-30 S",
+          "11-03 PK 11-05 M 11-07 G 11-12 M 11-19 M 11-26 M 11-27 S",
+          "12-01 PK 12-03 M 12-10 M 12-17 M 12-24 M 12-28 S 12-31 M"
+        ]
+      }
+    },
+    "62": {
+      "jls": "Jakšić",
+      "podrucje": "Jakšić, petak: Eminovci",
+      "ulice": ["Eminovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-08 PK 10-09 M 10-16 M 10-23 M 10-30 MS",
+          "11-06 M 11-07 G 11-12 PK 11-13 M 11-20 M 11-27 MS",
+          "12-04 M 12-10 PK 12-11 M 12-18 M 12-28 S"
+        ]
+      }
+    },
+    "63": {
+      "jls": "Jakšić",
+      "podrucje": "Jakšić, petak: Svetinja, Treštanovci",
+      "ulice": ["Svetinja", "Treštanovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-09 M 10-16 M 10-23 M 10-30 MS",
+          "11-03 PK 11-06 M 11-07 G 11-13 M 11-20 M 11-27 MS",
+          "12-01 PK 12-04 M 12-11 M 12-18 M 12-28 S"
+        ]
+      }
+    },
+    "64": {
+      "jls": "Kaptol",
+      "podrucje": "Kaptol, petak: Alilovci, Bešinci, Cvjetna, Doljanovci, …",
+      "ulice": ["Alilovci", "Bešinci", "Cvjetna (Kaptol)", "Doljanovci", "Golo Brdo", "Kamenska (Kaptol)", "Komarovačka (Kaptol)", "Komarovci", "Majstorska (Kaptol)", "Malca (Kaptol)", "Novi Bešinci", "Podgorje", "Požeška (Kaptol)", "Ramanovačka (Kaptol)", "Ramanovci", "Tomislava Pranjkovića (Kaptol)", "Trg Vilima Korajca (Kaptol)", "Velička (Kaptol)", "Vetovačka (Kaptol)", "Vidovićeva (Kaptol)", "Vinogradska (Kaptol)", "Vlade Vidovića (Kaptol)", "Zagradska (Kaptol)", "Zelena (Kaptol)", "Češka (Kaptol)", "Češljakovci", "Školska (Kaptol)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-09 M 10-16 M 10-23 M 10-29 PK 10-30 MS",
+          "11-06 M 11-07 G 11-13 M 11-20 M 11-27 MS 11-30 PK",
+          "12-04 M 12-11 M 12-18 M 12-28 S 12-29 PK"
+        ]
+      }
+    },
+    "65": {
+      "jls": "Velika",
+      "podrucje": "Velika, ponedjeljak: Ante Starčevića, Antunovac, Baruna Trenka, Ivana Kozarca, …",
+      "ulice": ["Ante Starčevića (Trenkovo)", "Antunovac", "Baruna Trenka (Trenkovo)", "Ivana Kozarca (Trenkovo)", "Kralja Tomislava (Trenkovo)", "Mirogojska, osim kućnih brojeva 45 i 47 (Trenkovo)", "Mlinska (Trenkovo)", "Stjepana Radića (Trenkovo)", "Trenkova (Trenkovo)", "Trg Ante Starčevića (Trenkovo)", "Vinska (Trenkovo)", "Vladimira Nazora (Trenkovo)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 MS 10-19 M 10-26 M 10-29 PK",
+          "11-02 M 11-07 G 11-09 MS 11-16 M 11-23 M 11-30 MPK",
+          "12-07 MS 12-14 M 12-21 M 12-28 M 12-29 PK"
+        ]
+      }
+    },
+    "66": {
+      "jls": "Velika",
+      "podrucje": "Velika, ponedjeljak: Baruna Trenka, Cirakijeva, Dr. Franje Tuđmana, Dragutina Lermana, …",
+      "ulice": ["Baruna Trenka (Velika)", "Cirakijeva (Velika)", "Dr. Franje Tuđmana (Velika)", "Dragutina Lermana (Velika)", "Franje Cirakija (Velika)", "Frankopanska (Velika)", "Hrvatskih branitelja (Velika)", "Industrijska (Velika)", "Ivana Gorana Kovačića (Velika)", "Josipa Eugena Tomića (Velika)", "Josipa Kozarca (Velika)", "Julija Kempfa (Velika)", "Kneza Branimira (Velika)", "Kralja Tomislava (Velika)", "Lermanova (Velika)", "Luke Ibrišimovića (Velika)", "Matije Gupca (Velika)", "Miroslava Kraljevića (Velika)", "Nikole Tesle (Velika)", "Pavla Šubića (Velika)", "Stjepana Radića (Velika)", "Strossmayerova (Velika)", "Tina Ujevića (Velika)", "Travnik (Velika)", "Trenkova (Velika)", "Trg bana Josipa Jelačića (Velika)", "Trg sv. Augustina (Velika)", "Tuđmanova (Velika)", "Vilima Korajca (Velika)", "Vilima Pintara (Velika)", "Vinogradska (Velika)", "Vladimira Nazora (Velika)", "Zrinska (Velika)", "Zvonimirova (Velika)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 MS 10-13 PK 10-19 M 10-26 M",
+          "11-02 M 11-07 G 11-09 MS 11-10 PK 11-16 M 11-23 M 11-30 M",
+          "12-07 MS 12-08 PK 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "67": {
+      "jls": "Velika",
+      "podrucje": "Velika, ponedjeljak: Kneza Trpimira",
+      "ulice": ["Kneza Trpimira (Velika)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-07 G 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "68": {
+      "jls": "Velika",
+      "podrucje": "Velika, utorak: Biškupci, Doljanci, Draga, Potočani, …",
+      "ulice": ["Biškupci", "Doljanci", "Draga", "Potočani", "Radovanci", "Stražeman", "Trnovac"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 S 10-13 MPK 10-20 M 10-27 M",
+          "11-03 M 11-07 G 11-09 S 11-10 MPK 11-17 M 11-24 M",
+          "12-01 M 12-07 S 12-08 MPK 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "69": {
+      "jls": "Velika",
+      "podrucje": "Velika, utorak: Bratuljevci, Lučinci, Milanovac, Oljasi, …",
+      "ulice": ["Bratuljevci", "Lučinci", "Milanovac", "Oljasi", "Poljanska", "Toranj"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 S 10-13 M 10-15 PK 10-20 M 10-27 M",
+          "11-03 M 11-07 G 11-09 S 11-10 M 11-17 M 11-19 PK 11-24 M",
+          "12-01 M 12-07 S 12-08 M 12-15 M 12-17 PK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "70": {
+      "jls": "Velika",
+      "podrucje": "Velika, utorak: Gornji Vrhovci",
+      "ulice": ["Gornji Vrhovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 S 10-15 PK 10-20 M",
+          "11-03 M 11-07 G 11-09 S 11-17 M 11-19 PK",
+          "12-01 M 12-07 S 12-15 M 12-17 PK"
+        ]
+      }
+    },
+    "71": {
+      "jls": "Velika",
+      "podrucje": "Velika, utorak: Milivojevci",
+      "ulice": ["Milivojevci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad, papir i plastiku, staklo.",
+      "raw": {
+        "2026": [
+          "10-20 M",
+          "11-03 M 11-17 M",
+          "12-01 M 12-15 M"
+        ]
+      }
+    },
+    "72": {
+      "jls": "Velika",
+      "podrucje": "Velika, utorak: Mirogojska ulica, kućni brojevi 45 i 47",
+      "ulice": ["Mirogojska ulica, kućni brojevi 45 i 47 (Trenkovo)"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 S 10-13 M 10-20 M 10-27 M 10-29 PK",
+          "11-03 M 11-07 G 11-09 S 11-10 M 11-17 M 11-24 M 11-30 PK",
+          "12-01 M 12-07 S 12-08 M 12-15 M 12-22 M 12-29 MPK"
+        ]
+      }
+    },
+    "73": {
+      "jls": "Velika",
+      "podrucje": "Velika, bez miješanog: Kantrovci",
+      "ulice": ["Kantrovci"],
+      "napomena": "Kalendar davatelja za ove lokacije nema datuma za: miješani otpad, biootpad.",
+      "raw": {
+        "2026": [
+          "10-12 S 10-15 PK",
+          "11-07 G 11-09 S 11-19 PK",
+          "12-07 S 12-17 PK"
+        ]
+      }
+    }
+  }
+}

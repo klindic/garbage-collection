@@ -1,0 +1,96 @@
+{
+  "davatelj": "Gračac Čistoća d.o.o.",
+  "web": "https://www.gracac.hr",
+  "izvor": "https://www.gracac.hr/dokumenti.asp?id=13&n=6&g=2",
+  "zupanija": "Zadarska",
+  "jls": ["Gračac"],
+  "napomene": ["Spremnike iznijeti na javnu površinu 1-2 m od ruba kolnika najkasnije do 07:00 sati na dan odvoza.", "Pomaci zbog blagdana upisani su u datume rasporeda (datum izvan uobičajenog dana označen je kao pomaknut).", "Glomazni otpad (do 3 m³ bez naknade) prema rasporedu u PDF-u, uz zahtjev najkasnije 7 dana prije: 023/773 925 (8-14 h).", "Kontakt: 023/773 925."],
+  "zone": {
+    "1": {
+      "jls": "Gračac",
+      "podrucje": "Gračac (prvi dio)",
+      "ulice": ["Ulica dr. Ante Starčevića", "Obrovački odvojak", "Ulica sv. Roka", "Obrovačka", "Kralja Zvonimira", "Ulica sv. Mihovila", "Slavonska", "Dalmatinska", "Zagorska", "Tihi dol", "Gospićka", "Željeznička", "Pružna", "Pružni odvojci I, II, III", "Lovinačka", "Kratka", "Zagrebačka do INA d.d", "Velebitska", "Podvelebitsko naselje", "Kneza Branimira", "Školska ulica", "Kneza Mislava", "Kneza Trpimira", "Bana Josipa Jelačića", "Kralja Tomislava", "Obala Otuče", "Nikole Tesle"],
+      "raw": {
+        "2026": [
+          "01-08 K 01-12 M 01-26 M 01-29 P",
+          "02-05 K 02-09 M 02-23 M 02-26 P",
+          "03-05 K 03-09 M 03-23 M 03-26 P",
+          "04-02 K 04-08 M! 04-20 M 04-30 P",
+          "05-04 M 05-07 K 05-18 M 05-28 P",
+          "06-01 M 06-11 K 06-15 M 06-25 P 06-29 M",
+          "07-02 K 07-13 M 07-27 M 07-30 P",
+          "08-06 K 08-10 M 08-24 M 08-27 P",
+          "09-03 K 09-07 M 09-21 M 09-24 P",
+          "10-01 K 10-05 M 10-19 M 10-29 P",
+          "11-02 M 11-05 K 11-16 M 11-26 P 11-30 M",
+          "12-03 K 12-14 M 12-23 P! 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Gračac",
+      "podrucje": "Gračac (drugi dio)",
+      "ulice": ["Hrvatske mladeži", "Bjelolasička", "Hrvatskog sokola", "Trpimira Bakarića", "Joze Ilića", "Zlatka Orkića", "Park dr. Franje Tuđmana", "Hrvatske bratske zajednice", "Nazorova", "Ujevićeva", "Mažuranićeva", "Ilirskog preporoda", "Kozarčeva", "Psunjska", "Bilogorska", "Papučka", "Plješivička", "Kakanjska", "Hrvatskog proljeća", "Radnička", "Plitvička", "Plitvički odvojci I, II", "Nikole Turkalja", "Grab", "Sljemenska", "Mali put", "Zagrebačka", "Naselje 1", "Naselje 2", "Fruškogorska", "Bobovačka", "K.A.Stepinca", "Mosorska", "Dinarska", "Savska", "Dravska", "Vranska"],
+      "raw": {
+        "2026": [
+          "01-08 K 01-13 M 01-27 M 01-29 P",
+          "02-05 K 02-10 M 02-24 M 02-26 P",
+          "03-05 K 03-10 M 03-24 M 03-26 P",
+          "04-02 K 04-07 M 04-21 M 04-30 P",
+          "05-05 M 05-07 K 05-19 M 05-28 P",
+          "06-02 M 06-11 K 06-16 M 06-25 P 06-30 M",
+          "07-02 K 07-14 M 07-28 M 07-30 P",
+          "08-06 K 08-11 M 08-25 M 08-27 P",
+          "09-03 K 09-08 M 09-22 M 09-24 P",
+          "10-01 K 10-06 M 10-20 M 10-29 P",
+          "11-03 M 11-05 K 11-17 M 11-26 P",
+          "12-01 M 12-03 K 12-15 M 12-23 P! 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Gračac",
+      "podrucje": "Kijani, Deringaj, Bruvno, Mazin, Zrmanja, Velika Popina",
+      "ulice": ["Kijani", "Deringaj", "Bruvno", "Mazin", "Zrmanja", "Velika Popina"],
+      "napomena": "Plastika i papir odvoze se samo na poziv: 099/168 3365, najkasnije dan prije datuma iz rasporeda.",
+      "raw": {
+        "2026": [
+          "01-02 K 01-14 M 01-28 M 01-30 P",
+          "02-06 K 02-11 M 02-25 M 02-27 P",
+          "03-06 K 03-11 M 03-25 M 03-27 P",
+          "04-03 K 04-08 M 04-22 M 04-24 P",
+          "05-06 M 05-08 K 05-20 M 05-29 P",
+          "06-03 M 06-05 K 06-17 M 06-26 P",
+          "07-01 M 07-03 K 07-15 M 07-29 M 07-31 P",
+          "08-07 K 08-12 M 08-26 M 08-28 P",
+          "09-04 K 09-09 M 09-23 M 09-25 P",
+          "10-02 K 10-07 M 10-21 M 10-30 P",
+          "11-04 M 11-06 K 11-20 M! 11-27 P",
+          "12-02 M 12-04 K 12-16 M 12-18 P 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Gračac",
+      "podrucje": "Srb, Neteka, Donja Suvaja, Tomingaj, Rudopolje Bruvanjsko",
+      "ulice": ["Srb", "Neteka", "Donja Suvaja", "Tomingaj", "Rudopolje Bruvanjsko"],
+      "napomena": "U Tomingaju se miješani otpad, plastika i papir odvoze samo na poziv: 099/168 3365, najkasnije dan prije datuma iz rasporeda.",
+      "raw": {
+        "2026": [
+          "01-02 MK! 01-15 M 01-29 M 01-30 P",
+          "02-06 K 02-12 M 02-26 M 02-27 P",
+          "03-06 K 03-12 M 03-26 M 03-27 P",
+          "04-03 K 04-09 M 04-23 M 04-24 P",
+          "05-07 M 05-08 K 05-21 M 05-29 P",
+          "06-05 MK! 06-18 M 06-26 P",
+          "07-02 M 07-03 K 07-16 M 07-30 M 07-31 P",
+          "08-07 K 08-13 M 08-27 M 08-28 P",
+          "09-04 K 09-10 M 09-24 M 09-25 P",
+          "10-02 K 10-08 M 10-22 M 10-30 P",
+          "11-05 M 11-06 K 11-19 M 11-27 P",
+          "12-03 M 12-04 K 12-17 M 12-18 P 12-30 M!"
+        ]
+      }
+    }
+  }
+}

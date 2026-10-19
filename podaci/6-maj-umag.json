@@ -1,0 +1,318 @@
+{
+  "davatelj": "6. MAJ d.o.o. za komunalne usluge Umag",
+  "web": "https://www.6maj.hr",
+  "zupanija": "Istarska",
+  "jls": ["Umag – Umago", "Novigrad – Cittanova", "Buje – Buie", "Brtonigla – Verteneglio", "Grožnjan – Grisignana", "Oprtalj – Portole"],
+  "napomene": ["Miješani komunalni otpad odvozi se svaki tjedan na dan skupine; papir i karton te plastika i metal jednom mjesečno, staklo svaki drugi mjesec, isti dan kad i miješani otpad.", "Spremnike za miješani i reciklabilni otpad iznijeti na javnu površinu na dan odvoza od 5:00 sati; otpad ostavljen uz spremnik neće se odvesti.", "Odvoz se obavlja i na blagdane: kalendar označava stvarne dane odvoza.", "Reciklažna dvorišta: Buje (Momjanska ulica 6), Novigrad (Salvela 44), Umag (Bujska ulica 6); zimi (01.10.–31.05.) pon–pet 9–16, sub 9–14, ljeti (01.06.–30.09.) pon–pet 10–17, sub 8–13, nedjeljom i praznikom zatvoreno. Višak reciklabilnog otpada predaje se besplatno u reciklažnom dvorištu.", "Informacije: 6. MAJ d.o.o., +385 52 741 585, info@6maj.hr.", "Buje: za skupinu četvrtak (Bracanija, Monte Baster, Gamboci, Ljubljanija) legenda kalendara nema oznaku i u kalendaru nema datuma, pa nije uključena."],
+  "izvor": "https://www.6maj.hr/plan-odvoza/",
+  "zone": {
+    "1": {
+      "jls": "Umag – Umago",
+      "podrucje": "Utorak – Centar, Moela, Jeci, Petrovija, …",
+      "opis": "Centar, Moela, Jeci, Petrovija, Makale, Finida, Špinel, Sveti Vid, Dolinci, Kufci, Kanal, Zakinji, Koreniki, Čepljani, Boškarija, Kranceti, Frleti, Šverki, Sošići, Donji Picudo, Špekula, Đuba, Babići Donji, Barići, Biribaći, Križine, Kubertoni, Lovrečica, Rožac, Seget, Sveti Ivan, Špina, Sveti Pelegrin, Škavnice, Škrinjari, Vižintini",
+      "ulice": ["Centar", "Moela", "Jeci", "Petrovija", "Makale", "Finida", "Špinel", "Sveti Vid", "Dolinci", "Kufci", "Kanal", "Zakinji", "Koreniki", "Čepljani", "Boškarija", "Kranceti", "Frleti", "Šverki", "Sošići", "Donji Picudo", "Špekula", "Đuba", "Babići Donji", "Barići", "Biribaći", "Križine", "Kubertoni", "Lovrečica", "Rožac", "Seget", "Sveti Ivan", "Špina", "Sveti Pelegrin", "Škavnice", "Škrinjari", "Vižintini"],
+      "raw": {
+        "2026": [
+          "01-06 MK 01-13 MP 01-20 MS 01-27 M",
+          "02-03 MK 02-10 MP 02-17 M 02-24 M",
+          "03-03 MK 03-10 MP 03-17 MS 03-24 M 03-31 M",
+          "04-07 MK 04-14 MP 04-21 M 04-28 M",
+          "05-05 MK 05-12 MP 05-19 MS 05-26 M",
+          "06-02 M 06-09 MK 06-16 MP 06-23 M 06-30 M",
+          "07-07 MK 07-14 MP 07-21 MS 07-28 M",
+          "08-04 M 08-11 MK 08-18 MP 08-25 M",
+          "09-01 M 09-08 MK 09-15 MP 09-22 MS 09-29 M",
+          "10-06 MK 10-13 MP 10-20 M 10-27 M",
+          "11-03 MK 11-10 MP 11-17 MS 11-24 M",
+          "12-01 M 12-08 MK 12-15 MP 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Umag – Umago",
+      "podrucje": "Srijeda – Alberi, Bašanija, Babica, Benolići, …",
+      "opis": "Alberi, Bašanija, Babica, Benolići, Borozija, Brutija, Crveni vrh, Frančeskija, Goli vrh, Gornji Picudo, Grupija, Farnažine, Juricani, Katoro, Korona, Kortina, Kovilje, Materada, Martinčići, Mazurija, Medigija, Monteneto, Monterol, Momikija, Matelići, Ravna dolina, Romanija, Savudrija, Velika Stancija, Vilanija Volparija, Zambratija, Zeleni vrh, Zvegar",
+      "ulice": ["Alberi", "Bašanija", "Babica", "Benolići", "Borozija", "Brutija", "Crveni vrh", "Frančeskija", "Goli vrh", "Gornji Picudo", "Grupija", "Farnažine", "Juricani", "Katoro", "Korona", "Kortina", "Kovilje", "Materada", "Martinčići", "Mazurija", "Medigija", "Monteneto", "Monterol", "Momikija", "Matelići", "Ravna dolina", "Romanija", "Savudrija", "Velika Stancija", "Vilanija", "Volparija", "Zambratija", "Zeleni vrh", "Zvegar"],
+      "raw": {
+        "2026": [
+          "01-07 MK 01-14 MP 01-21 MS 01-28 M",
+          "02-04 MK 02-11 MP 02-18 M 02-25 M",
+          "03-04 MK 03-11 MP 03-18 MS 03-25 M",
+          "04-01 M 04-08 MK 04-15 MP 04-22 M 04-29 M",
+          "05-06 MK 05-13 MP 05-20 MS 05-27 M",
+          "06-03 M 06-10 MK 06-17 MP 06-24 M",
+          "07-01 M 07-08 MK 07-15 MP 07-22 MS 07-29 M",
+          "08-05 M 08-12 MK 08-19 MP 08-26 M",
+          "09-02 M 09-09 MK 09-16 MP 09-23 MS 09-30 M",
+          "10-07 MK 10-14 MP 10-21 M 10-28 M",
+          "11-04 MK 11-11 MP 11-18 MS 11-25 M",
+          "12-02 M 12-09 MK 12-16 MP 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Umag – Umago",
+      "podrucje": "Četvrtak – Komunela, Punta, Ungarija, Murine, …",
+      "opis": "Komunela, Punta, Ungarija, Murine, Kolombera, Štrika, Fratrici, Tigor, Kagarot, Galići, Ščavonija, Sarbarica, Karpinjan, Šaini, Lokvini, Kmeti, Soši, Barboj, Cupilija, Valica, Marija na Krasu, Koršija, Kapitanija, Tavijanija, Fratrica, Buščina, Škarlanija, Markocija, Kočevarija",
+      "ulice": ["Komunela", "Punta", "Ungarija", "Murine", "Kolombera", "Štrika", "Fratrici", "Tigor", "Kagarot", "Galići", "Ščavonija", "Sarbarica", "Karpinjan", "Šaini", "Lokvini", "Kmeti", "Soši", "Barboj", "Cupilija", "Valica", "Marija na Krasu", "Koršija", "Kapitanija", "Tavijanija", "Fratrica", "Buščina", "Škarlanija", "Markocija", "Kočevarija"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MK 01-15 MP 01-22 MS 01-29 M",
+          "02-05 MK 02-12 MP 02-19 M 02-26 M",
+          "03-05 MK 03-12 MP 03-19 MS 03-26 M",
+          "04-02 M 04-09 MK 04-16 MP 04-23 M 04-30 M",
+          "05-07 MK 05-14 MP 05-21 MS 05-28 M",
+          "06-04 M 06-11 MK 06-18 MP 06-25 M",
+          "07-02 M 07-09 MK 07-16 MP 07-23 MS 07-30 M",
+          "08-06 M 08-13 MK 08-20 MP 08-27 M",
+          "09-03 M 09-10 MK 09-17 MP 09-24 MS",
+          "10-01 M 10-08 MK 10-15 MP 10-22 M 10-29 M",
+          "11-05 MK 11-12 MP 11-19 MS 11-26 M",
+          "12-03 M 12-10 MK 12-17 MP 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Novigrad – Cittanova",
+      "podrucje": "Ponedjeljak – Grad, Karpinjan, Šaini, Sv. Vidal, …",
+      "opis": "Grad, Karpinjan, Šaini, Sv. Vidal, Puljere",
+      "ulice": ["Grad", "Karpinjan", "Šaini", "Sv. Vidal", "Puljere"],
+      "raw": {
+        "2026": [
+          "01-05 MK 01-12 MP 01-19 MS 01-26 M",
+          "02-02 MK 02-09 MP 02-16 M 02-23 M",
+          "03-02 MK 03-09 MP 03-16 MS 03-23 M 03-30 M",
+          "04-06 MK 04-13 MP 04-20 M 04-27 M",
+          "05-04 MK 05-11 MP 05-18 MS 05-25 M",
+          "06-01 M 06-08 MK 06-15 MP 06-22 M 06-29 M",
+          "07-06 MK 07-13 MP 07-20 MS 07-27 M",
+          "08-03 M 08-10 MK 08-17 MP 08-24 M 08-31 M",
+          "09-07 MK 09-14 MP 09-21 MS 09-28 M",
+          "10-05 MK 10-12 MP 10-19 M 10-26 M",
+          "11-02 MK 11-09 MP 11-16 MS 11-23 M 11-30 M",
+          "12-07 MK 12-14 MP 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Novigrad – Cittanova",
+      "podrucje": "Srijeda – Antenal, Bužinija, Fermići, Kršin, …",
+      "opis": "Antenal, Bužinija, Fermići, Kršin, Mareda, Paklena Dolina, Paolija, Preščerija, Salvela, Stancija Fava, Stancija Roselo, Stancija Vinjeri, Stancijeta, Strada Kontesa, Sveti Servul, Velika Stancija, Zidine",
+      "ulice": ["Antenal", "Bužinija", "Fermići", "Kršin", "Mareda", "Paklena Dolina", "Paolija", "Preščerija", "Salvela", "Stancija Fava", "Stancija Roselo", "Stancija Vinjeri", "Stancijeta", "Strada Kontesa", "Sveti Servul", "Velika Stancija", "Zidine"],
+      "raw": {
+        "2026": [
+          "01-07 MK 01-14 MP 01-21 MS 01-28 M",
+          "02-04 MK 02-11 MP 02-18 M 02-25 M",
+          "03-04 MK 03-11 MP 03-18 MS 03-25 M",
+          "04-01 M 04-08 MK 04-15 MP 04-22 M 04-29 M",
+          "05-06 MK 05-13 MP 05-20 MS 05-27 M",
+          "06-03 M 06-10 MK 06-17 MP 06-24 M",
+          "07-01 M 07-08 MK 07-15 MP 07-22 MS 07-29 M",
+          "08-05 M 08-12 MK 08-19 MP 08-26 M",
+          "09-02 M 09-09 MK 09-16 MP 09-23 MS 09-30 M",
+          "10-07 MK 10-14 MP 10-21 M 10-28 M",
+          "11-04 MK 11-11 MP 11-18 MS 11-25 M",
+          "12-02 M 12-09 MK 12-16 MP 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Novigrad – Cittanova",
+      "podrucje": "Četvrtak – Dajla, St. Bružada",
+      "opis": "Dajla, St. Bružada",
+      "ulice": ["Dajla", "St. Bružada"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MK 01-15 MP 01-22 MS 01-29 M",
+          "02-05 MK 02-12 MP 02-19 M 02-26 M",
+          "03-05 MK 03-12 MP 03-19 MS 03-26 M",
+          "04-02 M 04-09 MK 04-16 MP 04-23 M 04-30 M",
+          "05-07 MK 05-14 MP 05-21 MS 05-28 M",
+          "06-04 M 06-11 MK 06-18 MP 06-25 M",
+          "07-02 M 07-09 MK 07-16 MP 07-23 MS 07-30 M",
+          "08-06 M 08-13 MK 08-20 MP 08-27 M",
+          "09-03 M 09-10 MK 09-17 MP 09-24 MS",
+          "10-01 M 10-08 MK 10-15 MP 10-22 M 10-29 M",
+          "11-05 MK 11-12 MP 11-19 MS 11-26 M",
+          "12-03 M 12-10 MK 12-17 MP 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Buje – Buie",
+      "podrucje": "Ponedjeljak – Bazuja, Benečani, Brdo, Brešani, …",
+      "opis": "Bazuja, Benečani, Brdo, Brešani, Brič, Bužin, Črnci, Čulihi, Dorina, Dragočevac, Dugo Brdo, Gadari, Juki, Jurini, Jurcanija, Kanedo, Kaštel, Kazarole, Kažete, Kortina, Kortivi, Kremenje, Kućibreg, Lalovići, Mali Breg, Malotija, Marušići, Matići, Medigija, Merišče, Mikorići, Momjan, Montrin, Morožija, Most, Oskoruš, Paldigija, Paliski, Plovanija, Rožmanija, Smilovići, Soline, Srbar, Stancija Petrinja, Stancija Viđini, Stanovići, Stražice, Sveti Mavar, Šaini, Ščavonija, Šibenija, Škarjevac, Škrile, Škrlići, Škrlini, Škudelini, Todeški, Trkusi, Vale, Vinjarija, Vižinada, Vrh, Vinela, Volpija",
+      "ulice": ["Bazuja", "Benečani", "Brdo", "Brešani", "Brič", "Bužin", "Črnci", "Čulihi", "Dorina", "Dragočevac", "Dugo Brdo", "Gadari", "Juki", "Jurini", "Jurcanija", "Kanedo", "Kaštel", "Kazarole", "Kažete", "Kortina", "Kortivi", "Kremenje", "Kućibreg", "Lalovići", "Mali Breg", "Malotija", "Marušići", "Matići", "Medigija", "Merišče", "Mikorići", "Momjan", "Montrin", "Morožija", "Most", "Oskoruš", "Paldigija", "Paliski", "Plovanija", "Rožmanija", "Smilovići", "Soline", "Srbar", "Stancija Petrinja", "Stancija Viđini", "Stanovići", "Stražice", "Sveti Mavar", "Šaini", "Ščavonija", "Šibenija", "Škarjevac", "Škrile", "Škrlići", "Škrlini", "Škudelini", "Todeški", "Trkusi", "Vale", "Vinjarija", "Vižinada", "Vrh", "Vinela", "Volpija"],
+      "raw": {
+        "2026": [
+          "01-05 MK 01-12 MP 01-19 MS 01-26 M",
+          "02-02 MK 02-09 MP 02-16 M 02-23 M",
+          "03-02 MK 03-09 MP 03-16 MS 03-23 M 03-30 M",
+          "04-06 MK 04-13 MP 04-20 M 04-27 M",
+          "05-04 MK 05-11 MP 05-18 MS 05-25 M",
+          "06-01 M 06-08 MK 06-15 MP 06-22 M 06-29 M",
+          "07-06 MK 07-13 MP 07-20 MS 07-27 M",
+          "08-03 M 08-10 MK 08-17 MP 08-24 M 08-31 M",
+          "09-07 MK 09-14 MP 09-21 MS 09-28 M",
+          "10-05 MK 10-12 MP 10-19 M 10-26 M",
+          "11-02 MK 11-09 MP 11-16 MS 11-23 M 11-30 M",
+          "12-07 MK 12-14 MP 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Buje – Buie",
+      "podrucje": "Utorak – Grad, Bibali, Brajki, Donji Musolini, …",
+      "opis": "Grad, Bibali, Brajki, Donji Musolini, Gamboci, Gardoši, Kakovići, Krasica, Križine, Krug, Ljubljanija, Triban, Vrh Činić",
+      "ulice": ["Grad", "Bibali", "Brajki", "Donji Musolini", "Gamboci", "Gardoši", "Kakovići", "Krasica", "Križine", "Krug", "Ljubljanija", "Triban", "Vrh Činić"],
+      "raw": {
+        "2026": [
+          "01-06 MK 01-13 MP 01-20 MS 01-27 M",
+          "02-03 MK 02-10 MP 02-17 M 02-24 M",
+          "03-03 MK 03-10 MP 03-17 MS 03-24 M 03-31 M",
+          "04-07 MK 04-14 MP 04-21 M 04-28 M",
+          "05-05 MK 05-12 MP 05-19 MS 05-26 M",
+          "06-02 M 06-09 MK 06-16 MP 06-23 M 06-30 M",
+          "07-07 MK 07-14 MP 07-21 MS 07-28 M",
+          "08-04 M 08-11 MK 08-18 MP 08-25 M",
+          "09-01 M 09-08 MK 09-15 MP 09-22 MS 09-29 M",
+          "10-06 MK 10-13 MP 10-20 M 10-27 M",
+          "11-03 MK 11-10 MP 11-17 MS 11-24 M",
+          "12-01 M 12-08 MK 12-15 MP 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Buje – Buie",
+      "podrucje": "Srijeda – Baredine, Bekari, Bucaj, Donje i Gornje Baredine, …",
+      "opis": "Baredine, Bekari, Bucaj, Donje i Gornje Baredine, Gornji Musolini, Jugovci, Lozari, Stancija Loj, Sv. Ivan, Šegari",
+      "ulice": ["Baredine", "Bekari", "Bucaj", "Donje i Gornje Baredine", "Gornji Musolini", "Jugovci", "Lozari", "Stancija Loj", "Sv. Ivan", "Šegari"],
+      "raw": {
+        "2026": [
+          "01-07 MK 01-14 MP 01-21 MS 01-28 M",
+          "02-04 MK 02-11 MP 02-18 M 02-25 M",
+          "03-04 MK 03-11 MP 03-18 MS 03-25 M",
+          "04-01 M 04-08 MK 04-15 MP 04-22 M 04-29 M",
+          "05-06 MK 05-13 MP 05-20 MS 05-27 M",
+          "06-03 M 06-10 MK 06-17 MP 06-24 M",
+          "07-01 M 07-08 MK 07-15 MP 07-22 MS 07-29 M",
+          "08-05 M 08-12 MK 08-19 MP 08-26 M",
+          "09-02 M 09-09 MK 09-16 MP 09-23 MS 09-30 M",
+          "10-07 MK 10-14 MP 10-21 M 10-28 M",
+          "11-04 MK 11-11 MP 11-18 MS 11-25 M",
+          "12-02 M 12-09 MK 12-16 MP 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Buje – Buie",
+      "podrucje": "Petak – Fratrija, Kaldanija, Markovac, Mazurija, …",
+      "opis": "Fratrija, Kaldanija, Markovac, Mazurija, Simonetija, Specijarija, Buroli, Kršete, Kakovići, Kukov Vrh",
+      "ulice": ["Fratrija", "Kaldanija", "Markovac", "Mazurija", "Simonetija", "Specijarija", "Buroli", "Kršete", "Kakovići", "Kukov Vrh"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MK 01-16 MP 01-23 MS 01-30 M",
+          "02-06 MK 02-13 MP 02-20 M 02-27 M",
+          "03-06 MK 03-13 MP 03-20 MS 03-27 M",
+          "04-03 M 04-10 MK 04-17 MP 04-24 M",
+          "05-01 M 05-08 MK 05-15 MP 05-22 MS 05-29 M",
+          "06-05 M 06-12 MK 06-19 MP 06-26 M",
+          "07-03 M 07-10 MK 07-17 MP 07-24 MS 07-31 M",
+          "08-07 M 08-14 MK 08-21 MP 08-28 M",
+          "09-04 M 09-11 MK 09-18 MP 09-25 MS",
+          "10-02 M 10-09 MK 10-16 MP 10-23 M 10-30 M",
+          "11-06 MK 11-13 MP 11-20 MS 11-27 M",
+          "12-04 M 12-11 MK 12-18 MP 12-25 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Brtonigla – Verteneglio",
+      "podrucje": "Četvrtak – sva naselja općine",
+      "opis": "Obuhvaćena su sva mjesta na području općine.",
+      "ulice": ["Brtonigla"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 MK 01-15 MP 01-22 MS 01-29 M",
+          "02-05 MK 02-12 MP 02-19 M 02-26 M",
+          "03-05 MK 03-12 MP 03-19 MS 03-26 M",
+          "04-02 M 04-09 MK 04-16 MP 04-23 M 04-30 M",
+          "05-07 MK 05-14 MP 05-21 MS 05-28 M",
+          "06-04 M 06-11 MK 06-18 MP 06-25 M",
+          "07-02 M 07-09 MK 07-16 MP 07-23 MS 07-30 M",
+          "08-06 M 08-13 MK 08-20 MP 08-27 M",
+          "09-03 M 09-10 MK 09-17 MP 09-24 MS",
+          "10-01 M 10-08 MK 10-15 MP 10-22 M 10-29 M",
+          "11-05 MK 11-12 MP 11-19 MS 11-26 M",
+          "12-03 M 12-10 MK 12-17 MP 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Grožnjan – Grisignana",
+      "podrucje": "Petak – sva naselja općine osim: Sveti Ivan, Bijele Zemlje",
+      "opis": "Obuhvaćena su sva mjesta na području općine, osim dolje navedenih mjesta koji se prikupljaju srijedom.",
+      "ulice": ["Grožnjan"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MK 01-16 MP 01-23 MS 01-30 M",
+          "02-06 MK 02-13 MP 02-20 M 02-27 M",
+          "03-06 MK 03-13 MP 03-20 MS 03-27 M",
+          "04-03 M 04-10 MK 04-17 MP 04-24 M",
+          "05-01 M 05-08 MK 05-15 MP 05-22 MS 05-29 M",
+          "06-05 M 06-12 MK 06-19 MP 06-26 M",
+          "07-03 M 07-10 MK 07-17 MP 07-24 MS 07-31 M",
+          "08-07 M 08-14 MK 08-21 MP 08-28 M",
+          "09-04 M 09-11 MK 09-18 MP 09-25 MS",
+          "10-02 M 10-09 MK 10-16 MP 10-23 M 10-30 M",
+          "11-06 MK 11-13 MP 11-20 MS 11-27 M",
+          "12-04 M 12-11 MK 12-18 MP 12-25 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Grožnjan – Grisignana",
+      "podrucje": "Srijeda – Sveti Ivan, Bijele Zemlje",
+      "opis": "Sveti Ivan, Bijele Zemlje",
+      "ulice": ["Sveti Ivan", "Bijele Zemlje"],
+      "raw": {
+        "2026": [
+          "01-07 MK 01-14 MP 01-21 MS 01-28 M",
+          "02-04 MK 02-11 MP 02-18 M 02-25 M",
+          "03-04 MK 03-11 MP 03-18 MS 03-25 M",
+          "04-01 M 04-08 MK 04-15 MP 04-22 M 04-29 M",
+          "05-06 MK 05-13 MP 05-20 MS 05-27 M",
+          "06-03 M 06-10 MK 06-17 MP 06-24 M",
+          "07-01 M 07-08 MK 07-15 MP 07-22 MS 07-29 M",
+          "08-05 M 08-12 MK 08-19 MP 08-26 M",
+          "09-02 M 09-09 MK 09-16 MP 09-23 MS 09-30 M",
+          "10-07 MK 10-14 MP 10-21 M 10-28 M",
+          "11-04 MK 11-11 MP 11-18 MS 11-25 M",
+          "12-02 M 12-09 MK 12-16 MP 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Oprtalj – Portole",
+      "podrucje": "Petak – sva naselja općine",
+      "opis": "Obuhvaćena su sva mjesta na području općine.",
+      "ulice": ["Oprtalj"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 MK 01-16 MP 01-23 MS 01-30 M",
+          "02-06 MK 02-13 MP 02-20 M 02-27 M",
+          "03-06 MK 03-13 MP 03-20 MS 03-27 M",
+          "04-03 M 04-10 MK 04-17 MP 04-24 M",
+          "05-01 M 05-08 MK 05-15 MP 05-22 MS 05-29 M",
+          "06-05 M 06-12 MK 06-19 MP 06-26 M",
+          "07-03 M 07-10 MK 07-17 MP 07-24 MS 07-31 M",
+          "08-07 M 08-14 MK 08-21 MP 08-28 M",
+          "09-04 M 09-11 MK 09-18 MP 09-25 MS",
+          "10-02 M 10-09 MK 10-16 MP 10-23 M 10-30 M",
+          "11-06 MK 11-13 MP 11-20 MS 11-27 M",
+          "12-04 M 12-11 MK 12-18 MP 12-25 M"
+        ]
+      }
+    }
+  }
+}

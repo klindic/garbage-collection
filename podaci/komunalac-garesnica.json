@@ -1,0 +1,190 @@
+{
+  "davatelj": "Komunalac d.o.o. Garešnica",
+  "web": "https://komunalac-garesnica.hr",
+  "izvor": "https://komunalac-garesnica.hr/dokumenti/",
+  "zupanija": "Bjelovarsko-bilogorska",
+  "jls": ["Garešnica", "Berek", "Hercegovac", "Velika Trnovitica"],
+  "nazivi": {"P": "Plastika (vreća)", "K": "Papir (vreća)", "S": "Staklo (vreća)", "L": "Metal (vreća)"},
+  "bioNapomena": "Biootpad se od 1. veljače odvozi svake srijede (Grad Garešnica i Općina Hercegovac).",
+  "napomene": ["Spremnici i vreće za papir, plastiku, staklo i metal moraju na dan odvoza biti vidljivi na javnoj površini od 7 do 15 sati, a u lipnju, srpnju i kolovozu od 6 do 14 sati.", "Blagdani: odvoz prema tablici „Termini odvoza otpada u vrijeme blagdana i praznika” iz rasporeda; ti su datumi označeni kao pomaknuti.", "Dodatne vreće za miješani i reciklabilni otpad: sjedište tvrtke, ponedjeljak–petak 7–14:30.", "Reciklažna dvorišta: Garešnica, Industrijska ulica 17 (pon–pet 7–17, sub 7–12); Velika Mlinska 69A (pon–pet 7:30–14:30, ljeti 6:30–14)."],
+  "zone": {
+    "1": {
+      "jls": "Garešnica",
+      "podrucje": "Garešnica, ponedjeljak – Kolodvorska ul., Industrijska cesta, Ul. V. Nazora …",
+      "opis": "GAREŠNICA - (Kolodvorska ul., Industrijska cesta, Ul. V. Nazora, Trg hrvatskih branitelja, Ul. bana Jelačića, Ul. kneza Domagoja, Ul. M. Gupca, Ul. Selište, Ul. Hrastovčić), CIGLENICA, KANIŠKA IVA, M. VUKOVJE, V. VUKOVJE, ROGOŽA, V. BRŠLJANICA, M. BRŠLJANICA, DIŠNIK, DIŠNIČKA BRDA",
+      "ulice": ["Kolodvorska ul.", "Industrijska cesta", "Ul. V. Nazora", "Trg hrvatskih branitelja", "Ul. bana Jelačića", "Ul. kneza Domagoja", "Ul. M. Gupca", "Ul. Selište", "Ul. Hrastovčić", "Ciglenica", "Kaniška Iva", "M. Vukovje", "V. Vukovje", "Rogoža", "V. Bršljanica", "M. Bršljanica", "Dišnik", "Dišnička Brda"],
+      "raw": {
+        "2026": [
+          "01-05 MS 01-12 P 01-19 ML 01-26 K",
+          "02-02 MS 02-04 B 02-09 P 02-11 B 02-16 ML 02-18 B 02-23 K 02-25 B",
+          "03-02 MS 03-04 B 03-09 P 03-11 B 03-16 ML 03-18 B 03-23 K 03-25 B 03-30 MS",
+          "04-01 B 04-07 P! 04-08 B 04-13 ML 04-15 B 04-20 K 04-22 B 04-27 MS 04-29 B",
+          "05-04 P 05-06 B 05-11 ML 05-13 B 05-18 K 05-20 B 05-25 MS 05-27 B",
+          "06-01 P 06-03 B 06-08 ML 06-10 B 06-15 K 06-17 B 06-23 MS! 06-24 B 06-29 P",
+          "07-01 B 07-06 ML 07-08 B 07-13 K 07-15 B 07-20 MS 07-22 B 07-27 P 07-29 B",
+          "08-03 ML 08-06 B! 08-10 K 08-12 B 08-17 MS 08-19 B 08-24 P 08-26 B 08-31 ML",
+          "09-02 B 09-07 K 09-09 B 09-14 MS 09-16 B 09-21 P 09-23 B 09-28 ML 09-30 B",
+          "10-05 K 10-07 B 10-12 MS 10-14 B 10-19 P 10-21 B 10-26 ML 10-28 B",
+          "11-02 K 11-04 B 11-09 MS 11-11 B 11-16 P 11-19 B! 11-23 ML 11-25 B 11-30 K",
+          "12-02 B 12-07 MS 12-09 B 12-14 P 12-16 B 12-21 ML 12-23 B 12-28 K 12-30 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Garešnica",
+      "podrucje": "Garešnica, utorak – Graničarska ul., Moslavačka ul., Garička ul. …",
+      "opis": "GAREŠNICA - (Graničarska ul., Moslavačka ul., Garička ul., Vukovarska ul., Ul. P. Krešimira IV, Varaždinska ul., Ul. Đ. Rijetković, Ul. D. Bublića, Ul. kralja Tvrtka, Ul. kralja Tomislava, Ul. M. Trnine, Ul. 73. S. Bojne, Ul. S. Kolara)",
+      "ulice": ["Graničarska ul.", "Moslavačka ul.", "Garička ul.", "Vukovarska ul.", "Ul. P. Krešimira IV", "Varaždinska ul.", "Ul. Đ. Rijetković", "Ul. D. Bublića", "Ul. kralja Tvrtka", "Ul. kralja Tomislava", "Ul. M. Trnine", "Ul. 73. S. Bojne", "Ul. S. Kolara"],
+      "raw": {
+        "2026": [
+          "01-07 MS! 01-13 P 01-20 ML 01-27 K",
+          "02-03 MS 02-04 B 02-10 P 02-11 B 02-17 ML 02-18 B 02-24 K 02-25 B",
+          "03-03 MS 03-04 B 03-10 P 03-11 B 03-17 ML 03-18 B 03-24 K 03-25 B 03-31 MS",
+          "04-01 B 04-07 P 04-08 B 04-14 ML 04-15 B 04-21 K 04-22 B 04-28 MS 04-29 B",
+          "05-05 P 05-06 B 05-12 ML 05-13 B 05-19 K 05-20 B 05-26 MS 05-27 B",
+          "06-02 P 06-03 B 06-09 ML 06-10 B 06-16 K 06-17 B 06-23 MS 06-24 B 06-30 P",
+          "07-01 B 07-07 ML 07-08 B 07-14 K 07-15 B 07-21 MS 07-22 B 07-28 P 07-29 B",
+          "08-04 ML 08-06 B! 08-11 K 08-12 B 08-18 MS 08-19 B 08-25 P 08-26 B",
+          "09-01 ML 09-02 B 09-08 K 09-09 B 09-15 MS 09-16 B 09-22 P 09-23 B 09-29 ML 09-30 B",
+          "10-06 K 10-07 B 10-13 MS 10-14 B 10-20 P 10-21 B 10-27 ML 10-28 B",
+          "11-03 K 11-04 B 11-10 MS 11-11 B 11-17 P 11-19 B! 11-24 ML 11-25 B",
+          "12-01 K 12-02 B 12-08 MS 12-09 B 12-15 P 12-16 B 12-22 ML 12-23 B 12-29 K 12-30 B"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Garešnica",
+      "podrucje": "Garešnica, srijeda – Ul. M. Lovraka, Ul. M. Humljana, Ul. L.A. Dade …",
+      "opis": "GAREŠNICA - (Ul. M. Lovraka, Ul. M. Humljana, Ul. L.A. Dade, Ul. P. Svačića, Radnička ul.), KAPELICA, KAPELIČKA BRDA, KAJGANA, TOMAŠICA",
+      "ulice": ["Ul. M. Lovraka", "Ul. M. Humljana", "Ul. L.A. Dade", "Ul. P. Svačića", "Radnička ul.", "Kapelica", "Kapelička Brda", "Kajgana", "Tomašica"],
+      "raw": {
+        "2026": [
+          "01-07 MS 01-14 P 01-21 ML 01-28 K",
+          "02-04 MBS 02-11 BP 02-18 MBL 02-25 BK",
+          "03-04 MBS 03-11 BP 03-18 MBL 03-25 BK",
+          "04-01 MBS 04-08 BP 04-15 MBL 04-22 BK 04-29 MBS",
+          "05-06 BP 05-13 MBL 05-20 BK 05-27 MBS",
+          "06-03 BP 06-10 MBL 06-17 BK 06-24 MBS",
+          "07-01 BP 07-08 MBL 07-15 BK 07-22 MBS 07-29 BP",
+          "08-06 MBL! 08-12 BK 08-19 MBS 08-26 BP",
+          "09-02 MBL 09-09 BK 09-16 MBS 09-23 BP 09-30 MBL",
+          "10-07 BK 10-14 MBS 10-21 BP 10-28 MBL",
+          "11-04 BK 11-11 MBS 11-19 BP! 11-25 MBL",
+          "12-02 BK 12-09 MBS 12-16 BP 12-23 MBL 12-30 BK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Garešnica",
+      "podrucje": "Garešnica, četvrtak – Garešnički Brestovac, Zdenčac",
+      "opis": "GAREŠNIČKI BRESTOVAC, ZDENČAC",
+      "ulice": ["Garešnički Brestovac", "Zdenčac"],
+      "raw": {
+        "2026": [
+          "01-02 K! 01-08 MS 01-15 P 01-22 ML 01-29 K",
+          "02-04 B 02-05 MS 02-11 B 02-12 P 02-18 B 02-19 ML 02-25 B 02-26 K",
+          "03-04 B 03-05 MS 03-11 B 03-12 P 03-18 B 03-19 ML 03-25 B 03-26 K",
+          "04-01 B 04-02 MS 04-08 B 04-09 P 04-15 B 04-16 ML 04-22 B 04-23 K 04-29 B 04-30 MS",
+          "05-06 B 05-07 P 05-13 B 05-14 ML 05-20 B 05-21 K 05-27 B 05-28 MS",
+          "06-03 B 06-05 P! 06-10 B 06-11 ML 06-17 B 06-18 K 06-24 B 06-25 MS",
+          "07-01 B 07-02 P 07-08 B 07-09 ML 07-15 B 07-16 K 07-22 B 07-23 MS 07-29 B 07-30 P",
+          "08-06 MBL! 08-12 B 08-13 K 08-19 B 08-20 MS 08-26 B 08-27 P",
+          "09-02 B 09-03 ML 09-09 B 09-10 K 09-16 B 09-17 MS 09-23 B 09-24 P 09-30 B",
+          "10-01 ML 10-07 B 10-08 K 10-14 B 10-15 MS 10-21 B 10-22 P 10-28 B 10-29 ML",
+          "11-04 B 11-05 K 11-11 B 11-12 MS 11-19 BP! 11-25 B 11-26 ML",
+          "12-02 B 12-03 K 12-09 B 12-10 MS 12-16 B 12-17 P 12-23 B 12-24 ML 12-30 B 12-31 K"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Garešnica",
+      "podrucje": "Garešnica, petak – Duhovi, Uljanik, G. Uljanik …",
+      "opis": "DUHOVI, ULJANIK, G. ULJANIK, ULJANIČKI BRIJEG, HRASTOVAC, V. PROKOP, TRNOVITIČKI POPOVAC, V. PAŠIJAN, M. PAŠIJAN",
+      "ulice": ["Duhovi", "Uljanik", "G. Uljanik", "Uljanički Brijeg", "Hrastovac", "V. Prokop", "Trnovitički Popovac", "V. Pašijan", "M. Pašijan"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-09 MS 01-16 P 01-23 ML 01-30 K",
+          "02-04 B 02-06 MS 02-11 B 02-13 P 02-18 B 02-20 ML 02-25 B 02-27 K",
+          "03-04 B 03-06 MS 03-11 B 03-13 P 03-18 B 03-20 ML 03-25 B 03-27 K",
+          "04-01 B 04-03 MS 04-08 B 04-10 P 04-15 B 04-17 ML 04-22 B 04-24 K 04-29 B",
+          "05-04 MS! 05-06 B 05-08 P 05-13 B 05-15 ML 05-20 B 05-22 K 05-27 B 05-29 MS",
+          "06-03 B 06-05 P 06-10 B 06-12 ML 06-17 B 06-19 K 06-24 B 06-26 MS",
+          "07-01 B 07-03 P 07-08 B 07-10 ML 07-15 B 07-17 K 07-22 B 07-24 MS 07-29 B 07-31 P",
+          "08-06 B! 08-07 ML 08-12 B 08-14 K 08-19 B 08-21 MS 08-26 B 08-28 P",
+          "09-02 B 09-04 ML 09-09 B 09-11 K 09-16 B 09-18 MS 09-23 B 09-25 P 09-30 B",
+          "10-02 ML 10-07 B 10-09 K 10-14 B 10-16 MS 10-21 B 10-23 P 10-28 B 10-30 ML",
+          "11-04 B 11-06 K 11-11 B 11-13 MS 11-19 B! 11-20 P 11-25 B 11-27 ML",
+          "12-02 B 12-04 K 12-09 B 12-11 MS 12-16 B 12-18 P 12-23 B 12-28 ML! 12-30 B"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Berek",
+      "podrucje": "Berek, utorak – Konstanjevac, Begovača, Šimljanica …",
+      "opis": "KONSTANJEVAC, BEGOVAČA, ŠIMLJANICA, RUŠKOVAC, POTOK, BEREK, KRIVAJA, ŠIMLJANA, OŠTRI ZID, G. GAREŠNICA, ŠIMLJANIK, NOVO SELO GAREŠNIČKO, PODGARIĆ",
+      "ulice": ["Konstanjevac", "Begovača", "Šimljanica", "Ruškovac", "Potok", "Berek", "Krivaja", "Šimljana", "Oštri Zid", "G. Garešnica", "Šimljanik", "Novo Selo Garešničko", "Podgarić"],
+      "napomena": "Raspored ne navodi odvoz biootpada za ovo područje.",
+      "raw": {
+        "2026": [
+          "01-07 MS! 01-13 P 01-20 ML 01-27 K",
+          "02-03 MS 02-10 P 02-17 ML 02-24 K",
+          "03-03 MS 03-10 P 03-17 ML 03-24 K 03-31 MS",
+          "04-07 P 04-14 ML 04-21 K 04-28 MS",
+          "05-05 P 05-12 ML 05-19 K 05-26 MS",
+          "06-02 P 06-09 ML 06-16 K 06-23 MS 06-30 P",
+          "07-07 ML 07-14 K 07-21 MS 07-28 P",
+          "08-04 ML 08-11 K 08-18 MS 08-25 P",
+          "09-01 ML 09-08 K 09-15 MS 09-22 P 09-29 ML",
+          "10-06 K 10-13 MS 10-20 P 10-27 ML",
+          "11-03 K 11-10 MS 11-17 P 11-24 ML",
+          "12-01 K 12-08 MS 12-15 P 12-22 ML 12-29 K"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Hercegovac",
+      "podrucje": "Hercegovac, četvrtak – Palešnik, Hercegovac, V. Trnava …",
+      "opis": "PALEŠNIK, HERCEGOVAC, V. TRNAVA, LADISLAV, I. KLOKOČEVAC",
+      "ulice": ["Palešnik", "Hercegovac", "V. Trnava", "Ladislav", "I. Klokočevac"],
+      "raw": {
+        "2026": [
+          "01-02 K! 01-08 MS 01-15 P 01-22 ML 01-29 K",
+          "02-04 B 02-05 MS 02-11 B 02-12 P 02-18 B 02-19 ML 02-25 B 02-26 K",
+          "03-04 B 03-05 MS 03-11 B 03-12 P 03-18 B 03-19 ML 03-25 B 03-26 K",
+          "04-01 B 04-02 MS 04-08 B 04-09 P 04-15 B 04-16 ML 04-22 B 04-23 K 04-29 B 04-30 MS",
+          "05-06 B 05-07 P 05-13 B 05-14 ML 05-20 B 05-21 K 05-27 B 05-28 MS",
+          "06-03 B 06-05 P! 06-10 B 06-11 ML 06-17 B 06-18 K 06-24 B 06-25 MS",
+          "07-01 B 07-02 P 07-08 B 07-09 ML 07-15 B 07-16 K 07-22 B 07-23 MS 07-29 B 07-30 P",
+          "08-06 MBL! 08-12 B 08-13 K 08-19 B 08-20 MS 08-26 B 08-27 P",
+          "09-02 B 09-03 ML 09-09 B 09-10 K 09-16 B 09-17 MS 09-23 B 09-24 P 09-30 B",
+          "10-01 ML 10-07 B 10-08 K 10-14 B 10-15 MS 10-21 B 10-22 P 10-28 B 10-29 ML",
+          "11-04 B 11-05 K 11-11 B 11-12 MS 11-19 BP! 11-25 B 11-26 ML",
+          "12-02 B 12-03 K 12-09 B 12-10 MS 12-16 B 12-17 P 12-23 B 12-24 ML 12-30 B 12-31 K"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Velika Trnovitica",
+      "podrucje": "Velika Trnovitica, četvrtak – M. Mlinska, V. Trnovitica, M. Trnovitica …",
+      "opis": "M. MLINSKA, V. TRNOVITICA, M. TRNOVITICA, N. PLOŠČICA, G. PLOŠČICA, G. TRNOVITICA, MLINSKI VINOGRADI, V. MLINSKA",
+      "ulice": ["M. Mlinska", "V. Trnovitica", "M. Trnovitica", "N. Ploščica", "G. Ploščica", "G. Trnovitica", "Mlinski Vinogradi", "V. Mlinska"],
+      "napomena": "Raspored ne navodi odvoz biootpada za ovo područje.",
+      "raw": {
+        "2026": [
+          "01-02 K! 01-08 MS 01-15 P 01-22 ML 01-29 K",
+          "02-05 MS 02-12 P 02-19 ML 02-26 K",
+          "03-05 MS 03-12 P 03-19 ML 03-26 K",
+          "04-02 MS 04-09 P 04-16 ML 04-23 K 04-30 MS",
+          "05-07 P 05-14 ML 05-21 K 05-28 MS",
+          "06-05 P! 06-11 ML 06-18 K 06-25 MS",
+          "07-02 P 07-09 ML 07-16 K 07-23 MS 07-30 P",
+          "08-06 ML 08-13 K 08-20 MS 08-27 P",
+          "09-03 ML 09-10 K 09-17 MS 09-24 P",
+          "10-01 ML 10-08 K 10-15 MS 10-22 P 10-29 ML",
+          "11-05 K 11-12 MS 11-19 P 11-26 ML",
+          "12-03 K 12-10 MS 12-17 P 12-24 ML 12-31 K"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "davatelj": "Novokom d.o.o. Novska",
+  "web": "https://novokom-novska.hr",
+  "zupanija": "Sisačko-moslavačka",
+  "jls": ["Novska"],
+  "izvor": "https://novokom-novska.hr/uncategorized/raspored-odvoza-otpada-za-2026-godinu/",
+  "napomene": ["Datumi u rasporedu već uključuju pomake zbog blagdana; takvi su datumi označeni kao pomaknuti.", "Raspored vrijedi za ulice i naselja navedena na pojedinoj ruti; za naselja koja nisu navedena provjerite raspored kod Novokoma."],
+  "zone": {
+    "1": {
+      "jls": "Novska",
+      "podrucje": "Ponedjeljak – Trg L. I. Oriovčanina, Crkvena, K. Tomislava, Obrtnička, …",
+      "ulice": ["Trg L. I. Oriovčanina", "Crkvena", "K. Tomislava", "Obrtnička", "Potočna", "T. Ujevića", "V. Nazora", "B. Ljevačića", "Trupnopoljska", "Bročice"],
+      "napomena": "Izostavljeni neispravni datumi iz rasporeda: miješani 'PON, 29.03.' stoji u bloku lipanj.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-10 K! 01-12 MB 01-13 S 01-19 M 01-20 P 01-26 MB",
+          "02-02 M 02-03 K 02-09 MB 02-10 S 02-16 M 02-17 P 02-23 MB",
+          "03-02 M 03-03 K 03-09 MB 03-10 S 03-16 M 03-17 P 03-23 MB 03-30 M",
+          "04-07 MK! 04-13 MB 04-14 S 04-20 M 04-21 P 04-27 MB",
+          "05-04 M 05-05 K 05-11 MB 05-12 S 05-18 M 05-19 P 05-25 MB",
+          "06-01 M 06-02 K 06-08 MB 06-09 S 06-15 M 06-16 P 06-23 MB!",
+          "07-06 M 07-07 K 07-13 MB 07-14 S 07-20 M 07-21 P 07-27 MB",
+          "08-03 M 08-04 K 08-10 MB 08-11 S 08-17 M 08-18 P 08-24 MB 08-31 M",
+          "09-07 M 09-08 K 09-14 MB 09-15 S 09-21 M 09-22 P 09-28 MB",
+          "10-05 M 10-06 K 10-12 MB 10-13 S 10-19 M 10-20 P 10-26 MB",
+          "11-02 M 11-03 K 11-09 MB 11-10 S 11-16 M 11-17 P 11-23 MB 11-30 M",
+          "12-07 M 12-08 K 12-14 MB 12-15 S 12-21 M 12-22 P 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Novska",
+      "podrucje": "Utorak – Kralja Zvonimira, R. Boškovića, N. Tesle, M. A. Reljkovića, …",
+      "ulice": ["Kralja Zvonimira", "R. Boškovića", "N. Tesle", "M. A. Reljkovića", "A. Kovačića", "I. Gundulića", "A. Cesarca", "A. Stepinca", "Glassova", "Kolodvorska", "J. Kozarca", "I. Zajca", "S. Radića", "Preradovićeva", "I. B. Mažuranić", "A. G. Matoša", "Osječka", "Lovačka", "Staroselska", "Bukovačka", "Strossmayerova", "A. Starčevića", "Vinogradska", "Vlaićka"],
+      "napomena": "Izostavljeni neispravni datumi iz rasporeda: biootpad 'UTO, 19.06.': 19.06.2026. je petak.",
+      "raw": {
+        "2026": [
+          "01-07 MK! 01-13 MB 01-14 S 01-20 M 01-21 P 01-27 MB",
+          "02-03 M 02-04 K 02-10 MB 02-11 S 02-17 M 02-18 P 02-24 MB",
+          "03-03 M 03-04 K 03-10 MB 03-11 S 03-17 M 03-18 P 03-24 MB 03-31 M",
+          "04-07 M 04-08 K 04-14 MB 04-15 S 04-21 M 04-22 P 04-28 MB",
+          "05-05 M 05-06 K 05-12 MB 05-13 S 05-19 M 05-20 P 05-26 MB",
+          "06-02 M 06-03 K 06-09 M 06-10 S 06-16 M 06-17 P 06-23 MB 06-30 M",
+          "07-07 M 07-08 K 07-14 MB 07-15 S 07-21 M 07-22 P 07-28 MB",
+          "08-04 M 08-08 K! 08-11 MB 08-12 S 08-18 M 08-19 P 08-25 MB",
+          "09-01 M 09-08 M 09-09 K 09-15 MB 09-16 S 09-22 M 09-23 P 09-29 MB",
+          "10-06 M 10-07 K 10-13 MB 10-14 S 10-20 M 10-21 P 10-27 MB",
+          "11-03 M 11-04 K 11-10 MB 11-11 S 11-17 M 11-21 P! 11-24 MB",
+          "12-01 M 12-08 M 12-09 K 12-15 MB 12-16 S 12-22 M 12-23 P 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Novska",
+      "podrucje": "Srijeda – S. Grabovac, Paklenica, Voćarica, Jazavica, …",
+      "ulice": ["S. Grabovac", "Paklenica", "Voćarica", "Jazavica", "Roždanik", "Rajić", "Borovac", "Stari Grabovac"],
+      "napomena": "Na ovoj ruti raspored ne navodi odvoz biootpada.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-08 K 01-14 M 01-15 S 01-21 M 01-22 P 01-28 M",
+          "02-04 M 02-05 K 02-11 M 02-12 S 02-18 M 02-19 P 02-25 M",
+          "03-04 M 03-05 K 03-11 M 03-12 S 03-18 M 03-19 P 03-25 M",
+          "04-01 M 04-08 M 04-09 K 04-15 M 04-16 S 04-22 M 04-23 P 04-29 M",
+          "05-06 M 05-07 K 05-13 M 05-14 S 05-20 M 05-21 P 05-27 M",
+          "06-03 M 06-06 K! 06-10 M 06-11 S 06-17 M 06-18 P 06-24 M",
+          "07-01 M 07-08 M 07-09 K 07-15 M 07-16 S 07-22 M 07-23 P 07-29 M",
+          "08-06 MK! 08-12 M 08-13 S 08-19 M 08-20 P 08-26 M",
+          "09-02 M 09-09 M 09-10 K 09-16 M 09-17 S 09-23 M 09-24 P 09-30 M",
+          "10-07 M 10-08 K 10-14 M 10-15 S 10-21 M 10-22 P 10-28 M",
+          "11-04 M 11-05 K 11-11 M 11-12 S 11-19 MP! 11-25 M",
+          "12-02 M 12-09 M 12-10 K 12-16 M 12-17 S 12-23 M 12-24 P 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Novska",
+      "podrucje": "Četvrtak – Nova Subocka, Stara Subocka, Sigetac, Plesmo, …",
+      "ulice": ["Nova Subocka", "Stara Subocka", "Sigetac", "Plesmo", "Brestača", "Kozarice", "Sigetac Novski"],
+      "napomena": "Na ovoj ruti raspored ne navodi odvoz biootpada.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 M 01-09 K 01-15 M 01-16 S 01-22 M 01-23 P 01-29 M",
+          "02-05 M 02-06 K 02-12 M 02-13 S 02-19 M 02-20 P 02-26 M",
+          "03-05 M 03-06 K 03-12 M 03-13 S 03-19 M 03-20 P 03-26 M",
+          "04-02 M 04-09 M 04-10 K 04-16 M 04-17 S 04-23 M 04-24 P 04-30 M",
+          "05-07 M 05-08 K 05-14 M 05-15 S 05-21 M 05-22 P 05-28 M",
+          "06-05 MK! 06-11 M 06-12 S 06-18 M 06-19 P 06-25 M",
+          "07-02 M 07-09 M 07-10 K 07-16 M 07-17 S 07-23 M 07-24 P 07-30 M",
+          "08-06 M 08-07 K 08-13 M 08-14 S 08-20 M 08-21 P 08-27 M",
+          "09-03 M 09-10 M 09-11 K 09-17 M 09-18 S 09-24 M 09-25 P",
+          "10-01 M 10-08 M 10-09 K 10-15 M 10-16 S 10-22 M 10-23 P 10-29 M",
+          "11-05 M 11-06 K 11-12 M 11-13 S 11-19 M 11-20 P 11-26 M",
+          "12-03 M 12-10 M 12-11 K 12-17 M 12-18 S 12-24 M 12-28 P! 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Novska",
+      "podrucje": "Petak – Radnička, Trg N. Š. Zrinskog, Hercegovačka, Dalmatinska, …",
+      "ulice": ["Radnička", "Trg N. Š. Zrinskog", "Hercegovačka", "Dalmatinska", "Zagorska", "Posavska", "Zagrebačka", "Ilirska", "A. Šenoe", "I. Meštrovića", "V. Filipovića", "M. Držića", "Frankopanska", "B. J. Jelačića", "Knoppa", "M. Hrvatske", "A. Mihanovića", "M. Gupca", "Lj. Posavskog", "D. Cesarića", "Voćarska", "S. Batušića", "K. Tonkovića", "Hrv. Branitelja"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-05 K 01-09 M 01-12 S 01-16 MB 01-19 P 01-23 M 01-30 MB",
+          "02-02 K 02-06 M 02-09 S 02-13 MB 02-16 P 02-20 M 02-27 MB",
+          "03-02 K 03-06 M 03-09 S 03-13 MB 03-16 P 03-20 M 03-27 MB",
+          "04-03 M 04-10 M 04-11 K! 04-13 S 04-17 MB 04-20 P 04-24 M",
+          "05-02 MB! 05-04 K 05-08 M 05-11 S 05-15 MB 05-18 P 05-22 M 05-29 MB",
+          "06-01 K 06-05 M 06-08 S 06-12 MB 06-15 P 06-19 M 06-26 MB",
+          "07-03 M 07-06 K 07-10 M 07-13 S 07-17 MB 07-20 P 07-24 M 07-31 MB",
+          "08-03 K 08-07 M 08-10 S 08-14 MB 08-17 P 08-21 M 08-28 MB",
+          "09-04 M 09-07 K 09-11 M 09-14 S 09-18 MB 09-21 P 09-25 M",
+          "10-02 MB 10-05 K 10-09 M 10-12 S 10-16 MB 10-19 P 10-23 M 10-30 MB",
+          "11-02 K 11-06 M 11-09 S 11-13 MB 11-16 P 11-20 M 11-27 MB",
+          "12-04 M 12-07 K 12-11 M 12-14 S 12-18 MB 12-21 P 12-28 M!"
+        ]
+      }
+    }
+  }
+}

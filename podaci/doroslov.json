@@ -1,0 +1,167 @@
+{
+  "davatelj": "Doroslov d.o.o.",
+  "web": "https://doroslov.hr",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Donji Miholjac", "Marijanci", "Magadenovac", "Podravska Moslavina", "Viljevo"],
+  "nazivi": {"P": "Plastična i metalna ambalaža", "S": "Staklena ambalaža (vrećica)", "G": "Glomazni otpad (samo uz najavu)"},
+  "bioNapomena": "Biootpad se u Donjem Miholjcu odvozi jednom tjedno, samo korisnicima koji su preuzeli smeđi spremnik.",
+  "napomene": ["Miješani komunalni otpad odvozi se jednom u dva tjedna, plastika i metal, papir i staklo jednom mjesečno.", "Glomazni otpad odvozi se na označeni dan samo uz najavu najkasnije tri dana prije: 031/632-284 ili info@doroslov.hr.", "Pomaci zbog blagdana već su upisani u rasporede.", "Općine Magadenovac, Podravsku Moslavinu i Viljevo Doroslov preuzima od 1.7.2026.; ovdje su samo datumi iz Doroslovih rasporeda.", "Odlagalište i reciklažno dvorište Donji Miholjac: pon-pet 12-17 h.", "Izvori: https://doroslov.hr/wp-content/uploads/2026/08/Raspored-odvoza-otpada-2026-D.Miholjac.pdf, https://doroslov.hr/wp-content/uploads/2026/08/Raspored-odvoza-otpada-2026-Marijanci.pdf, https://doroslov.hr/wp-content/uploads/2026/10/Raspored-odvoza-otpada-2026-Magadenovac-1.pdf, https://doroslov.hr/wp-content/uploads/2026/08/Raspored-odvoza-otpada-2026-Moslavina-1.pdf, https://doroslov.hr/wp-content/uploads/2026/08/Raspored-odvoza-otpada-2026-Viljevo-1.pdf"],
+  "izvor": "https://doroslov.hr/index.php/donji-miholjac/",
+  "zone": {
+    "1": {
+      "jls": "Donji Miholjac",
+      "podrucje": "Istok: Kolodvorska, F.Kuhača, K.Zrinske, I.G.Kovačića, Zrinsko-Frankopanska, A.Stepinca, …",
+      "opis": "Kolodvorska, F.Kuhača, K.Zrinske, I.G.Kovačića, Zrinsko-Frankopanska, A.Stepinca, Vukovarska, Prilaz Ribnjaku, Kneza Trpimira, Majur, Z.Balokovića, V.Lisinskog, Kralja Držislava, I Gundulića, Ciglana, I.Meštrovića, R.Boškovića, V.Nazora, J.Kozarca, E.Kumičića, I.Vajde, S.S.Kranjčevića, A.B.Šimića, Kralja Tomislava, I.Mažuranića, Kneza Domagoja, Bana Jelačića, M.Gupca",
+      "ulice": ["Kolodvorska", "F.Kuhača", "K.Zrinske", "I.G.Kovačića", "Zrinsko-Frankopanska", "A.Stepinca", "Vukovarska", "Prilaz Ribnjaku", "Kneza Trpimira", "Majur", "Z.Balokovića", "V.Lisinskog", "Kralja Držislava", "I Gundulića", "Ciglana", "I.Meštrovića", "R.Boškovića", "V.Nazora", "J.Kozarca", "E.Kumičića", "I.Vajde", "S.S.Kranjčevića", "A.B.Šimića", "Kralja Tomislava", "I.Mažuranića", "Kneza Domagoja", "Bana Jelačića", "M.Gupca"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 M! 01-12 B 01-13 P 01-16 S 01-19 B 01-20 M 01-26 B 01-27 K",
+          "02-02 B 02-03 M 02-06 S 02-09 B 02-10 P 02-16 B 02-17 M 02-20 G 02-23 B 02-24 K",
+          "03-02 B 03-03 M 03-06 S 03-09 B 03-10 P 03-16 B 03-17 M 03-20 G 03-23 B 03-24 K 03-30 B 03-31 M",
+          "04-03 S 04-07 B! 04-08 P! 04-13 B 04-14 M 04-20 B 04-21 K 04-27 B 04-28 M",
+          "05-04 B 05-05 P 05-08 S 05-11 B 05-12 M 05-18 B 05-19 K 05-22 G 05-25 B 05-26 M",
+          "06-01 B 06-02 P 06-08 B 06-09 M 06-12 S 06-15 B 06-16 K 06-23 B! 06-24 M! 06-29 B",
+          "07-03 S 07-06 B 07-07 M 07-13 B 07-14 P 07-17 G 07-20 B 07-21 M 07-27 B 07-28 K",
+          "08-03 B 08-04 M 08-10 B 08-11 P 08-17 B 08-18 M 08-21 S 08-24 B 08-25 K 08-31 B",
+          "09-01 M 09-04 S 09-07 B 09-08 P 09-14 B 09-15 M 09-18 G 09-21 B 09-22 K 09-28 B 09-30 M",
+          "10-05 B 10-06 P 10-09 S 10-12 B 10-13 M 10-19 B 10-20 K 10-23 G 10-26 B 10-27 M",
+          "11-02 B 11-03 P 11-06 S 11-09 B 11-10 M 11-16 B 11-17 K 11-23 B 11-24 M 11-30 B",
+          "12-01 P 12-04 S 12-07 B 12-08 M 12-14 B 12-15 K 12-21 B 12-22 M 12-28 B"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Donji Miholjac",
+      "podrucje": "Zapad: Naselje Tržnica, A.Šenoe, Basaričekova, P.Radića, A.Harambašića, E.Kvaternika, …",
+      "opis": "Naselje Tržnica, A.Šenoe, Basaričekova, P.Radića, A.Harambašića, E.Kvaternika, D.Cesarića, Prilaz Stadionu, A.Cesarca, Staro Sajmište, Gajeva, Trg A.Starčevića, Kneza Branimira, I.Zajca, Prilaz Hobođu, A.Mihanovića, Đanovačka, A.Kačića, J.J.Strossmayera, Naselje Gorica, P.Preradovića, S.Radića, Kralja Zvonimira, Gorica",
+      "ulice": ["Naselje Tržnica", "A.Šenoe", "Basaričekova", "P.Radića", "A.Harambašića", "E.Kvaternika", "D.Cesarića", "Prilaz Stadionu", "A.Cesarca", "Staro Sajmište", "Gajeva", "Trg A.Starčevića", "Kneza Branimira", "I.Zajca", "Prilaz Hobođu", "A.Mihanovića", "Đanovačka", "A.Kačića", "J.J.Strossmayera", "Naselje Gorica", "P.Preradovića", "S.Radića", "Kralja Zvonimira", "Gorica"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-08 M! 01-12 B 01-14 P 01-19 B 01-21 M 01-23 S 01-26 B 01-28 K",
+          "02-02 B 02-04 M 02-09 B 02-11 P 02-13 S 02-16 B 02-18 M 02-23 B 02-25 K 02-27 G",
+          "03-02 B 03-04 M 03-09 B 03-11 P 03-13 S 03-16 B 03-18 M 03-23 B 03-25 K 03-27 G 03-30 B",
+          "04-01 M 04-07 B! 04-09 P! 04-13 B 04-15 M 04-17 S 04-20 B 04-22 K 04-27 B 04-29 M",
+          "05-04 B 05-06 P 05-11 B 05-13 M 05-15 S 05-18 B 05-20 K 05-25 B 05-27 M 05-29 G",
+          "06-01 B 06-03 P 06-08 B 06-10 M 06-15 B 06-17 K 06-19 S 06-23 B! 06-25 M! 06-29 B",
+          "07-06 B 07-08 M 07-10 S 07-13 B 07-15 P 07-20 B 07-22 M 07-24 G 07-27 B 07-29 K",
+          "08-03 B 08-06 M! 08-10 B 08-12 P 08-17 B 08-19 M 08-24 B 08-26 K 08-28 S 08-31 B",
+          "09-02 M 09-07 B 09-09 P 09-11 S 09-14 B 09-16 M 09-21 B 09-23 K 09-25 G 09-28 B",
+          "10-01 M 10-05 B 10-07 P 10-12 B 10-14 M 10-16 S 10-19 B 10-21 K 10-26 B 10-28 M 10-30 G",
+          "11-02 B 11-04 P 11-09 B 11-11 M 11-13 S 11-16 B 11-19 K! 11-23 B 11-25 M 11-30 B",
+          "12-02 P 12-07 B 12-09 M 12-11 S 12-14 B 12-16 K 12-21 B 12-23 M 12-28 B"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Donji Miholjac",
+      "podrucje": "Prigradska naselja (istok): Ind.zona Janjevci, Sveti Đurađ, Podgajci Podravski",
+      "opis": "Ind.zona Janjevci, Sveti Đurađ, Podgajci Podravski, Rakitovica, Miholjački Poreč, Golinci, Radikovci",
+      "ulice": ["Ind.zona Janjevci", "Sveti Đurađ", "Podgajci Podravski"],
+      "napomena": "Miješani otpad, plastika i papir: zona Prigradska (P); staklo i glomazni otpad: zona Istok.",
+      "raw": {
+        "2026": [
+          "01-05 B 01-09 M! 01-12 B 01-15 P 01-16 S 01-19 B 01-22 M 01-26 B 01-29 K",
+          "02-02 B 02-05 M 02-06 S 02-09 B 02-12 P 02-16 B 02-19 M 02-20 G 02-23 B 02-26 K",
+          "03-02 B 03-05 M 03-06 S 03-09 B 03-12 P 03-16 B 03-19 M 03-20 G 03-23 B 03-26 K 03-30 B",
+          "04-02 M 04-03 S 04-07 B! 04-10 P! 04-13 B 04-16 M 04-20 B 04-23 K 04-27 B 04-30 M",
+          "05-04 B 05-07 P 05-08 S 05-11 B 05-14 M 05-18 B 05-21 K 05-22 G 05-25 B 05-28 M",
+          "06-01 B 06-05 P! 06-08 B 06-11 M 06-12 S 06-15 B 06-18 K 06-23 B! 06-26 M! 06-29 B",
+          "07-03 S 07-06 B 07-09 M 07-13 B 07-16 P 07-17 G 07-20 B 07-23 M 07-27 B 07-30 K",
+          "08-03 B 08-07 M! 08-10 B 08-13 P 08-17 B 08-20 M 08-21 S 08-24 B 08-27 K 08-31 B",
+          "09-03 M 09-04 S 09-07 B 09-10 P 09-14 B 09-17 M 09-18 G 09-21 B 09-24 K 09-28 B",
+          "10-02 M 10-05 B 10-08 P 10-09 S 10-12 B 10-15 M 10-19 B 10-22 K 10-23 G 10-26 B 10-29 M",
+          "11-02 B 11-05 P 11-06 S 11-09 B 11-12 M 11-16 B 11-20 K! 11-23 B 11-26 M 11-30 B",
+          "12-03 P 12-04 S 12-07 B 12-10 M 12-14 B 12-17 K 12-21 B 12-24 M 12-28 B"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Donji Miholjac",
+      "podrucje": "Prigradska naselja (zapad): Rakitovica, Miholjački Poreč, Golinci, Radikovci",
+      "opis": "Ind.zona Janjevci, Sveti Đurađ, Podgajci Podravski, Rakitovica, Miholjački Poreč, Golinci, Radikovci",
+      "ulice": ["Rakitovica", "Miholjački Poreč", "Golinci", "Radikovci"],
+      "napomena": "Miješani otpad, plastika i papir: zona Prigradska (P); staklo i glomazni otpad: zona Zapad.",
+      "raw": {
+        "2026": [
+          "01-05 B 01-09 M! 01-12 B 01-15 P 01-19 B 01-22 M 01-23 S 01-26 B 01-29 K",
+          "02-02 B 02-05 M 02-09 B 02-12 P 02-13 S 02-16 B 02-19 M 02-23 B 02-26 K 02-27 G",
+          "03-02 B 03-05 M 03-09 B 03-12 P 03-13 S 03-16 B 03-19 M 03-23 B 03-26 K 03-27 G 03-30 B",
+          "04-02 M 04-07 B! 04-10 P! 04-13 B 04-16 M 04-17 S 04-20 B 04-23 K 04-27 B 04-30 M",
+          "05-04 B 05-07 P 05-11 B 05-14 M 05-15 S 05-18 B 05-21 K 05-25 B 05-28 M 05-29 G",
+          "06-01 B 06-05 P! 06-08 B 06-11 M 06-15 B 06-18 K 06-19 S 06-23 B! 06-26 M! 06-29 B",
+          "07-06 B 07-09 M 07-10 S 07-13 B 07-16 P 07-20 B 07-23 M 07-24 G 07-27 B 07-30 K",
+          "08-03 B 08-07 M! 08-10 B 08-13 P 08-17 B 08-20 M 08-24 B 08-27 K 08-28 S 08-31 B",
+          "09-03 M 09-07 B 09-10 P 09-11 S 09-14 B 09-17 M 09-21 B 09-24 K 09-25 G 09-28 B",
+          "10-02 M 10-05 B 10-08 P 10-12 B 10-15 M 10-16 S 10-19 B 10-22 K 10-26 B 10-29 M 10-30 G",
+          "11-02 B 11-05 P 11-09 B 11-12 M 11-13 S 11-16 B 11-20 K! 11-23 B 11-26 M 11-30 B",
+          "12-03 P 12-07 B 12-10 M 12-11 S 12-14 B 12-17 K 12-21 B 12-24 M 12-28 B"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Marijanci",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "raw": {
+        "2026": [
+          "01-10 M! 01-16 P 01-23 M 01-30 KSG",
+          "02-06 M 02-13 P 02-20 M 02-27 KS",
+          "03-06 M 03-13 P 03-20 M 03-27 KS",
+          "04-03 M 04-11 P! 04-17 M 04-24 KSG",
+          "05-02 M! 05-08 P 05-15 M 05-22 K 05-29 MS",
+          "06-06 P! 06-12 M 06-19 K 06-26 S 06-27 M!",
+          "07-10 M 07-17 P 07-24 M 07-31 KSG",
+          "08-08 M! 08-14 P 08-21 M 08-28 S 08-29 K",
+          "09-04 M 09-11 P 09-18 M 09-25 KS",
+          "10-03 M 10-09 P 10-16 M 10-23 K 10-30 MS",
+          "11-06 P 11-13 M 11-21 K! 11-27 MSG",
+          "12-04 P 12-11 M 12-18 KS 12-29 M!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Magadenovac",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Doroslov od 1.7.2026.; prije toga Eko-Flor/Mull-Trans. Doroslovov raspored za ovu općinu objavljen je od 03.09.2026. Mobilno reciklažno dvorište: 10.11. (lokacije i vrijeme u PDF-u rasporeda).",
+      "raw": {
+        "2026": [
+          "09-03 M 09-10 P 09-14 G 09-17 M 09-24 K 09-25 S",
+          "10-01 M 10-08 P 10-15 M 10-20 K 10-29 M 10-30 S",
+          "11-05 P 11-12 M 11-19 K 11-26 M 11-27 S",
+          "12-03 P 12-10 M 12-17 K 12-18 S 12-24 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Podravska Moslavina",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Doroslov od 1.7.2026.; prije toga Eko-Flor/Mull-Trans. Doroslovov raspored za ovu općinu objavljen je od 07.09.2026. Mobilno reciklažno dvorište: 13.11. (lokacije i vrijeme u PDF-u rasporeda).",
+      "raw": {
+        "2026": [
+          "09-07 M 09-14 P 09-21 MG 09-28 K 09-30 S",
+          "10-05 M 10-12 P 10-19 M 10-26 K 10-28 S",
+          "11-02 M 11-09 P 11-16 M 11-23 K 11-25 S 11-30 M",
+          "12-07 M 12-14 P 12-21 M 12-28 K 12-30 S"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Viljevo",
+      "podrucje": "Cijela općina",
+      "ulice": [],
+      "napomena": "Doroslov od 1.7.2026.; prije toga Eko-Flor/Mull-Trans. Doroslovov raspored za ovu općinu objavljen je od 07.07.2026. Mobilno reciklažno dvorište: 11.08., 06.11. (lokacije i vrijeme u PDF-u rasporeda).",
+      "raw": {
+        "2026": [
+          "07-07 M 07-14 P 07-21 M 07-28 K 07-29 S",
+          "08-04 M 08-11 P 08-18 M 08-25 K 08-27 S",
+          "09-01 M 09-08 P 09-15 M 09-22 K 09-29 M 09-30 S",
+          "10-06 P 10-13 M 10-20 K 10-27 M 10-28 S 10-29 G",
+          "11-03 P 11-10 M 11-17 K 11-24 M 11-25 S",
+          "12-01 P 12-08 M 12-15 K 12-22 M 12-30 S"
+        ]
+      }
+    }
+  }
+}

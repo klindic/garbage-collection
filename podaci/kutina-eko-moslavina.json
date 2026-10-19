@@ -1,0 +1,136 @@
+{
+  "davatelj": "Eko Moslavina d.o.o.",
+  "web": "https://eko-moslavina.hr",
+  "zupanija": "Sisačko-moslavačka",
+  "jls": ["Kutina", "Velika Ludina"],
+  "napomene": ["Posude moraju biti na javnoj površini dostupne djelatnicima od 07 sati na dan odvoza.", "Na Božić, Novu godinu i Praznik rada nema odvoza; otpad se odvozi prvu sljedeću subotu.", "Reciklažno dvorište Kutina, Radićeva 298B: pon-pet 08-18, sub 08-13."],
+  "izvor": "https://eko-moslavina.hr/raspored",
+  "zone": {
+    "1": {
+      "jls": "Kutina",
+      "podrucje": "Ponedjeljak: Repušnica - uključujući Zagorsku ulicu i dio ulica grada Kutine",
+      "ulice": ["Repušnica - uključujući Zagorsku ulicu", "A. Hebranga", "Crkvena", "Dalmatinska", "D. Domjanića", "Dubrovačka", "K. Domagoja", "Kneza Lj. Posavskog", "K. Trpimira", "K. Višeslava", "Kolodvorska", "P. Preradovića", "Školska", "Trg k. Tomislava", "Vinogradska i svi odvojci", "Sisačka", "V. Preloga", "Poslovna zona", "Al. Vukovar", "L. Ružičke"],
+      "raw": {
+        "2026": [
+          "01-05 MBP 01-12 MB 01-19 MB 01-26 MBK",
+          "02-02 MBP 02-09 MB 02-16 MB 02-23 MBK",
+          "03-02 MBP 03-09 MB 03-16 MB 03-23 MB 03-30 MBK",
+          "04-06 MBP 04-13 MB 04-20 MB 04-27 MBK",
+          "05-04 MBP 05-11 MB 05-18 MB 05-25 MBK",
+          "06-01 MBP 06-08 MB 06-15 MB 06-22 MB 06-29 MBK",
+          "07-06 MBP 07-13 MB 07-20 MB 07-27 MBK",
+          "08-03 MBP 08-10 MB 08-17 MB 08-24 MB 08-31 MBK",
+          "09-07 MBP 09-14 MB 09-21 MB 09-28 MBK",
+          "10-05 MBP 10-12 MB 10-19 MB 10-26 MBK",
+          "11-02 MBP 11-09 MB 11-16 MB 11-23 MB 11-30 MBK",
+          "12-07 MBP 12-14 MB 12-21 MB 12-28 MBK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Kutina",
+      "podrucje": "Utorak: dio ulica grada Kutine",
+      "ulice": ["A. Cesarca", "A.G. Matoša", "A. Mihanovića", "A. Starčevića", "A. Stepinca", "A. Šenoe", "B.J. Jelačića", "Brdovita", "D. Cesarića", "D. Pavčeca", "D. Šutej", "Đ. Sudete", "E. Kvaternika", "G. Barona", "Goilska", "Gradine", "G. Erdodya", "Gundulićeva", "I. Mažuranića", "Ivanićgradska", "J.J. Strossmayera", "J. Kozarca", "J. Runjanina", "K. Zvonimira", "Kt. Ciglenica - sve ulice", "Kt. lipa", "Lonjska", "M. Drvarića", "M. Kraljevića", "M. Stuparića", "Moslavačka", "P. Svačića", "Podravska", "Popovačka", "R. Donassya", "Ravnice", "Rudarska", "S. Kolara", "S.S. Kranjčevića", "Savska", "V. Nazora", "Zagorska", "Zagrebačka"],
+      "raw": {
+        "2026": [
+          "01-06 MBP 01-13 MB 01-20 MB 01-27 MBK",
+          "02-03 MBP 02-10 MB 02-17 MB 02-24 MBK",
+          "03-03 MBP 03-10 MB 03-17 MB 03-24 MB 03-31 MBK",
+          "04-07 MBP 04-14 MB 04-21 MB 04-28 MBK",
+          "05-05 MBP 05-12 MB 05-19 MB 05-26 MBK",
+          "06-02 MBP 06-09 MB 06-16 MB 06-23 MB 06-30 MBK",
+          "07-07 MBP 07-14 MB 07-21 MB 07-28 MBK",
+          "08-04 MBP 08-11 MB 08-18 MB 08-25 MBK",
+          "09-01 MBP 09-08 MB 09-15 MB 09-22 MB 09-29 MBK",
+          "10-06 MBP 10-13 MB 10-20 MB 10-27 MBK",
+          "11-03 MBP 11-10 MB 11-17 MB 11-24 MBK",
+          "12-01 MBP 12-08 MB 12-15 MB 12-22 MB 12-29 MBK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Kutina",
+      "podrucje": "Srijeda: Mikleuška, Selište, Kletište, … i dio ulica grada Kutine",
+      "ulice": ["Mikleuška", "Selište", "Kletište", "Mišinka", "Gojlo", "M. Trnine", "Badalićeva", "Hrv. branitelja", "Cvjetna", "I.G. Kovačića", "I. Zajca", "A. Nemčića", "V. Lisinskog"],
+      "raw": {
+        "2026": [
+          "01-07 MBP 01-14 MB 01-21 MB 01-28 MBK",
+          "02-04 MBP 02-11 MB 02-18 MB 02-25 MBK",
+          "03-04 MBP 03-11 MB 03-18 MB 03-25 MBK",
+          "04-01 MBP 04-08 MB 04-15 MB 04-22 MB 04-29 MBK",
+          "05-06 MBP 05-13 MB 05-20 MB 05-27 MBK",
+          "06-03 MBP 06-10 MB 06-17 MB 06-24 MBK",
+          "07-01 MBP 07-08 MB 07-15 MB 07-22 MB 07-29 MBK",
+          "08-05 MBP 08-12 MB 08-19 MB 08-26 MBK",
+          "09-02 MBP 09-09 MB 09-16 MB 09-23 MB 09-30 MBK",
+          "10-07 MBP 10-14 MB 10-21 MB 10-28 MBK",
+          "11-04 MBP 11-11 MB 11-18 MB 11-25 MBK",
+          "12-02 MBP 12-09 MB 12-16 MB 12-23 MB 12-30 MBK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Kutina",
+      "podrucje": "Četvrtak: Batina, Husain i dio ulica grada Kutine",
+      "ulice": ["Batina", "Husain", "A.B. Šimića", "A.K. Miošića", "Bilogorska", "Garićka", "G. Šuška", "I. Gregorića", "J. Kaštelana", "K.P. Krešimira IV", "Krč - sve ulice", "M. Gupca", "M. Krleže", "M. Lovraka", "Metanska", "Mramorska", "N. Tesle", "Novljanska", "Novogradiška", "Osječka", "Pakračka", "R. Boškovića", "Radićeva", "Slavonska ulica", "Tržna", "Vinkovačka", "Željeznička"],
+      "raw": {
+        "2026": [
+          "01-03 MBP! 01-08 MB 01-15 MB 01-22 MB 01-29 MBK",
+          "02-05 MBP 02-12 MB 02-19 MB 02-26 MBK",
+          "03-05 MBP 03-12 MB 03-19 MB 03-26 MBK",
+          "04-02 MBP 04-09 MB 04-16 MB 04-23 MB 04-30 MBK",
+          "05-07 MBP 05-14 MB 05-21 MB 05-28 MBK",
+          "06-04 MBP 06-11 MB 06-18 MB 06-25 MBK",
+          "07-02 MBP 07-09 MB 07-16 MB 07-23 MB 07-30 MBK",
+          "08-06 MBP 08-13 MB 08-20 MB 08-27 MBK",
+          "09-03 MBP 09-10 MB 09-17 MB 09-24 MBK",
+          "10-01 MBP 10-08 MB 10-15 MB 10-22 MB 10-29 MBK",
+          "11-05 MBP 11-12 MB 11-19 MB 11-26 MBK",
+          "12-03 MBP 12-10 MB 12-17 MB 12-24 MB 12-31 MBK"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Kutina",
+      "podrucje": "Petak: Brinjani, Čaire, Ilova, …",
+      "ulice": ["Brinjani", "Čaire", "Ilova", "Jamarica", "Janja Lipa", "Katoličke Čaire", "Krajiška Kutinica", "Kutinica", "Međurić", "Kutinska Slatina", "Stupovača", "Šartovac", "Banova Jaruga", "Zbjegovača"],
+      "raw": {
+        "2026": [
+          "01-02 MBP 01-09 MB 01-16 MB 01-23 MB 01-30 MBK",
+          "02-06 MBP 02-13 MB 02-20 MB 02-27 MBK",
+          "03-06 MBP 03-13 MB 03-20 MB 03-27 MBK",
+          "04-03 MBP 04-10 MB 04-17 MB 04-24 MBK",
+          "05-02 MBP! 05-08 MB 05-15 MB 05-22 MB 05-29 MBK",
+          "06-05 MBP 06-12 MB 06-19 MB 06-26 MBK",
+          "07-03 MBP 07-10 MB 07-17 MB 07-24 MB 07-31 MBK",
+          "08-07 MBP 08-14 MB 08-21 MB 08-28 MBK",
+          "09-04 MBP 09-11 MB 09-18 MB 09-25 MBK",
+          "10-02 MBP 10-09 MB 10-16 MB 10-23 MB 10-30 MBK",
+          "11-06 MBP 11-13 MB 11-20 MB 11-27 MBK",
+          "12-04 MBP 12-11 MB 12-18 MB 12-26 MBK!"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Velika Ludina",
+      "podrucje": "Općina Velika Ludina (srijeda)",
+      "ulice": ["Gornja Vlahinićka", "Grabričina", "Grabrov Potok", "Katoličko Selišće", "Kompator", "Ludinica", "Mala Ludina", "Mustafina Klada", "Okoli", "Ruškovica", "Velika Ludina", "Vidrenjak"],
+      "raw": {
+        "2026": [
+          "01-07 MBP 01-14 MB 01-21 MB 01-28 MBK",
+          "02-04 MBP 02-11 MB 02-18 MB 02-25 MBK",
+          "03-04 MBP 03-11 MB 03-18 MB 03-25 MBK",
+          "04-01 MBP 04-08 MB 04-15 MB 04-22 MB 04-29 MBK",
+          "05-06 MBP 05-13 MB 05-20 MB 05-27 MBK",
+          "06-03 MBP 06-10 MB 06-17 MB 06-24 MBK",
+          "07-01 MBP 07-08 MB 07-15 MB 07-22 MB 07-29 MBK",
+          "08-05 MBP 08-12 MB 08-19 MB 08-26 MBK",
+          "09-02 MBP 09-09 MB 09-16 MB 09-23 MB 09-30 MBK",
+          "10-07 MBP 10-14 MB 10-21 MB 10-28 MBK",
+          "11-04 MBP 11-11 MB 11-18 MB 11-25 MBK",
+          "12-02 MBP 12-09 MB 12-16 MB 12-23 MB 12-30 MBK"
+        ]
+      }
+    }
+  }
+}

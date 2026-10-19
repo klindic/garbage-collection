@@ -1,0 +1,99 @@
+{
+  "davatelj": "Komunalno društvo Lipa d.o.o.",
+  "web": "https://komunalnodrustvolipa.hr",
+  "zupanija": "Karlovačka",
+  "jls": ["Slunj"],
+  "nazivi": {"P": "Plastika i metal (žuta)", "K": "Papir (plava)"},
+  "izvor": "https://komunalnodrustvolipa.hr/gospodarenje-otpadom/",
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno prema utvrđenom planu odvoza (dan u tjednu po ulicama i naseljima); posude treba iznijeti ispred ulaza objekta na dan odvoza.", "Papir i plastika/metal odvoze se isti dan za cijeli grad. Objavljen je raspored samo za srpanj–prosinac 2026.; za siječanj–lipanj 2026. raspored nije pronađen.", "Blagdani: kad se odvoz pomiče, Lipa objavljuje obavijest (npr. 5.8.2026.: srijeda → četvrtak, četvrtak → petak); takvi pomaci su upisani i označeni. Za ostale blagdane obavijest nije objavljena i datumi nisu pomaknuti.", "Glomazni otpad: kontejner (5 m³) na zahtjev, jednom godišnje besplatno na adresi korisnika, tel. 047 801 815; glomazni otpad može se odložiti i u reciklažnom dvorištu Grada Slunja (pon–sub).", "Komunalno društvo Lipa d.o.o., Petra Svačića 5, Slunj, tel. 047 777 790."],
+  "zone": {
+    "1": {
+      "jls": "Slunj",
+      "podrucje": "Ponedjeljak – Veljun, Točak, Lapovac, Jure Belkovića, 14. Domobranske Pukovnije dio, …",
+      "opis": "Veljun, Točak, Lapovac, Jure Belkovića, 14. Domobranske Pukovnije dio, Plitvička, A. Šenoe, I.G. Kovačića, Kordunska, Rakovačka, Mile Cindrića, Novo Selo, Novo Naselje, Kralja Zvonimira, V. Karasa, K. Blagajskih, Ivšić Brdo, Koranska, Prilaz Centrali, Stara Cesta, I. Trnskog, V. Nazora, Školska, Melnička, Trg dr. Franje Tuđmana",
+      "ulice": ["Veljun", "Točak", "Lapovac", "Jure Belkovića", "14. Domobranske Pukovnije dio", "Plitvička", "A. Šenoe", "I.G. Kovačića", "Kordunska", "Rakovačka", "Mile Cindrića", "Novo Selo", "Novo Naselje", "Kralja Zvonimira", "V. Karasa", "K. Blagajskih", "Ivšić Brdo", "Koranska", "Prilaz Centrali", "Stara Cesta", "I. Trnskog", "V. Nazora", "Školska", "Melnička", "Trg dr. Franje Tuđmana"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-22 M 06-29 M",
+          "07-06 M 07-10 PK 07-13 M 07-20 M 07-27 M 07-31 PK",
+          "08-03 M 08-10 M 08-14 PK 08-17 M 08-24 M 08-28 PK 08-31 M",
+          "09-07 M 09-11 PK 09-14 M 09-21 M 09-25 PK 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-26 M 10-30 PK",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-27 PK 11-30 M",
+          "12-07 M 12-14 M 12-18 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Slunj",
+      "podrucje": "Utorak – Strmac, Gornje Taborište, Mali Vuković, Zubac, Rastoke, …",
+      "opis": "Strmac, Gornje Taborište, Mali Vuković, Zubac, Rastoke, Zagrebačka, Gornji Kremen, Donji Kremen, N. Turkalja, Cvitović, Braće Radić, Trg Zrinskih i Frankopana, Donje Taborište dio, Ladihovićeva, Marindolsko Brdo, Cerovac dio, Donji Nikšić",
+      "ulice": ["Strmac", "Gornje Taborište", "Mali Vuković", "Zubac", "Rastoke", "Zagrebačka", "Gornji Kremen", "Donji Kremen", "N. Turkalja", "Cvitović", "Braće Radić", "Trg Zrinskih i Frankopana", "Donje Taborište dio", "Ladihovićeva", "Marindolsko Brdo", "Cerovac dio", "Donji Nikšić"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-24 M",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-28 M",
+          "05-05 M 05-12 M 05-19 M 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-30 M",
+          "07-07 M 07-10 PK 07-14 M 07-21 M 07-28 M 07-31 PK",
+          "08-04 M 08-11 M 08-14 PK 08-18 M 08-25 M 08-28 PK",
+          "09-01 M 09-08 M 09-11 PK 09-15 M 09-22 M 09-25 PK 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-27 M 10-30 PK",
+          "11-03 M 11-10 M 11-17 M 11-24 M 11-27 PK",
+          "12-01 M 12-08 M 12-15 M 12-18 PK 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Slunj",
+      "podrucje": "Srijeda – Podmelnica, Mrežnička, II Poljski put, Donja Glina, Gornja Glina, …",
+      "opis": "Podmelnica, Mrežnička, II Poljski put, Donja Glina, Gornja Glina, Glinsko Vrelo, Donje Taborište dio, Cerovac dio, Gornji Nikšić, Petra Svačića, Nikole Tesle, LJ. Gaja, E. Kvaternika, 14. Domobranske pukovnije dio, I Poljski put, Prilaz Narti, Radoslava Lopašića, Blagaj, Pavlovac, kontejneri zgrade i gospodarski subjekti",
+      "ulice": ["Podmelnica", "Mrežnička", "II Poljski put", "Donja Glina", "Gornja Glina", "Glinsko Vrelo", "Donje Taborište dio", "Cerovac dio", "Gornji Nikšić", "Petra Svačića", "Nikole Tesle", "LJ. Gaja", "E. Kvaternika", "14. Domobranske pukovnije dio", "I Poljski put", "Prilaz Narti", "Radoslava Lopašića", "Blagaj", "Pavlovac"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-08 M 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-24 M",
+          "07-01 M 07-08 M 07-10 PK 07-15 M 07-22 M 07-29 M 07-31 PK",
+          "08-06 M! 08-12 M 08-14 PK 08-19 M 08-26 M 08-28 PK",
+          "09-02 M 09-09 M 09-11 PK 09-16 M 09-23 M 09-25 PK 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-28 M 10-30 PK",
+          "11-04 M 11-11 M 11-18 M 11-25 M 11-27 PK",
+          "12-02 M 12-09 M 12-16 M 12-18 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Slunj",
+      "podrucje": "Četvrtak – Lumbardenik, Donji Popovac, Gornji Popovac, Donji Furjan, Sastavak, …",
+      "opis": "Lumbardenik, Donji Popovac, Gornji Popovac, Donji Furjan, Sastavak, Arapovac, Čamerovac, Gornji Lađevac, G. Šuška, N. Zrinskog, Frankopanska, Gornji Furjan, Donji Lađevac",
+      "ulice": ["Lumbardenik", "Donji Popovac", "Gornji Popovac", "Donji Furjan", "Sastavak", "Arapovac", "Čamerovac", "Gornji Lađevac", "G. Šuška", "N. Zrinskog", "Frankopanska", "Gornji Furjan", "Donji Lađevac"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-28 M",
+          "06-04 M 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-10 PK 07-16 M 07-23 M 07-30 M 07-31 PK",
+          "08-07 M! 08-13 M 08-14 PK 08-20 M 08-27 M 08-28 PK",
+          "09-03 M 09-10 M 09-11 PK 09-17 M 09-24 M 09-25 PK",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 M 10-30 PK",
+          "11-05 M 11-12 M 11-19 M 11-26 M 11-27 PK",
+          "12-03 M 12-10 M 12-17 M 12-18 PK 12-24 M 12-31 M"
+        ]
+      }
+    }
+  }
+}

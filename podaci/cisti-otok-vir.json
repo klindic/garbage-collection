@@ -1,0 +1,143 @@
+{
+  "davatelj": "Čisti otok d.o.o.",
+  "web": "https://cistiotok.hr",
+  "izvor": "https://cistiotok.hr/raspored-rada-po-zonama-interaktivna-karta/",
+  "zupanija": "Zadarska",
+  "jls": ["Vir"],
+  "nazivi": {"P": "Plastika (PL)", "K": "Papir (PA)"},
+  "napomene": ["Miješani komunalni otpad (MKO) te papir i plastika (PA+PL) odvoze se jednom tjedno na dan zone; od 15.06. do 15.09. MKO se odvozi dvaput tjedno (zone 1 i 2 ponedjeljkom i četvrtkom, zone 3 i 4 utorkom i petkom, zone 5 i 6 srijedom i subotom), a papir i plastika i dalje jednom tjedno na dan zone.", "Glomazni otpad: na zahtjev e-poštom (vidi cistiotok.hr).", "Pomaci odvoza zbog blagdana nisu objavljeni; datumi su izračunati iz pravila."],
+  "zone": {
+    "1": {
+      "jls": "Vir",
+      "podrucje": "Zona 1 – ponedjeljak (ljeti 15.6.–15.9. MKO ponedjeljkom i četvrtkom) – Antina, Bašićova, Borisa Krnčevića …",
+      "ulice": ["Antina", "Bašićova", "Borisa Krnčevića", "Boškova", "Brkljačina", "Bunarić I", "Bunarić II", "Bunarić IV", "Bunarić V", "Franje Tuđmana", "Grgečeva", "Kapova", "Kralja Tomislava", "Krčevine", "Krčevine II", "Krčevine IV", "Laz I", "Laz II", "Laz III", "Laz IV", "Laz VI", "Laz VIII", "Laz X", "Lokvina", "Lovrićeva", "Luka I", "Luka II", "Luka III", "Luka IX", "Luka V", "Luka VII", "Luka XI", "Luka XIII", "Luka XV", "Luka XVII", "Marova", "Prcolina", "Prilaz Franje Tuđmana I", "Prilaz Franje Tuđmana II", "Prilaz Kralja Tomislava", "Prilaz Kralja Tomislava I", "Prilaz Kralja Tomislava II", "Prilaz Kralja Tomislava III", "Put Bunara", "Put Lozica", "Put Mula", "Put Nacelja-do Sokol ulice", "Put Podvornic", "Put Slatine", "Put Spavalice", "Radovanjica I", "Radovanjica II", "Radovanjica III", "Radovanjica IV", "Radovanjica IX", "Radovanjica V", "Radovanjica VI", "Radovanjica VII", "Radovanjica XI", "Radovanjica XIII", "Sapavac", "Slatina I", "Slatina III", "Slatina IX", "Slatina V", "Slatina VII", "Slatina XI", "Slatina XIII", "Slatina XIX", "Slatina XV", "Slatina XXI", "Sokol Ulica", "Spavalica I", "Sridnje Kućice V", "Stari Put-do Miljkovice I", "Straža VIII", "Straža X", "Straža XII", "Straža XIV", "Šavrova", "Šetnica Jadro", "Šimina", "Šušina", "Trćina", "Trg Svetog Ivana", "Virski Put-do Miljkovice I"],
+      "napomena": "MKO ponedjeljkom, ljeti (15.6.–15.9.) ponedjeljkom i četvrtkom; papir i plastika ponedjeljkom cijele godine.",
+      "raw": {
+        "2026": [
+          "01-05 MPK 01-12 MPK 01-19 MPK 01-26 MPK",
+          "02-02 MPK 02-09 MPK 02-16 MPK 02-23 MPK",
+          "03-02 MPK 03-09 MPK 03-16 MPK 03-23 MPK 03-30 MPK",
+          "04-06 MPK 04-13 MPK 04-20 MPK 04-27 MPK",
+          "05-04 MPK 05-11 MPK 05-18 MPK 05-25 MPK",
+          "06-01 MPK 06-08 MPK 06-15 MPK 06-18 M 06-22 MPK 06-25 M 06-29 MPK",
+          "07-02 M 07-06 MPK 07-09 M 07-13 MPK 07-16 M 07-20 MPK 07-23 M 07-27 MPK 07-30 M",
+          "08-03 MPK 08-06 M 08-10 MPK 08-13 M 08-17 MPK 08-20 M 08-24 MPK 08-27 M 08-31 MPK",
+          "09-03 M 09-07 MPK 09-10 M 09-14 MPK 09-21 MPK 09-28 MPK",
+          "10-05 MPK 10-12 MPK 10-19 MPK 10-26 MPK",
+          "11-02 MPK 11-09 MPK 11-16 MPK 11-23 MPK 11-30 MPK",
+          "12-07 MPK 12-14 MPK 12-21 MPK 12-28 MPK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Vir",
+      "podrucje": "Zona 2 – utorak (ljeti 15.6.–15.9. MKO ponedjeljkom i četvrtkom) – Miljkovica I, Miljkovica II, Miljkovica III …",
+      "ulice": ["Miljkovica I", "Miljkovica II", "Miljkovica III", "Miljkovica IV", "Miljkovica IX", "Miljkovica V", "Miljkovica VI", "Miljkovica VII", "Miljkovica VIII", "Miljkovica X", "Miljkovica XI", "Miljkovica XII", "Miljkovica XIII", "Miljkovica XIV", "Miljkovica XIX", "Miljkovica XV", "Miljkovica XVI", "Miljkovica XVII", "Miljkovica XVIII", "Miljkovica XX", "Miljkovica XXI", "Miljkovica XXII", "Miljkovica XXIV", "Miljkovica XXVI", "Miljkovica XXVIII", "Prezida I", "Prezida II", "Prezida III", "Prezida IV", "Prezida IX", "Prezida V", "Prezida VI", "Prezida VII", "Prezida VIII", "Prezida X", "Prezida XI", "Prezida XII", "Prezida XIII", "Prezida XIV", "Prezida XIX", "Prezida XL", "Prezida XLII", "Prezida XLIV", "Prezida XLVI", "Prezida XLVIII", "Prezida XV", "Prezida XVI", "Prezida XVII", "Prezida XVIII", "Prezida XX", "Prezida XXI", "Prezida XXII", "Prezida XXIII", "Prezida XXIV", "Prezida XXIX", "Prezida XXV", "Prezida XXVI", "Prezida XXVII", "Prezida XXVIII", "Prezida XXX", "Prezida XXXII", "Prezida XXXIV", "Prezida XXXVI", "Prezida XXXVIII", "Stari Put-od Miljkovice I", "Virić", "Virić I", "Virić II", "Virić III", "Virić V", "Virić VII", "Virić XIX", "Virić XVII", "Virski Put-od Miljkovice I"],
+      "napomena": "MKO utorkom, ljeti (15.6.–15.9.) ponedjeljkom i četvrtkom; papir i plastika utorkom cijele godine.",
+      "raw": {
+        "2026": [
+          "01-06 MPK 01-13 MPK 01-20 MPK 01-27 MPK",
+          "02-03 MPK 02-10 MPK 02-17 MPK 02-24 MPK",
+          "03-03 MPK 03-10 MPK 03-17 MPK 03-24 MPK 03-31 MPK",
+          "04-07 MPK 04-14 MPK 04-21 MPK 04-28 MPK",
+          "05-05 MPK 05-12 MPK 05-19 MPK 05-26 MPK",
+          "06-02 MPK 06-09 MPK 06-15 M 06-16 PK 06-18 M 06-22 M 06-23 PK 06-25 M 06-29 M 06-30 PK",
+          "07-02 M 07-06 M 07-07 PK 07-09 M 07-13 M 07-14 PK 07-16 M 07-20 M 07-21 PK 07-23 M 07-27 M 07-28 PK 07-30 M",
+          "08-03 M 08-04 PK 08-06 M 08-10 M 08-11 PK 08-13 M 08-17 M 08-18 PK 08-20 M 08-24 M 08-25 PK 08-27 M 08-31 M",
+          "09-01 PK 09-03 M 09-07 M 09-08 PK 09-10 M 09-14 M 09-15 PK 09-22 MPK 09-29 MPK",
+          "10-06 MPK 10-13 MPK 10-20 MPK 10-27 MPK",
+          "11-03 MPK 11-10 MPK 11-17 MPK 11-24 MPK",
+          "12-01 MPK 12-08 MPK 12-15 MPK 12-22 MPK 12-29 MPK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Vir",
+      "podrucje": "Zona 3 – srijeda (ljeti 15.6.–15.9. MKO utorkom i petkom) – Bobovik XI, Bobovik XIII, Bobovik XIX …",
+      "ulice": ["Bobovik XI", "Bobovik XIII", "Bobovik XIX", "Bobovik XV", "Bobovik XVII", "Bobovik XXI", "Bobovik XXIII", "Bobovik XXIX", "Bobovik XXV", "Bobovik XXVII", "Bobovik XXXI", "Bobovik XXXIII", "Put Straže", "Put Žitne-od Žitne X", "Soldatica I", "Soldatica II", "Soldatica III", "Soldatica IV", "Soldatica IX", "Soldatica V", "Soldatica VI", "Soldatica VII", "Soldatica VIII", "Soldatica X", "Soldatica XI", "Soldatica XII", "Soldatica XIII", "Soldatica XIV", "Soldatica XV", "Soldatica XVI", "Soldatica XVII", "Straža XI", "Straža XIII", "Straža XLI", "Straža XLIII", "Straža XV", "Straža XVII", "Straža XXI", "Straža XXII", "Straža XXIII", "Straža XXIX", "Straža XXV", "Straža XXVI", "Straža XXVII", "Straža XXVIII", "Straža XXXI", "Straža XXXIX", "Straža XXXVII", "Žitna LI", "Žitna LIII", "Žitna XII", "Žitna XIV", "Žitna XLI", "Žitna XLI A", "Žitna XLIII", "Žitna XLIX", "Žitna XLV", "Žitna XLVII", "Žitna XVI", "Žitna XVIII", "Žitna XX", "Žitna XXIX", "Žitna XXV", "Žitna XXVII", "Žitna XXXI", "Žitna XXXIII", "Žitna XXXIX", "Žitna XXXV", "Žitna XXXVII", "Žitna XXXVII A"],
+      "napomena": "MKO srijedom, ljeti (15.6.–15.9.) utorkom i petkom; papir i plastika srijedom cijele godine.",
+      "raw": {
+        "2026": [
+          "01-07 MPK 01-14 MPK 01-21 MPK 01-28 MPK",
+          "02-04 MPK 02-11 MPK 02-18 MPK 02-25 MPK",
+          "03-04 MPK 03-11 MPK 03-18 MPK 03-25 MPK",
+          "04-01 MPK 04-08 MPK 04-15 MPK 04-22 MPK 04-29 MPK",
+          "05-06 MPK 05-13 MPK 05-20 MPK 05-27 MPK",
+          "06-03 MPK 06-10 MPK 06-16 M 06-17 PK 06-19 M 06-23 M 06-24 PK 06-26 M 06-30 M",
+          "07-01 PK 07-03 M 07-07 M 07-08 PK 07-10 M 07-14 M 07-15 PK 07-17 M 07-21 M 07-22 PK 07-24 M 07-28 M 07-29 PK 07-31 M",
+          "08-04 M 08-05 PK 08-07 M 08-11 M 08-12 PK 08-14 M 08-18 M 08-19 PK 08-21 M 08-25 M 08-26 PK 08-28 M",
+          "09-01 M 09-02 PK 09-04 M 09-08 M 09-09 PK 09-11 M 09-15 M 09-16 MPK 09-23 MPK 09-30 MPK",
+          "10-07 MPK 10-14 MPK 10-21 MPK 10-28 MPK",
+          "11-04 MPK 11-11 MPK 11-18 MPK 11-25 MPK",
+          "12-02 MPK 12-09 MPK 12-16 MPK 12-23 MPK 12-30 MPK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Vir",
+      "podrucje": "Zona 4 – četvrtak (ljeti 15.6.–15.9. MKO utorkom i petkom) – Bobovik II, Bobovik IV, Bobovik VI …",
+      "ulice": ["Bobovik II", "Bobovik IV", "Bobovik VI", "Bobovik VIII", "Bobovik X", "Bobovik XII", "Bobovik XIV", "Bobovik XVI", "Bobovik XVIII", "Bobovik XX", "Bobovik XXII", "Bunarić III", "Dragovoljaca Dom.Rata", "Dragovoljačka I", "Dragovoljačka II", "Dragovoljačka III", "Dragovoljačka IV", "Dragovoljačka VI", "Dragovoljačka VII", "Dragovoljačka VIII", "Lučica I", "Lučica IX", "Lučica V", "Lučica VI", "Lučica VII", "Lučica VIII", "Lučica X", "Lučica XII", "Lučica XIII", "Lučica XIV", "Lučica XIX", "Lučica XL", "Lučica XLII", "Lučica XLIV", "Lučica XLVI", "Lučica XV", "Lučica XVI", "Lučica XVII", "Lučica XVIII", "Lučica XX", "Lučica XXI", "Lučica XXII", "Lučica XXIII", "Lučica XXIX", "Lučica XXV", "Lučica XXVI", "Lučica XXVII", "Lučica XXVIII", "Lučica XXX", "Lučica XXXI", "Lučica XXXII", "Lučica XXXIII", "Lučica XXXIV", "Lučica XXXV", "Lučica XXXVI", "Lučica XXXVIII", "Put Bobovika", "Put Lučice", "Put Nacelja-od Sokol ulice", "Put Žitne-do Žitne X", "Sridnje Kućice", "Sridnje Kućice I", "Sridnje Kućice II", "Sridnje Kućice III", "Sridnje Kućice IV", "Sridnje Kućice VI", "Sridnje Kućice VIII", "Sridnje Kućice X", "Sridnje Kućice XII", "Sridnje Kućice XIII", "Sridnje Kućice XIV", "Sridnje Kućice XIX", "Sridnje Kućice XV", "Sridnje Kućice XVI", "Sridnje Kućice XVII", "Sridnje Kućice XVIII", "Sridnje Kućice XX", "Sridnje Kućice XXI", "Sridnje Kućice XXII", "Sridnje Kućice XXIII", "Sridnje Kućice XXV", "Sridnje Kućice XXVI", "Sridnje Kućice XXVIII", "Sridnje Kućice XXX", "Velebitska", "Žitna I", "Žitna III", "Žitna IV", "Žitna IX", "Žitna V", "Žitna VI", "Žitna VII", "Žitna VIII", "Žitna X", "Žitna XI", "Žitna XIII", "Žitna XIX", "Žitna XV", "Žitna XVII", "Žitna XXI", "Žitna XXIII"],
+      "napomena": "MKO četvrtkom, ljeti (15.6.–15.9.) utorkom i petkom; papir i plastika četvrtkom cijele godine.",
+      "raw": {
+        "2026": [
+          "01-01 MPK 01-08 MPK 01-15 MPK 01-22 MPK 01-29 MPK",
+          "02-05 MPK 02-12 MPK 02-19 MPK 02-26 MPK",
+          "03-05 MPK 03-12 MPK 03-19 MPK 03-26 MPK",
+          "04-02 MPK 04-09 MPK 04-16 MPK 04-23 MPK 04-30 MPK",
+          "05-07 MPK 05-14 MPK 05-21 MPK 05-28 MPK",
+          "06-04 MPK 06-11 MPK 06-16 M 06-18 PK 06-19 M 06-23 M 06-25 PK 06-26 M 06-30 M",
+          "07-02 PK 07-03 M 07-07 M 07-09 PK 07-10 M 07-14 M 07-16 PK 07-17 M 07-21 M 07-23 PK 07-24 M 07-28 M 07-30 PK 07-31 M",
+          "08-04 M 08-06 PK 08-07 M 08-11 M 08-13 PK 08-14 M 08-18 M 08-20 PK 08-21 M 08-25 M 08-27 PK 08-28 M",
+          "09-01 M 09-03 PK 09-04 M 09-08 M 09-10 PK 09-11 M 09-15 M 09-17 MPK 09-24 MPK",
+          "10-01 MPK 10-08 MPK 10-15 MPK 10-22 MPK 10-29 MPK",
+          "11-05 MPK 11-12 MPK 11-19 MPK 11-26 MPK",
+          "12-03 MPK 12-10 MPK 12-17 MPK 12-24 MPK 12-31 MPK"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Vir",
+      "podrucje": "Zona 5 – petak (ljeti 15.6.–15.9. MKO srijedom i subotom) – Biskupljača I, Biskupljača II, Biskupljača III …",
+      "ulice": ["Biskupljača I", "Biskupljača II", "Biskupljača III", "Biskupljača IV", "Biskupljača IX", "Biskupljača V", "Biskupljača VI", "Biskupljača VII", "Biskupljača VIII", "Biskupljača X", "Biskupljača XI", "Biskupljača XII", "Biskupljača XIII", "Biskupljača XIV", "Biskupljača XV", "Biskupljača XVI", "Biskupljača XVII", "Biskupljača XVIII", "Biskupljača XX", "Biskupljača XXII", "Biskupljača XXIV", "Biskupljača XXVI", "Biskupljača XXVIII", "Biskupljača XXX", "Brdonja I", "Brdonja II", "Brdonja III", "Brdonja IV", "Brdonja IX", "Brdonja VI", "Brdonja VII", "Brdonja XI", "Brdonja XIII", "Marina I", "Marina II", "Marina III", "Marina IV", "Marina V", "Marina VI", "Marina VII", "Marina VIII", "Put Biskupljače", "Put Brdonje", "Put Brižina-do Zadarske", "Put Marine", "Put Rosulja", "Put Smratine", "Put Velike Slatine", "Rosulje I", "Rosulje III", "Rosulje IV", "Rosulje VI", "Rosulje VIII", "Rosulje X", "Slatina IV", "Slatina VI", "Slatina VIII", "Slatina X", "Slatina XII", "Smratine IV", "Smratine VI", "Smratine X", "Smratine XII", "Velika Slatina IV", "Velika Slatina IX", "Velika Slatina V", "Velika Slatina VII", "Velika Slatina VIII", "Velika Slatina X", "Velika Slatina XI", "Velika Slatina XII", "Velika Slatina XIII", "Velika Slatina XIX", "Velika Slatina XV", "Velika Slatina XVI", "Velika Slatina XVII", "Velika Slatina XXI", "Zadarska"],
+      "napomena": "MKO petkom, ljeti (15.6.–15.9.) srijedom i subotom; papir i plastika petkom cijele godine.",
+      "raw": {
+        "2026": [
+          "01-02 MPK 01-09 MPK 01-16 MPK 01-23 MPK 01-30 MPK",
+          "02-06 MPK 02-13 MPK 02-20 MPK 02-27 MPK",
+          "03-06 MPK 03-13 MPK 03-20 MPK 03-27 MPK",
+          "04-03 MPK 04-10 MPK 04-17 MPK 04-24 MPK",
+          "05-01 MPK 05-08 MPK 05-15 MPK 05-22 MPK 05-29 MPK",
+          "06-05 MPK 06-12 MPK 06-17 M 06-19 PK 06-20 M 06-24 M 06-26 PK 06-27 M",
+          "07-01 M 07-03 PK 07-04 M 07-08 M 07-10 PK 07-11 M 07-15 M 07-17 PK 07-18 M 07-22 M 07-24 PK 07-25 M 07-29 M 07-31 PK",
+          "08-01 M 08-05 M 08-07 PK 08-08 M 08-12 M 08-14 PK 08-15 M 08-19 M 08-21 PK 08-22 M 08-26 M 08-28 PK 08-29 M",
+          "09-02 M 09-04 PK 09-05 M 09-09 M 09-11 PK 09-12 M 09-18 MPK 09-25 MPK",
+          "10-02 MPK 10-09 MPK 10-16 MPK 10-23 MPK 10-30 MPK",
+          "11-06 MPK 11-13 MPK 11-20 MPK 11-27 MPK",
+          "12-04 MPK 12-11 MPK 12-18 MPK 12-25 MPK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Vir",
+      "podrucje": "Zona 6 – subota (ljeti 15.6.–15.9. MKO srijedom i subotom) – Andebakova, Bana Josipa Jelačića, Dalmatinski Put …",
+      "ulice": ["Andebakova", "Bana Josipa Jelačića", "Dalmatinski Put", "Grbe I", "Jadranska", "Kozjak V", "Kozjak VI", "Kozjak VIII", "Kozjak X", "Kozjak XII", "Kozjak XIV", "Kozjak XVI", "Kozjak XVII", "Kozjak XVII A", "Kozjak XVIII", "Kozjak XX", "Kozjak XXI", "Kozjak XXII", "Kozjak XXIV", "Kozjak XXVI", "Kozjak XXVIII", "Lanterna I", "Lozice III", "Lozice IV", "Lozice IX", "Lozice VI", "Lozice VII", "Lozice VIII", "Lozice XI", "Pedinka I", "Pedinka II", "Pedinka III", "Pedinka IV", "Pedinka IX", "Pedinka V", "Pedinka VI", "Pedinka VII", "Pedinka VIII", "Pedinka X", "Pedinka XI", "Pedinka XII", "Pedinka XIV", "Pedinka XVI", "Pedinka XVII", "Pedinka XVIII", "Pedinka XXII", "Put Brižina-od Zadarske", "Put Buškulića", "Put Kozjaka", "Put Lanterne", "Put Patarinke", "Put Pedinke", "Put Radnjače", "Put Rastavca", "Put Site", "Put Srpljice", "Put Škole", "Put Torova", "Radnjača I", "Radnjača III", "Radnjača V", "Radnjača VI", "Radnjača VIII", "Radnjača XIX", "Radnjača XV", "Radnjača XVII", "Radnjača XXI", "Radnjača XXV", "Rastavac I", "Site II", "Site IV", "Site VI", "Site VIII", "Site XIV", "Site XXII", "Site XXIV", "Site XXVIII", "Srpljica I", "Srpljica III", "Srpljica VII", "Srpljica XI", "Šepunatka", "Šepunatka IV", "Šepunatka VI", "Šepunatka VIII", "Šepunatka XVII", "Torovi III", "Torovi IV", "Torovi IX", "Torovi V", "Torovi VI", "Torovi VII", "Torovi VIII", "Torovi XIV", "Zvonimirova"],
+      "napomena": "MKO subotom, ljeti (15.6.–15.9.) srijedom i subotom; papir i plastika subotom cijele godine.",
+      "raw": {
+        "2026": [
+          "01-03 MPK 01-10 MPK 01-17 MPK 01-24 MPK 01-31 MPK",
+          "02-07 MPK 02-14 MPK 02-21 MPK 02-28 MPK",
+          "03-07 MPK 03-14 MPK 03-21 MPK 03-28 MPK",
+          "04-04 MPK 04-11 MPK 04-18 MPK 04-25 MPK",
+          "05-02 MPK 05-09 MPK 05-16 MPK 05-23 MPK 05-30 MPK",
+          "06-06 MPK 06-13 MPK 06-17 M 06-20 MPK 06-24 M 06-27 MPK",
+          "07-01 M 07-04 MPK 07-08 M 07-11 MPK 07-15 M 07-18 MPK 07-22 M 07-25 MPK 07-29 M",
+          "08-01 MPK 08-05 M 08-08 MPK 08-12 M 08-15 MPK 08-19 M 08-22 MPK 08-26 M 08-29 MPK",
+          "09-02 M 09-05 MPK 09-09 M 09-12 MPK 09-19 MPK 09-26 MPK",
+          "10-03 MPK 10-10 MPK 10-17 MPK 10-24 MPK 10-31 MPK",
+          "11-07 MPK 11-14 MPK 11-21 MPK 11-28 MPK",
+          "12-05 MPK 12-12 MPK 12-19 MPK 12-26 MPK"
+        ]
+      }
+    }
+  }
+}

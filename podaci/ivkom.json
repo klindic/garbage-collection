@@ -1,0 +1,509 @@
+{
+  "davatelj": "IVKOM d.o.o.",
+  "web": "https://ivkom.hr",
+  "izvor": "https://ivkom.hr/raspored-odvoza-otpada",
+  "zupanija": "Varaždinska",
+  "jls": ["Ivanec", "Lepoglava", "Bednja", "Donja Voća", "Klenovnik", "Maruševec"],
+  "nazivi": {"P": "Plastična ambalaža", "K": "Papir", "L": "Metalna ambalaža"},
+  "bioNapomena": "Biootpad se od travnja do listopada odvozi svaki petak, ostalim mjesecima dvaput mjesečno.",
+  "napomene": ["Na dan odvoza otpad treba staviti uz javno-prometnu površinu od 07:00 sati ujutro.", "Papir i plastika odvoze se zajedno, istog dana. Staklo, metal i tekstil odvoze se nekoliko puta godišnje prema rasporedu.", "Blagdani: datum označen zvjezdicom (*) nadoknađuje se prvog radnog dana po prazniku, a s dvije zvjezdice (**) radnog dana prije praznika; takvi su odvozi ovdje upisani na dan nadoknade (ponedjeljak–petak) i označeni kao pomaknuti.", "Krupni (glomazni) otpad: po pozivu, jednom godišnje do 2 m³ bez naknade; prijava na 042 770 558 ili 042 444 078 radnim danom od 07:00 do 15:00.", "Reciklažno dvorište Ivanec: utorak 10–18, srijeda i petak 7–15, zadnja subota u mjesecu 7–13 sati. Reciklažno dvorište Maruševec: ponedjeljak i četvrtak 10–16, prva subota u mjesecu 8–12 sati. Mobilno reciklažno dvorište prema rasporedu u PDF-u (Lepoglava, Donja Voća).", "Kontakt za odvoz otpada: 042 770 558, 042 444 078, otpad@ivkom.hr.", "Nadoknade zbog blagdana u 2026.: 01.01. → 02.01., 06.01. → 07.01., 06.04. → 07.04., 01.05. → 04.05., 04.06. → 05.06., 22.06. → 23.06., 05.08. → 04.08., 05.08. → 06.08., 18.11. → 19.11., 25.12. → 28.12..", "Biootpad: za petak 01.05. (blagdan) raspored 'svaki petak u mjesecu' ne navodi nadoknadu; upisan je prvi radni dan po prazniku (04.05.)."],
+  "zone": {
+    "1": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec – stambene zgrade",
+      "ulice": ["Ivanec (stambene zgrade)"],
+      "napomena": "Popis stambenih zgrada nije objavljen. Na dan odvoza tekstilnog otpada dužni ste ga ostaviti u \"pergoli\" ili mjestu smještaja posuda za otpad od 07:00 sati ujutro. Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-07 PK 01-09 B 01-14 M 01-21 PK 01-23 B 01-28 M",
+          "02-04 PK 02-06 B 02-11 M 02-18 PK 02-20 B 02-25 M",
+          "03-04 PK 03-06 B 03-11 M 03-18 PK 03-20 B 03-25 M",
+          "04-01 PK 04-03 B 04-08 M 04-10 B 04-15 PKSL 04-17 B 04-22 M 04-24 B 04-29 PK",
+          "05-04 B! 05-06 M 05-08 B 05-13 PKT 05-15 B 05-20 M 05-22 B 05-27 PK 05-29 B",
+          "06-03 M 06-05 B 06-10 PK 06-12 B 06-17 M 06-19 B 06-24 PK 06-26 B",
+          "07-01 M 07-03 B 07-08 PK 07-10 B 07-15 M 07-17 B 07-22 PK 07-24 B 07-29 M 07-31 B",
+          "08-06 PK! 08-07 B 08-12 M 08-14 B 08-19 PK 08-21 B 08-26 M 08-28 B",
+          "09-02 PK 09-04 B 09-09 M 09-11 B 09-16 PK 09-18 B 09-23 M 09-25 B 09-30 PK",
+          "10-02 B 10-07 M 10-09 B 10-14 PKSL 10-16 B 10-21 M 10-23 B 10-28 PK 10-30 B",
+          "11-04 M 11-06 B 11-11 PKT 11-19 M! 11-20 B 11-25 PK",
+          "12-02 M 12-04 B 12-09 PK 12-16 M 12-18 B 12-23 PK 12-30 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec – Bedenec, Jerovec",
+      "ulice": ["Bedenec", "Jerovec"],
+      "opis": "Raspored se odnosi na sva naselja i ulice.",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-09 B 01-19 M 01-23 B 01-28 PK",
+          "02-02 M 02-06 B 02-12 SL 02-16 M 02-20 B 02-25 PK",
+          "03-02 M 03-06 B 03-16 M 03-20 B 03-25 PK 03-30 M",
+          "04-03 B 04-10 B 04-13 M 04-17 B 04-22 PK 04-24 B 04-27 M 04-30 T",
+          "05-04 B! 05-08 B 05-11 M 05-15 B 05-22 B 05-25 M 05-27 PK 05-29 B",
+          "06-05 B 06-08 M 06-12 B 06-19 B 06-23 M! 06-24 PK 06-26 B",
+          "07-03 B 07-06 M 07-10 B 07-17 B 07-20 M 07-22 PK 07-24 B 07-31 B",
+          "08-03 M 08-07 B 08-14 B 08-17 M 08-21 B 08-26 PK 08-27 SL 08-28 B 08-31 M",
+          "09-04 B 09-11 B 09-14 M 09-18 B 09-25 B 09-28 M 09-30 PK",
+          "10-02 B 10-09 B 10-12 M 10-16 B 10-23 B 10-26 M 10-28 PK 10-29 T 10-30 B",
+          "11-06 B 11-09 M 11-20 B 11-23 M 11-25 PK",
+          "12-04 B 12-07 M 12-18 B 12-21 M 12-30 PK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec 1 – Punikve, Ivanečki Vrhovec, Salinovec …",
+      "ulice": ["Punikve", "Ivanečki Vrhovec", "Salinovec", "Ivanečko Naselje", "M. Culeja", "Gospodarska"],
+      "opis": "Raspored se odnosi na grad Ivanec, naselja i ulice: Punikve, Ivanečki Vrhovec, Salinovec, Ivanečko Naselje, M. Culeja, Gospodarska.",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-09 BPK 01-19 M 01-23 B",
+          "02-02 M 02-03 T 02-06 BPK 02-16 M 02-20 B",
+          "03-02 M 03-06 BPK 03-16 M 03-20 B 03-30 M",
+          "04-03 BPK 04-10 B 04-13 M 04-17 B 04-21 SL 04-24 B 04-27 M",
+          "05-04 B! 05-08 BPK 05-11 M 05-15 B 05-22 B 05-25 M 05-29 B",
+          "06-05 B 06-08 M 06-12 BPK 06-19 B 06-23 M! 06-26 B",
+          "07-03 BPK 07-06 M 07-10 B 07-17 B 07-20 M 07-24 B 07-31 B",
+          "08-03 M 08-07 BPK 08-11 T 08-14 B 08-17 M 08-21 B 08-28 B 08-31 M",
+          "09-04 BPK 09-11 B 09-14 M 09-18 B 09-25 B 09-28 M",
+          "10-02 BPK 10-09 B 10-12 M 10-13 SL 10-16 B 10-23 B 10-26 M 10-30 B",
+          "11-06 BPK 11-09 M 11-20 B 11-23 M",
+          "12-04 BPK 12-07 M 12-18 B 12-21 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec 2 – Margečan, Seljanec, Osečka …",
+      "ulice": ["Margečan", "Seljanec", "Osečka", "Pece", "Škriljevec", "Lovrečan", "Radovan", "Stažnjevec", "Lukavec", "Gačice", "Cerje Tužno"],
+      "opis": "Raspored se odnosi na grad Ivanec, naselja i ulice: Margečan, Seljanec, Osečka, Pece, Škriljevec, Lovrečan, Radovan, Stažnjevec, Lukavec, Gačice, Cerje Tužno.",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-09 B 01-14 PK 01-19 M 01-23 B",
+          "02-02 M 02-04 PK 02-06 B 02-16 M 02-20 B",
+          "03-02 M 03-04 PK 03-06 B 03-13 T 03-16 M 03-20 B 03-30 M",
+          "04-01 PK 04-03 B 04-09 SL 04-10 B 04-13 M 04-17 B 04-24 B 04-27 M",
+          "05-04 B! 05-06 PK 05-08 B 05-11 M 05-15 B 05-22 B 05-25 M 05-29 B",
+          "06-03 PK 06-05 B 06-08 M 06-12 B 06-19 B 06-23 M! 06-26 B",
+          "07-01 PK 07-03 B 07-06 M 07-10 B 07-17 B 07-20 M 07-24 B 07-31 B",
+          "08-03 M 08-07 B 08-12 PK 08-14 B 08-17 M 08-21 B 08-28 B 08-31 M",
+          "09-02 PK 09-04 B 09-11 BT 09-14 M 09-18 B 09-25 B 09-28 M",
+          "10-02 B 10-07 PK 10-08 SL 10-09 B 10-12 M 10-16 B 10-23 B 10-26 M 10-30 B",
+          "11-04 PK 11-06 B 11-09 M 11-20 B 11-23 M",
+          "12-02 PK 12-04 B 12-07 M 12-18 B 12-21 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec 3 – Prigorec, Željeznica, Vidovečka Željeznica",
+      "ulice": ["Prigorec", "Željeznica", "Vidovečka Željeznica"],
+      "opis": "Raspored se odnosi na grad Ivanec, naselja i ulice: Prigorec, Željeznica, Vidovečka Željeznica.",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-09 BPK 01-19 M 01-23 B",
+          "02-02 M 02-03 T 02-06 BPK 02-16 M 02-20 B",
+          "03-02 M 03-06 BPK 03-16 M 03-20 B 03-30 M",
+          "04-03 BPK 04-10 B 04-13 M 04-17 B 04-21 SL 04-24 B 04-27 M",
+          "05-04 B! 05-08 BPK 05-11 M 05-15 B 05-22 B 05-25 M 05-29 B",
+          "06-05 B 06-08 M 06-12 BPK 06-19 B 06-23 M! 06-26 B",
+          "07-03 BPK 07-06 M 07-10 B 07-17 B 07-20 M 07-24 B 07-31 B",
+          "08-03 M 08-07 BPK 08-11 T 08-14 B 08-17 M 08-21 B 08-28 B 08-31 M",
+          "09-04 BPK 09-11 B 09-14 M 09-18 B 09-25 B 09-28 M",
+          "10-02 BPK 10-09 B 10-12 M 10-13 SL 10-16 B 10-23 B 10-26 M 10-30 B",
+          "11-06 BPK 11-09 M 11-20 B 11-23 M",
+          "12-04 BPK 12-07 M 12-18 B 12-21 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec 4 – Ul.žrtava dom. ratova, Knapić, Gečkovec …",
+      "ulice": ["Ul.žrtava dom. ratova", "Knapić", "Gečkovec", "Lančić", "Vuglovec", "Kaniža", "Ribić Breg", "Horvatsko"],
+      "opis": "Raspored se odnosi na grad Ivanec, ulice: Ul.žrtava dom. ratova, Knapić, Gečkovec, Lančić, Vuglovec, Kaniža, Ribić Breg, Horvatsko.",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-09 B 01-12 M 01-23 B 01-26 M 01-28 PK",
+          "02-06 B 02-09 M 02-12 SL 02-20 B 02-23 M 02-25 PK",
+          "03-06 B 03-09 M 03-20 B 03-23 M 03-25 PK",
+          "04-03 B 04-07 M! 04-10 B 04-17 B 04-20 M 04-22 PK 04-24 B 04-30 T",
+          "05-04 MB! 05-08 B 05-15 B 05-18 M 05-22 B 05-27 PK 05-29 B",
+          "06-01 M 06-05 B 06-12 B 06-15 M 06-19 B 06-24 PK 06-26 B 06-29 M",
+          "07-03 B 07-10 B 07-13 M 07-17 B 07-22 PK 07-24 B 07-27 M 07-31 B",
+          "08-07 B 08-10 M 08-14 B 08-21 B 08-24 M 08-26 PK 08-27 SL 08-28 B",
+          "09-04 B 09-07 M 09-11 B 09-18 B 09-21 M 09-25 B 09-30 PK",
+          "10-02 B 10-05 M 10-09 B 10-16 B 10-19 M 10-23 B 10-28 PK 10-29 T 10-30 B",
+          "11-02 M 11-06 B 11-16 M 11-20 B 11-25 PK 11-30 M",
+          "12-04 B 12-14 M 12-18 B 12-28 M 12-30 PK"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec 5 – A. G. Matoša, Bistrica, Đ. Arnolda …",
+      "ulice": ["A. G. Matoša", "Bistrica", "Đ. Arnolda", "Kumičićeva", "Kovačićeva prvi dio", "Gundulićeva", "Kukuljevićeva", "Jezerski Put", "Jamine", "Zeleni Dol", "D. Domjanića", "Fallerova", "M. Gupca", "F. Pusta", "Pahinsko", "Trakošćanska", "V. Jagića", "Vinogradska", "Zagorska", "Zavojna", "Sinovske", "Hrazdirova", "Rajterova", "Hrastiće", "Nova", "104 brigade Hr. vojske", "Kozjak", "Vrtna", "R. Ribića", "Ž. P. Grdaka", "I. Severa i Vitešinec"],
+      "opis": "Raspored se odnosi na Grad Ivanec, ulice: A. G. Matoša, Bistrica, Đ. Arnolda, Kumičićeva, Kovačićeva prvi dio, Gundulićeva, Kukuljevićeva, Jezerski Put, Jamine, Zeleni Dol, D. Domjanića, Fallerova, M. Gupca, F. Pusta, Pahinsko, Trakošćanska, V. Jagića, Vinogradska, Zagorska, Zavojna, Sinovske, Hrazdirova, Rajterova, Hrastiće, Nova, 104 brigade Hr. vojske, Kozjak, Vrtna, R. Ribića, Ž. P. Grdaka, I. Severa i Vitešinec.",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-07 PK 01-09 B 01-12 M 01-13 SL 01-23 B 01-26 M",
+          "02-06 B 02-09 M 02-11 PK 02-20 B 02-23 M",
+          "03-03 T 03-06 B 03-09 M 03-11 PK 03-20 B 03-23 M",
+          "04-03 B 04-07 M! 04-08 PK 04-10 B 04-17 B 04-20 M 04-24 B",
+          "05-04 MB! 05-08 B 05-13 PK 05-15 B 05-18 M 05-22 B 05-29 B",
+          "06-01 M 06-05 B 06-10 PK 06-12 B 06-15 M 06-19 B 06-26 B 06-29 M",
+          "07-03 B 07-07 SL 07-08 PK 07-10 B 07-13 M 07-17 B 07-24 B 07-27 M 07-31 B",
+          "08-04 PK! 08-07 B 08-10 M 08-14 B 08-21 B 08-24 M 08-28 B",
+          "09-04 B 09-07 M 09-09 PK 09-11 B 09-18 B 09-21 M 09-22 T 09-25 B",
+          "10-02 B 10-05 M 10-09 B 10-14 PK 10-16 B 10-19 M 10-23 B 10-30 B",
+          "11-02 M 11-06 B 11-11 PK 11-16 M 11-20 B 11-30 M",
+          "12-04 B 12-09 PK 12-14 M 12-18 B 12-28 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Ivanec",
+      "podrucje": "Ivanec 6 – V. Nazora, Kolodvorska, Trg hrv. Ivanovaca …",
+      "ulice": ["V. Nazora", "Kolodvorska", "Trg hrv. Ivanovaca", "A. Šenoe", "A. Cesarca", "A. Mihanovića", "B. Radića", "Ivanuševec", "M. Maleza", "Varaždinska", "Kalnička", "Kraševec", "Lj. Gaja", "L. Šabana", "Rudarska", "M. Hrga", "Vukovićeva", "Frankopanska", "Kralja Tomislava", "Petra Preradovića", "Gregorijevića", "Stepinčeva", "Josipa Kraša", "Kovačićeva-drugi dio, od semafora prema Lepoglavi"],
+      "opis": "Raspored se odnosi na Grad Ivanec, ulice: V. Nazora, Kolodvorska, Trg hrv. Ivanovaca, A. Šenoe, A. Cesarca, A. Mihanovića, B. Radića, Ivanuševec, M. Maleza, Varaždinska, Kalnička, Kraševec, Lj. Gaja, L. Šabana, Rudarska, M. Hrga, Vukovićeva, Frankopanska, Kralja Tomislava, Petra Preradovića, Gregorijevića, Stepinčeva, Josipa Kraša, Kovačićeva-drugi dio, od semafora prema Lepoglavi.",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijeli Ivanec'.",
+      "raw": {
+        "2026": [
+          "01-09 B 01-12 M 01-21 PK 01-23 B 01-26 M",
+          "02-06 B 02-09 M 02-18 PK 02-20 B 02-23 M",
+          "03-06 B 03-09 M 03-10 SL 03-18 PK 03-20 B 03-23 M",
+          "04-03 B 04-07 M! 04-10 B 04-15 PK 04-17 B 04-20 M 04-24 B",
+          "05-04 MB! 05-05 T 05-08 B 05-15 B 05-18 M 05-20 PK 05-22 B 05-29 B",
+          "06-01 M 06-05 B 06-12 B 06-15 M 06-17 PK 06-19 B 06-26 B 06-29 M",
+          "07-03 B 07-10 B 07-13 M 07-15 PK 07-17 B 07-24 B 07-27 M 07-31 B",
+          "08-07 B 08-10 M 08-14 B 08-19 PK 08-21 B 08-24 M 08-28 B",
+          "09-01 SL 09-04 B 09-07 M 09-11 B 09-18 B 09-21 M 09-23 PK 09-25 B",
+          "10-02 B 10-05 M 10-09 B 10-16 B 10-19 M 10-21 PK 10-23 B 10-30 B",
+          "11-02 M 11-06 B 11-10 T 11-11 PK 11-16 M 11-20 B 11-30 M",
+          "12-04 B 12-14 M 12-16 PK 12-18 B 12-28 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Lepoglava",
+      "podrucje": "Lepoglava 1 – Donja Višnjica, Gornja Višnjica, Bednjica …",
+      "ulice": ["Donja Višnjica", "Gornja Višnjica", "Bednjica", "Zalužje", "Višnjička Jazbina", "Zlogonje"],
+      "opis": "Raspored se odnosi na Grad Lepoglavu, naselja i ulice: Donja Višnjica, Gornja Višnjica, Bednjica, Zalužje, Višnjička Jazbina, Zlogonje",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijela Lepoglava'.",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-09 B 01-20 M 01-22 PK 01-23 B",
+          "02-03 M 02-06 B 02-17 M 02-19 PK 02-20 B",
+          "03-03 M 03-06 B 03-17 M 03-19 PK 03-20 B 03-26 SL 03-31 M",
+          "04-03 B 04-10 B 04-14 M 04-16 PK 04-17 B 04-24 B 04-28 M",
+          "05-04 B! 05-08 B 05-12 M 05-15 B 05-22 B 05-26 M 05-28 PK 05-29 B",
+          "06-05 B 06-09 M 06-12 B 06-18 T 06-19 B 06-23 M 06-25 PK 06-26 B",
+          "07-03 B 07-07 M 07-10 B 07-17 B 07-21 M 07-23 PK 07-24 B 07-31 B",
+          "08-04 M 08-07 B 08-14 B 08-18 M 08-20 PK 08-21 B 08-28 B",
+          "09-01 M 09-04 B 09-11 B 09-15 M 09-17 PK 09-18 B 09-24 SL 09-25 B 09-29 M",
+          "10-02 B 10-09 B 10-13 M 10-15 PK 10-16 B 10-23 B 10-27 M 10-30 B",
+          "11-06 B 11-10 M 11-20 B 11-24 M 11-26 PK",
+          "12-03 T 12-04 B 12-08 M 12-18 B 12-22 M 12-24 PK"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Lepoglava",
+      "podrucje": "Lepoglava 2 – Čret, Ves, Gečkovec …",
+      "ulice": ["Čret", "Ves", "Gečkovec", "Radićeva", "Borje", "Lj. Gaja", "Frankopanska", "Vinogradska", "Budim", "Sestranec", "Sv. Ivan", "Bana Jelačića", "Radnička", "Jeles", "Hrvatskih Pavlina", "Varaždinska", "I. Belostenca", "M. Gupca", "Trg prvog hrvatskog sveučilišta", "Trg kralja Tomislava", "A. Mihanovića", "Patačićeva", "Ivana Mažuranića", "Rangerova", "Šumec", "Zagorska", "Kovačićeva", "A. Šenoe", "Gorica", "Trakošćanska", "Matoševa", "Purga", "E. Kvaternika", "Kardinala Stepinca"],
+      "opis": "Raspored se odnosi na Grad Lepoglavu, naselja i ulice: Čret, Ves, Gečkovec, Radićeva, Borje, Lj. Gaja, Frankopanska, Vinogradska, Budim, Sestranec, Sv. Ivan, Bana Jelačića, Radnička, Jeles, Hrvatskih Pavlina, Varaždinska, I. Belostenca, M. Gupca, Trg prvog hrvatskog sveučilišta, Trg kralja Tomislava, A. Mihanovića, Patačićeva, Ivana Mažuranića, Rangerova, Šumec, Zagorska, Kovačićeva, A. Šenoe, Gorica, Trakošćanska, Matoševa, Purga, E. Kvaternika, Kardinala Stepinca",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijela Lepoglava'.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 B 01-15 M 01-16 T 01-23 B 01-29 M 01-30 PK",
+          "02-06 B 02-12 M 02-20 B 02-26 M 02-27 PK",
+          "03-06 B 03-12 M 03-20 B 03-26 M 03-27 PK",
+          "04-03 B 04-09 M 04-10 B 04-17 B 04-23 M 04-24 BPK",
+          "05-04 B! 05-07 M 05-08 B 05-15 BSL 05-21 M 05-22 B 05-29 BPK",
+          "06-05 MB! 06-12 B 06-18 M 06-19 B 06-26 BPK",
+          "07-02 M 07-03 B 07-10 BT 07-16 M 07-17 B 07-24 B 07-30 M 07-31 BPK",
+          "08-07 B 08-13 M 08-14 B 08-21 B 08-27 M 08-28 BPK",
+          "09-04 B 09-10 M 09-11 B 09-18 B 09-24 M 09-25 BPK",
+          "10-02 B 10-08 M 10-09 B 10-16 B 10-22 M 10-23 BPK 10-30 BSL",
+          "11-05 M 11-06 B 11-19 M 11-20 BPK",
+          "12-03 M 12-04 B 12-17 M 12-18 BPK 12-31 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Lepoglava",
+      "podrucje": "Lepoglava – stambene zgrade – Hrvatskih Pavlina, M. Gupca, Trg prvog hrvatskog sveučilišta …",
+      "ulice": ["Hrvatskih Pavlina", "M. Gupca", "Trg prvog hrvatskog sveučilišta", "Trg kralja Tomislava", "A. Mihanovića", "A. Šenoe"],
+      "opis": "Raspored se odnosi na Grad Lepoglavu, naselja i ulice: Hrvatskih Pavlina, M. Gupca, Trg prvog hrvatskog sveučilišta, Trg kralja Tomislava, A. Mihanovića, A. Šenoe , isključivo za stambene zgrade i poslovne prostore koji imaju spremnike od 1100 l.",
+      "napomena": "Raspored vrijedi isključivo za stambene zgrade i poslovne prostore koji imaju spremnike od 1100 l. U rasporedu su u retku tekstil/staklo/metal navedeni datumi 29.04., 28.10. bez oznake vrste otpada; nisu upisani, provjerite kod IVKOM-a. Biootpad prema rasporedu 'biootpad – cijela Lepoglava'.",
+      "raw": {
+        "2026": [
+          "01-09 B 01-14 M 01-21 PK 01-23 B 01-28 M",
+          "02-06 B 02-11 M 02-18 PK 02-20 B 02-25 M",
+          "03-06 B 03-11 M 03-18 PK 03-20 B 03-25 M",
+          "04-03 B 04-08 M 04-10 B 04-17 B 04-22 M 04-24 B 04-29 PK",
+          "05-04 B! 05-06 M 05-08 B 05-15 B 05-20 M 05-22 B 05-27 PK 05-29 B",
+          "06-03 M 06-05 B 06-12 B 06-17 M 06-19 B 06-24 PK 06-26 B",
+          "07-01 M 07-03 B 07-10 B 07-15 M 07-17 B 07-22 PK 07-24 B 07-29 M 07-31 B",
+          "08-07 B 08-12 M 08-14 B 08-19 PK 08-21 B 08-26 M 08-28 B",
+          "09-04 B 09-09 M 09-11 B 09-18 B 09-23 M 09-25 B 09-30 PK",
+          "10-02 B 10-07 M 10-09 B 10-16 B 10-21 M 10-23 B 10-28 PK 10-30 B",
+          "11-04 M 11-06 B 11-19 M! 11-20 B 11-25 PK",
+          "12-02 M 12-04 B 12-16 M 12-18 B 12-23 PK 12-30 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Lepoglava",
+      "podrucje": "Lepoglava 3 – Kameničko Podgorje, Očura, Muričevec …",
+      "ulice": ["Kameničko Podgorje", "Očura", "Muričevec", "Gornji Vulišinec", "Donji Vulišinec"],
+      "opis": "Raspored se odnosi na Grad Lepoglavu, naselja i ulice: Kameničko Podgorje, Očura, Muričevec, Gornji Vulišinec, Donji Vulišinec",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijela Lepoglava'.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 B 01-15 M 01-21 PK 01-23 B 01-29 M",
+          "02-06 B 02-12 M 02-18 PK 02-20 B 02-26 M",
+          "03-04 T 03-06 B 03-12 M 03-18 PK 03-20 B 03-26 M",
+          "04-03 B 04-09 M 04-10 B 04-15 PK 04-17 B 04-23 M 04-24 B",
+          "05-04 B! 05-07 M 05-08 B 05-13 PK 05-15 B 05-19 SL 05-21 M 05-22 B 05-29 B",
+          "06-05 MB! 06-10 PK 06-12 B 06-18 M 06-19 B 06-26 B",
+          "07-02 M 07-03 B 07-08 PK 07-10 B 07-16 M 07-17 B 07-24 B 07-30 M 07-31 B",
+          "08-07 B 08-13 M 08-14 B 08-19 PK 08-21 B 08-27 M 08-28 B",
+          "09-02 T 09-04 B 09-10 M 09-11 B 09-16 PK 09-18 B 09-24 M 09-25 B",
+          "10-02 B 10-08 M 10-09 B 10-14 PK 10-16 B 10-22 M 10-23 B 10-30 B",
+          "11-05 M 11-06 B 11-17 SL 11-19 M 11-20 B 11-25 PK",
+          "12-03 M 12-04 B 12-17 M 12-18 B 12-23 PK 12-31 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Lepoglava",
+      "podrucje": "Lepoglava 4 – Viletinec, Crkovec, Kamenički Vrhovec …",
+      "ulice": ["Viletinec", "Crkovec", "Kamenički Vrhovec", "Kamenica", "Žarovnica"],
+      "opis": "Raspored se odnosi na Grad Lepoglavu, naselja i ulice: Viletinec, Crkovec, Kamenički Vrhovec, Kamenica, Žarovnica",
+      "napomena": "Biootpad prema rasporedu 'biootpad – cijela Lepoglava'.",
+      "raw": {
+        "2026": [
+          "01-09 B 01-14 M 01-21 PK 01-23 B 01-28 M",
+          "02-06 B 02-11 M 02-18 PK 02-20 B 02-25 M",
+          "03-04 T 03-06 B 03-11 M 03-18 PK 03-20 B 03-25 M",
+          "04-03 B 04-08 M 04-10 B 04-15 PK 04-17 B 04-22 M 04-24 B",
+          "05-04 B! 05-06 M 05-08 B 05-13 PK 05-15 B 05-19 SL 05-20 M 05-22 B 05-29 B",
+          "06-03 M 06-05 B 06-10 PK 06-12 B 06-17 M 06-19 B 06-26 B",
+          "07-01 M 07-03 B 07-08 PK 07-10 B 07-15 M 07-17 B 07-24 B 07-29 M 07-31 B",
+          "08-07 B 08-12 M 08-14 B 08-19 PK 08-21 B 08-26 M 08-28 B",
+          "09-02 T 09-04 B 09-09 M 09-11 B 09-16 PK 09-18 B 09-23 M 09-25 B",
+          "10-02 B 10-07 M 10-09 B 10-14 PK 10-16 B 10-21 M 10-23 B 10-30 B",
+          "11-04 M 11-06 B 11-17 SL 11-19 M! 11-20 B 11-25 PK",
+          "12-02 M 12-04 B 12-16 M 12-18 B 12-23 PK 12-30 M"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Maruševec",
+      "podrucje": "Maruševec 1 – Biljevec, Greda, Bikovec …",
+      "ulice": ["Biljevec", "Greda", "Bikovec", "Selnik", "Jurketinec", "Koretinec", "Ladanje Donje", "Kapelec"],
+      "opis": "Raspored se odnosi na općinu Maruševec: Biljevec, Greda, Bikovec, Selnik, Jurketinec, Koretinec, Ladanje Donje, Kapelec",
+      "raw": {
+        "2026": [
+          "01-09 BSL 01-13 M 01-23 BPK 01-27 M",
+          "02-06 B 02-10 M 02-20 BPK 02-24 M",
+          "03-06 BT 03-10 M 03-20 BPK 03-24 M",
+          "04-03 B 04-07 M 04-10 B 04-17 BPK 04-21 M 04-24 B",
+          "05-04 B! 05-05 M 05-08 B 05-15 B 05-19 M 05-22 BPK 05-29 B",
+          "06-02 M 06-05 B 06-12 B 06-16 M 06-19 BPK 06-26 B 06-30 M",
+          "07-03 B 07-10 B 07-14 M 07-17 BPK 07-24 BSL 07-28 M 07-31 B",
+          "08-07 B 08-11 M 08-14 B 08-21 BPK 08-25 M 08-28 B",
+          "09-04 BT 09-08 M 09-11 B 09-18 BPK 09-22 M 09-25 B",
+          "10-02 B 10-06 M 10-09 B 10-16 BPK 10-20 M 10-23 B 10-30 B",
+          "11-03 M 11-06 B 11-13 PK 11-17 M 11-20 B",
+          "12-01 M 12-04 B 12-11 PK 12-15 M 12-18 B 12-29 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Maruševec",
+      "podrucje": "Maruševec 2 – Korenjak, Brodarevec, Mali i Veliki Novaki …",
+      "ulice": ["Korenjak", "Brodarevec", "Mali i Veliki Novaki", "Druškovec", "Koškovec", "Čalinec", "Cerje Nebojse"],
+      "opis": "Raspored se odnosi na općinu Maruševec, ulice i naselje: Korenjak, Brodarevec, Mali i Veliki Novaki, Druškovec, Koškovec, Čalinec, Cerje Nebojse",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-09 B 01-13 PK 01-20 M 01-23 B",
+          "02-03 M 02-06 B 02-10 PK 02-17 M 02-20 B",
+          "03-03 M 03-06 B 03-10 PK 03-17 M 03-20 B 03-31 MSL",
+          "04-03 B 04-10 B 04-14 MPK 04-17 B 04-24 B 04-28 M",
+          "05-04 B! 05-08 B 05-12 MPK 05-15 B 05-22 B 05-26 M 05-29 B",
+          "06-02 T 06-05 B 06-09 MPK 06-12 B 06-19 B 06-23 M 06-26 B",
+          "07-03 B 07-07 M 07-10 B 07-14 PK 07-17 B 07-21 M 07-24 B 07-31 B",
+          "08-04 M 08-07 B 08-11 PK 08-14 B 08-18 M 08-21 B 08-28 B",
+          "09-01 M 09-04 B 09-08 PK 09-11 B 09-15 MSL 09-18 B 09-25 B 09-29 M",
+          "10-02 B 10-06 PK 10-09 B 10-13 M 10-16 B 10-23 B 10-27 M 10-30 B",
+          "11-03 PK 11-06 B 11-10 M 11-20 B 11-24 M",
+          "12-01 PK 12-04 B 12-08 MT 12-18 B 12-22 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Maruševec",
+      "podrucje": "Maruševec 3 – Maruševec",
+      "ulice": ["Maruševec"],
+      "opis": "Raspored se odnosi na općinu Maruševec, ulice i naselje: Maruševec",
+      "raw": {
+        "2026": [
+          "01-09 B 01-13 MPK 01-23 B 01-27 M",
+          "02-06 B 02-10 MPK 02-20 B 02-24 M",
+          "03-06 B 03-10 MPK 03-20 B 03-24 M 03-31 SL",
+          "04-03 B 04-07 M 04-10 B 04-14 PK 04-17 B 04-21 M 04-24 B",
+          "05-04 B! 05-05 M 05-08 B 05-12 PK 05-15 B 05-19 M 05-22 B 05-29 B",
+          "06-02 MT 06-05 B 06-09 PK 06-12 B 06-16 M 06-19 B 06-26 B 06-30 M",
+          "07-03 B 07-10 B 07-14 MPK 07-17 B 07-24 B 07-28 M 07-31 B",
+          "08-07 B 08-11 MPK 08-14 B 08-21 B 08-25 M 08-28 B",
+          "09-04 B 09-08 MPK 09-11 B 09-15 SL 09-18 B 09-22 M 09-25 B",
+          "10-02 B 10-06 MPK 10-09 B 10-16 B 10-20 M 10-23 B 10-30 B",
+          "11-03 MPK 11-06 B 11-17 M 11-20 B",
+          "12-01 MPK 12-04 B 12-08 T 12-15 M 12-18 B 12-29 M"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Bednja",
+      "podrucje": "Bednja-1 – Cvetlin, Cvetlinska Jazbina, Jamno",
+      "ulice": ["Cvetlin", "Cvetlinska Jazbina", "Jamno"],
+      "opis": "Raspored se odnosi na općinu Bednja, naselja i ulice : Cvetlin, Cvetlinska Jazbina, Jamno",
+      "raw": {
+        "2026": [
+          "01-07 M! 01-09 B 01-20 M 01-22 PK 01-23 B",
+          "02-03 M 02-06 B 02-17 M 02-19 PK 02-20 B",
+          "03-03 M 03-06 B 03-17 M 03-19 PK 03-20 B 03-26 SL 03-31 M",
+          "04-03 B 04-10 B 04-14 M 04-16 PK 04-17 B 04-24 B 04-28 M",
+          "05-04 B! 05-08 B 05-12 M 05-15 B 05-22 B 05-26 M 05-28 PK 05-29 B",
+          "06-05 B 06-09 M 06-12 B 06-18 T 06-19 B 06-23 M 06-25 PK 06-26 B",
+          "07-03 B 07-07 M 07-10 B 07-17 B 07-21 M 07-23 PK 07-24 B 07-31 B",
+          "08-04 M 08-07 B 08-14 B 08-18 M 08-20 PK 08-21 B 08-28 B",
+          "09-01 M 09-04 B 09-11 B 09-15 M 09-17 PK 09-18 B 09-24 SL 09-25 B 09-29 M",
+          "10-02 B 10-09 B 10-13 M 10-15 PK 10-16 B 10-23 B 10-27 M 10-30 B",
+          "11-06 B 11-10 M 11-20 B 11-24 M 11-26 PK",
+          "12-03 T 12-04 B 12-08 M 12-18 B 12-22 M 12-24 PK"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Bednja",
+      "podrucje": "Bednja-2 – Benkovec, Dubovečaki, Gorenec …",
+      "ulice": ["Benkovec", "Dubovečaki", "Gorenec", "Vrbno", "Šaša", "Pašnik", "Vranojelje", "Osonjak", "Ježovec"],
+      "opis": "Raspored se odnosi na općinu Bednja: Benkovec, Dubovečaki, Gorenec, Vrbno, Šaša, Pašnik, Vranojelje, Osonjak, Ježovec",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-08 PK 01-09 B 01-15 M 01-23 B 01-29 M",
+          "02-05 PK 02-06 B 02-12 M 02-20 B 02-26 M",
+          "03-05 PK 03-06 B 03-12 MSL 03-20 B 03-26 M",
+          "04-02 PK 04-03 B 04-09 M 04-10 B 04-17 B 04-23 M 04-24 B",
+          "05-04 B! 05-07 M 05-08 B 05-14 PK 05-15 B 05-21 MT 05-22 B 05-29 B",
+          "06-05 MB! 06-11 PK 06-12 B 06-18 M 06-19 B 06-26 B",
+          "07-02 M 07-03 B 07-09 PK 07-10 B 07-16 M 07-17 B 07-24 B 07-30 M 07-31 B",
+          "08-06 PK 08-07 B 08-13 M 08-14 B 08-21 B 08-27 M 08-28 B",
+          "09-03 PK 09-04 B 09-10 MSL 09-11 B 09-18 B 09-24 M 09-25 B",
+          "10-01 PK 10-02 B 10-08 M 10-09 B 10-16 B 10-22 M 10-23 B 10-30 B",
+          "11-05 MT 11-06 B 11-12 PK 11-19 M 11-20 B",
+          "12-03 M 12-04 B 12-10 PK 12-17 M 12-18 B 12-31 M"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Bednja",
+      "podrucje": "Bednja-3 – Purga Bednjanska, Pleš, Trakošćan …",
+      "ulice": ["Purga Bednjanska", "Pleš", "Trakošćan", "Šinkovica Šaška", "Šinkovica Bednjanska", "Meljan", "Bednja - naselje", "Bednjansko Podgorje", "Vrhovec Bednjanski", "Prebukovje", "Rinkovec"],
+      "opis": "Raspored se odnosi na općinu Bednja: Purga Bednjanska, Pleš, Trakošćan, Šinkovica Šaška, Šinkovica Bednjanska, Meljan, Bednja - naselje, Bednjansko Podgorje, Vrhovec Bednjanski, Prebukovje, Rinkovec",
+      "raw": {
+        "2026": [
+          "01-08 MPK 01-09 B 01-22 M 01-23 B",
+          "02-05 MPK 02-06 B 02-19 M 02-20 B",
+          "03-05 MPK 03-06 B 03-12 SL 03-19 M 03-20 B",
+          "04-02 MPK 04-03 B 04-10 B 04-16 M 04-17 B 04-24 B 04-30 M",
+          "05-04 B! 05-08 B 05-14 MPK 05-15 B 05-21 T 05-22 B 05-28 M 05-29 B",
+          "06-05 B 06-11 MPK 06-12 B 06-19 B 06-25 M 06-26 B",
+          "07-03 B 07-09 MPK 07-10 B 07-17 B 07-23 M 07-24 B 07-31 B",
+          "08-06 MPK 08-07 B 08-14 B 08-20 M 08-21 B 08-28 B",
+          "09-03 MPK 09-04 B 09-10 SL 09-11 B 09-17 M 09-18 B 09-25 B",
+          "10-01 MPK 10-02 B 10-09 B 10-15 M 10-16 B 10-23 B 10-29 M 10-30 B",
+          "11-05 T 11-06 B 11-12 MPK 11-20 B 11-26 M",
+          "12-04 B 12-10 MPK 12-18 B 12-24 M"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Bednja",
+      "podrucje": "Bednja-4 (malo vozilo)",
+      "ulice": ["Bednja (malo vozilo)"],
+      "opis": "Raspored se odnosi na općinu Bednja: malo vozilo",
+      "napomena": "Raspored se odnosi na dijelove općine koje obilazi malo vozilo; popis naselja nije objavljen.",
+      "raw": {
+        "2026": [
+          "01-08 MPK 01-09 B 01-22 M 01-23 B",
+          "02-05 MPK 02-06 B 02-19 M 02-20 B",
+          "03-05 MPK 03-06 B 03-12 SL 03-19 M 03-20 B",
+          "04-02 MPK 04-03 B 04-10 B 04-16 M 04-17 B 04-24 B 04-30 M",
+          "05-04 B! 05-08 B 05-14 MPK 05-15 B 05-21 T 05-22 B 05-28 M 05-29 B",
+          "06-05 B 06-11 MPK 06-12 B 06-19 B 06-25 M 06-26 B",
+          "07-03 B 07-09 MPK 07-10 B 07-17 B 07-23 M 07-24 B 07-31 B",
+          "08-06 MPK 08-07 B 08-14 B 08-20 M 08-21 B 08-28 B",
+          "09-03 MPK 09-04 B 09-10 SL 09-11 B 09-17 M 09-18 B 09-25 B",
+          "10-01 MPK 10-02 B 10-09 B 10-15 M 10-16 B 10-23 B 10-29 M 10-30 B",
+          "11-05 T 11-06 B 11-12 MPK 11-20 B 11-26 M",
+          "12-04 B 12-10 MPK 12-18 B 12-24 M"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Klenovnik",
+      "podrucje": "Općina Klenovnik – Klenovnik, Dubrovec, Lipovnik …",
+      "ulice": ["Klenovnik", "Dubrovec", "Lipovnik", "Plemenšćina", "Vukovoj", "Goranec"],
+      "opis": "Raspored se odnosi na općinu Klenovnik, naselja i ulice: Klenovnik, Dubrovec, Lipovnik, Plemenšćina, Vukovoj, Goranec",
+      "raw": {
+        "2026": [
+          "01-09 MB 01-20 PK 01-23 MB",
+          "02-04 T 02-06 MB 02-17 PK 02-20 MB",
+          "03-06 MB 03-17 PK 03-20 MB",
+          "04-01 SL 04-03 MB 04-10 B 04-17 MB 04-21 PK 04-24 B",
+          "05-04 MB! 05-08 B 05-15 MB 05-19 PK 05-22 B 05-29 MB",
+          "06-05 B 06-12 MB 06-16 PK 06-19 B 06-26 MB",
+          "07-03 B 07-10 MB 07-17 B 07-21 PK 07-24 MB 07-29 T 07-31 B",
+          "08-07 MB 08-14 B 08-18 PK 08-21 MB 08-28 B",
+          "09-04 MB 09-11 B 09-18 MB 09-22 PK 09-25 B",
+          "10-02 MB 10-07 SL 10-09 B 10-16 MB 10-20 PK 10-23 B 10-30 MB",
+          "11-06 B 11-13 M 11-17 PK 11-20 B 11-27 M",
+          "12-04 B 12-11 M 12-15 PK 12-18 B 12-28 M!"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Donja Voća",
+      "podrucje": "Općina Donja Voća – Donja Voća, Brežnice, Bahunsko …",
+      "ulice": ["Donja Voća", "Brežnice", "Bahunsko", "Belščaki", "Rijeka Voćanska", "Budinščak", "Jelovec Voćanski", "Plitvica Voćanska", "Gornja Voća", "Slivarsko", "Fotez Breg"],
+      "opis": "Raspored se odnosi na općinu Donja Voća, naselja i ulice: Donja Voća, Brežnice, Bahunsko, Belščaki, Rijeka Voćanska, Budinščak, Jelovec Voćanski, Plitvica Voćanska, Gornja Voća, Slivarsko, Fotez Breg",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 B 01-16 M 01-23 B 01-27 PK 01-29 SL 01-30 M",
+          "02-06 B 02-13 M 02-20 B 02-24 PK 02-27 M",
+          "03-06 B 03-13 M 03-20 B 03-24 PK 03-27 M",
+          "04-03 B 04-08 T 04-10 MB 04-17 B 04-24 MB 04-28 PK",
+          "05-04 B! 05-08 MB 05-15 B 05-22 MB 05-26 PK 05-29 B",
+          "06-05 MB 06-12 B 06-19 MB 06-26 B 06-30 PK",
+          "07-03 MB 07-10 B 07-16 SL 07-17 MB 07-24 B 07-28 PK 07-31 MB",
+          "08-07 B 08-14 MB 08-21 B 08-25 PK 08-28 MB",
+          "09-04 B 09-11 MB 09-18 B 09-25 MB 09-29 PK",
+          "10-02 B 10-09 MB 10-16 B 10-21 T 10-23 MB 10-27 PK 10-30 B",
+          "11-06 MB 11-20 MB 11-24 PK",
+          "12-04 MB 12-18 MB 12-29 PK"
+        ]
+      }
+    }
+  }
+}

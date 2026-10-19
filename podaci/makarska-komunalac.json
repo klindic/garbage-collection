@@ -1,0 +1,53 @@
+{
+  "davatelj": "Makarski komunalac d.o.o.",
+  "web": "https://www.makarski-komunalac.hr",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Makarska"],
+  "napomene": ["Raspored je informativnog karaktera i podložan promjenama.", "Od 15.06. do 30.09. vrijedi ljetni raspored s dodatnim odvozima.", "Adrese kojih nema na popisu: Makarski komunalac, 021/695-010."],
+  "izvor": "https://www.makarski-komunalac.hr/info/kalendar_odvoza.html",
+  "nazivi": {"P": "Plastika, metal i tetrapak"},
+  "zone": {
+    "1": {
+      "jls": "Makarska",
+      "podrucje": "Rajon 1 (ponedjeljak i četvrtak)",
+      "ulice": ["Alberta Fortisa", "Ante Starčevića", "Banovičeva", "Bračka", "Cvjetna", "Dmine Papalića", "Don Frane Bulića", "Dubrovačka", "Fra Jure Radića", "Fra Pavla Jakića", "Gradišćanskih Hrvata", "Herceg Stjepana", "Ilirska", "Imotska", "Istarska", "Ivana Gorana Kovačića", "Ivana Pavlovića Lučića", "Jadranska", "Javne dobrotvornosti", "Kažimira Ljubića", "Kotišna", "Kotromanića", "Kralja Petra Krešimira IV", "Lulićeva", "Makar", "Maslinarska", "Mihovila Glavinića", "Mlinice", "Molizanskih Hrvata", "Neretvanskih knezova", "Nikole Tesle", "Pod Trećim Mostom", "Prvosvibanjska", "Puharići", "Put Bilaja", "Put Cvitačke", "Put Kulice", "Put Makra", "Put Mlikarica", "Put Mlinica", "Put Moče", "Put Umca", "Put požara", "Put Žuke", "Rosseto Degli Abruzzi", "Ruđera Boškovića", "Slikara Gojaka", "Stari velikobrdski put iz pravca Vukovarska prema Zadarskoj", "Stjepana Radića", "Svetog Florijana", "Trakače", "Vinogradarska", "Vrgorački put", "Vukovarska", "Zadarska", "Šetalište Doktora Franje Tuđmana", "Šilobadovićeva"],
+      "raw": {
+        "2026": [
+          "01-02 K 01-05 M 01-07 P 01-08 M 01-12 M 01-14 P 01-15 M 01-16 K 01-19 M 01-21 P 01-22 M 01-26 M 01-28 P 01-29 M 01-30 K",
+          "02-02 M 02-04 P 02-05 M 02-09 M 02-11 P 02-12 M 02-13 K 02-16 M 02-18 P 02-19 M 02-23 M 02-25 P 02-26 M 02-27 K",
+          "03-02 M 03-04 P 03-05 M 03-09 M 03-11 P 03-12 M 03-13 K 03-16 M 03-18 P 03-19 M 03-23 M 03-25 P 03-26 M 03-27 K 03-30 M",
+          "04-01 P 04-02 M 04-06 M 04-08 P 04-09 M 04-10 K 04-13 M 04-15 P 04-16 M 04-20 M 04-22 P 04-23 M 04-24 K 04-27 M 04-29 P 04-30 M",
+          "05-04 M 05-06 P 05-07 M 05-08 K 05-11 M 05-13 P 05-14 M 05-18 M 05-20 P 05-21 M 05-22 K 05-25 M 05-27 P 05-28 M",
+          "06-01 M 06-03 P 06-04 M 06-05 K 06-08 M 06-10 P 06-11 M 06-15 M 06-17 P 06-18 M 06-19 K 06-22 M 06-24 P 06-25 M 06-29 M",
+          "07-01 P 07-02 M 07-03 K 07-04 M 07-06 M 07-08 P 07-09 M 07-11 M 07-13 M 07-15 P 07-16 M 07-17 K 07-18 M 07-20 M 07-22 P 07-23 M 07-25 M 07-27 M 07-29 P 07-30 M 07-31 K",
+          "08-01 M 08-03 M 08-05 P 08-06 M 08-08 M 08-10 M 08-12 P 08-13 M 08-14 K 08-15 M 08-17 M 08-19 P 08-20 M 08-22 M 08-24 M 08-26 P 08-27 M 08-28 K 08-29 M 08-31 M",
+          "09-02 P 09-03 M 09-05 M 09-07 M 09-09 P 09-10 M 09-11 K 09-12 M 09-14 M 09-16 P 09-17 M 09-21 M 09-23 P 09-24 M 09-25 K 09-28 M 09-30 P",
+          "10-05 M 10-07 P 10-08 M 10-09 K 10-12 M 10-14 P 10-15 M 10-19 M 10-21 P 10-22 M 10-23 K 10-26 M 10-28 P 10-29 M",
+          "11-02 M 11-04 P 11-05 M 11-06 K 11-09 M 11-11 P 11-12 M 11-16 M 11-18 P 11-19 M 11-20 K 11-23 M 11-25 P 11-26 M 11-30 M",
+          "12-02 P 12-03 M 12-04 K 12-07 M 12-09 P 12-10 M 12-14 M 12-16 P 12-17 M 12-18 K 12-21 M 12-23 P 12-24 M 12-28 M 12-30 P 12-31 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Makarska",
+      "podrucje": "Rajon 2 (utorak i subota)",
+      "ulice": ["Alkarska Ulica", "Antuna Gustava Matoša", "Baranjska", "Biokovska", "Cetinska", "Domovinske Zahvalnosti", "Don Klementa Grubišića", "Don Mihovila Pavlinovića", "Franjevački Put", "Gojaci", "Grabenac", "Hvarska", "Jakše Ravlića", "Kipara Meštrovića", "Kotiška", "Kralja Zvonimira", "Kuk", "Lička", "Makarski Iseljenika", "Marina Držića", "Mate Ujevića", "Mate Vladića", "Matije Gupca", "Osječka", "Petorice Alačevića", "Petra Perice", "Petra Svačića", "Planinarski put", "Potok", "Požare", "Prodani", "Put Dugiša", "Put Masline", "Put Matića", "Put Svetog Ante", "Put Vodenica", "Put Žliba", "Riječka", "Rusendići", "Slavonska", "Splitska", "Stari velikobrdski put iz pravca Velikog Brda prema Zadarskoj", "Stjepana Ivičevića", "Težačka ulica", "Tučepska", "Zagrebačka", "Zorana Lendića", "Zrinsko Frankopanska", "Đakovačka", "Šibenska"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-06 M 01-07 P 01-09 K 01-10 M 01-13 M 01-14 P 01-17 M 01-20 M 01-21 P 01-23 K 01-24 M 01-27 M 01-28 P 01-31 M",
+          "02-03 M 02-04 P 02-06 K 02-07 M 02-10 M 02-11 P 02-14 M 02-17 M 02-18 P 02-20 K 02-21 M 02-24 M 02-25 P 02-28 M",
+          "03-03 M 03-04 P 03-06 K 03-07 M 03-10 M 03-11 P 03-14 M 03-17 M 03-18 P 03-20 K 03-21 M 03-24 M 03-25 P 03-28 M 03-31 M",
+          "04-01 P 04-03 K 04-04 M 04-07 M 04-08 P 04-11 M 04-14 M 04-15 P 04-17 K 04-18 M 04-21 M 04-22 P 04-25 M 04-28 M 04-29 P",
+          "05-01 K 05-02 M 05-05 M 05-06 P 05-09 M 05-12 M 05-13 P 05-15 K 05-16 M 05-19 M 05-20 P 05-23 M 05-26 M 05-27 P 05-29 K 05-30 M",
+          "06-02 M 06-03 P 06-06 M 06-09 M 06-10 P 06-12 K 06-13 M 06-16 M 06-17 P 06-20 M 06-23 M 06-24 P 06-26 K 06-27 M 06-30 M",
+          "07-01 P 07-03 M 07-05 M 07-07 M 07-08 P 07-10 MK 07-12 M 07-14 M 07-15 P 07-17 M 07-19 M 07-21 M 07-22 P 07-24 MK 07-26 M 07-28 M 07-29 P 07-31 M",
+          "08-04 M 08-05 P 08-07 MK 08-09 M 08-11 M 08-12 P 08-14 M 08-16 M 08-18 M 08-19 P 08-21 MK 08-23 M 08-25 M 08-26 P 08-28 M 08-30 M",
+          "09-01 M 09-02 P 09-04 MK 09-06 M 09-08 M 09-09 P 09-11 M 09-13 M 09-15 M 09-16 P 09-18 K 09-19 M 09-22 M 09-23 P 09-26 M 09-29 M 09-30 P",
+          "10-02 K 10-03 M 10-06 M 10-07 P 10-10 M 10-13 M 10-14 P 10-16 K 10-17 M 10-20 M 10-21 P 10-24 M 10-27 M 10-28 P 10-30 K 10-31 M",
+          "11-03 M 11-04 P 11-07 M 11-10 M 11-11 P 11-13 K 11-14 M 11-17 M 11-18 P 11-21 M 11-24 M 11-25 P 11-27 K 11-28 M",
+          "12-01 M 12-02 P 12-05 M 12-08 M 12-09 P 12-11 K 12-12 M 12-15 M 12-16 P 12-19 M 12-22 M 12-23 P 12-26 M 12-29 M 12-30 P"
+        ]
+      }
+    }
+  }
+}

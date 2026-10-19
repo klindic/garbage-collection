@@ -1,0 +1,33 @@
+{
+  "davatelj": "Komunalno društvo Kijevo d.o.o.",
+  "web": "https://kijevo.hr/?page_id=8229",
+  "izvor": "https://kijevo.hr/?page_id=7745",
+  "zupanija": "Šibensko-kninska",
+  "jls": ["Kijevo"],
+  "nazivi": {"M": "Komunalni (miješani) otpad"},
+  "napomene": ["Datumi su zeleno označeni dani u kalendaru odvoza komunalnog otpada; vrsta otpada na kalendaru nije navedena.", "Jedna oznaka u lipnju stoji na pogrešno otisnutom polju (5. redak, četvrtak, otisnuto '29') pa nije jasno je li riječ o 29.6. ili 2.7.; taj datum nije uključen – provjerite kod davatelja.", "Pomaci zbog blagdana ugrađeni su u označene datume (npr. odvoz je označen i na Tijelovo 4.6.)."],
+  "zone": {
+    "1": {
+      "jls": "Kijevo",
+      "podrucje": "Općina Kijevo (cijela općina) – četvrtkom, uglavnom svaka dva tjedna",
+      "ulice": ["Kijevo"],
+      "napomena": "Datumi prema zeleno označenim danima u kalendaru za 2026.",
+      "raw": {
+        "2026": [
+          "01-15 M 01-29 M",
+          "02-12 M 02-26 M",
+          "03-12 M 03-26 M",
+          "04-09 M 04-23 M",
+          "05-07 M 05-21 M",
+          "06-04 M 06-18 M",
+          "07-09 M 07-23 M",
+          "08-06 M 08-20 M",
+          "09-03 M 09-17 M",
+          "10-01 M 10-15 M 10-29 M",
+          "11-12 M 11-26 M",
+          "12-10 M 12-24 M"
+        ]
+      }
+    }
+  }
+}

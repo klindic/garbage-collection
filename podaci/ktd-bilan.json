@@ -1,0 +1,124 @@
+{
+  "davatelj": "KTD Bilan d.o.o.",
+  "web": "https://ktd-bilan.hr",
+  "izvor": "https://ktd-bilan.hr/index.php/odnosi-s-javnoscu/obavijesti-potrosacima",
+  "zupanija": "Dubrovačko-neretvanska",
+  "jls": ["Orebić"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)", "K": "Papir i karton (plava kanta)", "P": "Plastika i folija (žuta kanta)", "S": "Staklena ambalaža (roza vreće)"},
+  "napomene": ["KTD Bilan objavljuje raspored za svako razdoblje posebno (ljetni, prijelazni i zimski); upisana su razdoblja čije se tablice mogu pouzdano pročitati.", "Subotom i nedjeljom nema prikupljanja (osim ljeti prema rasporedu). Staklena ambalaža prikuplja se prvog četvrtka u mjesecu u roza vrećama koje se preuzimaju u KTD Bilan.", "Pravne osobe (trgovine, restorani, kampovi, hoteli): papir i plastika po pozivu.", "Izmjene zbog blagdana KTD Bilan objavljuje posebnim obavijestima; ovdje nisu upisane.", "Kontakt: Fiskovićeva 2, Orebić, 020 713 073, info@bilan.hr."],
+  "zone": {
+    "1": {
+      "jls": "Orebić",
+      "podrucje": "Orebić, Stanković, Podvlaštica, Ruskovići – miješani pon, pet",
+      "ulice": ["Orebić", "Stanković", "Podvlaštica", "Ruskovići"],
+      "raw": {
+        "2026": [
+          "10-01 S 10-02 M 10-05 M 10-06 K 10-09 M 10-12 M 10-14 P 10-16 M 10-19 M 10-20 K 10-23 M 10-26 M 10-28 P 10-30 M",
+          "11-02 M 11-03 K 11-05 S 11-06 M 11-09 M 11-11 P 11-13 M 11-16 M 11-17 K 11-20 M 11-23 M 11-25 P 11-27 M 11-30 M",
+          "12-01 K 12-03 S 12-04 M 12-07 M 12-09 P 12-11 M 12-14 M 12-15 K 12-18 M 12-21 M 12-23 P 12-25 M 12-28 M 12-29 K"
+        ],
+        "2027": [
+          "01-01 M 01-04 M 01-06 P 01-07 S 01-08 M 01-11 M 01-12 K 01-15 M 01-18 M 01-20 P 01-22 M 01-25 M 01-26 K 01-29 M",
+          "02-01 M 02-03 P 02-04 S 02-05 M 02-08 M 02-09 K 02-12 M 02-15 M 02-17 P 02-19 M 02-22 M 02-23 K 02-26 M",
+          "03-01 M 03-03 P 03-04 S 03-05 M 03-08 M 03-09 K 03-12 M 03-15 M 03-17 P 03-19 M 03-22 M 03-23 K 03-26 M 03-29 M 03-31 P",
+          "04-01 S 04-02 M 04-05 M 04-06 K 04-09 M 04-12 M 04-14 P 04-16 M 04-19 M 04-20 K 04-23 M 04-26 M 04-28 P 04-30 M",
+          "05-03 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Orebić",
+      "podrucje": "Perna, Kućište, Viganj, Lovište – miješani pon",
+      "ulice": ["Perna", "Kućište", "Viganj", "Lovište"],
+      "raw": {
+        "2026": [
+          "10-01 S 10-05 M 10-06 K 10-12 M 10-14 P 10-19 M 10-20 K 10-26 M 10-28 P",
+          "11-02 M 11-03 K 11-05 S 11-09 M 11-11 P 11-16 M 11-17 K 11-23 M 11-25 P 11-30 M",
+          "12-01 K 12-03 S 12-07 M 12-09 P 12-14 M 12-15 K 12-21 M 12-23 P 12-28 M 12-29 K"
+        ],
+        "2027": [
+          "01-04 M 01-06 P 01-07 S 01-11 M 01-12 K 01-18 M 01-20 P 01-25 M 01-26 K",
+          "02-01 M 02-03 P 02-04 S 02-08 M 02-09 K 02-15 M 02-17 P 02-22 M 02-23 K",
+          "03-01 M 03-03 P 03-04 S 03-08 M 03-09 K 03-15 M 03-17 P 03-22 M 03-23 K 03-29 M 03-31 P",
+          "04-01 S 04-05 M 04-06 K 04-12 M 04-14 P 04-19 M 04-20 K 04-26 M 04-28 P",
+          "05-03 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Orebić",
+      "podrucje": "Podgorje (Bilopolje, Gurići, Karmen, Lampalovo, Stinice, Kaljanovići) – miješani pon",
+      "ulice": ["Podgorje", "Bilopolje", "Gurići", "Karmen", "Lampalovo", "Stinice", "Kaljanovići"],
+      "raw": {
+        "2026": [
+          "10-01 S 10-05 M 10-06 K 10-12 M 10-14 P 10-19 M 10-20 K 10-26 M 10-28 P",
+          "11-02 M 11-03 K 11-05 S 11-09 M 11-11 P 11-16 M 11-17 K 11-23 M 11-25 P 11-30 M",
+          "12-01 K 12-03 S 12-07 M 12-09 P 12-14 M 12-15 K 12-21 M 12-23 P 12-28 M 12-29 K"
+        ],
+        "2027": [
+          "01-04 M 01-06 P 01-07 S 01-11 M 01-12 K 01-18 M 01-20 P 01-25 M 01-26 K",
+          "02-01 M 02-03 P 02-04 S 02-08 M 02-09 K 02-15 M 02-17 P 02-22 M 02-23 K",
+          "03-01 M 03-03 P 03-04 S 03-08 M 03-09 K 03-15 M 03-17 P 03-22 M 03-23 K 03-29 M 03-31 P",
+          "04-01 S 04-05 M 04-06 K 04-12 M 04-14 P 04-19 M 04-20 K 04-26 M 04-28 P",
+          "05-03 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Orebić",
+      "podrucje": "Mokalo – miješani čet",
+      "ulice": ["Mokalo"],
+      "napomena": "Plastika: Mokalo nije navedeno ni u jednom retku za plastiku.",
+      "raw": {
+        "2026": [
+          "10-01 MS 10-06 K 10-08 M 10-15 M 10-20 K 10-22 M 10-29 M",
+          "11-03 K 11-05 MS 11-12 M 11-17 K 11-19 M 11-26 M",
+          "12-01 K 12-03 MS 12-10 M 12-15 K 12-17 M 12-24 M 12-29 K 12-31 M"
+        ],
+        "2027": [
+          "01-07 MS 01-12 K 01-14 M 01-21 M 01-26 K 01-28 M",
+          "02-04 MS 02-09 K 02-11 M 02-18 M 02-23 K 02-25 M",
+          "03-04 MS 03-09 K 03-11 M 03-18 M 03-23 K 03-25 M",
+          "04-01 MS 04-06 K 04-08 M 04-15 M 04-20 K 04-22 M 04-29 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Orebić",
+      "podrucje": "Pelješka župa (Potomje, Pijavičino, Kuna, Oskorušno) – miješani čet",
+      "ulice": ["Pelješka župa", "Potomje", "Pijavičino", "Kuna", "Oskorušno"],
+      "raw": {
+        "2026": [
+          "10-01 MPS 10-08 MK 10-15 MP 10-22 MK 10-29 MP",
+          "11-05 MKS 11-12 MP 11-19 MK 11-26 MP",
+          "12-03 MKS 12-10 MP 12-17 MK 12-24 MP 12-31 MK"
+        ],
+        "2027": [
+          "01-07 MPS 01-14 MK 01-21 MP 01-28 MK",
+          "02-04 MPS 02-11 MK 02-18 MP 02-25 MK",
+          "03-04 MPS 03-11 MK 03-18 MP 03-25 MK",
+          "04-01 MPS 04-08 MK 04-15 MP 04-22 MK 04-29 MP"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Orebić",
+      "podrucje": "Trstenik, Crkvice, V. Prapratna, Borak, Harlovići, Postup, Borje, Podobuće – miješani čet",
+      "ulice": ["Trstenik", "Crkvice", "V. Prapratna", "Borak", "Harlovići", "Postup", "Borje", "Podobuće"],
+      "napomena": "Papir i plastika: raspored navodi samo \"Pelješka župa (sva naselja)\"; nije jasno odnosi li se to i na ova naselja pa ovdje nisu upisani.",
+      "raw": {
+        "2026": [
+          "10-01 MS 10-08 M 10-15 M 10-22 M 10-29 M",
+          "11-05 MS 11-12 M 11-19 M 11-26 M",
+          "12-03 MS 12-10 M 12-17 M 12-24 M 12-31 M"
+        ],
+        "2027": [
+          "01-07 MS 01-14 M 01-21 M 01-28 M",
+          "02-04 MS 02-11 M 02-18 M 02-25 M",
+          "03-04 MS 03-11 M 03-18 M 03-25 M",
+          "04-01 MS 04-08 M 04-15 M 04-22 M 04-29 M"
+        ]
+      }
+    }
+  }
+}

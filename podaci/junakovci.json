@@ -1,0 +1,112 @@
+{
+  "davatelj": "Junakovci d.o.o. Semeljci",
+  "web": "https://junakovci.hr",
+  "izvor": "https://junakovci.hr/kalendar-odvoza-otpada/",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Semeljci"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)", "P": "Plastika (žuta kanta)", "K": "Papir (plava kanta)"},
+  "bioNapomena": "Biootpad (smeđa kanta) odvozi se jednom mjesečno, a od svibnja do rujna i dodatno.",
+  "napomene": ["Svaki se tjedan odvozi jedna vrsta otpada: zelena kanta u tjednu prvog utorka u mjesecu, smeđa u drugom, plava u trećem, žuta u četvrtom tjednu; dan u tjednu ovisi o naselju.", "Blagdani su u kalendaru označeni crveno, a zamjenski dan odvoza obojen; takvi su datumi označeni kao premješteni.", "Uz svaki odvoz mogu se priložiti posebne vrste otpada u zasebnoj vrećici (pelene, konzerve, staklo, odjeća, obuća, manji kućanski aparati, žarulje).", "Krupni otpad odvozi se po pozivu (091/738-2013). Reciklažno dvorište i odlagalište „Ada” Koritna: ponedjeljak–petak od 9 do 17 sati.", "Junakovci d.o.o.: 031/856-311, junakovci@semeljci.hr."],
+  "zone": {
+    "1": {
+      "jls": "Semeljci",
+      "podrucje": "Semeljci – sve kante utorkom",
+      "ulice": ["Semeljci"],
+      "napomena": "Biootpad 9.9. (srijeda) umjesto 8.9. (utorak) prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-09 M! 01-13 B 01-20 K 01-27 P",
+          "02-03 M 02-10 B 02-17 K 02-24 P",
+          "03-03 M 03-10 B 03-17 K 03-24 P",
+          "04-07 M 04-14 B 04-21 K 04-28 P",
+          "05-05 M 05-12 B 05-19 K 05-25 B 05-26 P",
+          "06-02 M 06-09 B 06-16 K 06-23 P 06-30 B",
+          "07-07 M 07-14 B 07-21 K 07-27 B 07-28 P",
+          "08-04 M 08-11 B 08-18 K 08-24 B 08-25 P",
+          "09-01 M 09-09 B 09-15 K 09-22 P 09-29 B",
+          "10-06 M 10-13 B 10-20 K 10-27 P",
+          "11-03 M 11-10 B 11-17 K 11-24 P",
+          "12-01 M 12-08 B 12-15 K 12-22 P"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Semeljci",
+      "podrucje": "Koritna – zelena, plava i žuta četvrtkom, smeđa utorkom",
+      "ulice": ["Koritna"],
+      "napomena": "Biootpad 9.9. (srijeda) umjesto 8.9. (utorak) prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-08 M 01-13 B 01-22 K 01-29 P",
+          "02-05 M 02-10 B 02-19 K 02-26 P",
+          "03-05 M 03-10 B 03-19 K 03-26 P",
+          "04-09 M 04-14 B 04-23 K 04-30 P",
+          "05-07 M 05-12 B 05-21 K 05-25 B 05-28 P",
+          "06-05 M! 06-09 B 06-18 K 06-25 P 06-30 B",
+          "07-09 M 07-14 B 07-23 K 07-27 B 07-30 P",
+          "08-06 M 08-11 B 08-20 K 08-24 B 08-27 P",
+          "09-03 M 09-09 B 09-17 K 09-24 P 09-29 B",
+          "10-08 M 10-13 B 10-22 K 10-29 P",
+          "11-05 M 11-10 B 11-19 K 11-26 P",
+          "12-03 M 12-08 B 12-17 K 12-24 P"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Semeljci",
+      "podrucje": "Kešinci – sve kante srijedom",
+      "ulice": ["Kešinci"],
+      "napomena": "Biootpad 8.9. (utorak) umjesto 9.9. (srijeda) prema kalendaru.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 B 01-21 K 01-28 P",
+          "02-04 M 02-11 B 02-18 K 02-25 P",
+          "03-04 M 03-11 B 03-18 K 03-25 P",
+          "04-08 M 04-15 B 04-22 K 04-29 P",
+          "05-06 M 05-13 B 05-20 K 05-27 P 05-29 B",
+          "06-03 M 06-10 B 06-17 K 06-24 P 06-26 B",
+          "07-08 M 07-15 B 07-22 K 07-29 P 07-31 B",
+          "08-07 M! 08-12 B 08-19 K 08-26 P 08-28 B",
+          "09-02 M 09-08 B 09-16 K 09-23 P 09-25 B",
+          "10-07 M 10-14 B 10-21 K 10-28 P",
+          "11-04 M 11-11 B 11-20 K! 11-25 P",
+          "12-02 M 12-09 B 12-16 K 12-23 P"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Semeljci",
+      "podrucje": "Vrbica – zelena petkom, smeđa, plava i žuta srijedom",
+      "ulice": ["Vrbica"],
+      "napomena": "Kalendar za naselje Vrbica (objavljen u kolovozu 2026.) prikazuje odvoz tek od 6. mjeseca; raniji mjeseci nisu objavljeni. Biootpad 8.9. (utorak) umjesto 9.9. (srijeda) prema kalendaru.",
+      "raw": {
+        "2026": [
+          "06-05 M 06-10 B 06-17 K 06-24 P 06-26 B",
+          "07-10 M 07-15 B 07-22 K 07-29 P 07-31 B",
+          "08-07 M 08-12 B 08-19 K 08-26 P 08-28 B",
+          "09-04 M 09-08 B 09-16 K 09-23 P 09-25 B",
+          "10-09 M 10-14 B 10-21 K 10-28 P",
+          "11-06 M 11-11 B 11-20 K! 11-25 P",
+          "12-04 M 12-09 B 12-16 K 12-23 P"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Semeljci",
+      "podrucje": "Mrzović – zelena petkom, smeđa srijedom, plava i žuta četvrtkom",
+      "ulice": ["Mrzović"],
+      "napomena": "Kalendar za naselje Mrzović (objavljen u kolovozu 2026.) prikazuje odvoz tek od 6. mjeseca; raniji mjeseci nisu objavljeni. Biootpad 8.9. (utorak) umjesto 9.9. (srijeda) prema kalendaru.",
+      "raw": {
+        "2026": [
+          "06-05 M 06-10 B 06-18 K 06-25 P 06-26 B",
+          "07-10 M 07-15 B 07-23 K 07-30 P 07-31 B",
+          "08-07 M 08-12 B 08-20 K 08-27 P 08-28 B",
+          "09-04 M 09-08 B 09-17 K 09-24 P 09-25 B",
+          "10-09 M 10-14 B 10-22 K 10-29 P",
+          "11-06 M 11-11 B 11-19 K 11-26 P",
+          "12-04 M 12-09 B 12-17 K 12-24 P"
+        ]
+      }
+    }
+  }
+}

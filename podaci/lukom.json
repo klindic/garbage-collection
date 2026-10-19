@@ -1,0 +1,494 @@
+{
+  "davatelj": "Lukom d.o.o. Ludbreg",
+  "web": "https://www.lukom.hr",
+  "zupanija": "Varaždinska",
+  "jls": ["Ludbreg", "Mali Bukovec", "Veliki Bukovec", "Sveti Đurđ"],
+  "nazivi": {"P": "Plastika", "L": "Metal"},
+  "izvor": "https://www.lukom.hr/?u=Raspored%20odvoza%20otpada%20za%202026.%20godinu&id=263&old_id=114",
+  "napomene": ["Datumi u rasporedu već uključuju pomake zbog blagdana; takvi su datumi označeni kao pomaknuti.", "Reciklažno dvorište „Meka”, Ludbreg, Ulica 5. studenog 31: pon 12-16, sri 8-15, čet 10-18, sub 8-12 sati.", "Glomazni otpad: jednom godišnje besplatno do 4 m³, na zahtjev (obrazac na lukom.hr, lukom@lukom.hr).", "Informacije: 042 819 106, lukom@lukom.hr.", "Lukom objavljuje i raspored za Općinu Martijanec; u registru JLS Martijanec je kod PRE-KOM-a, pa ta područja (i naselje Poljanec iz rasporeda Bolfan, Čukovec, Segovina, Poljanec) nisu uključena."],
+  "zone": {
+    "1": {
+      "jls": "Ludbreg",
+      "podrucje": "Bolfan, Čukovec, Segovina",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselje Bolfan, Čukovec, Segovina, Poljanec",
+      "ulice": ["Bolfan", "Čukovec", "Segovina"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Isti raspored objavljen je i za naselje Poljanec (Općina Martijanec), koje ovdje nije uključeno. Mobilno reciklažno dvorište – Bolfan, kod društvenog doma (08:00 – 09:00): 19.01., 13.04., 13.07., 05.10.; Segovina, kod društvenog doma (09:05 – 10:05): 19.01., 13.04., 13.07., 05.10.; Čukovec, kod društvenog doma (10:10 – 11:10): 19.01., 13.04., 13.07., 05.10.",
+      "raw": {
+        "2026": [
+          "01-02 K 01-07 B 01-09 M 01-16 PL 01-21 B 01-23 M 01-30 K",
+          "02-04 B 02-06 M 02-13 PL 02-18 B 02-20 MST 02-27 K",
+          "03-04 B 03-06 M 03-13 PL 03-18 B 03-20 M 03-27 K",
+          "04-01 B 04-03 M 04-10 PL 04-15 B 04-17 M 04-24 K 04-29 B",
+          "05-04 M! 05-08 PL 05-13 B 05-15 MST 05-22 K 05-27 B 05-29 M",
+          "06-05 PL 06-10 B 06-12 M 06-19 K 06-24 B 06-26 M",
+          "07-03 PL 07-08 B 07-10 M 07-17 K 07-22 B 07-24 M 07-31 PL",
+          "08-06 B! 08-07 M 08-14 K 08-19 B 08-21 MST 08-28 PL",
+          "09-02 B 09-04 M 09-11 K 09-16 B 09-18 M 09-25 PL 09-30 B",
+          "10-02 M 10-09 K 10-14 B 10-16 M 10-23 PL 10-28 B 10-30 M",
+          "11-06 K 11-11 B 11-13 M 11-20 PL 11-25 B 11-27 MST",
+          "12-04 K 12-09 B 12-11 M 12-18 PL 12-23 B 12-28 M!"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Ludbreg",
+      "podrucje": "Kućan Ludbreški, Selnik",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselja Kućan Ludbreški i Selnik",
+      "ulice": ["Kućan Ludbreški", "Selnik"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Kućan Ludbreški, kod igrališta (14:00 – 15:00): 19.01., 13.04., 13.07., 05.10.; Selnik, kod vatrogasnog doma (11:45 – 12:45): 21.01., 15.04., 15.07., 07.10.",
+      "raw": {
+        "2026": [
+          "01-05 MB! 01-13 PL 01-19 B 01-20 M 01-27 K",
+          "02-02 B 02-03 M 02-10 PL 02-16 B 02-17 MST 02-24 K",
+          "03-02 B 03-03 M 03-10 PL 03-16 B 03-17 M 03-24 K 03-30 B 03-31 M",
+          "04-07 PL 04-13 B 04-14 M 04-21 K 04-27 B 04-28 M",
+          "05-05 PL 05-11 B 05-12 MST 05-19 K 05-25 B 05-26 M",
+          "06-02 PL 06-08 B 06-09 M 06-16 K 06-23 MB! 06-30 PL",
+          "07-06 B 07-07 M 07-14 K 07-20 B 07-21 M 07-28 PL",
+          "08-03 B 08-04 M 08-11 K 08-17 B 08-18 MST 08-25 PL 08-31 B",
+          "09-01 M 09-08 K 09-14 B 09-15 M 09-22 PL 09-28 B 09-29 M",
+          "10-06 K 10-12 B 10-13 M 10-20 PL 10-26 B 10-27 M",
+          "11-03 K 11-09 B 11-10 M 11-17 PL 11-23 B 11-24 MST",
+          "12-01 K 12-07 B 12-08 M 12-15 PL 12-21 B 12-22 M 12-29 K"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Ludbreg",
+      "podrucje": "Globočec",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselje Globočec",
+      "ulice": ["Globočec"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Globočec, kod društvenog doma (11:45 – 12:45): 19.01., 13.04., 13.07., 05.10.",
+      "raw": {
+        "2026": [
+          "01-02 K! 01-07 B 01-08 M 01-15 PL 01-21 B 01-22 M 01-29 K",
+          "02-04 B 02-05 M 02-12 PL 02-18 B 02-19 MST 02-26 K",
+          "03-04 B 03-05 M 03-12 PL 03-18 B 03-19 M 03-26 K",
+          "04-01 B 04-02 M 04-09 PL 04-15 B 04-16 M 04-23 K 04-29 B 04-30 M",
+          "05-07 PL 05-13 B 05-14 MST 05-21 K 05-27 B 05-28 M",
+          "06-05 PL! 06-10 B 06-11 M 06-18 K 06-24 B 06-25 M",
+          "07-02 PL 07-08 B 07-09 M 07-16 K 07-22 B 07-23 M 07-30 PL",
+          "08-06 MB! 08-13 K 08-19 B 08-20 MST 08-27 PL",
+          "09-02 B 09-03 M 09-10 K 09-16 B 09-17 M 09-24 PL 09-30 B",
+          "10-01 M 10-08 K 10-14 B 10-15 M 10-22 PL 10-28 B 10-29 M",
+          "11-05 K 11-11 B 11-12 M 11-19 PL 11-25 B 11-26 MST",
+          "12-03 K 12-09 B 12-10 M 12-17 PL 12-23 B 12-24 M 12-31 K"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Ludbreg",
+      "podrucje": "Apatija, Slokovec",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselja Apatija i Slokovec",
+      "ulice": ["Apatija", "Slokovec"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Apatija, kod društvenog doma (08:00 – 09:00): 21.01., 15.04., 15.07., 07.10.; Slokovec, kod vatrogasnog doma (09:05 – 10:05): 21.01., 15.04., 15.07., 07.10.",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 PL 01-19 MB 01-26 K",
+          "02-02 MB 02-09 PL 02-16 MBST 02-23 K",
+          "03-02 MB 03-09 PL 03-16 MB 03-23 K 03-30 MB",
+          "04-03 PL! 04-13 MB 04-20 K 04-27 MB",
+          "05-04 PL 05-11 MBST 05-18 K 05-25 MB",
+          "06-01 PL 06-08 MB 06-15 K 06-19 M! 06-23 B! 06-29 PL",
+          "07-06 MB 07-13 K 07-20 MB 07-27 PL",
+          "08-03 MB 08-10 K 08-17 MBST 08-24 PL 08-31 MB",
+          "09-07 K 09-14 MB 09-21 PL 09-28 MB",
+          "10-05 K 10-12 MB 10-19 PL 10-26 MB",
+          "11-02 K 11-09 MB 11-16 PL 11-23 MBST 11-30 K",
+          "12-07 MB 12-14 PL 12-21 MB 12-28 K"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Ludbreg",
+      "podrucje": "Sigetec",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselje Sigetec",
+      "ulice": ["Sigetec"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Sigetec, kod društvenog doma (10:10 – 11:10): 21.01., 15.04., 15.07., 07.10.",
+      "raw": {
+        "2026": [
+          "01-02 K! 01-05 B 01-08 M 01-15 PL 01-19 B 01-22 M 01-29 K",
+          "02-02 B 02-05 M 02-12 PL 02-16 B 02-19 MST 02-26 K",
+          "03-02 B 03-05 M 03-12 PL 03-16 B 03-19 M 03-26 K 03-30 B",
+          "04-02 M 04-09 PL 04-13 B 04-16 M 04-23 K 04-27 B 04-30 M",
+          "05-07 PL 05-11 B 05-14 MST 05-21 K 05-25 B 05-28 M",
+          "06-05 PL! 06-08 B 06-11 M 06-18 K 06-23 B! 06-25 M",
+          "07-02 PL 07-06 B 07-09 M 07-16 K 07-20 B 07-23 M 07-30 PL",
+          "08-03 B 08-06 M 08-13 K 08-17 B 08-20 MST 08-27 PL 08-31 B",
+          "09-03 M 09-10 K 09-14 B 09-17 M 09-24 PL 09-28 B",
+          "10-01 M 10-08 K 10-12 B 10-15 M 10-22 PL 10-26 B 10-29 M",
+          "11-05 K 11-09 B 11-12 M 11-19 PL 11-23 B 11-26 MST",
+          "12-03 K 12-07 B 12-10 M 12-17 PL 12-21 B 12-24 M 12-31 K"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Ludbreg",
+      "podrucje": "Hrastovsko",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselje Hrastovsko",
+      "ulice": ["Hrastovsko"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Hrastovsko, kod društvenog doma (14:00 – 15:00): 21.01., 15.04., 15.07., 07.10.",
+      "raw": {
+        "2026": [
+          "01-02 K 01-05 B 01-09 M 01-16 PL 01-19 B 01-23 M 01-30 K",
+          "02-02 B 02-06 M 02-13 PL 02-16 B 02-20 MST 02-27 K",
+          "03-02 B 03-06 M 03-13 PL 03-16 B 03-20 M 03-27 K 03-30 B",
+          "04-03 M 04-10 PL 04-13 B 04-17 M 04-24 K 04-27 B",
+          "05-04 M! 05-08 PL 05-11 B 05-15 MST 05-22 K 05-25 B 05-29 M",
+          "06-05 PL 06-08 B 06-12 M 06-19 K 06-23 B! 06-26 M",
+          "07-03 PL 07-06 B 07-10 M 07-17 K 07-20 B 07-24 M 07-31 PL",
+          "08-03 B 08-07 M 08-14 K 08-17 B 08-21 MST 08-28 PL 08-31 B",
+          "09-04 M 09-11 K 09-14 B 09-18 M 09-25 PL 09-28 B",
+          "10-02 M 10-09 K 10-12 B 10-16 M 10-23 PL 10-26 B 10-30 M",
+          "11-06 K 11-09 B 11-13 M 11-20 PL 11-23 B 11-27 MST",
+          "12-04 K 12-07 B 12-11 M 12-18 PL 12-21 B 12-28 M!"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Ludbreg",
+      "podrucje": "Vinogradi Ludbreški",
+      "opis": "Raspored odvoza otpada za 2026. godinu – Vinogradi Ludbreški",
+      "ulice": ["Vinogradi Ludbreški"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Vinogradi Ludbreški, kod društvenog doma (12:50 – 13:50): 19.01., 13.04., 13.07., 05.10.",
+      "raw": {
+        "2026": [
+          "01-07 MB 01-14 PL 01-21 MB 01-28 K",
+          "02-04 MB 02-11 PL 02-18 MBST 02-25 K",
+          "03-04 MB 03-11 PL 03-18 MB 03-25 K",
+          "04-01 MB 04-08 PL 04-15 MB 04-22 K 04-29 MB",
+          "05-06 PL 05-13 MBST 05-20 K 05-27 MB",
+          "06-03 PL 06-10 MB 06-17 K 06-24 MB",
+          "07-01 PL 07-08 MB 07-15 K 07-22 MB 07-29 PL",
+          "08-04 M! 08-06 B! 08-12 K 08-19 MBST 08-26 PL",
+          "09-02 MB 09-09 K 09-16 MB 09-23 PL 09-30 MB",
+          "10-07 K 10-14 MB 10-21 PL 10-28 MB",
+          "11-04 K 11-11 MB 11-17 PL! 11-25 MBST",
+          "12-02 K 12-09 MB 12-16 PL 12-23 MB 12-30 K"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Ludbreg",
+      "podrucje": "Ludbreg – Kar. Fr. Kuharića, Kratka, P. Zrinskog, Trg Slobode, …",
+      "opis": "Raspored odvoza otpada za 2026. godinu – ulica Kar. Fr. Kuharića, Kratka, P. Zrinskog, Trg Slobode, V. Lisinskog, Preloška, J. J. Štrosmajera, M. Kerstnera, A. Starčevića, A. Nemčića, Frankopanska, Hrv. Branitelja Dom. rata, Kolodvorska, V. Fizira, Varaždinska, B. Radića, Zagrebačka, A.G. Matoša",
+      "ulice": ["Kar. Fr. Kuharića", "Kratka", "P. Zrinskog", "Trg Slobode", "V. Lisinskog", "Preloška", "J. J. Štrosmajera", "M. Kerstnera", "A. Starčevića", "A. Nemčića", "Frankopanska", "Hrv. Branitelja Dom. rata", "Kolodvorska", "V. Fizira", "Varaždinska", "B. Radića", "Zagrebačka", "A.G. Matoša"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad.",
+      "raw": {
+        "2026": [
+          "01-05 MB! 01-12 PL 01-19 M 01-20 B 01-26 K",
+          "02-02 M 02-03 B 02-09 PL 02-16 MST 02-17 B 02-23 K",
+          "03-02 M 03-03 B 03-09 PL 03-16 M 03-17 B 03-23 K 03-30 M 03-31 B",
+          "04-03 PL! 04-13 M 04-14 B 04-20 K 04-27 M 04-28 B",
+          "05-04 PL 05-11 MST 05-12 B 05-18 K 05-25 M 05-26 B",
+          "06-01 PL 06-08 M 06-09 B 06-15 K 06-19 M! 06-23 B 06-29 PL",
+          "07-06 M 07-07 B 07-13 K 07-20 M 07-21 B 07-27 PL",
+          "08-03 M 08-04 B 08-10 K 08-17 MST 08-18 B 08-24 PL 08-31 M",
+          "09-01 B 09-07 K 09-14 M 09-15 B 09-21 PL 09-28 M 09-29 B",
+          "10-05 K 10-12 M 10-13 B 10-19 PL 10-26 M 10-27 B",
+          "11-02 K 11-09 M 11-10 B 11-16 PL 11-23 MST 11-24 B 11-30 K",
+          "12-07 M 12-08 B 12-14 PL 12-21 M 12-22 B 12-28 K"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Ludbreg",
+      "podrucje": "Ludbreg – Bana Josipa Jelačića, Kalnička, Ljudevita Gaja, Zagorska, …",
+      "opis": "Raspored odvoza otpada za 2026. godinu - ulica Bana Josipa Jelačića, Kalnička, Ljudevita Gaja, Zagorska, Antuna Mihanovića, Petra Krešimira, Augusta Šenoe, Školska, A. K. Miošića",
+      "ulice": ["Bana Josipa Jelačića", "Kalnička", "Ljudevita Gaja", "Zagorska", "Antuna Mihanovića", "Petra Krešimira", "Augusta Šenoe", "Školska", "A. K. Miošića"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad.",
+      "raw": {
+        "2026": [
+          "01-05 M! 01-08 B 01-13 PL 01-20 M 01-22 B 01-27 K",
+          "02-03 M 02-05 B 02-10 PL 02-17 MST 02-19 B 02-24 K",
+          "03-03 M 03-05 B 03-10 PL 03-17 M 03-19 B 03-24 K 03-31 M",
+          "04-02 B 04-07 PL 04-14 M 04-16 B 04-21 K 04-28 M 04-30 B",
+          "05-05 PL 05-12 MST 05-14 B 05-19 K 05-26 M 05-28 B",
+          "06-02 PL 06-09 M 06-11 B 06-16 K 06-23 M 06-25 B 06-30 PL",
+          "07-07 M 07-09 B 07-14 K 07-21 M 07-23 B 07-28 PL",
+          "08-04 M 08-06 B 08-11 K 08-18 MST 08-20 B 08-25 PL",
+          "09-01 M 09-03 B 09-08 K 09-15 M 09-17 B 09-22 PL 09-29 M",
+          "10-01 B 10-06 K 10-13 M 10-15 B 10-20 PL 10-27 M 10-29 B",
+          "11-03 K 11-10 M 11-12 B 11-17 PL 11-24 MST 11-26 B",
+          "12-01 K 12-08 M 12-10 B 12-15 PL 12-22 M 12-24 B 12-29 K"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Ludbreg",
+      "podrucje": "Ludbreg – Prigorska, Vinogradska, Sajmišna, Frana Galovića, …",
+      "opis": "Raspored odvoza otpada za 2026. godinu – ulica Prigorska, Vinogradska, Sajmišna, Frana Galovića, Bednjanska, Petra Preradovića, Marka Marulića, Trg Svetog Trojstva, Matije Gupca, Vladimira Nazora, Ivana Gundulića",
+      "ulice": ["Prigorska", "Vinogradska", "Sajmišna", "Frana Galovića", "Bednjanska", "Petra Preradovića", "Marka Marulića", "Trg Svetog Trojstva", "Matije Gupca", "Vladimira Nazora", "Ivana Gundulića"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-08 B 01-14 PL 01-21 M 01-22 B 01-28 K",
+          "02-04 M 02-05 B 02-11 PL 02-18 MST 02-19 B 02-25 K",
+          "03-04 M 03-05 B 03-11 PL 03-18 M 03-19 B 03-25 K",
+          "04-01 M 04-02 B 04-08 PL 04-15 M 04-16 B 04-22 K 04-29 M 04-30 B",
+          "05-06 PL 05-13 MST 05-14 B 05-20 K 05-27 M 05-28 B",
+          "06-03 PL 06-10 M 06-11 B 06-17 K 06-24 M 06-25 B",
+          "07-01 PL 07-08 M 07-09 B 07-15 K 07-22 M 07-23 B 07-29 PL",
+          "08-04 M! 08-06 B 08-12 K 08-19 MST 08-20 B 08-26 PL",
+          "09-02 M 09-03 B 09-09 K 09-16 M 09-17 B 09-23 PL 09-30 M",
+          "10-01 B 10-07 K 10-14 M 10-15 B 10-21 PL 10-28 M 10-29 B",
+          "11-04 K 11-11 M 11-12 B 11-17 PL! 11-25 MST 11-26 B",
+          "12-02 K 12-09 M 12-10 B 12-16 PL 12-23 M 12-24 B 12-30 K"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Ludbreg",
+      "podrucje": "Ludbreg – Koprivnička, Miroslava Krleže, Ul. akademika Josipa Tišljara, Marije Winter, …",
+      "opis": "Raspored odvoza otpada za 2026. godinu - ulica Koprivnička, Miroslava Krleže, Ul. akademika Josipa Tišljara, Marije Winter, Tina Ujevića, Ivane Brlić Mažuranić, Dr. Franje Tuđmana, Pavleka Mihovila Miškine, Lovački put, Rapska, Bože Hlasteca, Kardinala Alojzija Stepinca, Rudolfa Fizira, Gospodarska, Ljudevita Vrančića, Nikole Tesle",
+      "ulice": ["Koprivnička", "Miroslava Krleže", "Ul. akademika Josipa Tišljara", "Marije Winter", "Tina Ujevića", "Ivane Brlić Mažuranić", "Dr. Franje Tuđmana", "Pavleka Mihovila Miškine", "Lovački put", "Rapska", "Bože Hlasteca", "Kardinala Alojzija Stepinca", "Rudolfa Fizira", "Gospodarska", "Ljudevita Vrančića", "Nikole Tesle"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad.",
+      "raw": {
+        "2026": [
+          "01-02 K! 01-05 B! 01-08 M 01-15 PL 01-20 B 01-22 M 01-29 K",
+          "02-03 B 02-05 M 02-12 PL 02-17 B 02-19 MST 02-26 K",
+          "03-03 B 03-05 M 03-12 PL 03-17 B 03-19 M 03-26 K 03-31 B",
+          "04-02 M 04-09 PL 04-14 B 04-16 M 04-23 K 04-28 B 04-30 M",
+          "05-07 PL 05-12 B 05-14 MST 05-21 K 05-26 B 05-28 M",
+          "06-05 PL! 06-09 B 06-11 M 06-18 K 06-23 B 06-25 M",
+          "07-02 PL 07-07 B 07-09 M 07-16 K 07-21 B 07-23 M 07-30 PL",
+          "08-04 B 08-06 M 08-13 K 08-18 B 08-20 MST 08-27 PL",
+          "09-01 B 09-03 M 09-10 K 09-15 B 09-17 M 09-24 PL 09-29 B",
+          "10-01 M 10-08 K 10-13 B 10-15 M 10-22 PL 10-27 B 10-29 M",
+          "11-05 K 11-10 B 11-12 M 11-19 PL 11-24 B 11-26 MST",
+          "12-03 K 12-08 B 12-10 M 12-17 PL 12-22 B 12-24 M 12-31 K"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Ludbreg",
+      "podrucje": "Povremeni korisnici – Vinogradi Ludbreški (Budim, Črn-Bel, Graci, …)",
+      "opis": "NASELJE VINOGRADI LUDBREŠKI, ULICE: Budim, Črn-Bel, Graci, Izvorska, Poljansko, Puhlaki, Ravnice, Starjak, Ul. Ludbreških Branitelja Vukovara, Vinograci, Vinogradec",
+      "ulice": ["Budim", "Črn-Bel", "Graci", "Izvorska", "Poljansko", "Puhlaki", "Ravnice", "Starjak", "Ul. Ludbreških Branitelja Vukovara", "Vinograci", "Vinogradec", "Vinogradi Ludbreški"],
+      "napomena": "Samo za povremene korisnike: miješani komunalni otpad u vrećama od 60 l (vreće se podižu u Lukomu, Koprivnička 17, ili se šalju na adresu).",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-29 M",
+          "02-26 M",
+          "03-26 M",
+          "04-23 M",
+          "05-21 M",
+          "06-18 M",
+          "07-16 M",
+          "08-13 M",
+          "09-10 M",
+          "10-08 M",
+          "11-05 M",
+          "12-03 M 12-31 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Ludbreg",
+      "podrucje": "Povremeni korisnici – Vinogradi Ludbreški (Cvjetna, Gaj, Gorički put, …)",
+      "opis": "NASELJE VINOGRADI LUDBREŠKI, ULICE: Cvjetna, Gaj, Gorički put, Gornjogradska, Katalena, Križevačka, Mirna, Podravska, Prigorska, Ribnjak, Sigečak",
+      "ulice": ["Cvjetna", "Gaj", "Gorički put", "Gornjogradska", "Katalena", "Križevačka", "Mirna", "Podravska", "Prigorska", "Ribnjak", "Sigečak", "Vinogradi Ludbreški"],
+      "napomena": "Samo za povremene korisnike: miješani komunalni otpad u vrećama od 60 l (vreće se podižu u Lukomu, Koprivnička 17, ili se šalju na adresu).",
+      "raw": {
+        "2026": [
+          "01-02 M 01-30 M",
+          "02-27 M",
+          "03-27 M",
+          "04-24 M",
+          "05-22 M",
+          "06-19 M",
+          "07-17 M",
+          "08-14 M",
+          "09-11 M",
+          "10-09 M",
+          "11-06 M",
+          "12-04 M 12-31 M!"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Ludbreg",
+      "podrucje": "Povremeni korisnici – Čukovec, Globočec, Segovina",
+      "opis": "NASELJA ČUKOVEC, GLOBOČEC, SEGOVINA",
+      "ulice": ["Čukovec", "Globočec", "Segovina"],
+      "napomena": "Samo za povremene korisnike: miješani komunalni otpad u vrećama od 60 l (vreće se podižu u Lukomu, Koprivnička 17, ili se šalju na adresu).",
+      "raw": {
+        "2026": [
+          "01-15 M",
+          "02-12 M",
+          "03-12 M",
+          "04-09 M",
+          "05-07 M",
+          "06-03 M!",
+          "07-02 M 07-30 M",
+          "08-27 M",
+          "09-24 M",
+          "10-22 M",
+          "11-19 M",
+          "12-17 M"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Ludbreg",
+      "podrucje": "Povremeni korisnici – Bolfan, Hrastovsko, Ludbreg",
+      "opis": "NASELJA BOLFAN, HRASTOVSKO, LUDBREG",
+      "ulice": ["Bolfan", "Hrastovsko", "Ludbreg"],
+      "napomena": "Samo za povremene korisnike: miješani komunalni otpad u vrećama od 60 l (vreće se podižu u Lukomu, Koprivnička 17, ili se šalju na adresu).",
+      "raw": {
+        "2026": [
+          "01-16 M",
+          "02-13 M",
+          "03-13 M",
+          "04-10 M",
+          "05-08 M",
+          "06-05 M",
+          "07-03 M 07-31 M",
+          "08-28 M",
+          "09-25 M",
+          "10-23 M",
+          "11-20 M",
+          "12-18 M"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Mali Bukovec",
+      "podrucje": "Općina Mali Bukovec",
+      "opis": "Raspored odvoza otpada za 2026. godinu – Općina Mali Bukovec",
+      "ulice": ["Lunjkovec", "Mali Bukovec", "Martinić", "Novo Selo Podravsko", "Sveti Petar", "Županec"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Mali Bukovec, na parkiralištu kod groblja (12:00 – 16:00): 22.01., 16.04., 16.07., 08.10.; Novo Selo Podravsko, kod vage – za Novo Selo Podravsko i Županec (12:00 – 16:00): 23.01., 17.04., 17.07., 09.10.; Lunjkovec, kod društvenog doma – za Lunjkovec i Martinić (12:00 – 16:00): 26.01., 20.04., 20.07., 12.10.; Sveti Petar, kod vatrogasnog spremišta (12:00 – 16:00): 27.01., 21.04., 21.07., 13.10.",
+      "raw": {
+        "2026": [
+          "01-05 M 01-08 B 01-12 P 01-19 M 01-22 B 01-26 KL",
+          "02-02 M 02-05 B 02-09 P 02-16 M 02-19 B 02-23 KL",
+          "03-02 MS 03-05 B 03-09 P 03-16 MT 03-19 B 03-23 KL 03-30 M",
+          "04-02 B 04-07 P! 04-13 M 04-16 B 04-20 KL 04-27 M 04-30 B",
+          "05-04 P 05-11 M 05-14 B 05-18 KL 05-25 M 05-28 B",
+          "06-01 P 06-08 MS 06-11 B 06-15 KL 06-19 MT! 06-25 B 06-29 P",
+          "07-06 M 07-09 B 07-13 KL 07-20 M 07-23 B 07-27 P",
+          "08-03 M 08-06 B 08-10 KL 08-17 M 08-20 B 08-24 P 08-31 MS",
+          "09-03 B 09-07 KL 09-14 MT 09-17 B 09-21 P 09-28 M",
+          "10-01 B 10-05 KL 10-12 M 10-15 B 10-19 P 10-26 M 10-29 B",
+          "11-02 KL 11-09 M 11-12 B 11-16 P 11-23 M 11-26 B 11-30 KL",
+          "12-07 MS 12-10 B 12-14 P 12-21 MT 12-24 B 12-28 KL"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Veliki Bukovec",
+      "podrucje": "Općina Veliki Bukovec",
+      "opis": "Raspored odvoza otpada za 2026. godinu – Općina Veliki Bukovec",
+      "ulice": ["Dubovica", "Kapela Podravska", "Veliki Bukovec"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Veliki Bukovec, kod društvenog doma (12:00 – 16:00): 28.01., 22.04., 22.07., 14.10.; Dubovica, kod društvenog doma (12:00 – 16:00): 29.01., 23.04., 23.07., 15.10.; Kapela Podravska, kod društvenog doma (12:00 – 16:00): 30.01., 24.04., 24.07., 16.10.",
+      "raw": {
+        "2026": [
+          "01-07 M 01-08 B 01-14 P 01-21 M 01-22 B 01-28 KL",
+          "02-04 M 02-05 B 02-11 P 02-18 M 02-19 B 02-25 KL",
+          "03-04 MS 03-05 B 03-11 P 03-18 MT 03-19 B 03-25 KL",
+          "04-01 M 04-02 B 04-08 P 04-15 M 04-16 B 04-22 KL 04-29 M 04-30 B",
+          "05-06 P 05-13 M 05-14 B 05-20 KL 05-27 M 05-28 B",
+          "06-03 P 06-10 MS 06-11 B 06-17 KL 06-24 MT 06-25 B",
+          "07-01 P 07-08 M 07-09 B 07-15 KL 07-22 M 07-23 B 07-29 P",
+          "08-06 MB! 08-12 KL 08-19 M 08-20 B 08-26 P",
+          "09-02 MS 09-03 B 09-09 KL 09-16 MT 09-17 B 09-23 P 09-30 M",
+          "10-01 B 10-07 KL 10-14 M 10-15 B 10-21 P 10-28 M 10-29 B",
+          "11-04 KL 11-11 M 11-12 B 11-19 P! 11-25 M 11-26 B",
+          "12-02 KL 12-09 MS 12-10 B 12-16 P 12-23 MT 12-24 B 12-30 KL"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Sveti Đurđ",
+      "podrucje": "Hrženica, Karlovec Ludbreški, Obrankovec, Priles, Sveti Đurđ",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselja Hrženica, Karlovec Ludbreški, Obrankovec, Priles, Sveti Đurđ",
+      "ulice": ["Hrženica", "Karlovec Ludbreški", "Obrankovec", "Priles", "Sveti Đurđ"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Hrženica, kod društvenog doma (08:00-09:00): 20.01., 14.04., 14.07., 06.10.; Karlovec Ludbreški, kod društvenog doma (11:45-12:45): 20.01., 14.04., 14.07., 06.10.; Sveti Đurđ, kod društvenog doma – za SVETI ĐURĐ, PRILES, OBRANKOVEC (10:10-11:10): 20.01., 14.04., 14.07., 06.10.",
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 M! 01-13 P 01-19 B 01-20 M 01-27 KL",
+          "02-02 B 02-03 M 02-10 P 02-16 B 02-17 M 02-24 KL",
+          "03-02 B 03-03 MS 03-10 P 03-16 B 03-17 MT 03-24 KL 03-30 B 03-31 M",
+          "04-07 P 04-13 B 04-14 M 04-21 KL 04-27 B 04-28 M",
+          "05-05 P 05-11 B 05-12 M 05-19 KL 05-25 B 05-26 M",
+          "06-02 P 06-08 B 06-09 MS 06-16 KL 06-23 MBT! 06-30 P",
+          "07-06 B 07-07 M 07-14 KL 07-20 B 07-21 M 07-28 P",
+          "08-03 B 08-04 M 08-11 KL 08-17 B 08-18 M 08-25 P 08-31 B",
+          "09-01 MS 09-08 KL 09-14 B 09-15 MT 09-22 P 09-28 B 09-29 M",
+          "10-06 KL 10-12 B 10-13 M 10-20 P 10-26 B 10-27 M",
+          "11-03 KL 11-09 B 11-10 M 11-17 P 11-23 B 11-24 M",
+          "12-01 KL 12-07 B 12-08 MS 12-15 P 12-21 B 12-22 MT 12-29 KL"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Sveti Đurđ",
+      "podrucje": "Komarnica Ludbreška, Luka Ludbreška",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselje Komarnica Ludbreška, Luka Ludbreška",
+      "ulice": ["Komarnica Ludbreška", "Luka Ludbreška"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad.",
+      "raw": {
+        "2026": [
+          "01-02 KL 01-05 B 01-09 M 01-16 P 01-19 B 01-23 M 01-30 KL",
+          "02-02 B 02-06 M 02-13 P 02-16 B 02-20 M 02-27 KL",
+          "03-02 B 03-06 MS 03-13 P 03-16 B 03-20 MT 03-27 KL 03-30 B",
+          "04-03 M 04-10 P 04-13 B 04-17 M 04-24 KL 04-27 B",
+          "05-04 M! 05-08 P 05-11 B 05-15 M 05-22 KL 05-25 B 05-29 M",
+          "06-05 P 06-08 B 06-12 MS 06-19 KL 06-23 B! 06-26 MT",
+          "07-03 P 07-06 B 07-10 M 07-17 KL 07-20 B 07-24 M 07-31 P",
+          "08-03 B 08-07 M 08-14 KL 08-17 B 08-21 M 08-28 P 08-31 B",
+          "09-04 MS 09-11 KL 09-14 B 09-18 MT 09-25 P 09-28 B",
+          "10-02 M 10-09 KL 10-12 B 10-16 M 10-23 P 10-26 B 10-30 M",
+          "11-06 KL 11-09 B 11-13 M 11-20 P 11-23 B 11-27 M",
+          "12-04 KL 12-07 B 12-11 MS 12-18 P 12-21 B 12-28 MT!"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Sveti Đurđ",
+      "podrucje": "Sesvete Ludbreške",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselje Sesvete Ludbreške",
+      "ulice": ["Sesvete Ludbreške"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Sesvete, kod igrališta (14:00-15:00): 20.01., 14.04., 14.07., 06.10.",
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 P 01-19 MB 01-26 KL",
+          "02-02 MB 02-09 P 02-16 MB 02-23 KL",
+          "03-02 MBS 03-09 P 03-16 MBT 03-23 KL 03-30 MB",
+          "04-07 P! 04-13 MB 04-20 KL 04-27 MB",
+          "05-04 P 05-11 MB 05-18 KL 05-25 MB",
+          "06-01 P 06-08 MBS 06-15 KL 06-19 MT! 06-23 B! 06-29 P",
+          "07-06 MB 07-13 KL 07-20 MB 07-27 P",
+          "08-03 MB 08-10 KL 08-17 MB 08-24 P 08-31 MBS",
+          "09-07 KL 09-14 MBT 09-21 P 09-28 MB",
+          "10-05 KL 10-12 MB 10-19 P 10-26 MB",
+          "11-02 KL 11-09 MB 11-16 P 11-23 MB 11-30 KL",
+          "12-07 MBS 12-14 P 12-21 MBT 12-28 KL"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Sveti Đurđ",
+      "podrucje": "Struga",
+      "opis": "Raspored odvoza otpada za 2026. godinu – naselje Struga",
+      "ulice": ["Struga"],
+      "napomena": "Dječje pelene (posebne vreće) odvoze se istim danima kao miješani komunalni otpad. Mobilno reciklažno dvorište – Struga, kod igrališta (12:50-13:50): 20.01., 14.04., 14.07., 06.10.",
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 M 01-14 P 01-19 B 01-21 M 01-28 KL",
+          "02-02 B 02-04 M 02-11 P 02-16 B 02-18 M 02-25 KL",
+          "03-02 B 03-04 MS 03-11 P 03-16 B 03-18 MT 03-25 KL 03-30 B",
+          "04-01 M 04-08 P 04-13 B 04-15 M 04-22 KL 04-27 B 04-29 M",
+          "05-06 P 05-11 B 05-13 M 05-20 KL 05-25 B 05-27 M",
+          "06-03 P 06-08 B 06-10 MS 06-17 KL 06-23 B! 06-24 MT",
+          "07-01 P 07-06 B 07-08 M 07-15 KL 07-20 B 07-22 M 07-29 P",
+          "08-03 B 08-06 M! 08-12 KL 08-17 B 08-19 M 08-26 P 08-31 B",
+          "09-02 MS 09-09 KL 09-14 B 09-16 MT 09-23 P 09-28 B 09-30 M",
+          "10-07 KL 10-12 B 10-14 M 10-21 P 10-26 B 10-28 M",
+          "11-04 KL 11-09 B 11-11 M 11-19 P! 11-23 B 11-25 M",
+          "12-02 KL 12-07 B 12-09 MS 12-16 P 12-21 B 12-23 MT 12-30 KL"
+        ]
+      }
+    }
+  }
+}

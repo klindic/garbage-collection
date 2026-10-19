@@ -1,0 +1,1409 @@
+{
+  "davatelj": "KD Čistoća d.o.o.",
+  "web": "https://cistocarijeka.hr",
+  "zupanija": "Primorsko-goranska",
+  "jls": ["Rijeka", "Bakar", "Kastav", "Kraljevica", "Kostrena", "Viškovo", "Čavle", "Jelenje", "Klana"],
+  "nazivi": {"M": "Miješani komunalni otpad (zeleni spremnik)", "P": "Plastična, metalna i višeslojna ambalaža", "B": "Biootpad (biorazgradive vrećice)"},
+  "napomene": ["Spremnik se na dan odvoza postavlja na dosadašnje mjesto primopredaje na javnoj površini najkasnije do 06:30.", "Odvoz se obavlja i na blagdane, osim kad je u kalendaru rute naveden zamjenski termin.", "U Rijeci raspored odvoza individualnih spremnika imaju mjesni odbori s rutama 1A do 7B (Draga, Orehovica, Pašac, Sveti Kuzam, Svilno, Grbci, Gornji Zamet, Pehlin, Srdoči, Škurinje, Zamet, Sveti Nikola, Kantrida, Drenova, Brašćine-Pulac, Turnić); ostali dijelovi grada, uključujući središte, koriste zajedničke spremnike na javnim površinama i nemaju raspored po kućanstvu.", "Staklo i tekstil predaju se u zajedničke spremnike na javnim površinama; glomazni i zeleni otpad odvoze se besplatno s adrese na zahtjev, a ostali otpad predaje se u reciklažno dvorište.", "Informacije: KD Čistoća, 0800 999 900, info@cistoca-ri.hr."],
+  "izvor": "https://cistocarijeka.hr/zbrinjavanje-otpada/prikupljanje-otpada-od-vrata-do-vrata/",
+  "zone": {
+    "1A": {
+      "jls": "Rijeka",
+      "podrucje": "MO Draga, MO Orehovica, MO Pašac, MO Sveti Kuzam, MO Svilno, ruta 1A",
+      "ulice": ["Brig", "Brig Draga", "Gušć", "Gušć Draga", "Orlići", "Pelinova Gora", "Pod Ohrušvom", "Sveti Kuzam", "Tijani", "Tijani Draga"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-03 M 01-09 K 01-10 M 01-17 M 01-24 M 01-31 M",
+          "02-06 P 02-07 M 02-13 K 02-14 M 02-21 M 02-28 M",
+          "03-06 P 03-07 M 03-13 K 03-14 M 03-21 M 03-28 M",
+          "04-03 P 04-04 M 04-10 K 04-11 M 04-18 M 04-25 M",
+          "05-01 P 05-02 M 05-08 K 05-09 M 05-16 M 05-23 M 05-30 M",
+          "06-05 P 06-06 M 06-12 K 06-13 M 06-20 M 06-27 M",
+          "07-03 P 07-04 M 07-10 K 07-11 M 07-18 M 07-25 M",
+          "08-01 M 08-07 P 08-08 M 08-14 K 08-15 M 08-22 M 08-29 M",
+          "09-04 P 09-05 M 09-11 K 09-12 M 09-19 M 09-26 M",
+          "10-02 P 10-03 M 10-09 K 10-10 M 10-17 M 10-24 M 10-31 M",
+          "11-06 P 11-07 M 11-13 K 11-14 M 11-21 M 11-28 M",
+          "12-04 P 12-05 M 12-11 K 12-12 M 12-19 M 12-26 M 12-29 P!"
+        ]
+      }
+    },
+    "1B": {
+      "jls": "Rijeka",
+      "podrucje": "MO Draga, MO Orehovica, MO Pašac, MO Sveti Kuzam, MO Svilno, ruta 1B",
+      "ulice": ["Brig", "Brig Draga", "Grbaste", "Kačjak", "Orlići", "Pelinova Gora", "Svilno", "Svilno Grbaste", "Tomasići", "Tutnovo", "Zdravka Kučića"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-16 P 01-20 M 01-23 K 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-20 P 02-24 M 02-27 K",
+          "03-03 M 03-10 M 03-17 M 03-20 P 03-24 M 03-27 K 03-31 M",
+          "04-07 M 04-14 M 04-17 P 04-21 M 04-24 K 04-28 M",
+          "05-05 M 05-12 M 05-15 P 05-19 M 05-22 K 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-19 P 06-23 M 06-26 K 06-30 M",
+          "07-07 M 07-14 M 07-17 P 07-21 M 07-24 K 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-21 P 08-25 M 08-28 K",
+          "09-01 M 09-08 M 09-15 M 09-18 P 09-22 M 09-25 K 09-29 M",
+          "10-06 M 10-13 M 10-16 P 10-20 M 10-23 K 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-20 P 11-24 M 11-27 K",
+          "12-01 M 12-08 M 12-15 M 12-18 P 12-22 M 12-29 M 12-31 K!"
+        ]
+      }
+    },
+    "1C": {
+      "jls": "Rijeka",
+      "podrucje": "MO Draga, MO Orehovica, MO Pašac, MO Sveti Kuzam, MO Svilno, ruta 1C",
+      "ulice": ["Balde Fućka", "Braće Ružić", "Braće Vlah", "Dragutina Tomića", "Grobnička cesta", "Grohovo", "Grohovski put", "Kačjak", "Kalina", "Kljun", "Koporovo", "Marice Broznić", "Pašac", "Petorice Strijeljanih", "Put pod Rebar"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-19 P 01-21 M 01-26 K 01-28 M",
+          "02-04 M 02-11 M 02-16 P 02-18 M 02-23 K 02-25 M",
+          "03-04 M 03-11 M 03-16 P 03-18 M 03-23 K 03-25 M",
+          "04-01 M 04-08 M 04-15 M 04-20 P 04-22 M 04-27 K 04-29 M",
+          "05-06 M 05-13 M 05-18 P 05-20 M 05-25 K 05-27 M",
+          "06-03 M 06-10 M 06-15 P 06-17 M 06-22 K 06-24 M",
+          "07-01 M 07-08 M 07-15 M 07-20 P 07-22 M 07-27 K 07-29 M",
+          "08-05 M 08-12 M 08-17 P 08-19 M 08-24 K 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-21 P 09-23 M 09-28 K 09-30 M",
+          "10-07 M 10-14 M 10-19 P 10-21 M 10-26 K 10-28 M",
+          "11-04 M 11-11 M 11-16 P 11-18 M 11-23 K 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-21 P 12-23 M 12-28 K 12-30 M"
+        ]
+      }
+    },
+    "2A": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2A",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Ante Mandića", "Bitorajska", "Čavalsko", "Ćićarijska", "Dalmatinska", "Diračje", "Dolčić", "Dražička", "Franje Pilepića Pavina", "Hosti", "Josipa Mohorića", "Maria Gennaria", "Marije Grbac", "Mate Sušnja", "Pletenci", "Plitvička", "Primorska", "Rujevica", "Slavka Hrvatina", "Soldanac", "Tići", "Turkovo", "Vrhovo", "Zametskog Korena"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 P 01-12 M 01-14 K 01-19 M 01-26 M",
+          "02-02 M 02-04 P 02-09 M 02-11 K 02-16 M 02-23 M",
+          "03-02 M 03-04 P 03-09 M 03-11 K 03-16 M 03-23 M 03-30 M",
+          "04-01 P 04-06 M 04-08 K 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-06 P 05-11 M 05-13 K 05-18 M 05-25 M",
+          "06-01 M 06-03 P 06-08 M 06-10 K 06-15 M 06-22 M 06-29 M",
+          "07-01 P 07-06 M 07-08 K 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-05 P 08-10 M 08-12 K 08-17 M 08-24 M 08-31 M",
+          "09-02 P 09-07 M 09-09 K 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-07 P 10-12 M 10-14 K 10-19 M 10-26 M",
+          "11-02 M 11-04 P 11-09 M 11-11 K 11-16 M 11-23 M 11-30 M",
+          "12-02 P 12-07 M 12-09 K 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2B": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2B",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Borik", "Bože Starca Jurićeva", "Buzetska", "Crikvenička", "Čabarska", "Dražička", "Drnjevići", "Josipa Mohorića", "Kudej", "Maria Gennaria", "Marije Grbac", "Mosorska", "Pazinska", "Pehlin", "Primorska", "Ravnik", "Rujevica", "Starci", "Stari put", "Vladivoja i Milivoja Lenca", "Vukovarska"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-08 M 01-09 K 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-06 P 02-12 M 02-13 K 02-19 M 02-26 M",
+          "03-05 M 03-06 P 03-12 M 03-13 K 03-19 M 03-26 M",
+          "04-02 M 04-03 P 04-09 M 04-10 K 04-16 M 04-23 M 04-30 M",
+          "05-01 P 05-07 M 05-08 K 05-14 M 05-21 M 05-28 M",
+          "06-04 M 06-05 P 06-11 M 06-12 K 06-18 M 06-25 M",
+          "07-02 M 07-03 P 07-09 M 07-10 K 07-16 M 07-23 M 07-30 M",
+          "08-06 M 08-07 P 08-13 M 08-14 K 08-20 M 08-27 M",
+          "09-03 M 09-04 P 09-10 M 09-11 K 09-17 M 09-24 M",
+          "10-01 M 10-02 P 10-08 M 10-09 K 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-06 P 11-12 M 11-13 K 11-19 M 11-26 M",
+          "12-03 M 12-04 P 12-10 M 12-11 K 12-17 M 12-24 M 12-30 P! 12-31 M"
+        ]
+      }
+    },
+    "2C": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2C",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Ante Modrušana", "Antuna Branka Šimića", "Antuna Gustava Matoša", "Baćići", "Bartola Kašića", "Diračje", "Dobriše Cesarića", "Dragutina Tadijanovića", "Dražice Zamet", "Gustava Krkleca", "Ivana Dončevića", "Kurirski put", "Markovići", "Martinkovac", "Mate Lovraka", "Miroslava Krleže", "Murini", "Srdoči", "Tina Ujevića", "Tonžino"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-06 M 01-09 K 01-13 M 01-20 M 01-27 M",
+          "02-03 M 02-06 P 02-10 M 02-13 K 02-17 M 02-24 M",
+          "03-03 M 03-06 P 03-10 M 03-13 K 03-17 M 03-24 M 03-31 M",
+          "04-03 P 04-07 M 04-10 K 04-14 M 04-21 M 04-28 M",
+          "05-01 P 05-05 M 05-08 K 05-12 M 05-19 M 05-26 M",
+          "06-02 M 06-05 P 06-09 M 06-12 K 06-16 M 06-23 M 06-30 M",
+          "07-03 P 07-07 M 07-10 K 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-07 P 08-11 M 08-14 K 08-18 M 08-25 M",
+          "09-01 M 09-04 P 09-08 M 09-11 K 09-15 M 09-22 M 09-29 M",
+          "10-02 P 10-06 M 10-09 K 10-13 M 10-20 M 10-27 M",
+          "11-03 M 11-06 P 11-10 M 11-13 K 11-17 M 11-24 M",
+          "12-01 M 12-04 P 12-08 M 12-11 K 12-15 M 12-22 M 12-29 M 12-30 P!"
+        ]
+      }
+    },
+    "2D": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2D",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Ante Mandića", "Baretićevo", "Bartolovo", "Bilogorska", "Blažićevo A", "Blažićevo B", "Blažićevo C", "Brigača", "Hosti", "Mate Sušnja", "Milice Jadranić", "Pehlin", "Plasi", "Plješivička", "Put Lovrankini", "Slavinj", "Snežnička", "Škurinje", "Škurinjska cesta", "Tibljaška cesta", "Tići", "Turkovo", "Vukovarska"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-10 M 01-16 P 01-17 M 01-23 K 01-24 M 01-31 M",
+          "02-07 M 02-14 M 02-20 P 02-21 M 02-27 K 02-28 M",
+          "03-07 M 03-14 M 03-20 P 03-21 M 03-27 K 03-28 M",
+          "04-04 M 04-11 M 04-17 P 04-18 M 04-24 K 04-25 M",
+          "05-02 M 05-09 M 05-15 P 05-16 M 05-22 K 05-23 M 05-30 M",
+          "06-06 M 06-13 M 06-19 P 06-20 M 06-26 K 06-27 M",
+          "07-04 M 07-11 M 07-17 P 07-18 M 07-24 K 07-25 M",
+          "08-01 M 08-08 M 08-15 M 08-21 P 08-22 M 08-28 K 08-29 M",
+          "09-05 M 09-12 M 09-18 P 09-19 M 09-25 K 09-26 M",
+          "10-03 M 10-10 M 10-16 P 10-17 M 10-23 K 10-24 M 10-31 M",
+          "11-07 M 11-14 M 11-20 P 11-21 M 11-27 K 11-28 M",
+          "12-05 M 12-12 M 12-18 P 12-19 M 12-26 M 12-30 K!"
+        ]
+      }
+    },
+    "2E": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2E",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Andrije Mohorovičića", "Ante Mandića", "Baćići", "Dinka Šimunovića", "Diraki", "Dražice Zamet", "Furinac", "Ive Vojnovića", "Josipa Voltića", "Jurja Dobrile", "Kurirski put", "Markovići", "Martinkovac", "Mate Lovraka", "Rešetari (Kastav)", "Srdoči", "Vladimira Čerine"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-15 P 01-19 M 01-22 K 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-19 P 02-23 M 02-26 K",
+          "03-02 M 03-09 M 03-16 M 03-19 P 03-23 M 03-26 K 03-30 M",
+          "04-06 M 04-13 M 04-16 P 04-20 M 04-23 K 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-21 P 05-25 M 05-28 K",
+          "06-01 M 06-08 M 06-15 M 06-18 P 06-22 M 06-25 K 06-29 M",
+          "07-06 M 07-13 M 07-16 P 07-20 M 07-23 K 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-20 P 08-24 M 08-27 K 08-31 M",
+          "09-07 M 09-14 M 09-17 P 09-21 M 09-24 K 09-28 M",
+          "10-05 M 10-12 M 10-15 P 10-19 M 10-22 K 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-19 P 11-23 M 11-26 K 11-30 M",
+          "12-07 M 12-14 M 12-17 P 12-21 M 12-24 K 12-28 M"
+        ]
+      }
+    },
+    "2F": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2F",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Androv Breg", "Baretićevo", "Blažićevo A", "Blažićevo B", "Blažićevo C", "Blažićevo D", "Hosti", "Mihovilići", "Milice Jadranić", "Minakovo", "Pehlin", "Pletenci", "Trampi", "Trampov Breg (Viškovo)"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-10 M 01-16 P 01-17 M 01-23 K 01-24 M 01-31 M",
+          "02-07 M 02-14 M 02-20 P 02-21 M 02-27 K 02-28 M",
+          "03-07 M 03-14 M 03-20 P 03-21 M 03-27 K 03-28 M",
+          "04-04 M 04-11 M 04-17 P 04-18 M 04-24 K 04-25 M",
+          "05-02 M 05-09 M 05-15 P 05-16 M 05-22 K 05-23 M 05-30 M",
+          "06-06 M 06-13 M 06-19 P 06-20 M 06-26 K 06-27 M",
+          "07-04 M 07-11 M 07-17 P 07-18 M 07-24 K 07-25 M",
+          "08-01 M 08-08 M 08-15 M 08-21 P 08-22 M 08-28 K 08-29 M",
+          "09-05 M 09-12 M 09-18 P 09-19 M 09-25 K 09-26 M",
+          "10-03 M 10-10 M 10-16 P 10-17 M 10-23 K 10-24 M 10-31 M",
+          "11-07 M 11-14 M 11-20 P 11-21 M 11-27 K 11-28 M",
+          "12-05 M 12-12 M 12-18 P 12-19 M 12-26 M 12-29 K!"
+        ]
+      }
+    },
+    "2G": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2G",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Bartolovo", "Bilogorska", "Bogomira Ćikovića Marčeva", "Ćićarijska", "Franje Pilepića Pavina", "Ivana Pilepića Franovičina", "Milice Jadranić", "Pilepići", "Plješivička", "Škrobotovac", "Tići", "Trampi", "Trstenička", "Vladivoja i Milivoja Lenca", "Zametskog Korena"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-21 P 01-27 M 01-28 K",
+          "02-03 M 02-10 M 02-17 M 02-18 P 02-24 M 02-25 K",
+          "03-03 M 03-10 M 03-17 M 03-18 P 03-24 M 03-25 K 03-31 M",
+          "04-07 M 04-14 M 04-15 P 04-21 M 04-22 K 04-28 M",
+          "05-05 M 05-12 M 05-19 M 05-20 P 05-26 M 05-27 K",
+          "06-02 M 06-09 M 06-16 M 06-17 P 06-23 M 06-24 K 06-30 M",
+          "07-07 M 07-14 M 07-15 P 07-21 M 07-22 K 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-19 P 08-25 M 08-26 K",
+          "09-01 M 09-08 M 09-15 M 09-16 P 09-22 M 09-23 K 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-21 P 10-27 M 10-28 K",
+          "11-03 M 11-10 M 11-17 M 11-18 P 11-24 M 11-25 K",
+          "12-01 M 12-08 M 12-15 M 12-16 P 12-22 M 12-23 K 12-29 M"
+        ]
+      }
+    },
+    "2H": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2H",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Androv Breg", "Baretićevo", "Hosti", "Mihovilići", "Minakovo", "Pehlin", "Plasi", "Škurinjska cesta", "Škurinjskih boraca", "Tibljaška cesta", "Turkovo", "Turkovo (Viškovo)"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-08 M 01-14 K 01-15 M 01-22 M 01-29 M",
+          "02-04 P 02-05 M 02-11 K 02-12 M 02-19 M 02-26 M",
+          "03-04 P 03-05 M 03-11 K 03-12 M 03-19 M 03-26 M",
+          "04-01 P 04-02 M 04-08 K 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-06 P 05-07 M 05-13 K 05-14 M 05-21 M 05-28 M",
+          "06-03 P 06-04 M 06-10 K 06-11 M 06-18 M 06-25 M",
+          "07-01 P 07-02 M 07-08 K 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-05 P 08-06 M 08-12 K 08-13 M 08-20 M 08-27 M",
+          "09-02 P 09-03 M 09-09 K 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-07 P 10-08 M 10-14 K 10-15 M 10-22 M 10-29 M",
+          "11-04 P 11-05 M 11-11 K 11-12 M 11-19 M 11-26 M",
+          "12-02 P 12-03 M 12-09 K 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "2I": {
+      "jls": "Rijeka",
+      "podrucje": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje, ruta 2I",
+      "opis": "MO Grbci, MO Gornji Zamet, MO Pehlin, MO Srdoči, MO Škurinje (ulice: Tibljaška cesta, Škurinjskih boraca, Škurinjska cesta, Škurinje, Put Lovrankini)",
+      "ulice": ["Bože Starca Jurićeva", "Čavalsko", "I.Pilep.Franovičina", "Ivana Grpca Strinina", "Ivana Pilepića Franovičina", "Josipa Lenca Spodolčeva", "Josipa Mohorića", "Kalići", "Kapelska", "Košićevac", "Milice Jadranić", "Mosorska", "Nehajska", "Njivina", "Obručka", "Pilepići", "Pužići", "Selinari", "Soldanac", "Sušačko Kastavskog Odreda", "Škarpa", "Šumci", "Vrhovo"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-05 M 01-09 K 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-06 P 02-09 M 02-13 K 02-16 M 02-23 M",
+          "03-02 M 03-06 P 03-09 M 03-13 K 03-16 M 03-23 M 03-30 M",
+          "04-03 P 04-06 M 04-10 K 04-13 M 04-20 M 04-27 M",
+          "05-01 P 05-04 M 05-08 K 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-05 P 06-08 M 06-12 K 06-15 M 06-22 M 06-29 M",
+          "07-03 P 07-06 M 07-10 K 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-07 P 08-10 M 08-14 K 08-17 M 08-24 M 08-31 M",
+          "09-04 P 09-07 M 09-11 K 09-14 M 09-21 M 09-28 M",
+          "10-02 P 10-05 M 10-09 K 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-06 P 11-09 M 11-13 K 11-16 M 11-23 M 11-30 M",
+          "12-04 P 12-07 M 12-11 K 12-14 M 12-21 M 12-28 M 12-29 P!"
+        ]
+      }
+    },
+    "3A": {
+      "jls": "Rijeka",
+      "podrucje": "MO Zamet – MO Sveti Nikola, dio, ruta 3A",
+      "ulice": ["Ante Pilepića", "Antuna Kosića Rika", "Avelina Turka", "Baredice", "Becićeva", "Bože Vidasa", "Braće Baćić", "Braće Cetina", "Braće Fućak", "Braće Mohorić", "Braće Monjac", "Crnčićeva", "Ćirila Kosovela", "Diračje", "Giuseppea Carabina", "Ivana Ćikovića Belog", "Ivana Lenca", "Ivana Luppisa", "Ivana Zavidića", "Ivekovićeva", "Karasova", "Krnjevo", "Ludvetov Breg", "Marijana Stepčića", "Medovićeva", "Meštrovićeva", "Milana Udovića", "Milutina Bataje", "Mirka Jengića", "Nova cesta", "Petra Jurčića", "Slavka Tomašića", "Vladivoja i Milivoja Lenca", "Zametska", "Zvonimirova"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-07 P 01-09 M 01-14 K 01-16 M 01-23 M 01-30 M",
+          "02-04 P 02-06 M 02-11 K 02-13 M 02-20 M 02-27 M",
+          "03-04 P 03-06 M 03-11 K 03-13 M 03-20 M 03-27 M",
+          "04-01 P 04-03 M 04-08 K 04-10 M 04-17 M 04-24 M",
+          "05-01 M 05-06 P 05-08 M 05-13 K 05-15 M 05-22 M 05-29 M",
+          "06-03 P 06-05 M 06-10 K 06-12 M 06-19 M 06-26 M",
+          "07-01 P 07-03 M 07-08 K 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-05 P 08-07 M 08-12 K 08-14 M 08-21 M 08-28 M",
+          "09-02 P 09-04 M 09-09 K 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-07 P 10-09 M 10-14 K 10-16 M 10-23 M 10-30 M",
+          "11-04 P 11-06 M 11-11 K 11-13 M 11-20 M 11-27 M",
+          "12-02 P 12-04 M 12-09 K 12-11 M 12-18 M 12-30 M!"
+        ]
+      }
+    },
+    "3B": {
+      "jls": "Rijeka",
+      "podrucje": "MO Zamet – MO Sveti Nikola, dio, ruta 3B",
+      "ulice": ["Avelina Turka", "Berte Jardas", "Bože Vidasa", "Diračje", "Franje Čandeka", "Ivana Ćikovića Belog", "Ivana Matetića Ronjgova", "Ivana Zavidića", "Ivekovićeva", "Krnjevo", "Marijana Stepčića", "Marijana Vičića", "Mate Sušnja", "Milutina Bataje", "Obitelji Sušanj", "Udatnoga", "Venuccieve stube", "Vidovićeva cesta"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 MP 01-26 MK",
+          "02-02 M 02-09 M 02-16 MP 02-23 MK",
+          "03-02 M 03-09 M 03-16 MP 03-23 MK 03-30 M",
+          "04-06 M 04-13 M 04-20 MP 04-27 MK",
+          "05-04 M 05-11 M 05-18 MP 05-25 MK",
+          "06-01 M 06-08 M 06-15 MP 06-22 MK 06-29 M",
+          "07-06 M 07-13 M 07-20 MP 07-27 MK",
+          "08-03 M 08-10 M 08-17 MP 08-24 MK 08-31 M",
+          "09-07 M 09-14 M 09-21 MP 09-28 MK",
+          "10-05 M 10-12 M 10-19 MP 10-26 MK",
+          "11-02 M 11-09 M 11-16 MP 11-23 MK 11-30 M",
+          "12-07 M 12-14 M 12-21 MP 12-28 MK"
+        ]
+      }
+    },
+    "4A": {
+      "jls": "Rijeka",
+      "podrucje": "MO Kantrida – MO Sveti Nikola, dio, ruta 4A",
+      "ulice": ["Bujska", "Creska", "Đure Cattia", "Ede Jardasa", "Istarska", "Ivana Milčetića", "Izviđačka", "Labinska", "Liburnijska", "Marina Jakominića", "Mate Balote", "Opatijska", "Pionirska", "Portić", "Preluk", "Pulska", "Silva Milenića Lovre", "Vere Bratonje"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 P 01-12 M 01-14 K 01-19 M 01-26 M",
+          "02-02 M 02-04 P 02-09 M 02-11 K 02-16 M 02-23 M",
+          "03-02 M 03-04 P 03-09 M 03-11 K 03-16 M 03-23 M 03-30 M",
+          "04-01 P 04-06 M 04-08 K 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-06 P 05-11 M 05-13 K 05-18 M 05-25 M",
+          "06-01 M 06-03 P 06-08 M 06-10 K 06-15 M 06-22 M 06-29 M",
+          "07-01 P 07-06 M 07-08 K 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-05 P 08-10 M 08-12 K 08-17 M 08-24 M 08-31 M",
+          "09-02 P 09-07 M 09-09 K 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-07 P 10-12 M 10-14 K 10-19 M 10-26 M",
+          "11-02 M 11-04 P 11-09 M 11-11 K 11-16 M 11-23 M 11-30 M",
+          "12-02 P 12-07 M 12-09 K 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "4A1": {
+      "jls": "Rijeka",
+      "podrucje": "MO Kantrida – MO Sveti Nikola, dio, ruta 4A1",
+      "ulice": ["Đure Cattia", "Opatijska"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-05 M 01-07 P 01-08 M 01-10 M 01-12 M 01-14 K 01-15 M 01-17 M 01-19 M 01-22 M 01-24 M 01-26 M 01-29 M 01-31 M",
+          "02-02 M 02-04 P 02-05 M 02-07 M 02-09 M 02-11 K 02-12 M 02-14 M 02-16 M 02-19 M 02-21 M 02-23 M 02-26 M 02-28 M",
+          "03-02 M 03-04 P 03-05 M 03-07 M 03-09 M 03-11 K 03-12 M 03-14 M 03-16 M 03-19 M 03-21 M 03-23 M 03-26 M 03-28 M 03-30 M",
+          "04-01 P 04-02 M 04-04 M 04-06 M 04-08 K 04-09 M 04-11 M 04-13 M 04-16 M 04-18 M 04-20 M 04-23 M 04-25 M 04-27 M 04-30 M",
+          "05-02 M 05-04 M 05-06 P 05-07 M 05-09 M 05-11 M 05-13 K 05-14 M 05-16 M 05-18 M 05-21 M 05-23 M 05-25 M 05-28 M 05-30 M",
+          "06-01 M 06-03 P 06-04 M 06-06 M 06-08 M 06-10 K 06-11 M 06-13 M 06-15 M 06-18 M 06-20 M 06-22 M 06-25 M 06-27 M 06-29 M",
+          "07-01 P 07-02 M 07-04 M 07-06 M 07-08 K 07-09 M 07-11 M 07-13 M 07-16 M 07-18 M 07-20 M 07-23 M 07-25 M 07-27 M 07-30 M",
+          "08-01 M 08-03 M 08-05 P 08-06 M 08-08 M 08-10 M 08-12 K 08-13 M 08-15 M 08-17 M 08-20 M 08-22 M 08-24 M 08-27 M 08-29 M 08-31 M",
+          "09-02 P 09-03 M 09-05 M 09-07 M 09-09 K 09-10 M 09-12 M 09-14 M 09-17 M 09-19 M 09-21 M 09-24 M 09-26 M 09-28 M",
+          "10-01 M 10-03 M 10-05 M 10-07 P 10-08 M 10-10 M 10-12 M 10-14 K 10-15 M 10-17 M 10-19 M 10-22 M 10-24 M 10-26 M 10-29 M 10-31 M",
+          "11-02 M 11-04 P 11-05 M 11-07 M 11-09 M 11-11 K 11-12 M 11-14 M 11-16 M 11-19 M 11-21 M 11-23 M 11-26 M 11-28 M 11-30 M",
+          "12-02 P 12-03 M 12-05 M 12-07 M 12-09 K 12-10 M 12-12 M 12-14 M 12-17 M 12-19 M 12-21 M 12-24 M 12-26 M 12-28 M 12-31 M"
+        ]
+      }
+    },
+    "4B": {
+      "jls": "Rijeka",
+      "podrucje": "MO Kantrida – MO Sveti Nikola, dio, ruta 4B",
+      "ulice": ["Istarska", "Labinska", "Ljubljanska cesta", "Minakov put", "Opatijska", "Pavlovac", "Pionirska", "Tenčićevo", "Turan", "Turanski put", "Žlebi"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-03 M 01-09 K 01-10 M 01-17 M 01-24 M 01-31 M",
+          "02-06 P 02-07 M 02-13 K 02-14 M 02-21 M 02-28 M",
+          "03-06 P 03-07 M 03-13 K 03-14 M 03-21 M 03-28 M",
+          "04-03 P 04-04 M 04-10 K 04-11 M 04-18 M 04-25 M",
+          "05-01 P 05-02 M 05-08 K 05-09 M 05-16 M 05-23 M 05-30 M",
+          "06-05 P 06-06 M 06-12 K 06-13 M 06-20 M 06-27 M",
+          "07-03 P 07-04 M 07-10 K 07-11 M 07-18 M 07-25 M",
+          "08-01 M 08-07 P 08-08 M 08-14 K 08-15 M 08-22 M 08-29 M",
+          "09-04 P 09-05 M 09-11 K 09-12 M 09-19 M 09-26 M",
+          "10-02 P 10-03 M 10-09 K 10-10 M 10-17 M 10-24 M 10-31 M",
+          "11-06 P 11-07 M 11-13 K 11-14 M 11-21 M 11-28 M",
+          "12-04 P 12-05 M 12-11 K 12-12 M 12-19 M 12-26 M 12-31 P!"
+        ]
+      }
+    },
+    "4C": {
+      "jls": "Rijeka",
+      "podrucje": "MO Kantrida – MO Sveti Nikola, dio, ruta 4C",
+      "ulice": ["Brsečka", "Bujska", "Creska", "Giordana Smolikara", "Istarska", "Izviđačka", "Kastavska", "Lošinjska", "Mate Balote", "Mirka Čurbega", "Pionirska", "Podkoludricu", "Prolaz Marčeljeve Drage"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-16 P 01-20 M 01-23 K 01-27 M",
+          "02-03 M 02-10 M 02-17 M 02-20 P 02-24 M 02-27 K",
+          "03-03 M 03-10 M 03-17 M 03-20 P 03-24 M 03-27 K 03-31 M",
+          "04-07 M 04-14 M 04-17 P 04-21 M 04-24 K 04-28 M",
+          "05-05 M 05-12 M 05-15 P 05-19 M 05-22 K 05-26 M",
+          "06-02 M 06-09 M 06-16 M 06-19 P 06-23 M 06-26 K 06-30 M",
+          "07-07 M 07-14 M 07-17 P 07-21 M 07-24 K 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-21 P 08-25 M 08-28 K",
+          "09-01 M 09-08 M 09-15 M 09-18 P 09-22 M 09-25 K 09-29 M",
+          "10-06 M 10-13 M 10-16 P 10-20 M 10-23 K 10-27 M",
+          "11-03 M 11-10 M 11-17 M 11-20 P 11-24 M 11-27 K",
+          "12-01 M 12-08 M 12-15 M 12-18 P 12-22 M 12-29 MK!"
+        ]
+      }
+    },
+    "4C1": {
+      "jls": "Rijeka",
+      "podrucje": "MO Kantrida – MO Sveti Nikola, dio, ruta 4C1",
+      "ulice": ["Podkoludricu"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-06 M 01-10 M 01-13 M 01-16 P 01-17 M 01-20 M 01-23 K 01-24 M 01-27 M 01-31 M",
+          "02-03 M 02-07 M 02-10 M 02-14 M 02-17 M 02-20 P 02-21 M 02-24 M 02-27 K 02-28 M",
+          "03-03 M 03-07 M 03-10 M 03-14 M 03-17 M 03-20 P 03-21 M 03-24 M 03-27 K 03-28 M 03-31 M",
+          "04-04 M 04-07 M 04-11 M 04-14 M 04-17 P 04-18 M 04-21 M 04-24 K 04-25 M 04-28 M",
+          "05-02 M 05-05 M 05-09 M 05-12 M 05-15 P 05-16 M 05-19 M 05-22 K 05-23 M 05-26 M 05-30 M",
+          "06-02 M 06-06 M 06-09 M 06-13 M 06-16 M 06-19 P 06-20 M 06-23 M 06-26 K 06-27 M 06-30 M",
+          "07-04 M 07-07 M 07-11 M 07-14 M 07-17 P 07-18 M 07-21 M 07-24 K 07-25 M 07-28 M",
+          "08-01 M 08-04 M 08-08 M 08-11 M 08-15 M 08-18 M 08-21 P 08-22 M 08-25 M 08-28 K 08-29 M",
+          "09-01 M 09-05 M 09-08 M 09-12 M 09-15 M 09-18 P 09-19 M 09-22 M 09-25 K 09-26 M 09-29 M",
+          "10-03 M 10-06 M 10-10 M 10-13 M 10-16 P 10-17 M 10-20 M 10-23 K 10-24 M 10-27 M 10-31 M",
+          "11-03 M 11-07 M 11-10 M 11-14 M 11-17 M 11-20 P 11-21 M 11-24 M 11-27 K 11-28 M",
+          "12-01 M 12-05 M 12-08 M 12-12 M 12-15 M 12-18 P 12-19 M 12-22 M 12-26 M 12-29 MK!"
+        ]
+      }
+    },
+    "4D": {
+      "jls": "Rijeka",
+      "podrucje": "MO Kantrida – MO Sveti Nikola, dio, ruta 4D",
+      "ulice": ["Jože Vlahovića", "Milutina Barača", "Pod Jelšun"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-08 M 01-14 K 01-15 M 01-22 M 01-29 M",
+          "02-04 P 02-05 M 02-11 K 02-12 M 02-19 M 02-26 M",
+          "03-04 P 03-05 M 03-11 K 03-12 M 03-19 M 03-26 M",
+          "04-01 P 04-02 M 04-08 K 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-06 P 05-07 M 05-13 K 05-14 M 05-21 M 05-28 M",
+          "06-03 P 06-04 M 06-10 K 06-11 M 06-18 M 06-25 M",
+          "07-01 P 07-02 M 07-08 K 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-05 P 08-06 M 08-12 K 08-13 M 08-20 M 08-27 M",
+          "09-02 P 09-03 M 09-09 K 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-07 P 10-08 M 10-14 K 10-15 M 10-22 M 10-29 M",
+          "11-04 P 11-05 M 11-11 K 11-12 M 11-19 M 11-26 M",
+          "12-02 P 12-03 M 12-09 K 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "5A": {
+      "jls": "Rijeka",
+      "podrucje": "MO Drenova – MO Škurinje, ruta 5A",
+      "ulice": ["Benaši", "Braće Hlača", "Brca", "Brune Francetića", "Cvjetna", "Drenovski put", "Frkaševo", "Gerovska", "Grohovski put", "Humski put", "Ivana Žorža", "Kablarska cesta", "Kučićki put", "Kućina", "Kuzminački put", "Lubanjski uspon", "Lukovdolska", "Mladenići (Viškovo)", "Mugarićka", "Podbreg", "Put K Igralištu", "Rakaljski put", "Ružice Mihić", "Stanka Frankovića", "Svetog Jurja", "Šamburinski put", "Tonići", "Vrhak", "Žminjska"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 P 01-09 M 01-13 K 01-16 M 01-23 M 01-30 M",
+          "02-03 P 02-06 M 02-10 K 02-13 M 02-20 M 02-27 M",
+          "03-03 P 03-06 M 03-10 K 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-07 P 04-10 M 04-14 K 04-17 M 04-24 M",
+          "05-01 M 05-05 P 05-08 M 05-12 K 05-15 M 05-22 M 05-29 M",
+          "06-02 P 06-05 M 06-09 K 06-12 M 06-19 M 06-26 M",
+          "07-03 M 07-07 P 07-10 M 07-14 K 07-17 M 07-24 M 07-31 M",
+          "08-04 P 08-07 M 08-11 K 08-14 M 08-21 M 08-28 M",
+          "09-01 P 09-04 M 09-08 K 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-06 P 10-09 M 10-13 K 10-16 M 10-23 M 10-30 M",
+          "11-03 P 11-06 M 11-10 K 11-13 M 11-20 M 11-27 M",
+          "12-01 P 12-04 M 12-08 K 12-11 M 12-18 M 12-30 M!"
+        ]
+      }
+    },
+    "5B": {
+      "jls": "Rijeka",
+      "podrucje": "MO Drenova – MO Škurinje, ruta 5B",
+      "ulice": ["Bok", "Brune Francetića", "Drenovski put", "Grohovski put", "Gromača", "Humski put", "Ivana Žorža", "Ive Lole Ribara", "Kablarska cesta", "Kuzminački put", "Lubanjski uspon", "Orešje", "Pešćevac", "Podbreg", "Proslopski put", "Ravan", "Stranica", "Svetog Jurja", "Šamburinski put", "Tonići", "Ursinjski uspon"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-10 M 01-17 M 01-20 P 01-24 M 01-27 K 01-31 M",
+          "02-07 M 02-14 M 02-17 P 02-21 M 02-24 K 02-28 M",
+          "03-07 M 03-14 M 03-17 P 03-21 M 03-24 K 03-28 M",
+          "04-04 M 04-11 M 04-18 M 04-21 P 04-25 M 04-28 K",
+          "05-02 M 05-09 M 05-16 M 05-19 P 05-23 M 05-26 K 05-30 M",
+          "06-06 M 06-13 M 06-16 P 06-20 M 06-23 K 06-27 M",
+          "07-04 M 07-11 M 07-18 M 07-21 P 07-25 M 07-28 K",
+          "08-01 M 08-08 M 08-15 M 08-18 P 08-22 M 08-25 K 08-29 M",
+          "09-05 M 09-12 M 09-15 P 09-19 M 09-22 K 09-26 M",
+          "10-03 M 10-10 M 10-17 M 10-20 P 10-24 M 10-27 K 10-31 M",
+          "11-07 M 11-14 M 11-17 P 11-21 M 11-24 K 11-28 M",
+          "12-05 M 12-12 M 12-15 P 12-19 M 12-22 K 12-26 M"
+        ]
+      }
+    },
+    "5C": {
+      "jls": "Rijeka",
+      "podrucje": "MO Drenova – MO Škurinje, ruta 5C",
+      "ulice": ["Bok", "Brca", "Brdina", "Budicinova", "Cvetkov trg", "Devetnaeste udarne divizije", "Drenovski put", "Dvadesetdrugog lipnja", "Fužinska", "Goranska", "Ivana Žorža", "Ive Lole Ribara", "Kampanja", "Kučićki put", "Lukovdolska", "Mrkopaljska", "Negrieva", "Orlanda Kučića", "Osječka", "Paškinovac", "Save Jugo Bujkove", "Škurinjska cesta", "Vrhak"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-21 P 01-26 M 01-28 K",
+          "02-02 M 02-09 M 02-16 M 02-18 P 02-23 M 02-25 K",
+          "03-02 M 03-09 M 03-16 M 03-18 P 03-23 M 03-25 K 03-30 M",
+          "04-06 M 04-13 M 04-15 P 04-20 M 04-22 K 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-20 P 05-25 M 05-27 K",
+          "06-01 M 06-08 M 06-15 M 06-17 P 06-22 M 06-24 K 06-29 M",
+          "07-06 M 07-13 M 07-15 P 07-20 M 07-22 K 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-19 P 08-24 M 08-26 K 08-31 M",
+          "09-07 M 09-14 M 09-16 P 09-21 M 09-23 K 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-21 P 10-26 M 10-28 K",
+          "11-02 M 11-09 M 11-16 M 11-18 P 11-23 M 11-25 K 11-30 M",
+          "12-07 M 12-14 M 12-16 P 12-21 M 12-23 K 12-28 M"
+        ]
+      }
+    },
+    "6A": {
+      "jls": "Rijeka",
+      "podrucje": "MO Brašćine-Pulac, ruta 6A",
+      "napomena": "Raspored ove rute objavljen je od 02.03.2026.",
+      "ulice": ["Brašćine", "Drenovski put", "Internacionalnih brigada", "Kapitanovo", "Kozala", "Kvarnerska", "Lukovići", "Oktavijana Valića", "Pulac", "Vinogradska", "Zeleni put"],
+      "raw": {
+        "2026": [
+          "03-05 M 03-12 M 03-19 M 03-21 P 03-26 M 03-28 K",
+          "04-02 M 04-09 M 04-16 M 04-18 P 04-23 M 04-25 K 04-30 M",
+          "05-07 M 05-14 M 05-16 P 05-21 M 05-23 K 05-28 M",
+          "06-04 M 06-11 M 06-18 M 06-20 P 06-25 M 06-27 K",
+          "07-02 M 07-09 M 07-16 M 07-18 P 07-23 M 07-25 K 07-30 M",
+          "08-06 M 08-13 M 08-15 P 08-20 M 08-22 K 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-19 P 09-24 M 09-26 K",
+          "10-01 M 10-08 M 10-15 M 10-17 P 10-22 M 10-24 K 10-29 M",
+          "11-05 M 11-12 M 11-19 M 11-21 P 11-26 M 11-28 K",
+          "12-03 M 12-10 M 12-17 M 12-19 P 12-24 M 12-26 K 12-31 M"
+        ]
+      }
+    },
+    "7A": {
+      "jls": "Rijeka",
+      "podrucje": "MO Turnić, ruta 7A",
+      "napomena": "Raspored ove rute objavljen je od 01.06.2026.",
+      "raw": {
+        "2026": [
+          "06-03 M 06-04 P 06-10 M 06-11 K 06-17 M 06-24 M",
+          "07-01 M 07-02 P 07-08 M 07-09 K 07-15 M 07-22 M 07-29 M",
+          "08-05 M 08-06 P 08-12 M 08-13 K 08-19 M 08-26 M",
+          "09-02 M 09-03 P 09-09 M 09-10 K 09-16 M 09-23 M 09-30 M",
+          "10-01 P 10-07 M 10-08 K 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-05 P 11-11 M 11-12 K 11-18 M 11-25 M",
+          "12-02 M 12-03 P 12-09 M 12-10 K 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "7B": {
+      "jls": "Rijeka",
+      "podrucje": "MO Turnić, ruta 7B",
+      "napomena": "Raspored ove rute objavljen je od 01.07.2026.",
+      "raw": {
+        "2026": [
+          "07-02 P 07-07 M 07-09 K 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-06 P 08-11 M 08-13 K 08-18 M 08-25 M",
+          "09-01 M 09-03 P 09-08 M 09-10 K 09-15 M 09-22 M 09-29 M",
+          "10-01 P 10-06 M 10-08 K 10-13 M 10-20 M 10-27 M",
+          "11-03 M 11-05 P 11-10 M 11-12 K 11-17 M 11-24 M",
+          "12-01 M 12-03 P 12-08 M 12-10 K 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "Kostrena-A": {
+      "jls": "Kostrena",
+      "podrucje": "Ruta A: Vrh Martinšćice, Šodići, Sveta Lucija, Kostrenskih boraca …",
+      "ulice": ["Darka Medanića", "Doričići", "Dujmići", "Glavani", "Ive Šodića", "Kostrenskih boraca", "Maračići", "Martinšćica", "Nova Voda", "Paveki", "Perovići", "Plešići", "Randići", "Rožići", "Rožmanići", "Stara Voda", "Suzanićev put", "Sveta Lucija", "Šetalište Kostrenskih Pomoraca", "Šodići", "Šodići Stari", "Šojska", "Uvala Svežanj", "Vrh Martinšćice", "Žarka Pezelja", "Željka Čepulića", "Žuknica"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-14 K 01-15 P 01-20 M 01-27 M",
+          "02-03 M 02-05 P 02-10 M 02-11 K 02-17 M 02-19 P 02-24 M",
+          "03-03 M 03-05 P 03-10 M 03-11 K 03-17 M 03-19 P 03-24 M 03-31 M",
+          "04-02 P 04-07 M 04-08 K 04-14 M 04-16 P 04-21 M 04-28 M",
+          "05-05 M 05-07 P 05-12 M 05-13 K 05-19 M 05-21 P 05-26 M",
+          "06-02 M 06-04 P 06-09 M 06-10 K 06-16 M 06-18 P 06-23 M 06-30 M",
+          "07-02 P 07-07 M 07-08 K 07-14 M 07-16 P 07-21 M 07-28 M",
+          "08-04 M 08-06 P 08-11 M 08-12 K 08-18 M 08-20 P 08-25 M",
+          "09-01 M 09-03 P 09-08 M 09-09 K 09-15 M 09-17 P 09-22 M 09-29 M",
+          "10-01 P 10-06 M 10-13 M 10-14 K 10-15 P 10-20 M 10-27 M",
+          "11-03 M 11-05 P 11-10 M 11-11 K 11-17 M 11-19 P 11-24 M",
+          "12-01 M 12-03 P 12-08 M 12-09 K 12-15 M 12-17 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "Kostrena-B": {
+      "jls": "Kostrena",
+      "podrucje": "Ruta B: Glavani, Žuknica, Vrh Martinšćice, Mažeri …",
+      "ulice": ["Doričići", "Glavani", "Ivanje", "Mažeri", "Podurinj", "Randići", "Rožići", "Sveta Lucija", "Sveti Kuzam (Rijeka)", "Šoići", "Trg Svete Barbare", "Urinj", "Vidikovac", "Vrh Martinšćice", "Žuknica", "Žurkovo"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-08 P 01-10 M 01-17 M 01-22 P 01-24 M 01-28 K 01-31 M",
+          "02-07 M 02-12 P 02-14 M 02-21 M 02-25 K 02-26 P 02-28 M",
+          "03-07 M 03-12 P 03-14 M 03-21 M 03-25 K 03-26 P 03-28 M",
+          "04-04 M 04-09 P 04-11 M 04-18 M 04-22 K 04-23 P 04-25 M",
+          "05-02 M 05-09 M 05-14 P 05-16 M 05-23 M 05-27 K 05-28 P 05-30 M",
+          "06-06 M 06-11 P 06-13 M 06-20 M 06-24 K 06-25 P 06-27 M",
+          "07-04 M 07-09 P 07-11 M 07-18 M 07-22 K 07-23 P 07-25 M",
+          "08-01 M 08-08 M 08-13 P 08-15 M 08-22 M 08-26 K 08-27 P 08-29 M",
+          "09-05 M 09-10 P 09-12 M 09-19 M 09-23 K 09-24 P 09-26 M",
+          "10-03 M 10-08 P 10-10 M 10-17 M 10-22 P 10-24 M 10-28 K 10-31 M",
+          "11-07 M 11-12 P 11-14 M 11-21 M 11-25 K 11-26 P 11-28 M",
+          "12-05 M 12-10 P 12-12 M 12-19 M 12-23 K 12-24 P 12-26 M"
+        ]
+      }
+    },
+    "Kostrena-C": {
+      "jls": "Kostrena",
+      "podrucje": "Ruta C: Rožmanići, Maračići, Randići, Dujmići …",
+      "ulice": ["Dujmići", "Maračići", "Plešići", "Randići", "Rožmanići"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-06 K 01-07 P 01-12 M 01-19 M 01-21 P 01-26 M",
+          "02-02 M 02-03 K 02-04 P 02-09 M 02-16 M 02-18 P 02-23 M",
+          "03-02 M 03-03 K 03-04 P 03-09 M 03-16 M 03-18 P 03-23 M 03-30 M",
+          "04-01 P 04-06 M 04-07 K 04-13 M 04-15 P 04-20 M 04-27 M",
+          "05-04 M 05-05 K 05-06 P 05-11 M 05-18 M 05-20 P 05-25 M",
+          "06-01 M 06-02 K 06-03 P 06-08 M 06-15 M 06-17 P 06-22 M 06-29 M",
+          "07-01 P 07-06 M 07-07 K 07-13 M 07-15 P 07-20 M 07-27 M",
+          "08-03 M 08-04 K 08-05 P 08-10 M 08-17 M 08-19 P 08-24 M 08-31 M",
+          "09-01 K 09-02 P 09-07 M 09-14 M 09-16 P 09-21 M 09-28 M",
+          "10-05 M 10-06 K 10-07 P 10-12 M 10-19 M 10-21 P 10-26 M",
+          "11-02 M 11-03 K 11-04 P 11-09 M 11-16 M 11-18 P 11-23 M 11-30 M",
+          "12-01 K 12-02 P 12-07 M 12-14 M 12-16 P 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "Kostrena-C-1": {
+      "jls": "Kostrena",
+      "podrucje": "Ruta C-1: Vrh Elvira, Suzanićev put, Glavani, Perovići …",
+      "napomena": "Raspored ove rute objavljen je od 10.08.2026.",
+      "ulice": ["Doričići", "Glavani", "Ive Šodića", "Kostrenskih boraca", "Paveki", "Perovići", "Suzanićev put", "Sveta Lucija", "Vrh Elvira"],
+      "raw": {
+        "2026": [
+          "08-11 M 08-18 M 08-19 P 08-25 M",
+          "09-01 MK 09-02 P 09-08 M 09-15 M 09-16 P 09-22 M 09-29 M",
+          "10-06 MK 10-07 P 10-13 M 10-20 M 10-21 P 10-27 M",
+          "11-03 MK 11-04 P 11-10 M 11-17 M 11-18 P 11-24 M",
+          "12-01 MK 12-02 P 12-08 M 12-15 M 12-16 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "Bakar-A": {
+      "jls": "Bakar",
+      "podrucje": "Ruta A: Kukuljanovo, Škrljevo",
+      "ulice": ["Kukuljanovo", "Škrljevo"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-08 M 01-15 M 01-16 K 01-22 M 01-29 M",
+          "02-05 M 02-06 P 02-12 M 02-19 M 02-20 K 02-26 M",
+          "03-05 M 03-06 P 03-12 M 03-19 M 03-20 K 03-26 M",
+          "04-02 M 04-03 P 04-09 M 04-16 M 04-17 K 04-23 M 04-30 M",
+          "05-01 P 05-07 M 05-14 M 05-15 K 05-21 M 05-28 M",
+          "06-04 M 06-05 P 06-11 M 06-18 M 06-19 K 06-25 M",
+          "07-02 M 07-03 P 07-09 M 07-16 M 07-17 K 07-23 M 07-30 M",
+          "08-06 M 08-07 P 08-13 M 08-20 M 08-21 K 08-27 M",
+          "09-03 M 09-04 P 09-10 M 09-17 M 09-18 K 09-24 M",
+          "10-01 M 10-02 P 10-08 M 10-15 M 10-16 K 10-22 M 10-29 M",
+          "11-05 M 11-06 P 11-12 M 11-19 M 11-20 K 11-26 M",
+          "12-03 M 12-04 P 12-10 M 12-17 M 12-18 K 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "Bakar-B": {
+      "jls": "Bakar",
+      "podrucje": "Ruta B: Škrljevo, Kukuljanovo, Gornje Jelenje",
+      "ulice": ["Gornje Jelenje", "Kukuljanovo", "Škrljevo"],
+      "raw": {
+        "2026": [
+          "01-03 MK 01-10 M 01-13 P 01-17 M 01-24 M 01-27 P 01-31 M",
+          "02-07 MK 02-10 P 02-14 M 02-21 M 02-24 P 02-28 M",
+          "03-07 MK 03-10 P 03-14 M 03-21 M 03-24 P 03-28 M",
+          "04-04 MK 04-11 M 04-14 P 04-18 M 04-25 M 04-28 P",
+          "05-02 MK 05-09 M 05-12 P 05-16 M 05-23 M 05-26 P 05-30 M",
+          "06-06 MK 06-09 P 06-13 M 06-20 M 06-23 P 06-27 M",
+          "07-04 MK 07-11 M 07-14 P 07-18 M 07-25 M 07-28 P",
+          "08-01 MK 08-08 M 08-11 P 08-15 M 08-22 M 08-25 P 08-29 M",
+          "09-05 MK 09-08 P 09-12 M 09-19 M 09-22 P 09-26 M",
+          "10-03 MK 10-10 M 10-13 P 10-17 M 10-24 M 10-27 P 10-31 M",
+          "11-07 MK 11-10 P 11-14 M 11-21 M 11-24 P 11-28 M",
+          "12-05 MK 12-08 P 12-12 M 12-19 M 12-22 P 12-26 M"
+        ]
+      }
+    },
+    "Bakar-C": {
+      "jls": "Bakar",
+      "podrucje": "Ruta C: Krasica, Praputnjak, Škrljevo, Meja Gaj …",
+      "ulice": ["Krasica", "Meja Gaj", "Praputnjak", "Ružić Selo", "Škrljevo"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-09 K 01-13 P 01-14 M 01-21 M 01-27 P 01-28 M",
+          "02-04 M 02-10 P 02-11 M 02-13 K 02-18 M 02-24 P 02-25 M",
+          "03-04 M 03-10 P 03-11 M 03-13 K 03-18 M 03-24 P 03-25 M",
+          "04-01 M 04-08 M 04-10 K 04-14 P 04-15 M 04-22 M 04-28 P 04-29 M",
+          "05-06 M 05-08 K 05-12 P 05-13 M 05-20 M 05-26 P 05-27 M",
+          "06-03 M 06-09 P 06-10 M 06-12 K 06-17 M 06-23 P 06-24 M",
+          "07-01 M 07-08 M 07-10 K 07-14 P 07-15 M 07-22 M 07-28 P 07-29 M",
+          "08-05 M 08-11 P 08-12 M 08-14 K 08-19 M 08-25 P 08-26 M",
+          "09-02 M 09-08 P 09-09 M 09-11 K 09-16 M 09-22 P 09-23 M 09-30 M",
+          "10-07 M 10-09 K 10-13 P 10-14 M 10-21 M 10-27 P 10-28 M",
+          "11-04 M 11-10 P 11-11 M 11-13 K 11-18 M 11-24 P 11-25 M",
+          "12-02 M 12-08 P 12-09 M 12-11 K 12-16 M 12-22 P 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "Bakar-D": {
+      "jls": "Bakar",
+      "podrucje": "Ruta D: Meja Gaj, Hreljin, Ružić Selo, Nautička …",
+      "ulice": ["Frankopanska", "Geta", "Gornja Zagrada", "Hreljin", "Klanac", "Koguli", "Lokaj", "Lonja", "Meja Gaj", "Mornarska", "Nautička", "Omladinska", "Palada", "Primorje", "Ružić Selo", "Senjska", "Stara cesta", "Škrljevo", "Veberova", "Voj", "Zagrada Donja"],
+      "raw": {
+        "2026": [
+          "01-06 P 01-07 M 01-10 K 01-14 M 01-20 P 01-21 M 01-28 M",
+          "02-03 P 02-04 M 02-11 M 02-14 K 02-17 P 02-18 M 02-25 M",
+          "03-03 P 03-04 M 03-11 M 03-14 K 03-17 P 03-18 M 03-25 M",
+          "04-01 M 04-07 P 04-08 M 04-11 K 04-15 M 04-21 P 04-22 M 04-29 M",
+          "05-05 P 05-06 M 05-09 K 05-13 M 05-19 P 05-20 M 05-27 M",
+          "06-02 P 06-03 M 06-10 M 06-13 K 06-16 P 06-17 M 06-24 M",
+          "07-01 M 07-07 P 07-08 M 07-11 K 07-15 M 07-21 P 07-22 M 07-29 M",
+          "08-04 P 08-05 M 08-08 K 08-12 M 08-18 P 08-19 M 08-26 M",
+          "09-01 P 09-02 M 09-09 M 09-12 K 09-15 P 09-16 M 09-23 M 09-30 M",
+          "10-06 P 10-07 M 10-10 K 10-14 M 10-20 P 10-21 M 10-28 M",
+          "11-03 P 11-04 M 11-11 M 11-14 K 11-17 P 11-18 M 11-25 M",
+          "12-01 P 12-02 M 12-09 M 12-12 K 12-15 P 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "Bakar-E": {
+      "jls": "Bakar",
+      "podrucje": "Ruta E: Krasica, Ružić Selo, Hreljin, Praputnjak …",
+      "ulice": ["Hreljin", "Krasica", "Kukuljanovo", "Meja Gaj", "Plosna", "Podbok", "Ponikve", "Praputnjak", "Pristanište Podbok", "Ružić Selo", "Škrljevo"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-13 P 01-16 M 01-20 K 01-23 M 01-27 P 01-30 M",
+          "02-06 M 02-10 P 02-13 M 02-17 K 02-20 M 02-24 P 02-27 M",
+          "03-06 M 03-10 P 03-13 M 03-17 K 03-20 M 03-24 P 03-27 M",
+          "04-03 M 04-10 M 04-14 P 04-17 M 04-21 K 04-24 M 04-28 P",
+          "05-01 M 05-08 M 05-12 P 05-15 M 05-19 K 05-22 M 05-26 P 05-29 M",
+          "06-05 M 06-09 P 06-12 M 06-16 K 06-19 M 06-23 P 06-26 M",
+          "07-03 M 07-10 M 07-14 P 07-17 M 07-21 K 07-24 M 07-28 P 07-31 M",
+          "08-07 M 08-11 P 08-14 M 08-18 K 08-21 M 08-25 P 08-28 M",
+          "09-04 M 09-08 P 09-11 M 09-15 K 09-18 M 09-22 P 09-25 M",
+          "10-02 M 10-09 M 10-13 P 10-16 M 10-20 K 10-23 M 10-27 P 10-30 M",
+          "11-06 M 11-10 P 11-13 M 11-17 K 11-20 M 11-24 P 11-27 M",
+          "12-04 M 12-08 P 12-11 M 12-15 K 12-18 M 12-22 P 12-30 M!"
+        ]
+      }
+    },
+    "Bakar-F": {
+      "jls": "Bakar",
+      "podrucje": "Ruta F: Zlobin, Hreljin, Meja Gaj, Ružić Selo …",
+      "ulice": ["Hreljin", "Meja Gaj", "Ružić Selo", "Ružić Selo (Plase)", "Zlobin"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 P 01-09 M 01-16 M 01-20 P 01-23 MK 01-30 M",
+          "02-03 P 02-06 M 02-13 M 02-17 P 02-20 M 02-27 MK",
+          "03-03 P 03-06 M 03-13 M 03-17 P 03-20 M 03-27 MK",
+          "04-03 M 04-07 P 04-10 M 04-17 M 04-21 P 04-24 MK",
+          "05-01 M 05-05 P 05-08 M 05-15 M 05-19 P 05-22 MK 05-29 M",
+          "06-02 P 06-05 M 06-12 M 06-16 P 06-19 M 06-26 MK",
+          "07-03 M 07-07 P 07-10 M 07-17 M 07-21 P 07-24 MK 07-31 M",
+          "08-04 P 08-07 M 08-14 M 08-18 P 08-21 M 08-28 MK",
+          "09-01 P 09-04 M 09-11 M 09-15 P 09-18 M 09-25 MK",
+          "10-02 M 10-06 P 10-09 M 10-16 M 10-20 P 10-23 MK 10-30 M",
+          "11-03 P 11-06 M 11-13 M 11-17 P 11-20 M 11-27 MK",
+          "12-01 P 12-04 M 12-11 M 12-15 P 12-18 M 12-29 M! 12-30 K!"
+        ]
+      }
+    },
+    "Kraljevica-A": {
+      "jls": "Kraljevica",
+      "podrucje": "Ruta A: Bakarac, Strossmayerova, Ivana Jakovčića, Fara …",
+      "ulice": ["Bakarac", "Bakarački put", "Banj", "Carovo", "Fara", "Filipa Pavešića", "Frankopanska", "Hrustina", "Ivana Jakovčića", "Javorišće", "Kalina", "Kavranić", "Klančina", "Kovačnica", "Obala Kralja Tomislava", "Oštro", "Palih boraca", "Pod Banj", "Podbanj", "Podfara", "Rovina", "Senjska", "Sisačka", "Strossmayerova", "Sušilo", "Šetalište Vladimira Nazora", "Uglica", "Vršina", "Vrtić", "Zahrustica", "Zrinjski trg", "Žlibina"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 MK 01-19 M 01-26 M",
+          "02-02 MP 02-09 MK 02-16 M 02-23 M",
+          "03-02 MP 03-09 MK 03-16 M 03-23 M 03-30 M",
+          "04-06 MP 04-13 MK 04-20 M 04-27 M",
+          "05-04 MP 05-11 MK 05-18 M 05-25 M",
+          "06-01 MP 06-08 MK 06-15 M 06-22 M 06-29 M",
+          "07-06 MP 07-13 MK 07-20 M 07-27 M",
+          "08-03 MP 08-10 MK 08-17 M 08-24 M 08-31 M",
+          "09-07 MP 09-14 MK 09-21 M 09-28 M",
+          "10-05 MP 10-12 MK 10-19 M 10-26 M",
+          "11-02 MP 11-09 MK 11-16 M 11-23 M 11-30 M",
+          "12-07 MP 12-14 MK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "Kraljevica-B": {
+      "jls": "Kraljevica",
+      "podrucje": "Ruta B: Burićeva, Banj, Mali Dol, Gornje Selo …",
+      "ulice": ["Arčaninova", "Banj", "Bobuši", "Braće Radić", "Brajci", "Burićeva", "Čabrijani", "Črišnjeva", "Dolnje Selo", "Dražina", "Dvori", "Fara", "Gornje Selo", "Hrustina", "Kalina", "Kovačići", "Križišće", "Kuntija", "Mali Dol", "Marijana Jurkovića", "Mate Valjata", "Milana Šenoe", "Milutina Cihlara", "Modrčini", "Modrčinski put", "Plovančići", "Pod Lipun", "Pregraje", "Primorska", "Prvog Maja", "Putretin", "Radetići", "Šeštile", "Šetalište Vladimira Nazora", "Škabrlovo", "Školska", "Turinići", "Umejčina", "Uvala Grabrova", "Veli Dol"],
+      "raw": {
+        "2026": [
+          "01-08 M 01-15 M 01-19 P 01-22 M 01-26 K 01-29 M",
+          "02-05 M 02-12 M 02-16 P 02-19 M 02-23 K 02-26 M",
+          "03-05 M 03-12 M 03-16 P 03-19 M 03-23 K 03-26 M",
+          "04-02 M 04-09 M 04-16 M 04-20 P 04-23 M 04-27 K 04-30 M",
+          "05-07 M 05-14 M 05-18 P 05-21 M 05-25 K 05-28 M",
+          "06-04 M 06-11 M 06-15 P 06-18 M 06-22 K 06-25 M",
+          "07-02 M 07-09 M 07-16 M 07-20 P 07-23 M 07-27 K 07-30 M",
+          "08-06 M 08-13 M 08-17 P 08-20 M 08-24 K 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-21 P 09-24 M 09-28 K",
+          "10-01 M 10-08 M 10-15 M 10-19 P 10-22 M 10-26 K 10-29 M",
+          "11-05 M 11-12 M 11-16 P 11-19 M 11-23 K 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-21 P 12-24 M 12-28 K 12-31 M"
+        ]
+      }
+    },
+    "Kraljevica-C": {
+      "jls": "Kraljevica",
+      "podrucje": "Ruta C: Veli Dol, Bakarac, Turinovo Selo, Uvala Grabrova …",
+      "ulice": ["Bakarac", "Burićeva", "Burići", "Čabrijani", "Dražina", "Fara", "Faranski Progon", "Grmani", "Hrustina", "Križišće", "Mali Dol", "Mate Valjata", "Preradovićeva", "Sušilo", "Turinovo Selo", "Uvala Grabrova", "Veli Dol", "Vršina", "Vrtić", "Zahrustica"],
+      "raw": {
+        "2026": [
+          "01-05 MP 01-12 MK 01-19 M 01-26 M",
+          "02-02 MP 02-09 MK 02-16 M 02-23 M",
+          "03-02 MP 03-09 MK 03-16 M 03-23 M 03-30 M",
+          "04-06 MP 04-13 MK 04-20 M 04-27 M",
+          "05-04 MP 05-11 MK 05-18 M 05-25 M",
+          "06-01 MP 06-08 MK 06-15 M 06-22 M 06-29 M",
+          "07-06 MP 07-13 MK 07-20 M 07-27 M",
+          "08-03 MP 08-10 MK 08-17 M 08-24 M 08-31 M",
+          "09-07 MP 09-14 MK 09-21 M 09-28 M",
+          "10-05 MP 10-12 MK 10-19 M 10-26 M",
+          "11-02 MP 11-09 MK 11-16 M 11-23 M 11-30 M",
+          "12-07 MP 12-14 MK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "Kastav-A": {
+      "jls": "Kastav",
+      "podrucje": "Ruta A: Brestovice, Žegoti, Tuhtani, Put Srdočen …",
+      "ulice": ["Bani", "Brestovice", "Brozovo", "Ćikovići", "Dinka Šimunovića", "Dolčina", "Draga", "Frlani", "Gorice", "Jurčićeva", "Klesarija", "Kundajevo", "Kurirski put (Rijeka)", "Lešćevo", "Na Brdeh", "Pilepčić", "Poljana", "Put Rešetaron", "Put Srdočen", "Rešetari", "Rubeši", "Štivar", "Tijanovo", "Tuhtani", "Žegoti"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-06 P 01-10 M 01-13 K 01-17 M 01-24 M 01-31 M",
+          "02-03 P 02-07 M 02-10 K 02-14 M 02-21 M 02-28 M",
+          "03-03 P 03-07 M 03-10 K 03-14 M 03-21 M 03-28 M",
+          "04-04 M 04-07 P 04-11 M 04-14 K 04-18 M 04-25 M",
+          "05-02 M 05-05 P 05-09 M 05-12 K 05-16 M 05-23 M 05-30 M",
+          "06-02 P 06-06 M 06-09 K 06-13 M 06-20 M 06-27 M",
+          "07-04 M 07-07 P 07-11 M 07-14 K 07-18 M 07-25 M",
+          "08-01 M 08-04 P 08-08 M 08-11 K 08-15 M 08-22 M 08-29 M",
+          "09-01 P 09-05 M 09-08 K 09-12 M 09-19 M 09-26 M",
+          "10-03 M 10-06 P 10-10 M 10-13 K 10-17 M 10-24 M 10-31 M",
+          "11-03 P 11-07 M 11-10 K 11-14 M 11-21 M 11-28 M",
+          "12-01 P 12-05 M 12-08 K 12-12 M 12-19 M 12-26 M"
+        ]
+      }
+    },
+    "Kastav-B": {
+      "jls": "Kastav",
+      "podrucje": "Ruta B: Novo Naselje Ćikovići, Jurjenići, Ćikovići, Rubeši …",
+      "ulice": ["Brnčići", "Ćikovići", "Dolnji Turki", "Jardasi", "Jurjenići", "Krajevac", "Novo Naselje Ćikovići", "Principovo", "Rubeši", "Šajino", "Tometići"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-19 P 01-20 M 01-26 K 01-27 M",
+          "02-03 M 02-10 M 02-16 P 02-17 M 02-23 K 02-24 M",
+          "03-03 M 03-10 M 03-16 P 03-17 M 03-23 K 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-20 P 04-21 M 04-27 K 04-28 M",
+          "05-05 M 05-12 M 05-18 P 05-19 M 05-25 K 05-26 M",
+          "06-02 M 06-09 M 06-15 P 06-16 M 06-22 K 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-20 P 07-21 M 07-27 K 07-28 M",
+          "08-04 M 08-11 M 08-17 P 08-18 M 08-24 K 08-25 M",
+          "09-01 M 09-08 M 09-15 M 09-21 P 09-22 M 09-28 K 09-29 M",
+          "10-06 M 10-13 M 10-19 P 10-20 M 10-26 K 10-27 M",
+          "11-03 M 11-10 M 11-16 P 11-17 M 11-23 K 11-24 M",
+          "12-01 M 12-08 M 12-15 M 12-21 P 12-22 M 12-28 K 12-29 M"
+        ]
+      }
+    },
+    "Kastav-C": {
+      "jls": "Kastav",
+      "podrucje": "Ruta C: Rubeši, Spinčići, Tometići, Belići …",
+      "ulice": ["Belići", "Ćikovići", "Istarska cesta", "Jurčići", "Kajetana Dabovića", "Put Kalvarije", "Rubeši", "Skalini Istarskog Tabora", "Spinčići", "Stražnica", "Šporova Jama", "Tometići", "Trinajstići"],
+      "raw": {
+        "2026": [
+          "01-05 P 01-08 M 01-12 K 01-15 M 01-22 M 01-29 M",
+          "02-02 P 02-05 M 02-09 K 02-12 M 02-19 M 02-26 M",
+          "03-02 P 03-05 M 03-09 K 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-06 P 04-09 M 04-13 K 04-16 M 04-23 M 04-30 M",
+          "05-04 P 05-07 M 05-11 K 05-14 M 05-21 M 05-28 M",
+          "06-01 P 06-04 M 06-08 K 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-06 P 07-09 M 07-13 K 07-16 M 07-23 M 07-30 M",
+          "08-03 P 08-06 M 08-10 K 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-07 P 09-10 M 09-14 K 09-17 M 09-24 M",
+          "10-01 M 10-05 P 10-08 M 10-12 K 10-15 M 10-22 M 10-29 M",
+          "11-02 P 11-05 M 11-09 K 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-07 P 12-10 M 12-14 K 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "Kastav-D": {
+      "jls": "Kastav",
+      "podrucje": "Ruta D: Trinajstići, Spinčići, Jurčići, Šporova Jama …",
+      "ulice": ["Jurčići", "Spinčići", "Šporova Jama", "Tometići", "Trinajstići"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-20 P 01-23 M 01-27 K 01-30 M",
+          "02-06 M 02-13 M 02-17 P 02-20 M 02-24 K 02-27 M",
+          "03-06 M 03-13 M 03-17 P 03-20 M 03-24 K 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-21 P 04-24 M 04-28 K",
+          "05-01 M 05-08 M 05-15 M 05-19 P 05-22 M 05-26 K 05-29 M",
+          "06-05 M 06-12 M 06-16 P 06-19 M 06-23 K 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-21 P 07-24 M 07-28 K 07-31 M",
+          "08-07 M 08-14 M 08-18 P 08-21 M 08-25 K 08-28 M",
+          "09-04 M 09-11 M 09-15 P 09-18 M 09-22 K 09-25 M",
+          "10-02 M 10-09 M 10-16 M 10-20 P 10-23 M 10-27 K 10-30 M",
+          "11-06 M 11-13 M 11-17 P 11-20 M 11-24 K 11-27 M",
+          "12-04 M 12-11 M 12-15 P 12-18 M 12-22 K 12-30 M!"
+        ]
+      }
+    },
+    "Kastav-E": {
+      "jls": "Kastav",
+      "podrucje": "Ruta E: Martići, Spinčići, Rubeši, Trinajstići …",
+      "ulice": ["Brnčići", "Crekvina", "Jardasi", "Jelušići", "Jurčići", "Jurja Vlaha", "Kazimira Jelušića", "Krajevac", "Lokvina", "Martići", "Milana Marjanovića", "Rešetari", "Rubeši", "Spinčići", "Školska", "Trinajstići", "Vincenta Iz Kastva", "Vjekoslava Spinčića"],
+      "raw": {
+        "2026": [
+          "01-05 P 01-07 M 01-12 K 01-14 M 01-21 M 01-28 M",
+          "02-02 P 02-04 M 02-09 K 02-11 M 02-18 M 02-25 M",
+          "03-02 P 03-04 M 03-09 K 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-06 P 04-08 M 04-13 K 04-15 M 04-22 M 04-29 M",
+          "05-04 P 05-06 M 05-11 K 05-13 M 05-20 M 05-27 M",
+          "06-01 P 06-03 M 06-08 K 06-10 M 06-17 M 06-24 M",
+          "07-01 M 07-06 P 07-08 M 07-13 K 07-15 M 07-22 M 07-29 M",
+          "08-03 P 08-05 M 08-10 K 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-07 P 09-09 M 09-14 K 09-16 M 09-23 M 09-30 M",
+          "10-05 P 10-07 M 10-12 K 10-14 M 10-21 M 10-28 M",
+          "11-02 P 11-04 M 11-09 K 11-11 M 11-18 M 11-25 M",
+          "12-02 M 12-07 P 12-09 M 12-14 K 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "Kastav-F": {
+      "jls": "Kastav",
+      "podrucje": "Ruta F: Ćikovići, Rubeši, Brnini, Brnčići …",
+      "ulice": ["Bani", "Belići", "Belveder", "Brestovice", "Brnčići", "Brnini", "Ćikovići", "Dinka Šimunovića", "Dukići", "Jardasi", "Matka Mandića", "Pavletići", "Poljana", "Pred Franun", "Prolaz Ante Dukića", "Put Rešetaron", "Put va Zagrad", "Put Vladimira Nazora", "Rubeši", "Škrlji", "Šporeri", "Tijanovo", "Tometići", "Trg Matka Laginje", "Trg Svete Lucije", "Tuhtani", "Vladimira Čerine", "Žegoti"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-15 P 01-21 M 01-22 K 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-19 P 02-25 M 02-26 K",
+          "03-04 M 03-11 M 03-18 M 03-19 P 03-25 M 03-26 K",
+          "04-01 M 04-08 M 04-15 M 04-16 P 04-22 M 04-23 K 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-21 P 05-27 M 05-28 K",
+          "06-03 M 06-10 M 06-17 M 06-18 P 06-24 M 06-25 K",
+          "07-01 M 07-08 M 07-15 M 07-16 P 07-22 M 07-23 K 07-29 M",
+          "08-05 M 08-12 M 08-19 M 08-20 P 08-26 M 08-27 K",
+          "09-02 M 09-09 M 09-16 M 09-17 P 09-23 M 09-24 K 09-30 M",
+          "10-07 M 10-14 M 10-15 P 10-21 M 10-22 K 10-28 M",
+          "11-04 M 11-11 M 11-18 M 11-19 P 11-25 M 11-26 K",
+          "12-02 M 12-09 M 12-16 M 12-17 P 12-23 M 12-24 K 12-30 M"
+        ]
+      }
+    },
+    "Kastav-G": {
+      "jls": "Kastav",
+      "podrucje": "Ruta G: Kudeji, Jelušići, Jelovičani, Rudno …",
+      "ulice": ["Gornji Turki", "Jelovičani", "Jelušići", "Krajevac", "Kudeji", "Rudno", "Rupnjak", "Selino"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-08 K 01-09 M 01-16 M 01-23 M 01-30 M",
+          "02-05 P 02-06 M 02-12 K 02-13 M 02-20 M 02-27 M",
+          "03-05 P 03-06 M 03-12 K 03-13 M 03-20 M 03-27 M",
+          "04-02 P 04-03 M 04-09 K 04-10 M 04-17 M 04-24 M",
+          "05-01 M 05-07 P 05-08 M 05-14 K 05-15 M 05-22 M 05-29 M",
+          "06-04 P 06-05 M 06-11 K 06-12 M 06-19 M 06-26 M",
+          "07-02 P 07-03 M 07-09 K 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-06 P 08-07 M 08-13 K 08-14 M 08-21 M 08-28 M",
+          "09-03 P 09-04 M 09-10 K 09-11 M 09-18 M 09-25 M",
+          "10-01 P 10-02 M 10-08 K 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-05 P 11-06 M 11-12 K 11-13 M 11-20 M 11-27 M",
+          "12-03 P 12-04 M 12-10 K 12-11 M 12-18 M 12-30 M!"
+        ]
+      }
+    },
+    "Viskovo-A": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta A: Gornji Jugi, Viškovo, Juraši, Mladenići …",
+      "ulice": ["Donji Jugi", "Gornji Jugi", "Juraši", "Marinići", "Mladenići", "Široli", "Trtni", "Viškovo", "Vozišće"],
+      "raw": {
+        "2026": [
+          "01-02 P 01-03 M 01-05 B 01-10 M 01-12 BK 01-17 M 01-19 B 01-24 M 01-26 B 01-31 M",
+          "02-02 B 02-06 P 02-07 M 02-09 BK 02-14 M 02-16 B 02-21 M 02-23 B 02-28 M",
+          "03-02 B 03-06 P 03-07 M 03-09 BK 03-14 M 03-16 B 03-21 M 03-23 B 03-28 M 03-30 B",
+          "04-03 P 04-04 M 04-06 B 04-11 M 04-13 BK 04-18 M 04-20 B 04-25 M 04-27 B",
+          "05-01 P 05-02 M 05-04 B 05-09 M 05-11 BK 05-16 M 05-18 B 05-23 M 05-25 B 05-30 M",
+          "06-01 B 06-05 P 06-06 M 06-08 BK 06-13 M 06-15 B 06-20 M 06-22 B 06-27 M 06-29 B",
+          "07-03 P 07-04 M 07-06 B 07-11 M 07-13 BK 07-18 M 07-20 B 07-25 M 07-27 B",
+          "08-01 M 08-03 B 08-07 P 08-08 M 08-10 BK 08-15 M 08-17 B 08-22 M 08-24 B 08-29 M 08-31 B",
+          "09-04 P 09-05 M 09-07 B 09-12 M 09-14 BK 09-19 M 09-21 B 09-26 M 09-28 B",
+          "10-02 P 10-03 M 10-05 B 10-10 M 10-12 BK 10-17 M 10-19 B 10-24 M 10-26 B 10-31 M",
+          "11-02 B 11-06 P 11-07 M 11-09 BK 11-14 M 11-16 B 11-21 M 11-23 B 11-28 M 11-30 B",
+          "12-04 P 12-05 M 12-07 B 12-12 M 12-14 BK 12-19 M 12-21 B 12-26 M 12-28 B 12-30 P!"
+        ]
+      }
+    },
+    "Viskovo-B": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta B: Bezjaki, Furićevo, Trampov Breg, Marinići Draga …",
+      "ulice": ["Bezjaki", "Donji Sroki", "Dovičići", "Furićevo", "Gornji Jugi", "Gornji Sroki", "Kapiti", "Kulići", "Marinići", "Marinići Draga", "Marinići-Mučići", "Mučići", "Pešćićići", "Široli", "Štefani", "Trampov Breg", "Valjani", "Viškovo", "Vozišće"],
+      "raw": {
+        "2026": [
+          "01-03 B 01-05 P 01-06 M 01-10 B 01-13 M 01-17 B 01-20 MK 01-24 B 01-27 M 01-31 B",
+          "02-02 P 02-03 M 02-07 B 02-10 M 02-14 B 02-17 MK 02-21 B 02-24 M 02-28 B",
+          "03-02 P 03-03 M 03-07 B 03-10 M 03-14 B 03-17 MK 03-21 B 03-24 M 03-28 B 03-31 M",
+          "04-04 B 04-06 P 04-07 M 04-11 B 04-14 M 04-18 B 04-21 MK 04-25 B 04-28 M",
+          "05-02 B 05-04 P 05-05 M 05-09 B 05-12 M 05-16 B 05-19 MK 05-23 B 05-26 M 05-30 B",
+          "06-01 P 06-02 M 06-06 B 06-09 M 06-13 B 06-16 MK 06-20 B 06-23 M 06-27 B 06-30 M",
+          "07-04 B 07-06 P 07-07 M 07-11 B 07-14 M 07-18 B 07-21 MK 07-25 B 07-28 M",
+          "08-01 B 08-03 P 08-04 M 08-08 B 08-11 M 08-15 B 08-18 MK 08-22 B 08-25 M 08-29 B",
+          "09-01 M 09-05 B 09-07 P 09-08 M 09-12 B 09-15 MK 09-19 B 09-22 M 09-26 B 09-29 M",
+          "10-03 B 10-05 P 10-06 M 10-10 B 10-13 M 10-17 B 10-20 MK 10-24 B 10-27 M 10-31 B",
+          "11-02 P 11-03 M 11-07 B 11-10 M 11-14 B 11-17 MK 11-21 B 11-24 M 11-28 B",
+          "12-01 M 12-05 B 12-07 P 12-08 M 12-12 B 12-15 MK 12-19 B 12-22 M 12-26 B 12-29 M"
+        ]
+      }
+    },
+    "Viskovo-C": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta C: Kosi, Mavri, Viškovo, Donji Jugi …",
+      "ulice": ["Bezjaki", "Donji Jugi", "Donji Sroki", "Ferenci", "Gornji Sroki", "Ilovca", "Kosi", "Lučići", "Marinići", "Mavri", "Milohni", "Mladenići", "Perkovac (Kastav)", "Pešćićići", "Petrci", "Saršoni", "Skvažići", "Stupari", "Viškovo", "Vozišće"],
+      "raw": {
+        "2026": [
+          "01-06 MB 01-09 P 01-13 MBK 01-20 MB 01-27 MB",
+          "02-03 MB 02-10 MBK 02-13 P 02-17 MB 02-24 MB",
+          "03-03 MB 03-10 MBK 03-13 P 03-17 MB 03-24 MB 03-31 MB",
+          "04-07 MB 04-10 P 04-14 MBK 04-21 MB 04-28 MB",
+          "05-05 MB 05-08 P 05-12 MBK 05-19 MB 05-26 MB",
+          "06-02 MB 06-09 MBK 06-12 P 06-16 MB 06-23 MB 06-30 MB",
+          "07-07 MB 07-10 P 07-14 MBK 07-21 MB 07-28 MB",
+          "08-04 MB 08-11 MBK 08-14 P 08-18 MB 08-25 MB",
+          "09-01 MB 09-08 MBK 09-11 P 09-15 MB 09-22 MB 09-29 MB",
+          "10-06 MB 10-09 P 10-13 MBK 10-20 MB 10-27 MB",
+          "11-03 MB 11-10 MBK 11-13 P 11-17 MB 11-24 MB",
+          "12-01 MB 12-08 MBK 12-11 P 12-15 MB 12-22 MB 12-29 MB"
+        ]
+      }
+    },
+    "Viskovo-D": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta D: Saršoni, Zorzići, Lučići, Benčani …",
+      "ulice": ["Benaši", "Benčani", "Biškupi", "Brtuni", "Bujki", "Garići", "Globići", "Klići", "Lučići", "Marićeva Draga", "Mladenići", "Ronjgi", "Saršoni", "Saršoni-Zorzići", "Skvažići", "Trtni", "Viškovo", "Zorzići"],
+      "raw": {
+        "2026": [
+          "01-07 MB 01-12 P 01-14 MB 01-21 MB 01-27 K 01-28 MB",
+          "02-04 MB 02-09 P 02-11 MB 02-18 MB 02-24 K 02-25 MB",
+          "03-04 MB 03-09 P 03-11 MB 03-18 MB 03-24 K 03-25 MB",
+          "04-01 MB 04-08 MB 04-13 P 04-15 MB 04-22 MB 04-28 K 04-29 MB",
+          "05-06 MB 05-11 P 05-13 MB 05-20 MB 05-26 K 05-27 MB",
+          "06-03 MB 06-08 P 06-10 MB 06-17 MB 06-23 K 06-24 MB",
+          "07-01 MB 07-08 MB 07-13 P 07-15 MB 07-22 MB 07-28 K 07-29 MB",
+          "08-05 MB 08-10 P 08-12 MB 08-19 MB 08-25 K 08-26 MB",
+          "09-02 MB 09-09 MB 09-14 P 09-16 MB 09-22 K 09-23 MB 09-30 MB",
+          "10-07 MB 10-12 P 10-14 MB 10-21 MB 10-27 K 10-28 MB",
+          "11-04 MB 11-09 P 11-11 MB 11-18 MB 11-24 K 11-25 MB",
+          "12-02 MB 12-09 MB 12-14 P 12-16 MB 12-22 K 12-23 MB 12-30 MB"
+        ]
+      }
+    },
+    "Viskovo-E": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta E: Gornji Sroki, Petrci, Blažići, Trtni …",
+      "ulice": ["Blažići", "Furićevo", "Gornji Sroki", "Juraši", "Marinići", "Mavri", "Petrci", "Stupari", "Trtni", "Viškovo"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-07 M 01-09 B 01-14 MK 01-16 BP 01-21 M 01-23 B 01-28 M 01-30 B",
+          "02-04 M 02-06 B 02-11 MK 02-13 B 02-18 M 02-20 BP 02-25 M 02-27 B",
+          "03-04 M 03-06 B 03-11 MK 03-13 B 03-18 M 03-20 BP 03-25 M 03-27 B",
+          "04-01 M 04-03 B 04-08 MK 04-10 B 04-15 M 04-17 BP 04-22 M 04-24 B 04-29 M",
+          "05-01 B 05-06 M 05-08 B 05-13 MK 05-15 BP 05-20 M 05-22 B 05-27 M 05-29 B",
+          "06-03 M 06-05 B 06-10 MK 06-12 B 06-17 M 06-19 BP 06-24 M 06-26 B",
+          "07-01 M 07-03 B 07-08 MK 07-10 B 07-15 M 07-17 BP 07-22 M 07-24 B 07-29 M 07-31 B",
+          "08-05 M 08-07 B 08-12 MK 08-14 B 08-19 M 08-21 BP 08-26 M 08-28 B",
+          "09-02 M 09-04 B 09-09 MK 09-11 B 09-16 M 09-18 BP 09-23 M 09-25 B 09-30 M",
+          "10-02 B 10-07 M 10-09 B 10-14 MK 10-16 BP 10-21 M 10-23 B 10-28 M 10-30 B",
+          "11-04 M 11-06 B 11-11 MK 11-13 B 11-18 M 11-20 BP 11-25 M 11-27 B",
+          "12-02 M 12-04 B 12-09 MK 12-11 B 12-16 M 12-18 BP 12-23 M 12-30 M 12-31 B!"
+        ]
+      }
+    },
+    "Viskovo-F": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta F: Marčelji, Vrtače, Pogled, Mavri …",
+      "ulice": ["Kosi", "Marčelji", "Mavri", "Melišća", "Pogled", "Vršak", "Vrtače"],
+      "raw": {
+        "2026": [
+          "01-08 MBK 01-15 MB 01-22 MB 01-23 P 01-29 MB",
+          "02-05 MB 02-12 MBK 02-19 MB 02-26 MB 02-27 P",
+          "03-05 MB 03-12 MBK 03-19 MB 03-26 MB 03-27 P",
+          "04-02 MB 04-09 MBK 04-16 MB 04-23 MB 04-24 P 04-30 MB",
+          "05-07 MB 05-14 MBK 05-21 MB 05-22 P 05-28 MB",
+          "06-04 MB 06-11 MBK 06-18 MB 06-25 MB 06-26 P",
+          "07-02 MB 07-09 MBK 07-16 MB 07-23 MB 07-24 P 07-30 MB",
+          "08-06 MB 08-13 MBK 08-20 MB 08-27 MB 08-28 P",
+          "09-03 MB 09-10 MBK 09-17 MB 09-24 MB 09-25 P",
+          "10-01 MB 10-08 MBK 10-15 MB 10-22 MB 10-23 P 10-29 MB",
+          "11-05 MB 11-12 MBK 11-19 MB 11-26 MB 11-27 P",
+          "12-03 MB 12-10 MBK 12-17 MB 12-24 MB 12-29 P! 12-31 MB"
+        ]
+      }
+    },
+    "Viskovo-G": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta G: Straža, Marinići, Lučinići, Stupari …",
+      "ulice": ["Lučinići", "Marinići", "Marinići Draga", "Plasi", "Plasi (Rijeka)", "Straža", "Stupari", "Štefani", "Turkovo"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-08 M 01-12 B 01-15 M 01-19 BP 01-22 M 01-26 BK 01-29 M",
+          "02-02 B 02-05 M 02-09 B 02-12 M 02-16 BP 02-19 M 02-23 BK 02-26 M",
+          "03-02 B 03-05 M 03-09 B 03-12 M 03-16 BP 03-19 M 03-23 BK 03-26 M 03-30 B",
+          "04-02 M 04-06 B 04-09 M 04-13 B 04-16 M 04-20 BP 04-23 M 04-27 BK 04-30 M",
+          "05-04 B 05-07 M 05-11 B 05-14 M 05-18 BP 05-21 M 05-25 BK 05-28 M",
+          "06-01 B 06-04 M 06-08 B 06-11 M 06-15 BP 06-18 M 06-22 BK 06-25 M 06-29 B",
+          "07-02 M 07-06 B 07-09 M 07-13 B 07-16 M 07-20 BP 07-23 M 07-27 BK 07-30 M",
+          "08-03 B 08-06 M 08-10 B 08-13 M 08-17 BP 08-20 M 08-24 BK 08-27 M 08-31 B",
+          "09-03 M 09-07 B 09-10 M 09-14 B 09-17 M 09-21 BP 09-24 M 09-28 BK",
+          "10-01 M 10-05 B 10-08 M 10-12 B 10-15 M 10-19 BP 10-22 M 10-26 BK 10-29 M",
+          "11-02 B 11-05 M 11-09 B 11-12 M 11-16 BP 11-19 M 11-23 BK 11-26 M 11-30 B",
+          "12-03 M 12-07 B 12-10 M 12-14 B 12-17 M 12-21 BP 12-24 M 12-28 BK 12-31 M"
+        ]
+      }
+    },
+    "Viskovo-H": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta H: Marinići, Dovičići, Ferenci, Široli …",
+      "ulice": ["Benaši", "Brnasi", "Brtuni", "Dovičići", "Ferenci", "Garići", "Klići", "Marinići", "Pešćićići", "Široli", "Turkovo", "Viškovo", "Vozišće", "Zorzići"],
+      "raw": {
+        "2026": [
+          "01-06 B 01-08 M 01-13 B 01-15 M 01-20 B 01-21 P 01-22 M 01-27 B 01-28 K 01-29 M",
+          "02-03 B 02-05 M 02-10 B 02-12 M 02-17 B 02-18 P 02-19 M 02-24 B 02-25 K 02-26 M",
+          "03-03 B 03-05 M 03-10 B 03-12 M 03-17 B 03-18 P 03-19 M 03-24 B 03-25 K 03-26 M 03-31 B",
+          "04-02 M 04-07 B 04-09 M 04-14 B 04-15 P 04-16 M 04-21 B 04-22 K 04-23 M 04-28 B 04-30 M",
+          "05-05 B 05-07 M 05-12 B 05-14 M 05-19 B 05-20 P 05-21 M 05-26 B 05-27 K 05-28 M",
+          "06-02 B 06-04 M 06-09 B 06-11 M 06-16 B 06-17 P 06-18 M 06-23 B 06-24 K 06-25 M 06-30 B",
+          "07-02 M 07-07 B 07-09 M 07-14 B 07-15 P 07-16 M 07-21 B 07-22 K 07-23 M 07-28 B 07-30 M",
+          "08-04 B 08-06 M 08-11 B 08-13 M 08-18 B 08-19 P 08-20 M 08-25 B 08-26 K 08-27 M",
+          "09-01 B 09-03 M 09-08 B 09-10 M 09-15 B 09-16 P 09-17 M 09-22 B 09-23 K 09-24 M 09-29 B",
+          "10-01 M 10-06 B 10-08 M 10-13 B 10-15 M 10-20 B 10-21 P 10-22 M 10-27 B 10-28 K 10-29 M",
+          "11-03 B 11-05 M 11-10 B 11-12 M 11-17 B 11-18 P 11-19 M 11-24 B 11-25 K 11-26 M",
+          "12-01 B 12-03 M 12-08 B 12-10 M 12-15 B 12-16 P 12-17 M 12-22 B 12-23 K 12-24 M 12-29 B 12-31 M"
+        ]
+      }
+    },
+    "Viskovo-I": {
+      "jls": "Viškovo",
+      "podrucje": "Ruta I: Gornji Sroki, Viškovo, Mladenići, Furićevo …",
+      "ulice": ["Brtuni", "Bujki", "Donji Sroki", "Furićevo", "Gornji Jugi", "Gornji Sroki", "Ilovca", "Kosi", "Marinići", "Mavri", "Mladenići", "Straža", "Stupari", "Valjani", "Viškovo", "Vozišće"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-06 P 01-07 B 01-10 M 01-13 K 01-14 B 01-17 M 01-21 B 01-24 M 01-28 B 01-31 M",
+          "02-03 P 02-04 B 02-07 M 02-10 K 02-11 B 02-14 M 02-18 B 02-21 M 02-25 B 02-28 M",
+          "03-03 P 03-04 B 03-07 M 03-10 K 03-11 B 03-14 M 03-18 B 03-21 M 03-25 B 03-28 M",
+          "04-01 B 04-04 M 04-07 P 04-08 B 04-11 M 04-14 K 04-15 B 04-18 M 04-22 B 04-25 M 04-29 B",
+          "05-02 M 05-05 P 05-06 B 05-09 M 05-12 K 05-13 B 05-16 M 05-20 B 05-23 M 05-27 B 05-30 M",
+          "06-02 P 06-03 B 06-06 M 06-09 K 06-10 B 06-13 M 06-17 B 06-20 M 06-24 B 06-27 M",
+          "07-01 B 07-04 M 07-07 P 07-08 B 07-11 M 07-14 K 07-15 B 07-18 M 07-22 B 07-25 M 07-29 B",
+          "08-01 M 08-04 P 08-05 B 08-08 M 08-11 K 08-12 B 08-15 M 08-19 B 08-22 M 08-26 B 08-29 M",
+          "09-01 P 09-02 B 09-05 M 09-08 K 09-09 B 09-12 M 09-16 B 09-19 M 09-23 B 09-26 M 09-30 B",
+          "10-03 M 10-06 P 10-07 B 10-10 M 10-13 K 10-14 B 10-17 M 10-21 B 10-24 M 10-28 B 10-31 M",
+          "11-03 P 11-04 B 11-07 M 11-10 K 11-11 B 11-14 M 11-18 B 11-21 M 11-25 B 11-28 M",
+          "12-01 P 12-02 B 12-05 M 12-08 K 12-09 B 12-12 M 12-16 B 12-19 M 12-23 B 12-26 M 12-30 B"
+        ]
+      }
+    },
+    "Cavle-A": {
+      "jls": "Čavle",
+      "podrucje": "Ruta A: Čavja, Lišćevica, Soboli, Cernik Dolnja cesta …",
+      "ulice": ["Aerodrom", "Automotodrom", "Banjevac", "Bobovčić", "Bukvina", "Cernik Dolnja cesta", "Crkvenjak", "Čavja", "Čavle Dolca", "Čavle Dolnja cesta", "Čavle Drage", "Čavle Ogradice", "Črišnjevac", "Črjeni", "Dražina", "Hahlić", "Kalić", "Kamenji", "Kikovica", "Kišur", "Kuška", "Lišćevica", "Lujzijana", "Osinjak", "Podčudnič Brda", "Podčudnič Krenovac", "Podrvanj", "Podrvanj Brda", "Podrvanj Dolčina", "Podrvanj Krenovac", "Podrvanj Progon", "Protove Drage", "Soboli", "Soboli Banja", "Soboli Ogradica", "Škojić", "Tićarnica", "Trg Hrvatskih Branitelja", "Zagodina", "Zakonj", "Zidine", "Žeželovo Selo", "Žubrovo Selo"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 P 01-12 M 01-14 K 01-19 M 01-26 M",
+          "02-02 M 02-04 P 02-09 M 02-11 K 02-16 M 02-23 M",
+          "03-02 M 03-04 P 03-09 M 03-11 K 03-16 M 03-23 M 03-30 M",
+          "04-01 P 04-06 M 04-08 K 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-06 P 05-11 M 05-13 K 05-18 M 05-25 M",
+          "06-01 M 06-03 P 06-08 M 06-10 K 06-15 M 06-22 M 06-29 M",
+          "07-01 P 07-06 M 07-08 K 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-05 P 08-10 M 08-12 K 08-17 M 08-24 M 08-31 M",
+          "09-02 P 09-07 M 09-09 K 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-07 P 10-12 M 10-14 K 10-19 M 10-26 M",
+          "11-02 M 11-04 P 11-09 M 11-11 K 11-16 M 11-23 M 11-30 M",
+          "12-02 P 12-07 M 12-09 K 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "Cavle-B": {
+      "jls": "Čavle",
+      "podrucje": "Ruta B: Rakovo Selo, Hrastenica, Boki, Goranska …",
+      "ulice": ["Baćina", "Bajin", "Boki", "Bujanovo", "Buzdehanj", "Buzdohanj Dolčina", "Buzdohanj Stranica", "Čavle Banja", "Čavle Stranica", "Goranska", "Gospodski Vrt", "Griža", "Halovac", "Hrastenica", "Jakla", "Kosorci", "Krivujata", "Lećin", "Ledine", "Markovci", "Matijan", "Mavrinci Brdina", "Mavrinci Progon", "Mirlinovo", "Njivice", "Perićevci", "Pod Brdo", "Pod Stranicun", "Pomorno", "Punčenjak", "Rakovo Selo", "Striganj", "Umelice", "Visoče", "Vrh Čavje", "Vršić"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-21 P 01-27 M 01-28 K",
+          "02-03 M 02-10 M 02-17 M 02-18 P 02-24 M 02-25 K",
+          "03-03 M 03-10 M 03-17 M 03-18 P 03-24 M 03-25 K 03-31 M",
+          "04-07 M 04-14 M 04-15 P 04-21 M 04-22 K 04-28 M",
+          "05-05 M 05-12 M 05-19 M 05-20 P 05-26 M 05-27 K",
+          "06-02 M 06-09 M 06-16 M 06-17 P 06-23 M 06-24 K 06-30 M",
+          "07-07 M 07-14 M 07-15 P 07-21 M 07-22 K 07-28 M",
+          "08-04 M 08-11 M 08-18 M 08-19 P 08-25 M 08-26 K",
+          "09-01 M 09-08 M 09-15 M 09-16 P 09-22 M 09-23 K 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-21 P 10-27 M 10-28 K",
+          "11-03 M 11-10 M 11-17 M 11-18 P 11-24 M 11-25 K",
+          "12-01 M 12-08 M 12-15 M 12-16 P 12-22 M 12-23 K 12-29 M"
+        ]
+      }
+    },
+    "Cavle-C": {
+      "jls": "Čavle",
+      "podrucje": "Ruta C: Cernik, Zastenice, Podrvanj, Podprisika …",
+      "ulice": ["Bilin", "Bobovac", "Bobovčić", "Bok", "Brajde", "Brdašce", "Bršljanski put", "Cernik", "Čavlovo Selo", "Češkovica", "Črišnjevac", "Čudnič", "Dolnje Selo", "Draganja", "Dragavac", "Dražica", "Franovići", "Frlanska Lišćevica", "Gomanca", "Gornja Selina", "Grad", "Grobišća", "Grobnik Brdo", "Grobnik Dolca", "Guslenac", "Haramijsko Selo", "Harteraška", "Jezero", "Kačani", "Kava", "Konjuh", "Lesice", "Lišćevica", "Lukinićevo", "Majer", "Med Dolci", "Mejska", "Mikeji", "Mikejovac", "Na Brdu", "Ograde", "Opora", "Počudnič", "Pod Kostanji", "Pod Turan", "Podčudnič Brda", "Podčudnič Brdina", "Podčudnič Frlani", "Podčudnič Kalina", "Podčudnič Krenovac", "Podčudnič Progon", "Podprisika", "Podrvanj", "Podrvanj Podopora", "Podslivice", "Pojice", "Potočina", "Rasadišća", "Ravnjarsko Selo", "Selina", "Starine", "Stinjevo", "Sveta Marija Tepačka", "Školska", "Šupijan", "Šušnjevac", "Za Gumno", "Zagrad", "Zaselo", "Zastenice", "Zastenice Brdo", "Zastenice Kalina", "Zastenice Podopora", "Zatrojica", "Žakanj"],
+      "raw": {
+        "2026": [
+          "01-03 P 01-08 M 01-10 K 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-07 P 02-12 M 02-14 K 02-19 M 02-26 M",
+          "03-05 M 03-07 P 03-12 M 03-14 K 03-19 M 03-26 M",
+          "04-02 M 04-04 P 04-09 M 04-11 K 04-16 M 04-23 M 04-30 M",
+          "05-02 P 05-07 M 05-09 K 05-14 M 05-21 M 05-28 M",
+          "06-04 M 06-06 P 06-11 M 06-13 K 06-18 M 06-25 M",
+          "07-02 M 07-04 P 07-09 M 07-11 K 07-16 M 07-23 M 07-30 M",
+          "08-01 P 08-06 M 08-08 K 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-05 P 09-10 M 09-12 K 09-17 M 09-24 M",
+          "10-01 M 10-03 P 10-08 M 10-10 K 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-07 P 11-12 M 11-14 K 11-19 M 11-26 M",
+          "12-03 M 12-05 P 12-10 M 12-12 K 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "Cavle-D": {
+      "jls": "Čavle",
+      "podrucje": "Ruta D: Bajčevo Selo, Lazina, Bajin, Baredina …",
+      "ulice": ["Bajčevo Selo", "Bajin", "Banija", "Baredina", "Grad", "Griža", "Grobnik Bani", "Ilovik", "Klančić", "Lazina", "Mikejovac", "Opora", "Pod Bani", "Podrvanj Podopora", "Podstenice", "Škaroni", "Škaronski put", "Trg Zrinskih i Frankopana", "Turki", "Turkovo Brdo", "Zastenice Brdo"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-08 M 01-14 K 01-15 M 01-22 M 01-29 M",
+          "02-04 P 02-05 M 02-11 K 02-12 M 02-19 M 02-26 M",
+          "03-04 P 03-05 M 03-11 K 03-12 M 03-19 M 03-26 M",
+          "04-01 P 04-02 M 04-08 K 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-06 P 05-07 M 05-13 K 05-14 M 05-21 M 05-28 M",
+          "06-03 P 06-04 M 06-10 K 06-11 M 06-18 M 06-25 M",
+          "07-01 P 07-02 M 07-08 K 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-05 P 08-06 M 08-12 K 08-13 M 08-20 M 08-27 M",
+          "09-02 P 09-03 M 09-09 K 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-07 P 10-08 M 10-14 K 10-15 M 10-22 M 10-29 M",
+          "11-04 P 11-05 M 11-11 K 11-12 M 11-19 M 11-26 M",
+          "12-02 P 12-03 M 12-09 K 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "Cavle-E": {
+      "jls": "Čavle",
+      "podrucje": "Ruta E: Mavrinci, Cipica, Pod Vrh, Cerniški …",
+      "ulice": ["Bajta", "Cernik Bani", "Cernik Dolnja cesta", "Cernik Ogradice", "Cernik pod Vrh", "Cerniški", "Cipica", "Čavlova Ograd", "Črna", "Gaj", "Gorica", "Haramijsko Selo", "Kalinice", "Kalnica", "Kameni", "Kapuznjak", "Klanac", "Mavrinci", "Mavrinci Ogradica", "Mrkovica", "Orišji", "Pod Borići", "Pod Vrh", "Prebijine", "Put Juranon", "Put Škrilan", "Ravan", "Ravnjarsko Selo", "Remetnjak", "Rešetarovo", "Saverovac", "Selo", "Srićinsko Selo", "Škrile", "Usinj"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-17 P 01-23 M 01-24 K 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-21 P 02-27 M 02-28 K",
+          "03-06 M 03-13 M 03-20 M 03-21 P 03-27 M 03-28 K",
+          "04-03 M 04-10 M 04-17 M 04-18 P 04-24 M 04-25 K",
+          "05-01 M 05-08 M 05-15 M 05-16 P 05-22 M 05-23 K 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-20 P 06-26 M 06-27 K",
+          "07-03 M 07-10 M 07-17 M 07-18 P 07-24 M 07-25 K 07-31 M",
+          "08-07 M 08-14 M 08-15 P 08-21 M 08-22 K 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-19 P 09-25 M 09-26 K",
+          "10-02 M 10-09 M 10-16 M 10-17 P 10-23 M 10-24 K 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-21 P 11-27 M 11-28 K",
+          "12-04 M 12-11 M 12-18 M 12-19 P 12-26 K 12-30 M!"
+        ]
+      }
+    },
+    "Cavle-F": {
+      "jls": "Čavle",
+      "podrucje": "Ruta F: Selo, Get, Hrastenica, Cernik Dolčina …",
+      "ulice": ["Buzdohanj Dolčina", "Cernik", "Cernik Dolčina", "Gaj", "Get", "Hrastenica", "Jupovica", "Klanac", "Kolarica", "Mavrinci Drage", "Mavrinci Progon", "Pešćine", "Prnada", "Ravan", "Rešetarovo", "Selo", "Trg Antifašističkih boraca"],
+      "raw": {
+        "2026": [
+          "01-06 K 01-08 M 01-15 M 01-21 P 01-22 M 01-29 M",
+          "02-03 K 02-05 M 02-12 M 02-18 P 02-19 M 02-26 M",
+          "03-03 K 03-05 M 03-12 M 03-18 P 03-19 M 03-26 M",
+          "04-02 M 04-07 K 04-09 M 04-15 P 04-16 M 04-23 M 04-30 M",
+          "05-05 K 05-07 M 05-14 M 05-20 P 05-21 M 05-28 M",
+          "06-02 K 06-04 M 06-11 M 06-17 P 06-18 M 06-25 M",
+          "07-02 M 07-07 K 07-09 M 07-15 P 07-16 M 07-23 M 07-30 M",
+          "08-04 K 08-06 M 08-13 M 08-19 P 08-20 M 08-27 M",
+          "09-01 K 09-03 M 09-10 M 09-16 P 09-17 M 09-24 M",
+          "10-01 M 10-06 K 10-08 M 10-15 M 10-21 P 10-22 M 10-29 M",
+          "11-03 K 11-05 M 11-12 M 11-18 P 11-19 M 11-26 M",
+          "12-01 K 12-03 M 12-10 M 12-16 P 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "Cavle-E1": {
+      "jls": "Čavle",
+      "podrucje": "Ruta E1 Čavle Platak: Platak",
+      "ulice": ["Platak"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-17 P 01-23 M 01-24 K 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-21 P 02-27 M 02-28 K",
+          "03-06 M 03-13 M 03-20 M 03-21 P 03-27 M 03-28 K",
+          "04-03 M 04-10 M 04-17 M 04-18 P 04-24 M 04-25 K",
+          "05-01 M 05-08 M 05-15 M 05-16 P 05-22 M 05-23 K 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-20 P 06-26 M 06-27 K",
+          "07-03 M 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-30 M!"
+        ]
+      }
+    },
+    "Jelenje-A": {
+      "jls": "Jelenje",
+      "podrucje": "Ruta A: Dražičkih boraca, Sušička, Planinska, Obrovac Dražice …",
+      "ulice": ["Borovička", "Buna", "Dražičkih boraca", "Male Dražice", "Obrovac", "Obrovac Dražice", "Ogradica", "Okršaj", "Planinska", "Podhum", "Podkilavačka", "Puli Poje", "Pulipoje", "Ričinska", "Stolac", "Sušička", "Školska", "Težačka", "Umole", "Vele Dražice"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 P 01-12 M 01-14 K 01-19 M 01-26 M",
+          "02-02 M 02-04 P 02-09 M 02-11 K 02-16 M 02-23 M",
+          "03-02 M 03-04 P 03-09 M 03-11 K 03-16 M 03-23 M 03-30 M",
+          "04-01 P 04-06 M 04-08 K 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-06 P 05-11 M 05-13 K 05-18 M 05-25 M",
+          "06-01 M 06-03 P 06-08 M 06-10 K 06-15 M 06-22 M 06-29 M",
+          "07-01 P 07-06 M 07-08 K 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-05 P 08-10 M 08-12 K 08-17 M 08-24 M 08-31 M",
+          "09-02 P 09-07 M 09-09 K 09-14 M 09-21 M 09-28 M",
+          "10-05 M 10-07 P 10-12 M 10-14 K 10-19 M 10-26 M",
+          "11-02 M 11-04 P 11-09 M 11-11 K 11-16 M 11-23 M 11-30 M",
+          "12-02 P 12-07 M 12-09 K 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "Jelenje-B": {
+      "jls": "Jelenje",
+      "podrucje": "Ruta B: Lukeži, Vele Dražice, Martinovo Selo, Lubarska …",
+      "ulice": ["Baštijani", "Brnelići", "Drastin", "Jelenje", "Kukuljani", "Lopača", "Lubarska", "Lukeži", "Male Dražice", "Martinovo Selo", "Milaši", "Molnari", "Okršaj", "Podrti", "Ratulje", "Stolac", "Vele Dražice", "Zoretići"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-10 M 01-17 M 01-21 P 01-24 M 01-28 K 01-31 M",
+          "02-07 M 02-14 M 02-18 P 02-21 M 02-25 K 02-28 M",
+          "03-07 M 03-14 M 03-18 P 03-21 M 03-25 K 03-28 M",
+          "04-04 M 04-11 M 04-15 P 04-18 M 04-22 K 04-25 M",
+          "05-02 M 05-09 M 05-16 M 05-20 P 05-23 M 05-27 K 05-30 M",
+          "06-06 M 06-13 M 06-17 P 06-20 M 06-24 K 06-27 M",
+          "07-04 M 07-11 M 07-15 P 07-18 M 07-22 K 07-25 M",
+          "08-01 M 08-08 M 08-15 M 08-19 P 08-22 M 08-26 K 08-29 M",
+          "09-05 M 09-12 M 09-16 P 09-19 M 09-23 K 09-26 M",
+          "10-03 M 10-10 M 10-17 M 10-21 P 10-24 M 10-28 K 10-31 M",
+          "11-07 M 11-14 M 11-18 P 11-21 M 11-25 K 11-28 M",
+          "12-05 M 12-12 M 12-16 P 12-19 M 12-23 K 12-26 M"
+        ]
+      }
+    },
+    "Jelenje-C": {
+      "jls": "Jelenje",
+      "podrucje": "Ruta C: Podhum, Jelenje",
+      "ulice": ["Jelenje", "Podhum"],
+      "raw": {
+        "2026": [
+          "01-07 P 01-08 M 01-14 K 01-15 M 01-22 M 01-29 M",
+          "02-04 P 02-05 M 02-11 K 02-12 M 02-19 M 02-26 M",
+          "03-04 P 03-05 M 03-11 K 03-12 M 03-19 M 03-26 M",
+          "04-01 P 04-02 M 04-08 K 04-09 M 04-16 M 04-23 M 04-30 M",
+          "05-06 P 05-07 M 05-13 K 05-14 M 05-21 M 05-28 M",
+          "06-03 P 06-04 M 06-10 K 06-11 M 06-18 M 06-25 M",
+          "07-01 P 07-02 M 07-08 K 07-09 M 07-16 M 07-23 M 07-30 M",
+          "08-05 P 08-06 M 08-12 K 08-13 M 08-20 M 08-27 M",
+          "09-02 P 09-03 M 09-09 K 09-10 M 09-17 M 09-24 M",
+          "10-01 M 10-07 P 10-08 M 10-14 K 10-15 M 10-22 M 10-29 M",
+          "11-04 P 11-05 M 11-11 K 11-12 M 11-19 M 11-26 M",
+          "12-02 P 12-03 M 12-09 K 12-10 M 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "Jelenje-D": {
+      "jls": "Jelenje",
+      "podrucje": "Ruta D: Podhum, Podkilavac, Jelenje, Zoretići …",
+      "ulice": ["Jelenje", "Obrovac", "Obrovac Dražice", "Podhum", "Podkilavac", "Trnovica", "Zoretići"],
+      "raw": {
+        "2026": [
+          "01-03 M 01-10 M 01-17 M 01-21 P 01-24 M 01-28 K 01-31 M",
+          "02-07 M 02-14 M 02-18 P 02-21 M 02-25 K 02-28 M",
+          "03-07 M 03-14 M 03-18 P 03-21 M 03-25 K 03-28 M",
+          "04-04 M 04-11 M 04-15 P 04-18 M 04-22 K 04-25 M",
+          "05-02 M 05-09 M 05-16 M 05-20 P 05-23 M 05-27 K 05-30 M",
+          "06-06 M 06-13 M 06-17 P 06-20 M 06-24 K 06-27 M",
+          "07-04 M 07-11 M 07-15 P 07-18 M 07-22 K 07-25 M",
+          "08-01 M 08-08 M 08-15 M 08-19 P 08-22 M 08-26 K 08-29 M",
+          "09-05 M 09-12 M 09-16 P 09-19 M 09-23 K 09-26 M",
+          "10-03 M 10-10 M 10-17 M 10-21 P 10-24 M 10-28 K 10-31 M",
+          "11-07 M 11-14 M 11-18 P 11-21 M 11-25 K 11-28 M",
+          "12-05 M 12-12 M 12-16 P 12-19 M 12-23 K 12-26 M"
+        ]
+      }
+    },
+    "Klana-A": {
+      "jls": "Klana",
+      "podrucje": "Ruta A: Klana, Studena, Škalnica, Podstrmac …",
+      "ulice": ["Breza", "Kalužica", "Klana", "Laze", "Lisac", "Podstrmac", "Predboršt", "Studena", "Škalnica", "Zatrep"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-08 K 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-05 P 02-11 M 02-12 K 02-18 M 02-25 M",
+          "03-04 M 03-05 P 03-11 M 03-12 K 03-18 M 03-25 M",
+          "04-01 M 04-02 P 04-08 M 04-09 K 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-07 P 05-13 M 05-14 K 05-20 M 05-27 M",
+          "06-03 M 06-04 P 06-10 M 06-11 K 06-17 M 06-24 M",
+          "07-01 M 07-02 P 07-08 M 07-09 K 07-15 M 07-22 M 07-29 M",
+          "08-05 M 08-06 P 08-12 M 08-13 K 08-19 M 08-26 M",
+          "09-02 M 09-03 P 09-09 M 09-10 K 09-16 M 09-23 M 09-30 M",
+          "10-01 P 10-07 M 10-08 K 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-05 P 11-11 M 11-12 K 11-18 M 11-25 M",
+          "12-02 M 12-03 P 12-09 M 12-10 K 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    }
+  }
+}

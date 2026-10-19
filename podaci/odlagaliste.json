@@ -1,0 +1,327 @@
+{
+  "davatelj": "Odlagalište d.o.o.",
+  "web": "https://odlagaliste.hr",
+  "izvor": "https://odlagaliste.hr/raspored-odvoza-otpada/",
+  "zupanija": "Brodsko-posavska",
+  "jls": ["Nova Gradiška", "Cernik", "Dragalić", "Gornji Bogićevci", "Rešetari", "Stara Gradiška", "Staro Petrovo Selo"],
+  "napomene": ["Datumi su izračunati iz pravila objavljenih 2022. (raspored miješanog otpada po danima i obavijesti o odvozu reciklabilnog otpada); pretpostavlja se da i dalje vrijede.", "Spremnike treba iznijeti večer prije dana odvoza ili najkasnije do 5 sati na dan odvoza.", "Tržnica u Novoj Gradiškoj: miješani otpad ponedjeljkom, srijedom i petkom (navedena je u tri zone).", "Blagdani 2026.: pomaci se objavljuju samo kao obavijesti na odlagaliste.hr. Primijenjene obavijesti: 05.08. → 08.08. (miješani otpad); 05.08. → 08.08. (plastika). Za ostale blagdane (01.01., 06.01., 06.04., 01.05., 30.05., 04.06., 22.06., 15.08., 18.11., 25.12., 26.12.) obavijest nije pronađena, pa je naveden redovni dan odvoza.", "Izvori: https://odlagaliste.hr/wp-content/uploads/2022/02/MKO-Grad-2022..pdf, https://odlagaliste.hr/wp-content/uploads/2022/01/Raspored-odvoza-po-danima-2022.pdf, https://odlagaliste.hr/wp-content/uploads/2022/01/OBAVIJEST-O-ODVOZU-RECIKLAZE-GRAD-2022-1.pdf, https://odlagaliste.hr/wp-content/uploads/2022/01/OBAVIJEST-O-ODVOZU-RECIKLAZE-SELA-2022.pdf."],
+  "zone": {
+    "1": {
+      "jls": "Nova Gradiška",
+      "podrucje": "Nova Gradiška, ponedjeljak – miješani svaki ponedjeljak; papir 1. utorak u mjesecu, plastika 1. četvrtak u mjesecu",
+      "ulice": ["Mihanovićeva", "Lj. Posavskog", "A. Starčevića", "P. Svačića", "B. Jelačića", "G. Ninskog", "Bedem", "Benkovićeva", "Strossmayerova", "Vočarska", "Mažuranićeva", "Draškovićeva", "I. Kršnjavog", "Lisinskog", "I. Zajca", "F. Schmita", "A. K. Miočića", "M. Gupca", "F. Račkog", "K. P. Krešimira", "Javorova", "Sv. Roka", "Fra L. Ibrišimovića", "Prvča", "Tržnica", "Braće Radić", "Baruna Trenka", "Ivana Domca"],
+      "raw": {
+        "2026": [
+          "01-01 P 01-05 M 01-06 K 01-12 M 01-19 M 01-26 M",
+          "02-02 M 02-03 K 02-05 P 02-09 M 02-16 M 02-23 M",
+          "03-02 M 03-03 K 03-05 P 03-09 M 03-16 M 03-23 M 03-30 M",
+          "04-02 P 04-06 M 04-07 K 04-13 M 04-20 M 04-27 M",
+          "05-04 M 05-05 K 05-07 P 05-11 M 05-18 M 05-25 M",
+          "06-01 M 06-02 K 06-04 P 06-08 M 06-15 M 06-22 M 06-29 M",
+          "07-02 P 07-06 M 07-07 K 07-13 M 07-20 M 07-27 M",
+          "08-03 M 08-04 K 08-06 P 08-10 M 08-17 M 08-24 M 08-31 M",
+          "09-01 K 09-03 P 09-07 M 09-14 M 09-21 M 09-28 M",
+          "10-01 P 10-05 M 10-06 K 10-12 M 10-19 M 10-26 M",
+          "11-02 M 11-03 K 11-05 P 11-09 M 11-16 M 11-23 M 11-30 M",
+          "12-01 K 12-03 P 12-07 M 12-14 M 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Nova Gradiška",
+      "podrucje": "Nova Gradiška, utorak – miješani svaki utorak; papir 4. utorak u mjesecu, plastika 4. četvrtak u mjesecu",
+      "ulice": ["Kralja Zvonimira", "Celestina Medovića", "Ive Kerdiće", "Kneza Trpimira", "Posavska", "Sv. Vida", "Industrijska zona"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-22 P 01-27 MK",
+          "02-03 M 02-10 M 02-17 M 02-24 MK 02-26 P",
+          "03-03 M 03-10 M 03-17 M 03-24 MK 03-26 P 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-23 P 04-28 MK",
+          "05-05 M 05-12 M 05-19 M 05-26 MK 05-28 P",
+          "06-02 M 06-09 M 06-16 M 06-23 MK 06-25 P 06-30 M",
+          "07-07 M 07-14 M 07-21 M 07-23 P 07-28 MK",
+          "08-04 M 08-11 M 08-18 M 08-25 MK 08-27 P",
+          "09-01 M 09-08 M 09-15 M 09-22 MK 09-24 P 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-22 P 10-27 MK",
+          "11-03 M 11-10 M 11-17 M 11-24 MK 11-26 P",
+          "12-01 M 12-08 M 12-15 M 12-22 MK 12-24 P 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Nova Gradiška",
+      "podrucje": "Ljupina – miješani svaki utorak; papir 3. utorak u mjesecu, plastika 3. četvrtak u mjesecu",
+      "ulice": ["Ljupina"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-15 P 01-20 MK 01-27 M",
+          "02-03 M 02-10 M 02-17 MK 02-19 P 02-24 M",
+          "03-03 M 03-10 M 03-17 MK 03-19 P 03-24 M 03-31 M",
+          "04-07 M 04-14 M 04-16 P 04-21 MK 04-28 M",
+          "05-05 M 05-12 M 05-19 MK 05-21 P 05-26 M",
+          "06-02 M 06-09 M 06-16 MK 06-18 P 06-23 M 06-30 M",
+          "07-07 M 07-14 M 07-16 P 07-21 MK 07-28 M",
+          "08-04 M 08-11 M 08-18 MK 08-20 P 08-25 M",
+          "09-01 M 09-08 M 09-15 MK 09-17 P 09-22 M 09-29 M",
+          "10-06 M 10-13 M 10-15 P 10-20 MK 10-27 M",
+          "11-03 M 11-10 M 11-17 MK 11-19 P 11-24 M",
+          "12-01 M 12-08 M 12-15 MK 12-17 P 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Nova Gradiška",
+      "podrucje": "Nova Gradiška, srijeda – miješani svaku srijedu; papir 2. utorak u mjesecu, plastika 2. četvrtak u mjesecu",
+      "ulice": ["J. Haulika", "J. Ljubibratića", "Frankopanska", "K. Djeneša", "Psunjska", "Cvjetna", "Ratarska", "M. J. Zagorke", "Cernička", "Kožarska", "A. Mandrovića", "B. Radićevića", "A. Štampara", "J. Kozarca", "Strmačka", "Trg G. Viteza", "S. S. Kranjčevića", "A. B. Šimića", "Mlinarska", "Mala", "I. Kramarića", "Tržnica", "Prkos"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-08 P 01-13 K 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-10 K 02-11 M 02-12 P 02-18 M 02-25 M",
+          "03-04 M 03-10 K 03-11 M 03-12 P 03-18 M 03-25 M",
+          "04-01 M 04-08 M 04-09 P 04-14 K 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-12 K 05-13 M 05-14 P 05-20 M 05-27 M",
+          "06-03 M 06-09 K 06-10 M 06-11 P 06-17 M 06-24 M",
+          "07-01 M 07-08 M 07-09 P 07-14 K 07-15 M 07-22 M 07-29 M",
+          "08-08 M! 08-11 K 08-12 M 08-13 P 08-19 M 08-26 M",
+          "09-02 M 09-08 K 09-09 M 09-10 P 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-08 P 10-13 K 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-10 K 11-11 M 11-12 P 11-18 M 11-25 M",
+          "12-02 M 12-08 K 12-09 M 12-10 P 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Nova Gradiška",
+      "podrucje": "Nova Gradiška, četvrtak – miješani svaki četvrtak; papir 3. utorak u mjesecu, plastika 3. četvrtak u mjesecu",
+      "ulice": ["A. G. Matoša", "I. Andrića", "M. Krleže", "B. Kašića", "Slavča", "V. Nikolića", "Freundenreicha", "Lj. Gaja", "Vinogradska", "Psunjska (zapadno od potoka)", "T. Ujevića", "D. Lobe", "Radnička", "Lipovica", "Slavonska", "Prognaničko naselje", "Kovačevac", "Sv. Vinka", "M. Lanosovića", "Trg K. Višeslava"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 MP 01-20 K 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-17 K 02-19 MP 02-26 M",
+          "03-05 M 03-12 M 03-17 K 03-19 MP 03-26 M",
+          "04-02 M 04-09 M 04-16 MP 04-21 K 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-19 K 05-21 MP 05-28 M",
+          "06-04 M 06-11 M 06-16 K 06-18 MP 06-25 M",
+          "07-02 M 07-09 M 07-16 MP 07-21 K 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-18 K 08-20 MP 08-27 M",
+          "09-03 M 09-10 M 09-15 K 09-17 MP 09-24 M",
+          "10-01 M 10-08 M 10-15 MP 10-20 K 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-17 K 11-19 MP 11-26 M",
+          "12-03 M 12-10 M 12-15 K 12-17 MP 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Nova Gradiška",
+      "podrucje": "Nova Gradiška, petak – miješani svaki petak; papir 4. utorak u mjesecu, plastika 4. četvrtak u mjesecu",
+      "ulice": ["Trg Kralja Tomislava", "A. Stepinca", "Relkovićeva", "N. Tesle", "V. Nazora", "I. Gundulića", "Potočna", "P. Preradovića", "E. Kvaternika", "Sl. Graničara", "Zrinskih", "I. G. Kovačića", "Slave Raškaj", "Zagrebačka", "Andrije Hebranga", "Miloša Đurića", "Željeznička", "M. Kraljevića", "Kolodvorska", "Tržnica", "Tina Ujevića", "Eugena Purgarića", "Alojzija Stepinca", "Gaj", "Vrebino brdo", "K. Dijeneša (br.9,9/1,9/2)", "M. Bauera", "Bolnica", "Odvojak Sv. Vinko"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-22 P 01-23 M 01-27 K 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-24 K 02-26 P 02-27 M",
+          "03-06 M 03-13 M 03-20 M 03-24 K 03-26 P 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-23 P 04-24 M 04-28 K",
+          "05-01 M 05-08 M 05-15 M 05-22 M 05-26 K 05-28 P 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-23 K 06-25 P 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-23 P 07-24 M 07-28 K 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-25 K 08-27 P 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-22 K 09-24 P 09-25 M",
+          "10-02 M 10-09 M 10-16 M 10-22 P 10-23 M 10-27 K 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-24 K 11-26 P 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-22 K 12-24 P 12-25 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Cernik",
+      "podrucje": "Cernik, utorak – Banićevac, Baćin Dol, Opatovac, Podvrško, Šumetlica; miješani svaki utorak, papir 1. ponedjeljak u mjesecu, plastika 1. srijeda u mjesecu",
+      "ulice": ["Banićevac", "Baćin Dol", "Opatovac", "Podvrško", "Šumetlica"],
+      "raw": {
+        "2026": [
+          "01-05 K 01-06 M 01-07 P 01-13 M 01-20 M 01-27 M",
+          "02-02 K 02-03 M 02-04 P 02-10 M 02-17 M 02-24 M",
+          "03-02 K 03-03 M 03-04 P 03-10 M 03-17 M 03-24 M 03-31 M",
+          "04-01 P 04-06 K 04-07 M 04-14 M 04-21 M 04-28 M",
+          "05-04 K 05-05 M 05-06 P 05-12 M 05-19 M 05-26 M",
+          "06-01 K 06-02 M 06-03 P 06-09 M 06-16 M 06-23 M 06-30 M",
+          "07-01 P 07-06 K 07-07 M 07-14 M 07-21 M 07-28 M",
+          "08-03 K 08-04 M 08-08 P! 08-11 M 08-18 M 08-25 M",
+          "09-01 M 09-02 P 09-07 K 09-08 M 09-15 M 09-22 M 09-29 M",
+          "10-05 K 10-06 M 10-07 P 10-13 M 10-20 M 10-27 M",
+          "11-02 K 11-03 M 11-04 P 11-10 M 11-17 M 11-24 M",
+          "12-01 M 12-02 P 12-07 K 12-08 M 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Cernik",
+      "podrucje": "Cernik, srijeda – Cernik, Cernička Šagovina, Giletinci; miješani svaku srijedu, papir 1. ponedjeljak u mjesecu, plastika 1. srijeda u mjesecu",
+      "ulice": ["Cernik", "Cernička Šagovina", "Giletinci"],
+      "raw": {
+        "2026": [
+          "01-05 K 01-07 MP 01-14 M 01-21 M 01-28 M",
+          "02-02 K 02-04 MP 02-11 M 02-18 M 02-25 M",
+          "03-02 K 03-04 MP 03-11 M 03-18 M 03-25 M",
+          "04-01 MP 04-06 K 04-08 M 04-15 M 04-22 M 04-29 M",
+          "05-04 K 05-06 MP 05-13 M 05-20 M 05-27 M",
+          "06-01 K 06-03 MP 06-10 M 06-17 M 06-24 M",
+          "07-01 MP 07-06 K 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-03 K 08-08 MP! 08-12 M 08-19 M 08-26 M",
+          "09-02 MP 09-07 K 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-05 K 10-07 MP 10-14 M 10-21 M 10-28 M",
+          "11-02 K 11-04 MP 11-11 M 11-18 M 11-25 M",
+          "12-02 MP 12-07 K 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Dragalić",
+      "podrucje": "Dragalić, utorak – Mašić, Medari, Dragalić, Donji Bogićevci, Gorice, Poljane; miješani svaki utorak, papir 2. ponedjeljak u mjesecu, plastika 2. srijeda u mjesecu",
+      "ulice": ["Mašić", "Medari", "Dragalić", "Donji Bogićevci", "Gorice", "Poljane"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-12 K 01-13 M 01-14 P 01-20 M 01-27 M",
+          "02-03 M 02-09 K 02-10 M 02-11 P 02-17 M 02-24 M",
+          "03-03 M 03-09 K 03-10 M 03-11 P 03-17 M 03-24 M 03-31 M",
+          "04-07 M 04-08 P 04-13 K 04-14 M 04-21 M 04-28 M",
+          "05-05 M 05-11 K 05-12 M 05-13 P 05-19 M 05-26 M",
+          "06-02 M 06-08 K 06-09 M 06-10 P 06-16 M 06-23 M 06-30 M",
+          "07-07 M 07-08 P 07-13 K 07-14 M 07-21 M 07-28 M",
+          "08-04 M 08-10 K 08-11 M 08-12 P 08-18 M 08-25 M",
+          "09-01 M 09-08 M 09-09 P 09-14 K 09-15 M 09-22 M 09-29 M",
+          "10-06 M 10-12 K 10-13 M 10-14 P 10-20 M 10-27 M",
+          "11-03 M 11-09 K 11-10 M 11-11 P 11-17 M 11-24 M",
+          "12-01 M 12-08 M 12-09 P 12-14 K 12-15 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Rešetari",
+      "podrucje": "Rešetari, srijeda – Rešetari, Bukovica; miješani svaku srijedu, papir 3. ponedjeljak u mjesecu, plastika 3. srijeda u mjesecu",
+      "ulice": ["Rešetari", "Bukovica"],
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 M 01-19 K 01-21 MP 01-28 M",
+          "02-04 M 02-11 M 02-16 K 02-18 MP 02-25 M",
+          "03-04 M 03-11 M 03-16 K 03-18 MP 03-25 M",
+          "04-01 M 04-08 M 04-15 MP 04-20 K 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-18 K 05-20 MP 05-27 M",
+          "06-03 M 06-10 M 06-15 K 06-17 MP 06-24 M",
+          "07-01 M 07-08 M 07-15 MP 07-20 K 07-22 M 07-29 M",
+          "08-08 M! 08-12 M 08-17 K 08-19 MP 08-26 M",
+          "09-02 M 09-09 M 09-16 MP 09-21 K 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-19 K 10-21 MP 10-28 M",
+          "11-04 M 11-11 M 11-16 K 11-18 MP 11-25 M",
+          "12-02 M 12-09 M 12-16 MP 12-21 K 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Rešetari",
+      "podrucje": "Rešetari, četvrtak – Adžamovci, Brđani, Gunjavci, Drežnik, Zapolje; miješani svaki četvrtak, papir 3. ponedjeljak u mjesecu, plastika 3. srijeda u mjesecu",
+      "ulice": ["Adžamovci", "Brđani", "Gunjavci", "Drežnik", "Zapolje"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-15 M 01-19 K 01-21 P 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-16 K 02-18 P 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-16 K 03-18 P 03-19 M 03-26 M",
+          "04-02 M 04-09 M 04-15 P 04-16 M 04-20 K 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-18 K 05-20 P 05-21 M 05-28 M",
+          "06-04 M 06-11 M 06-15 K 06-17 P 06-18 M 06-25 M",
+          "07-02 M 07-09 M 07-15 P 07-16 M 07-20 K 07-23 M 07-30 M",
+          "08-06 M 08-13 M 08-17 K 08-19 P 08-20 M 08-27 M",
+          "09-03 M 09-10 M 09-16 P 09-17 M 09-21 K 09-24 M",
+          "10-01 M 10-08 M 10-15 M 10-19 K 10-21 P 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-16 K 11-18 P 11-19 M 11-26 M",
+          "12-03 M 12-10 M 12-16 P 12-17 M 12-21 K 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Stara Gradiška",
+      "podrucje": "Stara Gradiška, četvrtak – Uskoci, Donji Varoš, Gornji Varoš, Novi Varoš, Stara Gradiška; miješani svaki četvrtak, papir 2. ponedjeljak u mjesecu, plastika 2. srijeda u mjesecu",
+      "ulice": ["Uskoci", "Donji Varoš", "Gornji Varoš", "Novi Varoš", "Stara Gradiška"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-08 M 01-12 K 01-14 P 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-09 K 02-11 P 02-12 M 02-19 M 02-26 M",
+          "03-05 M 03-09 K 03-11 P 03-12 M 03-19 M 03-26 M",
+          "04-02 M 04-08 P 04-09 M 04-13 K 04-16 M 04-23 M 04-30 M",
+          "05-07 M 05-11 K 05-13 P 05-14 M 05-21 M 05-28 M",
+          "06-04 M 06-08 K 06-10 P 06-11 M 06-18 M 06-25 M",
+          "07-02 M 07-08 P 07-09 M 07-13 K 07-16 M 07-23 M 07-30 M",
+          "08-06 M 08-10 K 08-12 P 08-13 M 08-20 M 08-27 M",
+          "09-03 M 09-09 P 09-10 M 09-14 K 09-17 M 09-24 M",
+          "10-01 M 10-08 M 10-12 K 10-14 P 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-09 K 11-11 P 11-12 M 11-19 M 11-26 M",
+          "12-03 M 12-09 P 12-10 M 12-14 K 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Staro Petrovo Selo",
+      "podrucje": "Staro Petrovo Selo, ponedjeljak – Godinjak, Tisovac, Gornji Crnogovci, Donji Crnogovci, Laze, Štivica, Komarnica, Oštri Vrh; miješani svaki ponedjeljak, papir 4. ponedjeljak u mjesecu, plastika 4. srijeda u mjesecu",
+      "ulice": ["Godinjak", "Tisovac", "Gornji Crnogovci", "Donji Crnogovci", "Laze", "Štivica", "Komarnica", "Oštri Vrh"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 MK 01-28 P",
+          "02-02 M 02-09 M 02-16 M 02-23 MK 02-25 P",
+          "03-02 M 03-09 M 03-16 M 03-23 MK 03-25 P 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-22 P 04-27 MK",
+          "05-04 M 05-11 M 05-18 M 05-25 MK 05-27 P",
+          "06-01 M 06-08 M 06-15 M 06-22 MK 06-24 P 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-22 P 07-27 MK",
+          "08-03 M 08-10 M 08-17 M 08-24 MK 08-26 P 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-23 P 09-28 MK",
+          "10-05 M 10-12 M 10-19 M 10-26 MK 10-28 P",
+          "11-02 M 11-09 M 11-16 M 11-23 MK 11-25 P 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-23 P 12-28 MK"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Staro Petrovo Selo",
+      "podrucje": "Staro Petrovo Selo, petak – Staro Petrovo Selo, Blažević Dol, Vrbova; miješani svaki petak, papir 4. ponedjeljak u mjesecu, plastika 4. srijeda u mjesecu",
+      "ulice": ["Staro Petrovo Selo", "Blažević Dol", "Vrbova"],
+      "napomena": "U rasporedu je Vrbova navedena kao \"Općina Vrbova\"; naselje pripada Općini Staro Petrovo Selo.",
+      "raw": {
+        "2026": [
+          "01-02 M 01-09 M 01-16 M 01-23 M 01-26 K 01-28 P 01-30 M",
+          "02-06 M 02-13 M 02-20 M 02-23 K 02-25 P 02-27 M",
+          "03-06 M 03-13 M 03-20 M 03-23 K 03-25 P 03-27 M",
+          "04-03 M 04-10 M 04-17 M 04-22 P 04-24 M 04-27 K",
+          "05-01 M 05-08 M 05-15 M 05-22 M 05-25 K 05-27 P 05-29 M",
+          "06-05 M 06-12 M 06-19 M 06-22 K 06-24 P 06-26 M",
+          "07-03 M 07-10 M 07-17 M 07-22 P 07-24 M 07-27 K 07-31 M",
+          "08-07 M 08-14 M 08-21 M 08-24 K 08-26 P 08-28 M",
+          "09-04 M 09-11 M 09-18 M 09-23 P 09-25 M 09-28 K",
+          "10-02 M 10-09 M 10-16 M 10-23 M 10-26 K 10-28 P 10-30 M",
+          "11-06 M 11-13 M 11-20 M 11-23 K 11-25 P 11-27 M",
+          "12-04 M 12-11 M 12-18 M 12-23 P 12-25 M 12-28 K"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Gornji Bogićevci",
+      "podrucje": "Općina Gornji Bogićevci – papir 2. ponedjeljak u mjesecu, plastika 2. srijeda u mjesecu",
+      "ulice": ["Gornji Bogićevci (cijela općina)"],
+      "napomena": "Dan odvoza miješanog otpada za naselja Općine Gornji Bogićevci nije naveden u rasporedu po danima; navedeni su samo papir i plastika.",
+      "raw": {
+        "2026": [
+          "01-12 K 01-14 P",
+          "02-09 K 02-11 P",
+          "03-09 K 03-11 P",
+          "04-08 P 04-13 K",
+          "05-11 K 05-13 P",
+          "06-08 K 06-10 P",
+          "07-08 P 07-13 K",
+          "08-10 K 08-12 P",
+          "09-09 P 09-14 K",
+          "10-12 K 10-14 P",
+          "11-09 K 11-11 P",
+          "12-09 P 12-14 K"
+        ]
+      }
+    }
+  }
+}

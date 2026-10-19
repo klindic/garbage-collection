@@ -1,0 +1,102 @@
+{
+  "davatelj": "Komunalno Sućuraj d.o.o.",
+  "web": "https://komunalnosucuraj.hr",
+  "izvor": "https://komunalnosucuraj.hr/raspored-odvoza/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Sućuraj"],
+  "napomene": ["U registru davatelja za Sućuraj navedena je Općina Sućuraj; uslugu sada pruža Komunalno Sućuraj d.o.o. (OIB 23957325654), društvo u vlasništvu općine.", "Zimski raspored (1.10. – 31.5.): miješani otpad ponedjeljkom, srijedom i petkom na području cijele općine; plastika (žuti spremnik) zadnji utorak, papir i karton (plavi spremnik) zadnji četvrtak u mjesecu.", "Ljetni raspored (1.6. – 30.9.) razlikuje dijelove Sućurja i uvale Bogomolja. Ljeti se reciklabilni otpad odvozi svaku drugu srijedu (Sućuraj) odnosno svaki drugi utorak i četvrtak (Bogomolje), ali datumi nisu objavljeni pa ljetni odvoz reciklabilnog otpada nije upisan.", "Upisano je razdoblje od 1.6.2026. (ljetni raspored 2026. i zimski 2026./2027.); raniji raspored nije objavljen.", "Spremnike iznijeti večer prije ili najkasnije do 7 sati (zimi), ljeti do 5 sati (Sućuraj) odnosno 6 sati (Bogomolje) na dan odvoza.", "Pomaci zbog blagdana nisu objavljeni.", "Kontakt: 021/717-738, komunalnosucuraj@gmail.com."],
+  "zone": {
+    "1": {
+      "jls": "Sućuraj",
+      "podrucje": "Sućuraj – centar (ljeti svakodnevno pon – sub)",
+      "ulice": ["Sućuraj", "Gustrina (Pijaca)", "Česminica", "Put Pomurvice", "Trajektna ulica", "Riva", "Centar", "Put Lučice", "Put Polja", "Mačak", "Blace"],
+      "raw": {
+        "2026": [
+          "06-01 M 06-02 M 06-03 M 06-04 M 06-05 M 06-06 M 06-08 M 06-09 M 06-10 M 06-11 M 06-12 M 06-13 M 06-15 M 06-16 M 06-17 M 06-18 M 06-19 M 06-20 M 06-22 M 06-23 M 06-24 M 06-25 M 06-26 M 06-27 M 06-29 M 06-30 M",
+          "07-01 M 07-02 M 07-03 M 07-04 M 07-06 M 07-07 M 07-08 M 07-09 M 07-10 M 07-11 M 07-13 M 07-14 M 07-15 M 07-16 M 07-17 M 07-18 M 07-20 M 07-21 M 07-22 M 07-23 M 07-24 M 07-25 M 07-27 M 07-28 M 07-29 M 07-30 M 07-31 M",
+          "08-01 M 08-03 M 08-04 M 08-05 M 08-06 M 08-07 M 08-08 M 08-10 M 08-11 M 08-12 M 08-13 M 08-14 M 08-15 M 08-17 M 08-18 M 08-19 M 08-20 M 08-21 M 08-22 M 08-24 M 08-25 M 08-26 M 08-27 M 08-28 M 08-29 M 08-31 M",
+          "09-01 M 09-02 M 09-03 M 09-04 M 09-05 M 09-07 M 09-08 M 09-09 M 09-10 M 09-11 M 09-12 M 09-14 M 09-15 M 09-16 M 09-17 M 09-18 M 09-19 M 09-21 M 09-22 M 09-23 M 09-24 M 09-25 M 09-26 M 09-28 M 09-29 M 09-30 M",
+          "10-02 M 10-05 M 10-07 M 10-09 M 10-12 M 10-14 M 10-16 M 10-19 M 10-21 M 10-23 M 10-26 M 10-27 P 10-28 M 10-29 K 10-30 M",
+          "11-02 M 11-04 M 11-06 M 11-09 M 11-11 M 11-13 M 11-16 M 11-18 M 11-20 M 11-23 M 11-24 P 11-25 M 11-26 K 11-27 M 11-30 M",
+          "12-02 M 12-04 M 12-07 M 12-09 M 12-11 M 12-14 M 12-16 M 12-18 M 12-21 M 12-23 M 12-25 M 12-28 M 12-29 P 12-30 M 12-31 K"
+        ],
+        "2027": [
+          "01-01 M 01-04 M 01-06 M 01-08 M 01-11 M 01-13 M 01-15 M 01-18 M 01-20 M 01-22 M 01-25 M 01-26 P 01-27 M 01-28 K 01-29 M",
+          "02-01 M 02-03 M 02-05 M 02-08 M 02-10 M 02-12 M 02-15 M 02-17 M 02-19 M 02-22 M 02-23 P 02-24 M 02-25 K 02-26 M",
+          "03-01 M 03-03 M 03-05 M 03-08 M 03-10 M 03-12 M 03-15 M 03-17 M 03-19 M 03-22 M 03-24 M 03-25 K 03-26 M 03-29 M 03-30 P 03-31 M",
+          "04-02 M 04-05 M 04-07 M 04-09 M 04-12 M 04-14 M 04-16 M 04-19 M 04-21 M 04-23 M 04-26 M 04-27 P 04-28 M 04-29 K 04-30 M",
+          "05-03 M 05-05 M 05-07 M 05-10 M 05-12 M 05-14 M 05-17 M 05-19 M 05-21 M 05-24 M 05-25 P 05-26 M 05-27 K 05-28 M 05-31 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Sućuraj",
+      "podrucje": "Sućuraj – Bilina, Zabrig (ljeti uto, čet, sub)",
+      "ulice": ["Sućuraj", "Bilina", "Zabrig"],
+      "raw": {
+        "2026": [
+          "06-02 M 06-04 M 06-06 M 06-09 M 06-11 M 06-13 M 06-16 M 06-18 M 06-20 M 06-23 M 06-25 M 06-27 M 06-30 M",
+          "07-02 M 07-04 M 07-07 M 07-09 M 07-11 M 07-14 M 07-16 M 07-18 M 07-21 M 07-23 M 07-25 M 07-28 M 07-30 M",
+          "08-01 M 08-04 M 08-06 M 08-08 M 08-11 M 08-13 M 08-15 M 08-18 M 08-20 M 08-22 M 08-25 M 08-27 M 08-29 M",
+          "09-01 M 09-03 M 09-05 M 09-08 M 09-10 M 09-12 M 09-15 M 09-17 M 09-19 M 09-22 M 09-24 M 09-26 M 09-29 M",
+          "10-02 M 10-05 M 10-07 M 10-09 M 10-12 M 10-14 M 10-16 M 10-19 M 10-21 M 10-23 M 10-26 M 10-27 P 10-28 M 10-29 K 10-30 M",
+          "11-02 M 11-04 M 11-06 M 11-09 M 11-11 M 11-13 M 11-16 M 11-18 M 11-20 M 11-23 M 11-24 P 11-25 M 11-26 K 11-27 M 11-30 M",
+          "12-02 M 12-04 M 12-07 M 12-09 M 12-11 M 12-14 M 12-16 M 12-18 M 12-21 M 12-23 M 12-25 M 12-28 M 12-29 P 12-30 M 12-31 K"
+        ],
+        "2027": [
+          "01-01 M 01-04 M 01-06 M 01-08 M 01-11 M 01-13 M 01-15 M 01-18 M 01-20 M 01-22 M 01-25 M 01-26 P 01-27 M 01-28 K 01-29 M",
+          "02-01 M 02-03 M 02-05 M 02-08 M 02-10 M 02-12 M 02-15 M 02-17 M 02-19 M 02-22 M 02-23 P 02-24 M 02-25 K 02-26 M",
+          "03-01 M 03-03 M 03-05 M 03-08 M 03-10 M 03-12 M 03-15 M 03-17 M 03-19 M 03-22 M 03-24 M 03-25 K 03-26 M 03-29 M 03-30 P 03-31 M",
+          "04-02 M 04-05 M 04-07 M 04-09 M 04-12 M 04-14 M 04-16 M 04-19 M 04-21 M 04-23 M 04-26 M 04-27 P 04-28 M 04-29 K 04-30 M",
+          "05-03 M 05-05 M 05-07 M 05-10 M 05-12 M 05-14 M 05-17 M 05-19 M 05-21 M 05-24 M 05-25 P 05-26 M 05-27 K 05-28 M 05-31 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Sućuraj",
+      "podrucje": "Bogomolje – sjeverne uvale i mjesto (ljeti pon, sri, pet)",
+      "ulice": ["Bogomolje", "Solotiša", "Zavala", "Stara", "V. Gačice", "Male Gačice", "Bristova", "V. Pogorila", "Mala Pogorila", "Račevina", "Jerkov Dvor", "Srid Sela", "Podglavica", "Glava"],
+      "raw": {
+        "2026": [
+          "06-01 M 06-03 M 06-05 M 06-08 M 06-10 M 06-12 M 06-15 M 06-17 M 06-19 M 06-22 M 06-24 M 06-26 M 06-29 M",
+          "07-01 M 07-03 M 07-06 M 07-08 M 07-10 M 07-13 M 07-15 M 07-17 M 07-20 M 07-22 M 07-24 M 07-27 M 07-29 M 07-31 M",
+          "08-03 M 08-05 M 08-07 M 08-10 M 08-12 M 08-14 M 08-17 M 08-19 M 08-21 M 08-24 M 08-26 M 08-28 M 08-31 M",
+          "09-02 M 09-04 M 09-07 M 09-09 M 09-11 M 09-14 M 09-16 M 09-18 M 09-21 M 09-23 M 09-25 M 09-28 M 09-30 M",
+          "10-02 M 10-05 M 10-07 M 10-09 M 10-12 M 10-14 M 10-16 M 10-19 M 10-21 M 10-23 M 10-26 M 10-27 P 10-28 M 10-29 K 10-30 M",
+          "11-02 M 11-04 M 11-06 M 11-09 M 11-11 M 11-13 M 11-16 M 11-18 M 11-20 M 11-23 M 11-24 P 11-25 M 11-26 K 11-27 M 11-30 M",
+          "12-02 M 12-04 M 12-07 M 12-09 M 12-11 M 12-14 M 12-16 M 12-18 M 12-21 M 12-23 M 12-25 M 12-28 M 12-29 P 12-30 M 12-31 K"
+        ],
+        "2027": [
+          "01-01 M 01-04 M 01-06 M 01-08 M 01-11 M 01-13 M 01-15 M 01-18 M 01-20 M 01-22 M 01-25 M 01-26 P 01-27 M 01-28 K 01-29 M",
+          "02-01 M 02-03 M 02-05 M 02-08 M 02-10 M 02-12 M 02-15 M 02-17 M 02-19 M 02-22 M 02-23 P 02-24 M 02-25 K 02-26 M",
+          "03-01 M 03-03 M 03-05 M 03-08 M 03-10 M 03-12 M 03-15 M 03-17 M 03-19 M 03-22 M 03-24 M 03-25 K 03-26 M 03-29 M 03-30 P 03-31 M",
+          "04-02 M 04-05 M 04-07 M 04-09 M 04-12 M 04-14 M 04-16 M 04-19 M 04-21 M 04-23 M 04-26 M 04-27 P 04-28 M 04-29 K 04-30 M",
+          "05-03 M 05-05 M 05-07 M 05-10 M 05-12 M 05-14 M 05-17 M 05-19 M 05-21 M 05-24 M 05-25 P 05-26 M 05-27 K 05-28 M 05-31 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Sućuraj",
+      "podrucje": "Bogomolje – južne uvale (ljeti uto, čet, sub)",
+      "ulice": ["Bogomolje", "Smrska", "Donji Pelinovik", "Gornji Pelinovik", "Smokvina", "Duboka", "Kožija", "Selca", "Zaglav"],
+      "raw": {
+        "2026": [
+          "06-02 M 06-04 M 06-06 M 06-09 M 06-11 M 06-13 M 06-16 M 06-18 M 06-20 M 06-23 M 06-25 M 06-27 M 06-30 M",
+          "07-02 M 07-04 M 07-07 M 07-09 M 07-11 M 07-14 M 07-16 M 07-18 M 07-21 M 07-23 M 07-25 M 07-28 M 07-30 M",
+          "08-01 M 08-04 M 08-06 M 08-08 M 08-11 M 08-13 M 08-15 M 08-18 M 08-20 M 08-22 M 08-25 M 08-27 M 08-29 M",
+          "09-01 M 09-03 M 09-05 M 09-08 M 09-10 M 09-12 M 09-15 M 09-17 M 09-19 M 09-22 M 09-24 M 09-26 M 09-29 M",
+          "10-02 M 10-05 M 10-07 M 10-09 M 10-12 M 10-14 M 10-16 M 10-19 M 10-21 M 10-23 M 10-26 M 10-27 P 10-28 M 10-29 K 10-30 M",
+          "11-02 M 11-04 M 11-06 M 11-09 M 11-11 M 11-13 M 11-16 M 11-18 M 11-20 M 11-23 M 11-24 P 11-25 M 11-26 K 11-27 M 11-30 M",
+          "12-02 M 12-04 M 12-07 M 12-09 M 12-11 M 12-14 M 12-16 M 12-18 M 12-21 M 12-23 M 12-25 M 12-28 M 12-29 P 12-30 M 12-31 K"
+        ],
+        "2027": [
+          "01-01 M 01-04 M 01-06 M 01-08 M 01-11 M 01-13 M 01-15 M 01-18 M 01-20 M 01-22 M 01-25 M 01-26 P 01-27 M 01-28 K 01-29 M",
+          "02-01 M 02-03 M 02-05 M 02-08 M 02-10 M 02-12 M 02-15 M 02-17 M 02-19 M 02-22 M 02-23 P 02-24 M 02-25 K 02-26 M",
+          "03-01 M 03-03 M 03-05 M 03-08 M 03-10 M 03-12 M 03-15 M 03-17 M 03-19 M 03-22 M 03-24 M 03-25 K 03-26 M 03-29 M 03-30 P 03-31 M",
+          "04-02 M 04-05 M 04-07 M 04-09 M 04-12 M 04-14 M 04-16 M 04-19 M 04-21 M 04-23 M 04-26 M 04-27 P 04-28 M 04-29 K 04-30 M",
+          "05-03 M 05-05 M 05-07 M 05-10 M 05-12 M 05-14 M 05-17 M 05-19 M 05-21 M 05-24 M 05-25 P 05-26 M 05-27 K 05-28 M 05-31 M"
+        ]
+      }
+    }
+  }
+}

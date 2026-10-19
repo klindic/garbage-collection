@@ -1,0 +1,179 @@
+{
+  "davatelj": "Baranjska čistoća d.o.o.",
+  "web": "https://baranjskacistoca.hr",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Beli Manastir", "Čeminac", "Darda", "Draž", "Jagodnjak", "Kneževi Vinogradi", "Petlovac", "Popovac"],
+  "bioNapomena": "Biootpad se odvozi samo u Gradu Belom Manastiru (svaki petak) i u Općini Darda (posljednji četvrtak u mjesecu).",
+  "napomene": ["Miješani komunalni otpad odvozi se svaka dva tjedna; papir, plastika te staklo ili metal (izmjenjuju se po mjesecima) prema mjesečnom rasporedu razvrstanog otpada.", "Pomaci odvoza zbog blagdana nisu objavljeni: datumi su preneseni kako su u rasporedu (npr. 01.01. je naveden kao redovni dan odvoza miješanog otpada). Provjerite obavijesti na baranjskacistoca.hr.", "Kontakt: 031 700 810, info@baranjskacistoca.hr (Ulica Republike 11, Beli Manastir).", "Izvor rasporeda: https://baranjskacistoca.hr/wp-content/uploads/2026/01/Rasporedi-2026.xlsx (poveznica na https://baranjskacistoca.hr/redovni-odvoz/)."],
+  "izvor": "https://baranjskacistoca.hr/wp-content/uploads/2026/01/Rasporedi-2026.xlsx",
+  "zone": {
+    "1": {
+      "jls": "Beli Manastir",
+      "podrucje": "Grad Beli Manastir – miješani svaki drugi utorak, razvrstani otpad petkom, biootpad svaki petak",
+      "ulice": ["Beli Manastir (cijeli grad)"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-09 B 01-13 M 01-16 B 01-23 BK 01-27 M 01-30 BP",
+          "02-06 B 02-10 M 02-13 BK 02-20 BP 02-24 M 02-27 BS",
+          "03-06 B 03-10 M 03-13 BK 03-20 BP 03-24 M 03-27 BL",
+          "04-03 B 04-07 M 04-10 B 04-17 BK 04-21 M 04-24 BP",
+          "05-01 B 05-05 M 05-08 BK 05-15 BP 05-19 M 05-22 BS 05-29 B",
+          "06-02 M 06-05 B 06-12 BK 06-16 M 06-19 BP 06-26 BL 06-30 M",
+          "07-03 BK 07-10 BP 07-14 M 07-17 B 07-24 B 07-28 M 07-31 B",
+          "08-07 B 08-11 M 08-14 B 08-21 BK 08-25 M 08-28 BP",
+          "09-04 B 09-08 M 09-11 BK 09-18 BP 09-22 M 09-25 BS",
+          "10-02 B 10-06 M 10-09 BK 10-16 BP 10-20 M 10-23 BL 10-30 B",
+          "11-03 M 11-06 BK 11-13 BP 11-17 M 11-20 BS 11-27 B",
+          "12-01 M 12-04 BK 12-11 BP 12-15 M 12-18 BL 12-25 B 12-29 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Čeminac",
+      "podrucje": "Općina Čeminac – miješani svaki drugi četvrtak, razvrstani otpad ponedjeljkom",
+      "ulice": ["Čeminac (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-15 M 01-19 K 01-26 P 01-29 M",
+          "02-09 K 02-12 M 02-16 P 02-23 S 02-26 M",
+          "03-09 K 03-12 M 03-16 P 03-23 L 03-26 M",
+          "04-09 M 04-13 K 04-20 P 04-23 M",
+          "05-04 K 05-07 M 05-11 P 05-18 S 05-21 M",
+          "06-04 M 06-08 K 06-15 P 06-18 M 06-22 L 06-29 K",
+          "07-02 M 07-06 P 07-16 M 07-30 M",
+          "08-13 M 08-17 K 08-24 P 08-27 M",
+          "09-07 K 09-10 M 09-14 P 09-21 S 09-24 M",
+          "10-05 K 10-08 M 10-12 P 10-19 L 10-22 M",
+          "11-02 K 11-05 M 11-09 P 11-16 S 11-19 M 11-30 K",
+          "12-03 M 12-07 P 12-14 L 12-17 M 12-31 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Darda",
+      "podrucje": "Općina Darda – miješani svaku drugu srijedu, razvrstani otpad utorkom, biootpad posljednji četvrtak u mjesecu",
+      "ulice": ["Darda (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-14 M 01-20 K 01-27 P 01-28 M 01-29 B",
+          "02-10 K 02-11 M 02-17 P 02-24 S 02-25 M 02-26 B",
+          "03-10 K 03-11 M 03-17 P 03-24 L 03-25 M 03-26 B",
+          "04-08 M 04-14 K 04-21 P 04-22 M 04-30 B",
+          "05-05 K 05-06 M 05-12 P 05-19 S 05-20 M 05-28 B",
+          "06-03 M 06-09 K 06-16 P 06-17 M 06-23 L 06-25 B 06-30 K",
+          "07-01 M 07-07 P 07-15 M 07-29 M 07-30 B",
+          "08-12 M 08-18 K 08-25 P 08-26 M 08-27 B",
+          "09-08 K 09-09 M 09-15 P 09-22 S 09-23 M 09-24 B",
+          "10-06 K 10-07 M 10-13 P 10-20 L 10-21 M 10-29 B",
+          "11-03 K 11-04 M 11-10 P 11-17 S 11-18 M 11-26 B",
+          "12-01 K 12-02 M 12-08 P 12-15 L 12-16 M 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Draž",
+      "podrucje": "Općina Draž – miješani svaki drugi ponedjeljak, razvrstani otpad četvrtkom",
+      "ulice": ["Draž (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-12 M 01-22 K 01-26 M 01-29 P",
+          "02-09 M 02-12 K 02-19 P 02-23 M 02-26 S",
+          "03-09 M 03-12 K 03-19 P 03-23 M 03-26 L",
+          "04-06 M 04-16 K 04-20 M 04-23 P",
+          "05-04 M 05-07 K 05-14 P 05-18 M 05-21 S",
+          "06-01 M 06-11 K 06-15 M 06-18 P 06-25 L 06-29 M",
+          "07-02 K 07-09 P 07-13 M 07-27 M",
+          "08-10 M 08-20 K 08-24 M 08-27 P",
+          "09-07 M 09-10 K 09-17 P 09-21 M 09-24 S",
+          "10-05 M 10-08 K 10-15 P 10-19 M 10-22 L",
+          "11-02 M 11-05 K 11-12 P 11-16 M 11-19 S 11-30 M",
+          "12-03 K 12-10 P 12-14 M 12-17 L 12-28 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Jagodnjak",
+      "podrucje": "Općina Jagodnjak – miješani svaki drugi četvrtak, razvrstani otpad utorkom",
+      "ulice": ["Jagodnjak (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-15 M 01-20 K 01-27 P 01-29 M",
+          "02-10 K 02-12 M 02-17 P 02-24 S 02-26 M",
+          "03-10 K 03-12 M 03-17 P 03-24 L 03-26 M",
+          "04-09 M 04-14 K 04-21 P 04-23 M",
+          "05-05 K 05-07 M 05-12 P 05-19 S 05-21 M",
+          "06-04 M 06-09 K 06-16 P 06-18 M 06-23 L 06-30 K",
+          "07-02 M 07-07 P 07-16 M 07-30 M",
+          "08-13 M 08-18 K 08-25 P 08-27 M",
+          "09-08 K 09-10 M 09-15 P 09-22 S 09-24 M",
+          "10-06 K 10-08 M 10-13 P 10-20 L 10-22 M",
+          "11-03 K 11-05 M 11-10 P 11-17 S 11-19 M",
+          "12-01 K 12-03 M 12-08 P 12-15 L 12-17 M 12-31 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Kneževi Vinogradi",
+      "podrucje": "Općina Kneževi Vinogradi – miješani svaki drugi ponedjeljak, razvrstani otpad srijedom",
+      "ulice": ["Kneževi Vinogradi (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-12 M 01-21 K 01-26 M 01-28 P",
+          "02-09 M 02-11 K 02-18 P 02-23 M 02-25 S",
+          "03-09 M 03-11 K 03-18 P 03-23 M 03-25 L",
+          "04-06 M 04-15 K 04-20 M 04-22 P",
+          "05-04 M 05-06 K 05-13 P 05-18 M 05-20 S",
+          "06-01 M 06-10 K 06-15 M 06-17 P 06-24 L 06-29 M",
+          "07-01 K 07-08 P 07-13 M 07-27 M",
+          "08-10 M 08-19 K 08-24 M 08-26 P",
+          "09-07 M 09-09 K 09-16 P 09-21 M 09-23 S",
+          "10-05 M 10-07 K 10-14 P 10-19 M 10-21 L",
+          "11-02 M 11-04 K 11-11 P 11-16 M 11-18 S 11-30 M",
+          "12-02 K 12-09 P 12-14 M 12-16 L 12-28 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Petlovac",
+      "podrucje": "Općina Petlovac – miješani svaki drugi četvrtak, razvrstani otpad ponedjeljkom",
+      "ulice": ["Petlovac (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-15 M 01-19 K 01-26 P 01-29 M",
+          "02-09 K 02-12 M 02-16 P 02-23 S 02-26 M",
+          "03-09 K 03-12 M 03-16 P 03-23 L 03-26 M",
+          "04-09 M 04-13 K 04-20 P 04-23 M",
+          "05-04 K 05-07 M 05-11 P 05-18 S 05-21 M",
+          "06-04 M 06-08 K 06-15 P 06-18 M 06-22 L 06-29 K",
+          "07-02 M 07-06 P 07-16 M 07-30 M",
+          "08-13 M 08-17 K 08-24 P 08-27 M",
+          "09-07 K 09-10 M 09-14 P 09-21 S 09-24 M",
+          "10-05 K 10-08 M 10-12 P 10-19 L 10-22 M",
+          "11-02 K 11-05 M 11-09 P 11-16 S 11-19 M 11-30 K",
+          "12-03 M 12-07 P 12-14 L 12-17 M 12-31 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Popovac",
+      "podrucje": "Općina Popovac – miješani svaki drugi ponedjeljak, razvrstani otpad srijedom",
+      "ulice": ["Popovac (cijela općina)"],
+      "raw": {
+        "2026": [
+          "01-12 M 01-21 K 01-26 M 01-28 P",
+          "02-09 M 02-11 K 02-18 P 02-23 M 02-25 S",
+          "03-09 M 03-11 K 03-18 P 03-23 M 03-25 L",
+          "04-06 M 04-15 K 04-20 M 04-22 P",
+          "05-04 M 05-06 K 05-13 P 05-18 M 05-20 S",
+          "06-01 M 06-10 K 06-15 M 06-17 P 06-24 L 06-29 M",
+          "07-01 K 07-08 P 07-13 M 07-27 M",
+          "08-10 M 08-19 K 08-24 M 08-26 P",
+          "09-07 M 09-09 K 09-16 P 09-21 M 09-23 S",
+          "10-05 M 10-07 K 10-14 P 10-19 M 10-21 L",
+          "11-02 M 11-04 K 11-11 P 11-16 M 11-18 S 11-30 M",
+          "12-02 K 12-09 P 12-14 M 12-16 L 12-28 M"
+        ]
+      }
+    }
+  }
+}

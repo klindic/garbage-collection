@@ -1,0 +1,272 @@
+{
+  "davatelj": "Dugoselski komunalni i poduzetnički centar d.o.o.",
+  "web": "https://dkpc.hr",
+  "zupanija": "Zagrebačka",
+  "jls": ["Dugo Selo"],
+  "nazivi": {"M": "Miješani komunalni otpad (zelena kanta)", "K": "Papir (plava kanta)", "P": "Plastika (žuta kanta)", "B": "Biootpad (smeđa kanta)"},
+  "bioNapomena": "Biootpad za obiteljske kuće: četvrtkom sjeverni dio, petkom južni dio grada (popis ulica u letku).",
+  "napomene": ["Raspored za obiteljske kuće: miješani otpad svaki drugi tjedan, papir i plastika jednom mjesečno, na dan odvoza ulice; biootpad svaki tjedan.", "Spremnike pripremiti za pražnjenje prije 07:00.", "Na Božić i Novu godinu odvoz se prebacuje na najbližu subotu; ostalim blagdanima odvoz je redovan.", "Višestambene zgrade: miješani otpad prema potrebi, biootpad srijedom; nemaju raspored po ulici.", "Staklo, metal i tekstil predaju se u spremnike na zelenim otocima, ostalo u reciklažno dvorište Andrilovec (Ulica Poljana 10; pon-pet 07-15, uto do 17:30, sub 07-14). Informacije: 01/2750-621, dkpc@dkpc.hr."],
+  "izvor": "https://dkpc.hr/djelatnosti/komunalni-otpad/",
+  "zone": {
+    "PON-CET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika ponedjeljkom, biootpad četvrtkom",
+      "ulice": ["Domobranska", "Ferenčakova ulica", "Ulica Klanjec", "Voćarska", "Novo Brdo (Martin Breg)", "Živica (Martin Breg)", "Vinogradarski put (Martin Breg)", "Kontesin put (Martin Breg)", "Luterovečka (Martin Breg)", "Žumberački put (Martin Breg)", "Ulica Trsje (Martin Breg)", "Martinska (Martin Breg)", "Domobranska (Martin Breg)", "Zelinska ulica (Kopčevec)", "Srednjak (Kopčevec)", "Prečica (Kopčevec)", "Zlatarska (Kopčevec)", "Završje (Kopčevec)", "Rudine (Kopčevec)"],
+      "napomena": "Ulice navedene u tablici za više dana odvoza: Ulica Trsje (Martin Breg) (ponedjeljkom i petkom); koji dan vrijedi za vašu adresu, provjerite kod DKPC-a.",
+      "raw": {
+        "2026": [
+          "01-03 B! 01-05 M 01-08 B 01-12 K 01-15 B 01-19 M 01-22 B 01-26 P 01-29 B",
+          "02-02 M 02-05 B 02-09 K 02-12 B 02-16 M 02-19 B 02-23 P 02-26 B",
+          "03-02 M 03-05 B 03-09 K 03-12 B 03-16 M 03-19 B 03-23 P 03-26 B 03-30 M",
+          "04-02 B 04-06 K 04-09 B 04-13 M 04-16 B 04-20 P 04-23 B 04-27 M 04-30 B",
+          "05-04 K 05-07 B 05-11 M 05-14 B 05-18 P 05-21 B 05-25 M 05-28 B",
+          "06-01 K 06-04 B 06-08 M 06-11 B 06-15 P 06-18 B 06-22 M 06-25 B 06-29 K",
+          "07-02 B 07-06 M 07-09 B 07-13 P 07-16 B 07-20 M 07-23 B 07-27 K 07-30 B",
+          "08-03 M 08-06 B 08-10 P 08-13 B 08-17 M 08-20 B 08-24 K 08-27 B 08-31 M",
+          "09-03 B 09-07 P 09-10 B 09-14 M 09-17 B 09-21 K 09-24 B 09-28 M",
+          "10-01 B 10-05 P 10-08 B 10-12 M 10-15 B 10-19 K 10-22 B 10-26 M 10-29 B",
+          "11-02 P 11-05 B 11-09 M 11-12 B 11-16 K 11-19 B 11-23 M 11-26 B 11-30 P",
+          "12-03 B 12-07 M 12-10 B 12-14 K 12-17 B 12-21 M 12-24 B 12-28 P 12-31 B"
+        ]
+      }
+    },
+    "PON-PET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika ponedjeljkom, biootpad petkom",
+      "ulice": ["Zagrebačka ulica", "B. Božikovića", "Kopčevečka ulica (Kopčevec)", "Radnička (Kopčevec)", "Ulica lipa (Kopčevec)", "Ulica jorgovana (Kopčevec)", "Ulica ružmarina (Kopčevec)", "Ulica jasmina (Kopčevec)", "Ulica magnolija (Kopčevec)", "Ante Salapića (Kopčevec)", "Čret (Kopčevec)", "Brinjska (Kopčevec)", "Kumrovečka (Kopčevec)", "Ogulinska (Kopčevec)", "Plitvička (Kopčevec)", "Koranska (Kopčevec)", "Ulica Hrvatskog preporoda (Kopčevec)", "Rastoke (Kopčevec)", "Mrežnička (Kopčevec)", "Luka (Kopčevec)", "Ulica grada Biograda (Kopčevec)", "Kupska (Kopčevec)", "Ivana Kukuljevića (Kopčevec)", "V. Jagića (Kopčevec)", "S. Vraza (Kopčevec)", "Lj. Gaja (Kopčevec)", "Braće Radić (Kopčevec)", "K. Zrinski (Kopčevec)", "V. Lisinskog (Kopčevec)", "Slunjska (Kopčevec)"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-05 M 01-09 B 01-12 K 01-16 B 01-19 M 01-23 B 01-26 P 01-30 B",
+          "02-02 M 02-06 B 02-09 K 02-13 B 02-16 M 02-20 B 02-23 P 02-27 B",
+          "03-02 M 03-06 B 03-09 K 03-13 B 03-16 M 03-20 B 03-23 P 03-27 B 03-30 M",
+          "04-03 B 04-06 K 04-10 B 04-13 M 04-17 B 04-20 P 04-24 B 04-27 M",
+          "05-01 B 05-04 K 05-08 B 05-11 M 05-15 B 05-18 P 05-22 B 05-25 M 05-29 B",
+          "06-01 K 06-05 B 06-08 M 06-12 B 06-15 P 06-19 B 06-22 M 06-26 B 06-29 K",
+          "07-03 B 07-06 M 07-10 B 07-13 P 07-17 B 07-20 M 07-24 B 07-27 K 07-31 B",
+          "08-03 M 08-07 B 08-10 P 08-14 B 08-17 M 08-21 B 08-24 K 08-28 B 08-31 M",
+          "09-04 B 09-07 P 09-11 B 09-14 M 09-18 B 09-21 K 09-25 B 09-28 M",
+          "10-02 B 10-05 P 10-09 B 10-12 M 10-16 B 10-19 K 10-23 B 10-26 M 10-30 B",
+          "11-02 P 11-06 B 11-09 M 11-13 B 11-16 K 11-20 B 11-23 M 11-27 B 11-30 P",
+          "12-04 B 12-07 M 12-11 B 12-14 K 12-18 B 12-21 M 12-26 B! 12-28 P"
+        ]
+      }
+    },
+    "UTO-CET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika utorkom, biootpad četvrtkom",
+      "ulice": ["A. Mihanovića", "D. Domjanića", "S. Kolara", "Šaškovečka", "Vrbovečka", "Izabela", "Odvojak M. Marulića", "M.J. Zagorke", "E. Kumičića", "Osječka", "M. Marulića", "J. Dalmatinca", "T. Ujevića", "Iločka", "I.G. Kovačića", "M. Držića", "P. Berislavića", "Vrhovec", "Zelengaj", "Turopoljski put", "Erdutska", "Martinski vijenac", "V. Preloga", "Đure Dubenika", "Školska", "J. Crnića", "Sportska", "Jantolov breg", "Bencek", "Liševo", "Šaškovečka (od broja 53 do 79)", "V. Majera", "D. Tadijanovića", "Starjak", "A.G. Matoša", "Dubrava", "Kiselica"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-06 M 01-08 B 01-13 K 01-15 B 01-20 M 01-22 B 01-27 P 01-29 B",
+          "02-03 M 02-05 B 02-10 K 02-12 B 02-17 M 02-19 B 02-24 P 02-26 B",
+          "03-03 M 03-05 B 03-10 K 03-12 B 03-17 M 03-19 B 03-24 P 03-26 B 03-31 M",
+          "04-02 B 04-07 K 04-09 B 04-14 M 04-16 B 04-21 P 04-23 B 04-28 M 04-30 B",
+          "05-05 K 05-07 B 05-12 M 05-14 B 05-19 P 05-21 B 05-26 M 05-28 B",
+          "06-02 K 06-04 B 06-09 M 06-11 B 06-16 P 06-18 B 06-23 M 06-25 B 06-30 K",
+          "07-02 B 07-07 M 07-09 B 07-14 P 07-16 B 07-21 M 07-23 B 07-28 K 07-30 B",
+          "08-04 M 08-06 B 08-11 P 08-13 B 08-18 M 08-20 B 08-25 K 08-27 B",
+          "09-01 M 09-03 B 09-08 P 09-10 B 09-15 M 09-17 B 09-22 K 09-24 B 09-29 M",
+          "10-01 B 10-06 P 10-08 B 10-13 M 10-15 B 10-20 K 10-22 B 10-27 M 10-29 B",
+          "11-03 P 11-05 B 11-10 M 11-12 B 11-17 K 11-19 B 11-24 M 11-26 B",
+          "12-01 P 12-03 B 12-08 M 12-10 B 12-15 K 12-17 B 12-22 M 12-24 B 12-29 P 12-31 B"
+        ]
+      }
+    },
+    "UTO-PET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika utorkom, biootpad petkom",
+      "ulice": ["Kolodvorska", "Kažotićeva", "Hrvatskih branitelja", "Sajmišna", "M. Gupca", "V. Nazora", "M. Krleže", "I.B. Mažuranić"],
+      "napomena": "Ulice navedene u tablici za više dana odvoza: Kolodvorska (utorkom i petkom), Kažotićeva (utorkom i petkom), Hrvatskih branitelja (utorkom i petkom), Sajmišna (utorkom i petkom), M. Krleže (utorkom i petkom); koji dan vrijedi za vašu adresu, provjerite kod DKPC-a.",
+      "raw": {
+        "2026": [
+          "01-02 B 01-06 M 01-09 B 01-13 K 01-16 B 01-20 M 01-23 B 01-27 P 01-30 B",
+          "02-03 M 02-06 B 02-10 K 02-13 B 02-17 M 02-20 B 02-24 P 02-27 B",
+          "03-03 M 03-06 B 03-10 K 03-13 B 03-17 M 03-20 B 03-24 P 03-27 B 03-31 M",
+          "04-03 B 04-07 K 04-10 B 04-14 M 04-17 B 04-21 P 04-24 B 04-28 M",
+          "05-01 B 05-05 K 05-08 B 05-12 M 05-15 B 05-19 P 05-22 B 05-26 M 05-29 B",
+          "06-02 K 06-05 B 06-09 M 06-12 B 06-16 P 06-19 B 06-23 M 06-26 B 06-30 K",
+          "07-03 B 07-07 M 07-10 B 07-14 P 07-17 B 07-21 M 07-24 B 07-28 K 07-31 B",
+          "08-04 M 08-07 B 08-11 P 08-14 B 08-18 M 08-21 B 08-25 K 08-28 B",
+          "09-01 M 09-04 B 09-08 P 09-11 B 09-15 M 09-18 B 09-22 K 09-25 B 09-29 M",
+          "10-02 B 10-06 P 10-09 B 10-13 M 10-16 B 10-20 K 10-23 B 10-27 M 10-30 B",
+          "11-03 P 11-06 B 11-10 M 11-13 B 11-17 K 11-20 B 11-24 M 11-27 B",
+          "12-01 P 12-04 B 12-08 M 12-11 B 12-15 K 12-18 B 12-22 M 12-26 B! 12-29 P"
+        ]
+      }
+    },
+    "UTO": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika utorkom, dan za biootpad nije naveden",
+      "ulice": ["Odvojak J. Dalmatinca", "S. Ferenčaka"],
+      "napomena": "Ove ulice nisu na popisu za biootpad u letku (četvrtak/petak); dan za biootpad provjerite kod DKPC-a.",
+      "bezBioU": "ovim ulicama (nisu na popisu u letku)",
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 K 01-20 M 01-27 P",
+          "02-03 M 02-10 K 02-17 M 02-24 P",
+          "03-03 M 03-10 K 03-17 M 03-24 P 03-31 M",
+          "04-07 K 04-14 M 04-21 P 04-28 M",
+          "05-05 K 05-12 M 05-19 P 05-26 M",
+          "06-02 K 06-09 M 06-16 P 06-23 M 06-30 K",
+          "07-07 M 07-14 P 07-21 M 07-28 K",
+          "08-04 M 08-11 P 08-18 M 08-25 K",
+          "09-01 M 09-08 P 09-15 M 09-22 K 09-29 M",
+          "10-06 P 10-13 M 10-20 K 10-27 M",
+          "11-03 P 11-10 M 11-17 K 11-24 M",
+          "12-01 P 12-08 M 12-15 K 12-22 M 12-29 P"
+        ]
+      }
+    },
+    "SRI-CET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika srijedom, biootpad četvrtkom",
+      "ulice": ["A. Starčevića", "Dubravkin put", "Carski put (Kozinščak)", "M. Držića (Kozinščak)", "Kozinska (Kozinščak)", "Bunarska (Kozinščak)", "T. Kapitana (Kozinščak)", "Odvojak T. Kapitana (Kozinščak)", "I. Gundulića (Kozinščak)", "Odvojak I. Gundulića (Kozinščak)", "S. Vurića (Kozinščak)", "Odvojak F. Blažinca (Kozinščak)", "Cvjetna ulica (Kozinščak)", "Kalnička ulica (Kozinščak)", "Pintareva ulica (Kozinščak)", "T. Koščeca (Kozinščak)", "Četrnja (Kozinščak)", "Ulica Lipčica (Kozinščak)", "R. Boškovića (Kozinščak)", "I. Mahača (Kozinščak)", "Bjelovarska (Lukarišće)", "Dvorišna (Donje Dvorišće)", "Navrtkova (Donje Dvorišće)", "Klasanova (Donje Dvorišće)"],
+      "raw": {
+        "2026": [
+          "01-03 B! 01-07 M 01-08 B 01-14 K 01-15 B 01-21 M 01-22 B 01-28 P 01-29 B",
+          "02-04 M 02-05 B 02-11 K 02-12 B 02-18 M 02-19 B 02-25 P 02-26 B",
+          "03-04 M 03-05 B 03-11 K 03-12 B 03-18 M 03-19 B 03-25 P 03-26 B",
+          "04-01 M 04-02 B 04-08 K 04-09 B 04-15 M 04-16 B 04-22 P 04-23 B 04-29 M 04-30 B",
+          "05-06 K 05-07 B 05-13 M 05-14 B 05-20 P 05-21 B 05-27 M 05-28 B",
+          "06-03 K 06-04 B 06-10 M 06-11 B 06-17 P 06-18 B 06-24 M 06-25 B",
+          "07-01 K 07-02 B 07-08 M 07-09 B 07-15 P 07-16 B 07-22 M 07-23 B 07-29 K 07-30 B",
+          "08-05 M 08-06 B 08-12 P 08-13 B 08-19 M 08-20 B 08-26 K 08-27 B",
+          "09-02 M 09-03 B 09-09 P 09-10 B 09-16 M 09-17 B 09-23 K 09-24 B 09-30 M",
+          "10-01 B 10-07 P 10-08 B 10-14 M 10-15 B 10-21 K 10-22 B 10-28 M 10-29 B",
+          "11-04 P 11-05 B 11-11 M 11-12 B 11-18 K 11-19 B 11-25 M 11-26 B",
+          "12-02 P 12-03 B 12-09 M 12-10 B 12-16 K 12-17 B 12-23 M 12-24 B 12-30 P 12-31 B"
+        ]
+      }
+    },
+    "SRI-PET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika srijedom, biootpad petkom",
+      "ulice": ["Šašec (Lukarišće)", "I. Lovretića (Lukarišće)", "Zelena ulica (Lukarišće)", "Bože Huzanića (Puhovo)", "Huzanićev odvojak (Puhovo)", "Krč (Puhovo)", "Gredice (Puhovo)", "Lužec (Puhovo)", "Boki (Puhovo)", "Puhovec (Puhovo)", "Puhovska poljana (Puhovo)", "I. Puhovski odvojak (Puhovo)", "II. Puhovski odvojak (Puhovo)", "Puhovska ulica (Puhovo)", "Rimski put (Lukarišće)", "Zrinska (Lukarišće)", "A. Augustinčića (Lukarišće)", "Ivana Pl. Zajca (Lukarišće)", "A. Šenoe (Lukarišće)", "I. Meštrovića (Lukarišće)", "Bertovica (Lukarišće)", "Jezerska ulica (Lukarišće)", "Ninska (Lukarišće)", "Podolje (Lukarišće)", "Jurešina (Lukarišće)", "Borovec (Lukarišće)", "Topolje (Lukarišće)"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-07 M 01-09 B 01-14 K 01-16 B 01-21 M 01-23 B 01-28 P 01-30 B",
+          "02-04 M 02-06 B 02-11 K 02-13 B 02-18 M 02-20 B 02-25 P 02-27 B",
+          "03-04 M 03-06 B 03-11 K 03-13 B 03-18 M 03-20 B 03-25 P 03-27 B",
+          "04-01 M 04-03 B 04-08 K 04-10 B 04-15 M 04-17 B 04-22 P 04-24 B 04-29 M",
+          "05-01 B 05-06 K 05-08 B 05-13 M 05-15 B 05-20 P 05-22 B 05-27 M 05-29 B",
+          "06-03 K 06-05 B 06-10 M 06-12 B 06-17 P 06-19 B 06-24 M 06-26 B",
+          "07-01 K 07-03 B 07-08 M 07-10 B 07-15 P 07-17 B 07-22 M 07-24 B 07-29 K 07-31 B",
+          "08-05 M 08-07 B 08-12 P 08-14 B 08-19 M 08-21 B 08-26 K 08-28 B",
+          "09-02 M 09-04 B 09-09 P 09-11 B 09-16 M 09-18 B 09-23 K 09-25 B 09-30 M",
+          "10-02 B 10-07 P 10-09 B 10-14 M 10-16 B 10-21 K 10-23 B 10-28 M 10-30 B",
+          "11-04 P 11-06 B 11-11 M 11-13 B 11-18 K 11-20 B 11-25 M 11-27 B",
+          "12-02 P 12-04 B 12-09 M 12-11 B 12-16 K 12-18 B 12-23 M 12-26 B! 12-30 P"
+        ]
+      }
+    },
+    "SRI": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika srijedom, dan za biootpad nije naveden",
+      "ulice": ["Odvojak A. Starčevića", "F. Blažinca (Kozinščak)"],
+      "napomena": "Ove ulice nisu na popisu za biootpad u letku (četvrtak/petak); dan za biootpad provjerite kod DKPC-a.",
+      "bezBioU": "ovim ulicama (nisu na popisu u letku)",
+      "raw": {
+        "2026": [
+          "01-07 M 01-14 K 01-21 M 01-28 P",
+          "02-04 M 02-11 K 02-18 M 02-25 P",
+          "03-04 M 03-11 K 03-18 M 03-25 P",
+          "04-01 M 04-08 K 04-15 M 04-22 P 04-29 M",
+          "05-06 K 05-13 M 05-20 P 05-27 M",
+          "06-03 K 06-10 M 06-17 P 06-24 M",
+          "07-01 K 07-08 M 07-15 P 07-22 M 07-29 K",
+          "08-05 M 08-12 P 08-19 M 08-26 K",
+          "09-02 M 09-09 P 09-16 M 09-23 K 09-30 M",
+          "10-07 P 10-14 M 10-21 K 10-28 M",
+          "11-04 P 11-11 M 11-18 K 11-25 M",
+          "12-02 P 12-09 M 12-16 K 12-23 M 12-30 P"
+        ]
+      }
+    },
+    "CET-CET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika četvrtkom, biootpad četvrtkom",
+      "ulice": ["J. Zorića", "Oštarijaševa"],
+      "raw": {
+        "2026": [
+          "01-03 BP! 01-08 MB 01-15 BK 01-22 MB 01-29 BP",
+          "02-05 MB 02-12 BK 02-19 MB 02-26 BP",
+          "03-05 MB 03-12 BK 03-19 MB 03-26 BP",
+          "04-02 MB 04-09 BK 04-16 MB 04-23 BP 04-30 MB",
+          "05-07 BK 05-14 MB 05-21 BP 05-28 MB",
+          "06-04 BK 06-11 MB 06-18 BP 06-25 MB",
+          "07-02 BK 07-09 MB 07-16 BP 07-23 MB 07-30 BK",
+          "08-06 MB 08-13 BP 08-20 MB 08-27 BK",
+          "09-03 MB 09-10 BP 09-17 MB 09-24 BK",
+          "10-01 MB 10-08 BP 10-15 MB 10-22 BK 10-29 MB",
+          "11-05 BP 11-12 MB 11-19 BK 11-26 MB",
+          "12-03 BP 12-10 MB 12-17 BK 12-24 MB 12-31 BP"
+        ]
+      }
+    },
+    "CET-PET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika četvrtkom, biootpad petkom",
+      "ulice": ["Nova cesta", "Gorička (Goričino Naselje)", "Laznice (Goričino Naselje)", "30. svibnja (Goričino Naselje)", "Oborovska (Goričino Naselje)", "J. Predavca (Goričino Naselje)", "Andrilovec", "Trnočćica", "Štefanovićeva", "Rugvička", "I. Savski odvojak", "II. Savski odvojak", "Črnečki Gaj", "Lonjska", "Savska", "Dravska", "Sutlanska", "Dunavska", "Savski Gaj", "Odranska", "Industrijska ulica"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-03 P! 01-08 M 01-09 B 01-15 K 01-16 B 01-22 M 01-23 B 01-29 P 01-30 B",
+          "02-05 M 02-06 B 02-12 K 02-13 B 02-19 M 02-20 B 02-26 P 02-27 B",
+          "03-05 M 03-06 B 03-12 K 03-13 B 03-19 M 03-20 B 03-26 P 03-27 B",
+          "04-02 M 04-03 B 04-09 K 04-10 B 04-16 M 04-17 B 04-23 P 04-24 B 04-30 M",
+          "05-01 B 05-07 K 05-08 B 05-14 M 05-15 B 05-21 P 05-22 B 05-28 M 05-29 B",
+          "06-04 K 06-05 B 06-11 M 06-12 B 06-18 P 06-19 B 06-25 M 06-26 B",
+          "07-02 K 07-03 B 07-09 M 07-10 B 07-16 P 07-17 B 07-23 M 07-24 B 07-30 K 07-31 B",
+          "08-06 M 08-07 B 08-13 P 08-14 B 08-20 M 08-21 B 08-27 K 08-28 B",
+          "09-03 M 09-04 B 09-10 P 09-11 B 09-17 M 09-18 B 09-24 K 09-25 B",
+          "10-01 M 10-02 B 10-08 P 10-09 B 10-15 M 10-16 B 10-22 K 10-23 B 10-29 M 10-30 B",
+          "11-05 P 11-06 B 11-12 M 11-13 B 11-19 K 11-20 B 11-26 M 11-27 B",
+          "12-03 P 12-04 B 12-10 M 12-11 B 12-17 K 12-18 B 12-24 M 12-26 B! 12-31 P"
+        ]
+      }
+    },
+    "PET-CET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika petkom, biootpad četvrtkom",
+      "ulice": ["Trsje (Martin Breg)", "Vrbovečka (Martin Breg)", "Herendićeva (Prozorje)", "Šimunićeva (Prozorje)", "Graberska (Prozorje)", "Bunarska (Prozorje)", "Prozorska (Prozorje)", "Šaškovečka do Bunčića (Prozorje)"],
+      "napomena": "Ulice navedene u tablici za više dana odvoza: Trsje (Martin Breg) (ponedjeljkom i petkom); koji dan vrijedi za vašu adresu, provjerite kod DKPC-a.",
+      "raw": {
+        "2026": [
+          "01-02 P 01-03 B! 01-08 B 01-09 M 01-15 B 01-16 K 01-22 B 01-23 M 01-29 B 01-30 P",
+          "02-05 B 02-06 M 02-12 B 02-13 K 02-19 B 02-20 M 02-26 B 02-27 P",
+          "03-05 B 03-06 M 03-12 B 03-13 K 03-19 B 03-20 M 03-26 B 03-27 P",
+          "04-02 B 04-03 M 04-09 B 04-10 K 04-16 B 04-17 M 04-23 B 04-24 P 04-30 B",
+          "05-01 M 05-07 B 05-08 K 05-14 B 05-15 M 05-21 B 05-22 P 05-28 B 05-29 M",
+          "06-04 B 06-05 K 06-11 B 06-12 M 06-18 B 06-19 P 06-25 B 06-26 M",
+          "07-02 B 07-03 K 07-09 B 07-10 M 07-16 B 07-17 P 07-23 B 07-24 M 07-30 B 07-31 K",
+          "08-06 B 08-07 M 08-13 B 08-14 P 08-20 B 08-21 M 08-27 B 08-28 K",
+          "09-03 B 09-04 M 09-10 B 09-11 P 09-17 B 09-18 M 09-24 B 09-25 K",
+          "10-01 B 10-02 M 10-08 B 10-09 P 10-15 B 10-16 M 10-22 B 10-23 K 10-29 B 10-30 M",
+          "11-05 B 11-06 P 11-12 B 11-13 M 11-19 B 11-20 K 11-26 B 11-27 M",
+          "12-03 B 12-04 P 12-10 B 12-11 M 12-17 B 12-18 K 12-24 B 12-26 M! 12-31 B"
+        ]
+      }
+    },
+    "PET-PET": {
+      "jls": "Dugo Selo",
+      "podrucje": "Miješani, papir i plastika petkom, biootpad petkom",
+      "ulice": ["M. Krleže", "A. Kažotićeva", "Sajmišna", "Kolodvorska", "Hr. Branitelja", "Velika Ostrna", "Mala Ostrna", "Leprovica"],
+      "napomena": "Ulice navedene u tablici za više dana odvoza: M. Krleže (utorkom i petkom), A. Kažotićeva (utorkom i petkom), Sajmišna (utorkom i petkom), Kolodvorska (utorkom i petkom), Hr. Branitelja (utorkom i petkom); koji dan vrijedi za vašu adresu, provjerite kod DKPC-a.",
+      "raw": {
+        "2026": [
+          "01-02 BP 01-09 MB 01-16 BK 01-23 MB 01-30 BP",
+          "02-06 MB 02-13 BK 02-20 MB 02-27 BP",
+          "03-06 MB 03-13 BK 03-20 MB 03-27 BP",
+          "04-03 MB 04-10 BK 04-17 MB 04-24 BP",
+          "05-01 MB 05-08 BK 05-15 MB 05-22 BP 05-29 MB",
+          "06-05 BK 06-12 MB 06-19 BP 06-26 MB",
+          "07-03 BK 07-10 MB 07-17 BP 07-24 MB 07-31 BK",
+          "08-07 MB 08-14 BP 08-21 MB 08-28 BK",
+          "09-04 MB 09-11 BP 09-18 MB 09-25 BK",
+          "10-02 MB 10-09 BP 10-16 MB 10-23 BK 10-30 MB",
+          "11-06 BP 11-13 MB 11-20 BK 11-27 MB",
+          "12-04 BP 12-11 MB 12-18 BK 12-26 MB!"
+        ]
+      }
+    }
+  }
+}

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Generate subscribable iCalendar feeds for every zone from the schedule data in odvoz.html."""
 import json
+import os
 import re
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-SITE_URL = "https://klindic.github.io/garbage-collection/"
+SITE_URL = os.environ.get("SITE_URL", "https://klindic.github.io/garbage-collection/")  # build.sh sets it per repo
 # One feed per zone and alarm time, because a static host cannot personalise a single feed.
 # All-day events start at 00:00, so "-PT6H" fires at 18:00 the day before and "PT6H" at 06:00 the same day.
 FEEDS = {f"{h}00": (f"-PT{24 - h}H", "Sutra odvoz") for h in range(16, 23)}

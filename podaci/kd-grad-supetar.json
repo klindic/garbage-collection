@@ -1,0 +1,140 @@
+{
+  "davatelj": "Komunalno društvo GRAD d.o.o.",
+  "web": "https://www.kdgrad.hr",
+  "izvor": "https://www.kdgrad.hr/gospodarenje-otpadom/",
+  "zupanija": "Splitsko-dalmatinska",
+  "jls": ["Supetar"],
+  "nazivi": {"K": "Papir i karton (plavi spremnik)", "P": "Plastika (žuti spremnik)"},
+  "napomene": ["Miješani otpad (zeleni spremnik) zimi (1.1. – 21.6. i 7.9. – 31.12.) dva puta tjedno, ljeti (22.6. – 6.9.) tri puta tjedno; papir i plastika jednom mjesečno, prema rasporedu za svako područje.", "Otpad se ne sakuplja 1.1.2026. (Nova godina), 5.4.2026. (Uskrs) i 25.12.2026. (Božić); zamjenski dani nisu navedeni.", "U mjesecima kad se mijenja raspored (lipanj, rujan) papir i plastika upisani su prema rasporedu koji vrijedi na taj dan.", "Glomazni otpad jednom godišnje na zahtjev korisnika. Reciklažno dvorište Žedno–Drage.", "Komunalno društvo GRAD d.o.o., Žedno-Drage 7, Supetar; 021/631-077."],
+  "zone": {
+    "1": {
+      "jls": "Supetar",
+      "podrucje": "Supetar – Dolčić",
+      "ulice": ["Biokovska", "Bračka", "Busje", "Dolčić", "Frane Petrinovića 9-21 (neparni), 2-10 (parni)", "Gaja Bulata", "Gat Hrvatske mornarice", "Hrvatskih velikana", "Hvarska", "Ive Jakšića", "Jadranska", "Kipara Ivana Rendića", "Malačnica", "Mladena Vodanovića", "Muškat", "Petra Jakšića", "Polanda", "Prilaz perivoju", "Put Gaja", "Put Gustirne luke", "Put Kapelica", "Put križa", "Put Ozdrina", "Put Sv. Roka", "Put vrila", "Radnička", "Supetar", "Šoltanska", "Trg dr. Franje Tuđmana", "Vladimira Nazora", "Vrilo", "XII dalmatinske brigade 1-9A (neparni), 2-6 (parni)", "Žedno - Drage"],
+      "napomena": "Ulice označene zvjezdicom u rasporedu (promjena rasporeda u 2026.): Biokovska, Frane Petrinovića 9-21 i 2-10, Ive Jakšića, Muškat, Put Kapelica, XII dalmatinske brigade 1-9A i 2-6.",
+      "raw": {
+        "2026": [
+          "01-03 MK 01-07 M 01-10 MP 01-14 M 01-17 M 01-21 M 01-24 M 01-28 M 01-31 M",
+          "02-04 M 02-07 MK 02-11 M 02-14 MP 02-18 M 02-21 M 02-25 M 02-28 M",
+          "03-04 M 03-07 MK 03-11 M 03-14 MP 03-18 M 03-21 M 03-25 M 03-28 M",
+          "04-01 M 04-04 MK 04-08 M 04-11 MP 04-15 M 04-18 M 04-22 M 04-25 M 04-29 M",
+          "05-02 MK 05-06 M 05-09 MP 05-13 M 05-16 M 05-20 M 05-23 M 05-27 M 05-30 M",
+          "06-03 M 06-06 MK 06-10 M 06-13 MP 06-17 M 06-20 M 06-22 M 06-24 M 06-26 M 06-29 M",
+          "07-01 MK 07-03 M 07-06 M 07-08 MP 07-10 M 07-13 M 07-15 M 07-17 M 07-20 M 07-22 M 07-24 M 07-27 M 07-29 M 07-31 M",
+          "08-03 M 08-05 MK 08-07 M 08-10 M 08-12 MP 08-14 M 08-17 M 08-19 M 08-21 M 08-24 M 08-26 M 08-28 M 08-31 M",
+          "09-02 MK 09-04 M 09-09 M 09-12 MP 09-16 M 09-19 M 09-23 M 09-26 M 09-30 M",
+          "10-03 MK 10-07 M 10-10 MP 10-14 M 10-17 M 10-21 M 10-24 M 10-28 M 10-31 M",
+          "11-04 M 11-07 MK 11-11 M 11-14 MP 11-18 M 11-21 M 11-25 M 11-28 M",
+          "12-02 M 12-05 MK 12-09 M 12-12 MP 12-16 M 12-19 M 12-23 M 12-26 M 12-30 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Supetar",
+      "podrucje": "Supetar – Centar",
+      "ulice": ["8. ožujka", "Andrije Hebranga", "Frane Petrinovića 1-7 (neparni), 2A (parni)", "Get", "Ignjata Joba", "Ive Vojnovića", "Kala", "Kaleta", "Marka Vuškovića", "Mirka Kustića", "Porat", "Prilaz", "Prilaz pomoraca", "Prolaz Feliksa Tironija", "Put Barba Maškova", "Put kule", "Put Ošega dolca", "Put Varoša", "Vlačica"],
+      "napomena": "Ulice označene zvjezdicom u rasporedu (promjena rasporeda u 2026.): Frane Petrinovića 1-7 i 2A.",
+      "raw": {
+        "2026": [
+          "01-03 MK 01-07 M 01-10 MP 01-14 M 01-17 M 01-21 M 01-24 M 01-28 M 01-31 M",
+          "02-04 M 02-07 MK 02-11 M 02-14 MP 02-18 M 02-21 M 02-25 M 02-28 M",
+          "03-04 M 03-07 MK 03-11 M 03-14 MP 03-18 M 03-21 M 03-25 M 03-28 M",
+          "04-01 M 04-04 MK 04-08 M 04-11 MP 04-15 M 04-18 M 04-22 M 04-25 M 04-29 M",
+          "05-02 MK 05-06 M 05-09 MP 05-13 M 05-16 M 05-20 M 05-23 M 05-27 M 05-30 M",
+          "06-03 M 06-06 MK 06-10 M 06-13 MP 06-17 M 06-20 M 06-23 M 06-25 M 06-27 M 06-30 M",
+          "07-02 MK 07-04 M 07-07 M 07-09 MP 07-11 M 07-14 M 07-16 M 07-18 M 07-21 M 07-23 M 07-25 M 07-28 M 07-30 M",
+          "08-01 M 08-04 M 08-06 MK 08-08 M 08-11 M 08-13 MP 08-15 M 08-18 M 08-20 M 08-22 M 08-25 M 08-27 M 08-29 M",
+          "09-01 M 09-03 MK 09-05 M 09-09 M 09-12 MP 09-16 M 09-19 M 09-23 M 09-26 M 09-30 M",
+          "10-03 MK 10-07 M 10-10 MP 10-14 M 10-17 M 10-21 M 10-24 M 10-28 M 10-31 M",
+          "11-04 M 11-07 MK 11-11 M 11-14 MP 11-18 M 11-21 M 11-25 M 11-28 M",
+          "12-02 M 12-05 MK 12-09 M 12-12 MP 12-16 M 12-19 M 12-23 M 12-26 M 12-30 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Supetar",
+      "podrucje": "Supetar – Pašike",
+      "ulice": ["1. svibnja", "18. rujna", "22. lipnja", "Ante Mihanovića", "Bana Josipa Jelačića", "Branka Deškovića", "Don Drage Bosiljevca", "Don Nike Miličevića", "Dr. Ante Starčevića", "Dujma Hrankovića", "Fra Andrije Dorotića", "Hrvatskih žrtava", "Iseljenika", "Ivana Gorana Kovačića", "Ive Tijardovića", "Junaka Vukovara", "Kardinala Alojzija Stepinca", "Kneza Domagoja", "Kralja Petra Krešimira IV", "Kralja Tomislava", "Kralja Zvonimira", "Matka Dukića", "Mornarska", "Otona Postružnika", "Punta", "Put Jezerina", "Put Pašika", "Put Vele luke", "Put Višćica", "Ratac", "Stjepana Radića", "Šetalište Miljenka Smoje", "Šetalište put Banja", "Tina Ujevića", "Vojalo", "XII dalmatinske brigade 11-33 (neparni), 8-24 (parni)", "Zrinsko-Frankopanska"],
+      "napomena": "Ulice označene zvjezdicom u rasporedu (promjena rasporeda u 2026.): XII dalmatinske brigade 11-33 i 8-24.",
+      "raw": {
+        "2026": [
+          "01-02 MK 01-06 M 01-09 MP 01-13 M 01-16 M 01-20 M 01-23 M 01-27 M 01-30 M",
+          "02-03 M 02-06 MK 02-10 M 02-13 MP 02-17 M 02-20 M 02-24 M 02-27 M",
+          "03-03 M 03-06 MK 03-10 M 03-13 MP 03-17 M 03-20 M 03-24 M 03-27 M 03-31 M",
+          "04-03 MK 04-07 M 04-10 MP 04-14 M 04-17 M 04-21 M 04-24 M 04-28 M",
+          "05-01 MK 05-05 M 05-08 MP 05-12 M 05-15 M 05-19 M 05-22 M 05-26 M 05-29 M",
+          "06-02 M 06-05 MK 06-09 M 06-12 MP 06-16 M 06-19 M 06-23 M 06-25 M 06-27 M 06-30 M",
+          "07-02 M 07-04 MK 07-07 M 07-09 M 07-11 MP 07-14 M 07-16 M 07-18 M 07-21 M 07-23 M 07-25 M 07-28 M 07-30 M",
+          "08-01 MK 08-04 M 08-06 M 08-08 MP 08-11 M 08-13 M 08-15 M 08-18 M 08-20 M 08-22 M 08-25 M 08-27 M 08-29 M",
+          "09-01 M 09-03 M 09-05 MK 09-08 M 09-11 MP 09-15 M 09-18 M 09-22 M 09-25 M 09-29 M",
+          "10-02 MK 10-06 M 10-09 MP 10-13 M 10-16 M 10-20 M 10-23 M 10-27 M 10-30 M",
+          "11-03 M 11-06 MK 11-10 M 11-13 MP 11-17 M 11-20 M 11-24 M 11-27 M",
+          "12-01 M 12-04 MK 12-08 M 12-11 MP 12-15 M 12-18 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Supetar",
+      "podrucje": "Mirca",
+      "ulice": ["Mirca (čitavo naselje)"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 MK 01-09 M 01-13 MP 01-16 M 01-20 M 01-23 M 01-27 M 01-30 M",
+          "02-03 MK 02-06 M 02-10 MP 02-13 M 02-17 M 02-20 M 02-24 M 02-27 M",
+          "03-03 MK 03-06 M 03-10 MP 03-13 M 03-17 M 03-20 M 03-24 M 03-27 M 03-31 M",
+          "04-03 M 04-07 MK 04-10 M 04-14 MP 04-17 M 04-21 M 04-24 M 04-28 M",
+          "05-01 M 05-05 MK 05-08 M 05-12 MP 05-15 M 05-19 M 05-22 M 05-26 M 05-29 M",
+          "06-02 MK 06-05 M 06-09 MP 06-12 M 06-16 M 06-19 M 06-23 M 06-25 M 06-27 M 06-30 M",
+          "07-02 MK 07-04 M 07-07 M 07-09 MP 07-11 M 07-14 M 07-16 M 07-18 M 07-21 M 07-23 M 07-25 M 07-28 M 07-30 M",
+          "08-01 M 08-04 M 08-06 MK 08-08 M 08-11 M 08-13 MP 08-15 M 08-18 M 08-20 M 08-22 M 08-25 M 08-27 M 08-29 M",
+          "09-01 M 09-03 MK 09-05 M 09-08 MP 09-11 M 09-15 M 09-18 M 09-22 M 09-25 M 09-29 M",
+          "10-02 M 10-06 MK 10-09 M 10-13 MP 10-16 M 10-20 M 10-23 M 10-27 M 10-30 M",
+          "11-03 MK 11-06 M 11-10 MP 11-13 M 11-17 M 11-20 M 11-24 M 11-27 M",
+          "12-01 MK 12-04 M 12-08 MP 12-11 M 12-15 M 12-18 M 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Supetar",
+      "podrucje": "Splitska",
+      "ulice": ["Splitska (čitavo naselje)"],
+      "raw": {
+        "2026": [
+          "01-05 MK 01-08 M 01-12 MP 01-15 M 01-19 M 01-22 M 01-26 M 01-29 M",
+          "02-02 MK 02-05 M 02-09 MP 02-12 M 02-16 M 02-19 M 02-23 M 02-26 M",
+          "03-02 MK 03-05 M 03-09 MP 03-12 M 03-16 M 03-19 M 03-23 M 03-26 M 03-30 M",
+          "04-02 M 04-06 MK 04-09 M 04-13 MP 04-16 M 04-20 M 04-23 M 04-27 M 04-30 M",
+          "05-04 MK 05-07 M 05-11 MP 05-14 M 05-18 M 05-21 M 05-25 M 05-28 M",
+          "06-01 MK 06-04 M 06-08 MP 06-11 M 06-15 M 06-18 M 06-22 M 06-24 M 06-26 M 06-29 M",
+          "07-01 MK 07-03 M 07-06 M 07-08 MP 07-10 M 07-13 M 07-15 M 07-17 M 07-20 M 07-22 M 07-24 M 07-27 M 07-29 M 07-31 M",
+          "08-03 M 08-05 MK 08-07 M 08-10 M 08-12 MP 08-14 M 08-17 M 08-19 M 08-21 M 08-24 M 08-26 M 08-28 M 08-31 M",
+          "09-02 MK 09-04 M 09-07 MK 09-10 M 09-14 MP 09-17 M 09-21 M 09-24 M 09-28 M",
+          "10-01 M 10-05 MK 10-08 M 10-12 MP 10-15 M 10-19 M 10-22 M 10-26 M 10-29 M",
+          "11-02 MK 11-05 M 11-09 MP 11-12 M 11-16 M 11-19 M 11-23 M 11-26 M 11-30 M",
+          "12-03 M 12-07 MK 12-10 M 12-14 MP 12-17 M 12-21 M 12-24 M 12-28 M 12-31 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Supetar",
+      "podrucje": "Škrip",
+      "ulice": ["Škrip (čitavo naselje)"],
+      "raw": {
+        "2026": [
+          "01-05 MK 01-08 M 01-12 MP 01-15 M 01-19 M 01-22 M 01-26 M 01-29 M",
+          "02-02 MK 02-05 M 02-09 MP 02-12 M 02-16 M 02-19 M 02-23 M 02-26 M",
+          "03-02 MK 03-05 M 03-09 MP 03-12 M 03-16 M 03-19 M 03-23 M 03-26 M 03-30 M",
+          "04-02 M 04-06 MK 04-09 M 04-13 MP 04-16 M 04-20 M 04-23 M 04-27 M 04-30 M",
+          "05-04 MK 05-07 M 05-11 MP 05-14 M 05-18 M 05-21 M 05-25 M 05-28 M",
+          "06-01 MK 06-04 M 06-08 MP 06-11 M 06-15 M 06-18 M 06-22 M 06-24 M 06-26 M 06-29 M",
+          "07-01 MK 07-03 M 07-06 M 07-08 MP 07-10 M 07-13 M 07-15 M 07-17 M 07-20 M 07-22 M 07-24 M 07-27 M 07-29 M 07-31 M",
+          "08-03 M 08-05 MK 08-07 M 08-10 M 08-12 MP 08-14 M 08-17 M 08-19 M 08-21 M 08-24 M 08-26 M 08-28 M 08-31 M",
+          "09-02 MK 09-04 M 09-07 MK 09-10 M 09-14 MP 09-17 M 09-21 M 09-24 M 09-28 M",
+          "10-01 M 10-05 MK 10-08 M 10-12 MP 10-15 M 10-19 M 10-22 M 10-26 M 10-29 M",
+          "11-02 MK 11-05 M 11-09 MP 11-12 M 11-16 M 11-19 M 11-23 M 11-26 M 11-30 M",
+          "12-03 M 12-07 MK 12-10 M 12-14 MP 12-17 M 12-21 M 12-24 M 12-28 M 12-31 M"
+        ]
+      }
+    }
+  }
+}

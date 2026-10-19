@@ -1,0 +1,662 @@
+{
+  "davatelj": "Čistoća d.o.o. Varaždin",
+  "web": "https://cistoca-vz.hr",
+  "izvor": "https://moja.cistoca-vz.hr/Public/PublicSchedule",
+  "zupanija": "Varaždinska",
+  "nazivi": {"P": "Plastika"},
+  "napomene": ["Spremnike iznijeti do 06:00 na dan odvoza.", "Raspored vrijedi za kućanstva s pojedinačnim spremnicima (skupina A); zgrade sa zajedničkim spremnicima i poslovni korisnici mogu imati drugačiji raspored na moja.cistoca-vz.hr.", "Reciklažna dvorišta Varaždin 1 i 2, Motičnjak 9 i 9/A, Varaždin.", "Pelene (ljubičasti spremnik) za korisnike koji su ih prijavili odvoze se istim danom kad i miješani otpad."],
+  "jls": ["Varaždin", "Beretinec", "Breznički Hum", "Cestica", "Gornji Kneginec", "Petrijanec", "Sračinec", "Sveti Ilija", "Trnovec Bartolovečki", "Varaždinske Toplice", "Vidovec", "Vinica"],
+  "zone": {
+    "1": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 1: Varaždin",
+      "ulice": ["Ulica Dobriše Cesarića (Varaždin)", "Ulica Dragutina Rakovca (Varaždin)", "Ulica Ferde Livadića (Varaždin)", "Ulica Frana Galovića (Varaždin)", "Ulica Gabrijele Horvat (Varaždin)", "Ulica Irme Gorzo (Varaždin)", "Ulica Luke Botića (Varaždin)", "Ulica Milke Trnine (Varaždin)", "Ulica Vinka Žganca (Varaždin)", "Ulica Vladimira Vidrića (Varaždin)", "Ulica Zinke Kunc (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-05 MBPK 01-19 MBPK",
+          "02-02 MBPK 02-16 MBPK 02-17 L",
+          "03-02 MBPK 03-16 MBPK 03-17 S 03-30 MBPK",
+          "04-13 MBPK 04-27 MBPK",
+          "05-04 B 05-11 MBPK 05-18 B 05-19 L 05-25 MBPK",
+          "06-01 B 06-08 MBPK 06-15 B 06-16 S 06-22 MBPK 06-29 B",
+          "07-06 MBPK 07-13 B 07-20 MBPK 07-21 L 07-27 B",
+          "08-03 MBPK 08-10 B 08-17 MBPK 08-18 S 08-24 B 08-31 MBPK",
+          "09-07 B 09-14 MBPK 09-21 B 09-28 MBPK",
+          "10-05 B 10-12 MBPK 10-19 B 10-20 L 10-26 MBPK",
+          "11-09 MBPK 11-17 S 11-23 MBPK",
+          "12-07 MBPK 12-21 MBPK"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 2: Varaždin",
+      "ulice": ["Jalkovečka ulica (Varaždin)", "Kratka ulica (Varaždin)", "Splitska ulica (Varaždin)", "Trogirska ulica (Varaždin)", "Ulica Antuna Handžića (Varaždin)", "Ulica Dimitrije Demetra (Varaždin)", "Ulica Ivana Meštrovića (Varaždin)", "Ulica Ivana Trnskoga (Varaždin)", "Ulica Ive Režeka (Varaždin)", "Ulica Josipa Kraša (Varaždin)", "Ulica Katarine Patačić (Varaždin)", "Ulica Marina Držića (Varaždin)", "Ulica Miroslava Krleže (Varaždin)", "Ulica Perice Bjelčića (Varaždin)", "Ulica Stjepana Vukovića (Varaždin)", "Ulica Tina Ujevića (Varaždin)", "Ulica Zrinskih i Frankopana (Varaždin)", "Ulica Zvonka i Vladimira Milkovića (Varaždin)", "Ulica braće Slukan (Varaždin)", "Vidovski trg (Varaždin)", "Zadarska ulica (Varaždin)", "Šibenska ulica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-05 MBPK 01-19 MBPK",
+          "02-02 MBPK 02-16 MBPK 02-17 L",
+          "03-02 MBPK 03-16 MBPK 03-17 S 03-30 MBPK",
+          "04-13 MBPK 04-27 MBPK",
+          "05-04 B 05-11 MBPK 05-18 B 05-19 L 05-25 MBPK",
+          "06-01 B 06-08 MBPK 06-15 B 06-16 S 06-22 MBPK 06-29 B",
+          "07-06 MBPK 07-13 B 07-20 MBPK 07-21 L 07-27 B",
+          "08-03 MBPK 08-10 B 08-17 MBPK 08-18 S 08-24 B 08-31 MBPK",
+          "09-07 B 09-14 MBPK 09-21 B 09-28 MBPK",
+          "10-05 B 10-12 MBPK 10-19 B 10-20 L 10-26 MBPK",
+          "11-09 MBPK 11-17 S 11-23 MBPK",
+          "12-07 MBPK 12-21 MBPK"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 3: Varaždin",
+      "ulice": ["Ulica 104. brigade (Varaždin)", "Ulica 22. rujna 1991. (Varaždin)", "Ulica Antuna Branka Šimića (Varaždin)", "Ulica Franje Galinca (Varaždin)", "Ulica Franje Košćeca (Varaždin)", "Ulica Ivana Gorana Kovačića (Varaždin)", "Ulica Ivana Rangera (Varaždin)", "Ulica Josipa Pupačića (Varaždin)", "Ulica Jurja Križanića (Varaždin)", "Ulica Marije Vidović (Varaždin)", "Ulica Matka Laginje (Varaždin)", "Ulica Vinka Međerala (Varaždin)", "Ulica hrvatskih branitelja (Varaždin)", "Ulica Đure Sudete (Varaždin)", "Vidovečka ulica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-06 MBPK 01-20 MBPK",
+          "02-03 MBPK 02-17 MBPK 02-18 L",
+          "03-03 MBPK 03-17 MBPK 03-18 S 03-31 MBPK",
+          "04-14 MBPK 04-28 MBPK",
+          "05-05 B 05-12 MBPK 05-19 B 05-20 L 05-26 MBPK",
+          "06-02 B 06-09 MBPK 06-16 B 06-17 S 06-23 MBPK 06-30 B",
+          "07-07 MBPK 07-14 B 07-15 L 07-21 MBPK 07-28 B",
+          "08-04 MBPK 08-11 B 08-18 MBPK 08-19 S 08-25 B",
+          "09-01 MBPK 09-08 B 09-15 MBPK 09-22 B 09-29 MBPK",
+          "10-06 B 10-13 MBPK 10-20 B 10-21 L 10-27 MBPK",
+          "11-10 MBPK 11-11 S 11-24 MBPK",
+          "12-08 MBPK 12-22 MBPK"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 4: Varaždin",
+      "ulice": ["Ivanečka ulica (Varaždin)", "Lepoglavska ulica (Varaždin)", "Ulica Andrije Hebranga (Varaždin)", "Ulica Ante Kovačića (Varaždin)", "Ulica Bosiljke Paske (Varaždin)", "Ulica Bože Težaka (Varaždin)", "Ulica Ivana Lalanguea (Varaždin)", "Ulica Janka Jurkovića (Varaždin)", "Ulica Miroslava Posmodija (Varaždin)", "Ulica Ratimira Hercega (Varaždin)", "Ulica Vjekoslava Rosenberg-Ružića (Varaždin)", "Ulica Vladimira Gotovca (Varaždin)", "Ulica braće Radić (Varaždin)", "Ulica Đure Arnolda (Varaždin)", "Vodovodna ulica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-06 MBPK 01-20 MBPK",
+          "02-03 MBPK 02-17 MBPK 02-18 L",
+          "03-03 MBPK 03-17 MBPK 03-18 S 03-31 MBPK",
+          "04-14 MBPK 04-28 MBPK",
+          "05-05 B 05-12 MBPK 05-19 B 05-20 L 05-26 MBPK",
+          "06-02 B 06-09 MBPK 06-16 B 06-17 S 06-23 MBPK 06-30 B",
+          "07-07 MBPK 07-14 B 07-15 L 07-21 MBPK 07-28 B",
+          "08-04 MBPK 08-11 B 08-18 MBPK 08-19 S 08-25 B",
+          "09-01 MBPK 09-08 B 09-15 MBPK 09-22 B 09-29 MBPK",
+          "10-06 B 10-13 MBPK 10-20 B 10-21 L 10-27 MBPK",
+          "11-10 MBPK 11-11 S 11-24 MBPK",
+          "12-08 MBPK 12-22 MBPK"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 5: Varaždin",
+      "ulice": ["Aleja kralja Zvonimira (Varaždin)", "Anina ulica (Varaždin)", "Dalmatinska ulica (Varaždin)", "Graberje (Varaždin)", "Kapucinski trg (Varaždin)", "Kolodvorska ulica (Varaždin)", "Mali plac (Varaždin)", "Trakošćanska ulica (Varaždin)", "Ulica Antuna Mihanovića (Varaždin)", "Ulica Augusta Cesarca (Varaždin)", "Ulica Frana Supila (Varaždin)", "Ulica Franca Prešerna (Varaždin)", "Ulica Hinka Krizmana (Varaždin)", "Ulica Ivana Milčetića (Varaždin)", "Ulica Josipa Kozarca (Varaždin)", "Ulica Mirka Bogovića (Varaždin)", "Ulica Otokara Keršovanija (Varaždin)", "Ulica Stanka Vraza (Varaždin)", "Ulica Tome Blažeka (Varaždin)", "Zadrugarska ulica (Varaždin)", "Zagrebačka ulica (Varaždin) neparni 5-77, parni 2-90"],
+      "raw": {
+        "2026": [
+          "01-07 MBPK 01-21 MBPK",
+          "02-04 MBPK 02-18 MBPK 02-19 L",
+          "03-04 MBPK 03-18 MBPK 03-19 S",
+          "04-01 MBPK 04-15 MBPK 04-29 MBPK",
+          "05-06 B 05-13 MBPK 05-20 B 05-21 L 05-27 MBPK",
+          "06-03 B 06-10 MBPK 06-17 B 06-18 S 06-24 MBPK",
+          "07-01 B 07-08 MBPK 07-15 B 07-16 L 07-22 MBPK 07-29 B",
+          "08-05 MBPK 08-12 B 08-19 MBPK 08-20 S 08-26 B",
+          "09-02 MBPK 09-09 B 09-16 MBPK 09-23 B 09-30 MBPK",
+          "10-07 B 10-14 MBPK 10-15 L 10-21 B 10-28 MBPK",
+          "11-11 MBPK 11-19 S 11-25 MBPK",
+          "12-09 MBPK 12-23 MBPK"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 6: Varaždin",
+      "ulice": ["Kućanmarofska ulica (Varaždin)", "Motičnjak (Varaždin)", "Ulica Adolfa Wisserta (Varaždin)", "Ulica Ivana Pergošića (Varaždin)", "Ulica Ivana Severa (Varaždin)", "Ulica Ive Mikaca (Varaždin)", "Ulica Maksimilijana Vrhovca (Varaždin)", "Ulica Rudolfa Horvata (Varaždin)", "Ulica Tita Brezovačkog (Varaždin)", "Ulica Vilka Novaka (Varaždin)", "Ulica braće Krajanski (Varaždin)", "Ulica braće Vidović (Varaždin)", "Ulica grada Koblenza (Varaždin)", "Ulica grada Ravensburga (Varaždin)", "Šetalište Franje Tuđmana (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-07 MBPK 01-21 MBPK",
+          "02-04 MBPK 02-18 MBPK 02-19 L",
+          "03-04 MBPK 03-18 MBPK 03-19 S",
+          "04-01 MBPK 04-15 MBPK 04-29 MBPK",
+          "05-06 B 05-13 MBPK 05-20 B 05-21 L 05-27 MBPK",
+          "06-03 B 06-10 MBPK 06-17 B 06-18 S 06-24 MBPK",
+          "07-01 B 07-08 MBPK 07-15 B 07-16 L 07-22 MBPK 07-29 B",
+          "08-05 MBPK 08-12 B 08-19 MBPK 08-20 S 08-26 B",
+          "09-02 MBPK 09-09 B 09-16 MBPK 09-23 B 09-30 MBPK",
+          "10-07 B 10-14 MBPK 10-15 L 10-21 B 10-28 MBPK",
+          "11-11 MBPK 11-19 S 11-25 MBPK",
+          "12-09 MBPK 12-23 MBPK"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 7: Varaždin",
+      "ulice": ["Istarska ulica (Varaždin)", "Međimurska ulica (Varaždin)", "Odvojak Milana Šimeka (Varaždin)", "Podravska ulica (Varaždin)", "Prilaz Fausta Vrančića (Varaždin)", "Primorska ulica (Varaždin)", "Slavenska ulica (Varaždin)", "Svilarska ulica (Varaždin)", "Trg kralja Petra Svačića (Varaždin)", "Ulica Božidara Vančika (Varaždin)", "Ulica Franje Starea (Varaždin)", "Ulica Ivana Kukuljevića (Varaždin) 17-50", "Ulica Janka Leskovara (Varaždin)", "Ulica Julija Merlića (Varaždin)", "Ulica Matice hrvatske (Varaždin)", "Ulica Mihajla Pupina (Varaždin)", "Ulica Mihovila Pavleka Miškine (Varaždin)", "Ulica Petra Preradovića (Varaždin)", "Ulica Tome Masaryka (Varaždin)", "Ulica kralja Petra Krešimira IV. (Varaždin)", "Ulica Šemovečkih žrtava (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-08 MBPK 01-22 MBPK",
+          "02-05 MBPK 02-16 L 02-19 MBPK",
+          "03-05 MBPK 03-16 S 03-19 MBPK",
+          "04-02 MBPK 04-16 MBPK 04-30 MBPK",
+          "05-07 B 05-14 MBPK 05-18 L 05-21 B 05-28 MBPK",
+          "06-04 B 06-11 MBPK 06-15 S 06-18 B 06-25 MBPK",
+          "07-02 B 07-09 MBPK 07-16 B 07-20 L 07-23 MBPK 07-30 B",
+          "08-06 MBPK 08-13 B 08-17 S 08-20 MBPK 08-27 B",
+          "09-03 MBPK 09-10 B 09-17 MBPK 09-24 B",
+          "10-01 MBPK 10-08 B 10-15 MBPK 10-19 L 10-22 B 10-29 MBPK",
+          "11-12 MBPK 11-16 S 11-26 MBPK",
+          "12-10 MBPK 12-24 MBPK"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 8: Varaždin",
+      "ulice": ["Koprivnička ulica (Varaždin)", "Prolaz Nikole Fallera (Varaždin)", "Sajmište (Varaždin)", "Tijesna ulica (Varaždin)", "Trenkova ulica (Varaždin)", "Trg bana Jelačića (Varaždin)", "Ulica Adolfa Jurinca (Varaždin)", "Ulica Ante Starčevića (Varaždin)", "Ulica Branka Vodnika (Varaždin)", "Ulica Ferdinanda Konščaka (Varaždin)", "Ulica Frana Kurelca (Varaždin)", "Ulica Ksavera Šandora Gjalskog (Varaždin)", "Ulica Nikole Tesle (Varaždin)", "Ulica Ognjena Price (Varaždin)", "Ulica Ruđera Boškovića (Varaždin)", "Ulica Stjepana Glavača (Varaždin)", "Ulica Viktora Cara Emina (Varaždin)", "Ulica Vjekoslava Spinčića (Varaždin)", "Ulica Vladimira Nazora (Varaždin)", "Uršulinska ulica (Varaždin) 12/A-20", "Vatrogasna ulica (Varaždin)", "Zavojna ulica (Varaždin)", "Zavrtnica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-08 MBPK 01-22 MBPK",
+          "02-05 MBPK 02-16 L 02-19 MBPK",
+          "03-05 MBPK 03-16 S 03-19 MBPK",
+          "04-02 MBPK 04-16 MBPK 04-30 MBPK",
+          "05-07 B 05-14 MBPK 05-18 L 05-21 B 05-28 MBPK",
+          "06-04 B 06-11 MBPK 06-15 S 06-18 B 06-25 MBPK",
+          "07-02 B 07-09 MBPK 07-16 B 07-20 L 07-23 MBPK 07-30 B",
+          "08-06 MBPK 08-13 B 08-17 S 08-20 MBPK 08-27 B",
+          "09-03 MBPK 09-10 B 09-17 MBPK 09-24 B",
+          "10-01 MBPK 10-08 B 10-15 MBPK 10-19 L 10-22 B 10-29 MBPK",
+          "11-12 MBPK 11-16 S 11-26 MBPK",
+          "12-10 MBPK 12-24 MBPK"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 9: Varaždin",
+      "ulice": ["Bakačeva ulica (Varaždin)", "Franjevački trg (Varaždin)", "Pavlinska ulica (Varaždin)", "Prolaz Marijana Zubera (Varaždin)", "Trg Miljenka Stančića (Varaždin)", "Trg kralja Tomislava (Varaždin)", "Trg slobode (Varaždin)", "Ulica Alojzija Stepinca (Varaždin)", "Ulica Andrije Kačića Miošića (Varaždin)", "Ulica Ankice Opolski (Varaždin)", "Ulica Augusta Šenoe (Varaždin)", "Ulica Ivana Cankara (Varaždin)", "Ulica Ivana Gundulića (Varaždin)", "Ulica Ivana Kukuljevića (Varaždin) 3-14", "Ulica Ivana Padovca (Varaždin)", "Ulica Janka Draškovića (Varaždin)", "Ulica Jurja Habdelića (Varaždin)", "Ulica Ljudevita Gaja (Varaždin)", "Ulica Silvija Strahimira Kranjčevića (Varaždin)", "Ulica Vatroslava Lisinskog (Varaždin)", "Uršulinska ulica (Varaždin) 1-6", "Uska ulica (Varaždin)", "Šetalište Josipa Jurja Strossmayera (Varaždin)", "Školska ulica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-02 MBPK 01-16 MBPK 01-30 MBPK",
+          "02-13 MBPKL 02-27 MBPK",
+          "03-13 MBPKS 03-27 MBPK",
+          "04-10 MBPK 04-24 MBPK",
+          "05-01 B 05-08 MBPKL 05-15 B 05-22 MBPK 05-29 B",
+          "06-05 MBPK 06-12 BS 06-19 MBPK 06-26 B",
+          "07-03 MBPK 07-10 BL 07-17 MBPK 07-24 B 07-31 MBPK",
+          "08-07 B 08-14 MBPKS 08-21 B 08-28 MBPK",
+          "09-04 B 09-11 MBPK 09-18 B 09-25 MBPK",
+          "10-02 B 10-09 MBPKL 10-16 B 10-23 MBPK 10-30 B",
+          "11-06 MBPK 11-13 S 11-20 MBPK",
+          "12-04 MBPK 12-18 MBPK"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 10: Varaždin",
+      "ulice": ["Banovinska ulica (Varaždin)", "Bombellesova cesta (Varaždin)", "Creska ulica (Varaždin)", "Dravska park-šuma (Varaždin)", "Dravska ulica (Varaždin)", "Dravski nasip (Varaždin)", "Dubrovačka ulica (Varaždin)", "Hvarska ulica (Varaždin)", "Kordunska ulica (Varaždin)", "Krajiška ulica (Varaždin)", "Labinska ulica (Varaždin)", "Ledinska ulica (Varaždin)", "Lička ulica (Varaždin)", "Lošinjska ulica (Varaždin)", "Ludbreška ulica (Varaždin)", "Osječka ulica (Varaždin)", "Preloška ulica (Varaždin)", "Rapska ulica (Varaždin)", "Trg Matije Gupca (Varaždin)", "Trg Pavla Štoosa (Varaždin)", "Ulica Bogoslava Šuleka (Varaždin)", "Vinkovačka ulica (Varaždin)", "Vukovarska ulica (Varaždin)", "Zagorska ulica (Varaždin)", "Zeleni odvojak (Varaždin)", "Čakovečka ulica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-14 MBPK 01-28 MBPK",
+          "02-11 MBPK 02-13 L 02-25 MBPK",
+          "03-11 MBPK 03-13 S 03-25 MBPK",
+          "04-08 MBPK 04-22 MBPK",
+          "05-06 MBPK 05-08 L 05-13 B 05-20 MBPK 05-27 B",
+          "06-03 MBPK 06-10 B 06-12 S 06-17 MBPK 06-24 B",
+          "07-01 MBPK 07-08 B 07-10 L 07-15 MBPK 07-22 B 07-29 MBPK",
+          "08-05 B 08-12 MBPK 08-14 S 08-19 B 08-26 MBPK",
+          "09-02 B 09-09 MBPK 09-16 B 09-23 MBPK 09-30 B",
+          "10-07 MBPK 10-09 L 10-14 B 10-21 MBPK 10-28 B",
+          "11-04 MBPK 11-13 S 11-18 MBPK",
+          "12-02 MBPK 12-16 MBPK 12-30 MBPK"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 11: Varaždin",
+      "ulice": ["Bosanska ulica (Varaždin) 1-41, 43", "Hercegovačka ulica (Varaždin)", "Toplička ulica (Varaždin)", "Trg Antuna Gustava Matoša (Varaždin)", "Ulica Antuna Štera (Varaždin)", "Ulica Eugena Kumičića (Varaždin)", "Ulica Eugena Kvaternika (Varaždin)", "Ulica Franje Seljana (Varaždin)", "Ulica Ivana Zajca (Varaždin)", "Ulica Josipa Eugena Tomića (Varaždin)", "Ulica Marka Marulića (Varaždin)", "Ulica Milana i Dragice Dvorščak (Varaždin)", "Ulica Slave Raškaj (Varaždin)", "Ulica Vide Sokola (Varaždin)", "Ulica Vladislava Vežića (Varaždin)", "Ulica Vlahe Bukovca (Varaždin)", "Ulica široke ledine (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-14 MBPK 01-28 MBPK",
+          "02-11 MBPK 02-25 MBPK 02-26 L",
+          "03-11 MBPK 03-25 MBPK 03-26 S",
+          "04-08 MBPK 04-22 MBPK",
+          "05-06 MBPK 05-13 B 05-20 MBPK 05-27 B 05-28 L",
+          "06-03 MBPK 06-10 B 06-17 MBPK 06-24 B 06-25 S",
+          "07-01 MBPK 07-08 B 07-15 MBPK 07-22 B 07-23 L 07-29 MBPK",
+          "08-05 B 08-12 MBPK 08-19 B 08-26 MBPK 08-27 S",
+          "09-02 B 09-09 MBPK 09-16 B 09-23 MBPK 09-30 B",
+          "10-07 MBPK 10-14 B 10-21 MBPK 10-22 L 10-28 B",
+          "11-04 MBPK 11-18 MBPK 11-26 S",
+          "12-02 MBPK 12-16 MBPK 12-30 MBPK"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 12: Varaždin",
+      "ulice": ["Bosanska ulica (Varaždin) 42, 44-63", "Dravska poljana (Varaždin)", "Fabijanska ulica (Varaždin)", "Kninska cesta (Varaždin)", "Metalska ulica (Varaždin)", "Optujska ulica (Varaždin)", "Optujski odvojak (Varaždin)", "Ulica Antuna Vramca (Varaždin)", "Ulica Augusta Harambašića (Varaždin)", "Ulica Bartola Kašića (Varaždin)", "Ulica Franje Horvata Kiša (Varaždin)", "Ulica Ivana Belostenca (Varaždin)", "Ulica Ivana Rabuzina (Varaždin)", "Ulica Ivana Sokača (Varaždin)", "Ulica Josipa Klime (Varaždin)", "Ulica Jurice Muraja (Varaždin)", "Ulica Ljudevita Filipca (Varaždin)", "Ulica Matije Antuna Reljkovića (Varaždin)", "Ulica Miroslava Šicla (Varaždin)", "Ulica Otona Župančiča (Varaždin)", "Ulica branitelja Orion (Varaždin)", "Ulica Đure Kuhara (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-01 MBPK 01-15 MBPK 01-29 MBPK",
+          "02-12 MBPK 02-26 MBPKL",
+          "03-12 MBPK 03-26 MBPKS",
+          "04-09 MBPK 04-23 MBPK",
+          "05-07 MBPK 05-14 B 05-21 MBPK 05-28 BL",
+          "06-04 MBPK 06-11 B 06-18 MBPK 06-25 BS",
+          "07-02 MBPK 07-09 B 07-16 MBPK 07-23 BL 07-30 MBPK",
+          "08-06 B 08-13 MBPK 08-20 B 08-27 MBPKS",
+          "09-03 B 09-10 MBPK 09-17 B 09-24 MBPK",
+          "10-01 B 10-08 MBPK 10-15 B 10-22 MBPKL 10-29 B",
+          "11-05 MBPK 11-19 MBPK 11-26 S",
+          "12-03 MBPK 12-17 MBPK 12-31 MBPK"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 13: Varaždin",
+      "ulice": ["Baranjska ulica (Varaždin)", "Bilogorska ulica (Varaždin)", "Krapinska ulica (Varaždin)", "Pakračka ulica (Varaždin)", "Petrinjska ulica (Varaždin)", "Radnička ulica (Varaždin)", "Svibovečka ulica (Varaždin)", "Ulica Antuna Augustinčića (Varaždin)", "Ulica Dragutina Domjanića (Varaždin)", "Ulica Fortunata Pintarića (Varaždin)", "Ulica Franje Račkog (Varaždin)", "Ulica Ivana Gotića (Varaždin)", "Ulica Ive Vojnovića (Varaždin)", "Ulica Krste Hegedušića (Varaždin)", "Ulica Leopolda Ebnera (Varaždin)", "Ulica Petra Petrovića Njegoša (Varaždin)", "Ulica Vatroslava Jagića (Varaždin)", "Ulica Vladimira Gortana (Varaždin)", "Vinička ulica (Varaždin)", "Žumberačka ulica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-02 MBPK 01-16 MBPK 01-30 MBPK",
+          "02-13 MBPK 02-27 MBPKL",
+          "03-13 MBPK 03-27 MBPKS",
+          "04-10 MBPK 04-24 MBPK",
+          "05-01 B 05-08 MBPK 05-15 B 05-22 MBPKL 05-29 B",
+          "06-05 MBPK 06-12 B 06-19 MBPK 06-26 BS",
+          "07-03 MBPK 07-10 B 07-17 MBPK 07-24 BL 07-31 MBPK",
+          "08-07 B 08-14 MBPK 08-21 B 08-28 MBPKS",
+          "09-04 B 09-11 MBPK 09-18 B 09-25 MBPK",
+          "10-02 B 10-09 MBPK 10-16 B 10-23 MBPKL 10-30 B",
+          "11-06 MBPK 11-20 MBPK 11-27 S",
+          "12-04 MBPK 12-18 MBPK"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 14: Hrašćica, Varaždin",
+      "ulice": ["Franjevačka ulica (Hrašćica)", "Hallerova aleja (Varaždin)", "Osječka ulica (Hrašćica)", "Radnička ulica (Hrašćica)", "Trnovečka ulica (Varaždin)", "Ulica Alojzija Stepinca (Hrašćica)", "Ulica Božene Plazzeriano (Varaždin)", "Ulica Franje Bučara (Hrašćica)", "Ulica Gustava Krkleca (Varaždin)", "Ulica Ivana Nepomuka Petrovića (Varaždin)", "Ulica Ljudevita Gaja (Hrašćica)", "Ulica Matije Gupca (Hrašćica)", "Ulica Miljenka Stančića (Hrašćica)", "Ulica Nikole Tavelića (Hrašćica)", "Ulica Pere Magdića (Hrašćica)", "Ulica Petra Zrinskog (Hrašćica)", "Ulica Ruđera Boškovića (Hrašćica)", "Ulica Tomislava Janka Šagi-Bunića (Hrašćica)", "Ulica Tomislava Lipljina (Hrašćica)", "Ulica Vatroslava Jagića (Hrašćica)", "Ulica Vjekoslava Cerovečkog (Hrašćica)", "Ulica Zvonka Milkovića (Hrašćica)", "Ulica braće Radić (Hrašćica)", "Ulica hrvatskih branitelja (Hrašćica)", "Ulica kardinala Franje Kuharića (Hrašćica)", "Ulica kralja Tomislava (Hrašćica)", "Vinkovačka ulica (Hrašćica)", "Vukovarska ulica (Hrašćica)"],
+      "raw": {
+        "2026": [
+          "01-02 MBPK 01-16 MBPK 01-30 MBPK",
+          "02-13 MBPK 02-27 MBPKL",
+          "03-13 MBPK 03-27 MBPKS",
+          "04-10 MBPK 04-24 MBPK",
+          "05-01 B 05-08 MBPK 05-15 B 05-22 MBPKL 05-29 B",
+          "06-05 MBPK 06-12 B 06-19 MBPK 06-26 BS",
+          "07-03 MBPK 07-10 B 07-17 MBPK 07-24 BL 07-31 MBPK",
+          "08-07 B 08-14 MBPK 08-21 B 08-28 MBPKS",
+          "09-04 B 09-11 MBPK 09-18 B 09-25 MBPK",
+          "10-02 B 10-09 MBPK 10-16 B 10-23 MBPKL 10-30 B",
+          "11-06 MBPK 11-20 MBPK 11-27 S",
+          "12-04 MBPK 12-18 MBPK"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 15: Gornji Kućan, Donji Kućan",
+      "ulice": ["Kneginečka ulica (Gornji Kućan)", "Nova ulica (Gornji Kućan)", "Plitvička ulica (Donji Kućan)", "Staromlinska ulica (Gornji Kućan)", "Ulica svetog Nikole (Gornji Kućan)", "Varaždinska ulica (Donji Kućan)", "Varaždinska ulica (Gornji Kućan)", "Vrtna ulica (Gornji Kućan)", "Zelengaj (Donji Kućan)"],
+      "raw": {
+        "2026": [
+          "01-13 MBPK 01-27 MBPK",
+          "02-02 L 02-10 MBPK 02-24 MBPK",
+          "03-02 S 03-10 MBPK 03-24 MBPK",
+          "04-07 MBPK 04-21 MBPK",
+          "05-04 L 05-05 MBPK 05-12 B 05-19 MBPK 05-26 B",
+          "06-01 S 06-02 MBPK 06-09 B 06-16 MBPK 06-23 B 06-30 MBPK",
+          "07-06 L 07-07 B 07-14 MBPK 07-21 B 07-28 MBPK",
+          "08-03 S 08-04 B 08-11 MBPK 08-18 B 08-25 MBPK",
+          "09-01 B 09-08 MBPK 09-15 B 09-22 MBPK 09-29 B",
+          "10-05 L 10-06 MBPK 10-13 B 10-20 MBPK 10-27 B",
+          "11-02 S 11-03 MBPK 11-17 MBPK",
+          "12-01 MBPK 12-15 MBPK 12-29 MBPK"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 16: Kućan Marof, Zbelava, Varaždin",
+      "ulice": ["Cvjetna ulica (Kućan Marof)", "Kratka ulica (Zbelava)", "Kućanska ulica (Varaždin)", "Marofska ulica (Kućan Marof)", "Nova ulica (Zbelava)", "Omladinska ulica (Kućan Marof)", "Radnička ulica (Kućan Marof)", "Savica (Kućan Marof)", "Ulica Ljudevita Gaja (Kućan Marof)", "Ulica Matije Gupca (Kućan Marof)", "Varaždinska ulica (Kućan Marof)", "Varaždinska ulica (Zbelava)", "Vrtna ulica (Kućan Marof)", "Zelena ulica (Kućan Marof)"],
+      "raw": {
+        "2026": [
+          "01-13 MBPK 01-27 MBPK",
+          "02-02 L 02-10 MBPK 02-24 MBPK",
+          "03-02 S 03-10 MBPK 03-24 MBPK",
+          "04-07 MBPK 04-21 MBPK",
+          "05-04 L 05-05 MBPK 05-12 B 05-19 MBPK 05-26 B",
+          "06-01 S 06-02 MBPK 06-09 B 06-16 MBPK 06-23 B 06-30 MBPK",
+          "07-06 L 07-07 B 07-14 MBPK 07-21 B 07-28 MBPK",
+          "08-03 S 08-04 B 08-11 MBPK 08-18 B 08-25 MBPK",
+          "09-01 B 09-08 MBPK 09-15 B 09-22 MBPK 09-29 B",
+          "10-05 L 10-06 MBPK 10-13 B 10-20 MBPK 10-27 B",
+          "11-02 S 11-03 MBPK 11-17 MBPK",
+          "12-01 MBPK 12-15 MBPK 12-29 MBPK"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 17: Varaždin",
+      "ulice": ["Biškupečka ulica (Varaždin)", "Cehovska ulica (Varaždin)", "Moslavačka ulica (Varaždin)", "Plitvička ulica (Varaždin)", "Sajmišna ulica (Varaždin)", "Sportska ulica (Varaždin)", "Trg Ivana Perkovca (Varaždin)", "Ulica Bagrema (Varaždin)", "Ulica Ivana Mažuranića (Varaždin)", "Ulica Ivane Brlić-Mažuranić (Varaždin)", "Ulica Katarine Zrinski (Varaždin)", "Ulica Ljube Babića (Varaždin)", "Ulica Luje Pihlera (Varaždin)", "Ulica Mirka Kolarića st. (Varaždin)", "Ulica Mirka Maleza (Varaždin)", "Ulica Tomislava Miškulina (Varaždin)", "Ulica Vatroslava Kolandera (Varaždin)", "Ulica Vesne Parun (Varaždin)", "Ulica Vladimira Deduša (Varaždin)", "Ulica kneza Trpimira (Varaždin)", "Ulica kneza Višeslava (Varaždin)", "Varteksova ulica (Varaždin)"],
+      "raw": {
+        "2026": [
+          "01-09 MBPK 01-23 MBPK",
+          "02-06 MBPKL 02-20 MBPK",
+          "03-06 MBPKS 03-20 MBPK",
+          "04-03 MBPK 04-17 MBPK",
+          "05-01 MBPK 05-08 B 05-12 L 05-15 MBPK 05-22 B 05-29 MBPK",
+          "06-05 BS 06-12 MBPK 06-19 B 06-26 MBPK",
+          "07-03 BL 07-10 MBPK 07-17 B 07-24 MBPK 07-31 B",
+          "08-07 MBPKS 08-14 B 08-21 MBPK 08-28 B",
+          "09-04 MBPK 09-11 B 09-18 MBPK 09-25 B",
+          "10-02 MBPKL 10-09 B 10-16 MBPK 10-23 B 10-30 MBPK",
+          "11-06 S 11-13 MBPK 11-27 MBPK",
+          "12-11 MBPK 12-25 MBPK"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 18: Varaždin, Črnec Biškupečki",
+      "ulice": ["Gospodarska ulica (Varaždin)", "Ulica Krešimira Filića (Varaždin)", "Zagrebačka ulica (Varaždin) neparni 81-87, 89-315, parni 90/A-332", "Črnec Biškupečki"],
+      "raw": {
+        "2026": [
+          "01-09 MBPK 01-23 MBPK",
+          "02-06 MBPKL 02-20 MBPK",
+          "03-06 MBPKS 03-20 MBPK",
+          "04-03 MBPK 04-17 MBPK",
+          "05-01 MBPK 05-08 B 05-12 L 05-15 MBPK 05-22 B 05-29 MBPK",
+          "06-05 BS 06-12 MBPK 06-19 B 06-26 MBPK",
+          "07-03 BL 07-10 MBPK 07-17 B 07-24 MBPK 07-31 B",
+          "08-07 MBPKS 08-14 B 08-21 MBPK 08-28 B",
+          "09-04 MBPK 09-11 B 09-18 MBPK 09-25 B",
+          "10-02 MBPKL 10-09 B 10-16 MBPK 10-23 B 10-30 MBPK",
+          "11-06 S 11-13 MBPK 11-27 MBPK",
+          "12-11 MBPK 12-25 MBPK"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Varaždin",
+      "podrucje": "Zona 19: Jalkovec, Gojanec, Poljana Biškupečka",
+      "ulice": ["Gorčica (Gojanec)", "Kalnička cesta (Jalkovec)", "Nova ulica (Jalkovec)", "Plitvička ulica (Gojanec)", "Plitvička ulica (Jalkovec)", "Trg Ljudevita Gaja (Jalkovec)", "Ulica Ante Kovačića (Poljana Biškupečka)", "Ulica Augusta Šenoe (Poljana Biškupečka)", "Ulica Florijana Bobića (Jalkovec)", "Ulica Ljudevita Gaja (Gojanec)", "Ulica Ljudevita Gaja (Poljana Biškupečka)", "Ulica Matije Gupca (Gojanec)", "Ulica Matije Gupca (Jalkovec)", "Ulica Matije Gupca (Poljana Biškupečka)", "Ulica Stanka Tomaškovića (Jalkovec)", "Ulica Stjepana Lazara - Šokca (Poljana Biškupečka)", "Ulica Tina Ujevića (Gojanec)", "Ulica Vladimira Nazora (Gojanec)", "Ulica braće Radić (Gojanec)", "Ulica braće Radić (Jalkovec)", "Ulica hrvatskog proljeća (Jalkovec)", "Varaždinska ulica (Jalkovec)", "Varaždinska ulica (Poljana Biškupečka)", "Varaždinska ulica - odvojak I (Jalkovec)", "Varaždinska ulica - odvojak II (Jalkovec)", "Varaždinska ulica - odvojak III (Jalkovec)", "Vrtna ulica (Gojanec)", "Vrtna ulica (Jalkovec)", "Vrtna ulica (Poljana Biškupečka)", "Vrtni prolaz (Poljana Biškupečka)", "Zavojna ulica (Gojanec)", "Čretna ulica (Jalkovec)"],
+      "raw": {
+        "2026": [
+          "01-12 MBPK 01-26 MBPK",
+          "02-09 MBPK 02-23 MBPKL",
+          "03-09 MBPK 03-23 MBPKS",
+          "04-06 MBPK 04-20 MBPK",
+          "05-04 MBPK 05-11 B 05-18 MBPK 05-25 BL",
+          "06-01 MBPK 06-08 B 06-15 MBPK 06-22 B 06-29 MBPKS",
+          "07-06 B 07-13 MBPK 07-20 B 07-27 MBPKL",
+          "08-03 B 08-10 MBPK 08-17 B 08-24 MBPKS 08-31 B",
+          "09-07 MBPK 09-14 B 09-21 MBPK 09-28 B",
+          "10-05 MBPK 10-12 B 10-19 MBPK 10-26 BL",
+          "11-02 MBPK 11-16 MBPK 11-23 S 11-30 MBPK",
+          "12-14 MBPK 12-28 MBPK"
+        ]
+      }
+    },
+    "Beretinec": {
+      "jls": "Beretinec",
+      "podrucje": "Beretinec: Beretinec, Črešnjevo, Ledinec, Ledinec Gornji",
+      "ulice": ["Belska ulica (Beretinec)", "Belska ulica (Ledinec Gornji)", "Briška ulica (Ledinec Gornji)", "Grabrovec (Ledinec)", "Poljska ulica (Črešnjevo)", "Prigorska ulica (Ledinec)", "Radnička ulica (Črešnjevo)", "Ribnička ulica (Črešnjevo)", "Trg Korzo (Črešnjevo)", "Trg Stjepana Lazara \"Šokca\" (Beretinec)", "Trg hrvatskih branitelja (Beretinec)", "Ulica Augusta Lisičaka (Beretinec)", "Ulica Augusta Šenoe (Beretinec)", "Ulica Augusta Šenoe (Črešnjevo)", "Ulica Krešimira Kapeša (Beretinec)", "Ulica Ljudevita Gaja (Beretinec)", "Ulica Ljudevita Gaja (Črešnjevo)", "Ulica Matije Gupca (Črešnjevo)", "Ulica Rade Končara (Beretinec)", "Ulica Rudolfa Šanjeka (Beretinec)", "Ulica Vladimira Nazora (Beretinec)", "Ulica Vladimira Nazora (Ledinec)", "Ulica Vladimira Nazora (Črešnjevo)", "Ulica bana Jelačića (Beretinec)", "Ulica braće Radić (Beretinec)", "Varaždinska ulica (Beretinec)", "Varaždinska ulica (Črešnjevo)", "Vinogradska ulica (Beretinec)", "Vinogradska ulica (Ledinec Gornji)", "Vinogradska ulica (Črešnjevo)", "Vrtna ulica (Beretinec)", "Zagorska ulica (Črešnjevo)", "Školska ulica (Ledinec Gornji)", "Školska ulica (Ledinec)", "Školska ulica (Črešnjevo)"],
+      "raw": {
+        "2026": [
+          "01-01 B 01-08 MBK 01-15 B 01-22 MBP 01-29 B",
+          "02-05 MBK 02-09 L 02-12 B 02-19 MBP 02-26 B",
+          "03-05 MBK 03-09 S 03-12 B 03-19 MBP 03-26 B",
+          "04-02 MBK 04-09 B 04-16 MBP 04-23 B 04-30 MBK",
+          "05-07 B 05-11 L 05-14 MBP 05-21 B 05-28 MBK",
+          "06-04 B 06-08 S 06-11 MBP 06-18 B 06-25 MBK",
+          "07-02 B 07-09 MBP 07-13 L 07-16 B 07-23 MBK 07-30 B",
+          "08-06 MBP 08-10 S 08-13 B 08-20 MBK 08-27 B",
+          "09-03 MBP 09-10 B 09-17 MBK 09-24 B",
+          "10-01 MBP 10-08 B 10-12 L 10-15 MBK 10-22 B 10-29 MBP",
+          "11-05 B 11-09 S 11-12 MBK 11-19 B 11-26 MBP",
+          "12-03 B 12-10 MBK 12-17 B 12-24 MBP 12-31 B"
+        ]
+      }
+    },
+    "Breznički Hum": {
+      "jls": "Breznički Hum",
+      "podrucje": "Breznički Hum: Breznički Hum, Butkovec, Krščenovec, Radešić i dr.",
+      "ulice": ["Breznički Hum", "Butkovec", "Krščenovec", "Radešić", "Šćepanje"],
+      "raw": {
+        "2026": [
+          "01-05 MBK 01-12 B 01-19 MBP 01-26 B",
+          "02-02 MBK 02-09 B 02-12 L 02-16 MBP 02-23 B",
+          "03-02 MBK 03-09 B 03-12 S 03-16 MBP 03-23 B 03-30 MBK",
+          "04-06 B 04-13 MBP 04-20 B 04-27 MBK",
+          "05-04 B 05-11 MBP 05-18 B 05-25 MBK",
+          "06-01 B 06-08 MBP 06-15 B 06-22 MBK 06-29 B",
+          "07-06 MBP 07-09 L 07-13 B 07-20 MBK 07-27 B",
+          "08-03 MBP 08-10 B 08-13 S 08-17 MBK 08-24 B 08-31 MBP",
+          "09-07 B 09-14 MBK 09-21 B 09-28 MBP",
+          "10-05 B 10-12 MBK 10-19 B 10-26 MBP",
+          "11-02 B 11-09 MBK 11-16 B 11-23 MBP 11-30 B",
+          "12-07 MBK 12-14 B 12-21 MBP 12-28 B"
+        ]
+      }
+    },
+    "Cestica": {
+      "jls": "Cestica",
+      "podrucje": "Cestica: Gornje Vratno, Babinec, Radovec, Cestica i dr.",
+      "ulice": ["Boršanec - I. odvojak (Gornje Vratno)", "Carinska ulica (Dubrava Križovljanska)", "Dravska ulica (Cestica)", "Dravska ulica (Dubrava Križovljanska)", "Dravska ulica (Gornje Vratno)", "Dravska ulica (Otok Virje)", "Dubrava Breg (Dubrava Križovljanska)", "Falinić Breg", "Gajeva ulica (Virje Križovljansko)", "Gorički put (Radovec)", "Jarki", "Kratka ulica (Cestica)", "Kratka ulica (Dubrava Križovljanska)", "Križanče", "Križovljangrad (Cestica)", "Križovljangradska cesta (Kolarovec)", "Kumikova ulica (Veliki Lovrečan)", "Lovrečan breg (Veliki Lovrečan)", "Lovrečan otok (Veliki Lovrečan)", "Malo Gradišće", "Natkrižovljan", "Nova ulica (Babinec)", "Nova ulica (Cestica)", "Ormoška ulica (Virje Križovljansko)", "Poljska ulica (Radovec)", "Prekorje (Radovec)", "Radovečka ulica (Radovec Polje)", "Rimska ulica (Brezje Dravsko)", "Selci Križovljanski", "Sportska ulica (Cestica)", "Sportska ulica (Otok Virje)", "Ulica 1. maja (Otok Virje)", "Ulica 8. maja (Kolarovec)", "Ulica Ante Starčevića (Cestica)", "Ulica Antuna Mihanovića (Križovljan Radovečki)", "Ulica Antuna Mihanovića (Radovec)", "Ulica Augusta Šenoe (Radovec)", "Ulica Ljudevita Gaja (Cestica)", "Ulica Ljudevita Gaja (Gornje Vratno)", "Ulica Marijana Dolanjskog (Babinec)", "Ulica Matije Gupca (Babinec)", "Ulica Matije Gupca (Gornje Vratno)", "Ulica Matije Gupca (Radovec)", "Ulica Matije Gupca (Veliki Lovrečan)", "Ulica Miroslava Krleže (Radovec)", "Ulica Pavla Bakića (Kolarovec)", "Ulica Petra Kalanjoša (Gornje Vratno)", "Ulica Petra Preradovića (Križovljan Radovečki)", "Ulica Rudolfa Korotaja (Dubrava Križovljanska)", "Ulica Stjepana Boraka (Mali Lovrečan)", "Ulica Stjepana Radića (Babinec)", "Ulica Stjepana Radića (Gornje Vratno)", "Ulica Stjepana Radića (Križovljan Radovečki)", "Ulica Vladimira Nazora (Babinec)", "Ulica Vladimira Nazora (Radovec Polje)", "Ulica Vladimira Nazora (Veliki Lovrečan)", "Ulica bana Jelačića (Babinec)", "Ulica braće Radić (Otok Virje)", "Ulica braće Radić (Veliki Lovrečan)", "Ulica svetog Lovre (Mali Lovrečan)", "Ulica svetog Lovre (Veliki Lovrečan)", "Varaždinska ulica (Babinec)", "Varaždinska ulica (Brezje Dravsko)", "Varaždinska ulica (Cestica)", "Varaždinska ulica (Dubrava Križovljanska)", "Varaždinska ulica (Gornje Vratno)", "Varaždinska ulica (Kolarovec)", "Varaždinska ulica (Križovljan Radovečki)", "Varaždinska ulica (Otok Virje)", "Varaždinska ulica (Radovec)", "Varaždinska ulica (Veliki Lovrečan)", "Vinička ulica (Gornje Vratno)", "Vinogradska ulica (Babinec)", "Vinogradska ulica (Dubrava Križovljanska)", "Vinogradska ulica (Gornje Vratno)", "Vinogradska ulica (Radovec)", "Vratno Otok", "Vrtna ulica (Gornje Vratno)", "Vrtna ulica (Virje Križovljansko)", "Zelena ulica (Dubrava Križovljanska)", "Školska ulica (Babinec)"],
+      "raw": {
+        "2026": [
+          "01-07 MBK 01-14 B 01-21 MBP 01-28 B",
+          "02-04 MBK 02-10 L 02-11 B 02-18 MBP 02-25 B",
+          "03-04 MBK 03-10 S 03-11 B 03-18 MBP 03-25 B",
+          "04-01 MBK 04-08 B 04-15 MBP 04-22 B 04-29 MBK",
+          "05-06 B 05-13 MBP 05-20 B 05-27 MBK",
+          "06-03 B 06-10 MBP 06-17 B 06-24 MBK",
+          "07-01 B 07-08 MBP 07-14 L 07-15 B 07-22 MBK 07-29 B",
+          "08-05 MBP 08-11 S 08-12 B 08-19 MBK 08-26 B",
+          "09-02 MBP 09-09 B 09-16 MBK 09-23 B 09-30 MBP",
+          "10-07 B 10-14 MBK 10-21 B 10-28 MBP",
+          "11-04 B 11-11 MBK 11-18 B 11-25 MBP",
+          "12-02 B 12-09 MBK 12-16 B 12-23 MBP 12-30 B"
+        ]
+      }
+    },
+    "Gornji Kneginec": {
+      "jls": "Gornji Kneginec",
+      "podrucje": "Gornji Kneginec: Gornji Kneginec, Turčin, Donji Kneginec, Varaždin Breg i dr.",
+      "ulice": ["Banjščina (Varaždin Breg)", "Breznička ulica (Gornji Kneginec)", "Dubrava (Turčin)", "Dubravka (Turčin)", "Dugi vrh (Varaždin Breg)", "Glavić (Varaždin Breg)", "Halić (Varaždin Breg)", "Knegingradska ulica (Gornji Kneginec)", "Kolodvorska ulica (Gornji Kneginec)", "Kolodvorska ulica (Turčin)", "Koradovica (Varaždin Breg)", "Kućanska ulica (Donji Kneginec)", "Lug (Turčin)", "Mali vrh (Varaždin Breg)", "Mostečka (Varaždin Breg)", "Mozdernjak (Varaždin Breg)", "Pri gori (Lužan Biškupečki)", "Radnička ulica (Donji Kneginec)", "Toplička ulica (Gornji Kneginec)", "Trg dr. Franje Tuđmana (Turčin)", "Trg hrvatskih branitelja (Gornji Kneginec)", "Trnjača (Donji Kneginec)", "Ulica Ante Starčevića (Donji Kneginec)", "Ulica Ante Starčevića (Gornji Kneginec)", "Ulica Augusta Šenoe (Donji Kneginec)", "Ulica Augusta Šenoe (Turčin)", "Ulica Franje Bužanića (Turčin)", "Ulica Ljudevita Gaja (Turčin)", "Ulica Mavra Schlengera (Gornji Kneginec)", "Ulica Stjepana Radića (Lužan Biškupečki)", "Ulica Tina Ujevića (Gornji Kneginec)", "Ulica Vladimira Nazora (Turčin)", "Ulica bana Jelačića (Gornji Kneginec)", "Ulica braće Radić (Donji Kneginec)", "Ulica grada Lipika (Donji Kneginec)", "Ulica grada Verone (Donji Kneginec)", "Ulica kralja Andrije II (Donji Kneginec)", "Ulica kralja Zvonimira (Lužan Biškupečki)", "Ulica učitelja Vjekoslava Kezele (Gornji Kneginec)", "Vinogradska ulica (Lužan Biškupečki)", "Vukovarska ulica (Turčin)", "Zagrebačka ulica (Lužan Biškupečki)", "Zagrebačka ulica (Turčin)", "Zavrtna ulica (Donji Kneginec)", "Školska ulica (Gornji Kneginec)", "Šmičkovec (Gornji Kneginec)"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-12 MBK 01-19 B 01-26 MBP",
+          "02-02 B 02-03 L 02-09 MBK 02-16 B 02-23 MBP",
+          "03-02 B 03-03 S 03-09 MBK 03-16 B 03-23 MBP 03-30 B",
+          "04-06 MBK 04-13 B 04-20 MBP 04-27 B",
+          "05-04 MBK 05-05 L 05-11 B 05-18 MBP 05-25 B",
+          "06-01 MBK 06-02 S 06-08 B 06-15 MBP 06-22 B 06-29 MBK",
+          "07-06 B 07-07 L 07-13 MBP 07-20 B 07-27 MBK",
+          "08-03 B 08-04 S 08-10 MBP 08-17 B 08-24 MBK 08-31 B",
+          "09-07 MBP 09-14 B 09-21 MBK 09-28 B",
+          "10-05 MBP 10-06 L 10-12 B 10-19 MBK 10-26 B",
+          "11-02 MBP 11-03 S 11-09 B 11-16 MBK 11-23 B 11-30 MBP",
+          "12-07 B 12-14 MBK 12-21 B 12-28 MBP"
+        ]
+      }
+    },
+    "Petrijanec": {
+      "jls": "Petrijanec",
+      "podrucje": "Petrijanec: Petrijanec, Majerje, Nova Ves Petrijanečka, Družbinec i dr.",
+      "ulice": ["Bombellesova ulica (Majerje)", "Butina (Petrijanec)", "Dravska ulica (Družbinec)", "Dravska ulica (Petrijanec)", "Gospodarska ulica (Majerje)", "Komarska ulica (Družbinec)", "Kratka ulica (Nova Ves Petrijanečka)", "Livadarska ulica (Družbinec)", "Nova ulica (Petrijanec)", "Novoveška ulica (Majerje)", "Podravska ulica (Strmec Podravski)", "Poljska ulica (Majerje)", "Prvomajska ulica (Družbinec)", "Radnička ulica (Majerje)", "Trg svetog Nikole (Strmec Podravski)", "Trg svetog Petra (Petrijanec)", "Ulica Alojzija Stepinca (Petrijanec)", "Ulica Andrije Hebranga (Petrijanec)", "Ulica Ante Starčevića (Petrijanec)", "Ulica Florijana Bobića (Nova Ves Petrijanečka)", "Ulica Hinka Krizmana (Nova Ves Petrijanečka)", "Ulica Ivana Gorana Kovačića (Petrijanec)", "Ulica Ljudevita Gaja (Nova Ves Petrijanečka)", "Ulica Ljudevita Gaja (Zelendvor)", "Ulica Matije Gupca (Majerje)", "Ulica Matije Gupca (Petrijanec)", "Ulica Miroslava Krleže (Petrijanec)", "Ulica Rade Končara (Nova Ves Petrijanečka)", "Ulica Stjepana Radića (Majerje)", "Ulica Vladimira Nazora (Petrijanec)", "Ulica Zrinskih i Frankopana (Petrijanec)", "Ulica bana Jelačića (Petrijanec)", "Ulica braće Radić (Petrijanec)", "Ulica braće Radić (Strmec Podravski)", "Ulica grofova Bombelles (Zelendvor)", "Ulica Đure Basaričeka (Majerje)", "Vidovečka ulica (Nova Ves Petrijanečka)", "Vidovićeva ulica (Strmec Podravski)", "Vrtna ulica (Družbinec)", "Vrtna ulica (Majerje)", "Vrtna ulica (Petrijanec)", "Zavrtna ulica (Strmec Podravski)", "Zelendvorska ulica (Petrijanec)", "Športska ulica (Petrijanec)"],
+      "raw": {
+        "2026": [
+          "01-07 B 01-14 MBK 01-21 B 01-28 MBP",
+          "02-04 B 02-11 MBK 02-18 B 02-24 L 02-25 MBP",
+          "03-04 B 03-11 MBK 03-18 B 03-24 S 03-25 MBP",
+          "04-01 B 04-08 MBK 04-15 B 04-22 MBP 04-29 B",
+          "05-06 MBK 05-13 B 05-20 MBP 05-27 B",
+          "06-03 MBK 06-10 B 06-17 MBP 06-24 B",
+          "07-01 MBK 07-08 B 07-15 MBP 07-22 B 07-28 L 07-29 MBK",
+          "08-05 B 08-12 MBP 08-19 B 08-25 S 08-26 MBK",
+          "09-02 B 09-09 MBP 09-16 B 09-23 MBK 09-30 B",
+          "10-07 MBP 10-14 B 10-21 MBK 10-28 B",
+          "11-04 MBP 11-11 B 11-18 MBK 11-25 B",
+          "12-02 MBP 12-09 B 12-16 MBK 12-23 B 12-30 MBP"
+        ]
+      }
+    },
+    "Sračinec": {
+      "jls": "Sračinec",
+      "podrucje": "Sračinec: Sračinec",
+      "ulice": ["Cvjetna ulica (Sračinec)", "Dravska ulica (Sračinec)", "Kratka ulica (Sračinec)", "Trg Slobode (Sračinec)", "Trg sv. Mihaela (Sračinec)", "Ulica 8. svibnja (Sračinec)", "Ulica Antuna Gustava Matoša (Sračinec)", "Ulica Antuna Mihanovića (Sračinec)", "Ulica Augusta Šenoe (Sračinec)", "Ulica Dragutina Tadijanovića (Sračinec)", "Ulica Dražena Petrovića (Sračinec)", "Ulica Gustava Krkleca (Sračinec)", "Ulica Ivana Gorana Kovačića (Sračinec)", "Ulica Ivana Kukuljevića (Sračinec)", "Ulica Ljudevita Gaja (Sračinec)", "Ulica Mate Melinčeka (Sračinec)", "Ulica Matije Gupca (Sračinec)", "Ulica Miljenka Stančića (Sračinec)", "Ulica Miroslava Krleže (Sračinec)", "Ulica Nikole Tesle (Sračinec)", "Ulica Ribnjak (Sračinec)", "Ulica Vatroslava Jagića (Sračinec)", "Ulica Vilka Novaka (Sračinec)", "Ulica Vlade Gotovca (Sračinec)", "Ulica Vladimira Nazora (Sračinec)", "Ulica braće Radić (Sračinec)", "Ulica kralja Tomislava (Sračinec)", "Ulica svetog Antuna (Sračinec)", "Ulica Đure Kuhara (Sračinec)", "Varaždinska ulica (Sračinec)", "Vrtna ulica (Sračinec)", "Vukovarska ulica (Sračinec)", "Zelendvorska ulica (Sračinec)"],
+      "raw": {
+        "2026": [
+          "01-05 MBK 01-12 B 01-19 MBP 01-26 B",
+          "02-02 MBK 02-09 B 02-11 L 02-16 MBP 02-23 B",
+          "03-02 MBK 03-09 B 03-11 S 03-16 MBP 03-23 B 03-30 MBK",
+          "04-06 B 04-13 MBP 04-20 B 04-27 MBK",
+          "05-04 B 05-11 MBP 05-18 B 05-25 MBK",
+          "06-01 B 06-08 MBP 06-15 B 06-22 MBK 06-29 B",
+          "07-06 MBP 07-08 L 07-13 B 07-20 MBK 07-27 B",
+          "08-03 MBP 08-10 B 08-12 S 08-17 MBK 08-24 B 08-31 MBP",
+          "09-07 B 09-14 MBK 09-21 B 09-28 MBP",
+          "10-05 B 10-12 MBK 10-19 B 10-26 MBP",
+          "11-02 B 11-09 MBK 11-16 B 11-23 MBP 11-30 B",
+          "12-07 MBK 12-14 B 12-21 MBP 12-28 B"
+        ]
+      }
+    },
+    "Sveti Ilija": {
+      "jls": "Sveti Ilija",
+      "podrucje": "Sveti Ilija: Sveti Ilija, Beletinec, Seketin, Doljan i dr.",
+      "ulice": ["Aleja hrvatskih branitelja (Sveti Ilija)", "Belska ulica (Beletinec)", "Beretiščak (Beletinec)", "Gajska ulica (Doljan)", "Jurišićeva ulica (Seketin)", "Kalnička ulica (Krušljevec)", "Korenjak (Sveti Ilija)", "Kratka ulica (Beletinec)", "Kružna ulica (Beletinec)", "Kružna ulica (Sveti Ilija)", "Kružna ulica (Tomaševec Biškupečki)", "Livadska ulica (Beletinec)", "Livadska ulica (Krušljevec)", "Prečna ulica (Seketin)", "Prešburg (Sveti Ilija)", "Radnička ulica (Beletinec)", "Radnička ulica (Doljan)", "Rudarska ulica (Beletinec)", "Tiha ulica (Beletinec)", "Trg Josipa Godrijana (Sveti Ilija)", "Ulica Ante Starčevića (Beletinec)", "Ulica Antuna Gustava Matoša (Žigrovec)", "Ulica Antuna Mihanovića (Žigrovec)", "Ulica Augusta Šenoe (Križanec)", "Ulica Augusta Šenoe (Tomaševec Biškupečki)", "Ulica Augusta Šenoe (Žigrovec)", "Ulica Augustina Korpara (Sveti Ilija)", "Ulica Dražena Obrstara-Caca (Beletinec)", "Ulica Gustava Krkleca (Sveti Ilija)", "Ulica Ivana Stankusa (Sveti Ilija)", "Ulica Ive Lole Ribara (Doljan)", "Ulica Ljudevita Gaja (Doljan)", "Ulica Ljudevita Gaja (Križanec)", "Ulica Ljudevita Gaja (Sveti Ilija)", "Ulica Matije Gupca (Beletinec)", "Ulica Matije Gupca (Seketin)", "Ulica Matije Gupca (Sveti Ilija)", "Ulica Stjepana Labaša (Križanec)", "Ulica Stjepana Radića (Beletinec)", "Ulica Tina Ujevića (Sveti Ilija)", "Ulica Vide Sokola (Seketin)", "Ulica Vilima Cecelja (Sveti Ilija)", "Ulica Vladimira Nazora (Križanec)", "Ulica Vladimira Nazora (Seketin)", "Ulica Vladimira Nazora (Sveti Ilija)", "Ulica Vladimira Nazora (Tomaševec Biškupečki)", "Ulica Vladimira Nazora (Žigrovec)", "Ulica bana Jelačića (Doljan)", "Ulica bana Jelačića (Križanec)", "Ulica bana Jelačića (Sveti Ilija)", "Ulica bana Jelačića (Tomaševec Biškupečki)", "Ulica bana Jelačića (Žigrovec)", "Ulica braće Radić (Križanec)", "Ulica palih boraca (Seketin)", "Vinogradska ulica (Beletinec)", "Vinogradska ulica (Doljan)", "Vinogradska ulica (Križanec)", "Vinogradska ulica (Seketin)", "Vinogradska ulica (Sveti Ilija)", "Vodovodna ulica (Beletinec)", "Vodovodna ulica (Sveti Ilija)", "Vrtna ulica (Žigrovec)", "Zagrebačka ulica (Križanec)", "Zagrebačka ulica (Seketin)", "Zagrebačka ulica (Tomaševec Biškupečki)", "Zavrtna ulica (Beletinec)", "Zavrtna ulica (Doljan)", "Zavrtna ulica (Seketin)", "Školska ulica (Sveti Ilija)", "Željeznička ulica (Krušljevec)", "Željeznička ulica (Tomaševec Biškupečki)", "Željeznički nasip (Doljan)"],
+      "raw": {
+        "2026": [
+          "01-06 MBK 01-13 B 01-20 MBP 01-27 B",
+          "02-03 MBK 02-05 L 02-10 B 02-17 MBP 02-24 B",
+          "03-03 MBK 03-05 S 03-10 B 03-17 MBP 03-24 B 03-31 MBK",
+          "04-07 B 04-14 MBP 04-21 B 04-28 MBK",
+          "05-05 B 05-07 L 05-12 MBP 05-19 B 05-26 MBK",
+          "06-02 B 06-09 MBPS 06-16 B 06-23 MBK 06-30 B",
+          "07-02 L 07-07 MBP 07-14 B 07-21 MBK 07-28 B",
+          "08-04 MBP 08-06 S 08-11 B 08-18 MBK 08-25 B",
+          "09-01 MBP 09-08 B 09-15 MBK 09-22 B 09-29 MBP",
+          "10-01 L 10-06 B 10-13 MBK 10-20 B 10-27 MBP",
+          "11-03 B 11-05 S 11-10 MBK 11-17 B 11-24 MBP",
+          "12-01 B 12-08 MBK 12-15 B 12-22 MBP 12-29 B"
+        ]
+      }
+    },
+    "Svibovec Podravski": {
+      "jls": "Sračinec",
+      "podrucje": "Svibovec Podravski: Svibovec Podravski",
+      "ulice": ["Dravska ulica (Svibovec Podravski)", "Poljska ulica (Svibovec Podravski)", "Ulica Matije Gupca (Svibovec Podravski)", "Ulica Tome Blažeka (Svibovec Podravski)", "Vrtna ulica (Svibovec Podravski)", "Školska ulica (Svibovec Podravski)"],
+      "raw": {
+        "2026": [
+          "01-01 B 01-08 MBK 01-15 B 01-22 MBP 01-29 B",
+          "02-05 MBK 02-11 L 02-12 B 02-19 MBP 02-26 B",
+          "03-05 MBK 03-11 S 03-12 B 03-19 MBP 03-26 B",
+          "04-02 MBK 04-09 B 04-16 MBP 04-23 B 04-30 MBK",
+          "05-07 B 05-14 MBP 05-21 B 05-28 MBK",
+          "06-04 B 06-11 MBP 06-18 B 06-25 MBK",
+          "07-02 B 07-08 L 07-09 MBP 07-16 B 07-23 MBK 07-30 B",
+          "08-06 MBP 08-12 S 08-13 B 08-20 MBK 08-27 B",
+          "09-03 MBP 09-10 B 09-17 MBK 09-24 B",
+          "10-01 MBP 10-08 B 10-15 MBK 10-22 B 10-29 MBP",
+          "11-05 B 11-12 MBK 11-19 B 11-26 MBP",
+          "12-03 B 12-10 MBK 12-17 B 12-24 MBP 12-31 B"
+        ]
+      }
+    },
+    "Trnovec Bartolovečki": {
+      "jls": "Trnovec Bartolovečki",
+      "podrucje": "Trnovec Bartolovečki: Trnovec, Bartolovec, Šemovec, Štefanec i dr.",
+      "ulice": ["Agrarna ulica (Zamlaka)", "Bartolovečka ulica (Trnovec)", "Branimirova ulica (Trnovec)", "Cvjetna ulica (Trnovec)", "Dravska ulica (Bartolovec)", "Dravska ulica (Trnovec)", "Dravska ulica (Štefanec)", "Gajeva ulica (Trnovec)", "Glavna ulica (Žabnik)", "Gospodarska ulica (Trnovec)", "Jezerski odvojak (Žabnik)", "Koprivnička ulica (Šemovec)", "Kratka ulica (Trnovec)", "Ledine (Šemovec)", "Ludbreška ulica (Trnovec)", "Ludbreška ulica (Štefanec)", "Male Ledine (Trnovec)", "Nova ulica (Trnovec)", "Nova ulica (Žabnik)", "Novakovečka ulica (Zamlaka)", "Plitvička ulica (Šemovec)", "Plitvička ulica (Štefanec)", "Poduzetnička (Trnovec)", "Prilaz jezeru (Bartolovec)", "Radnička ulica (Trnovec)", "Sportska ulica (Trnovec)", "Sportska ulica (Žabnik)", "Srednja ulica (Šemovec)", "Ulica Ante Kovačića (Trnovec)", "Ulica Augusta Šenoe (Trnovec)", "Ulica Gustava Krkleca (Trnovec)", "Ulica Ivana Cankara (Trnovec)", "Ulica Ivana Mažuranića (Trnovec)", "Ulica Kračina (Bartolovec)", "Ulica Miroslava Krleže (Trnovec)", "Ulica Nikole Tesle (Trnovec)", "Ulica Prečec (Bartolovec)", "Ulica Ruđera Boškovića (Trnovec)", "Ulica Stanka Vraza (Trnovec)", "Ulica Vladimira Nazora (Trnovec)", "Ulica braće Radić (Trnovec)", "Ulica braće Radić (Šemovec)", "Ulica kralja Tomislava (Trnovec)", "Varaždinska ulica (Bartolovec)", "Varaždinska ulica (Trnovec)", "Vrtna ulica (Bartolovec)", "Vrtna ulica (Trnovec)", "Zbelska ulica (Trnovec)", "Zeleni put (Trnovec)", "Široke ledine (Trnovec)", "Štefanec Marof (Štefanec)"],
+      "raw": {
+        "2026": [
+          "01-02 B 01-09 MBK 01-16 B 01-23 MBP 01-30 B",
+          "02-06 MBK 02-13 B 02-20 MBPL 02-27 B",
+          "03-06 MBK 03-13 B 03-20 MBPS 03-27 B",
+          "04-03 MBK 04-10 B 04-17 MBP 04-24 B",
+          "05-01 MBK 05-08 B 05-15 MBPL 05-22 B 05-29 MBK",
+          "06-05 B 06-12 MBP 06-19 BS 06-26 MBK",
+          "07-03 B 07-10 MBP 07-17 BL 07-24 MBK 07-31 B",
+          "08-07 MBP 08-14 B 08-21 MBKS 08-28 B",
+          "09-04 MBP 09-11 B 09-18 MBK 09-25 B",
+          "10-02 MBP 10-09 B 10-16 MBKL 10-23 B 10-30 MBP",
+          "11-06 B 11-13 MBK 11-20 BS 11-27 MBP",
+          "12-04 B 12-11 MBK 12-18 B 12-25 MBP"
+        ]
+      }
+    },
+    "Varaždinske Toplice": {
+      "jls": "Varaždinske Toplice",
+      "podrucje": "Varaždinske Toplice: Varaždinske Toplice, Svibovec, Donja Poljana, Boričevec Toplički i dr.",
+      "ulice": ["Boričevec Toplički", "Bregovita ulica (Varaždinske Toplice)", "Cvjetna ulica (Varaždinske Toplice)", "Drenovec", "Duga ulica (Varaždinske Toplice)", "Gornja Poljana", "Grešćevina", "Hrastovec Toplički", "Jalševec Svibovečki", "Jarki Horvatićevi", "Leskovec Toplički", "Lovrentovec", "Ludbreška ulica (Svibovec)", "Ludbreška ulica (Varaždinske Toplice)", "Lukačevec Toplički", "Martinkovec", "Naselje hrvatskog proljeća (Varaždinske Toplice)", "Perivoj Marije Ružičke Strozzi (Varaždinske Toplice)", "Petkovec Toplički", "Pišćanovec", "Prolaz Metela Ožegovića (Varaždinske Toplice)", "Prolaz Zlate Šufflay (Varaždinske Toplice)", "Prolaz dr. Josipa Locherta (Varaždinske Toplice)", "Retkovec Svibovečki", "Rukljevina", "Selnička ulica (Varaždinske Toplice)", "Tonimirska ulica (Varaždinske Toplice)", "Topličnjak (Varaždinske Toplice)", "Trg Antuna Mihanovića (Varaždinske Toplice)", "Trg Republike Hrvatske (Varaždinske Toplice)", "Trg sv. Martina (Varaždinske Toplice)", "Tuhovec", "Ulica 104. brigade Hrvatske vojske (Varaždinske Toplice)", "Ulica A. G. Matoša (Varaždinske Toplice)", "Ulica Antuna i Ivana Kukuljevića (Varaždinske Toplice)", "Ulica Dragutina Domjanića (Varaždinske Toplice)", "Ulica Ivana Gundulića (Varaždinske Toplice)", "Ulica Ivana Tkalčića (Varaždinske Toplice)", "Ulica Josipa Čabrijana (Varaždinske Toplice)", "Ulica Lavoslava Horvata (Varaždinske Toplice)", "Ulica Martina Pušteka (Donja Poljana)", "Ulica Matije Gupca (Varaždinske Toplice)", "Ulica Miroslava Krleže (Varaždinske Toplice)", "Ulica Nikole Šubića Zrinskog (Varaždinske Toplice)", "Ulica Valentina Kirinića (Varaždinske Toplice)", "Ulica Vatroslava Jagića (Varaždinske Toplice)", "Ulica Vladimira Nazora (Svibovec)", "Ulica Vladimira Nazora (Varaždinske Toplice)", "Ulica bana Jelačića (Varaždinske Toplice)", "Ulica braće Radić (Svibovec)", "Ulica braće Radić (Varaždinske Toplice)", "Ulica dr. Franje Tuđmana (Varaždinske Toplice)", "Ulica dr. Ivana Martinca (Varaždinske Toplice)", "Ulica grada Vukovara (Varaždinske Toplice)", "Ulica k Vodopadu (Varaždinske Toplice)", "Ulica kneza Branimira (Varaždinske Toplice)", "Ulica kneza Domagoja (Varaždinske Toplice)", "Ulica kneza Trpimira (Varaždinske Toplice)", "Ulica kralja Tomislava (Varaždinske Toplice)", "Ulica kralja Zvonimira (Varaždinske Toplice)", "Ulica nad zidom (Varaždinske Toplice)", "Varaždinska ulica (Varaždinske Toplice)", "Vinogradska ulica (Donja Poljana)", "Vinogradska ulica (Varaždinske Toplice)", "Vrtlinovec", "Vrtna ulica (Varaždinske Toplice)", "Zagrebačka ulica (Varaždinske Toplice)", "Črnile", "Čurilovec", "Šetalište dr. Josipa Schlossera (Varaždinske Toplice)", "Škarnik"],
+      "raw": {
+        "2026": [
+          "01-01 MBP 01-08 B 01-15 MBK 01-22 B 01-29 MBP",
+          "02-05 B 02-12 MBK 02-19 B 02-26 MBP 02-28 L",
+          "03-05 B 03-12 MBK 03-19 B 03-26 MBP 03-28 S",
+          "04-02 B 04-09 MBK 04-16 B 04-23 MBP 04-30 B",
+          "05-07 MBK 05-14 B 05-21 MBP 05-23 L 05-28 B",
+          "06-04 MBK 06-11 B 06-18 MBP 06-25 B 06-27 S",
+          "07-02 MBK 07-09 B 07-16 MBP 07-23 B 07-25 L 07-30 MBK",
+          "08-06 B 08-13 MBP 08-20 B 08-22 S 08-27 MBK",
+          "09-03 B 09-10 MBP 09-17 B 09-24 MBK",
+          "10-01 B 10-08 MBP 10-15 B 10-22 MBK 10-24 L 10-29 B",
+          "11-05 MBP 11-12 B 11-19 MBK 11-26 B 11-28 S",
+          "12-03 MBP 12-10 B 12-17 MBK 12-24 B 12-31 MBP"
+        ]
+      }
+    },
+    "Vidovec": {
+      "jls": "Vidovec",
+      "podrucje": "Vidovec: Tužno, Nedeljanec, Vidovec, Zamlača i dr.",
+      "ulice": ["Belska ulica (Tužno)", "Budislavec", "Glavna ulica (Domitrovec)", "Ivanečka ulica (Tužno)", "Kratka ulica (Nedeljanec)", "Kratka ulica (Tužno)", "Ledinska ulica (Zamlača)", "Livadska ulica (Nedeljanec)", "Livadska ulica (Zamlača)", "Nova ulica (Nedeljanec)", "Noviška ulica (Vidovec)", "Novoveška cesta (Cargovec)", "Plitvička ulica (Domitrovec)", "Plitvička ulica (Zamlača)", "Poljska ulica (Nedeljanec)", "Prekno", "Prigradska ulica (Nedeljanec)", "Radnička ulica (Tužno)", "Risnjačka ulica (Tužno)", "Selska ulica (Tužno)", "Trg svetog Vida (Vidovec)", "Ulica Alojzije Stepinca (Krkanec)", "Ulica Baltazara Patačića (Krkanec)", "Ulica Goranec (Tužno)", "Ulica Ivice Uranića (Cargovec)", "Ulica Ivice Uranića (Zamlača)", "Ulica Kneza Branimira (Krkanec)", "Ulica Nikole Tesle (Tužno)", "Ulica Stjepana Radića (Vidovec)", "Ulica Vladimira Nazora (Vidovec)", "Ulica braće Radić (Nedeljanec)", "Ulica braće Radić (Tužno)", "Ulica dr. Ante Starčevića (Zamlača)", "Ulica hrvatskih branitelja (Vidovec)", "Ulica kralja Bele IV (Šijanec)", "Ulica kralja Tomislava (Nedeljanec)", "Varaždinska ulica (Cargovec)", "Varaždinska ulica (Nedeljanec)", "Varaždinska ulica (Papinec)", "Varaždinska ulica (Tužno)", "Vidovečka ulica (Domitrovec)", "Vinogradska ulica (Tužno)", "Vrtna ulica (Cargovec)", "Vrtna ulica (Domitrovec)", "Vukovarska ulica (Cargovec)", "Zavrtna ulica (Zamlača)", "Školska ulica (Vidovec)", "Športska ulica (Nedeljanec)"],
+      "raw": {
+        "2026": [
+          "01-06 B 01-13 MBK 01-20 B 01-27 MBP",
+          "02-03 B 02-04 L 02-10 MBK 02-17 B 02-24 MBP",
+          "03-03 B 03-04 S 03-10 MBK 03-17 B 03-24 MBP 03-31 B",
+          "04-07 MBK 04-14 B 04-21 MBP 04-28 B",
+          "05-05 MBK 05-06 L 05-12 B 05-19 MBP 05-26 B",
+          "06-02 MBK 06-03 S 06-09 B 06-16 MBP 06-23 B 06-30 MBK",
+          "07-01 L 07-07 B 07-14 MBP 07-21 B 07-28 MBK",
+          "08-04 B 08-05 S 08-11 MBP 08-18 B 08-25 MBK",
+          "09-01 B 09-08 MBP 09-15 B 09-22 MBK 09-29 B",
+          "10-06 MBP 10-07 L 10-13 B 10-20 MBK 10-27 B",
+          "11-03 MBP 11-04 S 11-10 B 11-17 MBK 11-24 B",
+          "12-01 MBP 12-08 B 12-15 MBK 12-22 B 12-29 MBP"
+        ]
+      }
+    },
+    "Vinica": {
+      "jls": "Vinica",
+      "podrucje": "Vinica: Gornje Ladanje, Vinica, Marčan, Donje Vratno i dr.",
+      "ulice": ["Banov put (Vinica)", "Gajeva ulica (Vinica)", "Gorička ulica (Vinica)", "Gornja ulica (Marčan)", "Gornja ulica (Vinica)", "Goruševnjak", "Gospodarska ulica (Gornje Ladanje)", "Opečka ulica (Gornje Ladanje)", "Opečka ulica (Vinica)", "Petrijanečka ulica (Vinica)", "Pešćenica Vinička", "Trg Matije Gupca (Vinica)", "Ulica Antuna Augustinčića (Gornje Ladanje)", "Ulica Gustava Krkleca (Gornje Ladanje)", "Ulica Ivana Gorana Kovačića (Gornje Ladanje)", "Ulica Josipa Bombellesa (Marčan)", "Ulica Josipa Dumbovića (Marčan)", "Ulica Ljudevita Gaja (Donje Vratno)", "Ulica Marijana Dolanskog (Vinica)", "Ulica Mate Rupčića (Vinica)", "Ulica Matije Gupca (Gornje Ladanje)", "Ulica Stjepana Radića (Gornje Ladanje)", "Ulica Stjepana Radića (Vinica)", "Ulica Vatroslava Lisinskog (Gornje Ladanje)", "Ulica Vladimira Nazora (Gornje Ladanje)", "Ulica Vladimira Nazora (Vinica)", "Ulica bana Jelačića (Gornje Ladanje)", "Ulica kralja Zvonimira (Gornje Ladanje)", "Ulica svete Ane (Vinica)", "Varaždinska ulica (Donje Vratno)", "Vinica breg (Vinica Breg)", "Vinička ulica (Marčan)", "Vinogradska ulica (Vinica)", "Vrtna ulica (Donje Vratno)", "Vrtna ulica (Vinica)", "Zelena ulica (Gornje Ladanje)", "Zelendvorska ulica (Gornje Ladanje)", "Školska ulica (Gornje Ladanje)"],
+      "raw": {
+        "2026": [
+          "01-07 B 01-14 MBP 01-21 B 01-28 MBK",
+          "02-04 B 02-11 MBP 02-18 B 02-25 MBKL",
+          "03-04 B 03-11 MBP 03-18 B 03-25 MBKS",
+          "04-01 B 04-08 MBP 04-15 B 04-22 MBK 04-29 B",
+          "05-06 MBP 05-13 B 05-20 MBK 05-27 B",
+          "06-03 MBP 06-10 B 06-17 MBK 06-24 B",
+          "07-01 MBP 07-08 B 07-15 MBK 07-22 BL 07-29 MBP",
+          "08-05 B 08-12 MBK 08-19 B 08-26 MBPS",
+          "09-02 B 09-09 MBK 09-16 B 09-23 MBP 09-30 B",
+          "10-07 MBK 10-14 B 10-21 MBP 10-28 B",
+          "11-04 MBK 11-11 B 11-18 MBP 11-25 B",
+          "12-02 MBK 12-09 B 12-16 MBP 12-23 B 12-30 MBK"
+        ]
+      }
+    }
+  }
+}

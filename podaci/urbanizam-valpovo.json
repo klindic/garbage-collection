@@ -1,0 +1,142 @@
+{
+  "davatelj": "Urbanizam d.o.o. Valpovo",
+  "web": "https://www.urbanizam-valpovo.hr",
+  "izvor": "https://www.urbanizam-valpovo.hr/",
+  "zupanija": "Osječko-baranjska",
+  "jls": ["Valpovo", "Koška"],
+  "nazivi": {"P": "Ambalažna plastika", "S": "Ambalažno staklo"},
+  "napomene": ["Valpovo: miješani komunalni otpad odvozi se svaki tjedan na dan naveden za zonu; biootpad, plastika i metal, papir i tetrapak te staklo na dane označene u kalendaru.", "Tetrapak se odvozi istog dana kao papir, a metal istog dana kao plastika (odvojene vrećice).", "Kalendari nemaju pomake zbog blagdana; Urbanizam ih objavljuje u obavijestima na urbanizam-valpovo.hr (uključene su objavljene promjene za ovu godinu), ostali datumi su prema rasporedu.", "Spremnike i vrećice treba iznijeti najkasnije do 6:00 (ljeti od 5:00) na dan odvoza.", "Informacije: 031/656-078.", "Izvori: https://www.urbanizam-valpovo.hr/wp-content/uploads/2025/12/RASPORED-ODVOZA-od-sijecnja-do-lipnja-2026.pdf, https://www.urbanizam-valpovo.hr/wp-content/uploads/2026/06/RASPORED-ODVOZA-od-srpnja-do-prosinca-2026-PRINT.pdf, https://www.urbanizam-valpovo.hr/wp-content/uploads/2026/10/Raspored-odvoza-otpada-Opcina-Koska-2026.pdf"],
+  "zone": {
+    "1": {
+      "jls": "Valpovo",
+      "podrucje": "Zona I (ponedjeljak): Trg kralja Tomislava, Dore Pejačević, Osječka, Vijenac Hrvatske Republike, …; Harkanovci",
+      "ulice": ["Trg kralja Tomislava", "Dore Pejačević", "Osječka", "Vijenac Hrvatske Republike", "Bana Ivana Mažuranića", "Braće Radića", "Ivana Gundulića", "Zrinsko Frankopanska", "Petra Preradovića", "Kolodvorska", "Dravska", "Bana Josipa Jelačića", "Toplice", "Ivana Fuderera Hanzike", "Dr. Franje Tuđmana", "Vij.107.Brigade HV", "Harkanovci"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-12 MB 01-14 S 01-16 PL 01-19 MB 01-26 MB 01-30 K",
+          "02-02 MB 02-09 MB 02-11 S 02-13 PL 02-16 MB 02-23 MB 02-27 K",
+          "03-02 MB 03-09 MB 03-11 S 03-13 PL 03-16 MB 03-23 MB 03-27 K 03-30 MB",
+          "04-06 MB 04-08 S 04-10 PL 04-13 MB 04-20 MB 04-24 K 04-27 MB",
+          "05-04 MB 05-06 S 05-08 PL 05-11 MB 05-18 MB 05-22 K 05-25 MB",
+          "06-01 MB 06-03 S 06-05 PL 06-08 MB 06-15 MB 06-19 K 06-22 MB 06-29 MB",
+          "07-01 S 07-03 PL 07-06 MB 07-13 MB 07-17 K 07-20 MB 07-27 MB 07-29 S 07-31 PL",
+          "08-03 MB 08-10 MB 08-14 K 08-17 MB 08-24 MB 08-26 S 08-28 PL 08-31 MB",
+          "09-07 MB 09-11 K 09-14 MB 09-21 MB 09-23 S 09-25 PL 09-28 MB",
+          "10-05 MB 10-09 K 10-12 MB 10-19 MB 10-21 S 10-23 PL 10-26 MB",
+          "11-02 MB 11-06 K 11-09 MB 11-16 MB 11-18 S 11-20 PL 11-23 MB 11-30 MB",
+          "12-04 K 12-07 MB 12-14 MB 12-16 S 12-18 PL 12-21 MB 12-28 MB"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Valpovo",
+      "podrucje": "Zona II (utorak): Josipa Kozarca, Nikole Tesle, Eugena Kvaternika, Silvije Strahimira Kranjčevića, …; Šag, Nard",
+      "ulice": ["Josipa Kozarca", "Nikole Tesle", "Eugena Kvaternika", "Silvije Strahimira Kranjčevića", "Hrastik", "Ive Lole Ribara", "Sunčana", "Antuna Matije Reljkovića", "Prilaz Crvenom križu", "Janka Leskovara", "Miroslava Krleže", "Kraljevci", "Bizovačka ulica", "Šag", "Nard"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-06 M 01-12 B 01-13 M 01-14 S 01-15 PL 01-19 B 01-20 M 01-26 B 01-27 M 01-29 K",
+          "02-02 B 02-03 M 02-09 B 02-10 M 02-11 S 02-12 PL 02-16 B 02-17 M 02-23 B 02-24 M 02-26 K",
+          "03-02 B 03-03 M 03-09 B 03-10 M 03-11 S 03-12 PL 03-16 B 03-17 M 03-23 B 03-24 M 03-26 K 03-30 B 03-31 M",
+          "04-06 B 04-07 M 04-08 S 04-09 PL 04-13 B 04-14 M 04-20 B 04-21 M 04-23 K 04-27 B 04-28 M",
+          "05-04 B 05-05 M 05-06 S 05-07 PL 05-11 B 05-12 M 05-18 B 05-19 M 05-21 K 05-25 B 05-26 M",
+          "06-01 B 06-02 M 06-03 S 06-04 PL 06-08 B 06-09 M 06-15 B 06-16 M 06-18 K 06-22 B 06-23 M 06-29 B 06-30 M",
+          "07-01 S 07-02 PL 07-06 B 07-07 M 07-13 B 07-14 M 07-16 K 07-20 B 07-21 M 07-27 B 07-28 M 07-29 S 07-30 PL",
+          "08-03 B 08-04 M 08-10 B 08-11 M 08-13 K 08-17 B 08-18 M 08-24 B 08-25 M 08-26 S 08-27 PL 08-31 B",
+          "09-01 M 09-07 B 09-08 M 09-10 K 09-14 B 09-15 M 09-21 B 09-22 M 09-23 S 09-24 PL 09-28 B 09-29 M",
+          "10-05 B 10-06 M 10-08 K 10-12 B 10-13 M 10-19 B 10-20 M 10-21 S 10-22 PL 10-26 B 10-27 M",
+          "11-02 B 11-03 M 11-05 K 11-09 B 11-10 M 11-16 B 11-17 M 11-18 S 11-19 PL 11-23 B 11-24 M 11-30 B",
+          "12-01 M 12-03 K 12-07 B 12-08 M 12-14 B 12-15 M 12-16 S 12-17 PL 12-21 B 12-22 M 12-28 B 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Valpovo",
+      "podrucje": "Zona III (srijeda): Matije Gupca, Kralja Petra Svačića, Bosanska, Grgura Ninskog, …",
+      "ulice": ["Matije Gupca", "Kralja Petra Svačića", "Bosanska", "Grgura Ninskog", "Antuna Branka Šimića", "Alojzija Stepinca", "Kralja Petra Krešimira IV", "Josipa Jurja Strossmayera", "Ivana Gorana Kovačića", "Ivana Zajca", "Antuna Gustava Matoša", "Vatroslava Lisinskog", "Josipa Pinterića", "Antuna Mihanovića", "Slavka Kolara", "Starovalpovački put", "Ante Evetović-Miroljuba", "Hrvatskih Branitelja"],
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 MPL 01-12 B 01-14 MS 01-19 B 01-21 MK 01-26 B 01-28 M",
+          "02-02 B 02-04 MPL 02-09 B 02-11 MS 02-16 B 02-18 MK 02-23 B 02-25 M",
+          "03-02 B 03-04 MPL 03-09 B 03-11 MS 03-16 B 03-18 MK 03-23 B 03-25 M 03-30 B",
+          "04-01 MPL 04-06 B 04-08 MS 04-13 B 04-15 MK 04-20 B 04-22 M 04-27 B 04-29 MPL",
+          "05-04 B 05-06 MS 05-11 B 05-13 MK 05-18 B 05-20 M 05-25 B 05-27 MPL",
+          "06-01 B 06-03 MS 06-08 B 06-10 MK 06-15 B 06-17 M 06-22 B 06-24 MPL 06-29 B",
+          "07-01 MS 07-06 B 07-08 MK 07-13 B 07-15 M 07-20 B 07-22 MPL 07-27 B 07-29 MS",
+          "08-03 B 08-05 MK 08-10 B 08-12 M 08-17 B 08-19 MPL 08-24 B 08-26 MS 08-31 B",
+          "09-02 MK 09-07 B 09-09 M 09-14 B 09-16 MPL 09-21 B 09-23 MS 09-28 B 09-30 MK",
+          "10-05 B 10-07 M 10-12 B 10-14 MPL 10-19 B 10-21 MS 10-26 B 10-28 MK",
+          "11-02 B 11-04 M 11-09 B 11-11 MPL 11-16 B 11-18 MS 11-23 B 11-25 MK 11-30 B",
+          "12-02 M 12-07 B 12-09 MPL 12-14 B 12-16 MS 12-21 B 12-23 M 12-28 B 12-29 K 12-30 M"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Valpovo",
+      "podrucje": "Zona IV (četvrtak): Augusta Šenoe, Bizovačka, Darka Sutarića, Ante Starčevića, …",
+      "ulice": ["Augusta Šenoe", "Bizovačka", "Darka Sutarića", "Ante Starčevića", "Ljudevita Gaja", "Učka", "Opatijska", "Istarska", "Tina Ujevića", "Dobriše Cesarića", "Vladimira Nazora", "Florijanova", "Matije Petra Katančića"],
+      "raw": {
+        "2026": [
+          "01-02 M! 01-06 B 01-08 M 01-09 PL 01-13 B 01-15 M 01-20 B 01-22 M 01-23 K 01-27 B 01-28 S 01-29 M",
+          "02-03 B 02-05 M 02-06 PL 02-10 B 02-12 M 02-17 B 02-19 M 02-20 K 02-24 B 02-25 S 02-26 M",
+          "03-03 B 03-05 M 03-06 PL 03-10 B 03-12 M 03-17 B 03-19 M 03-20 K 03-24 B 03-25 S 03-26 M 03-31 B",
+          "04-02 M 04-03 PL 04-07 B 04-09 M 04-14 B 04-16 M 04-17 K 04-21 B 04-22 S 04-23 M 04-28 B 04-30 M",
+          "05-01 PL 05-05 B 05-07 M 05-12 B 05-14 M 05-15 K 05-19 B 05-20 S 05-21 M 05-26 B 05-28 M 05-29 PL",
+          "06-02 B 06-04 M 06-09 B 06-11 M 06-12 K 06-16 B 06-17 S 06-18 M 06-23 B 06-25 M 06-26 PL 06-30 B",
+          "07-02 M 07-07 B 07-09 M 07-10 K 07-14 B 07-15 S 07-16 M 07-21 B 07-23 M 07-24 PL 07-28 B 07-30 M",
+          "08-04 B 08-06 M 08-07 K 08-11 B 08-12 S 08-13 M 08-18 B 08-20 M 08-21 PL 08-25 B 08-27 M",
+          "09-01 B 09-03 M 09-04 K 09-08 B 09-09 S 09-10 M 09-15 B 09-17 M 09-18 PL 09-22 B 09-24 M 09-29 B",
+          "10-01 M 10-02 K 10-06 B 10-07 S 10-08 M 10-13 B 10-15 M 10-16 PL 10-20 B 10-22 M 10-27 B 10-29 M 10-30 K",
+          "11-03 B 11-04 S 11-05 M 11-10 B 11-12 M 11-13 PL 11-17 B 11-19 M 11-24 B 11-26 M 11-27 K",
+          "12-01 B 12-02 S 12-03 M 12-08 B 12-10 M 12-11 PL 12-15 B 12-17 M 12-22 B 12-23 K 12-24 M 12-28 B! 12-31 M"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Valpovo",
+      "podrucje": "Zona V (petak): Marjančaci, Ivanovci, Zelčin, Ladimirevci",
+      "ulice": ["Marjančaci", "Ivanovci", "Zelčin", "Ladimirevci"],
+      "raw": {
+        "2026": [
+          "01-02 M 01-06 B 01-08 PL 01-09 M 01-13 B 01-16 M 01-20 B 01-22 K 01-23 M 01-27 B 01-28 S 01-30 M",
+          "02-03 B 02-05 PL 02-06 M 02-10 B 02-13 M 02-17 B 02-19 K 02-20 M 02-24 B 02-25 S 02-27 M",
+          "03-03 B 03-05 PL 03-06 M 03-10 B 03-13 M 03-17 B 03-19 K 03-20 M 03-24 B 03-25 S 03-27 M 03-31 B",
+          "04-02 PL 04-03 M 04-07 B 04-10 M 04-14 B 04-16 K 04-17 M 04-21 B 04-22 S 04-24 M 04-28 B 04-30 PL",
+          "05-01 M 05-05 B 05-08 M 05-12 B 05-14 K 05-15 M 05-19 B 05-20 S 05-22 M 05-26 B 05-28 PL 05-29 M",
+          "06-02 B 06-05 M 06-09 B 06-11 K 06-12 M 06-16 B 06-17 S 06-19 M 06-23 B 06-25 PL 06-26 M 06-30 B",
+          "07-03 M 07-07 B 07-09 K 07-10 M 07-14 B 07-15 S 07-17 M 07-21 B 07-23 PL 07-24 M 07-28 B 07-31 M",
+          "08-04 B 08-06 K 08-07 M 08-11 B 08-12 S 08-14 M 08-18 B 08-20 PL 08-21 M 08-25 B 08-28 M",
+          "09-01 B 09-03 K 09-04 M 09-08 B 09-09 S 09-11 M 09-15 B 09-17 PL 09-18 M 09-22 B 09-25 M 09-29 B",
+          "10-01 K 10-02 M 10-06 B 10-07 S 10-09 M 10-13 B 10-15 PL 10-16 M 10-20 B 10-23 M 10-27 B 10-29 K 10-30 M",
+          "11-03 B 11-04 S 11-06 M 11-10 B 11-12 PL 11-13 M 11-17 B 11-20 M 11-24 B 11-26 K 11-27 M",
+          "12-01 B 12-02 S 12-04 M 12-08 B 12-10 PL 12-11 M 12-15 B 12-18 M 12-22 B 12-25 M 12-28 B! 12-30 K"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Koška",
+      "podrucje": "Zona VI: Koška, Niza, Breznica Našička",
+      "ulice": ["Koška", "Niza", "Breznica Našička"],
+      "napomena": "Urbanizam d.o.o. Valpovo za Općinu Koška od 08.10.2026. (raspored objavljen u listopadu 2026.); prije toga Eko-Flor Plus / Mull-Trans. Odvoz izvan uobičajenog dana prema rasporedu: 29.12.",
+      "raw": {
+        "2026": [
+          "10-08 M 10-15 K 10-22 M 10-29 P",
+          "11-05 M 11-12 K 11-19 M 11-26 P",
+          "12-03 M 12-10 K 12-17 M 12-29 M! 12-31 P"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Koška",
+      "podrucje": "Zona VII: Ordanja, Andrijevac, Branimirovac, Lug Subotički, Normanci, Topoline, Ledenik",
+      "ulice": ["Ordanja", "Andrijevac", "Branimirovac", "Lug Subotički", "Normanci", "Topoline", "Ledenik"],
+      "napomena": "Urbanizam d.o.o. Valpovo za Općinu Koška od 09.10.2026. (raspored objavljen u listopadu 2026.); prije toga Eko-Flor Plus / Mull-Trans. Odvoz izvan uobičajenog dana prema rasporedu: 28.12., 30.12.",
+      "raw": {
+        "2026": [
+          "10-09 M 10-16 K 10-23 M 10-30 P",
+          "11-06 M 11-13 K 11-20 M 11-27 P",
+          "12-04 M 12-11 K 12-18 M 12-28 P! 12-30 M!"
+        ]
+      }
+    }
+  }
+}

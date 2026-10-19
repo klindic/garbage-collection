@@ -1,0 +1,32 @@
+{
+  "davatelj": "Lopar Vrutak d.o.o.",
+  "web": "https://www.lopar-vrutak.hr",
+  "zupanija": "Primorsko-goranska",
+  "jls": ["Lopar"],
+  "nazivi": {"K": "Papir i karton"},
+  "napomene": ["Miješani komunalni otpad zimi se odvozi ponedjeljkom, u svibnju, rujnu i listopadu češće, a od lipnja do kolovoza svaki dan; biootpad, plastika, papir i staklo prema kalendaru odvojeno prikupljenog otpada.", "Krupni (glomazni) otpad odvozi se na zahtjev (obrazac na stranici davatelja).", "Blagdanski pomaci ugrađeni su u kalendare."],
+  "izvor": "https://www.lopar-vrutak.hr/odvoz-otpada/",
+  "zone": {
+    "1": {
+      "jls": "Lopar",
+      "podrucje": "Općina Lopar",
+      "ulice": ["Lopar"],
+      "raw": {
+        "2026": [
+          "01-05 MB 01-07 PK 01-12 MB 01-14 PS 01-19 MB 01-21 PK 01-26 MB 01-28 P",
+          "02-02 MB 02-04 PK 02-09 MB 02-11 PS 02-16 MB 02-18 PK 02-23 MB 02-25 P",
+          "03-02 MB 03-04 PK 03-09 MB 03-11 PS 03-16 MB 03-18 PK 03-23 MB 03-25 P 03-30 MB",
+          "04-01 PK 04-07 MB! 04-08 PS 04-13 MB 04-15 PK 04-20 MB 04-22 P 04-27 MB 04-29 PK 04-30 M",
+          "05-04 MB 05-06 PK 05-07 M 05-11 MB 05-13 PS 05-14 M 05-16 M 05-18 MP 05-19 MB 05-20 MS 05-21 MP 05-22 MK 05-23 M 05-24 M 05-25 MP 05-26 MB 05-27 MS 05-28 MP 05-29 MK 05-30 M 05-31 M",
+          "06-01 MP 06-02 MB 06-03 MS 06-04 MP 06-05 MK 06-06 M 06-07 M 06-08 MP 06-09 MB 06-10 MS 06-11 MP 06-12 MK 06-13 M 06-14 M 06-15 MP 06-16 MB 06-17 MS 06-18 MP 06-19 MK 06-20 M 06-21 M 06-22 MP 06-23 MB 06-24 MS 06-25 MP 06-26 MK 06-27 M 06-28 M 06-29 MP 06-30 MB",
+          "07-01 MS 07-02 MP 07-03 MK 07-04 M 07-05 M 07-06 MP 07-07 MB 07-08 MS 07-09 MP 07-10 MK 07-11 M 07-12 M 07-13 MP 07-14 MB 07-15 MS 07-16 MP 07-17 MK 07-18 M 07-19 M 07-20 MP 07-21 MB 07-22 MS 07-23 MP 07-24 MK 07-25 M 07-26 M 07-27 MP 07-28 MB 07-29 MS 07-30 MP 07-31 MK",
+          "08-01 M 08-02 M 08-03 MP 08-04 MB 08-05 MS 08-06 MP 08-07 MK 08-08 M 08-09 M 08-10 MP 08-11 MB 08-12 MS 08-13 MP 08-14 MK 08-15 M 08-16 M 08-17 MP 08-18 MB 08-19 MS 08-20 MP 08-21 MK 08-22 M 08-23 M 08-24 MP 08-25 MB 08-26 MS 08-27 MP 08-28 MK 08-29 M 08-30 M 08-31 MP",
+          "09-01 MB 09-02 MS 09-03 MP 09-04 MK 09-05 M 09-06 M 09-07 MP 09-08 MB 09-09 MS 09-10 MP 09-11 MK 09-12 M 09-13 M 09-14 MP 09-15 B 09-16 S 09-17 MP 09-18 K 09-19 M 09-21 MP 09-22 B 09-23 S 09-24 MP 09-25 K 09-26 M 09-28 MP 09-29 B 09-30 S",
+          "10-01 M 10-05 MB 10-07 PK 10-08 M 10-12 MB 10-14 PS 10-15 M 10-19 MB 10-21 PK 10-26 MB 10-28 P",
+          "11-02 MB 11-04 PK 11-09 MB 11-11 PS 11-16 MB 11-19 PK! 11-23 MB 11-25 P 11-30 MB",
+          "12-02 PK 12-07 MB 12-09 PS 12-14 MB 12-16 PK 12-21 MB 12-23 P 12-28 MB 12-30 PK"
+        ]
+      }
+    }
+  }
+}

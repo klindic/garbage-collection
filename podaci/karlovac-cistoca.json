@@ -1,0 +1,1055 @@
+{
+  "davatelj": "Čistoća d.o.o. Karlovac",
+  "web": "https://cistocaka.hr",
+  "zupanija": "Karlovačka",
+  "jls": ["Karlovac"],
+  "napomene": ["Datumi označeni kao pomaknuti su dani odvoza zbog blagdana ili praznika.", "U gradskim četvrtima sa zgradama zgrade (kolektivno stanovanje) imaju dodatne odvoze; obiteljske kuće imaju samo zajedničke odvoze (zona \"kuće\").", "Mobilno reciklažno dvorište obilazi mjesne odbore prema rasporedu u napomeni zone.", "Općina Draganić (također Čistoća d.o.o.) objavljuje raspored samo kao slike i nije uključena."],
+  "izvor": "https://cistocaka.hr/raspored-odvoza-u-primjeni-od-svibnja/",
+  "zone": {
+    "1": {
+      "jls": "Karlovac",
+      "ulice": ["Ante Kovačića", "Ante Starčevića", "Banija", "Andrije Kačića", "Obala Franje Račkog", "Obala Ivana Trnskog", "Vatroslava Jagića", "Jana Masaryka", "Stanka Vraza", "Trg Petra Svačića", "Mirka Bogovića", "Matka Laginje", "Vilima Reinera", "Antuna Mihanovića", "Selce", "Ilovac", "Zagrebačka", "Zagrebačka – I odvojak", "Gaje Petrovića", "Prilaz Većeslava Holjevca 12"],
+      "podrucje": "Gradska četvrt Banija (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-05 BP 01-07 M! 01-12 B 01-13 M 01-19 B 01-20 M 01-26 BK 01-27 M",
+          "02-02 BP 02-03 M 02-09 B 02-10 M 02-16 B 02-17 M 02-23 BK 02-24 M",
+          "03-02 BP 03-03 M 03-09 B 03-10 M 03-16 B 03-17 M 03-23 BK 03-24 M 03-30 BP 03-31 M",
+          "04-07 B! 04-08 M! 04-13 B 04-14 M 04-20 BK 04-21 M 04-27 BP 04-28 M",
+          "05-04 B 05-05 M 05-11 B 05-12 M 05-18 BK 05-19 M 05-25 BP 05-26 M",
+          "06-01 B 06-02 M 06-08 B 06-09 M 06-15 BK 06-16 M 06-23 BP! 06-24 M! 06-29 B 06-30 M",
+          "07-06 B 07-07 M 07-13 BK 07-14 M 07-20 BP 07-21 M 07-27 B 07-28 M",
+          "08-03 B 08-04 M 08-10 BK 08-11 M 08-17 BP 08-18 M 08-24 B 08-25 M 08-31 B",
+          "09-01 M 09-07 BK 09-08 M 09-14 BP 09-15 M 09-21 B 09-22 M 09-28 B 09-29 M",
+          "10-05 BK 10-06 M 10-12 BP 10-13 M 10-19 B 10-20 M 10-26 B 10-27 M",
+          "11-02 BK 11-03 M 11-09 BP 11-10 M 11-16 B 11-17 M 11-23 B 11-24 M 11-30 BK",
+          "12-01 M 12-07 BP 12-08 M 12-14 B 12-15 M 12-21 B 12-22 M 12-28 BK 12-29 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Karlovac",
+      "ulice": ["Ante Kovačića", "Ante Starčevića", "Banija", "Andrije Kačića", "Obala Franje Račkog", "Obala Ivana Trnskog", "Vatroslava Jagića", "Jana Masaryka", "Stanka Vraza", "Trg Petra Svačića", "Mirka Bogovića", "Matka Laginje", "Vilima Reinera", "Antuna Mihanovića", "Selce", "Ilovac", "Zagrebačka", "Zagrebačka – I odvojak", "Gaje Petrovića", "Prilaz Većeslava Holjevca 12"],
+      "podrucje": "Gradska četvrt Banija (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-05 BP 01-07 M! 01-10 M! 01-12 BK 01-13 M 01-16 M 01-19 BP 01-20 M 01-23 M 01-26 BK 01-27 M 01-30 M",
+          "02-02 BP 02-03 M 02-06 M 02-09 BK 02-10 M 02-13 M 02-16 BP 02-17 M 02-20 M 02-23 BK 02-24 M 02-27 M",
+          "03-02 BP 03-03 M 03-06 M 03-09 BK 03-10 M 03-13 M 03-16 BP 03-17 M 03-20 M 03-23 BK 03-24 M 03-27 M 03-30 BP 03-31 M",
+          "04-03 M 04-07 BK! 04-08 M! 04-11 M! 04-13 BP 04-14 M 04-17 M 04-20 BK 04-21 M 04-24 M 04-27 BP 04-28 M",
+          "05-02 M! 05-04 BK 05-05 M 05-08 M 05-11 BP 05-12 M 05-15 M 05-18 BK 05-19 M 05-22 M 05-25 BP 05-26 M 05-29 M",
+          "06-01 BK 06-02 M 06-06 M! 06-08 BP 06-09 M 06-12 M 06-15 BK 06-16 M 06-19 M 06-23 BP! 06-24 M! 06-27 M! 06-29 BK 06-30 M",
+          "07-03 M 07-06 BP 07-07 M 07-10 M 07-13 BK 07-14 M 07-17 M 07-20 BP 07-21 M 07-24 M 07-27 BK 07-28 M 07-31 M",
+          "08-03 BP 08-04 M 08-08 M! 08-10 BK 08-11 M 08-14 M 08-17 BP 08-18 M 08-21 M 08-24 BK 08-25 M 08-28 M 08-31 BP",
+          "09-01 M 09-04 M 09-07 BK 09-08 M 09-11 M 09-14 BP 09-15 M 09-18 M 09-21 BK 09-22 M 09-25 M 09-28 BP 09-29 M",
+          "10-02 M 10-05 BK 10-06 M 10-09 M 10-12 BP 10-13 M 10-16 M 10-19 BK 10-20 M 10-23 M 10-26 BP 10-27 M 10-30 M",
+          "11-02 BK 11-03 M 11-06 M 11-09 BP 11-10 M 11-13 M 11-16 BK 11-17 M 11-21 M! 11-23 BP 11-24 M 11-27 M 11-30 BK",
+          "12-01 M 12-04 M 12-07 BP 12-08 M 12-11 M 12-14 BK 12-15 M 12-18 M 12-21 BP 12-22 M 12-26 M! 12-28 BK 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Karlovac",
+      "ulice": ["Drežnik", "Bakarska", "Dubrovačka", "Hvarska", "Mostarska", "Splitska", "Sušačka", "Trogirska", "Varaždinska", "Željeznička", "Bokeljska", "Hrnetić", "Novaki", "Novi Novaki", "Kaštel"],
+      "podrucje": "Gradska četvrt Drežnik - Hrnetić (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-07 PK! 01-10 M! 01-16 M 01-23 M 01-30 M",
+          "02-03 PK 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-03 PK 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-08 PK! 04-11 M! 04-17 M 04-24 M",
+          "05-02 M! 05-05 PK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-02 PK 06-06 M! 06-12 M 06-19 M 06-27 M!",
+          "07-03 M 07-07 PK 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-04 PK 08-08 M! 08-14 M 08-21 M 08-28 M",
+          "09-01 PK 09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-06 PK 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-03 PK 11-06 M 11-13 M 11-21 M! 11-27 M",
+          "12-01 PK 12-04 M 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "4": {
+      "jls": "Karlovac",
+      "ulice": ["Drežnik", "Bakarska", "Dubrovačka", "Hvarska", "Mostarska", "Splitska", "Sušačka", "Trogirska", "Varaždinska", "Željeznička", "Bokeljska", "Hrnetić", "Novaki", "Novi Novaki", "Kaštel"],
+      "podrucje": "Gradska četvrt Drežnik - Hrnetić (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 B! 01-03 M! 01-07 PK! 01-09 B! 01-10 M! 01-15 B 01-16 M 01-22 B 01-23 M 01-29 B 01-30 M",
+          "02-03 PK 02-05 B 02-06 M 02-12 B 02-13 M 02-19 B 02-20 M 02-26 B 02-27 M",
+          "03-03 PK 03-05 B 03-06 M 03-12 B 03-13 M 03-19 B 03-20 M 03-26 B 03-27 M",
+          "04-02 B 04-03 M 04-08 PK! 04-10 B! 04-11 M! 04-16 B 04-17 M 04-23 B 04-24 M 04-30 B",
+          "05-02 M! 05-05 PK 05-07 B 05-08 M 05-14 B 05-15 M 05-21 B 05-22 M 05-28 B 05-29 M",
+          "06-02 PK 06-05 B! 06-06 M! 06-11 B 06-12 M 06-18 B 06-19 M 06-26 B! 06-27 M!",
+          "07-02 B 07-03 M 07-07 PK 07-09 B 07-10 M 07-16 B 07-17 M 07-23 B 07-24 M 07-30 B 07-31 M",
+          "08-04 PK 08-07 B! 08-08 M! 08-13 B 08-14 M 08-20 B 08-21 M 08-27 B 08-28 M",
+          "09-01 PK 09-03 B 09-04 M 09-10 B 09-11 M 09-17 B 09-18 M 09-24 B 09-25 M",
+          "10-01 B 10-02 M 10-06 PK 10-08 B 10-09 M 10-15 B 10-16 M 10-22 B 10-23 M 10-29 B 10-30 M",
+          "11-03 PK 11-05 B 11-06 M 11-12 B 11-13 M 11-20 B! 11-21 M! 11-26 B 11-27 M",
+          "12-01 PK 12-03 B 12-04 M 12-10 B 12-11 M 12-17 B 12-18 M 12-24 B 12-26 M! 12-31 B"
+        ]
+      }
+    },
+    "5": {
+      "jls": "Karlovac",
+      "ulice": ["Dubovac", "Kupska", "Matija Jure Šporera", "Antuna Nemčića", "Pivovarska", "Put Zlatka Satlera", "Eugena Kumičića", "Marmontova aleja", "Žorovica", "Ruđera Boškovića", "Frana Bulića", "Eugena Kvaternika", "Frana Supila", "Strmac", "Strmački dol", "Herte Turze", "Silvija Strahimira Kranjčevića", "Bolnička", "Vladka Mačeka 27 do kraja – neparni i 48 – parni", "Obala Vladimira Mažuranića 34 do kraja – svi", "Alfreda Krupe", "Matije Gupca", "Petra Kružića", "Primorska", "Janka Tomića", "Zagrad 1 do 23D - neparni i 2 do 6 - parni", "Zagrad Gaj 1 do 5 - neparni", "Luščić od 66 do kraja-parni"],
+      "podrucje": "Gradska četvrt Dubovac (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-05 B 01-08 P! 01-09 M! 01-12 B 01-15 M 01-19 B 01-22 M 01-26 B 01-28 K 01-29 M",
+          "02-02 B 02-04 P 02-05 M 02-09 B 02-12 M 02-16 B 02-19 M 02-23 B 02-25 K 02-26 M",
+          "03-02 B 03-04 P 03-05 M 03-09 B 03-12 M 03-16 B 03-19 M 03-23 B 03-25 K 03-26 M 03-30 B",
+          "04-01 P 04-02 M 04-07 B! 04-10 M! 04-13 B 04-16 M 04-20 B 04-22 K 04-23 M 04-27 B 04-29 P 04-30 M",
+          "05-04 B 05-07 M 05-11 B 05-14 M 05-18 B 05-20 K 05-21 M 05-25 B 05-27 P 05-28 M",
+          "06-01 B 06-05 M! 06-08 B 06-11 M 06-15 B 06-17 K 06-18 M 06-23 B! 06-25 P! 06-26 M! 06-29 B",
+          "07-02 M 07-06 B 07-09 M 07-13 B 07-15 K 07-16 M 07-20 B 07-22 P 07-23 M 07-27 B 07-30 M",
+          "08-03 B 08-07 M! 08-10 B 08-12 K 08-13 M 08-17 B 08-19 P 08-20 M 08-24 B 08-27 M 08-31 B",
+          "09-03 M 09-07 B 09-09 K 09-10 M 09-14 B 09-16 P 09-17 M 09-21 B 09-24 M 09-28 B",
+          "10-01 M 10-05 B 10-07 K 10-08 M 10-12 B 10-14 P 10-15 M 10-19 B 10-22 M 10-26 B 10-29 M",
+          "11-02 B 11-04 K 11-05 M 11-09 B 11-11 P 11-12 M 11-16 B 11-20 M! 11-23 B 11-26 M 11-30 B",
+          "12-02 K 12-03 M 12-07 B 12-09 P 12-10 M 12-14 B 12-17 M 12-21 B 12-24 M 12-28 B 12-30 K 12-31 M"
+        ]
+      }
+    },
+    "6": {
+      "jls": "Karlovac",
+      "ulice": ["Dubovac", "Kupska", "Matija Jure Šporera", "Antuna Nemčića", "Pivovarska", "Put Zlatka Satlera", "Eugena Kumičića", "Marmontova aleja", "Žorovica", "Ruđera Boškovića", "Frana Bulića", "Eugena Kvaternika", "Frana Supila", "Strmac", "Strmački dol", "Herte Turze", "Silvija Strahimira Kranjčevića", "Bolnička", "Vladka Mačeka 27 do kraja – neparni i 48 – parni", "Obala Vladimira Mažuranića 34 do kraja – svi", "Alfreda Krupe", "Matije Gupca", "Petra Kružića", "Primorska", "Janka Tomića", "Zagrad 1 do 23D - neparni i 2 do 6 - parni", "Zagrad Gaj 1 do 5 - neparni", "Luščić od 66 do kraja-parni"],
+      "podrucje": "Gradska četvrt Dubovac (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-05 MB 01-08 P! 01-09 M! 01-12 MB 01-14 K 01-15 M 01-19 MB 01-21 P 01-22 M 01-26 MB 01-28 K 01-29 M",
+          "02-02 MB 02-04 P 02-05 M 02-09 MB 02-11 K 02-12 M 02-16 MB 02-18 P 02-19 M 02-23 MB 02-25 K 02-26 M",
+          "03-02 MB 03-04 P 03-05 M 03-09 MB 03-11 K 03-12 M 03-16 MB 03-18 P 03-19 M 03-23 MB 03-25 K 03-26 M 03-30 MB",
+          "04-01 P 04-02 M 04-07 MB! 04-09 K! 04-10 M! 04-13 MB 04-15 P 04-16 M 04-20 MB 04-22 K 04-23 M 04-27 MB 04-29 P 04-30 M",
+          "05-04 MB 05-06 K 05-07 M 05-11 MB 05-13 P 05-14 M 05-18 MB 05-20 K 05-21 M 05-25 MB 05-27 P 05-28 M",
+          "06-01 MB 06-03 K 06-05 M! 06-08 MB 06-10 P 06-11 M 06-15 MB 06-17 K 06-18 M 06-23 MB! 06-25 P! 06-26 M! 06-29 MB",
+          "07-01 K 07-02 M 07-06 MB 07-08 P 07-09 M 07-13 MB 07-15 K 07-16 M 07-20 MB 07-22 P 07-23 M 07-27 MB 07-29 K 07-30 M",
+          "08-03 MB 08-06 P! 08-07 M! 08-10 MB 08-12 K 08-13 M 08-17 MB 08-19 P 08-20 M 08-24 MB 08-26 K 08-27 M 08-31 MB",
+          "09-02 P 09-03 M 09-07 MB 09-09 K 09-10 M 09-14 MB 09-16 P 09-17 M 09-21 MB 09-23 K 09-24 M 09-28 MB 09-30 P",
+          "10-01 M 10-05 MB 10-07 K 10-08 M 10-12 MB 10-14 P 10-15 M 10-19 MB 10-21 K 10-22 M 10-26 MB 10-28 P 10-29 M",
+          "11-02 MB 11-04 K 11-05 M 11-09 MB 11-11 P 11-12 M 11-16 MB 11-19 K! 11-20 M! 11-23 MB 11-25 P 11-26 M 11-30 MB",
+          "12-02 K 12-03 M 12-07 MB 12-09 P 12-10 M 12-14 MB 12-16 K 12-17 M 12-21 MB 12-23 P 12-24 M 12-28 MB 12-30 K 12-31 M"
+        ]
+      }
+    },
+    "7": {
+      "jls": "Karlovac",
+      "ulice": ["J. Draškovića", "Gažanski trg", "Vatrogasna cesta", "Hrvatske bratske zajednice", "P. Filipca", "R. Strohala", "S. Mihalića", "Gornja Gaza", "Struga", "Naselje Gaza", "I. Tkalca", "Skladišna", "Donja Gaza", "D. Jarnjević", "Put Davorina Trstenjaka", "Gajeva", "Kneza Domagoja"],
+      "podrucje": "Gradska četvrt Gaza",
+      "raw": {
+        "2026": [
+          "01-05 B 01-07 M! 01-12 B 01-13 M 01-16 P 01-19 B 01-20 M 01-23 K 01-26 B 01-27 M",
+          "02-02 B 02-03 M 02-09 B 02-10 M 02-16 B 02-17 M 02-20 P 02-23 B 02-24 M 02-27 K",
+          "03-02 B 03-03 M 03-09 B 03-10 M 03-16 B 03-17 M 03-20 P 03-23 B 03-24 M 03-27 K 03-30 B 03-31 M",
+          "04-07 B! 04-08 M! 04-13 B 04-14 M 04-17 P 04-20 B 04-21 M 04-24 K 04-27 B 04-28 M",
+          "05-04 B 05-05 M 05-11 B 05-12 M 05-15 P 05-18 B 05-19 M 05-22 K 05-25 B 05-26 M",
+          "06-01 B 06-02 M 06-08 B 06-09 M 06-15 B 06-16 M 06-19 P 06-23 B! 06-24 M! 06-27 K! 06-29 B 06-30 M",
+          "07-06 B 07-07 M 07-13 B 07-14 M 07-17 P 07-20 B 07-21 M 07-24 K 07-27 B 07-28 M",
+          "08-03 B 08-04 M 08-10 B 08-11 M 08-17 B 08-18 M 08-21 P 08-24 B 08-25 M 08-28 K 08-31 B",
+          "09-01 M 09-07 B 09-08 M 09-14 B 09-15 M 09-18 P 09-21 B 09-22 M 09-25 K 09-28 B 09-29 M",
+          "10-05 B 10-06 M 10-12 B 10-13 M 10-16 P 10-19 B 10-20 M 10-23 K 10-26 B 10-27 M",
+          "11-02 B 11-03 M 11-09 B 11-10 M 11-16 B 11-17 M 11-21 P! 11-23 B 11-24 M 11-27 K 11-30 B",
+          "12-01 M 12-07 B 12-08 M 12-14 B 12-15 M 12-18 P 12-21 B 12-22 M 12-26 K! 12-28 B 12-29 M"
+        ]
+      }
+    },
+    "8": {
+      "jls": "Karlovac",
+      "ulice": ["Bartola Kašića", "Tadije Smičiklasa 21 do 25 - neparni", "Senjska 1 do 63 - neparni", "Kneza Branimira", "Maksimilijana Vrhovca", "Kralja Petra Krešimira IV", "Kralja Zvonimira", "Kneza Trpimira", "Rudolfa Taclika"],
+      "podrucje": "Gradska četvrt Grabrik (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-05 M 01-07 B! 01-08 K! 01-12 M 01-13 B 01-19 M 01-20 B 01-26 M 01-27 B 01-28 P",
+          "02-02 M 02-03 B 02-04 K 02-09 M 02-10 B 02-16 M 02-17 B 02-23 M 02-24 B 02-25 P",
+          "03-02 M 03-03 B 03-04 K 03-09 M 03-10 B 03-16 M 03-17 B 03-23 M 03-24 B 03-25 P 03-30 M 03-31 B",
+          "04-01 K 04-07 M! 04-08 B! 04-13 M 04-14 B 04-20 M 04-21 B 04-22 P 04-27 M 04-28 B 04-29 K",
+          "05-04 M 05-05 B 05-11 M 05-12 B 05-18 M 05-19 B 05-20 P 05-25 M 05-26 B 05-27 K",
+          "06-01 M 06-02 B 06-08 M 06-09 B 06-15 M 06-16 B 06-17 P 06-23 M! 06-24 B! 06-25 K! 06-29 M 06-30 B",
+          "07-06 M 07-07 B 07-13 M 07-14 B 07-15 P 07-20 M 07-21 B 07-22 K 07-27 M 07-28 B",
+          "08-03 M 08-04 B 08-10 M 08-11 B 08-12 P 08-17 M 08-18 B 08-19 K 08-24 M 08-25 B 08-31 M",
+          "09-01 B 09-07 M 09-08 B 09-09 P 09-14 M 09-15 B 09-16 K 09-21 M 09-22 B 09-28 M 09-29 B",
+          "10-05 M 10-06 B 10-07 P 10-12 M 10-13 B 10-14 K 10-19 M 10-20 B 10-26 M 10-27 B",
+          "11-02 M 11-03 B 11-04 P 11-09 M 11-10 B 11-11 K 11-16 M 11-17 B 11-23 M 11-24 B 11-30 M",
+          "12-01 B 12-02 P 12-07 M 12-08 B 12-09 K 12-14 M 12-15 B 12-21 M 12-22 B 12-28 M 12-29 B 12-30 P"
+        ]
+      }
+    },
+    "9": {
+      "jls": "Karlovac",
+      "ulice": ["Bartola Kašića", "Tadije Smičiklasa 21 do 25 - neparni", "Senjska 1 do 63 - neparni", "Kneza Branimira", "Maksimilijana Vrhovca", "Kralja Petra Krešimira IV", "Kralja Zvonimira", "Kneza Trpimira", "Rudolfa Taclika"],
+      "podrucje": "Gradska četvrt Grabrik (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-05 M 01-07 B! 01-08 K! 01-09 M! 01-12 M 01-13 B 01-14 P 01-15 M 01-19 M 01-20 B 01-21 K 01-22 M 01-26 M 01-27 B 01-28 P 01-29 M",
+          "02-02 M 02-03 B 02-04 K 02-05 M 02-09 M 02-10 B 02-11 P 02-12 M 02-16 M 02-17 B 02-18 K 02-19 M 02-23 M 02-24 B 02-25 P 02-26 M",
+          "03-02 M 03-03 B 03-04 K 03-05 M 03-09 M 03-10 B 03-11 P 03-12 M 03-16 M 03-17 B 03-18 K 03-19 M 03-23 M 03-24 B 03-25 P 03-26 M 03-30 M 03-31 B",
+          "04-01 K 04-02 M 04-07 M! 04-08 B! 04-09 P! 04-10 M! 04-13 M 04-14 B 04-15 K 04-16 M 04-20 M 04-21 B 04-22 P 04-23 M 04-27 M 04-28 B 04-29 K 04-30 M",
+          "05-04 M 05-05 B 05-06 P 05-07 M 05-11 M 05-12 B 05-13 K 05-14 M 05-18 M 05-19 B 05-20 P 05-21 M 05-25 M 05-26 B 05-27 K 05-28 M",
+          "06-01 M 06-02 B 06-03 P 06-05 M! 06-08 M 06-09 B 06-10 K 06-11 M 06-15 M 06-16 B 06-17 P 06-18 M 06-23 M! 06-24 B! 06-25 K! 06-26 M! 06-29 M 06-30 B",
+          "07-01 P 07-02 M 07-06 M 07-07 B 07-08 K 07-09 M 07-13 M 07-14 B 07-15 P 07-16 M 07-20 M 07-21 B 07-22 K 07-23 M 07-27 M 07-28 B 07-29 P 07-30 M",
+          "08-03 M 08-04 B 08-06 K! 08-07 M! 08-10 M 08-11 B 08-12 P 08-13 M 08-17 M 08-18 B 08-19 K 08-20 M 08-24 M 08-25 B 08-26 P 08-27 M 08-31 M",
+          "09-01 B 09-02 K 09-03 M 09-07 M 09-08 B 09-09 P 09-10 M 09-14 M 09-15 B 09-16 K 09-17 M 09-21 M 09-22 B 09-23 P 09-24 M 09-28 M 09-29 B 09-30 K",
+          "10-01 M 10-05 M 10-06 B 10-07 P 10-08 M 10-12 M 10-13 B 10-14 K 10-15 M 10-19 M 10-20 B 10-21 P 10-22 M 10-26 M 10-27 B 10-28 K 10-29 M",
+          "11-02 M 11-03 B 11-04 P 11-05 M 11-09 M 11-10 B 11-11 K 11-12 M 11-16 M 11-17 B 11-19 P! 11-20 M! 11-23 M 11-24 B 11-25 K 11-26 M 11-30 M",
+          "12-01 B 12-02 P 12-03 M 12-07 M 12-08 B 12-09 K 12-10 M 12-14 M 12-15 B 12-16 P 12-17 M 12-21 M 12-22 B 12-23 K 12-24 M 12-28 M 12-29 B 12-30 P 12-31 M"
+        ]
+      }
+    },
+    "10": {
+      "jls": "Karlovac",
+      "ulice": ["Donja Švarča 81 do kraja – neparni i 112 do kraja - parni", "Dragutina Domjanića", "Antuna Gustava Matoša", "Senjska 70 do 110D - parni", "Skopska", "Bogoslava Šuleka", "Dr. Milana Nemičića", "Andrije Hebranga", "Celestina Medovića", "Bledska", "Bohinjska", "Dorjanska", "Jamadolska", "Luščić 1 do 47 - neparni", "Ohridska", "Plitvička", "Skadarska"],
+      "podrucje": "Gradska četvrt Luščić - Jamadol (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-02 K! 01-05 M 01-08 B! 01-09 P! 01-12 M 01-14 B 01-19 M 01-21 B 01-26 M 01-28 B 01-29 K",
+          "02-02 M 02-04 B 02-05 P 02-09 M 02-11 B 02-16 M 02-18 B 02-23 M 02-25 B 02-26 K",
+          "03-02 M 03-04 B 03-05 P 03-09 M 03-11 B 03-16 M 03-18 B 03-23 M 03-25 B 03-26 K 03-30 M",
+          "04-01 B 04-02 P 04-07 M! 04-09 B! 04-13 M 04-15 B 04-20 M 04-22 B 04-23 K 04-27 M 04-29 B 04-30 P",
+          "05-04 M 05-06 B 05-11 M 05-13 B 05-18 M 05-20 B 05-21 K 05-25 M 05-27 B 05-28 P",
+          "06-01 M 06-03 B 06-08 M 06-10 B 06-15 M 06-17 B 06-18 K 06-23 M! 06-25 B! 06-26 P! 06-29 M",
+          "07-01 B 07-06 M 07-08 B 07-13 M 07-15 B 07-16 K 07-20 M 07-22 B 07-23 P 07-27 M 07-29 B",
+          "08-03 M 08-06 B! 08-10 M 08-12 B 08-13 K 08-17 M 08-19 B 08-20 P 08-24 M 08-26 B 08-31 M",
+          "09-02 B 09-07 M 09-09 B 09-10 K 09-14 M 09-16 B 09-17 P 09-21 M 09-23 B 09-28 M 09-30 B",
+          "10-05 M 10-07 B 10-08 K 10-12 M 10-14 B 10-15 P 10-19 M 10-21 B 10-26 M 10-28 B",
+          "11-02 M 11-04 B 11-05 K 11-09 M 11-11 B 11-12 P 11-16 M 11-19 B! 11-23 M 11-25 B 11-30 M",
+          "12-02 B 12-03 K 12-07 M 12-09 B 12-10 P 12-14 M 12-16 B 12-21 M 12-23 B 12-28 M 12-30 B 12-31 K"
+        ]
+      }
+    },
+    "11": {
+      "jls": "Karlovac",
+      "ulice": ["Donja Švarča 81 do kraja – neparni i 112 do kraja - parni", "Dragutina Domjanića", "Antuna Gustava Matoša", "Senjska 70 do 110D - parni", "Skopska", "Bogoslava Šuleka", "Dr. Milana Nemičića", "Andrije Hebranga", "Celestina Medovića", "Bledska", "Bohinjska", "Dorjanska", "Jamadolska", "Luščić 1 do 47 - neparni", "Ohridska", "Plitvička", "Skadarska"],
+      "podrucje": "Gradska četvrt Luščić - Jamadol (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 MK! 01-05 M 01-08 B! 01-09 MP! 01-12 M 01-14 B 01-15 MK 01-19 M 01-21 B 01-22 MP 01-26 M 01-28 B 01-29 MK",
+          "02-02 M 02-04 B 02-05 MP 02-09 M 02-11 B 02-12 MK 02-16 M 02-18 B 02-19 MP 02-23 M 02-25 B 02-26 MK",
+          "03-02 M 03-04 B 03-05 MP 03-09 M 03-11 B 03-12 MK 03-16 M 03-18 B 03-19 MP 03-23 M 03-25 B 03-26 MK 03-30 M",
+          "04-01 B 04-02 MP 04-07 M! 04-09 B! 04-10 MK! 04-13 M 04-15 B 04-16 MP 04-20 M 04-22 B 04-23 MK 04-27 M 04-29 B 04-30 MP",
+          "05-04 M 05-06 B 05-07 MK 05-11 M 05-13 B 05-14 MP 05-18 M 05-20 B 05-21 MK 05-25 M 05-27 B 05-28 MP",
+          "06-01 M 06-03 B 06-05 MK! 06-08 M 06-10 B 06-11 MP 06-15 M 06-17 B 06-18 MK 06-23 M! 06-25 B! 06-26 MP! 06-29 M",
+          "07-01 B 07-02 MK 07-06 M 07-08 B 07-09 MP 07-13 M 07-15 B 07-16 MK 07-20 M 07-22 B 07-23 MP 07-27 M 07-29 B 07-30 MK",
+          "08-03 M 08-06 B! 08-07 MP! 08-10 M 08-12 B 08-13 MK 08-17 M 08-19 B 08-20 MP 08-24 M 08-26 B 08-27 MK 08-31 M",
+          "09-02 B 09-03 MP 09-07 M 09-09 B 09-10 MK 09-14 M 09-16 B 09-17 MP 09-21 M 09-23 B 09-24 MK 09-28 M 09-30 B",
+          "10-01 MP 10-05 M 10-07 B 10-08 MK 10-12 M 10-14 B 10-15 MP 10-19 M 10-21 B 10-22 MK 10-26 M 10-28 B 10-29 MP",
+          "11-02 M 11-04 B 11-05 MK 11-09 M 11-11 B 11-12 MP 11-16 M 11-19 B! 11-20 MK! 11-23 M 11-25 B 11-26 MP 11-30 M",
+          "12-02 B 12-03 MK 12-07 M 12-09 B 12-10 MP 12-14 M 12-16 B 12-17 MK 12-21 M 12-23 B 12-24 MP 12-28 M 12-30 B 12-31 MK"
+        ]
+      }
+    },
+    "12": {
+      "jls": "Karlovac",
+      "ulice": ["Gorička", "Kalnička", "Lošinjska", "Triglavska", "Velebitska", "Vranska", "Mostanje", "Mostanjski odvojak", "Mrežnički zatok", "Dalmatinski prolaz", "Galović Brdo", "Marka Mušnjaka", "Udbinja", "Vatroslava Župančića", "Bašćinska cesta 22 do kraja - parni i 47 do kraja – neparni"],
+      "podrucje": "Gradska četvrt Mostanje",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-23 PK 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-23 M 02-27 PK",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-27 PK 03-30 M",
+          "04-07 M! 04-13 M 04-20 M 04-24 PK 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-22 PK 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-23 M! 06-27 PK! 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-24 PK 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-28 PK 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-25 PK 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-23 PK 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-27 PK 11-30 M",
+          "12-07 M 12-14 M 12-21 M 12-26 PK! 12-28 M"
+        ]
+      }
+    },
+    "13": {
+      "jls": "Karlovac",
+      "ulice": ["Marina Držića", "Nikole Tesle", "Sarajevska", "Ljudevita Šestica", "Tina Ujevića", "Miroslava Krleže", "Ivana Meštrovića", "Tadije Smičiklasa 16 i 18 - parni", "Senjska 2 do 66 - parni", "Vladka Mačeka 15 – neparni i 26 do 44 - parni", "Trg hrvatskih branitelja", "Trg hrvatskih redarstvenika", "Obala Vladimira Mažuranića 17 do 33 - svi", "Naselje Marka Marulića", "Luščić 6 do 56 - parni", "Šetalište grada Vukovara"],
+      "podrucje": "Gradska četvrt Novi Centar (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-07 MK! 01-08 B! 01-13 M 01-14 B 01-20 M 01-21 B 01-27 MP 01-28 B",
+          "02-03 MK 02-04 B 02-10 M 02-11 B 02-17 M 02-18 B 02-24 MP 02-25 B",
+          "03-03 MK 03-04 B 03-10 M 03-11 B 03-17 M 03-18 B 03-24 MP 03-25 B 03-31 MK",
+          "04-01 B 04-08 M! 04-09 B! 04-14 M 04-15 B 04-21 MP 04-22 B 04-28 MK 04-29 B",
+          "05-05 M 05-06 B 05-12 M 05-13 B 05-19 MP 05-20 B 05-26 MK 05-27 B",
+          "06-02 M 06-03 B 06-09 M 06-10 B 06-16 MP 06-17 B 06-24 MK! 06-25 B! 06-30 M",
+          "07-01 B 07-07 M 07-08 B 07-14 MP 07-15 B 07-21 MK 07-22 B 07-28 M 07-29 B",
+          "08-04 M 08-06 B! 08-11 MP 08-12 B 08-18 MK 08-19 B 08-25 M 08-26 B",
+          "09-01 M 09-02 B 09-08 MP 09-09 B 09-15 MK 09-16 B 09-22 M 09-23 B 09-29 M 09-30 B",
+          "10-06 MP 10-07 B 10-13 MK 10-14 B 10-20 M 10-21 B 10-27 M 10-28 B",
+          "11-03 MP 11-04 B 11-10 MK 11-11 B 11-17 M 11-19 B! 11-24 M 11-25 B",
+          "12-01 MP 12-02 B 12-08 K 12-09 MB 12-15 M 12-16 B 12-22 M 12-23 B 12-29 MP 12-30 B"
+        ]
+      }
+    },
+    "14": {
+      "jls": "Karlovac",
+      "ulice": ["Marina Držića", "Nikole Tesle", "Sarajevska", "Ljudevita Šestica", "Tina Ujevića", "Miroslava Krleže", "Ivana Meštrovića", "Tadije Smičiklasa 16 i 18 - parni", "Senjska 2 do 66 - parni", "Vladka Mačeka 15 – neparni i 26 do 44 - parni", "Trg hrvatskih branitelja", "Trg hrvatskih redarstvenika", "Obala Vladimira Mažuranića 17 do 33 - svi", "Naselje Marka Marulića", "Luščić 6 do 56 - parni", "Šetalište grada Vukovara"],
+      "podrucje": "Gradska četvrt Novi Centar (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-07 MK! 01-08 B! 01-10 M! 01-13 MP 01-14 B 01-16 M 01-20 MK 01-21 B 01-23 M 01-27 MP 01-28 B 01-30 M",
+          "02-03 MK 02-04 B 02-06 M 02-10 MP 02-11 B 02-13 M 02-17 MK 02-18 B 02-20 M 02-24 MP 02-25 B 02-27 M",
+          "03-03 MK 03-04 B 03-06 M 03-10 MP 03-11 B 03-13 M 03-17 MK 03-18 B 03-20 M 03-24 MP 03-25 B 03-27 M 03-31 MK",
+          "04-01 B 04-03 M 04-08 MP! 04-09 B! 04-11 M! 04-14 MK 04-15 B 04-17 M 04-21 MP 04-22 B 04-24 M 04-28 MK 04-29 B",
+          "05-02 M! 05-05 MP 05-06 B 05-08 M 05-12 MK 05-13 B 05-15 M 05-19 MP 05-20 B 05-22 M 05-26 MK 05-27 B 05-29 M",
+          "06-02 MP 06-03 B 06-06 M! 06-09 MK 06-10 B 06-12 M 06-16 MP 06-17 B 06-19 M 06-24 MK! 06-25 B! 06-27 M! 06-30 MP",
+          "07-01 B 07-03 M 07-07 MK 07-08 B 07-10 M 07-14 MP 07-15 B 07-17 M 07-21 MK 07-22 B 07-24 M 07-28 MP 07-29 B 07-31 M",
+          "08-04 MK 08-06 B! 08-08 M! 08-11 MP 08-12 B 08-14 M 08-18 MK 08-19 B 08-21 M 08-25 MP 08-26 B 08-28 M",
+          "09-01 MK 09-02 B 09-04 M 09-08 MP 09-09 B 09-11 M 09-15 MK 09-16 B 09-18 M 09-22 MP 09-23 B 09-25 M 09-29 MK 09-30 B",
+          "10-02 M 10-06 MP 10-07 B 10-09 M 10-13 MK 10-14 B 10-16 M 10-20 MP 10-21 B 10-23 M 10-27 MK 10-28 B 10-30 M",
+          "11-03 MP 11-04 B 11-06 M 11-10 MK 11-11 B 11-13 M 11-17 MP 11-19 B! 11-21 M! 11-24 MK 11-25 B 11-27 M",
+          "12-01 MP 12-02 B 12-04 M 12-08 K 12-09 MB 12-11 M 12-15 MP 12-16 B 12-18 M 12-22 MK 12-23 B 12-26 M! 12-29 MP 12-30 B"
+        ]
+      }
+    },
+    "15": {
+      "jls": "Karlovac",
+      "ulice": ["Rakovac", "Izidora Kršnjavog", "Grge Tuškana", "Aleksandra Majdera", "Tadije Smičiklasa 1 do 15 - neparni", "Domobranska 16 do kraja - parni i 21 do kraja - neparni", "Stjepana Radića 38 do kraja - parni", "Šetalište Josipa Marohnića", "Foginovo kupalište", "Koransko šetalište i Trg 110. brigade ZNG – HV"],
+      "podrucje": "Gradska četvrt Rakovac (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-02 P! 01-07 MB! 01-09 K! 01-13 MB 01-20 MB 01-27 MB 01-29 P",
+          "02-03 MB 02-05 K 02-10 MB 02-17 MB 02-24 MB 02-26 P",
+          "03-03 MB 03-05 K 03-10 MB 03-17 MB 03-24 MB 03-26 P 03-31 MB",
+          "04-02 K 04-08 MB! 04-14 MB 04-21 MB 04-23 P 04-28 MB 04-30 K",
+          "05-05 MB 05-12 MB 05-19 MB 05-21 P 05-26 MB 05-28 K",
+          "06-02 MB 06-09 MB 06-16 MB 06-18 P 06-24 MB! 06-26 K! 06-30 MB",
+          "07-07 MB 07-14 MB 07-16 P 07-21 MB 07-23 K 07-28 MB",
+          "08-04 MB 08-11 MB 08-13 P 08-18 MB 08-20 K 08-25 MB",
+          "09-01 MB 09-08 MB 09-10 P 09-15 MB 09-17 K 09-22 MB 09-29 MB",
+          "10-06 MB 10-08 P 10-13 MB 10-15 K 10-20 MB 10-27 MB",
+          "11-03 MB 11-05 P 11-10 MB 11-12 K 11-17 MB 11-24 MB",
+          "12-01 MB 12-03 P 12-08 MB 12-10 K 12-15 MB 12-22 MB 12-29 MB 12-31 P"
+        ]
+      }
+    },
+    "16": {
+      "jls": "Karlovac",
+      "ulice": ["Rakovac", "Izidora Kršnjavog", "Grge Tuškana", "Aleksandra Majdera", "Tadije Smičiklasa 1 do 15 - neparni", "Domobranska 16 do kraja - parni i 21 do kraja - neparni", "Stjepana Radića 38 do kraja - parni", "Šetalište Josipa Marohnića", "Foginovo kupalište", "Koransko šetalište i Trg 110. brigade ZNG – HV"],
+      "podrucje": "Gradska četvrt Rakovac (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 P! 01-03 M! 01-07 MB! 01-09 K! 01-10 M! 01-13 MB 01-15 P 01-16 M 01-20 MB 01-22 K 01-23 M 01-27 MB 01-29 P 01-30 M",
+          "02-03 MB 02-05 K 02-06 M 02-10 MB 02-12 P 02-13 M 02-17 MB 02-19 K 02-20 M 02-24 MB 02-26 P 02-27 M",
+          "03-03 MB 03-05 K 03-06 M 03-10 MB 03-12 P 03-13 M 03-17 MB 03-19 K 03-20 M 03-24 MB 03-26 P 03-27 M 03-31 MB",
+          "04-02 K 04-03 M 04-08 MB! 04-10 P! 04-11 M! 04-14 MB 04-16 K 04-17 M 04-21 MB 04-23 P 04-24 M 04-28 MB 04-30 K",
+          "05-02 M! 05-05 MB 05-07 P 05-08 M 05-12 MB 05-14 K 05-15 M 05-19 MB 05-21 P 05-22 M 05-26 MB 05-28 K 05-29 M",
+          "06-02 MB 06-05 P! 06-06 M! 06-09 MB 06-11 K 06-12 M 06-16 MB 06-18 P 06-19 M 06-24 MB! 06-26 K! 06-27 M! 06-30 MB",
+          "07-02 P 07-03 M 07-07 MB 07-09 K 07-10 M 07-14 MB 07-16 P 07-17 M 07-21 MB 07-23 K 07-24 M 07-28 MB 07-30 P 07-31 M",
+          "08-04 MB 08-07 K! 08-08 M! 08-11 MB 08-13 P 08-14 M 08-18 MB 08-20 K 08-21 M 08-25 MB 08-27 P 08-28 M",
+          "09-01 MB 09-03 K 09-04 M 09-08 MB 09-10 P 09-11 M 09-15 MB 09-17 K 09-18 M 09-22 MB 09-24 P 09-25 M 09-29 MB",
+          "10-01 K 10-02 M 10-06 MB 10-08 P 10-09 M 10-13 MB 10-15 K 10-16 M 10-20 MB 10-22 P 10-23 M 10-27 MB 10-29 K 10-30 M",
+          "11-03 MB 11-05 P 11-06 M 11-10 MB 11-12 K 11-13 M 11-17 MB 11-20 P! 11-21 M! 11-24 MB 11-26 K 11-27 M",
+          "12-01 MB 12-03 P 12-04 M 12-08 MB 12-10 K 12-11 M 12-15 MB 12-17 P 12-18 M 12-22 MB 12-24 K 12-26 M! 12-29 MB 12-31 P"
+        ]
+      }
+    },
+    "17": {
+      "jls": "Karlovac",
+      "ulice": ["Donja Švarča 2 do 62 i 78 do 108 - parni, 1 do 79B - neparni", "Dragutina Laškarina", "Josipa Schlossera", "Cvijetna", "Blaža Lorkovića", "Ivana Grahe", "Dugoreška", "Ive Senjanina", "Lipanjska", "Ljudevita Rossia", "Mokrice", "Mrežnička obala", "Prilaz Kozjaci", "Riječka", "Svibanjska", "Andrije Štampara", "Gustava Krkleca", "Ivice Gojaka", "Jakšići", "Kovačićevo brdo", "Mrežnička", "Radnička", "Bašćinska cesta 2 do 20A – parni i 1 do 45A - neparni", "Slave Raškaj", "Josipa Račića", "Senjska 65 do kraja – neparni i 112 do kraja - parni", "Trg sv. Franje Ksaverskog", "Milutina Cihlara Nehajeva", "Ulica Gornja Švarča"],
+      "podrucje": "Gradska četvrt Švarča (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-02 B! 01-03 K! 01-07 M! 01-09 B! 01-10 P! 01-13 M 01-15 B 01-20 M 01-22 B 01-27 M 01-29 B 01-30 K",
+          "02-03 M 02-05 B 02-06 P 02-10 M 02-12 B 02-17 M 02-19 B 02-24 M 02-26 B 02-27 K",
+          "03-03 M 03-05 B 03-06 P 03-10 M 03-12 B 03-17 M 03-19 B 03-24 M 03-26 B 03-27 K 03-31 M",
+          "04-02 B 04-03 P 04-08 M! 04-10 B! 04-14 M 04-16 B 04-21 M 04-23 B 04-24 K 04-28 M 04-30 B",
+          "05-02 P! 05-05 M 05-07 B 05-12 M 05-14 B 05-19 M 05-21 B 05-22 K 05-26 M 05-28 B 05-29 P",
+          "06-02 M 06-05 B! 06-09 M 06-11 B 06-16 M 06-18 B 06-19 K 06-24 M! 06-26 B! 06-27 P! 06-30 M",
+          "07-02 B 07-07 M 07-09 B 07-14 M 07-16 B 07-17 K 07-21 M 07-23 B 07-24 P 07-28 M 07-30 B",
+          "08-04 M 08-07 B! 08-11 M 08-13 B 08-14 K 08-18 M 08-20 B 08-21 P 08-25 M 08-27 B",
+          "09-01 M 09-03 B 09-08 M 09-10 B 09-11 K 09-15 M 09-17 B 09-18 P 09-22 M 09-24 B 09-29 M",
+          "10-01 B 10-06 M 10-08 B 10-09 K 10-13 M 10-15 B 10-16 P 10-20 M 10-22 B 10-27 M 10-29 B",
+          "11-03 M 11-05 B 11-06 K 11-10 M 11-12 B 11-13 P 11-17 M 11-20 B! 11-24 M 11-26 B",
+          "12-01 M 12-03 B 12-04 K 12-08 M 12-10 B 12-11 P 12-15 M 12-17 B 12-22 M 12-24 B 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "18": {
+      "jls": "Karlovac",
+      "ulice": ["Donja Švarča 2 do 62 i 78 do 108 - parni, 1 do 79B - neparni", "Dragutina Laškarina", "Josipa Schlossera", "Cvijetna", "Blaža Lorkovića", "Ivana Grahe", "Dugoreška", "Ive Senjanina", "Lipanjska", "Ljudevita Rossia", "Mokrice", "Mrežnička obala", "Prilaz Kozjaci", "Riječka", "Svibanjska", "Andrije Štampara", "Gustava Krkleca", "Ivice Gojaka", "Jakšići", "Kovačićevo brdo", "Mrežnička", "Radnička", "Bašćinska cesta 2 do 20A – parni i 1 do 45A - neparni", "Slave Raškaj", "Josipa Račića", "Senjska 65 do kraja – neparni i 112 do kraja - parni", "Trg sv. Franje Ksaverskog", "Milutina Cihlara Nehajeva", "Ulica Gornja Švarča"],
+      "podrucje": "Gradska četvrt Švarča (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 B! 01-03 MK! 01-07 M! 01-09 B! 01-10 MP! 01-13 M 01-15 B 01-16 MK 01-20 M 01-22 B 01-23 MP 01-27 M 01-29 B 01-30 MK",
+          "02-03 M 02-05 B 02-06 MP 02-10 M 02-12 B 02-13 MK 02-17 M 02-19 B 02-20 MP 02-24 M 02-26 B 02-27 MK",
+          "03-03 M 03-05 B 03-06 MP 03-10 M 03-12 B 03-13 MK 03-17 M 03-19 B 03-20 MP 03-24 M 03-26 B 03-27 MK 03-31 M",
+          "04-02 B 04-03 MP 04-08 M! 04-10 B! 04-11 MK! 04-14 M 04-16 B 04-17 MP 04-21 M 04-23 B 04-24 MK 04-28 M 04-30 B",
+          "05-02 MP! 05-05 M 05-07 B 05-08 MK 05-12 M 05-14 B 05-15 MP 05-19 M 05-21 B 05-22 MK 05-26 M 05-28 B 05-29 MP",
+          "06-02 M 06-05 B! 06-06 MK! 06-09 M 06-11 B 06-12 MP 06-16 M 06-18 B 06-19 MK 06-24 M! 06-26 B! 06-27 MP! 06-30 M",
+          "07-02 B 07-03 MK 07-07 M 07-09 B 07-10 MP 07-14 M 07-16 B 07-17 MK 07-21 M 07-23 B 07-24 MP 07-28 M 07-30 B 07-31 MK",
+          "08-04 M 08-07 B! 08-08 MP! 08-11 M 08-13 B 08-14 MK 08-18 M 08-20 B 08-21 MP 08-25 M 08-27 B 08-28 MK",
+          "09-01 M 09-03 B 09-04 MP 09-08 M 09-10 B 09-11 MK 09-15 M 09-17 B 09-18 MP 09-22 M 09-24 B 09-25 MK 09-29 M",
+          "10-01 B 10-02 MP 10-06 M 10-08 B 10-09 MK 10-13 M 10-15 B 10-16 MP 10-20 M 10-22 B 10-23 MK 10-27 M 10-29 B 10-30 MP",
+          "11-03 M 11-05 B 11-06 MK 11-10 M 11-12 B 11-13 MP 11-17 M 11-20 B! 11-21 MK! 11-24 M 11-26 B 11-27 MP",
+          "12-01 M 12-03 B 12-04 MK 12-08 M 12-10 B 12-11 MP 12-15 M 12-17 B 12-18 MK 12-22 M 12-24 B 12-26 MP! 12-29 M 12-31 B"
+        ]
+      }
+    },
+    "19": {
+      "jls": "Karlovac",
+      "ulice": ["Turan (Turanj)", "Turanski (Turanjski) Lug", "Jelaši", "Zastinja", "Goljaki Turanski (Turanjski)", "Turanski (Turanjski) Poloj", "Mikšići", "Šćulac Brdo", "Braće Gojak"],
+      "podrucje": "Gradska četvrt Turanj (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-03 P! 01-08 M! 01-10 K! 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-06 P 02-11 M 02-13 K 02-18 M 02-25 M",
+          "03-04 M 03-06 P 03-11 M 03-13 K 03-18 M 03-25 M",
+          "04-01 M 04-03 P 04-09 M! 04-11 K! 04-15 M 04-22 M 04-29 M",
+          "05-02 P! 05-06 M 05-08 K 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-06 P! 06-10 M 06-12 K 06-17 M 06-25 M!",
+          "07-01 M 07-03 P 07-08 M 07-10 K 07-15 M 07-22 M 07-29 M",
+          "08-06 M! 08-08 P! 08-12 M 08-14 K 08-19 M 08-26 M",
+          "09-02 M 09-04 P 09-09 M 09-11 K 09-16 M 09-23 M 09-30 M",
+          "10-02 P 10-07 M 10-09 K 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-06 P 11-11 M 11-13 K 11-19 M! 11-25 M",
+          "12-02 M 12-04 P 12-09 M 12-11 K 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "20": {
+      "jls": "Karlovac",
+      "ulice": ["Turan (Turanj)", "Turanski (Turanjski) Lug", "Jelaši", "Zastinja", "Goljaki Turanski (Turanjski)", "Turanski (Turanjski) Poloj", "Mikšići", "Šćulac Brdo", "Braće Gojak"],
+      "podrucje": "Gradska četvrt Turanj (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 B! 01-03 P! 01-08 M! 01-09 B! 01-10 K! 01-14 M 01-15 B 01-21 M 01-22 B 01-28 M 01-29 B",
+          "02-04 M 02-05 B 02-06 P 02-11 M 02-12 B 02-13 K 02-18 M 02-19 B 02-25 M 02-26 B",
+          "03-04 M 03-05 B 03-06 P 03-11 M 03-12 B 03-13 K 03-18 M 03-19 B 03-25 M 03-26 B",
+          "04-01 M 04-02 B 04-03 P 04-09 M! 04-10 B! 04-11 K! 04-15 M 04-16 B 04-22 M 04-23 B 04-29 M 04-30 B",
+          "05-02 P! 05-06 M 05-07 B 05-08 K 05-13 M 05-14 B 05-20 M 05-21 B 05-27 M 05-28 B",
+          "06-03 M 06-05 B! 06-06 P! 06-10 M 06-11 B 06-12 K 06-17 M 06-18 B 06-25 M! 06-26 B!",
+          "07-01 M 07-02 B 07-03 P 07-08 M 07-09 B 07-10 K 07-15 M 07-16 B 07-22 M 07-23 B 07-29 M 07-30 B",
+          "08-06 M! 08-07 B! 08-08 P! 08-12 M 08-13 B 08-14 K 08-19 M 08-20 B 08-26 M 08-27 B",
+          "09-02 M 09-03 B 09-04 P 09-09 M 09-10 B 09-11 K 09-16 M 09-17 B 09-23 M 09-24 B 09-30 M",
+          "10-01 B 10-02 P 10-07 M 10-08 B 10-09 K 10-14 M 10-15 B 10-21 M 10-22 B 10-28 M 10-29 B",
+          "11-04 M 11-05 B 11-06 P 11-11 M 11-12 B 11-13 K 11-19 M! 11-20 B! 11-25 M 11-26 B",
+          "12-02 M 12-03 B 12-04 P 12-09 M 12-10 B 12-11 K 12-16 M 12-17 B 12-23 M 12-24 B 12-30 M 12-31 B"
+        ]
+      }
+    },
+    "21": {
+      "jls": "Karlovac",
+      "ulice": ["A. Cesarca", "P. Miškine", "Matice Hrvatske", "Tijesna", "I. Banjavčića", "V. Karasa", "I. Šimunića", "A. Šenoe", "Đ. Bencetića", "J. Križanića", "A. Lukšića", "M. Gambona", "J. Haulika", "L. Jonkea", "R. Lopašića", "I. pl. Zajca", "V. Mačeka 1 do 11 – neparni i 2 do 18 - parni", "V. Nazora", "I. Gundulića", "J. Šipuša", "P. Preradovića", "N. Šebetića", "G. Ninskog", "I. Mažuranića", "F. Prešerna", "I. K. Sakcinskog", "Samostanska", "V. Lisinskog", "I. G. Kovačića", "Trg J. J. Strossmayera", "F. K. Frankopana", "Kralja Tomislava", "Trg bana J. Jelačića", "Domobranska 1 do 19 - neparni i 2 do 14 - parni", "Perivoj J. Vrbanića", "Prilaz V. Holjevca 2 do 10A - parni", "Šetalište Dr. F. Tuđmana", "Trg M. Gubca", "Trg M. Šuflaja", "Trg P. Zrinskog", "Trg A. Stepinca", "A. Vraniczanyja", "Obala V. Mažuranića 1 do 8 - svi", "P. R. Vitezovića", "Prilaz Korani", "T. Smičiklasa 2 do 14D - parni", "F. Kurelca", "S. Radića 1 do 36 - svi", "M. Vrbanića", "Park bedema ljubavi", "J. Kraša", "V. Klaića", "M. Krešića", "Ruski put", "I. Kukuljevića"],
+      "podrucje": "Gradska četvrt Zvijezda (obiteljske kuće)",
+      "napomena": "Raspored za obiteljske kuće (individualno stanovanje).",
+      "raw": {
+        "2026": [
+          "01-02 BK! 01-05 M 01-09 BP! 01-12 M 01-15 B 01-19 M 01-22 B 01-26 M 01-29 BK",
+          "02-02 M 02-05 BP 02-09 M 02-12 B 02-16 M 02-19 B 02-23 M 02-26 BK",
+          "03-02 M 03-05 BP 03-09 M 03-12 B 03-16 M 03-19 B 03-23 M 03-26 BK 03-30 M",
+          "04-02 BP 04-07 M! 04-10 B! 04-13 M 04-16 B 04-20 M 04-23 BK 04-27 M 04-30 BP",
+          "05-04 M 05-07 B 05-11 M 05-14 B 05-18 M 05-21 BK 05-25 M 05-28 BP",
+          "06-01 M 06-05 B! 06-08 M 06-11 B 06-15 M 06-18 BK 06-23 M! 06-26 BP! 06-29 M",
+          "07-02 B 07-06 M 07-09 B 07-13 M 07-16 BK 07-20 M 07-23 BP 07-27 M 07-30 B",
+          "08-03 M 08-07 B! 08-10 M 08-13 BK 08-17 M 08-20 BP 08-24 M 08-27 B 08-31 M",
+          "09-03 B 09-07 M 09-10 BK 09-14 M 09-17 BP 09-21 M 09-24 B 09-28 M",
+          "10-01 B 10-05 M 10-08 BK 10-12 M 10-15 BP 10-19 M 10-22 B 10-26 M 10-29 B",
+          "11-02 M 11-05 BK 11-09 M 11-12 BP 11-16 M 11-20 B! 11-23 M 11-26 B 11-30 M",
+          "12-03 BK 12-07 M 12-10 BP 12-14 M 12-17 B 12-21 M 12-24 B 12-28 M 12-31 BK"
+        ]
+      }
+    },
+    "22": {
+      "jls": "Karlovac",
+      "ulice": ["A. Cesarca", "P. Miškine", "Matice Hrvatske", "Tijesna", "I. Banjavčića", "V. Karasa", "I. Šimunića", "A. Šenoe", "Đ. Bencetića", "J. Križanića", "A. Lukšića", "M. Gambona", "J. Haulika", "L. Jonkea", "R. Lopašića", "I. pl. Zajca", "V. Mačeka 1 do 11 – neparni i 2 do 18 - parni", "V. Nazora", "I. Gundulića", "J. Šipuša", "P. Preradovića", "N. Šebetića", "G. Ninskog", "I. Mažuranića", "F. Prešerna", "I. K. Sakcinskog", "Samostanska", "V. Lisinskog", "I. G. Kovačića", "Trg J. J. Strossmayera", "F. K. Frankopana", "Kralja Tomislava", "Trg bana J. Jelačića", "Domobranska 1 do 19 - neparni i 2 do 14 - parni", "Perivoj J. Vrbanića", "Prilaz V. Holjevca 2 do 10A - parni", "Šetalište Dr. F. Tuđmana", "Trg M. Gubca", "Trg M. Šuflaja", "Trg P. Zrinskog", "Trg A. Stepinca", "A. Vraniczanyja", "Obala V. Mažuranića 1 do 8 - svi", "P. R. Vitezovića", "Prilaz Korani", "T. Smičiklasa 2 do 14D - parni", "F. Kurelca", "S. Radića 1 do 36 - svi", "M. Vrbanića", "Park bedema ljubavi", "J. Kraša", "V. Klaića", "M. Krešića", "Ruski put", "I. Kukuljevića"],
+      "podrucje": "Gradska četvrt Zvijezda (zgrade)",
+      "napomena": "Raspored za zgrade (kolektivno stanovanje), s dodatnim odvozima samo za zgrade.",
+      "raw": {
+        "2026": [
+          "01-02 MBK! 01-05 M 01-09 MBP! 01-12 M 01-15 MBK 01-19 M 01-22 MBP 01-26 M 01-29 MBK",
+          "02-02 M 02-05 MBP 02-09 M 02-12 MBK 02-16 M 02-19 MBP 02-23 M 02-26 MBK",
+          "03-02 M 03-05 MBP 03-09 M 03-12 MBK 03-16 M 03-19 MBP 03-23 M 03-26 MBK 03-30 M",
+          "04-02 MBP 04-07 M! 04-10 MBK! 04-13 M 04-16 MBP 04-20 M 04-23 MBK 04-27 M 04-30 MBP",
+          "05-04 M 05-07 MBK 05-11 M 05-14 MBP 05-18 M 05-21 MBK 05-25 M 05-28 MBP",
+          "06-01 M 06-05 MBK! 06-08 M 06-11 MBP 06-15 M 06-18 MBK 06-23 M! 06-26 MBP! 06-29 M",
+          "07-02 MBK 07-06 M 07-09 MBP 07-13 M 07-16 MBK 07-20 M 07-23 MBP 07-27 M 07-30 MBK",
+          "08-03 M 08-07 MBP! 08-10 M 08-13 MBK 08-17 M 08-20 MBP 08-24 M 08-27 MBK 08-31 M",
+          "09-03 MBP 09-07 M 09-10 MBK 09-14 M 09-17 MBP 09-21 M 09-24 MBK 09-28 M",
+          "10-01 MBP 10-05 M 10-08 MBK 10-12 M 10-15 MBP 10-19 M 10-22 MBK 10-26 M 10-29 MBP",
+          "11-02 M 11-05 MBK 11-09 M 11-12 MBP 11-16 M 11-20 MBK! 11-23 M 11-26 MBP 11-30 M",
+          "12-03 MBK 12-07 M 12-10 MBP 12-14 M 12-17 MBK 12-21 M 12-24 MBP 12-28 M 12-31 MBK"
+        ]
+      }
+    },
+    "23": {
+      "jls": "Karlovac",
+      "ulice": ["Ljubljanska", "Borlin", "Brune Bušića", "Bunjevačka", "Danijela Grčića", "Gradišćanska", "Hržišće", "Mirka Seljana", "Omladinska", "Stjepana Seljana", "Vladimira Bogovića", "Žumberačka", "Borlin Gaj", "Tičarnica"],
+      "podrucje": "Mjesni odbor Borlin",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 M! 01-10 P! 01-15 M 01-22 MPK 01-29 M",
+          "02-05 M 02-12 M 02-13 P 02-19 M 02-26 MPK",
+          "03-05 M 03-12 M 03-13 P 03-19 M 03-26 MPK",
+          "04-02 M 04-10 M! 04-11 P! 04-16 M 04-23 MPK 04-30 M",
+          "05-07 M 05-08 P 05-14 M 05-21 M 05-28 MPK",
+          "06-05 M! 06-11 M 06-12 P 06-18 M 06-26 MPK!",
+          "07-02 M 07-09 M 07-10 P 07-16 M 07-23 MPK 07-30 M",
+          "08-07 M! 08-13 M 08-14 P 08-20 M 08-27 MPK",
+          "09-03 M 09-10 M 09-11 P 09-17 M 09-24 MPK",
+          "10-01 M 10-08 M 10-09 P 10-15 M 10-22 MPK 10-29 M",
+          "11-05 M 11-12 M 11-13 P 11-20 M! 11-26 MPK",
+          "12-03 M 12-10 M 12-11 P 12-17 M 12-24 MPK 12-31 M"
+        ]
+      }
+    },
+    "24": {
+      "jls": "Karlovac",
+      "ulice": ["Cerovac Vukmanićki", "Škrtići", "Miljuši"],
+      "podrucje": "Mjesni odbor Cerovac Vukmanićki",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Cerovac Vukmanićki u dvorištu DVD-a. Mobilno reciklažno dvorište: 12.02., 16.04., 11.06., 13.08., 15.10. (11-13 h).",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 M! 01-15 M 01-20 PK 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-17 PK 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-17 PK 03-19 M 03-26 M",
+          "04-02 M 04-10 M! 04-16 M 04-21 PK 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-19 PK 05-21 M 05-28 M",
+          "06-05 M! 06-11 M 06-16 PK 06-18 M 06-26 M!",
+          "07-02 M 07-09 M 07-16 M 07-21 PK 07-23 M 07-30 M",
+          "08-07 M! 08-13 M 08-18 PK 08-20 M 08-27 M",
+          "09-03 M 09-10 M 09-15 PK 09-17 M 09-24 M",
+          "10-01 M 10-08 M 10-15 M 10-20 PK 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-17 PK 11-20 M! 11-26 M",
+          "12-03 M 12-10 M 12-15 PK 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "25": {
+      "jls": "Karlovac",
+      "ulice": ["Donje Pokupje"],
+      "podrucje": "Mjesni odbor Donje Pokupje",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-15 PK 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-19 PK 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-19 PK 03-23 M 03-30 M",
+          "04-07 M! 04-13 M 04-16 PK 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-21 PK 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-18 PK 06-23 M! 06-29 M",
+          "07-06 M 07-13 M 07-16 PK 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-20 PK 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-17 PK 09-21 M 09-28 M",
+          "10-05 M 10-12 M 10-15 PK 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-20 PK! 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-17 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "26": {
+      "jls": "Karlovac",
+      "ulice": ["Gornje Mekušje", "Mekušanska cesta", "Otok", "Klanac", "Ul. 13. srpnja", "Trg 129. brigade HV"],
+      "podrucje": "Mjesni odbor Gornje Mekušje",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-13 PK 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-10 PK 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-10 PK 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-09 M! 04-14 PK 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-12 PK 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-09 PK 06-10 M 06-17 M 06-25 M!",
+          "07-01 M 07-08 M 07-14 PK 07-15 M 07-22 M 07-29 M",
+          "08-06 M! 08-11 PK 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-08 PK 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-13 PK 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-10 PK 11-11 M 11-19 M! 11-25 M",
+          "12-02 M 12-08 PK 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "27": {
+      "jls": "Karlovac",
+      "ulice": ["Gornje Stative"],
+      "podrucje": "Mjesni odbor Gornje Stative",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je ispred prostora Mjesnog odbora. Miješani komunalni otpad Gornje Stative Kbr. 57 svakoga ponedjeljka osim blagdana i praznika kada se pomiče na idući dan. Mobilno reciklažno dvorište: 11.02., 15.04., 10.06., 12.08., 14.10. (11-13 h).",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-16 PK 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-20 PK 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-20 PK 03-25 M",
+          "04-01 M 04-09 M! 04-15 M 04-17 PK 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-15 PK 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-19 PK 06-25 M!",
+          "07-01 M 07-08 M 07-15 M 07-17 PK 07-22 M 07-29 M",
+          "08-06 M! 08-12 M 08-19 M 08-21 PK 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-18 PK 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-16 PK 10-21 M 10-28 M",
+          "11-04 M 11-11 M 11-19 M! 11-21 PK! 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-18 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "28": {
+      "jls": "Karlovac",
+      "ulice": ["Gradac", "Sisačka", "Petrinjska", "Svetog Florijana", "Kapelička"],
+      "podrucje": "Mjesni odbor Gradac",
+      "raw": {
+        "2026": [
+          "01-05 PK 01-08 M! 01-14 M 01-21 M 01-28 M",
+          "02-02 PK 02-04 M 02-11 M 02-18 M 02-25 M",
+          "03-02 PK 03-04 M 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-07 PK! 04-09 M! 04-15 M 04-22 M 04-29 M",
+          "05-04 PK 05-06 M 05-13 M 05-20 M 05-27 M",
+          "06-01 PK 06-03 M 06-10 M 06-17 M 06-25 M!",
+          "07-01 M 07-06 PK 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-03 PK 08-06 M! 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-07 PK 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-05 PK 10-07 M 10-14 M 10-21 M 10-28 M",
+          "11-02 PK 11-04 M 11-11 M 11-19 M! 11-25 M",
+          "12-02 M 12-07 PK 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "29": {
+      "jls": "Karlovac",
+      "ulice": ["Kablar", "Banska Selnica", "Slunjska Selnica", "Banski Moravci"],
+      "podrucje": "Mjesni odbor Kablar",
+      "napomena": "Miješani komunalni otpad Banski Moravci Kbr. 41, 68, 71, 72, 72a, 76 svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Banska Selnica Kbr. 59, 61, 63, 64, 65, 66, 67, 69, 71, 74, 76, 78, 79 svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Kablar Kbr. 31, 80, 91, 93, 94, 96, 97 svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan. Lokacija mobilnog reciklažnog dvorišta je Kablar parkiralište pored kapelice. Mobilno reciklažno dvorište: 19.02., 23.04., 18.06., 20.08., 22.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-20 PK 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-17 PK 02-18 M 02-25 M",
+          "03-04 M 03-11 M 03-17 PK 03-18 M 03-25 M",
+          "04-01 M 04-09 M! 04-15 M 04-21 PK 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-19 PK 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-16 PK 06-17 M 06-25 M!",
+          "07-01 M 07-08 M 07-15 M 07-21 PK 07-22 M 07-29 M",
+          "08-06 M! 08-12 M 08-18 PK 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-15 PK 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-20 PK 10-21 M 10-28 M",
+          "11-04 M 11-11 M 11-17 PK 11-19 M! 11-25 M",
+          "12-02 M 12-09 M 12-15 PK 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "30": {
+      "jls": "Karlovac",
+      "ulice": ["Kamensko", "Lemić brdo"],
+      "podrucje": "Mjesni odbor Kamensko",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-13 PK 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-10 PK 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-10 PK 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-09 M! 04-14 PK 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-12 PK 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-09 PK 06-10 M 06-17 M 06-25 M!",
+          "07-01 M 07-08 M 07-14 PK 07-15 M 07-22 M 07-29 M",
+          "08-06 M! 08-11 PK 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-08 PK 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-13 PK 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-10 PK 11-11 M 11-19 M! 11-25 M",
+          "12-02 M 12-08 PK 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "31": {
+      "jls": "Karlovac",
+      "ulice": ["Knez Gorica"],
+      "podrucje": "Mjesni odbor Knez Gorica",
+      "napomena": "Miješani komunalni otpad Knez Gorica Kbr. 2, 16a, 39a, 41, 42a, svakoga utorka osim blagdana i praznika kada se pomiče na idući dan. Lokacija mobilnog reciklažnog dvorišta je Knez Gorica iza DVD-a. Mobilno reciklažno dvorište: 17.02., 21.04., 16.06., 18.08., 20.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-19 PK 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-16 PK 02-18 M 02-25 M",
+          "03-04 M 03-11 M 03-16 PK 03-18 M 03-25 M",
+          "04-01 M 04-09 M! 04-15 M 04-20 PK 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-18 PK 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-15 PK 06-17 M 06-25 M!",
+          "07-01 M 07-08 M 07-15 M 07-20 PK 07-22 M 07-29 M",
+          "08-06 M! 08-12 M 08-17 PK 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-21 PK 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-19 PK 10-21 M 10-28 M",
+          "11-04 M 11-11 M 11-16 PK 11-19 M! 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-21 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "32": {
+      "jls": "Karlovac",
+      "ulice": ["Ladvenjak", "Selišće"],
+      "podrucje": "Mjesni odbor Ladvenjak - Selišće",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Ladvenjak parkiralište pored groblja. Mobilno reciklažno dvorište: 16.02., 20.04., 15.06., 17.08., 19.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-10 M! 01-14 PK 01-16 M 01-23 M 01-30 M",
+          "02-06 M 02-11 PK 02-13 M 02-20 M 02-27 M",
+          "03-06 M 03-11 PK 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-09 PK! 04-11 M! 04-17 M 04-24 M",
+          "05-02 M! 05-08 M 05-13 PK 05-15 M 05-22 M 05-29 M",
+          "06-06 M! 06-10 PK 06-12 M 06-19 M 06-27 M!",
+          "07-03 M 07-08 PK 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-08 M! 08-12 PK 08-14 M 08-21 M 08-28 M",
+          "09-04 M 09-09 PK 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-09 M 10-14 PK 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-11 PK 11-13 M 11-21 M! 11-27 M",
+          "12-04 M 12-09 PK 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "33": {
+      "jls": "Karlovac",
+      "ulice": ["Logorište", "Mala Švarča 2 i 4 – parni i 1 do 25 – neparni"],
+      "podrucje": "Mjesni odbor Logorište",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 MPK! 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-12 MPK 02-19 M 02-26 M",
+          "03-05 M 03-12 MPK 03-19 M 03-26 M",
+          "04-02 M 04-10 MPK! 04-16 M 04-23 M 04-30 M",
+          "05-07 M 05-14 MPK 05-21 M 05-28 M",
+          "06-05 M! 06-11 MPK 06-18 M 06-26 M!",
+          "07-02 M 07-09 MPK 07-16 M 07-23 M 07-30 M",
+          "08-07 M! 08-13 MPK 08-20 M 08-27 M",
+          "09-03 M 09-10 MPK 09-17 M 09-24 M",
+          "10-01 M 10-08 MPK 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-12 MPK 11-20 M! 11-26 M",
+          "12-03 M 12-10 MPK 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "34": {
+      "jls": "Karlovac",
+      "ulice": ["Mahično", "Šebreki", "Zagraj", "Tuškani", "Vukoder", "Konjkovsko", "Goršćaki", "Priselci", "Ulica Kalinovac"],
+      "podrucje": "Mjesni odbor Mahično - Tuškani",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je iza doma. Mobilno reciklažno dvorište: 09.02., 13.04., 08.06., 10.08., 12.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-15 PK 01-19 M 01-26 M",
+          "02-02 M 02-09 M 02-16 M 02-19 PK 02-23 M",
+          "03-02 M 03-09 M 03-16 M 03-19 PK 03-23 M 03-30 M",
+          "04-07 M! 04-13 M 04-16 PK 04-20 M 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-21 PK 05-25 M",
+          "06-01 M 06-08 M 06-15 M 06-18 PK 06-23 M! 06-29 M",
+          "07-06 M 07-13 M 07-16 PK 07-20 M 07-27 M",
+          "08-03 M 08-10 M 08-17 M 08-20 PK 08-24 M 08-31 M",
+          "09-07 M 09-14 M 09-17 PK 09-21 M 09-28 M",
+          "10-05 M 10-12 M 10-15 PK 10-19 M 10-26 M",
+          "11-02 M 11-09 M 11-16 M 11-20 PK! 11-23 M 11-30 M",
+          "12-07 M 12-14 M 12-17 PK 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "35": {
+      "jls": "Karlovac",
+      "ulice": ["Mala Jelsa"],
+      "podrucje": "Mjesni odbor Mala Jelsa",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-12 PK 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-09 PK 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-09 PK 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-09 M! 04-13 PK 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-11 PK 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-08 PK 06-10 M 06-17 M 06-25 M!",
+          "07-01 M 07-08 M 07-13 PK 07-15 M 07-22 M 07-29 M",
+          "08-06 M! 08-10 PK 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-14 PK 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-12 PK 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-09 PK 11-11 M 11-19 M! 11-25 M",
+          "12-02 M 12-09 M 12-14 PK 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "36": {
+      "jls": "Karlovac",
+      "ulice": ["Mala Švarča 6 do kraja – parni i 27 do kraja - neparni", "Vinički put", "Grički put", "Put sv. Nikole", "Kostanjevački put", "Ulica Luke", "dr. Slavka Rozgaja", "Put sv. Doroteje"],
+      "podrucje": "Mjesni odbor Mala Švarča",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 MPK! 01-15 M 01-22 M 01-29 M",
+          "02-05 M 02-12 MPK 02-19 M 02-26 M",
+          "03-05 M 03-12 MPK 03-19 M 03-26 M",
+          "04-02 M 04-10 MPK! 04-16 M 04-23 M 04-30 M",
+          "05-07 M 05-14 MPK 05-21 M 05-28 M",
+          "06-05 M! 06-11 MPK 06-18 M 06-26 M!",
+          "07-02 M 07-09 MPK 07-16 M 07-23 M 07-30 M",
+          "08-07 M! 08-13 MPK 08-20 M 08-27 M",
+          "09-03 M 09-10 MPK 09-17 M 09-24 M",
+          "10-01 M 10-08 MPK 10-15 M 10-22 M 10-29 M",
+          "11-05 M 11-12 MPK 11-20 M! 11-26 M",
+          "12-03 M 12-10 MPK 12-17 M 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "37": {
+      "jls": "Karlovac",
+      "ulice": ["Orlovačka", "Rečička", "Lipova", "Naselje Roma"],
+      "podrucje": "Mjesni odbor Orlovac",
+      "raw": {
+        "2026": [
+          "01-05 PK 01-08 M! 01-14 M 01-21 M 01-28 M",
+          "02-02 PK 02-04 M 02-11 M 02-18 M 02-25 M",
+          "03-02 PK 03-04 M 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-07 PK! 04-09 M! 04-15 M 04-22 M 04-29 M",
+          "05-04 PK 05-06 M 05-13 M 05-20 M 05-27 M",
+          "06-01 PK 06-03 M 06-10 M 06-17 M 06-25 M!",
+          "07-01 M 07-06 PK 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-03 PK 08-06 M! 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-07 PK 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-05 PK 10-07 M 10-14 M 10-21 M 10-28 M",
+          "11-02 PK 11-04 M 11-11 M 11-19 M! 11-25 M",
+          "12-02 M 12-07 PK 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "38": {
+      "jls": "Karlovac",
+      "ulice": ["Vodostaj", "Donje Mekušje", "Husje", "Kobilić Pokupski"],
+      "podrucje": "Mjesni odbor Pokupska Dolina",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Donje Mekušje kod DVD-a. Mobilno reciklažno dvorište: 09.02., 13.04., 08.06., 10.08., 12.10. (11-13 h).",
+      "raw": {
+        "2026": [
+          "01-08 MPK! 01-14 M 01-21 M 01-28 M",
+          "02-04 MPK 02-11 M 02-18 M 02-25 M",
+          "03-04 MPK 03-11 M 03-18 M 03-25 M",
+          "04-01 MPK 04-09 M! 04-15 M 04-22 M 04-29 M",
+          "05-06 MPK 05-13 M 05-20 M 05-27 M",
+          "06-03 MPK 06-10 M 06-17 M 06-25 M!",
+          "07-01 MPK 07-08 M 07-15 M 07-22 M 07-29 M",
+          "08-06 MPK! 08-12 M 08-19 M 08-26 M",
+          "09-02 MPK 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-07 MPK 10-14 M 10-21 M 10-28 M",
+          "11-04 MPK 11-11 M 11-19 M! 11-25 M",
+          "12-02 MPK 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "39": {
+      "jls": "Karlovac",
+      "ulice": ["Popović Brdo", "Gornja Trebinja", "Donja Trebinja"],
+      "podrucje": "Mjesni odbor Popović Brdo",
+      "napomena": "Miješani komunalni otpad Gornja Trebinja Kbr. 1, 1a, 2, 2a, 2b, 3, 3a, 14, 17a, 21, 21a, 22, 23, 23a, 24, 29, 32a, 35, 36, 37, 68b, 81, 81a, 83, 85, 87, 88, 88a, 88b, 90, 90b, 91, 91a, 91b, 92 svakoga utorka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Donja Trebinja Kbr. 2, 8, 9, 11, 13. svakoga utorka osim blagdana i praznika kada se pomiče na idući dan. Lokacija mobilnog reciklažnog dvorišta je Popović Brdo pored prostora M.O. Mobilno reciklažno dvorište: 17.02., 21.04., 16.06., 18.08., 20.10. (11-13 h).",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-13 PK 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-10 PK 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-10 PK 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-09 M! 04-14 PK 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-12 PK 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-09 PK 06-10 M 06-17 M 06-25 M!",
+          "07-01 M 07-08 M 07-14 PK 07-15 M 07-22 M 07-29 M",
+          "08-06 M! 08-11 PK 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-08 PK 09-09 M 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-13 PK 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-10 PK 11-11 M 11-19 M! 11-25 M",
+          "12-02 M 12-08 PK 12-09 M 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "40": {
+      "jls": "Karlovac",
+      "ulice": ["Rečica", "Luka Pokupska", "Zamršje", "Karasi"],
+      "podrucje": "Mjesni odbor Rečica",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Rečica parkiralište pored groblja. Mobilno reciklažno dvorište: 10.02., 14.04., 09.06., 11.08., 13.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-02 PK! 01-03 M! 01-10 M! 01-16 M 01-23 M 01-30 M",
+          "02-05 PK 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-05 PK 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-02 PK 04-03 M 04-11 M! 04-17 M 04-24 M",
+          "05-02 M! 05-07 PK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-05 PK! 06-06 M! 06-12 M 06-19 M 06-27 M!",
+          "07-02 PK 07-03 M 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-07 PK! 08-08 M! 08-14 M 08-21 M 08-28 M",
+          "09-03 PK 09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-01 PK 10-02 M 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-05 PK 11-06 M 11-13 M 11-21 M! 11-27 M",
+          "12-03 PK 12-04 M 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "41": {
+      "jls": "Karlovac",
+      "ulice": ["Donji Sjeničak", "Gornji Sjeničak", "Manjerovići", "Ivanković Selo", "Ivošević Selo", "Klipino Brdo", "Kljaić Brdo", "Udbinja Utinjska", "Utinja"],
+      "podrucje": "Mjesni odbor Sjeničak - Utinja",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Manjerovići kod skretanja za Ivanković selo. Mobilno reciklažno dvorište: 18.02., 22.04., 17.06., 19.08., 21.10. (11-13 h).",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-21 MPK 01-28 M",
+          "02-04 M 02-11 M 02-18 MPK 02-25 M",
+          "03-04 M 03-11 M 03-18 MPK 03-25 M",
+          "04-01 M 04-09 M! 04-15 MPK 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-20 MPK 05-27 M",
+          "06-03 M 06-10 M 06-17 MPK 06-25 M!",
+          "07-01 M 07-08 M 07-15 MPK 07-22 M 07-29 M",
+          "08-06 M! 08-12 M 08-19 MPK 08-26 M",
+          "09-02 M 09-09 M 09-16 MPK 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-21 MPK 10-28 M",
+          "11-04 M 11-11 M 11-19 MPK! 11-25 M",
+          "12-02 M 12-09 M 12-16 MPK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "42": {
+      "jls": "Karlovac",
+      "ulice": ["Skakavac", "Brežani", "Slunjski Moravci", "Brođani", "Lipje", "Ribari"],
+      "podrucje": "Mjesni odbor Skakavac",
+      "napomena": "Miješani komunalni otpad Brežani Kbr.1, 26, 27, 28, 29, 35 svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Brođani svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Ribari Kbr. 6, 8, 10 svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Slunjski Moravci Kbr. 13, 15, 18, 19a, 28a, 29a, 33 svakoga utorka osim blagdana i praznika kada se pomiče na idući dan. Lokacija mobilnog reciklažnog dvorišta je Skakavac ispred DVD-a. Mobilno reciklažno dvorište: 18.02., 22.04., 17.06., 19.08., 21.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-21 MPK 01-28 M",
+          "02-04 M 02-11 M 02-18 MPK 02-25 M",
+          "03-04 M 03-11 M 03-18 MPK 03-25 M",
+          "04-01 M 04-09 M! 04-15 MPK 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-20 MPK 05-27 M",
+          "06-03 M 06-10 M 06-17 MPK 06-25 M!",
+          "07-01 M 07-08 M 07-15 MPK 07-22 M 07-29 M",
+          "08-06 M! 08-12 M 08-19 MPK 08-26 M",
+          "09-02 M 09-09 M 09-16 MPK 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-21 MPK 10-28 M",
+          "11-04 M 11-11 M 11-19 MPK! 11-25 M",
+          "12-02 M 12-09 M 12-16 MPK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "43": {
+      "jls": "Karlovac",
+      "ulice": ["Šišljavić", "Koritinja", "Blatnica Pokupska", "Ivančici Pokupski"],
+      "podrucje": "Mjesni odbor Šišljavić",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Šišljavić ispred lovačkog doma. Mobilno reciklažno dvorište: 10.02., 14.04., 09.06., 11.08., 13.10. (11-13 h).",
+      "raw": {
+        "2026": [
+          "01-02 PK! 01-03 M! 01-10 M! 01-16 M 01-23 M 01-30 M",
+          "02-05 PK 02-06 M 02-13 M 02-20 M 02-27 M",
+          "03-05 PK 03-06 M 03-13 M 03-20 M 03-27 M",
+          "04-02 PK 04-03 M 04-11 M! 04-17 M 04-24 M",
+          "05-02 M! 05-07 PK 05-08 M 05-15 M 05-22 M 05-29 M",
+          "06-05 PK! 06-06 M! 06-12 M 06-19 M 06-27 M!",
+          "07-02 PK 07-03 M 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-07 PK! 08-08 M! 08-14 M 08-21 M 08-28 M",
+          "09-03 PK 09-04 M 09-11 M 09-18 M 09-25 M",
+          "10-01 PK 10-02 M 10-09 M 10-16 M 10-23 M 10-30 M",
+          "11-05 PK 11-06 M 11-13 M 11-21 M! 11-27 M",
+          "12-03 PK 12-04 M 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "44": {
+      "jls": "Karlovac",
+      "ulice": ["Tušilović", "Brezova Glava", "Okić"],
+      "podrucje": "Mjesni odbor Tušilović",
+      "napomena": "Miješani komunalni otpad Tušilović Kbr. 2b, 2c, 5, 5a, 5b, 5c, 5d, 5e, 5f, 5g, 5k, 5l, 5m svakoga ponedjeljka osim blagdana i praznika kada se pomiče na idući dan. Lokacija mobilnog reciklažnog dvorišta je Tušilović parkiralište pored crkve. Mobilno reciklažno dvorište: 12.02., 16.04., 11.06., 13.08., 15.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-03 M! 01-10 M! 01-14 PK 01-16 M 01-23 M 01-30 M",
+          "02-06 M 02-11 PK 02-13 M 02-20 M 02-27 M",
+          "03-06 M 03-11 PK 03-13 M 03-20 M 03-27 M",
+          "04-03 M 04-09 PK! 04-11 M! 04-17 M 04-24 M",
+          "05-02 M! 05-08 M 05-13 PK 05-15 M 05-22 M 05-29 M",
+          "06-06 M! 06-10 PK 06-12 M 06-19 M 06-27 M!",
+          "07-03 M 07-08 PK 07-10 M 07-17 M 07-24 M 07-31 M",
+          "08-08 M! 08-12 PK 08-14 M 08-21 M 08-28 M",
+          "09-04 M 09-09 PK 09-11 M 09-18 M 09-25 M",
+          "10-02 M 10-09 M 10-14 PK 10-16 M 10-23 M 10-30 M",
+          "11-06 M 11-11 PK 11-13 M 11-21 M! 11-27 M",
+          "12-04 M 12-09 PK 12-11 M 12-18 M 12-26 M!"
+        ]
+      }
+    },
+    "45": {
+      "jls": "Karlovac",
+      "ulice": ["Velika Jelsa", "Donja Jelsa", "Gornja Jelsa", "Bridići", "Budim", "Perinčići", "Ribi", "Seljani", "Tucibati", "Janka Matka", "Sveta Margareta", "Brdo", "Brodarci", "Ožujska"],
+      "podrucje": "Mjesni odbor Velika Jelsa",
+      "napomena": "Miješani komunalni otpad Ul. Velika Jelsa 4a, 5a, 5b, 7 svakoga ponedjeljka osim blagdana i praznika kad se pomiče na idući dan. Miješani komunalni otpad Ul. Gornja Jelsa 61, 63, 65 svakoga ponedjeljka osim blagdana i praznika kada se pomiče na idući dan.",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-21 M 01-27 PK 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-24 PK 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-24 PK 03-25 M",
+          "04-01 M 04-09 M! 04-15 M 04-22 M 04-28 PK 04-29 M",
+          "05-06 M 05-13 M 05-20 M 05-26 PK 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-24 PK! 06-25 M!",
+          "07-01 M 07-08 M 07-15 M 07-22 M 07-28 PK 07-29 M",
+          "08-06 M! 08-12 M 08-19 M 08-25 PK 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-22 PK 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-21 M 10-27 PK 10-28 M",
+          "11-04 M 11-11 M 11-19 M! 11-24 PK 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-22 PK 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "46": {
+      "jls": "Karlovac",
+      "ulice": ["Vukmanić"],
+      "podrucje": "Mjesni odbor Vukmanić",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Vukmanić pored mrtvačnice. Mobilno reciklažno dvorište: 16.02., 20.04., 15.06., 17.08., 19.10. (11-13 h).",
+      "raw": {
+        "2026": [
+          "01-02 M! 01-09 M! 01-15 M 01-19 PK 01-22 M 01-29 M",
+          "02-05 M 02-12 M 02-16 PK 02-19 M 02-26 M",
+          "03-05 M 03-12 M 03-16 PK 03-19 M 03-26 M",
+          "04-02 M 04-10 M! 04-16 M 04-20 PK 04-23 M 04-30 M",
+          "05-07 M 05-14 M 05-18 PK 05-21 M 05-28 M",
+          "06-05 M! 06-11 M 06-15 PK 06-18 M 06-26 M!",
+          "07-02 M 07-09 M 07-16 M 07-20 PK 07-23 M 07-30 M",
+          "08-07 M! 08-13 M 08-17 PK 08-20 M 08-27 M",
+          "09-03 M 09-10 M 09-17 M 09-21 PK 09-24 M",
+          "10-01 M 10-08 M 10-15 M 10-19 PK 10-22 M 10-29 M",
+          "11-05 M 11-12 M 11-16 PK 11-20 M! 11-26 M",
+          "12-03 M 12-10 M 12-17 M 12-21 PK 12-24 M 12-31 M"
+        ]
+      }
+    },
+    "47": {
+      "jls": "Karlovac",
+      "ulice": ["Zadobarje"],
+      "podrucje": "Mjesni odbor Zadobarje",
+      "napomena": "Lokacija mobilnog reciklažnog dvorišta je Zadobarje nasuprot Kbr. 41. Mobilno reciklažno dvorište: 11.02., 15.04., 10.06., 12.08., 14.10. (08-10 h).",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-12 PK 01-14 M 01-21 M 01-28 M",
+          "02-04 M 02-09 PK 02-11 M 02-18 M 02-25 M",
+          "03-04 M 03-09 PK 03-11 M 03-18 M 03-25 M",
+          "04-01 M 04-09 M! 04-13 PK 04-15 M 04-22 M 04-29 M",
+          "05-06 M 05-11 PK 05-13 M 05-20 M 05-27 M",
+          "06-03 M 06-08 PK 06-10 M 06-17 M 06-25 M!",
+          "07-01 M 07-08 M 07-13 PK 07-15 M 07-22 M 07-29 M",
+          "08-06 M! 08-10 PK 08-12 M 08-19 M 08-26 M",
+          "09-02 M 09-09 M 09-14 PK 09-16 M 09-23 M 09-30 M",
+          "10-07 M 10-12 PK 10-14 M 10-21 M 10-28 M",
+          "11-04 M 11-09 PK 11-11 M 11-19 M! 11-25 M",
+          "12-02 M 12-09 M 12-14 PK 12-16 M 12-23 M 12-30 M"
+        ]
+      }
+    },
+    "48": {
+      "jls": "Karlovac",
+      "ulice": ["Zagrad od 25 do kraja - neparni i 8 do kraja - parni", "Kalvarija", "Vučjak", "Milašini", "Lucijanići - Palajse", "Furači", "Mejaški - Pogačići", "Zeleni put", "Uzdihovac", "Požari"],
+      "podrucje": "Mjesni odbor Zagrad - Kalvarija - Vučjak",
+      "napomena": "Miješani komunalni otpad Ul. Lucijanići - Palajse Kbr. 11, 12, 13, 14 svakoga ponedjeljka osim blagdana i praznika kad se pomiče na idući dan. Miješani komunalni otpad Ul. Požari Kbr. 1, 2, 3, 4, 5, 6, 7, 8, 9 svakoga ponedjeljka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Ul. Zagrad Gaj Kbr. 2 do kraja svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan. Miješani komunalni otpad Ul. Kalvarija Kbr. 6d, 8, 10 svakoga četvrtka osim blagdana i praznika kada se pomiče na idući dan.",
+      "raw": {
+        "2026": [
+          "01-08 M! 01-14 M 01-16 PK 01-21 M 01-28 M",
+          "02-04 M 02-11 M 02-18 M 02-20 PK 02-25 M",
+          "03-04 M 03-11 M 03-18 M 03-20 PK 03-25 M",
+          "04-01 M 04-09 M! 04-15 M 04-17 PK 04-22 M 04-29 M",
+          "05-06 M 05-13 M 05-15 PK 05-20 M 05-27 M",
+          "06-03 M 06-10 M 06-17 M 06-19 PK 06-25 M!",
+          "07-01 M 07-08 M 07-15 M 07-17 PK 07-22 M 07-29 M",
+          "08-06 M! 08-12 M 08-19 M 08-21 PK 08-26 M",
+          "09-02 M 09-09 M 09-16 M 09-18 PK 09-23 M 09-30 M",
+          "10-07 M 10-14 M 10-16 PK 10-21 M 10-28 M",
+          "11-04 M 11-11 M 11-19 M! 11-21 PK! 11-25 M",
+          "12-02 M 12-09 M 12-16 M 12-18 PK 12-23 M 12-30 M"
+        ]
+      }
+    }
+  }
+}

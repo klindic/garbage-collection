@@ -1,0 +1,74 @@
+{
+  "davatelj": "Komunalno Josipdol d.o.o.",
+  "web": "https://komunalnojosipdol.hr",
+  "izvor": "https://komunalnojosipdol.hr/?page_id=33885",
+  "zupanija": "Karlovačka",
+  "jls": ["Josipdol"],
+  "nazivi": {"P": "Plastika i metalna ambalaža (žuta)", "K": "Papir i karton (plava)"},
+  "napomene": ["Miješani komunalni otpad odvozi se jednom tjedno prema danu naselja (ponedjeljak, utorak ili četvrtak); srijedom i petkom nema odvoza.", "Plastika i metalna ambalaža te papir i karton odvoze se istim danom, zadnji petak u mjesecu za sva naselja (u prosincu 18.12. zbog Božića).", "Promjene termina (blagdani, kvarovi vozila) objavljuju se na komunalnojosipdol.hr i Facebook profilu; objavljene promjene su upisane. Za blagdane bez obavijesti datumi nisu pomaknuti.", "Komunalno Josipdol d.o.o., Ogulinska 12, Josipdol, tel. 047 581 298, komunalno@josipdol.hr.", "Zbog kvara vozila odvoz miješanog otpada nije obavljen 16.02., 17.02. (ti datumi su izostavljeni)."],
+  "zone": {
+    "1": {
+      "jls": "Josipdol",
+      "podrucje": "Ponedjeljak – Modruška Munjava, Skradnik, Modruš, Trojvrh, Istočni Trojvrh, Cerovnik, Vojnovac, Vajin Vrh, Carevo Polje",
+      "ulice": ["Modruška Munjava", "Skradnik", "Modruš", "Trojvrh", "Istočni Trojvrh", "Cerovnik", "Vojnovac", "Vajin Vrh", "Carevo Polje"],
+      "raw": {
+        "2026": [
+          "01-05 M 01-12 M 01-19 M 01-26 M 01-30 PK",
+          "02-02 M 02-09 M 02-23 M 02-27 PK",
+          "03-02 M 03-09 M 03-16 M 03-23 M 03-27 PK 03-30 M",
+          "04-06 M 04-13 M 04-20 M 04-24 PK 04-27 M",
+          "05-04 M 05-11 M 05-18 M 05-25 M 05-29 PK",
+          "06-01 M 06-08 M 06-15 M 06-22 M 06-26 PK 06-29 M",
+          "07-06 M 07-13 M 07-20 M 07-27 M 07-31 PK",
+          "08-03 M 08-10 M 08-17 M 08-24 M 08-28 PK 08-31 M",
+          "09-07 M 09-14 M 09-21 M 09-25 PK 09-28 M",
+          "10-05 M 10-12 M 10-19 M 10-26 M 10-30 PK",
+          "11-02 M 11-09 M 11-16 M 11-23 M 11-27 PK 11-30 M",
+          "12-07 M 12-14 M 12-18 PK! 12-21 M 12-28 M"
+        ]
+      }
+    },
+    "2": {
+      "jls": "Josipdol",
+      "podrucje": "Utorak – Oštarije",
+      "ulice": ["Oštarije"],
+      "raw": {
+        "2026": [
+          "01-06 M 01-13 M 01-20 M 01-27 M 01-30 PK",
+          "02-03 M 02-10 M 02-24 M 02-27 PK",
+          "03-03 M 03-10 M 03-17 M 03-24 M 03-27 PK 03-31 M",
+          "04-07 M 04-14 M 04-21 M 04-24 PK 04-28 M",
+          "05-05 M 05-12 M 05-19 M 05-26 M 05-29 PK",
+          "06-02 M 06-09 M 06-16 M 06-23 M 06-26 PK 06-30 M",
+          "07-07 M 07-14 M 07-21 M 07-28 M 07-31 PK",
+          "08-04 M 08-11 M 08-18 M 08-25 M 08-28 PK",
+          "09-01 M 09-08 M 09-15 M 09-22 M 09-25 PK 09-29 M",
+          "10-06 M 10-13 M 10-20 M 10-27 M 10-30 PK",
+          "11-03 M 11-10 M 11-17 M 11-24 M 11-27 PK",
+          "12-01 M 12-08 M 12-15 M 12-18 PK! 12-22 M 12-29 M"
+        ]
+      }
+    },
+    "3": {
+      "jls": "Josipdol",
+      "podrucje": "Četvrtak – Josipdol",
+      "ulice": ["Josipdol"],
+      "raw": {
+        "2026": [
+          "01-01 M 01-02 M! 01-08 M 01-15 M 01-22 M 01-29 M 01-30 PK",
+          "02-05 M 02-12 M 02-19 M 02-26 M 02-27 PK",
+          "03-05 M 03-12 M 03-19 M 03-26 M 03-27 PK",
+          "04-02 M 04-09 M 04-16 M 04-23 M 04-24 PK 04-30 M",
+          "05-07 M 05-14 M 05-21 M 05-28 M 05-29 PK",
+          "06-04 M 06-11 M 06-18 M 06-25 M 06-26 PK",
+          "07-02 M 07-09 M 07-16 M 07-23 M 07-30 M 07-31 PK",
+          "08-06 M 08-13 M 08-20 M 08-27 M 08-28 PK",
+          "09-03 M 09-10 M 09-17 M 09-24 M 09-25 PK",
+          "10-01 M 10-08 M 10-15 M 10-22 M 10-29 M 10-30 PK",
+          "11-05 M 11-12 M 11-19 M 11-26 M 11-27 PK",
+          "12-03 M 12-10 M 12-17 M 12-18 PK! 12-24 M 12-31 M"
+        ]
+      }
+    }
+  }
+}
